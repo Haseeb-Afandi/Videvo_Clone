@@ -87,6 +87,28 @@ body{
     width: 443px;
     height: 24vh;
     background-color: rgb(2, 29, 53);
+
+    position: relative;
+}
+.items img{
+    width: 100%;
+    height: 100%;
+}
+.videotitle{
+    background-color: aliceblue;
+    color: black;
+    font-size: large;
+
+    position: absolute;
+    top: 0;
+    z-index: 2;
+
+}
+.videotitle:hover{
+    display: block;
+    opacity: 1;
+
+
 }
 .nav-flex{
     display: flex;

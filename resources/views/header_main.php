@@ -7,6 +7,8 @@
 
     <title>Videvo_Clone</title>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">
@@ -23,6 +25,8 @@
 </head>
 
 <body>
+
+    </div>
     <!-- HEADER STARTS HERE  !-->
     <header class="header-transparent fixed top-0 left-0 right-0 z-50 flex flex-col lg:flex">
         <div
@@ -61,11 +65,20 @@
                         </div>
                     </div>
                     <div class="flex items-center gap-2 order-2">
+                        <a href="./uploadVid" class="inline-block rounded bg-primary px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)]">
+                            UpLoad Video
+</a>
+                        <script>
+                            function uploadToggle(){
+                                document.querySelector('#uploadVid').classList.toggle('active');
+                            }
+                            </script>
                         <a href="#"
                             class="hidden rounded-lg border-2 border-white/50 py-1 px-3 font-bold text-white hover:border-white sm:block">
                             Join Videvo
                         </a>
-                        <a class="rounded-lg py-1 px-3 font-bold text-white/75 hover:text-white">Log In</a>
+                        <a href="./Log-in" class="rounded-lg py-1 px-3 font-bold text-white/75 hover:text-white">Log
+                            In</a>
                     </div>
                 </div>
             </div>
@@ -99,8 +112,10 @@
                     <form class="bg-white h-14 relative flex flex-1 rounded max-w-full">
                         <button type="submit"></button>
                         <div class="flex justify-center"></div>
-                        <input placeholder="Search..." class="h-full min-w-0 flex-1 appearance-none rounded-tr rounded-br bg-transparent pl-4 pr-10 text-gray-800 placeholder-gray-600 hover:bg-white focus:bg-white focus:outline-none">
-                        <button type="submit" class="w-14 h-14 absolute top-0 right-0 flex items-center justify-center rounded text-gray-900"></button>
+                        <input placeholder="Search..."
+                            class="h-full min-w-0 flex-1 appearance-none rounded-tr rounded-br bg-transparent pl-4 pr-10 text-gray-800 placeholder-gray-600 hover:bg-white focus:bg-white focus:outline-none">
+                        <button type="submit"
+                            class="w-14 h-14 absolute top-0 right-0 flex items-center justify-center rounded text-gray-900"></button>
                     </form>
                 </div>
                 <p class="mt-4 hidden gap-8 text-white sm:flex">

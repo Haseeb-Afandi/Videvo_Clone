@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\VideoController;
+use App\Http\Controllers\UserController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -16,4 +17,13 @@ use App\Http\Controllers\VideoController;
 Route::get('/', function () {
     return view('home');
 });
-Route::get('Video', [VideoController::class, 'fetch'])->name('videos.show');
+Route::get('Log-in', function () {
+    return view('Log-in');
+});
+Route::get('uploadVid', function () {
+    return view('uploadVid');
+});
+Route::post('users/register', [UserController::class, 'store'])->name('store.post');
+Route::post('users/login', [UserController::class, 'login'])->name('login.post');
+Route::post('Video/upload', [VideoController::class, 'upload'])->name('video.post');
+Route::get('Api/Video', [VideoController::class, 'fetch'])->name('videos.show');

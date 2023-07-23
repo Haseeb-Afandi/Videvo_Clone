@@ -14,4 +14,14 @@ class VideoController extends Controller
 
         return response()->json($videos);
     }
+    // public function upload(Request $request) 
+    // {
+    // 	$data = $request->validate([
+    //         'title' => 'required'
+    //     ]);
+
+    //     $temp = Video::create($data);
+
+    //     return response()->json(['success'=>'Video Upload succesfully']);
+    // }
 }

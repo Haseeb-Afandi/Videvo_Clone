@@ -6,35 +6,7 @@
     <button class="bg-white-500 hover:bg-blue-700 hover:text-white text-blue-500 font-bold py-2 px-4 rounded-full"style="margin-left: 5px">Collections</button>
 </div>
 <div class="container_cover">
-    <div class="container_main">
-        <img src="./images/video-placeholder.jpg" class="items">
-        <img src="./images/video-placeholder.jpg" class="items">
-        <img src="./images/video-placeholder.jpg" class="items">
-        <img src="./images/video-placeholder.jpg" class="items">
-        <img src="./images/video-placeholder.jpg" class="items">
-        <img src="./images/video-placeholder.jpg" class="items">
-        <img src="./images/video-placeholder.jpg" class="items">
-        <img src="./images/video-placeholder.jpg" class="items">
-        <img src="./images/video-placeholder.jpg" class="items">
-        <img src="./images/video-placeholder.jpg" class="items">
-        <img src="./images/video-placeholder.jpg" class="items">
-        <img src="./images/video-placeholder.jpg" class="items">
-        <img src="./images/video-placeholder.jpg" class="items">
-        <img src="./images/video-placeholder.jpg" class="items">
-        <img src="./images/video-placeholder.jpg" class="items">
-        <img src="./images/video-placeholder.jpg" class="items">
-        <img src="./images/video-placeholder.jpg" class="items">
-        <img src="./images/video-placeholder.jpg" class="items">
-        <img src="./images/video-placeholder.jpg" class="items">
-        <img src="./images/video-placeholder.jpg" class="items">
-        <img src="./images/video-placeholder.jpg" class="items">
-        <img src="./images/video-placeholder.jpg" class="items">
-        <img src="./images/video-placeholder.jpg" class="items">
-        <img src="./images/video-placeholder.jpg" class="items">
-        <img src="./images/video-placeholder.jpg" class="items">
-        <img src="./images/video-placeholder.jpg" class="items">
-        <img src="./images/video-placeholder.jpg" class="items">
-        <img src="./images/video-placeholder.jpg" class="items">
+    <div id="vid_cont" class="container_main">
     </div>
 </div>
 <div class="container_butt" >
@@ -203,5 +175,29 @@
         </div>
     </div>
 </div>
+
+<script>
+    $(document).ready(() => {
+
+        $.ajax({
+        url: './Api/Video',
+        method: 'GET',
+        contentType: false,
+        cache: false,
+        processData: false,
+        success:function(response)
+        {
+            console.log(response);
+            response.forEach(vid => {
+                $('#vid_cont').append('<div class="items"><img src="./images/video-placeholder.jpg"><p class="videotitle">' + vid.title + '</p></div>');
+            });
+        },
+        error: function(response) {
+            console.log(response);
+        }
+        });
+
+    });
+</script>
 
 @include('footer')
