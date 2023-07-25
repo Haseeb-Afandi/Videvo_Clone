@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::create('videos', function (Blueprint $table) {
             $table->id();
             $table->string('title');
-            $table->string('author_id');
+            $table->integer('author_id');
             $table->string('clip_type');
             $table->string('class');
             $table->string('license_type');

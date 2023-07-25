@@ -24,7 +24,7 @@ class VideoFactory extends Factory
             'license_type' => $this->faker->word(),
             'resolution' => $this->faker->numberBetween(320, 4000),
             'duration' => $this->faker->numberBetween(1, 200),
-            'file' => $this->faker->word(),
+            'Video' => $this->faker->word(),
         ];
     }
 }

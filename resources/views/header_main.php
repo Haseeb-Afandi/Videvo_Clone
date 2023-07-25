@@ -84,10 +84,13 @@
             </div>
         </div>
     </header>
-    <div class="header_container">
-        <div class="header_anime_background">
+    <div class="relative flex w-full items-center justify-center bg-black pt-14 lg:pt-16 h-[50vh]">
+        <!-- <div class="header_anime_background">
             <div class="anime_background_inner"></div>
-        </div>
+        </div> -->
+        <video autoplay="" loop="" class="video-home absolute inset-0 h-full w-full object-cover opacity-50" muted="">
+                <source src="./videos/11.mp4" type="video/mp4">
+            </video>
         <div class="jidai">
             <div class="z-1 container relative mx-auto flex flex-col items-center justify-center px-8">
                 <h1 class="text-shadow mb-4 text-center text-4xl font-bold text-white lg:text-5xl 2xl:text-6xl">

@@ -34,15 +34,80 @@
                     <h5 class="title">Upload Video</h5>
                     {{-- <h6 class="sub-title">Welcome Back!</h6> --}}
                     <div class="remember-user">
-                        <form data-action="{{ route('video.post') }}" method="POST" enctype="multipart/form-data" id="video-form">
+                        <form action="{{ route('video.post') }}" method="POST" enctype="multipart/form-data" id="video-form">
                             @csrf
                             <div class="form-item form-item--email">
                                 <label>Video </label>
-                                <input type="file" id="file" name="file">
+                                <input type="file" id="Video" name="Video">
                             </div>
                             <div class="form-item form-item--password">
-                                <label>Title </label>
-                                    <input type="text" name="title" required>
+                                <label>Usage:  </label>
+                                    <select name="clip_type" required>
+                                        <option value="Commercial">Commercial</option>
+                                        <option value="Editorial">Editorial</option>
+                                    </select>
+                            </div>
+                            <div class="form-item form-item--password">
+                                <label>Category:  </label>
+                                    <select name="Category" required>
+                                        <option value="Culture">Culture</option>
+                                        <option value="Religion">Religion</option>
+                                        <option value="Entertainment">Entertainment</option>
+                                        <option value="Green Screen">Green Screen</option>
+                                        <option value="medical">medical</option>
+                                        <option value="Abstract">Abstract</option>
+                                        <option value="Science">Science</option>
+                                        <option value="Food">Food</option>
+                                        <option value="Business">Business</option>
+                                        <option value="Animals">Animals</option>
+                                        <option value="City">City</option>
+                                        <option value="Space">Space</option>
+                                        <option value="family">family</option>
+                                        <option value="Animated backgrounds">Animated backgrounds</option>
+                                        <option value="Industry">Industry</option>
+                                        <option value="Fitness">Fitness</option>
+                                        <option value="Transport">Transport</option>
+                                        <option value="Holiday">Holiday</option>
+                                        <option value="People">People</option>
+                                        <option value="VFX">VFX</option>
+                                        <option value="Sports">Sports</option>
+                                        <option value="Technology">Technology</option>
+                                        <option value="Military">Military</option>
+                                        <option value="Nature">Nature</option>
+                                    </select>
+                            </div>
+                            <div class="form-item form-item--password">
+                                <label>Category2:  </label>
+                                    <select name="Category2">
+                                        <option value="Culture">Culture</option>
+                                        <option value="Religion">Religion</option>
+                                        <option value="Entertainment">Entertainment</option>
+                                        <option value="Green Screen">Green Screen</option>
+                                        <option value="medical">medical</option>
+                                        <option value="Abstract">Abstract</option>
+                                        <option value="Science">Science</option>
+                                        <option value="Food">Food</option>
+                                        <option value="Business">Business</option>
+                                        <option value="Animals">Animals</option>
+                                        <option value="City">City</option>
+                                        <option value="Space">Space</option>
+                                        <option value="family">family</option>
+                                        <option value="Animated backgrounds">Animated backgrounds</option>
+                                        <option value="Industry">Industry</option>
+                                        <option value="Fitness">Fitness</option>
+                                        <option value="Transport">Transport</option>
+                                        <option value="Holiday">Holiday</option>
+                                        <option value="People">People</option>
+                                        <option value="VFX">VFX</option>
+                                        <option value="Sports">Sports</option>
+                                        <option value="Technology">Technology</option>
+                                        <option value="Military">Military</option>
+                                        <option value="Nature">Nature</option>
+                                    </select>
+                            </div>
+                            <div class="form-item form-item--password">
+                                <label>keywords </label>
+                                    <input type="textarea" name="tags">
                             </div>
                             <div class="form-item submit">
                                 <div>
@@ -90,7 +155,7 @@ var logInForm = $('#video-form');
 $(logInForm).on('submit', function(event){
     event.preventDefault();
 
-    var url = $(this).attr('data-action');
+    var url = $(this).attr('action');
 
     $.ajax({
         url: url,
@@ -103,7 +168,8 @@ $(logInForm).on('submit', function(event){
         success:function(response)
         {
             $(logInForm).trigger("reset");
-            alert(response.success)
+            console.log(response.success);
+            // alert(response.success);
         },
         error: function(response) {
         }

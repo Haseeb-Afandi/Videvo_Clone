@@ -20,6 +20,9 @@ Route::get('/', function () {
 Route::get('Log-in', function () {
     return view('Log-in');
 });
+Route::get('stock-video-footage', function () {
+    return view('Videos');
+});
 Route::get('uploadVid', function () {
     return view('uploadVid');
 });
