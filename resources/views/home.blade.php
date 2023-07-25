@@ -25,10 +25,10 @@
 </div>
 <div class="container_cover">
     <div class="container_main">
-        <img src="./images/music_placeholder.png" class="items">
-        <img src="./images/music_placeholder.png" class="items">
-        <img src="./images/music_placeholder.png" class="items">
-        <img src="./images/music_placeholder.png" class="items">
+        <img src="./images/music_placeholder.png" class="items2">
+        <img src="./images/music_placeholder.png" class="items2">
+        <img src="./images/music_placeholder.png" class="items2">
+        <img src="./images/music_placeholder.png" class="items2">
     </div>
 </div>
 <div class="mx-auto px-4 py-8 2xl:container lg:px-12 2xl:px-6">

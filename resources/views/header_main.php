@@ -40,7 +40,7 @@
                         <div class="relative">
                             <nav class="flex-row istock-six:flex">
                                 <span class="nav-flex group relative">
-                                    <a href="#"
+                                    <a href="./stock-video-footage"
                                         class="flex flex-1 items-center rounded-lg p-2 font-bold text-gray-900 hover:bg-gray-150 xl:flex-none xl:rounded-none xl:text-white/90 xl:hover:bg-transparent xl:hover:text-white">
                                         Videos
                                     </a>
