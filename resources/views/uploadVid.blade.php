@@ -40,6 +40,14 @@
                                 <label>Video </label>
                                 <input type="file" id="Video" name="Video">
                             </div>
+                            <div class="form-item form-item--email">
+                                <label>Title </label>
+                                <input type="text" id="title" name="title">
+                            </div>
+                            <div class="form-item form-item--email">
+                                <label>Description </label>
+                                <input type="text" id="description" name="description">
+                            </div>
                             <div class="form-item form-item--password">
                                 <label>Usage:  </label>
                                     <select name="clip_type" required>
@@ -148,35 +156,35 @@
 
 <script>
 
-$(document).ready(() => {
+// $(document).ready(() => {
 
-var logInForm = $('#video-form');
+// var logInForm = $('#video-form');
 
-$(logInForm).on('submit', function(event){
-    event.preventDefault();
+// $(logInForm).on('submit', function(event){
+//     event.preventDefault();
 
-    var url = $(this).attr('action');
+//     var url = $(this).attr('action');
 
-    $.ajax({
-        url: url,
-        method: 'POST',
-        data: new FormData(this),
-        dataType: 'JSON',
-        contentType: false,
-        cache: false,
-        processData: false,
-        success:function(response)
-        {
-            $(logInForm).trigger("reset");
-            console.log(response.success);
-            // alert(response.success);
-        },
-        error: function(response) {
-        }
-    });
-});
+//     $.ajax({
+//         url: url,
+//         method: 'POST',
+//         data: new FormData(this),
+//         dataType: 'JSON',
+//         contentType: false,
+//         cache: false,
+//         processData: false,
+//         success:function(response)
+//         {
+//             $(logInForm).trigger("reset");
+//             console.log(response.success);
+//             // alert(response.success);
+//         },
+//         error: function(response) {
+//         }
+//     });
+// });
 
-});
+// });
 </script>
 </body>
 </html>

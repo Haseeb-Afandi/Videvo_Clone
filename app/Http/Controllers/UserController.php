@@ -38,6 +38,8 @@ class UserController extends Controller
                 ]);
         } else {
             if (Auth::attempt($request->only(["email", "password"]))) {
+
+                $_SESSION['username'] = $request->email;
                 return response()->json(['success'=>'user login succesfully']);
             } else {
                 return response()->json(['success'=>'user login failed']);

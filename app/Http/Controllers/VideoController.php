@@ -15,20 +15,23 @@ class VideoController extends Controller
 
         return response()->json($videos);
     }
-    public function upload(Request $request) 
+    public function upload(Request $request)
     {
-    	$data = Validator::make($request->all(), [
+        $data = Validator::make($request->all(), [
             'title' => ['required', 'string', 'max:255'],
+            'description' => ['required', 'string', 'max:255'],
+            'clip_type' => ['required'],
+            'Category' => ['required'],
             'Video' => ['required']
         ]);
 
-        if($data->fails()) {
+        if ($data->fails()) {
             return response()->json(['code' => 400, 'msg' => $data->errors()->first()]);
         }
 
-        if($request->hasFile('Video')) {
+        if ($request->hasFile('Video')) {
 
-            $videoName = time().uniqid('', true).'.'.$request->Video->extension();  
+            $videoName = time() . uniqid('', true) . '.' . $request->Video->extension();
 
             $request->Video->move(public_path('videos'), $videoName);
 
@@ -36,11 +39,21 @@ class VideoController extends Controller
 
         }
 
+        $getID3 = new \getID3;
+        $file = $getID3->analyze(realpath(public_path('videos/'.$videoName)));
+        $duration = date('i:s', $file['playtime_seconds']);
+
         $temp = Video::create([
             'title' => $request->title,
+            'description' => $request->description,
+            'author_id' => $_SESSION['username'] ?? null,
+            'clip_type' => $request->clip_type,
+            'Category' => $request->Category,
+            'Category2' => $request->Category2 ?? null,
+            'duration' => $duration,
             'Video' => $videoName,
         ]);
 
-        return response()->json(['success'=> $videoName]);
+        return response()->json(['success' => $videoName]);
     }
 }
