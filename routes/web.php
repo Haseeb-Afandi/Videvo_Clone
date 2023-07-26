@@ -23,6 +23,9 @@ Route::get('Log-in', function () {
 Route::get('stock-video-footage', function () {
     return view('Videos');
 });
+Route::get('Audio', function () {
+    return view('audio');
+});
 Route::get('uploadVid', function () {
     return view('uploadVid');
 });
