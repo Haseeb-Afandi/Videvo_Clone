@@ -28,7 +28,7 @@ Route::get('stock-video-footage', function () {
 Route::get('Audio', function () {
     return view('audio');
 });
-Route::get('Templates', function () {
+Route::get('Template', function () {
     return view('template');
 });
 Route::get('uploadVid', function () {

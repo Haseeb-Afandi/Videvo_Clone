@@ -153,35 +153,35 @@
 
 <script>
 
-// $(document).ready(() => {
+$(document).ready(() => {
 
-// var logInForm = $('#Template-form');
+var logInForm = $('#Template-form');
 
-// $(logInForm).on('submit', function(event){
-//     event.preventDefault();
+$(logInForm).on('submit', function(event){
+    event.preventDefault();
 
-//     var url = $(this).attr('action');
+    var url = $(this).attr('action');
 
-//     $.ajax({
-//         url: url,
-//         method: 'POST',
-//         data: new FormData(this),
-//         dataType: 'JSON',
-//         contentType: false,
-//         cache: false,
-//         processData: false,
-//         success:function(response)
-//         {
-//             $(logInForm).trigger("reset");
-//             console.log(response.success);
-//             // alert(response.success);
-//         },
-//         error: function(response) {
-//         }
-//     });
-// });
+    $.ajax({
+        url: url,
+        method: 'POST',
+        data: new FormData(this),
+        dataType: 'JSON',
+        contentType: false,
+        cache: false,
+        processData: false,
+        success:function(response)
+        {
+            $(logInForm).trigger("reset");
+            console.log(response.success);
+            // alert(response.success);
+        },
+        error: function(response) {
+        }
+    });
+});
 
-// });
+});
 </script>
 </body>
 </html>
