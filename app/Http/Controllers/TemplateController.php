@@ -33,14 +33,14 @@ class TemplateController extends Controller
 
             $TemplateName = time() . uniqid('', true) . '.' . $request->Template->extension();
 
-            $request->Template->move(public_path('Templates'), $TemplateName);
+            $request->Template->move(public_path('templates'), $TemplateName);
 
             // $Video = $request->Video->store('videos', 'Public');
 
         }
 
         // $getID3 = new \getID3;
-        // $file = $getID3->analyze(realpath(public_path('Templates/'.$TemplateName)));
+        // $file = $getID3->analyze(realpath(public_path('templates/'.$TemplateName)));
         // $duration = date('i:s', $file['playtime_seconds']);
 
         $temp = Template::create([
