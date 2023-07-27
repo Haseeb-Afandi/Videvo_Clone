@@ -596,7 +596,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="flex-1">
         <div class="h-[400px] sm:h-[540px] relative flex w-full items-end bg-black pt-14 lg:pt-16">
     <div class="w-screen px-4 lg:px-12">
-        <img src="./assets/hero-background-titles2.jpg" class="absolute left-0 top-0 h-full w-full object-cover opacity-50">
+        <img src="./images/hero-background-titles2.jpg" class="absolute left-0 top-0 h-full w-full object-cover opacity-50">
         <div class="absolute left-0 bottom-0 z-10 h-1/2 w-full bg-gradient-to-t from-black/80 to-transparent"></div>
         <div class="relative z-20 flex flex-col justify-center pb-8">
             
@@ -625,7 +625,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class="mx-auto flex max-w-screen-xl grid-cols-2 flex-col gap-4 lg:grid">
                 <div class="flex flex-col sm:flex-row lg:flex-col overflow-hidden rounded-2xl">
     <a href="https://www.videvo.net/after-effects-templates/" class="h-44 sm:h-auto lg:h-64 w-full sm:w-64 lg:w-full relative block w-full overflow-hidden">
-        <img src="./assets/hero-background-circles.jpg" class="absolute top-0 left-0 h-full w-full object-cover">
+        <img src="./images/hero-background-circles.jpg" class="absolute top-0 left-0 h-full w-full object-cover">
         <div class="absolute inset-0 flex items-center justify-center">
             <span class="flex h-20 w-20 items-center justify-center rounded bg-white text-5xl font-bold text-gray-800 shadow-lg">Ae</span>
         </div>
@@ -681,7 +681,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
                 <div class="flex flex-col sm:flex-row lg:flex-col overflow-hidden rounded-2xl">
     <a href="https://www.videvo.net/premiere-pro-templates/" class="h-44 sm:h-auto lg:h-64 w-full sm:w-64 lg:w-full relative block w-full overflow-hidden">
-        <img src="./assets/hero-background-stars.jpg" class="absolute top-0 left-0 h-full w-full object-cover">
+        <img src="./images/hero-background-stars.jpg" class="absolute top-0 left-0 h-full w-full object-cover">
         <div class="absolute inset-0 flex items-center justify-center">
             <span class="flex h-20 w-20 items-center justify-center rounded bg-white text-5xl font-bold text-gray-800 shadow-lg">Pr</span>
         </div>

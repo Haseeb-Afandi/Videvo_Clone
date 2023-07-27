@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script type="text/javascript" async="" src="./Royalty Free Music Download.blade_files/js"></script><script type="text/javascript" async="" src="./Royalty Free Music Download.blade_files/js(1)"></script><script type="text/javascript" async="" src="./Royalty Free Music Download.blade_files/localstore.js.download"></script>
-    <script async="" src="./Royalty Free Music Download.blade_files/apstag.js.download"></script><script type="text/javascript" async="" src="./Royalty Free Music Download.blade_files/js(2)"></script><script type="text/javascript" async="" src="./Royalty Free Music Download.blade_files/hotjar-491796.js.download"></script><script type="text/javascript" async="" src="./Royalty Free Music Download.blade_files/analytics.js.download"></script><script type="text/javascript" async="" src="./Royalty Free Music Download.blade_files/analytics.js.download"></script><script type="text/javascript" async="" src="./Royalty Free Music Download.blade_files/js(3)"></script><script src="./Royalty Free Music Download.blade_files/cb=gapi.loaded_0" async=""></script><script async="" src="./Royalty Free Music Download.blade_files/gtm.js.download"></script><script async="" src="./Royalty Free Music Download.blade_files/gtm.js.download"></script><script>
+<html lang="en" class="scroll-smooth"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script type="text/javascript" async="" src="./assets/js"></script><script type="text/javascript" async="" src="./assets/js(1)"></script><script type="text/javascript" async="" src="./assets/localstore.js.download"></script>
+    <script async="" src="./assets/apstag.js.download"></script><script type="text/javascript" async="" src="./assets/js(2)"></script><script type="text/javascript" async="" src="./assets/hotjar-491796.js.download"></script><script type="text/javascript" async="" src="./assets/analytics.js.download"></script><script type="text/javascript" async="" src="./assets/analytics.js.download"></script><script type="text/javascript" async="" src="./assets/js(3)"></script><script src="./assets/cb=gapi.loaded_0" async=""></script><script async="" src="./assets/gtm.js.download"></script><script async="" src="./assets/gtm.js.download"></script><script>
     // Move loadOneTrustScript function out of the event handler
     function loadOneTrustScript(src) {
         return new Promise((resolve, reject) => {
@@ -81,6 +81,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <link rel="preload" href="./assets/proximanova-semibold-webfont.0f4e7c12.woff2" as="font" type="font/woff2" crossorigin="">
     <link rel="preload" href="./assets/proximanova-bold-webfont.a1afd922.woff2" as="font" type="font/woff2" crossorigin="">
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
     <script>
         var dataLayer = window.dataLayer || [];
     </script>
@@ -98,12 +100,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <!-- End Google Tag Manager (noscript) -->
 
 
-    <script async="" src="./Royalty Free Music Download.blade_files/videvonet.js.download"></script>
+    <script async="" src="./assets/videvonet.js.download"></script>
 
     
     <link rel="preload" as="style" href="./assets/app.94ef0c4a.css"><link rel="stylesheet" href="./assets/app.94ef0c4a.css">    <style>[wire\:loading], [wire\:loading\.delay], [wire\:loading\.inline-block], [wire\:loading\.inline], [wire\:loading\.block], [wire\:loading\.flex], [wire\:loading\.table], [wire\:loading\.grid], [wire\:loading\.inline-flex] {display: none;}[wire\:loading\.delay\.shortest], [wire\:loading\.delay\.shorter], [wire\:loading\.delay\.short], [wire\:loading\.delay\.long], [wire\:loading\.delay\.longer], [wire\:loading\.delay\.longest] {display:none;}[wire\:offline] {display: none;}[wire\:dirty]:not(textarea):not(input):not(select) {display: none;}input:-webkit-autofill, select:-webkit-autofill, textarea:-webkit-autofill {animation-duration: 50000s;animation-name: livewireautofill;}@keyframes livewireautofill { from {} }</style>
 
-        <link rel="preload" as="style" href="./assets/clip-actions.92e856d8.css"><link rel="stylesheet" href=".assets/clip-actions.92e856d8.css"><script async="" src="./Royalty Free Music Download.blade_files/hotjar-491796.js(1).download"></script><script src="./Royalty Free Music Download.blade_files/otBannerSdk.js.download" async="" type="text/javascript"></script><script src="./Royalty Free Music Download.blade_files/f.txt" async=""></script><script async="" src="./Royalty Free Music Download.blade_files/modules.7c8f0fa049d445ea09fd.js.download" charset="utf-8"></script><style id="onetrust-style">#onetrust-banner-sdk{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}#onetrust-banner-sdk .onetrust-vendors-list-handler{cursor:pointer;color:#1f96db;font-size:inherit;font-weight:bold;text-decoration:none;margin-left:5px}#onetrust-banner-sdk .onetrust-vendors-list-handler:hover{color:#1f96db}#onetrust-banner-sdk:focus{outline:2px solid #000;outline-offset:-2px}#onetrust-banner-sdk a:focus{outline:2px solid #000}#onetrust-banner-sdk #onetrust-accept-btn-handler,#onetrust-banner-sdk #onetrust-reject-all-handler,#onetrust-banner-sdk #onetrust-pc-btn-handler{outline-offset:1px}#onetrust-banner-sdk.ot-bnr-w-logo .ot-bnr-logo{height:64px;width:64px}#onetrust-banner-sdk .ot-close-icon,#onetrust-pc-sdk .ot-close-icon,#ot-sync-ntfy .ot-close-icon{background-size:contain;background-repeat:no-repeat;background-position:center;height:12px;width:12px}#onetrust-banner-sdk .powered-by-logo,#onetrust-banner-sdk .ot-pc-footer-logo a,#onetrust-pc-sdk .powered-by-logo,#onetrust-pc-sdk .ot-pc-footer-logo a,#ot-sync-ntfy .powered-by-logo,#ot-sync-ntfy .ot-pc-footer-logo a{background-size:contain;background-repeat:no-repeat;background-position:center;height:25px;width:152px;display:block;text-decoration:none;font-size:.75em}#onetrust-banner-sdk .powered-by-logo:hover,#onetrust-banner-sdk .ot-pc-footer-logo a:hover,#onetrust-pc-sdk .powered-by-logo:hover,#onetrust-pc-sdk .ot-pc-footer-logo a:hover,#ot-sync-ntfy .powered-by-logo:hover,#ot-sync-ntfy .ot-pc-footer-logo a:hover{color:#565656}#onetrust-banner-sdk h3 *,#onetrust-banner-sdk h4 *,#onetrust-banner-sdk h6 *,#onetrust-banner-sdk button *,#onetrust-banner-sdk a[data-parent-id] *,#onetrust-pc-sdk h3 *,#onetrust-pc-sdk h4 *,#onetrust-pc-sdk h6 *,#onetrust-pc-sdk button *,#onetrust-pc-sdk a[data-parent-id] *,#ot-sync-ntfy h3 *,#ot-sync-ntfy h4 *,#ot-sync-ntfy h6 *,#ot-sync-ntfy button *,#ot-sync-ntfy a[data-parent-id] *{font-size:inherit;font-weight:inherit;color:inherit}#onetrust-banner-sdk .ot-hide,#onetrust-pc-sdk .ot-hide,#ot-sync-ntfy .ot-hide{display:none !important}#onetrust-banner-sdk button.ot-link-btn:hover,#onetrust-pc-sdk button.ot-link-btn:hover,#ot-sync-ntfy button.ot-link-btn:hover{text-decoration:underline;opacity:1}#onetrust-pc-sdk .ot-sdk-row .ot-sdk-column{padding:0}#onetrust-pc-sdk .ot-sdk-container{padding-right:0}#onetrust-pc-sdk .ot-sdk-row{flex-direction:initial;width:100%}#onetrust-pc-sdk [type=checkbox]:checked,#onetrust-pc-sdk [type=checkbox]:not(:checked){pointer-events:initial}#onetrust-pc-sdk [type=checkbox]:disabled+label::before,#onetrust-pc-sdk [type=checkbox]:disabled+label:after,#onetrust-pc-sdk [type=checkbox]:disabled+label{pointer-events:none;opacity:.7}#onetrust-pc-sdk #vendor-list-content{transform:translate3d(0, 0, 0)}#onetrust-pc-sdk li input[type=checkbox]{z-index:1}#onetrust-pc-sdk li .ot-checkbox label{z-index:2}#onetrust-pc-sdk li .ot-checkbox input[type=checkbox]{height:auto;width:auto}#onetrust-pc-sdk li .host-title a,#onetrust-pc-sdk li .ot-host-name a,#onetrust-pc-sdk li .accordion-text,#onetrust-pc-sdk li .ot-acc-txt{z-index:2;position:relative}#onetrust-pc-sdk input{margin:3px .1ex}#onetrust-pc-sdk .pc-logo,#onetrust-pc-sdk .ot-pc-logo{height:60px;width:180px;background-position:center;background-size:contain;background-repeat:no-repeat;display:inline-flex;justify-content:center;align-items:center}#onetrust-pc-sdk .pc-logo img,#onetrust-pc-sdk .ot-pc-logo img{max-height:100%;max-width:100%}#onetrust-pc-sdk .screen-reader-only,#onetrust-pc-sdk .ot-scrn-rdr,.ot-sdk-cookie-policy .screen-reader-only,.ot-sdk-cookie-policy .ot-scrn-rdr{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}#onetrust-pc-sdk.ot-fade-in,.onetrust-pc-dark-filter.ot-fade-in,#onetrust-banner-sdk.ot-fade-in{animation-name:onetrust-fade-in;animation-duration:400ms;animation-timing-function:ease-in-out}#onetrust-pc-sdk.ot-hide{display:none !important}.onetrust-pc-dark-filter.ot-hide{display:none !important}#ot-sdk-btn.ot-sdk-show-settings,#ot-sdk-btn.optanon-show-settings{color:#68b631;border:1px solid #68b631;height:auto;white-space:normal;word-wrap:break-word;padding:.8em 2em;font-size:.8em;line-height:1.2;cursor:pointer;-moz-transition:.1s ease;-o-transition:.1s ease;-webkit-transition:1s ease;transition:.1s ease}#ot-sdk-btn.ot-sdk-show-settings:hover,#ot-sdk-btn.optanon-show-settings:hover{color:#fff;background-color:#68b631}.onetrust-pc-dark-filter{background:rgba(0,0,0,.5);z-index:2147483646;width:100%;height:100%;overflow:hidden;position:fixed;top:0;bottom:0;left:0}@keyframes onetrust-fade-in{0%{opacity:0}100%{opacity:1}}.ot-cookie-label{text-decoration:underline}@media only screen and (min-width: 426px)and (max-width: 896px)and (orientation: landscape){#onetrust-pc-sdk p{font-size:.75em}}#onetrust-banner-sdk .banner-option-input:focus+label{outline:1px solid #000;outline-style:auto}.category-vendors-list-handler+a:focus,.category-vendors-list-handler+a:focus-visible{outline:2px solid #000}#onetrust-pc-sdk .ot-userid-title{margin-top:10px}#onetrust-pc-sdk .ot-userid-title>span,#onetrust-pc-sdk .ot-userid-timestamp>span{font-weight:700}#onetrust-pc-sdk .ot-userid-desc{font-style:italic}#onetrust-pc-sdk .ot-host-desc a{pointer-events:initial}#onetrust-pc-sdk .ot-ven-hdr>p a{position:relative;z-index:2;pointer-events:initial}#onetrust-pc-sdk .ot-vnd-serv .ot-vnd-item .ot-vnd-info a,#onetrust-pc-sdk .ot-vs-list .ot-vnd-item .ot-vnd-info a{margin-right:auto}#onetrust-pc-sdk .ot-pc-footer-logo img{width:136px;height:16px}#onetrust-banner-sdk .ot-optout-signal,#onetrust-pc-sdk .ot-optout-signal{border:1px solid #32ae88;border-radius:3px;padding:5px;margin-bottom:10px;background-color:#f9fffa;font-size:.85rem;line-height:2}#onetrust-banner-sdk .ot-optout-signal .ot-optout-icon,#onetrust-pc-sdk .ot-optout-signal .ot-optout-icon{display:inline;margin-right:5px}#onetrust-banner-sdk .ot-optout-signal svg,#onetrust-pc-sdk .ot-optout-signal svg{height:20px;width:30px;transform:scale(0.5)}#onetrust-banner-sdk .ot-optout-signal svg path,#onetrust-pc-sdk .ot-optout-signal svg path{fill:#32ae88}#onetrust-banner-sdk,#onetrust-pc-sdk,#ot-sdk-cookie-policy,#ot-sync-ntfy{font-size:16px}#onetrust-banner-sdk *,#onetrust-banner-sdk ::after,#onetrust-banner-sdk ::before,#onetrust-pc-sdk *,#onetrust-pc-sdk ::after,#onetrust-pc-sdk ::before,#ot-sdk-cookie-policy *,#ot-sdk-cookie-policy ::after,#ot-sdk-cookie-policy ::before,#ot-sync-ntfy *,#ot-sync-ntfy ::after,#ot-sync-ntfy ::before{-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box}#onetrust-banner-sdk div,#onetrust-banner-sdk span,#onetrust-banner-sdk h1,#onetrust-banner-sdk h2,#onetrust-banner-sdk h3,#onetrust-banner-sdk h4,#onetrust-banner-sdk h5,#onetrust-banner-sdk h6,#onetrust-banner-sdk p,#onetrust-banner-sdk img,#onetrust-banner-sdk svg,#onetrust-banner-sdk button,#onetrust-banner-sdk section,#onetrust-banner-sdk a,#onetrust-banner-sdk label,#onetrust-banner-sdk input,#onetrust-banner-sdk ul,#onetrust-banner-sdk li,#onetrust-banner-sdk nav,#onetrust-banner-sdk table,#onetrust-banner-sdk thead,#onetrust-banner-sdk tr,#onetrust-banner-sdk td,#onetrust-banner-sdk tbody,#onetrust-banner-sdk .ot-main-content,#onetrust-banner-sdk .ot-toggle,#onetrust-banner-sdk #ot-content,#onetrust-banner-sdk #ot-pc-content,#onetrust-banner-sdk .checkbox,#onetrust-pc-sdk div,#onetrust-pc-sdk span,#onetrust-pc-sdk h1,#onetrust-pc-sdk h2,#onetrust-pc-sdk h3,#onetrust-pc-sdk h4,#onetrust-pc-sdk h5,#onetrust-pc-sdk h6,#onetrust-pc-sdk p,#onetrust-pc-sdk img,#onetrust-pc-sdk svg,#onetrust-pc-sdk button,#onetrust-pc-sdk section,#onetrust-pc-sdk a,#onetrust-pc-sdk label,#onetrust-pc-sdk input,#onetrust-pc-sdk ul,#onetrust-pc-sdk li,#onetrust-pc-sdk nav,#onetrust-pc-sdk table,#onetrust-pc-sdk thead,#onetrust-pc-sdk tr,#onetrust-pc-sdk td,#onetrust-pc-sdk tbody,#onetrust-pc-sdk .ot-main-content,#onetrust-pc-sdk .ot-toggle,#onetrust-pc-sdk #ot-content,#onetrust-pc-sdk #ot-pc-content,#onetrust-pc-sdk .checkbox,#ot-sdk-cookie-policy div,#ot-sdk-cookie-policy span,#ot-sdk-cookie-policy h1,#ot-sdk-cookie-policy h2,#ot-sdk-cookie-policy h3,#ot-sdk-cookie-policy h4,#ot-sdk-cookie-policy h5,#ot-sdk-cookie-policy h6,#ot-sdk-cookie-policy p,#ot-sdk-cookie-policy img,#ot-sdk-cookie-policy svg,#ot-sdk-cookie-policy button,#ot-sdk-cookie-policy section,#ot-sdk-cookie-policy a,#ot-sdk-cookie-policy label,#ot-sdk-cookie-policy input,#ot-sdk-cookie-policy ul,#ot-sdk-cookie-policy li,#ot-sdk-cookie-policy nav,#ot-sdk-cookie-policy table,#ot-sdk-cookie-policy thead,#ot-sdk-cookie-policy tr,#ot-sdk-cookie-policy td,#ot-sdk-cookie-policy tbody,#ot-sdk-cookie-policy .ot-main-content,#ot-sdk-cookie-policy .ot-toggle,#ot-sdk-cookie-policy #ot-content,#ot-sdk-cookie-policy #ot-pc-content,#ot-sdk-cookie-policy .checkbox,#ot-sync-ntfy div,#ot-sync-ntfy span,#ot-sync-ntfy h1,#ot-sync-ntfy h2,#ot-sync-ntfy h3,#ot-sync-ntfy h4,#ot-sync-ntfy h5,#ot-sync-ntfy h6,#ot-sync-ntfy p,#ot-sync-ntfy img,#ot-sync-ntfy svg,#ot-sync-ntfy button,#ot-sync-ntfy section,#ot-sync-ntfy a,#ot-sync-ntfy label,#ot-sync-ntfy input,#ot-sync-ntfy ul,#ot-sync-ntfy li,#ot-sync-ntfy nav,#ot-sync-ntfy table,#ot-sync-ntfy thead,#ot-sync-ntfy tr,#ot-sync-ntfy td,#ot-sync-ntfy tbody,#ot-sync-ntfy .ot-main-content,#ot-sync-ntfy .ot-toggle,#ot-sync-ntfy #ot-content,#ot-sync-ntfy #ot-pc-content,#ot-sync-ntfy .checkbox{font-family:inherit;font-weight:normal;-webkit-font-smoothing:auto;letter-spacing:normal;line-height:normal;padding:0;margin:0;height:auto;min-height:0;max-height:none;width:auto;min-width:0;max-width:none;border-radius:0;border:none;clear:none;float:none;position:static;bottom:auto;left:auto;right:auto;top:auto;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;white-space:normal;background:none;overflow:visible;vertical-align:baseline;visibility:visible;z-index:auto;box-shadow:none}#onetrust-banner-sdk label:before,#onetrust-banner-sdk label:after,#onetrust-banner-sdk .checkbox:after,#onetrust-banner-sdk .checkbox:before,#onetrust-pc-sdk label:before,#onetrust-pc-sdk label:after,#onetrust-pc-sdk .checkbox:after,#onetrust-pc-sdk .checkbox:before,#ot-sdk-cookie-policy label:before,#ot-sdk-cookie-policy label:after,#ot-sdk-cookie-policy .checkbox:after,#ot-sdk-cookie-policy .checkbox:before,#ot-sync-ntfy label:before,#ot-sync-ntfy label:after,#ot-sync-ntfy .checkbox:after,#ot-sync-ntfy .checkbox:before{content:"";content:none}#onetrust-banner-sdk .ot-sdk-container,#onetrust-pc-sdk .ot-sdk-container,#ot-sdk-cookie-policy .ot-sdk-container{position:relative;width:100%;max-width:100%;margin:0 auto;padding:0 20px;box-sizing:border-box}#onetrust-banner-sdk .ot-sdk-column,#onetrust-banner-sdk .ot-sdk-columns,#onetrust-pc-sdk .ot-sdk-column,#onetrust-pc-sdk .ot-sdk-columns,#ot-sdk-cookie-policy .ot-sdk-column,#ot-sdk-cookie-policy .ot-sdk-columns{width:100%;float:left;box-sizing:border-box;padding:0;display:initial}@media(min-width: 400px){#onetrust-banner-sdk .ot-sdk-container,#onetrust-pc-sdk .ot-sdk-container,#ot-sdk-cookie-policy .ot-sdk-container{width:90%;padding:0}}@media(min-width: 550px){#onetrust-banner-sdk .ot-sdk-container,#onetrust-pc-sdk .ot-sdk-container,#ot-sdk-cookie-policy .ot-sdk-container{width:100%}#onetrust-banner-sdk .ot-sdk-column,#onetrust-banner-sdk .ot-sdk-columns,#onetrust-pc-sdk .ot-sdk-column,#onetrust-pc-sdk .ot-sdk-columns,#ot-sdk-cookie-policy .ot-sdk-column,#ot-sdk-cookie-policy .ot-sdk-columns{margin-left:4%}#onetrust-banner-sdk .ot-sdk-column:first-child,#onetrust-banner-sdk .ot-sdk-columns:first-child,#onetrust-pc-sdk .ot-sdk-column:first-child,#onetrust-pc-sdk .ot-sdk-columns:first-child,#ot-sdk-cookie-policy .ot-sdk-column:first-child,#ot-sdk-cookie-policy .ot-sdk-columns:first-child{margin-left:0}#onetrust-banner-sdk .ot-sdk-two.ot-sdk-columns,#onetrust-pc-sdk .ot-sdk-two.ot-sdk-columns,#ot-sdk-cookie-policy .ot-sdk-two.ot-sdk-columns{width:13.3333333333%}#onetrust-banner-sdk .ot-sdk-three.ot-sdk-columns,#onetrust-pc-sdk .ot-sdk-three.ot-sdk-columns,#ot-sdk-cookie-policy .ot-sdk-three.ot-sdk-columns{width:22%}#onetrust-banner-sdk .ot-sdk-four.ot-sdk-columns,#onetrust-pc-sdk .ot-sdk-four.ot-sdk-columns,#ot-sdk-cookie-policy .ot-sdk-four.ot-sdk-columns{width:30.6666666667%}#onetrust-banner-sdk .ot-sdk-eight.ot-sdk-columns,#onetrust-pc-sdk .ot-sdk-eight.ot-sdk-columns,#ot-sdk-cookie-policy .ot-sdk-eight.ot-sdk-columns{width:65.3333333333%}#onetrust-banner-sdk .ot-sdk-nine.ot-sdk-columns,#onetrust-pc-sdk .ot-sdk-nine.ot-sdk-columns,#ot-sdk-cookie-policy .ot-sdk-nine.ot-sdk-columns{width:74%}#onetrust-banner-sdk .ot-sdk-ten.ot-sdk-columns,#onetrust-pc-sdk .ot-sdk-ten.ot-sdk-columns,#ot-sdk-cookie-policy .ot-sdk-ten.ot-sdk-columns{width:82.6666666667%}#onetrust-banner-sdk .ot-sdk-eleven.ot-sdk-columns,#onetrust-pc-sdk .ot-sdk-eleven.ot-sdk-columns,#ot-sdk-cookie-policy .ot-sdk-eleven.ot-sdk-columns{width:91.3333333333%}#onetrust-banner-sdk .ot-sdk-twelve.ot-sdk-columns,#onetrust-pc-sdk .ot-sdk-twelve.ot-sdk-columns,#ot-sdk-cookie-policy .ot-sdk-twelve.ot-sdk-columns{width:100%;margin-left:0}}#onetrust-banner-sdk h1,#onetrust-banner-sdk h2,#onetrust-banner-sdk h3,#onetrust-banner-sdk h4,#onetrust-banner-sdk h5,#onetrust-banner-sdk h6,#onetrust-pc-sdk h1,#onetrust-pc-sdk h2,#onetrust-pc-sdk h3,#onetrust-pc-sdk h4,#onetrust-pc-sdk h5,#onetrust-pc-sdk h6,#ot-sdk-cookie-policy h1,#ot-sdk-cookie-policy h2,#ot-sdk-cookie-policy h3,#ot-sdk-cookie-policy h4,#ot-sdk-cookie-policy h5,#ot-sdk-cookie-policy h6{margin-top:0;font-weight:600;font-family:inherit}#onetrust-banner-sdk h1,#onetrust-pc-sdk h1,#ot-sdk-cookie-policy h1{font-size:1.5rem;line-height:1.2}#onetrust-banner-sdk h2,#onetrust-pc-sdk h2,#ot-sdk-cookie-policy h2{font-size:1.5rem;line-height:1.25}#onetrust-banner-sdk h3,#onetrust-pc-sdk h3,#ot-sdk-cookie-policy h3{font-size:1.5rem;line-height:1.3}#onetrust-banner-sdk h4,#onetrust-pc-sdk h4,#ot-sdk-cookie-policy h4{font-size:1.5rem;line-height:1.35}#onetrust-banner-sdk h5,#onetrust-pc-sdk h5,#ot-sdk-cookie-policy h5{font-size:1.5rem;line-height:1.5}#onetrust-banner-sdk h6,#onetrust-pc-sdk h6,#ot-sdk-cookie-policy h6{font-size:1.5rem;line-height:1.6}@media(min-width: 550px){#onetrust-banner-sdk h1,#onetrust-pc-sdk h1,#ot-sdk-cookie-policy h1{font-size:1.5rem}#onetrust-banner-sdk h2,#onetrust-pc-sdk h2,#ot-sdk-cookie-policy h2{font-size:1.5rem}#onetrust-banner-sdk h3,#onetrust-pc-sdk h3,#ot-sdk-cookie-policy h3{font-size:1.5rem}#onetrust-banner-sdk h4,#onetrust-pc-sdk h4,#ot-sdk-cookie-policy h4{font-size:1.5rem}#onetrust-banner-sdk h5,#onetrust-pc-sdk h5,#ot-sdk-cookie-policy h5{font-size:1.5rem}#onetrust-banner-sdk h6,#onetrust-pc-sdk h6,#ot-sdk-cookie-policy h6{font-size:1.5rem}}#onetrust-banner-sdk p,#onetrust-pc-sdk p,#ot-sdk-cookie-policy p{margin:0 0 1em 0;font-family:inherit;line-height:normal}#onetrust-banner-sdk a,#onetrust-pc-sdk a,#ot-sdk-cookie-policy a{color:#565656;text-decoration:underline}#onetrust-banner-sdk a:hover,#onetrust-pc-sdk a:hover,#ot-sdk-cookie-policy a:hover{color:#565656;text-decoration:none}#onetrust-banner-sdk .ot-sdk-button,#onetrust-banner-sdk button,#onetrust-pc-sdk .ot-sdk-button,#onetrust-pc-sdk button,#ot-sdk-cookie-policy .ot-sdk-button,#ot-sdk-cookie-policy button{margin-bottom:1rem;font-family:inherit}#onetrust-banner-sdk .ot-sdk-button,#onetrust-banner-sdk button,#onetrust-pc-sdk .ot-sdk-button,#onetrust-pc-sdk button,#ot-sdk-cookie-policy .ot-sdk-button,#ot-sdk-cookie-policy button{display:inline-block;height:38px;padding:0 30px;color:#555;text-align:center;font-size:.9em;font-weight:400;line-height:38px;letter-spacing:.01em;text-decoration:none;white-space:nowrap;background-color:rgba(0,0,0,0);border-radius:2px;border:1px solid #bbb;cursor:pointer;box-sizing:border-box}#onetrust-banner-sdk .ot-sdk-button:hover,#onetrust-banner-sdk :not(.ot-leg-btn-container)>button:not(.ot-link-btn):hover,#onetrust-banner-sdk :not(.ot-leg-btn-container)>button:not(.ot-link-btn):focus,#onetrust-pc-sdk .ot-sdk-button:hover,#onetrust-pc-sdk :not(.ot-leg-btn-container)>button:not(.ot-link-btn):hover,#onetrust-pc-sdk :not(.ot-leg-btn-container)>button:not(.ot-link-btn):focus,#ot-sdk-cookie-policy .ot-sdk-button:hover,#ot-sdk-cookie-policy :not(.ot-leg-btn-container)>button:not(.ot-link-btn):hover,#ot-sdk-cookie-policy :not(.ot-leg-btn-container)>button:not(.ot-link-btn):focus{color:#333;border-color:#888;opacity:.7}#onetrust-banner-sdk .ot-sdk-button:focus,#onetrust-banner-sdk :not(.ot-leg-btn-container)>button:focus,#onetrust-pc-sdk .ot-sdk-button:focus,#onetrust-pc-sdk :not(.ot-leg-btn-container)>button:focus,#ot-sdk-cookie-policy .ot-sdk-button:focus,#ot-sdk-cookie-policy :not(.ot-leg-btn-container)>button:focus{outline:2px solid #000}#onetrust-banner-sdk .ot-sdk-button.ot-sdk-button-primary,#onetrust-banner-sdk button.ot-sdk-button-primary,#onetrust-banner-sdk input[type=submit].ot-sdk-button-primary,#onetrust-banner-sdk input[type=reset].ot-sdk-button-primary,#onetrust-banner-sdk input[type=button].ot-sdk-button-primary,#onetrust-pc-sdk .ot-sdk-button.ot-sdk-button-primary,#onetrust-pc-sdk button.ot-sdk-button-primary,#onetrust-pc-sdk input[type=submit].ot-sdk-button-primary,#onetrust-pc-sdk input[type=reset].ot-sdk-button-primary,#onetrust-pc-sdk input[type=button].ot-sdk-button-primary,#ot-sdk-cookie-policy .ot-sdk-button.ot-sdk-button-primary,#ot-sdk-cookie-policy button.ot-sdk-button-primary,#ot-sdk-cookie-policy input[type=submit].ot-sdk-button-primary,#ot-sdk-cookie-policy input[type=reset].ot-sdk-button-primary,#ot-sdk-cookie-policy input[type=button].ot-sdk-button-primary{color:#fff;background-color:#33c3f0;border-color:#33c3f0}#onetrust-banner-sdk .ot-sdk-button.ot-sdk-button-primary:hover,#onetrust-banner-sdk button.ot-sdk-button-primary:hover,#onetrust-banner-sdk input[type=submit].ot-sdk-button-primary:hover,#onetrust-banner-sdk input[type=reset].ot-sdk-button-primary:hover,#onetrust-banner-sdk input[type=button].ot-sdk-button-primary:hover,#onetrust-banner-sdk .ot-sdk-button.ot-sdk-button-primary:focus,#onetrust-banner-sdk button.ot-sdk-button-primary:focus,#onetrust-banner-sdk input[type=submit].ot-sdk-button-primary:focus,#onetrust-banner-sdk input[type=reset].ot-sdk-button-primary:focus,#onetrust-banner-sdk input[type=button].ot-sdk-button-primary:focus,#onetrust-pc-sdk .ot-sdk-button.ot-sdk-button-primary:hover,#onetrust-pc-sdk button.ot-sdk-button-primary:hover,#onetrust-pc-sdk input[type=submit].ot-sdk-button-primary:hover,#onetrust-pc-sdk input[type=reset].ot-sdk-button-primary:hover,#onetrust-pc-sdk input[type=button].ot-sdk-button-primary:hover,#onetrust-pc-sdk .ot-sdk-button.ot-sdk-button-primary:focus,#onetrust-pc-sdk button.ot-sdk-button-primary:focus,#onetrust-pc-sdk input[type=submit].ot-sdk-button-primary:focus,#onetrust-pc-sdk input[type=reset].ot-sdk-button-primary:focus,#onetrust-pc-sdk input[type=button].ot-sdk-button-primary:focus,#ot-sdk-cookie-policy .ot-sdk-button.ot-sdk-button-primary:hover,#ot-sdk-cookie-policy button.ot-sdk-button-primary:hover,#ot-sdk-cookie-policy input[type=submit].ot-sdk-button-primary:hover,#ot-sdk-cookie-policy input[type=reset].ot-sdk-button-primary:hover,#ot-sdk-cookie-policy input[type=button].ot-sdk-button-primary:hover,#ot-sdk-cookie-policy .ot-sdk-button.ot-sdk-button-primary:focus,#ot-sdk-cookie-policy button.ot-sdk-button-primary:focus,#ot-sdk-cookie-policy input[type=submit].ot-sdk-button-primary:focus,#ot-sdk-cookie-policy input[type=reset].ot-sdk-button-primary:focus,#ot-sdk-cookie-policy input[type=button].ot-sdk-button-primary:focus{color:#fff;background-color:#1eaedb;border-color:#1eaedb}#onetrust-banner-sdk input[type=text],#onetrust-pc-sdk input[type=text],#ot-sdk-cookie-policy input[type=text]{height:38px;padding:6px 10px;background-color:#fff;border:1px solid #d1d1d1;border-radius:4px;box-shadow:none;box-sizing:border-box}#onetrust-banner-sdk input[type=text],#onetrust-pc-sdk input[type=text],#ot-sdk-cookie-policy input[type=text]{-webkit-appearance:none;-moz-appearance:none;appearance:none}#onetrust-banner-sdk input[type=text]:focus,#onetrust-pc-sdk input[type=text]:focus,#ot-sdk-cookie-policy input[type=text]:focus{border:1px solid #000;outline:0}#onetrust-banner-sdk label,#onetrust-pc-sdk label,#ot-sdk-cookie-policy label{display:block;margin-bottom:.5rem;font-weight:600}#onetrust-banner-sdk input[type=checkbox],#onetrust-pc-sdk input[type=checkbox],#ot-sdk-cookie-policy input[type=checkbox]{display:inline}#onetrust-banner-sdk ul,#onetrust-pc-sdk ul,#ot-sdk-cookie-policy ul{list-style:circle inside}#onetrust-banner-sdk ul,#onetrust-pc-sdk ul,#ot-sdk-cookie-policy ul{padding-left:0;margin-top:0}#onetrust-banner-sdk ul ul,#onetrust-pc-sdk ul ul,#ot-sdk-cookie-policy ul ul{margin:1.5rem 0 1.5rem 3rem;font-size:90%}#onetrust-banner-sdk li,#onetrust-pc-sdk li,#ot-sdk-cookie-policy li{margin-bottom:1rem}#onetrust-banner-sdk th,#onetrust-banner-sdk td,#onetrust-pc-sdk th,#onetrust-pc-sdk td,#ot-sdk-cookie-policy th,#ot-sdk-cookie-policy td{padding:12px 15px;text-align:left;border-bottom:1px solid #e1e1e1}#onetrust-banner-sdk button,#onetrust-pc-sdk button,#ot-sdk-cookie-policy button{margin-bottom:1rem;font-family:inherit}#onetrust-banner-sdk .ot-sdk-container:after,#onetrust-banner-sdk .ot-sdk-row:after,#onetrust-pc-sdk .ot-sdk-container:after,#onetrust-pc-sdk .ot-sdk-row:after,#ot-sdk-cookie-policy .ot-sdk-container:after,#ot-sdk-cookie-policy .ot-sdk-row:after{content:"";display:table;clear:both}#onetrust-banner-sdk .ot-sdk-row,#onetrust-pc-sdk .ot-sdk-row,#ot-sdk-cookie-policy .ot-sdk-row{margin:0;max-width:none;display:block}.ot-sdk-cookie-policy{font-family:inherit;font-size:16px}.ot-sdk-cookie-policy.otRelFont{font-size:1rem}.ot-sdk-cookie-policy h3,.ot-sdk-cookie-policy h4,.ot-sdk-cookie-policy h6,.ot-sdk-cookie-policy p,.ot-sdk-cookie-policy li,.ot-sdk-cookie-policy a,.ot-sdk-cookie-policy th,.ot-sdk-cookie-policy #cookie-policy-description,.ot-sdk-cookie-policy .ot-sdk-cookie-policy-group,.ot-sdk-cookie-policy #cookie-policy-title{color:dimgray}.ot-sdk-cookie-policy #cookie-policy-description{margin-bottom:1em}.ot-sdk-cookie-policy h4{font-size:1.2em}.ot-sdk-cookie-policy h6{font-size:1em;margin-top:2em}.ot-sdk-cookie-policy th{min-width:75px}.ot-sdk-cookie-policy a,.ot-sdk-cookie-policy a:hover{background:#fff}.ot-sdk-cookie-policy thead{background-color:#f6f6f4;font-weight:bold}.ot-sdk-cookie-policy .ot-mobile-border{display:none}.ot-sdk-cookie-policy section{margin-bottom:2em}.ot-sdk-cookie-policy table{border-collapse:inherit}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy{font-family:inherit;font-size:1rem}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy h3,#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy h4,#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy h6,#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy p,#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy li,#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy a,#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy th,#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy #cookie-policy-description,#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy .ot-sdk-cookie-policy-group,#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy #cookie-policy-title{color:dimgray}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy #cookie-policy-description{margin-bottom:1em}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy .ot-sdk-subgroup{margin-left:1.5em}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy #cookie-policy-description,#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy .ot-sdk-cookie-policy-group-desc,#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy .ot-table-header,#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy a,#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy span,#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy td{font-size:.9em}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy td span,#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy td a{font-size:inherit}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy .ot-sdk-cookie-policy-group{font-size:1em;margin-bottom:.6em}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy .ot-sdk-cookie-policy-title{margin-bottom:1.2em}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy>section{margin-bottom:1em}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy th{min-width:75px}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy a,#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy a:hover{background:#fff}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy thead{background-color:#f6f6f4;font-weight:bold}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy .ot-mobile-border{display:none}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy section{margin-bottom:2em}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy .ot-sdk-subgroup ul li{list-style:disc;margin-left:1.5em}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy .ot-sdk-subgroup ul li h4{display:inline-block}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy table{border-collapse:inherit;margin:auto;border:1px solid #d7d7d7;border-radius:5px;border-spacing:initial;width:100%;overflow:hidden}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy table th,#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy table td{border-bottom:1px solid #d7d7d7;border-right:1px solid #d7d7d7}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy table tr:last-child td{border-bottom:0px}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy table tr th:last-child,#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy table tr td:last-child{border-right:0px}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy table .ot-host,#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy table .ot-cookies-type{width:25%}.ot-sdk-cookie-policy[dir=rtl]{text-align:left}#ot-sdk-cookie-policy h3{font-size:1.5em}@media only screen and (max-width: 530px){.ot-sdk-cookie-policy:not(#ot-sdk-cookie-policy-v2) table,.ot-sdk-cookie-policy:not(#ot-sdk-cookie-policy-v2) thead,.ot-sdk-cookie-policy:not(#ot-sdk-cookie-policy-v2) tbody,.ot-sdk-cookie-policy:not(#ot-sdk-cookie-policy-v2) th,.ot-sdk-cookie-policy:not(#ot-sdk-cookie-policy-v2) td,.ot-sdk-cookie-policy:not(#ot-sdk-cookie-policy-v2) tr{display:block}.ot-sdk-cookie-policy:not(#ot-sdk-cookie-policy-v2) thead tr{position:absolute;top:-9999px;left:-9999px}.ot-sdk-cookie-policy:not(#ot-sdk-cookie-policy-v2) tr{margin:0 0 1em 0}.ot-sdk-cookie-policy:not(#ot-sdk-cookie-policy-v2) tr:nth-child(odd),.ot-sdk-cookie-policy:not(#ot-sdk-cookie-policy-v2) tr:nth-child(odd) a{background:#f6f6f4}.ot-sdk-cookie-policy:not(#ot-sdk-cookie-policy-v2) td{border:none;border-bottom:1px solid #eee;position:relative;padding-left:50%}.ot-sdk-cookie-policy:not(#ot-sdk-cookie-policy-v2) td:before{position:absolute;height:100%;left:6px;width:40%;padding-right:10px}.ot-sdk-cookie-policy:not(#ot-sdk-cookie-policy-v2) .ot-mobile-border{display:inline-block;background-color:#e4e4e4;position:absolute;height:100%;top:0;left:45%;width:2px}.ot-sdk-cookie-policy:not(#ot-sdk-cookie-policy-v2) td:before{content:attr(data-label);font-weight:bold}.ot-sdk-cookie-policy:not(#ot-sdk-cookie-policy-v2) li{word-break:break-word;word-wrap:break-word}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy table{overflow:hidden}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy table td{border:none;border-bottom:1px solid #d7d7d7}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy table,#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy thead,#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy tbody,#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy th,#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy td,#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy tr{display:block}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy table .ot-host,#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy table .ot-cookies-type{width:auto}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy tr{margin:0 0 1em 0}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy td:before{height:100%;width:40%;padding-right:10px}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy td:before{content:attr(data-label);font-weight:bold}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy li{word-break:break-word;word-wrap:break-word}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy thead tr{position:absolute;top:-9999px;left:-9999px;z-index:-9999}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy table tr:last-child td{border-bottom:1px solid #d7d7d7;border-right:0px}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy table tr:last-child td:last-child{border-bottom:0px}}
+        <link rel="preload" as="style" href="./assets/clip-actions.92e856d8.css"><link rel="stylesheet" href="assets/clip-actions.92e856d8.css"><script async="" src="./assets/hotjar-491796.js(1).download"></script><script src="./assets/otBannerSdk.js.download" async="" type="text/javascript"></script><script src="./assets/f.txt" async=""></script><script async="" src="./assets/modules.7c8f0fa049d445ea09fd.js.download" charset="utf-8"></script><style id="onetrust-style">#onetrust-banner-sdk{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}#onetrust-banner-sdk .onetrust-vendors-list-handler{cursor:pointer;color:#1f96db;font-size:inherit;font-weight:bold;text-decoration:none;margin-left:5px}#onetrust-banner-sdk .onetrust-vendors-list-handler:hover{color:#1f96db}#onetrust-banner-sdk:focus{outline:2px solid #000;outline-offset:-2px}#onetrust-banner-sdk a:focus{outline:2px solid #000}#onetrust-banner-sdk #onetrust-accept-btn-handler,#onetrust-banner-sdk #onetrust-reject-all-handler,#onetrust-banner-sdk #onetrust-pc-btn-handler{outline-offset:1px}#onetrust-banner-sdk.ot-bnr-w-logo .ot-bnr-logo{height:64px;width:64px}#onetrust-banner-sdk .ot-close-icon,#onetrust-pc-sdk .ot-close-icon,#ot-sync-ntfy .ot-close-icon{background-size:contain;background-repeat:no-repeat;background-position:center;height:12px;width:12px}#onetrust-banner-sdk .powered-by-logo,#onetrust-banner-sdk .ot-pc-footer-logo a,#onetrust-pc-sdk .powered-by-logo,#onetrust-pc-sdk .ot-pc-footer-logo a,#ot-sync-ntfy .powered-by-logo,#ot-sync-ntfy .ot-pc-footer-logo a{background-size:contain;background-repeat:no-repeat;background-position:center;height:25px;width:152px;display:block;text-decoration:none;font-size:.75em}#onetrust-banner-sdk .powered-by-logo:hover,#onetrust-banner-sdk .ot-pc-footer-logo a:hover,#onetrust-pc-sdk .powered-by-logo:hover,#onetrust-pc-sdk .ot-pc-footer-logo a:hover,#ot-sync-ntfy .powered-by-logo:hover,#ot-sync-ntfy .ot-pc-footer-logo a:hover{color:#565656}#onetrust-banner-sdk h3 *,#onetrust-banner-sdk h4 *,#onetrust-banner-sdk h6 *,#onetrust-banner-sdk button *,#onetrust-banner-sdk a[data-parent-id] *,#onetrust-pc-sdk h3 *,#onetrust-pc-sdk h4 *,#onetrust-pc-sdk h6 *,#onetrust-pc-sdk button *,#onetrust-pc-sdk a[data-parent-id] *,#ot-sync-ntfy h3 *,#ot-sync-ntfy h4 *,#ot-sync-ntfy h6 *,#ot-sync-ntfy button *,#ot-sync-ntfy a[data-parent-id] *{font-size:inherit;font-weight:inherit;color:inherit}#onetrust-banner-sdk .ot-hide,#onetrust-pc-sdk .ot-hide,#ot-sync-ntfy .ot-hide{display:none !important}#onetrust-banner-sdk button.ot-link-btn:hover,#onetrust-pc-sdk button.ot-link-btn:hover,#ot-sync-ntfy button.ot-link-btn:hover{text-decoration:underline;opacity:1}#onetrust-pc-sdk .ot-sdk-row .ot-sdk-column{padding:0}#onetrust-pc-sdk .ot-sdk-container{padding-right:0}#onetrust-pc-sdk .ot-sdk-row{flex-direction:initial;width:100%}#onetrust-pc-sdk [type=checkbox]:checked,#onetrust-pc-sdk [type=checkbox]:not(:checked){pointer-events:initial}#onetrust-pc-sdk [type=checkbox]:disabled+label::before,#onetrust-pc-sdk [type=checkbox]:disabled+label:after,#onetrust-pc-sdk [type=checkbox]:disabled+label{pointer-events:none;opacity:.7}#onetrust-pc-sdk #vendor-list-content{transform:translate3d(0, 0, 0)}#onetrust-pc-sdk li input[type=checkbox]{z-index:1}#onetrust-pc-sdk li .ot-checkbox label{z-index:2}#onetrust-pc-sdk li .ot-checkbox input[type=checkbox]{height:auto;width:auto}#onetrust-pc-sdk li .host-title a,#onetrust-pc-sdk li .ot-host-name a,#onetrust-pc-sdk li .accordion-text,#onetrust-pc-sdk li .ot-acc-txt{z-index:2;position:relative}#onetrust-pc-sdk input{margin:3px .1ex}#onetrust-pc-sdk .pc-logo,#onetrust-pc-sdk .ot-pc-logo{height:60px;width:180px;background-position:center;background-size:contain;background-repeat:no-repeat;display:inline-flex;justify-content:center;align-items:center}#onetrust-pc-sdk .pc-logo img,#onetrust-pc-sdk .ot-pc-logo img{max-height:100%;max-width:100%}#onetrust-pc-sdk .screen-reader-only,#onetrust-pc-sdk .ot-scrn-rdr,.ot-sdk-cookie-policy .screen-reader-only,.ot-sdk-cookie-policy .ot-scrn-rdr{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}#onetrust-pc-sdk.ot-fade-in,.onetrust-pc-dark-filter.ot-fade-in,#onetrust-banner-sdk.ot-fade-in{animation-name:onetrust-fade-in;animation-duration:400ms;animation-timing-function:ease-in-out}#onetrust-pc-sdk.ot-hide{display:none !important}.onetrust-pc-dark-filter.ot-hide{display:none !important}#ot-sdk-btn.ot-sdk-show-settings,#ot-sdk-btn.optanon-show-settings{color:#68b631;border:1px solid #68b631;height:auto;white-space:normal;word-wrap:break-word;padding:.8em 2em;font-size:.8em;line-height:1.2;cursor:pointer;-moz-transition:.1s ease;-o-transition:.1s ease;-webkit-transition:1s ease;transition:.1s ease}#ot-sdk-btn.ot-sdk-show-settings:hover,#ot-sdk-btn.optanon-show-settings:hover{color:#fff;background-color:#68b631}.onetrust-pc-dark-filter{background:rgba(0,0,0,.5);z-index:2147483646;width:100%;height:100%;overflow:hidden;position:fixed;top:0;bottom:0;left:0}@keyframes onetrust-fade-in{0%{opacity:0}100%{opacity:1}}.ot-cookie-label{text-decoration:underline}@media only screen and (min-width: 426px)and (max-width: 896px)and (orientation: landscape){#onetrust-pc-sdk p{font-size:.75em}}#onetrust-banner-sdk .banner-option-input:focus+label{outline:1px solid #000;outline-style:auto}.category-vendors-list-handler+a:focus,.category-vendors-list-handler+a:focus-visible{outline:2px solid #000}#onetrust-pc-sdk .ot-userid-title{margin-top:10px}#onetrust-pc-sdk .ot-userid-title>span,#onetrust-pc-sdk .ot-userid-timestamp>span{font-weight:700}#onetrust-pc-sdk .ot-userid-desc{font-style:italic}#onetrust-pc-sdk .ot-host-desc a{pointer-events:initial}#onetrust-pc-sdk .ot-ven-hdr>p a{position:relative;z-index:2;pointer-events:initial}#onetrust-pc-sdk .ot-vnd-serv .ot-vnd-item .ot-vnd-info a,#onetrust-pc-sdk .ot-vs-list .ot-vnd-item .ot-vnd-info a{margin-right:auto}#onetrust-pc-sdk .ot-pc-footer-logo img{width:136px;height:16px}#onetrust-banner-sdk .ot-optout-signal,#onetrust-pc-sdk .ot-optout-signal{border:1px solid #32ae88;border-radius:3px;padding:5px;margin-bottom:10px;background-color:#f9fffa;font-size:.85rem;line-height:2}#onetrust-banner-sdk .ot-optout-signal .ot-optout-icon,#onetrust-pc-sdk .ot-optout-signal .ot-optout-icon{display:inline;margin-right:5px}#onetrust-banner-sdk .ot-optout-signal svg,#onetrust-pc-sdk .ot-optout-signal svg{height:20px;width:30px;transform:scale(0.5)}#onetrust-banner-sdk .ot-optout-signal svg path,#onetrust-pc-sdk .ot-optout-signal svg path{fill:#32ae88}#onetrust-banner-sdk,#onetrust-pc-sdk,#ot-sdk-cookie-policy,#ot-sync-ntfy{font-size:16px}#onetrust-banner-sdk *,#onetrust-banner-sdk ::after,#onetrust-banner-sdk ::before,#onetrust-pc-sdk *,#onetrust-pc-sdk ::after,#onetrust-pc-sdk ::before,#ot-sdk-cookie-policy *,#ot-sdk-cookie-policy ::after,#ot-sdk-cookie-policy ::before,#ot-sync-ntfy *,#ot-sync-ntfy ::after,#ot-sync-ntfy ::before{-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box}#onetrust-banner-sdk div,#onetrust-banner-sdk span,#onetrust-banner-sdk h1,#onetrust-banner-sdk h2,#onetrust-banner-sdk h3,#onetrust-banner-sdk h4,#onetrust-banner-sdk h5,#onetrust-banner-sdk h6,#onetrust-banner-sdk p,#onetrust-banner-sdk img,#onetrust-banner-sdk svg,#onetrust-banner-sdk button,#onetrust-banner-sdk section,#onetrust-banner-sdk a,#onetrust-banner-sdk label,#onetrust-banner-sdk input,#onetrust-banner-sdk ul,#onetrust-banner-sdk li,#onetrust-banner-sdk nav,#onetrust-banner-sdk table,#onetrust-banner-sdk thead,#onetrust-banner-sdk tr,#onetrust-banner-sdk td,#onetrust-banner-sdk tbody,#onetrust-banner-sdk .ot-main-content,#onetrust-banner-sdk .ot-toggle,#onetrust-banner-sdk #ot-content,#onetrust-banner-sdk #ot-pc-content,#onetrust-banner-sdk .checkbox,#onetrust-pc-sdk div,#onetrust-pc-sdk span,#onetrust-pc-sdk h1,#onetrust-pc-sdk h2,#onetrust-pc-sdk h3,#onetrust-pc-sdk h4,#onetrust-pc-sdk h5,#onetrust-pc-sdk h6,#onetrust-pc-sdk p,#onetrust-pc-sdk img,#onetrust-pc-sdk svg,#onetrust-pc-sdk button,#onetrust-pc-sdk section,#onetrust-pc-sdk a,#onetrust-pc-sdk label,#onetrust-pc-sdk input,#onetrust-pc-sdk ul,#onetrust-pc-sdk li,#onetrust-pc-sdk nav,#onetrust-pc-sdk table,#onetrust-pc-sdk thead,#onetrust-pc-sdk tr,#onetrust-pc-sdk td,#onetrust-pc-sdk tbody,#onetrust-pc-sdk .ot-main-content,#onetrust-pc-sdk .ot-toggle,#onetrust-pc-sdk #ot-content,#onetrust-pc-sdk #ot-pc-content,#onetrust-pc-sdk .checkbox,#ot-sdk-cookie-policy div,#ot-sdk-cookie-policy span,#ot-sdk-cookie-policy h1,#ot-sdk-cookie-policy h2,#ot-sdk-cookie-policy h3,#ot-sdk-cookie-policy h4,#ot-sdk-cookie-policy h5,#ot-sdk-cookie-policy h6,#ot-sdk-cookie-policy p,#ot-sdk-cookie-policy img,#ot-sdk-cookie-policy svg,#ot-sdk-cookie-policy button,#ot-sdk-cookie-policy section,#ot-sdk-cookie-policy a,#ot-sdk-cookie-policy label,#ot-sdk-cookie-policy input,#ot-sdk-cookie-policy ul,#ot-sdk-cookie-policy li,#ot-sdk-cookie-policy nav,#ot-sdk-cookie-policy table,#ot-sdk-cookie-policy thead,#ot-sdk-cookie-policy tr,#ot-sdk-cookie-policy td,#ot-sdk-cookie-policy tbody,#ot-sdk-cookie-policy .ot-main-content,#ot-sdk-cookie-policy .ot-toggle,#ot-sdk-cookie-policy #ot-content,#ot-sdk-cookie-policy #ot-pc-content,#ot-sdk-cookie-policy .checkbox,#ot-sync-ntfy div,#ot-sync-ntfy span,#ot-sync-ntfy h1,#ot-sync-ntfy h2,#ot-sync-ntfy h3,#ot-sync-ntfy h4,#ot-sync-ntfy h5,#ot-sync-ntfy h6,#ot-sync-ntfy p,#ot-sync-ntfy img,#ot-sync-ntfy svg,#ot-sync-ntfy button,#ot-sync-ntfy section,#ot-sync-ntfy a,#ot-sync-ntfy label,#ot-sync-ntfy input,#ot-sync-ntfy ul,#ot-sync-ntfy li,#ot-sync-ntfy nav,#ot-sync-ntfy table,#ot-sync-ntfy thead,#ot-sync-ntfy tr,#ot-sync-ntfy td,#ot-sync-ntfy tbody,#ot-sync-ntfy .ot-main-content,#ot-sync-ntfy .ot-toggle,#ot-sync-ntfy #ot-content,#ot-sync-ntfy #ot-pc-content,#ot-sync-ntfy .checkbox{font-family:inherit;font-weight:normal;-webkit-font-smoothing:auto;letter-spacing:normal;line-height:normal;padding:0;margin:0;height:auto;min-height:0;max-height:none;width:auto;min-width:0;max-width:none;border-radius:0;border:none;clear:none;float:none;position:static;bottom:auto;left:auto;right:auto;top:auto;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;white-space:normal;background:none;overflow:visible;vertical-align:baseline;visibility:visible;z-index:auto;box-shadow:none}#onetrust-banner-sdk label:before,#onetrust-banner-sdk label:after,#onetrust-banner-sdk .checkbox:after,#onetrust-banner-sdk .checkbox:before,#onetrust-pc-sdk label:before,#onetrust-pc-sdk label:after,#onetrust-pc-sdk .checkbox:after,#onetrust-pc-sdk .checkbox:before,#ot-sdk-cookie-policy label:before,#ot-sdk-cookie-policy label:after,#ot-sdk-cookie-policy .checkbox:after,#ot-sdk-cookie-policy .checkbox:before,#ot-sync-ntfy label:before,#ot-sync-ntfy label:after,#ot-sync-ntfy .checkbox:after,#ot-sync-ntfy .checkbox:before{content:"";content:none}#onetrust-banner-sdk .ot-sdk-container,#onetrust-pc-sdk .ot-sdk-container,#ot-sdk-cookie-policy .ot-sdk-container{position:relative;width:100%;max-width:100%;margin:0 auto;padding:0 20px;box-sizing:border-box}#onetrust-banner-sdk .ot-sdk-column,#onetrust-banner-sdk .ot-sdk-columns,#onetrust-pc-sdk .ot-sdk-column,#onetrust-pc-sdk .ot-sdk-columns,#ot-sdk-cookie-policy .ot-sdk-column,#ot-sdk-cookie-policy .ot-sdk-columns{width:100%;float:left;box-sizing:border-box;padding:0;display:initial}@media(min-width: 400px){#onetrust-banner-sdk .ot-sdk-container,#onetrust-pc-sdk .ot-sdk-container,#ot-sdk-cookie-policy .ot-sdk-container{width:90%;padding:0}}@media(min-width: 550px){#onetrust-banner-sdk .ot-sdk-container,#onetrust-pc-sdk .ot-sdk-container,#ot-sdk-cookie-policy .ot-sdk-container{width:100%}#onetrust-banner-sdk .ot-sdk-column,#onetrust-banner-sdk .ot-sdk-columns,#onetrust-pc-sdk .ot-sdk-column,#onetrust-pc-sdk .ot-sdk-columns,#ot-sdk-cookie-policy .ot-sdk-column,#ot-sdk-cookie-policy .ot-sdk-columns{margin-left:4%}#onetrust-banner-sdk .ot-sdk-column:first-child,#onetrust-banner-sdk .ot-sdk-columns:first-child,#onetrust-pc-sdk .ot-sdk-column:first-child,#onetrust-pc-sdk .ot-sdk-columns:first-child,#ot-sdk-cookie-policy .ot-sdk-column:first-child,#ot-sdk-cookie-policy .ot-sdk-columns:first-child{margin-left:0}#onetrust-banner-sdk .ot-sdk-two.ot-sdk-columns,#onetrust-pc-sdk .ot-sdk-two.ot-sdk-columns,#ot-sdk-cookie-policy .ot-sdk-two.ot-sdk-columns{width:13.3333333333%}#onetrust-banner-sdk .ot-sdk-three.ot-sdk-columns,#onetrust-pc-sdk .ot-sdk-three.ot-sdk-columns,#ot-sdk-cookie-policy .ot-sdk-three.ot-sdk-columns{width:22%}#onetrust-banner-sdk .ot-sdk-four.ot-sdk-columns,#onetrust-pc-sdk .ot-sdk-four.ot-sdk-columns,#ot-sdk-cookie-policy .ot-sdk-four.ot-sdk-columns{width:30.6666666667%}#onetrust-banner-sdk .ot-sdk-eight.ot-sdk-columns,#onetrust-pc-sdk .ot-sdk-eight.ot-sdk-columns,#ot-sdk-cookie-policy .ot-sdk-eight.ot-sdk-columns{width:65.3333333333%}#onetrust-banner-sdk .ot-sdk-nine.ot-sdk-columns,#onetrust-pc-sdk .ot-sdk-nine.ot-sdk-columns,#ot-sdk-cookie-policy .ot-sdk-nine.ot-sdk-columns{width:74%}#onetrust-banner-sdk .ot-sdk-ten.ot-sdk-columns,#onetrust-pc-sdk .ot-sdk-ten.ot-sdk-columns,#ot-sdk-cookie-policy .ot-sdk-ten.ot-sdk-columns{width:82.6666666667%}#onetrust-banner-sdk .ot-sdk-eleven.ot-sdk-columns,#onetrust-pc-sdk .ot-sdk-eleven.ot-sdk-columns,#ot-sdk-cookie-policy .ot-sdk-eleven.ot-sdk-columns{width:91.3333333333%}#onetrust-banner-sdk .ot-sdk-twelve.ot-sdk-columns,#onetrust-pc-sdk .ot-sdk-twelve.ot-sdk-columns,#ot-sdk-cookie-policy .ot-sdk-twelve.ot-sdk-columns{width:100%;margin-left:0}}#onetrust-banner-sdk h1,#onetrust-banner-sdk h2,#onetrust-banner-sdk h3,#onetrust-banner-sdk h4,#onetrust-banner-sdk h5,#onetrust-banner-sdk h6,#onetrust-pc-sdk h1,#onetrust-pc-sdk h2,#onetrust-pc-sdk h3,#onetrust-pc-sdk h4,#onetrust-pc-sdk h5,#onetrust-pc-sdk h6,#ot-sdk-cookie-policy h1,#ot-sdk-cookie-policy h2,#ot-sdk-cookie-policy h3,#ot-sdk-cookie-policy h4,#ot-sdk-cookie-policy h5,#ot-sdk-cookie-policy h6{margin-top:0;font-weight:600;font-family:inherit}#onetrust-banner-sdk h1,#onetrust-pc-sdk h1,#ot-sdk-cookie-policy h1{font-size:1.5rem;line-height:1.2}#onetrust-banner-sdk h2,#onetrust-pc-sdk h2,#ot-sdk-cookie-policy h2{font-size:1.5rem;line-height:1.25}#onetrust-banner-sdk h3,#onetrust-pc-sdk h3,#ot-sdk-cookie-policy h3{font-size:1.5rem;line-height:1.3}#onetrust-banner-sdk h4,#onetrust-pc-sdk h4,#ot-sdk-cookie-policy h4{font-size:1.5rem;line-height:1.35}#onetrust-banner-sdk h5,#onetrust-pc-sdk h5,#ot-sdk-cookie-policy h5{font-size:1.5rem;line-height:1.5}#onetrust-banner-sdk h6,#onetrust-pc-sdk h6,#ot-sdk-cookie-policy h6{font-size:1.5rem;line-height:1.6}@media(min-width: 550px){#onetrust-banner-sdk h1,#onetrust-pc-sdk h1,#ot-sdk-cookie-policy h1{font-size:1.5rem}#onetrust-banner-sdk h2,#onetrust-pc-sdk h2,#ot-sdk-cookie-policy h2{font-size:1.5rem}#onetrust-banner-sdk h3,#onetrust-pc-sdk h3,#ot-sdk-cookie-policy h3{font-size:1.5rem}#onetrust-banner-sdk h4,#onetrust-pc-sdk h4,#ot-sdk-cookie-policy h4{font-size:1.5rem}#onetrust-banner-sdk h5,#onetrust-pc-sdk h5,#ot-sdk-cookie-policy h5{font-size:1.5rem}#onetrust-banner-sdk h6,#onetrust-pc-sdk h6,#ot-sdk-cookie-policy h6{font-size:1.5rem}}#onetrust-banner-sdk p,#onetrust-pc-sdk p,#ot-sdk-cookie-policy p{margin:0 0 1em 0;font-family:inherit;line-height:normal}#onetrust-banner-sdk a,#onetrust-pc-sdk a,#ot-sdk-cookie-policy a{color:#565656;text-decoration:underline}#onetrust-banner-sdk a:hover,#onetrust-pc-sdk a:hover,#ot-sdk-cookie-policy a:hover{color:#565656;text-decoration:none}#onetrust-banner-sdk .ot-sdk-button,#onetrust-banner-sdk button,#onetrust-pc-sdk .ot-sdk-button,#onetrust-pc-sdk button,#ot-sdk-cookie-policy .ot-sdk-button,#ot-sdk-cookie-policy button{margin-bottom:1rem;font-family:inherit}#onetrust-banner-sdk .ot-sdk-button,#onetrust-banner-sdk button,#onetrust-pc-sdk .ot-sdk-button,#onetrust-pc-sdk button,#ot-sdk-cookie-policy .ot-sdk-button,#ot-sdk-cookie-policy button{display:inline-block;height:38px;padding:0 30px;color:#555;text-align:center;font-size:.9em;font-weight:400;line-height:38px;letter-spacing:.01em;text-decoration:none;white-space:nowrap;background-color:rgba(0,0,0,0);border-radius:2px;border:1px solid #bbb;cursor:pointer;box-sizing:border-box}#onetrust-banner-sdk .ot-sdk-button:hover,#onetrust-banner-sdk :not(.ot-leg-btn-container)>button:not(.ot-link-btn):hover,#onetrust-banner-sdk :not(.ot-leg-btn-container)>button:not(.ot-link-btn):focus,#onetrust-pc-sdk .ot-sdk-button:hover,#onetrust-pc-sdk :not(.ot-leg-btn-container)>button:not(.ot-link-btn):hover,#onetrust-pc-sdk :not(.ot-leg-btn-container)>button:not(.ot-link-btn):focus,#ot-sdk-cookie-policy .ot-sdk-button:hover,#ot-sdk-cookie-policy :not(.ot-leg-btn-container)>button:not(.ot-link-btn):hover,#ot-sdk-cookie-policy :not(.ot-leg-btn-container)>button:not(.ot-link-btn):focus{color:#333;border-color:#888;opacity:.7}#onetrust-banner-sdk .ot-sdk-button:focus,#onetrust-banner-sdk :not(.ot-leg-btn-container)>button:focus,#onetrust-pc-sdk .ot-sdk-button:focus,#onetrust-pc-sdk :not(.ot-leg-btn-container)>button:focus,#ot-sdk-cookie-policy .ot-sdk-button:focus,#ot-sdk-cookie-policy :not(.ot-leg-btn-container)>button:focus{outline:2px solid #000}#onetrust-banner-sdk .ot-sdk-button.ot-sdk-button-primary,#onetrust-banner-sdk button.ot-sdk-button-primary,#onetrust-banner-sdk input[type=submit].ot-sdk-button-primary,#onetrust-banner-sdk input[type=reset].ot-sdk-button-primary,#onetrust-banner-sdk input[type=button].ot-sdk-button-primary,#onetrust-pc-sdk .ot-sdk-button.ot-sdk-button-primary,#onetrust-pc-sdk button.ot-sdk-button-primary,#onetrust-pc-sdk input[type=submit].ot-sdk-button-primary,#onetrust-pc-sdk input[type=reset].ot-sdk-button-primary,#onetrust-pc-sdk input[type=button].ot-sdk-button-primary,#ot-sdk-cookie-policy .ot-sdk-button.ot-sdk-button-primary,#ot-sdk-cookie-policy button.ot-sdk-button-primary,#ot-sdk-cookie-policy input[type=submit].ot-sdk-button-primary,#ot-sdk-cookie-policy input[type=reset].ot-sdk-button-primary,#ot-sdk-cookie-policy input[type=button].ot-sdk-button-primary{color:#fff;background-color:#33c3f0;border-color:#33c3f0}#onetrust-banner-sdk .ot-sdk-button.ot-sdk-button-primary:hover,#onetrust-banner-sdk button.ot-sdk-button-primary:hover,#onetrust-banner-sdk input[type=submit].ot-sdk-button-primary:hover,#onetrust-banner-sdk input[type=reset].ot-sdk-button-primary:hover,#onetrust-banner-sdk input[type=button].ot-sdk-button-primary:hover,#onetrust-banner-sdk .ot-sdk-button.ot-sdk-button-primary:focus,#onetrust-banner-sdk button.ot-sdk-button-primary:focus,#onetrust-banner-sdk input[type=submit].ot-sdk-button-primary:focus,#onetrust-banner-sdk input[type=reset].ot-sdk-button-primary:focus,#onetrust-banner-sdk input[type=button].ot-sdk-button-primary:focus,#onetrust-pc-sdk .ot-sdk-button.ot-sdk-button-primary:hover,#onetrust-pc-sdk button.ot-sdk-button-primary:hover,#onetrust-pc-sdk input[type=submit].ot-sdk-button-primary:hover,#onetrust-pc-sdk input[type=reset].ot-sdk-button-primary:hover,#onetrust-pc-sdk input[type=button].ot-sdk-button-primary:hover,#onetrust-pc-sdk .ot-sdk-button.ot-sdk-button-primary:focus,#onetrust-pc-sdk button.ot-sdk-button-primary:focus,#onetrust-pc-sdk input[type=submit].ot-sdk-button-primary:focus,#onetrust-pc-sdk input[type=reset].ot-sdk-button-primary:focus,#onetrust-pc-sdk input[type=button].ot-sdk-button-primary:focus,#ot-sdk-cookie-policy .ot-sdk-button.ot-sdk-button-primary:hover,#ot-sdk-cookie-policy button.ot-sdk-button-primary:hover,#ot-sdk-cookie-policy input[type=submit].ot-sdk-button-primary:hover,#ot-sdk-cookie-policy input[type=reset].ot-sdk-button-primary:hover,#ot-sdk-cookie-policy input[type=button].ot-sdk-button-primary:hover,#ot-sdk-cookie-policy .ot-sdk-button.ot-sdk-button-primary:focus,#ot-sdk-cookie-policy button.ot-sdk-button-primary:focus,#ot-sdk-cookie-policy input[type=submit].ot-sdk-button-primary:focus,#ot-sdk-cookie-policy input[type=reset].ot-sdk-button-primary:focus,#ot-sdk-cookie-policy input[type=button].ot-sdk-button-primary:focus{color:#fff;background-color:#1eaedb;border-color:#1eaedb}#onetrust-banner-sdk input[type=text],#onetrust-pc-sdk input[type=text],#ot-sdk-cookie-policy input[type=text]{height:38px;padding:6px 10px;background-color:#fff;border:1px solid #d1d1d1;border-radius:4px;box-shadow:none;box-sizing:border-box}#onetrust-banner-sdk input[type=text],#onetrust-pc-sdk input[type=text],#ot-sdk-cookie-policy input[type=text]{-webkit-appearance:none;-moz-appearance:none;appearance:none}#onetrust-banner-sdk input[type=text]:focus,#onetrust-pc-sdk input[type=text]:focus,#ot-sdk-cookie-policy input[type=text]:focus{border:1px solid #000;outline:0}#onetrust-banner-sdk label,#onetrust-pc-sdk label,#ot-sdk-cookie-policy label{display:block;margin-bottom:.5rem;font-weight:600}#onetrust-banner-sdk input[type=checkbox],#onetrust-pc-sdk input[type=checkbox],#ot-sdk-cookie-policy input[type=checkbox]{display:inline}#onetrust-banner-sdk ul,#onetrust-pc-sdk ul,#ot-sdk-cookie-policy ul{list-style:circle inside}#onetrust-banner-sdk ul,#onetrust-pc-sdk ul,#ot-sdk-cookie-policy ul{padding-left:0;margin-top:0}#onetrust-banner-sdk ul ul,#onetrust-pc-sdk ul ul,#ot-sdk-cookie-policy ul ul{margin:1.5rem 0 1.5rem 3rem;font-size:90%}#onetrust-banner-sdk li,#onetrust-pc-sdk li,#ot-sdk-cookie-policy li{margin-bottom:1rem}#onetrust-banner-sdk th,#onetrust-banner-sdk td,#onetrust-pc-sdk th,#onetrust-pc-sdk td,#ot-sdk-cookie-policy th,#ot-sdk-cookie-policy td{padding:12px 15px;text-align:left;border-bottom:1px solid #e1e1e1}#onetrust-banner-sdk button,#onetrust-pc-sdk button,#ot-sdk-cookie-policy button{margin-bottom:1rem;font-family:inherit}#onetrust-banner-sdk .ot-sdk-container:after,#onetrust-banner-sdk .ot-sdk-row:after,#onetrust-pc-sdk .ot-sdk-container:after,#onetrust-pc-sdk .ot-sdk-row:after,#ot-sdk-cookie-policy .ot-sdk-container:after,#ot-sdk-cookie-policy .ot-sdk-row:after{content:"";display:table;clear:both}#onetrust-banner-sdk .ot-sdk-row,#onetrust-pc-sdk .ot-sdk-row,#ot-sdk-cookie-policy .ot-sdk-row{margin:0;max-width:none;display:block}.ot-sdk-cookie-policy{font-family:inherit;font-size:16px}.ot-sdk-cookie-policy.otRelFont{font-size:1rem}.ot-sdk-cookie-policy h3,.ot-sdk-cookie-policy h4,.ot-sdk-cookie-policy h6,.ot-sdk-cookie-policy p,.ot-sdk-cookie-policy li,.ot-sdk-cookie-policy a,.ot-sdk-cookie-policy th,.ot-sdk-cookie-policy #cookie-policy-description,.ot-sdk-cookie-policy .ot-sdk-cookie-policy-group,.ot-sdk-cookie-policy #cookie-policy-title{color:dimgray}.ot-sdk-cookie-policy #cookie-policy-description{margin-bottom:1em}.ot-sdk-cookie-policy h4{font-size:1.2em}.ot-sdk-cookie-policy h6{font-size:1em;margin-top:2em}.ot-sdk-cookie-policy th{min-width:75px}.ot-sdk-cookie-policy a,.ot-sdk-cookie-policy a:hover{background:#fff}.ot-sdk-cookie-policy thead{background-color:#f6f6f4;font-weight:bold}.ot-sdk-cookie-policy .ot-mobile-border{display:none}.ot-sdk-cookie-policy section{margin-bottom:2em}.ot-sdk-cookie-policy table{border-collapse:inherit}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy{font-family:inherit;font-size:1rem}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy h3,#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy h4,#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy h6,#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy p,#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy li,#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy a,#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy th,#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy #cookie-policy-description,#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy .ot-sdk-cookie-policy-group,#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy #cookie-policy-title{color:dimgray}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy #cookie-policy-description{margin-bottom:1em}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy .ot-sdk-subgroup{margin-left:1.5em}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy #cookie-policy-description,#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy .ot-sdk-cookie-policy-group-desc,#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy .ot-table-header,#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy a,#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy span,#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy td{font-size:.9em}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy td span,#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy td a{font-size:inherit}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy .ot-sdk-cookie-policy-group{font-size:1em;margin-bottom:.6em}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy .ot-sdk-cookie-policy-title{margin-bottom:1.2em}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy>section{margin-bottom:1em}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy th{min-width:75px}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy a,#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy a:hover{background:#fff}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy thead{background-color:#f6f6f4;font-weight:bold}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy .ot-mobile-border{display:none}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy section{margin-bottom:2em}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy .ot-sdk-subgroup ul li{list-style:disc;margin-left:1.5em}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy .ot-sdk-subgroup ul li h4{display:inline-block}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy table{border-collapse:inherit;margin:auto;border:1px solid #d7d7d7;border-radius:5px;border-spacing:initial;width:100%;overflow:hidden}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy table th,#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy table td{border-bottom:1px solid #d7d7d7;border-right:1px solid #d7d7d7}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy table tr:last-child td{border-bottom:0px}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy table tr th:last-child,#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy table tr td:last-child{border-right:0px}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy table .ot-host,#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy table .ot-cookies-type{width:25%}.ot-sdk-cookie-policy[dir=rtl]{text-align:left}#ot-sdk-cookie-policy h3{font-size:1.5em}@media only screen and (max-width: 530px){.ot-sdk-cookie-policy:not(#ot-sdk-cookie-policy-v2) table,.ot-sdk-cookie-policy:not(#ot-sdk-cookie-policy-v2) thead,.ot-sdk-cookie-policy:not(#ot-sdk-cookie-policy-v2) tbody,.ot-sdk-cookie-policy:not(#ot-sdk-cookie-policy-v2) th,.ot-sdk-cookie-policy:not(#ot-sdk-cookie-policy-v2) td,.ot-sdk-cookie-policy:not(#ot-sdk-cookie-policy-v2) tr{display:block}.ot-sdk-cookie-policy:not(#ot-sdk-cookie-policy-v2) thead tr{position:absolute;top:-9999px;left:-9999px}.ot-sdk-cookie-policy:not(#ot-sdk-cookie-policy-v2) tr{margin:0 0 1em 0}.ot-sdk-cookie-policy:not(#ot-sdk-cookie-policy-v2) tr:nth-child(odd),.ot-sdk-cookie-policy:not(#ot-sdk-cookie-policy-v2) tr:nth-child(odd) a{background:#f6f6f4}.ot-sdk-cookie-policy:not(#ot-sdk-cookie-policy-v2) td{border:none;border-bottom:1px solid #eee;position:relative;padding-left:50%}.ot-sdk-cookie-policy:not(#ot-sdk-cookie-policy-v2) td:before{position:absolute;height:100%;left:6px;width:40%;padding-right:10px}.ot-sdk-cookie-policy:not(#ot-sdk-cookie-policy-v2) .ot-mobile-border{display:inline-block;background-color:#e4e4e4;position:absolute;height:100%;top:0;left:45%;width:2px}.ot-sdk-cookie-policy:not(#ot-sdk-cookie-policy-v2) td:before{content:attr(data-label);font-weight:bold}.ot-sdk-cookie-policy:not(#ot-sdk-cookie-policy-v2) li{word-break:break-word;word-wrap:break-word}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy table{overflow:hidden}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy table td{border:none;border-bottom:1px solid #d7d7d7}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy table,#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy thead,#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy tbody,#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy th,#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy td,#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy tr{display:block}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy table .ot-host,#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy table .ot-cookies-type{width:auto}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy tr{margin:0 0 1em 0}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy td:before{height:100%;width:40%;padding-right:10px}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy td:before{content:attr(data-label);font-weight:bold}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy li{word-break:break-word;word-wrap:break-word}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy thead tr{position:absolute;top:-9999px;left:-9999px;z-index:-9999}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy table tr:last-child td{border-bottom:1px solid #d7d7d7;border-right:0px}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy table tr:last-child td:last-child{border-bottom:0px}}
                 
                     #ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy h5,
                     #ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy h6,
@@ -131,7 +133,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                             background-color: #F8F8F8;
                         }
                     
-            .ot-floating-button__front{background-image:url('https://cdn-ukwest.onetrust.com/logos/static/ot_persistent_cookie.png')}</style><meta http-equiv="origin-trial" content="A7CQXglZzTrThjGTBEn1rWTxHOEtkWivwzgea+NjyardrwlieSjVuyG44PkYgIPGs8Q9svD8sF3Yedn0BBBjXAkAAACFeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjk1MTY3OTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><meta http-equiv="origin-trial" content="A3vKT9yxRPjmXN3DpIiz58f5JykcWHjUo/W7hvmtjgh9jPpQgem9VbADiNovG8NkO6mRmk70Kex8/KUqAYWVWAEAAACLeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjk1MTY3OTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><meta http-equiv="origin-trial" content="A4A26Ymj79UVY7C7JGUS4BG1s7MdcDokAQf/RP0paks+RoTYbXHxceT/5L4iKcsleFCngi75YfNRGW2+SpVv1ggAAACLeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjk1MTY3OTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><meta http-equiv="origin-trial" content="As0hBNJ8h++fNYlkq8cTye2qDLyom8NddByiVytXGGD0YVE+2CEuTCpqXMDxdhOMILKoaiaYifwEvCRlJ/9GcQ8AAAB8eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3MTk1MzI3OTksImlzU3ViZG9tYWluIjp0cnVlfQ=="><meta http-equiv="origin-trial" content="AgRYsXo24ypxC89CJanC+JgEmraCCBebKl8ZmG7Tj5oJNx0cmH0NtNRZs3NB5ubhpbX/bIt7l2zJOSyO64NGmwMAAACCeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3MTk1MzI3OTksImlzU3ViZG9tYWluIjp0cnVlfQ=="><script src="./Royalty Free Music Download.blade_files/f(1).txt" async=""></script><script src="./Royalty Free Music Download.blade_files/pubcid.min.js.download"></script><script src="./Royalty Free Music Download.blade_files/sync.min.js.download"></script><script src="./Royalty Free Music Download.blade_files/id5-api.js.download"></script><script esp-signal="true" src="./Royalty Free Music Download.blade_files/ob.js.download"></script><script esp-signal="true" src="./Royalty Free Music Download.blade_files/esp.js.download"></script><script esp-signal="true" src="./Royalty Free Music Download.blade_files/publishertag.ids.js.download"></script><script esp-signal="true" src="./Royalty Free Music Download.blade_files/pubcid.min.js(1).download"></script><script esp-signal="true" src="./Royalty Free Music Download.blade_files/uid2SecureSignal.js.download"></script><script esp-signal="true" src="./Royalty Free Music Download.blade_files/esp.js(1).download"></script><script esp-signal="true" src="./Royalty Free Music Download.blade_files/sync.min.js(1).download"></script><script esp-signal="true" src="./Royalty Free Music Download.blade_files/encrypted-tag-g.js.download"></script><meta http-equiv="origin-trial" content="A15LsJSPgMV7w0Kc5TYHyc1UNzggyebBmE3sj4JP9UJSUVJgucSFQRyN470L3hnsTddsFRSgM695VmLGwBiFngwAAACAeyJvcmlnaW4iOiJodHRwczovL2NyaXRlby5uZXQ6NDQzIiwiZmVhdHVyZSI6IlByaXZhY3lTYW5kYm94QWRzQVBJcyIsImV4cGlyeSI6MTY5NTE2Nzk5OSwiaXNTdWJkb21haW4iOnRydWUsImlzVGhpcmRQYXJ0eSI6dHJ1ZX0="><meta http-equiv="origin-trial" content="AwnOWg2dzaxHPelVjqOT/Y02cSxnG2FkjXO7DlX9VZF0eyD0In8IIJ9fbDFZGXvxNvn6HaF51qFHycDGLOkj1AUAAACAeyJvcmlnaW4iOiJodHRwczovL2NyaXRlby5jb206NDQzIiwiZmVhdHVyZSI6IlByaXZhY3lTYW5kYm94QWRzQVBJcyIsImV4cGlyeSI6MTY5NTE2Nzk5OSwiaXNTdWJkb21haW4iOnRydWUsImlzVGhpcmRQYXJ0eSI6dHJ1ZX0="></head>
+            .ot-floating-button__front{background-image:url('https://cdn-ukwest.onetrust.com/logos/static/ot_persistent_cookie.png')}</style><meta http-equiv="origin-trial" content="A7CQXglZzTrThjGTBEn1rWTxHOEtkWivwzgea+NjyardrwlieSjVuyG44PkYgIPGs8Q9svD8sF3Yedn0BBBjXAkAAACFeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjk1MTY3OTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><meta http-equiv="origin-trial" content="A3vKT9yxRPjmXN3DpIiz58f5JykcWHjUo/W7hvmtjgh9jPpQgem9VbADiNovG8NkO6mRmk70Kex8/KUqAYWVWAEAAACLeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjk1MTY3OTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><meta http-equiv="origin-trial" content="A4A26Ymj79UVY7C7JGUS4BG1s7MdcDokAQf/RP0paks+RoTYbXHxceT/5L4iKcsleFCngi75YfNRGW2+SpVv1ggAAACLeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjk1MTY3OTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><meta http-equiv="origin-trial" content="As0hBNJ8h++fNYlkq8cTye2qDLyom8NddByiVytXGGD0YVE+2CEuTCpqXMDxdhOMILKoaiaYifwEvCRlJ/9GcQ8AAAB8eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3MTk1MzI3OTksImlzU3ViZG9tYWluIjp0cnVlfQ=="><meta http-equiv="origin-trial" content="AgRYsXo24ypxC89CJanC+JgEmraCCBebKl8ZmG7Tj5oJNx0cmH0NtNRZs3NB5ubhpbX/bIt7l2zJOSyO64NGmwMAAACCeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3MTk1MzI3OTksImlzU3ViZG9tYWluIjp0cnVlfQ=="><script src="./assets/f(1).txt" async=""></script><script src="./assets/pubcid.min.js.download"></script><script src="./assets/sync.min.js.download"></script><script src="./assets/id5-api.js.download"></script><script esp-signal="true" src="./assets/ob.js.download"></script><script esp-signal="true" src="./assets/esp.js.download"></script><script esp-signal="true" src="./assets/publishertag.ids.js.download"></script><script esp-signal="true" src="./assets/pubcid.min.js(1).download"></script><script esp-signal="true" src="./assets/uid2SecureSignal.js.download"></script><script esp-signal="true" src="./assets/esp.js(1).download"></script><script esp-signal="true" src="./assets/sync.min.js(1).download"></script><script esp-signal="true" src="./assets/encrypted-tag-g.js.download"></script><meta http-equiv="origin-trial" content="A15LsJSPgMV7w0Kc5TYHyc1UNzggyebBmE3sj4JP9UJSUVJgucSFQRyN470L3hnsTddsFRSgM695VmLGwBiFngwAAACAeyJvcmlnaW4iOiJodHRwczovL2NyaXRlby5uZXQ6NDQzIiwiZmVhdHVyZSI6IlByaXZhY3lTYW5kYm94QWRzQVBJcyIsImV4cGlyeSI6MTY5NTE2Nzk5OSwiaXNTdWJkb21haW4iOnRydWUsImlzVGhpcmRQYXJ0eSI6dHJ1ZX0="><meta http-equiv="origin-trial" content="AwnOWg2dzaxHPelVjqOT/Y02cSxnG2FkjXO7DlX9VZF0eyD0In8IIJ9fbDFZGXvxNvn6HaF51qFHycDGLOkj1AUAAACAeyJvcmlnaW4iOiJodHRwczovL2NyaXRlby5jb206NDQzIiwiZmVhdHVyZSI6IlByaXZhY3lTYW5kYm94QWRzQVBJcyIsImV4cGlyeSI6MTY5NTE2Nzk5OSwiaXNTdWJkb21haW4iOnRydWUsImlzVGhpcmRQYXJ0eSI6dHJ1ZX0="></head>
 <body class="flex min-h-screen flex-col overflow-y-scroll font-custom antialiased scroll-smooth">
 
     <script>
@@ -625,7 +627,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class="swiper-slide h-full w-1/4 shrink-0 swiper-slide-active" style="width: 163.25px; margin-right: 10px;">
                             <a href="https://www.videvo.net/royalty-free-music/blues/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
     <div class="absolute inset-0 z-10 flex items-center justify-center bg-black/80">
-        <img src="./Royalty Free Music Download.blade_files/Blues-182.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
+        <img src="./assets/Blues-182.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
         <p class="capitalize relative z-20 font-bold text-white text-center">Blues</p>
     </div>
 </a>
@@ -633,7 +635,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                                                 <div class="swiper-slide h-full w-1/4 shrink-0 swiper-slide-next" style="width: 163.25px; margin-right: 10px;">
                             <a href="https://www.videvo.net/royalty-free-music/children/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
     <div class="absolute inset-0 z-10 flex items-center justify-center bg-black/80">
-        <img src="./Royalty Free Music Download.blade_files/Children-183.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
+        <img src="./assets/Children-183.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
         <p class="capitalize relative z-20 font-bold text-white text-center">children</p>
     </div>
 </a>
@@ -641,7 +643,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                                                 <div class="swiper-slide h-full w-1/4 shrink-0" style="width: 163.25px; margin-right: 10px;">
                             <a href="https://www.videvo.net/royalty-free-music/classic-tv-&amp;-film-music/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
     <div class="absolute inset-0 z-10 flex items-center justify-center bg-black/80">
-        <img src="./Royalty Free Music Download.blade_files/Classic TV &amp; Film Music-184.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
+        <img src="./assets/Classic TV &amp; Film Music-184.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
         <p class="capitalize relative z-20 font-bold text-white text-center">Classic TV &amp; Film</p>
     </div>
 </a>
@@ -649,7 +651,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                                                 <div class="swiper-slide h-full w-1/4 shrink-0" style="width: 163.25px; margin-right: 10px;">
                             <a href="https://www.videvo.net/royalty-free-music/classical/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
     <div class="absolute inset-0 z-10 flex items-center justify-center bg-black/80">
-        <img src="./Royalty Free Music Download.blade_files/classical-185.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
+        <img src="./assets/classical-185.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
         <p class="capitalize relative z-20 font-bold text-white text-center">classical</p>
     </div>
 </a>
@@ -657,7 +659,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                                                 <div class="swiper-slide h-full w-1/4 shrink-0" style="width: 163.25px; margin-right: 10px;">
                             <a href="https://www.videvo.net/royalty-free-music/comedy/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
     <div class="absolute inset-0 z-10 flex items-center justify-center bg-black/80">
-        <img src="./Royalty Free Music Download.blade_files/Comedy &amp; Cartoon-186.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
+        <img src="./assets/Comedy &amp; Cartoon-186.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
         <p class="capitalize relative z-20 font-bold text-white text-center">Comedy</p>
     </div>
 </a>
@@ -665,7 +667,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                                                                                     <div class="swiper-slide h-full w-1/4 shrink-0" style="width: 163.25px; margin-right: 10px;">
                             <a href="https://www.videvo.net/royalty-free-music/country/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
     <div class="absolute inset-0 z-10 flex items-center justify-center bg-black/80">
-        <img src="./Royalty Free Music Download.blade_files/Country-188.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
+        <img src="./assets/Country-188.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
         <p class="capitalize relative z-20 font-bold text-white text-center">Country</p>
     </div>
 </a>
@@ -673,7 +675,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                                                                                                                         <div class="swiper-slide h-full w-1/4 shrink-0" style="width: 163.25px; margin-right: 10px;">
                             <a href="https://www.videvo.net/royalty-free-music/drama-&amp;-film-scores/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
     <div class="absolute inset-0 z-10 flex items-center justify-center bg-black/80">
-        <img src="./Royalty Free Music Download.blade_files/Drama &amp; Film Scores-191.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
+        <img src="./assets/Drama &amp; Film Scores-191.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
         <p class="capitalize relative z-20 font-bold text-white text-center">Drama &amp; Film Scores</p>
     </div>
 </a>
@@ -681,7 +683,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                                                 <div class="swiper-slide h-full w-1/4 shrink-0" style="width: 163.25px; margin-right: 10px;">
                             <a href="https://www.videvo.net/royalty-free-music/easy-listening/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
     <div class="absolute inset-0 z-10 flex items-center justify-center bg-black/80">
-        <img src="./Royalty Free Music Download.blade_files/Easy Listening-192_1606163777.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
+        <img src="./assets/Easy Listening-192_1606163777.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
         <p class="capitalize relative z-20 font-bold text-white text-center">Easy Listening</p>
     </div>
 </a>
@@ -689,7 +691,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                                                                                     <div class="swiper-slide h-full w-1/4 shrink-0" style="width: 163.25px; margin-right: 10px;">
                             <a href="https://www.videvo.net/royalty-free-music/jazz/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
     <div class="absolute inset-0 z-10 flex items-center justify-center bg-black/80">
-        <img src="./Royalty Free Music Download.blade_files/Jazz-194.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
+        <img src="./assets/Jazz-194.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
         <p class="capitalize relative z-20 font-bold text-white text-center">Jazz</p>
     </div>
 </a>
@@ -697,7 +699,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                                                                                     <div class="swiper-slide h-full w-1/4 shrink-0" style="width: 163.25px; margin-right: 10px;">
                             <a href="https://www.videvo.net/royalty-free-music/new-age/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
     <div class="absolute inset-0 z-10 flex items-center justify-center bg-black/80">
-        <img src="./Royalty Free Music Download.blade_files/New Age-196.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
+        <img src="./assets/New Age-196.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
         <p class="capitalize relative z-20 font-bold text-white text-center">new age</p>
     </div>
 </a>
@@ -705,7 +707,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                                                 <div class="swiper-slide h-full w-1/4 shrink-0" style="width: 163.25px; margin-right: 10px;">
                             <a href="https://www.videvo.net/royalty-free-music/military/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
     <div class="absolute inset-0 z-10 flex items-center justify-center bg-black/80">
-        <img src="./Royalty Free Music Download.blade_files/Patriotic &amp; Military-198_1606164006.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
+        <img src="./assets/Patriotic &amp; Military-198_1606164006.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
         <p class="capitalize relative z-20 font-bold text-white text-center">military</p>
     </div>
 </a>
@@ -713,7 +715,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                                                 <div class="swiper-slide h-full w-1/4 shrink-0" style="width: 163.25px; margin-right: 10px;">
                             <a href="https://www.videvo.net/royalty-free-music/retro-rock/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
     <div class="absolute inset-0 z-10 flex items-center justify-center bg-black/80">
-        <img src="./Royalty Free Music Download.blade_files/Retro Rock-199_1606164110.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
+        <img src="./assets/Retro Rock-199_1606164110.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
         <p class="capitalize relative z-20 font-bold text-white text-center">retro rock</p>
     </div>
 </a>
@@ -721,7 +723,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                                                 <div class="swiper-slide h-full w-1/4 shrink-0" style="width: 163.25px; margin-right: 10px;">
                             <a href="https://www.videvo.net/royalty-free-music/rock/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
     <div class="absolute inset-0 z-10 flex items-center justify-center bg-black/80">
-        <img src="./Royalty Free Music Download.blade_files/Rock-200.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
+        <img src="./assets/Rock-200.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
         <p class="capitalize relative z-20 font-bold text-white text-center">Rock</p>
     </div>
 </a>
@@ -729,7 +731,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                                                 <div class="swiper-slide h-full w-1/4 shrink-0" style="width: 163.25px; margin-right: 10px;">
                             <a href="https://www.videvo.net/royalty-free-music/romantic/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
     <div class="absolute inset-0 z-10 flex items-center justify-center bg-black/80">
-        <img src="./Royalty Free Music Download.blade_files/Romantic-201.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
+        <img src="./assets/Romantic-201.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
         <p class="capitalize relative z-20 font-bold text-white text-center">romantic</p>
     </div>
 </a>
@@ -737,7 +739,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                                                                                     <div class="swiper-slide h-full w-1/4 shrink-0" style="width: 163.25px; margin-right: 10px;">
                             <a href="https://www.videvo.net/royalty-free-music/solo-instrument/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
     <div class="absolute inset-0 z-10 flex items-center justify-center bg-black/80">
-        <img src="./Royalty Free Music Download.blade_files/-203_1614787776.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
+        <img src="./assets/-203_1614787776.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
         <p class="capitalize relative z-20 font-bold text-white text-center">solo instrument</p>
     </div>
 </a>
@@ -745,7 +747,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                                                 <div class="swiper-slide h-full w-1/4 shrink-0" style="width: 163.25px; margin-right: 10px;">
                             <a href="https://www.videvo.net/royalty-free-music/sports/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
     <div class="absolute inset-0 z-10 flex items-center justify-center bg-black/80">
-        <img src="./Royalty Free Music Download.blade_files/Sports-204.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
+        <img src="./assets/Sports-204.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
         <p class="capitalize relative z-20 font-bold text-white text-center">sports</p>
     </div>
 </a>
@@ -753,7 +755,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                                                                                     <div class="swiper-slide h-full w-1/4 shrink-0" style="width: 163.25px; margin-right: 10px;">
                             <a href="https://www.videvo.net/royalty-free-music/wedding/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
     <div class="absolute inset-0 z-10 flex items-center justify-center bg-black/80">
-        <img src="./Royalty Free Music Download.blade_files/-206_1614787741.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
+        <img src="./assets/-206_1614787741.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
         <p class="capitalize relative z-20 font-bold text-white text-center">Wedding</p>
     </div>
 </a>
@@ -761,7 +763,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                                                 <div class="swiper-slide h-full w-1/4 shrink-0" style="width: 163.25px; margin-right: 10px;">
                             <a href="https://www.videvo.net/royalty-free-music/world-music/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
     <div class="absolute inset-0 z-10 flex items-center justify-center bg-black/80">
-        <img src="./Royalty Free Music Download.blade_files/-207_1614787793.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
+        <img src="./assets/-207_1614787793.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
         <p class="capitalize relative z-20 font-bold text-white text-center">world music</p>
     </div>
 </a>
@@ -769,7 +771,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                                                 <div class="swiper-slide h-full w-1/4 shrink-0" style="width: 163.25px; margin-right: 10px;">
                             <a href="https://www.videvo.net/royalty-free-music/worship/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
     <div class="absolute inset-0 z-10 flex items-center justify-center bg-black/80">
-        <img src="./Royalty Free Music Download.blade_files/-208_1614787813.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
+        <img src="./assets/-208_1614787813.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
         <p class="capitalize relative z-20 font-bold text-white text-center">worship</p>
     </div>
 </a>
@@ -777,7 +779,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                                                 <div class="swiper-slide h-full w-1/4 shrink-0" style="width: 163.25px; margin-right: 10px;">
                             <a href="https://www.videvo.net/royalty-free-music/xtreme-rock/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
     <div class="absolute inset-0 z-10 flex items-center justify-center bg-black/80">
-        <img src="./Royalty Free Music Download.blade_files/-209_1614787759.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
+        <img src="./assets/-209_1614787759.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
         <p class="capitalize relative z-20 font-bold text-white text-center">xtreme rock</p>
     </div>
 </a>
@@ -809,7 +811,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class="swiper-slide h-full w-1/4 shrink-0 swiper-slide-active" style="width: 163.25px; margin-right: 10px;">
                             <a href="https://www.videvo.net/royalty-free-music/mood/happy/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
     <div class="absolute inset-0 z-10 flex items-center justify-center bg-black/80">
-        <img src="./Royalty Free Music Download.blade_files/Happy-2_1606348751.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
+        <img src="./assets/Happy-2_1606348751.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
         <p class="capitalize relative z-20 font-bold text-white text-center">Happy</p>
     </div>
 </a>
@@ -817,7 +819,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                                                 <div class="swiper-slide h-full w-1/4 shrink-0 swiper-slide-next" style="width: 163.25px; margin-right: 10px;">
                             <a href="https://www.videvo.net/royalty-free-music/mood/confident/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
     <div class="absolute inset-0 z-10 flex items-center justify-center bg-black/80">
-        <img src="./Royalty Free Music Download.blade_files/confident-3.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
+        <img src="./assets/confident-3.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
         <p class="capitalize relative z-20 font-bold text-white text-center">Confident</p>
     </div>
 </a>
@@ -825,7 +827,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                                                 <div class="swiper-slide h-full w-1/4 shrink-0" style="width: 163.25px; margin-right: 10px;">
                             <a href="https://www.videvo.net/royalty-free-music/mood/optimistic/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
     <div class="absolute inset-0 z-10 flex items-center justify-center bg-black/80">
-        <img src="./Royalty Free Music Download.blade_files/Optimistic-4.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
+        <img src="./assets/Optimistic-4.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
         <p class="capitalize relative z-20 font-bold text-white text-center">Optimistic</p>
     </div>
 </a>
@@ -833,7 +835,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                                                 <div class="swiper-slide h-full w-1/4 shrink-0" style="width: 163.25px; margin-right: 10px;">
                             <a href="https://www.videvo.net/royalty-free-music/mood/determined/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
     <div class="absolute inset-0 z-10 flex items-center justify-center bg-black/80">
-        <img src="./Royalty Free Music Download.blade_files/determined-5.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
+        <img src="./assets/determined-5.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
         <p class="capitalize relative z-20 font-bold text-white text-center">Determined</p>
     </div>
 </a>
@@ -841,7 +843,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                                                                                     <div class="swiper-slide h-full w-1/4 shrink-0" style="width: 163.25px; margin-right: 10px;">
                             <a href="https://www.videvo.net/royalty-free-music/mood/tender/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
     <div class="absolute inset-0 z-10 flex items-center justify-center bg-black/80">
-        <img src="./Royalty Free Music Download.blade_files/Tender-7.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
+        <img src="./assets/Tender-7.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
         <p class="capitalize relative z-20 font-bold text-white text-center">Tender</p>
     </div>
 </a>
@@ -849,7 +851,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                                                                                                                                                             <div class="swiper-slide h-full w-1/4 shrink-0" style="width: 163.25px; margin-right: 10px;">
                             <a href="https://www.videvo.net/royalty-free-music/mood/affectionate/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
     <div class="absolute inset-0 z-10 flex items-center justify-center bg-black/80">
-        <img src="./Royalty Free Music Download.blade_files/Affectionate-11.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
+        <img src="./assets/Affectionate-11.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
         <p class="capitalize relative z-20 font-bold text-white text-center">Affectionate</p>
     </div>
 </a>
@@ -857,7 +859,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                                                 <div class="swiper-slide h-full w-1/4 shrink-0" style="width: 163.25px; margin-right: 10px;">
                             <a href="https://www.videvo.net/royalty-free-music/mood/relaxed/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
     <div class="absolute inset-0 z-10 flex items-center justify-center bg-black/80">
-        <img src="./Royalty Free Music Download.blade_files/Relaxed-12.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
+        <img src="./assets/Relaxed-12.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
         <p class="capitalize relative z-20 font-bold text-white text-center">Relaxed</p>
     </div>
 </a>
@@ -865,7 +867,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                                                                                     <div class="swiper-slide h-full w-1/4 shrink-0" style="width: 163.25px; margin-right: 10px;">
                             <a href="https://www.videvo.net/royalty-free-music/mood/ambitious/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
     <div class="absolute inset-0 z-10 flex items-center justify-center bg-black/80">
-        <img src="./Royalty Free Music Download.blade_files/-14_1615470647.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
+        <img src="./assets/-14_1615470647.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
         <p class="capitalize relative z-20 font-bold text-white text-center">Ambitious</p>
     </div>
 </a>
@@ -873,7 +875,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                                                 <div class="swiper-slide h-full w-1/4 shrink-0" style="width: 163.25px; margin-right: 10px;">
                             <a href="https://www.videvo.net/royalty-free-music/mood/playful/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
     <div class="absolute inset-0 z-10 flex items-center justify-center bg-black/80">
-        <img src="./Royalty Free Music Download.blade_files/Playful-15.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
+        <img src="./assets/Playful-15.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
         <p class="capitalize relative z-20 font-bold text-white text-center">Playful</p>
     </div>
 </a>
@@ -881,7 +883,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                                                 <div class="swiper-slide h-full w-1/4 shrink-0" style="width: 163.25px; margin-right: 10px;">
                             <a href="https://www.videvo.net/royalty-free-music/mood/excited/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
     <div class="absolute inset-0 z-10 flex items-center justify-center bg-black/80">
-        <img src="./Royalty Free Music Download.blade_files/-16_1615470710.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
+        <img src="./assets/-16_1615470710.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
         <p class="capitalize relative z-20 font-bold text-white text-center">Excited</p>
     </div>
 </a>
@@ -889,7 +891,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                                                                                     <div class="swiper-slide h-full w-1/4 shrink-0" style="width: 163.25px; margin-right: 10px;">
                             <a href="https://www.videvo.net/royalty-free-music/mood/eerie/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
     <div class="absolute inset-0 z-10 flex items-center justify-center bg-black/80">
-        <img src="./Royalty Free Music Download.blade_files/-18_1615470986.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
+        <img src="./assets/-18_1615470986.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
         <p class="capitalize relative z-20 font-bold text-white text-center">Eerie</p>
     </div>
 </a>
@@ -897,7 +899,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                                                 <div class="swiper-slide h-full w-1/4 shrink-0" style="width: 163.25px; margin-right: 10px;">
                             <a href="https://www.videvo.net/royalty-free-music/mood/intense/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
     <div class="absolute inset-0 z-10 flex items-center justify-center bg-black/80">
-        <img src="./Royalty Free Music Download.blade_files/-19_1615470794.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
+        <img src="./assets/-19_1615470794.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
         <p class="capitalize relative z-20 font-bold text-white text-center">Intense</p>
     </div>
 </a>
@@ -905,7 +907,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                                                                                                                         <div class="swiper-slide h-full w-1/4 shrink-0" style="width: 163.25px; margin-right: 10px;">
                             <a href="https://www.videvo.net/royalty-free-music/mood/suspense/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
     <div class="absolute inset-0 z-10 flex items-center justify-center bg-black/80">
-        <img src="./Royalty Free Music Download.blade_files/Suspense-22_1606224795.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
+        <img src="./assets/Suspense-22_1606224795.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
         <p class="capitalize relative z-20 font-bold text-white text-center">Suspense</p>
     </div>
 </a>
@@ -913,7 +915,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                                                                                                                                                                                                                                     <div class="swiper-slide h-full w-1/4 shrink-0" style="width: 163.25px; margin-right: 10px;">
                             <a href="https://www.videvo.net/royalty-free-music/mood/brave/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
     <div class="absolute inset-0 z-10 flex items-center justify-center bg-black/80">
-        <img src="./Royalty Free Music Download.blade_files/-28_1615470661.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
+        <img src="./assets/-28_1615470661.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
         <p class="capitalize relative z-20 font-bold text-white text-center">Brave</p>
     </div>
 </a>
@@ -921,7 +923,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                                                 <div class="swiper-slide h-full w-1/4 shrink-0" style="width: 163.25px; margin-right: 10px;">
                             <a href="https://www.videvo.net/royalty-free-music/mood/strong/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
     <div class="absolute inset-0 z-10 flex items-center justify-center bg-black/80">
-        <img src="./Royalty Free Music Download.blade_files/Strong-29.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
+        <img src="./assets/Strong-29.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
         <p class="capitalize relative z-20 font-bold text-white text-center">Strong</p>
     </div>
 </a>
@@ -929,7 +931,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                                                 <div class="swiper-slide h-full w-1/4 shrink-0" style="width: 163.25px; margin-right: 10px;">
                             <a href="https://www.videvo.net/royalty-free-music/mood/proud/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
     <div class="absolute inset-0 z-10 flex items-center justify-center bg-black/80">
-        <img src="./Royalty Free Music Download.blade_files/Proud-30.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
+        <img src="./assets/Proud-30.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
         <p class="capitalize relative z-20 font-bold text-white text-center">Proud</p>
     </div>
 </a>
@@ -937,7 +939,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                                                                                                                         <div class="swiper-slide h-full w-1/4 shrink-0" style="width: 163.25px; margin-right: 10px;">
                             <a href="https://www.videvo.net/royalty-free-music/mood/nostalgic/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
     <div class="absolute inset-0 z-10 flex items-center justify-center bg-black/80">
-        <img src="./Royalty Free Music Download.blade_files/Nostalgic-33_1606224702.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
+        <img src="./assets/Nostalgic-33_1606224702.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
         <p class="capitalize relative z-20 font-bold text-white text-center">Nostalgic</p>
     </div>
 </a>
@@ -945,7 +947,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                                                                                     <div class="swiper-slide h-full w-1/4 shrink-0" style="width: 163.25px; margin-right: 10px;">
                             <a href="https://www.videvo.net/royalty-free-music/mood/joyous/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
     <div class="absolute inset-0 z-10 flex items-center justify-center bg-black/80">
-        <img src="./Royalty Free Music Download.blade_files/Joyous-35_1606224644.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
+        <img src="./assets/Joyous-35_1606224644.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
         <p class="capitalize relative z-20 font-bold text-white text-center">Joyous</p>
     </div>
 </a>
@@ -953,7 +955,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                                                                                     <div class="swiper-slide h-full w-1/4 shrink-0" style="width: 163.25px; margin-right: 10px;">
                             <a href="https://www.videvo.net/royalty-free-music/mood/funny/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
     <div class="absolute inset-0 z-10 flex items-center justify-center bg-black/80">
-        <img src="./Royalty Free Music Download.blade_files/-37_1615470730.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
+        <img src="./assets/-37_1615470730.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
         <p class="capitalize relative z-20 font-bold text-white text-center">Funny</p>
     </div>
 </a>
@@ -961,7 +963,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                                                 <div class="swiper-slide h-full w-1/4 shrink-0" style="width: 163.25px; margin-right: 10px;">
                             <a href="https://www.videvo.net/royalty-free-music/mood/action/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
     <div class="absolute inset-0 z-10 flex items-center justify-center bg-black/80">
-        <img src="./Royalty Free Music Download.blade_files/Action-38.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
+        <img src="./assets/Action-38.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
         <p class="capitalize relative z-20 font-bold text-white text-center">Action</p>
     </div>
 </a>
@@ -969,7 +971,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                                                 <div class="swiper-slide h-full w-1/4 shrink-0" style="width: 163.25px; margin-right: 10px;">
                             <a href="https://www.videvo.net/royalty-free-music/mood/aggressive/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
     <div class="absolute inset-0 z-10 flex items-center justify-center bg-black/80">
-        <img src="./Royalty Free Music Download.blade_files/-39_1615470614.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
+        <img src="./assets/-39_1615470614.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
         <p class="capitalize relative z-20 font-bold text-white text-center">Aggressive</p>
     </div>
 </a>
@@ -977,7 +979,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                                                                                                                         <div class="swiper-slide h-full w-1/4 shrink-0" style="width: 163.25px; margin-right: 10px;">
                             <a href="https://www.videvo.net/royalty-free-music/mood/tranquil/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
     <div class="absolute inset-0 z-10 flex items-center justify-center bg-black/80">
-        <img src="./Royalty Free Music Download.blade_files/Tranquil-42_1606224826.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
+        <img src="./assets/Tranquil-42_1606224826.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
         <p class="capitalize relative z-20 font-bold text-white text-center">Tranquil</p>
     </div>
 </a>
@@ -985,7 +987,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                                                                                                                         <div class="swiper-slide h-full w-1/4 shrink-0" style="width: 163.25px; margin-right: 10px;">
                             <a href="https://www.videvo.net/royalty-free-music/mood/inspiring/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
     <div class="absolute inset-0 z-10 flex items-center justify-center bg-black/80">
-        <img src="./Royalty Free Music Download.blade_files/-45_1615470745.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
+        <img src="./assets/-45_1615470745.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
         <p class="capitalize relative z-20 font-bold text-white text-center">Inspiring</p>
     </div>
 </a>
@@ -993,7 +995,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                                                                                                                                                                                                                                     <div class="swiper-slide h-full w-1/4 shrink-0" style="width: 163.25px; margin-right: 10px;">
                             <a href="https://www.videvo.net/royalty-free-music/mood/sad/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
     <div class="absolute inset-0 z-10 flex items-center justify-center bg-black/80">
-        <img src="./Royalty Free Music Download.blade_files/Sad-51_1606224766.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
+        <img src="./assets/Sad-51_1606224766.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
         <p class="capitalize relative z-20 font-bold text-white text-center">Sad</p>
     </div>
 </a>
@@ -1001,7 +1003,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                                                 <div class="swiper-slide h-full w-1/4 shrink-0" style="width: 163.25px; margin-right: 10px;">
                             <a href="https://www.videvo.net/royalty-free-music/mood/mystery/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
     <div class="absolute inset-0 z-10 flex items-center justify-center bg-black/80">
-        <img src="./Royalty Free Music Download.blade_files/Mystery-52_1606224673.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
+        <img src="./assets/Mystery-52_1606224673.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
         <p class="capitalize relative z-20 font-bold text-white text-center">Mystery</p>
     </div>
 </a>
@@ -1009,7 +1011,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 <div class="swiper-slide h-full w-1/4 shrink-0" style="width: 163.25px; margin-right: 10px;">
                             <a href="https://www.videvo.net/royalty-free-music/mood/epic/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
     <div class="absolute inset-0 z-10 flex items-center justify-center bg-black/80">
-        <img src="./Royalty Free Music Download.blade_files/-69_1615470695.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
+        <img src="./assets/-69_1615470695.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
         <p class="capitalize relative z-20 font-bold text-white text-center">Epic</p>
     </div>
 </a>
@@ -1033,7 +1035,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <!-- Sort by -->
             <div class="mb-6 mt-12 flex flex-wrap items-center justify-center gap-3">
                 <button :class="active === &#39;popular&#39; ? &#39;bg-blue-400 text-white&#39; : &#39;text-blue-400 hover:bg-gray-150&#39;" x-on:click="active = &#39;popular&#39;" class="flex h-9 items-center justify-center rounded-full px-5 font-bold bg-blue-400 text-white">Popular music</button>
-                <button :class="active === &#39;newest&#39; ? &#39;bg-blue-400 text-white&#39; : &#39;text-blue-400 hover:bg-gray-150&#39;" x-on:click="active = &#39;newest&#39;" class="flex h-9 items-center justify-center rounded-full px-5 font-bold text-blue-400 hover:bg-gray-150">Newest music</button>
+                <button :class=" active === &#39;newest&#39; ? &#39;bg-blue-400 text-white&#39; : &#39;text-blue-400 hover:bg-gray-150&#39;" x-on:click="active = &#39;newest&#39;" class="flex h-9 items-center justify-center rounded-full px-5 font-bold text-blue-400 hover:bg-gray-150">Newest music</button>
                 <button :class="active === &#39;random&#39; ? &#39;bg-blue-400 text-white&#39; : &#39;text-blue-400 hover:bg-gray-150&#39;" x-on:click="active = &#39;random&#39;" class="flex h-9 items-center justify-center rounded-full px-5 font-bold text-blue-400 hover:bg-gray-150">Surprise me</button>
             </div>
             <!-- / Sort by -->
@@ -1045,2760 +1047,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </div>
 
             <!-- List of resources -->
-            <div class="pt-4" x-show="active === &#39;popular&#39;">
-                                    <div class="-mx-4 mb-2 flex flex-col border-b border-gray-200 px-3 hover:bg-gray-150 lg:mx-0 lg:rounded lg:border-0 audio-row audio-player pb-2 md:pb-0" x-data="{ &#39;showInfo&#39;: false, showTooltip: false }">
-        <div class="flex items-center lg:min-h-20 flex-row lg:gap-4 flex-wrap lg:flex-no-wrap w-full">
-        <div class="flex items-center flex-grow lg:max-w-[380px] lg:min-w-[280px] md:order-1 lg:order-none">
-            <button class="relative mr-4 flex h-14 w-14 shrink-0 items-center justify-center bg-black z-20 button-play-pause" @click="window.audioHandler.handleAudioPlayPause($refs.audioElement221441); playing = playing === 221441 ? &#39;&#39; : 221441;">
-                <img src="./Royalty Free Music Download.blade_files/01-Going-Camping-FULL-SM377.png" class="absolute top-0 left-0 h-full w-full object-cover">
-                <svg x-bind:class="{ &#39;hidden&#39;: playing === 221441 }" class="fill-current relative z-10 h-8 w-8 text-white drop-shadow play-icon" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg"><path d="M14.4621 8.1418L4.15546 1.93628C3.85647 1.75624 3.48667 1.75457 3.18613 1.93178C2.88556 2.10904 2.7002 2.43817 2.7002 2.79451V15.2056C2.7002 15.5619 2.88556 15.891 3.18613 16.0683C3.33511 16.1562 3.50106 16.2 3.66705 16.2C3.83586 16.2 4.00471 16.1546 4.15546 16.0638L14.4621 9.85827C14.7584 9.67986 14.9405 9.35319 14.9405 9.00003C14.9405 8.64688 14.7584 8.32021 14.4621 8.1418Z"></path></svg>                <svg x-bind:class="{ &#39;hidden&#39;: playing !== 221441 }" class="fill-current relative z-10 h-12 w-12 text-white drop-shadow pause-icon hidden" width="54px" height="54px" viewBox="0 0 54 54" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>pause-button-white-sml</title>
-    <g id="pause-button-white-sml" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Group-2" transform="translate(14.000000, 14.000000)">
-            <path d="M8,0 C10.1421954,0 11.8910789,1.82429918 11.9951047,4.1170563 L12,4.33333333 L12,21.6666667 C12,23.9873783 10.3160315,25.8820021 8.19964034,25.9946968 L8,26 L4,26 C1.85780461,26 0.108921124,24.1757008 0.00489530723,21.8829437 L0,21.6666667 L0,4.33333333 C0,2.01262166 1.68396847,0.117997884 3.80035966,0.0053032495 L4,0 L8,0 Z M22,0 C24.1421954,0 25.8910789,1.82429918 25.9951047,4.1170563 L26,4.33333333 L26,21.6666667 C26,23.9873783 24.3160315,25.8820021 22.1996403,25.9946968 L22,26 L18,26 C15.8578046,26 14.1089211,24.1757008 14.0048953,21.8829437 L14,21.6666667 L14,4.33333333 C14,2.01262166 15.6839685,0.117997884 17.8003597,0.0053032495 L18,0 L22,0 Z" id="Combined-Shape" fill-opacity="0.4" fill="#000000"></path>
-            <path d="M4,2 L8,2 C9.1045695,2 10,2.8954305 10,4 L10,22 C10,23.1045695 9.1045695,24 8,24 L4,24 C2.8954305,24 2,23.1045695 2,22 L2,4 C2,2.8954305 2.8954305,2 4,2 Z M18,2 L22,2 C23.1045695,2 24,2.8954305 24,4 L24,22 C24,23.1045695 23.1045695,24 22,24 L18,24 C16.8954305,24 16,23.1045695 16,22 L16,4 C16,2.8954305 16.8954305,2 18,2 Z" id="Combined-Shape" fill="#FFFFFF"></path>
-        </g>
-    </g>
-</svg>                
-                <audio preload="none" x-ref="audioElement221441" x-on:ended="playing = &#39;&#39;" id="linkAudio-221441" class="listing-audio audio-element hidden">
-                                            <source src="https://cdn.videvo.net/videvo_files/audio/premium/audio0001/watermarked/01-Going-Camping-FULL-SM377_preview.mp3" type="audio/mp3">
-                                        Your browser does not support the audio element.
-                </audio>
-            </button>
-            <div class="flex min-w-0 max-w-[calc(100vw-104px)] flex-col lg:max-w-[280px]">
-                <a href="https://www.videvo.net/royalty-free-music-track/going-camping/221441/" class="mb-1 font-semibold leading-none text-gray-800 hover:underline overflow-hidden whitespace-nowrap text-ellipsis">Going Camping</a>
-                                    <a href="https://www.videvo.net/royalty-free-music-albums/easygoing-country-music/" class="mb-1 text-sm font-bold leading-none text-gray-400 hover:text-gray-600 overflow-hidden whitespace-nowrap text-ellipsis">
-                        Easygoing Country Music
-                    </a>
-                                <p class="w-full truncate text-sm text-gray-600 overflow-hidden whitespace-nowrap text-ellipsis">
-                    Country
-                    | Patient, Relaxed, Satisfied
-                </p>
-            </div>
-        </div>
-        <div class="flex lg:flex-1 items-center w-full h-[60px] max-h-[60px] lg:h-[84px] lg:max-h-[84px] md:grow-[2] md:basis-170% md:min-w-[300px] justify-start md:order-3 lg:order-none xs:my-3 md:my-0">
-            <div class="mr-4 flex-1 h-full w-full">
-                <div class="z-20 w-full h-full">
-                    <div class="waveform waveform-length-bpm h-full w-full relative min-h-[60px] max-h-[60px] lg:min-h-[84px] lg:max-h-[84px]">
-    <div class="waveform-image waveform-container h-full relative w-full overflow-hidden">
-        <canvas id="mainWaveformCanvas-listing-221441" @click="window.audioHandler.handleCanvasClick(event,$refs.audioElement221441);  if(playing === &#39;&#39; || playing !== 221441) { playing = 221441 }" class="js--audio-waveform-canvas belongs-listing h-[60px] lg:h-[84px] w-full max-w-full max-h-[60px] lg:max-h-[84px] absolute top-0 left-0" data-waveformjson="{&quot;margin&quot;:{&quot;low&quot;:0,&quot;high&quot;:250},&quot;heights&quot;:[0,0,109,70,93,117,117,97,108,120,85,100,37,70,107,53,41,68,57,119,57,108,75,121,76,84,56,116,73,111,89,98,65,95,60,67,109,55,74,113,89,93,121,119,115,65,89,109,89,100,113,95,102,65,95,78,115,94,106,65,112,75,102,105,98,100,75,95,70,113,100,111,111,121,110,118,87,120,67,80,73,104,81,82,47,119,77,89,65,111,88,72,87,62,119,65,88,66,116,81,103,77,116,115,111,119,121,100,120,114,116,59,100,85,111,111,107,63,108,119,75,103,78,115,83,91,70,119,55,103,65,121,51,95,83,119,73,95,86,113,66,84,65,113,96,63,37,24,20,21,38,64,115,72,83,72,77,73,77,56,119,59,52,88,60,57,45,36,119,68,91,95,120,108,100,111,109,119,77,96,81,120,73,118,64,122,72,85,89,71,107,89,71,118,71,82,104,79,61,61,53,108,117,80,96,84,121,91,80,75,112,93,104,62,118,96,90,68,108,64,109,85,119,86,91,96,114,72,82,85,88,116,81,104,53,112,80,110,74,119,74,101,57,116,47,90,66,114,108,120,68,104,115,115,112,120,99,118,121,116,121,77,90,77,121,110,96,54,120,93,104,58,122,72,76,63,115,51,81,64,115,60,86,56,116,111,98,88,94,110,114,120,104,120,86,66,57,87,36,44,51,115,71,60,84,71,92,97,70,107,49,63,75,59,41,42,53,55,119,58,85,73,118,69,104,66,120,73,86,52,119,44,100,42,122,89,79,85,67,55,63,58,75,116,58,62,72,37,35,30,29,117,107,106,100,119,99,117,107,121,86,97,66,120,55,75,91,95,87,113,122,118,121,116,118,99,120,63,88,98,114,110,99,68,114,90,102,81,106,70,112,88,113,74,101,74,100,81,87,95,69,112,99,111,111,120,110,118,87,120,67,80,74,104,81,83,47,119,77,89,65,111,88,73,87,62,118,65,89,67,116,82,103,76,115,115,111,119,121,100,120,114,116,59,100,84,111,110,104,61,108,119,76,102,78,115,83,89,70,118,46,102,66,121,51,94,83,119,73,94,86,113,66,84,66,113,96,57,37,24,20,21,38,61,115,72,83,73,76,73,76,52,119,59,53,87,60,58,46,36,120,67,91,94,120,108,103,111,109,119,77,95,80,121,73,121,64,122,70,85,88,71,107,89,72,118,71,82,105,79,61,62,53,117,100,80,95,84,120,91,80,75,112,93,105,62,118,97,91,68,108,64,110,84,119,86,92,96,114,71,85,69,116,85,81,104,53,111,81,111,74,118,74,101,57,116,47,90,66,115,109,120,65,104,116,115,112,120,87,118,121,106,120,82,88,78,122,110,95,50,120,93,105,58,122,72,76,63,116,51,80,64,115,60,87,56,116,109,98,88,95,111,116,118,107,120,86,66,50,87,36,44,50,115,71,60,84,71,92,97,70,107,48,63,75,59,41,42,54,55,119,58,84,73,118,69,105,66,121,73,86,52,119,44,99,42,123,89,78,85,67,55,63,58,116,112,62,60,72,37,35,30,29,117,107,106,100,119,100,117,107,121,86,97,66,120,55,75,91,94,88,114,122,121,117,115,118,100,119,63,90,98,113,110,101,68,114,90,101,81,106,70,112,88,113,74,101,72,121,108,101,107,71,100,77,109,100,122,94,109,97,115,73,90,98,120,106,100,70,120,96,110,90,104,73,76,68,110,116,87,85,72,112,65,102,94,108,114,72,57,119,96,118,74,104,71,62,55,34,30,25,8,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}" width="536" height="84"></canvas>
-        <div class="blue-waveform-container absolute top-0 left-0 h-full w-0 overflow-hidden pointer-events-none" style="width: 0px;">
-            <div class="overlay absolute top-0 right-0 h-full opacity-50 w-[4px] bg-overlayBlue-500"></div>
-        </div>
-    </div>
-</div>
-                </div>
-            </div>
-            <div>
-                <p class="mb-1 text-sm font-bold leading-none text-gray-600">
-                    02:39
-                </p>
-                                    <p class="text-sm font-bold leading-none text-gray-600">73 BPM</p>
-                            </div>
-        </div>
-        <div class="flex w-full items-center justify-between lg:w-auto md:gap-4 basis-full md:basis-0 grow-0 md:order-2 lg:order-none">
-            <span class="relative inline-flex" x-on:mouseover="showTooltip = true" x-on:mouseleave="showTooltip = false">
-                <button x-on:click="showInfo = ! showInfo">
-                    <svg class="fill-current h-6 w-6 text-gray-700 hover:text-gray-900" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M2.34313 13.6569C3.85416 15.1678 5.86313 16 8 16C10.1369 16 12.1458 15.1678 13.6569 13.6569C15.1678 12.1458 16 10.1369 16 8C16 5.86313 15.1678 3.85416 13.6569 2.34313C12.1458 0.832156 10.1369 0 8 0C5.86313 0 3.85416 0.832156 2.34313 2.34313C0.832156 3.85416 0 5.86313 0 8C0 10.1369 0.832156 12.1458 2.34313 13.6569ZM1.5625 8C1.5625 4.45034 4.45034 1.5625 8 1.5625C11.5497 1.5625 14.4375 4.45034 14.4375 8C14.4375 11.5497 11.5497 14.4375 8 14.4375C4.45034 14.4375 1.5625 11.5497 1.5625 8ZM8.3125 12.5625C7.88103 12.5625 7.53125 12.2127 7.53125 11.7812V7.8125H6.75C6.31853 7.8125 5.96875 7.46272 5.96875 7.03125C5.96875 6.59978 6.31853 6.25 6.75 6.25H8.3125C8.74397 6.25 9.09375 6.59978 9.09375 7.03125V11.7812C9.09375 12.2127 8.74397 12.5625 8.3125 12.5625ZM7.0625 4.375C7.0625 4.89194 7.48306 5.3125 8 5.3125C8.51694 5.3125 8.9375 4.89194 8.9375 4.375C8.9375 3.85806 8.51694 3.4375 8 3.4375C7.48306 3.4375 7.0625 3.85806 7.0625 4.375Z"></path></svg>                </button>
-                <div x-show="showTooltip" class="tooltip max-md:!hidden" style="display: none;">
-    More Info
-</div>
-             </span>
-
-            <div>
-                <div wire:id="A4GenXBHQUQkCHsEpMBO" class="flex relative z-40" x-data="{ isClipInAnyUserCollection: $wire.entangle(&#39;isClipInAnyUserCollection&#39;), mode: $wire.entangle(&#39;mode&#39;), showModal: $wire.entangle(&#39;showModal&#39;), hidden: $wire.entangle(&#39;hidden&#39;), showTooltip: false}">
-    <span class="relative inline-flex" x-on:mouseover="showTooltip = true" x-on:mouseleave="showTooltip = false">
-        <button class="relative add-to-collection-button overflow-hidden" wire:click.stop.prevent="toggleModal()">
-            <svg x-bind:class="{&#39;text-white&#39;: mode == &#39;light&#39;, &#39;not-added&#39;: !isClipInAnyUserCollection, &#39;!translate-y-0&#39;: !hidden}" x-show="!isClipInAnyUserCollection" class="fill-current h-6 w-6 text-gray-700 outline-none translate-y-8 not-added !translate-y-0" xmlns="http://www.w3.org/2000/svg" fill="currentColor" stroke="none" viewBox="0 0 24 24"><path d="M20 2H8c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2V4c0-1.103-.897-2-2-2zM8 16V4h12l.002 12H8z"></path><path d="M4 8H2v12c0 1.103.897 2 2 2h12v-2H4V8zm11-2h-2v3h-3v2h3v3h2v-3h3V9h-3z"></path></svg>            <svg x-show="isClipInAnyUserCollection" class="fill-current h-6 w-6 text-[#198ACF] outline-none" xmlns="http://www.w3.org/2000/svg" fill="currentColor" stroke="none" viewBox="0 0 24 24" style="display: none;"><path d="M4 22h12v-2H4V8H2v12c0 1.103.897 2 2 2z"></path><path d="M20 2H8c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2V4c0-1.103-.897-2-2-2zm-2 9h-3v3h-2v-3h-3V9h3V6h2v3h3v2z"></path></svg>        </button>
-        <div x-show="showTooltip" class="tooltip max-md:!hidden" style="display: none;">
-    Add to Collections
-</div>
-     </span>
-    <div x-show="showModal" style="display: none;">
-        <div class="modal-wrapper-add-to-collection flex flex-col items-center justify-center absolute bottom-0 right-[-15px] z-60 cursor-auto min-w-[300px] rounded-lg " style="transform: translateY(100%) translateY(10px);">
-            <div class="flex flex-col bg-white fixed top-0 left-0 md:relative md:rounded-lg md:shadow-lg h-full md:h-auto p-4 w-full" @click.outside="showModal = false;">
-                <div class="flex justify-start relative md:justify-between items-center ">
-                    <p class="text-lg font-bold text-[#2b2b2b]">Add to collection</p>
-                    <a href="https://www.videvo.net/my-collections/" class="ml-4 md:ml-0 text-sm text-gray-500 hover:text-gray-700">Manage</a>
-                    <div class="w-10 h-10 flex items-center justify-center absolute top-0 right-0 md:hidden close-modal w-6 text-2xl text-gray-600 leading-4 font-bold text-right" @click.stop.prevent="showModal = false; window.clipActions?.closeAllModals();"></div>
-                </div>
-                <div class="flex justify-start w-full">
-                    <div wire:id="66pPfJZNHWDgYrGIVAKV" class="flex py-2 relative h-[56px] item-center" x-data="{showForm: false, showResponse: false, timeoutToggle: false}">
-    <template x-if="showResponse"></template>
-    <div class="cursor-pointer text-base text-[#1b95e0] bold h-full order-2 flex items-center" @click="showForm = !showForm" x-show="!showForm">
-        <svg class="fill-current w-7 h-7 mr-[10px]" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
-    <path fill="#1B95E0" fill-rule="evenodd" d="M14 7c.552 0 1 .448 1 1v5h5c.552 0 1 .448 1 1s-.448 1-1 1h-5v5c0 .552-.448 1-1 1s-1-.448-1-1v-5H8c-.552 0-1-.448-1-1s.448-1 1-1h5V8c0-.552.448-1 1-1z"></path>
-</svg>        Create new collection
-    </div>
-    <form x-show="showForm" class="flex space-between items-center border border-[#1b95e0] justify-items-stretch rounded-sm overflow-hidden h-full" wire:submit.prevent="addUserCollection" style="display: none;">
-        <input class="px-2 border-0 outline-0 h-full" placeholder="Add collection name" type="text" wire:model="collectionName">
-        <button type="submit" @click="window.clipActions?.closeAllModals(); showResponse = true; setTimeout(() =&gt; {showResponse = false; }, 3000); showForm = !showForm" class="h-full leading-10 bg-gray-100 text-blue-600 text-base font-bold text-center min-w-[60px]">Add</button>
-    </form>
-
-</div>
-<!-- Livewire Component wire-end:66pPfJZNHWDgYrGIVAKV -->                </div>
-                <div class="flex flex-col grow overflow-auto relative md:max-h-[calc(46px*3.5)] max-md:max-h[calc(100vh-100px)] transition duration-150" x-data="{selectedCollections:  [],}">
-                                        <div class="m:h-[80px] flex items-center justify-between fixed py-3 md:py-3 left-0 px-4 bottom-0 left-0 w-full md:!hidden" style="box-shadow: 0 -2px 0 0 rgb(0 0 0 / 10%);">
-                        <a x-on:click="showModal = false; window.clipActions?.closeAllModals();" class="pt-3 pb-3 pr-6 pl-6 font-bold text-base rounded-lg text-blue-600 bg-[#ececec]">Cancel</a>
-                        <a x-on:click="showModal = false; window.clipActions?.closeAllModals(); $wire.toggleClipInUserCollections(selectedCollections)" class="pt-3 pb-3 pr-6 pl-6 font-bold text-base rounded-lg bg-blue-600 text-white">Apply</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Livewire Component wire-end:A4GenXBHQUQkCHsEpMBO -->            </div>
-            <div>
-                <div wire:id="oFjtSguUwnT9hP79I5xp" class="flex" x-data="{ isFavorite: $wire.entangle(&#39;isFavorite&#39;), mode: $wire.entangle(&#39;mode&#39;), hidden: $wire.entangle(&#39;hidden&#39;), showTooltip: false }">
-    <span class="relative inline-flex" x-on:mouseover="showTooltip = true" x-on:mouseleave="showTooltip = false">
-        <button class="text-gray-700 hover:text-gray-900 overflow-hidden toggle-favorite" wire:key="clip-221441" wire:click.stop.prevent="toggleFavorite();">
-            <svg x-bind:class="{&#39;text-white&#39;: mode == &#39;light&#39;, &#39;not-added&#39;: !isFavorite, &#39;!translate-y-0&#39;: !hidden}" x-show="!isFavorite" class="fill-current h-6 w-6 outline-none translate-y-8 not-added !translate-y-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" fill="none"><path d="M5.40956 2.51538C4.45258 1.76408 3.08107 1.83357 2.20944 2.72795C1.25976 3.7024 1.26439 5.28574 2.2182 6.26443L5.74895 9.8873C5.8954 10.0376 6.13284 10.0376 6.27929 9.8873L9.7917 6.28538C10.7392 5.30775 10.7362 3.72885 9.7822 2.74999C8.90375 1.84862 7.52809 1.77191 6.57265 2.52393C6.48883 2.58991 6.40825 2.66226 6.33151 2.74099L5.99605 3.08587L5.65599 2.73693C5.57761 2.65651 5.49525 2.58265 5.40956 2.51538ZM7.04767 3.43893C7.60289 2.86945 8.49943 2.86653 9.06605 3.44793C9.64336 4.04031 9.64309 5.00077 9.07454 5.58846L9.0736 5.58943L6.01425 8.72674L2.93435 5.56648C2.3556 4.97264 2.35777 4.00853 2.92559 3.42589C3.4791 2.85794 4.37486 2.85516 4.93984 3.43488L5.2799 3.78381C5.46824 3.97706 5.72669 4.086 5.99654 4.08587C6.26638 4.08574 6.52472 3.97655 6.71288 3.78312L7.04767 3.43893Z" fill="currentColor"></path></svg>            <svg x-show="isFavorite" class="fill-current h-6 w-6 text-red-700 outline-none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" fill="none" style="display: none;"><path d="M5.65599 2.73693C4.70219 1.75824 3.15912 1.75349 2.20944 2.72795C1.25976 3.7024 1.26439 5.28574 2.2182 6.26443L5.74895 9.8873C5.8954 10.0376 6.13284 10.0376 6.27929 9.8873L9.7917 6.28538C10.7392 5.30775 10.7362 3.72885 9.7822 2.74999C8.82669 1.76955 7.28289 1.76479 6.33151 2.74099L5.99605 3.08587L5.65599 2.73693Z" fill="currentColor"></path></svg>        </button>
-        <div x-show="showTooltip" class="tooltip max-md:!hidden" style="display: none;">
-    Add to Favorites
-</div>
-     </span>
-</div>
-
-<!-- Livewire Component wire-end: -->            </div>
-                        <span class="w-[44px] flex justify-center">
-                <svg data-cy="premium-icon" class="fill-current h-6 w-6 text-orange-600" viewBox="-120 0 512 512.00115" xmlns="http://www.w3.org/2000/svg"><path d="m270.214844 180.054688c-2.628906-4.816407-7.679688-7.816407-13.167969-7.816407h-54.425781l24.753906-154.871093c1.082031-6.773438-2.570312-13.417969-8.867188-16.136719-6.292968-2.71875-13.640624-.820313-17.828124 4.613281l-197.5625 256.398438c-3.488282 4.527343-4.097657 10.644531-1.578126 15.777343 2.523438 5.128907 7.746094 8.378907 13.460938 8.378907h85.816406l-57.566406 206.574218c-1.992188 7.144532 1.539062 14.675782 8.304688 17.710938 1.988281.890625 4.074218 1.316406 6.136718 1.316406 4.96875 0 9.78125-2.476562 12.621094-6.882812l199.351562-309.761719c2.96875-4.613281 3.179688-10.484375.550782-15.300781zm0 0"></path></svg>            </span>
-                        <a href="https://www.videvo.net/royalty-free-music-track/going-camping/221441/" class="flex h-9 items-center justify-center rounded-lg bg-blue-400 px-5 font-bold text-white">
-                <svg class="fill-current mr-2 h-4 w-4" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M8 12.2188C7.79281 12.2188 7.59409 12.1364 7.44756 11.9899L4.79594 9.33828C4.49084 9.03319 4.49084 8.53853 4.79594 8.23344C5.10103 7.92834 5.59566 7.92834 5.90078 8.23344L7.21875 9.55141V0.78125C7.21875 0.349781 7.56853 0 8 0C8.43147 0 8.78125 0.349781 8.78125 0.78125V9.55141L10.0992 8.23344C10.4043 7.92834 10.899 7.92834 11.2041 8.23344C11.5092 8.53853 11.5092 9.03319 11.2041 9.33828L8.55244 11.9899C8.40591 12.1364 8.20722 12.2188 8 12.2188ZM14.4375 8.78125C14.4375 8.34978 14.7872 8 15.2188 8C15.6503 8 16 8.34978 16 8.78125V12.9688C16 14.4334 14.8084 15.625 13.3438 15.625H2.65625C1.19159 15.625 0 14.4334 0 12.9688V8.78125C0 8.34978 0.349781 8 0.78125 8C1.21272 8 1.5625 8.34978 1.5625 8.78125V12.9688C1.5625 13.5718 2.05316 14.0625 2.65625 14.0625H13.3438C13.9468 14.0625 14.4375 13.5718 14.4375 12.9688V8.78125Z"></path>
-</svg>                Download
-            </a>
-        </div>
-    </div>
-    <div x-show="showInfo" class="grid grid-cols-3 border-t border-gray-250 p-2 text-sm" style="display: none;">
-                    <div class="border-r border-gray-250 py-2 px-4">
-                <p class="font-bold text-gray-600">Genre</p>
-                                    <a href="https://www.videvo.net/royalty-free-music/country/" class="font-bold text-gray-900 hover:underline">Country</a>                                            </div>
-            <div class="border-r border-gray-250 py-2 px-4">
-                <p class="font-bold text-gray-600">Mood</p>
-                                    <a href="https://www.videvo.net/royalty-free-music/mood/patient/" class="font-bold text-gray-900 hover:underline">Patient</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/relaxed/" class="font-bold text-gray-900 hover:underline">Relaxed</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/satisfied/" class="font-bold text-gray-900 hover:underline">Satisfied</a>                                            </div>
-            <div class="py-2 px-4">
-                <p class="font-bold text-gray-600">Instrumentation</p>
-                                    <a href="https://www.videvo.net/royalty-free-music/instrument/guitar/" class="font-bold text-gray-900 hover:underline">Guitar</a>,                                     <a href="https://www.videvo.net/royalty-free-music/instrument/harmonica/" class="font-bold text-gray-900 hover:underline">Harmonica</a>,                                     <a href="https://www.videvo.net/royalty-free-music/instrument/banjo/" class="font-bold text-gray-900 hover:underline">Banjo</a>                                            </div>
-        
-    </div>
-</div>
-                                    <div class="-mx-4 mb-2 flex flex-col border-b border-gray-200 px-3 hover:bg-gray-150 lg:mx-0 lg:rounded lg:border-0 audio-row audio-player pb-2 md:pb-0" x-data="{ &#39;showInfo&#39;: false, showTooltip: false }">
-        <div class="flex items-center lg:min-h-20 flex-row lg:gap-4 flex-wrap lg:flex-no-wrap w-full">
-        <div class="flex items-center flex-grow lg:max-w-[380px] lg:min-w-[280px] md:order-1 lg:order-none">
-            <button class="relative mr-4 flex h-14 w-14 shrink-0 items-center justify-center bg-black z-20 button-play-pause" @click="window.audioHandler.handleAudioPlayPause($refs.audioElement233198); playing = playing === 233198 ? &#39;&#39; : 233198;">
-                <img src="./images/music.jpg" class="absolute top-0 left-0 h-full w-full object-cover">
-                <svg x-bind:class="{ &#39;hidden&#39;: playing === 233198 }" class="fill-current relative z-10 h-8 w-8 text-white drop-shadow play-icon" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg"><path d="M14.4621 8.1418L4.15546 1.93628C3.85647 1.75624 3.48667 1.75457 3.18613 1.93178C2.88556 2.10904 2.7002 2.43817 2.7002 2.79451V15.2056C2.7002 15.5619 2.88556 15.891 3.18613 16.0683C3.33511 16.1562 3.50106 16.2 3.66705 16.2C3.83586 16.2 4.00471 16.1546 4.15546 16.0638L14.4621 9.85827C14.7584 9.67986 14.9405 9.35319 14.9405 9.00003C14.9405 8.64688 14.7584 8.32021 14.4621 8.1418Z"></path></svg>                <svg x-bind:class="{ &#39;hidden&#39;: playing !== 233198 }" class="fill-current relative z-10 h-12 w-12 text-white drop-shadow pause-icon hidden" width="54px" height="54px" viewBox="0 0 54 54" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>pause-button-white-sml</title>
-    <g id="pause-button-white-sml" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Group-2" transform="translate(14.000000, 14.000000)">
-            <path d="M8,0 C10.1421954,0 11.8910789,1.82429918 11.9951047,4.1170563 L12,4.33333333 L12,21.6666667 C12,23.9873783 10.3160315,25.8820021 8.19964034,25.9946968 L8,26 L4,26 C1.85780461,26 0.108921124,24.1757008 0.00489530723,21.8829437 L0,21.6666667 L0,4.33333333 C0,2.01262166 1.68396847,0.117997884 3.80035966,0.0053032495 L4,0 L8,0 Z M22,0 C24.1421954,0 25.8910789,1.82429918 25.9951047,4.1170563 L26,4.33333333 L26,21.6666667 C26,23.9873783 24.3160315,25.8820021 22.1996403,25.9946968 L22,26 L18,26 C15.8578046,26 14.1089211,24.1757008 14.0048953,21.8829437 L14,21.6666667 L14,4.33333333 C14,2.01262166 15.6839685,0.117997884 17.8003597,0.0053032495 L18,0 L22,0 Z" id="Combined-Shape" fill-opacity="0.4" fill="#000000"></path>
-            <path d="M4,2 L8,2 C9.1045695,2 10,2.8954305 10,4 L10,22 C10,23.1045695 9.1045695,24 8,24 L4,24 C2.8954305,24 2,23.1045695 2,22 L2,4 C2,2.8954305 2.8954305,2 4,2 Z M18,2 L22,2 C23.1045695,2 24,2.8954305 24,4 L24,22 C24,23.1045695 23.1045695,24 22,24 L18,24 C16.8954305,24 16,23.1045695 16,22 L16,4 C16,2.8954305 16.8954305,2 18,2 Z" id="Combined-Shape" fill="#FFFFFF"></path>
-        </g>
-    </g>
-</svg>                
-                <audio preload="none" x-ref="audioElement233198" x-on:ended="playing = &#39;&#39;" id="linkAudio-233198" class="listing-audio audio-element hidden">
-                                            <source src="https://cdn.videvo.net/videvo_files/audio/premium/audio0195/watermarked/Where-to-Go-Today_60_FIL018201_preview.mp3" type="audio/mp3">
-                                        Your browser does not support the audio element.
-                </audio>
-            </button>
-            <div class="flex min-w-0 max-w-[calc(100vw-104px)] flex-col lg:max-w-[280px]">
-                <a href="https://www.videvo.net/royalty-free-music-track/where-to-go-today-60s/233198/" class="mb-1 font-semibold leading-none text-gray-800 hover:underline overflow-hidden whitespace-nowrap text-ellipsis">Where to Go Today - 60s</a>
-                                    <a href="https://www.videvo.net/royalty-free-music-albums/falling-in-love/" class="mb-1 text-sm font-bold leading-none text-gray-400 hover:text-gray-600 overflow-hidden whitespace-nowrap text-ellipsis">
-                        Falling in Love
-                    </a>
-                                <p class="w-full truncate text-sm text-gray-600 overflow-hidden whitespace-nowrap text-ellipsis">
-                    Easy Listening Children Romantic
-                    | Affectionate, Anticipating, Children, Innocent, Jingle, Nostalgic, Patient, Playful, Relaxed, Romantic, Tender, Tranquil
-                </p>
-            </div>
-        </div>
-        <div class="flex lg:flex-1 items-center w-full h-[60px] max-h-[60px] lg:h-[84px] lg:max-h-[84px] md:grow-[2] md:basis-170% md:min-w-[300px] justify-start md:order-3 lg:order-none xs:my-3 md:my-0">
-            <div class="mr-4 flex-1 h-full w-full">
-                <div class="z-20 w-full h-full">
-                    <div class="waveform waveform-length-bpm h-full w-full relative min-h-[60px] max-h-[60px] lg:min-h-[84px] lg:max-h-[84px]">
-    <div class="waveform-image waveform-container h-full relative w-full overflow-hidden">
-        <canvas id="mainWaveformCanvas-listing-233198" @click="window.audioHandler.handleCanvasClick(event,$refs.audioElement233198);  if(playing === &#39;&#39; || playing !== 233198) { playing = 233198 }" class="js--audio-waveform-canvas belongs-listing h-[60px] lg:h-[84px] w-full max-w-full max-h-[60px] lg:max-h-[84px] absolute top-0 left-0" data-waveformjson="{&quot;margin&quot;:{&quot;low&quot;:0,&quot;high&quot;:250},&quot;heights&quot;:[30,29,20,28,17,14,40,23,15,13,9,14,10,9,7,8,18,16,11,38,38,24,13,10,8,6,4,5,5,5,6,6,6,5,4,4,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,47,53,22,49,39,27,29,20,22,18,13,22,16,20,13,12,29,26,21,35,31,40,28,25,41,30,33,31,17,23,12,13,11,14,27,29,18,50,45,23,18,13,12,12,9,6,7,8,7,7,6,6,5,5,6,6,6,6,5,4,4,4,4,3,3,2,3,3,2,3,2,3,3,2,57,35,21,58,33,44,28,24,34,17,19,16,18,25,29,44,44,62,61,44,34,43,26,20,34,19,16,13,13,29,20,16,11,11,7,7,7,9,9,8,8,6,6,5,4,3,4,4,4,5,5,5,4,4,3,2,2,2,3,19,14,59,48,30,62,29,25,17,14,58,61,50,45,30,22,31,35,28,25,23,13,42,34,17,14,12,14,14,14,13,12,7,5,5,5,4,4,5,5,3,5,5,4,3,4,5,5,5,5,5,5,4,4,4,54,40,27,58,25,18,55,31,23,15,11,45,25,22,24,21,17,31,25,18,17,15,23,22,17,18,20,15,11,7,6,7,6,6,5,5,4,5,5,5,5,5,4,4,3,4,3,3,3,3,3,2,2,49,16,36,53,26,33,25,16,15,13,39,48,35,33,39,30,25,28,22,19,14,12,14,18,15,15,15,13,11,10,8,8,7,7,5,5,6,8,8,9,8,7,7,8,8,8,8,7,6,6,6,5,5,5,20,42,26,25,27,15,49,31,27,24,19,26,25,27,24,15,12,12,8,9,15,10,8,7,8,8,8,7,6,5,3,3,2,3,4,5,4,4,4,4,3,3,3,3,3,3,4,3,3,3,2,3,2,2,2,2,2,2,2,2,2,2,2,46,29,39,23,18,47,30,27,31,25,19,36,26,23,24,14,10,8,8,19,13,9,9,7,6,4,4,4,4,4,4,4,5,5,4,3,3,3,3,2,3,2,3,3,3,3,3,3,3,2,3,3,3,3,3,3,2,2,2,1,2,50,33,25,31,21,34,34,24,27,33,18,29,24,20,27,15,15,11,8,8,15,8,8,9,7,7,5,4,4,5,4,4,4,4,4,4,3,3,3,2,2,3,3,4,4,4,4,4,3,3,3,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,2,2,2,2,1,1,1,1,1,1,1,1,1,1,2,2,2,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,26,25,21,39,29,18,24,17,11,11,6,20,19,10,7,6,6,6,6,5,3,3,2,13,6,6,5,4,4,4,5,3,10,9,5,5,4,4,47,44,26,29,18,18,27,26,38,33,19,23,21,17,15,8,9,8,5,6,6,5,4,3,3,2,2,2,2,3,3,3,10,8,6,4,3,3,4,4,3,10,11,6,6,6,3,43,33,21,33,17,17,20,21,23,21,15,14,22,18,13,15,10,9,5,4,3,9,6,5,6,4,3,3,2,2,2,2,2,9,11,6,5,5,3,4,4,4,3,6,4,4,3,2,2,2,2,2,1,1,2,2,2,2,1,1,1,1,1,1,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}" width="529" height="84"></canvas>
-        <div class="blue-waveform-container absolute top-0 left-0 h-full w-0 overflow-hidden pointer-events-none" style="width: 0px;">
-            <div class="overlay absolute top-0 right-0 h-full opacity-50 w-[4px] bg-overlayBlue-500"></div>
-        </div>
-    </div>
-</div>
-                </div>
-            </div>
-            <div>
-                <p class="mb-1 text-sm font-bold leading-none text-gray-600">
-                    01:03
-                </p>
-                                    <p class="text-sm font-bold leading-none text-gray-600">125 BPM</p>
-                            </div>
-        </div>
-        <div class="flex w-full items-center justify-between lg:w-auto md:gap-4 basis-full md:basis-0 grow-0 md:order-2 lg:order-none">
-            <span class="relative inline-flex" x-on:mouseover="showTooltip = true" x-on:mouseleave="showTooltip = false">
-                <button x-on:click="showInfo = ! showInfo">
-                    <svg class="fill-current h-6 w-6 text-gray-700 hover:text-gray-900" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M2.34313 13.6569C3.85416 15.1678 5.86313 16 8 16C10.1369 16 12.1458 15.1678 13.6569 13.6569C15.1678 12.1458 16 10.1369 16 8C16 5.86313 15.1678 3.85416 13.6569 2.34313C12.1458 0.832156 10.1369 0 8 0C5.86313 0 3.85416 0.832156 2.34313 2.34313C0.832156 3.85416 0 5.86313 0 8C0 10.1369 0.832156 12.1458 2.34313 13.6569ZM1.5625 8C1.5625 4.45034 4.45034 1.5625 8 1.5625C11.5497 1.5625 14.4375 4.45034 14.4375 8C14.4375 11.5497 11.5497 14.4375 8 14.4375C4.45034 14.4375 1.5625 11.5497 1.5625 8ZM8.3125 12.5625C7.88103 12.5625 7.53125 12.2127 7.53125 11.7812V7.8125H6.75C6.31853 7.8125 5.96875 7.46272 5.96875 7.03125C5.96875 6.59978 6.31853 6.25 6.75 6.25H8.3125C8.74397 6.25 9.09375 6.59978 9.09375 7.03125V11.7812C9.09375 12.2127 8.74397 12.5625 8.3125 12.5625ZM7.0625 4.375C7.0625 4.89194 7.48306 5.3125 8 5.3125C8.51694 5.3125 8.9375 4.89194 8.9375 4.375C8.9375 3.85806 8.51694 3.4375 8 3.4375C7.48306 3.4375 7.0625 3.85806 7.0625 4.375Z"></path></svg>                </button>
-                <div x-show="showTooltip" class="tooltip max-md:!hidden" style="display: none;">
-    More Info
-</div>
-             </span>
-
-            <div>
-                <div wire:id="ThPHA3gbfKTO0VgSZlcW" class="flex relative z-40" x-data="{ isClipInAnyUserCollection: $wire.entangle(&#39;isClipInAnyUserCollection&#39;), mode: $wire.entangle(&#39;mode&#39;), showModal: $wire.entangle(&#39;showModal&#39;), hidden: $wire.entangle(&#39;hidden&#39;), showTooltip: false}">
-    <span class="relative inline-flex" x-on:mouseover="showTooltip = true" x-on:mouseleave="showTooltip = false">
-        <button class="relative add-to-collection-button overflow-hidden" wire:click.stop.prevent="toggleModal()">
-            <svg x-bind:class="{&#39;text-white&#39;: mode == &#39;light&#39;, &#39;not-added&#39;: !isClipInAnyUserCollection, &#39;!translate-y-0&#39;: !hidden}" x-show="!isClipInAnyUserCollection" class="fill-current h-6 w-6 text-gray-700 outline-none translate-y-8 not-added !translate-y-0" xmlns="http://www.w3.org/2000/svg" fill="currentColor" stroke="none" viewBox="0 0 24 24"><path d="M20 2H8c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2V4c0-1.103-.897-2-2-2zM8 16V4h12l.002 12H8z"></path><path d="M4 8H2v12c0 1.103.897 2 2 2h12v-2H4V8zm11-2h-2v3h-3v2h3v3h2v-3h3V9h-3z"></path></svg>            <svg x-show="isClipInAnyUserCollection" class="fill-current h-6 w-6 text-[#198ACF] outline-none" xmlns="http://www.w3.org/2000/svg" fill="currentColor" stroke="none" viewBox="0 0 24 24" style="display: none;"><path d="M4 22h12v-2H4V8H2v12c0 1.103.897 2 2 2z"></path><path d="M20 2H8c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2V4c0-1.103-.897-2-2-2zm-2 9h-3v3h-2v-3h-3V9h3V6h2v3h3v2z"></path></svg>        </button>
-        <div x-show="showTooltip" class="tooltip max-md:!hidden" style="display: none;">
-    Add to Collections
-</div>
-     </span>
-    <div x-show="showModal" style="display: none;">
-        <div class="modal-wrapper-add-to-collection flex flex-col items-center justify-center absolute bottom-0 right-[-15px] z-60 cursor-auto min-w-[300px] rounded-lg " style="transform: translateY(100%) translateY(10px);">
-            <div class="flex flex-col bg-white fixed top-0 left-0 md:relative md:rounded-lg md:shadow-lg h-full md:h-auto p-4 w-full" @click.outside="showModal = false;">
-                <div class="flex justify-start relative md:justify-between items-center ">
-                    <p class="text-lg font-bold text-[#2b2b2b]">Add to collection</p>
-                    <a href="https://www.videvo.net/my-collections/" class="ml-4 md:ml-0 text-sm text-gray-500 hover:text-gray-700">Manage</a>
-                    <div class="w-10 h-10 flex items-center justify-center absolute top-0 right-0 md:hidden close-modal w-6 text-2xl text-gray-600 leading-4 font-bold text-right" @click.stop.prevent="showModal = false; window.clipActions?.closeAllModals();"></div>
-                </div>
-                <div class="flex justify-start w-full">
-                    <div wire:id="bkOUjjgrIv3IWCl8Qy5Y" class="flex py-2 relative h-[56px] item-center" x-data="{showForm: false, showResponse: false, timeoutToggle: false}">
-    <template x-if="showResponse"></template>
-    <div class="cursor-pointer text-base text-[#1b95e0] bold h-full order-2 flex items-center" @click="showForm = !showForm" x-show="!showForm">
-        <svg class="fill-current w-7 h-7 mr-[10px]" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
-    <path fill="#1B95E0" fill-rule="evenodd" d="M14 7c.552 0 1 .448 1 1v5h5c.552 0 1 .448 1 1s-.448 1-1 1h-5v5c0 .552-.448 1-1 1s-1-.448-1-1v-5H8c-.552 0-1-.448-1-1s.448-1 1-1h5V8c0-.552.448-1 1-1z"></path>
-</svg>        Create new collection
-    </div>
-    <form x-show="showForm" class="flex space-between items-center border border-[#1b95e0] justify-items-stretch rounded-sm overflow-hidden h-full" wire:submit.prevent="addUserCollection" style="display: none;">
-        <input class="px-2 border-0 outline-0 h-full" placeholder="Add collection name" type="text" wire:model="collectionName">
-        <button type="submit" @click="window.clipActions?.closeAllModals(); showResponse = true; setTimeout(() =&gt; {showResponse = false; }, 3000); showForm = !showForm" class="h-full leading-10 bg-gray-100 text-blue-600 text-base font-bold text-center min-w-[60px]">Add</button>
-    </form>
-
-</div>
-<!-- Livewire Component wire-end:bkOUjjgrIv3IWCl8Qy5Y -->                </div>
-                <div class="flex flex-col grow overflow-auto relative md:max-h-[calc(46px*3.5)] max-md:max-h[calc(100vh-100px)] transition duration-150" x-data="{selectedCollections:  [],}">
-                                        <div class="m:h-[80px] flex items-center justify-between fixed py-3 md:py-3 left-0 px-4 bottom-0 left-0 w-full md:!hidden" style="box-shadow: 0 -2px 0 0 rgb(0 0 0 / 10%);">
-                        <a x-on:click="showModal = false; window.clipActions?.closeAllModals();" class="pt-3 pb-3 pr-6 pl-6 font-bold text-base rounded-lg text-blue-600 bg-[#ececec]">Cancel</a>
-                        <a x-on:click="showModal = false; window.clipActions?.closeAllModals(); $wire.toggleClipInUserCollections(selectedCollections)" class="pt-3 pb-3 pr-6 pl-6 font-bold text-base rounded-lg bg-blue-600 text-white">Apply</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Livewire Component wire-end:ThPHA3gbfKTO0VgSZlcW -->            </div>
-            <div>
-                <div wire:id="6dNrQ037qH9tVqvaeGJo" class="flex" x-data="{ isFavorite: $wire.entangle(&#39;isFavorite&#39;), mode: $wire.entangle(&#39;mode&#39;), hidden: $wire.entangle(&#39;hidden&#39;), showTooltip: false }">
-    <span class="relative inline-flex" x-on:mouseover="showTooltip = true" x-on:mouseleave="showTooltip = false">
-        <button class="text-gray-700 hover:text-gray-900 overflow-hidden toggle-favorite" wire:key="clip-233198" wire:click.stop.prevent="toggleFavorite();">
-            <svg x-bind:class="{&#39;text-white&#39;: mode == &#39;light&#39;, &#39;not-added&#39;: !isFavorite, &#39;!translate-y-0&#39;: !hidden}" x-show="!isFavorite" class="fill-current h-6 w-6 outline-none translate-y-8 not-added !translate-y-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" fill="none"><path d="M5.40956 2.51538C4.45258 1.76408 3.08107 1.83357 2.20944 2.72795C1.25976 3.7024 1.26439 5.28574 2.2182 6.26443L5.74895 9.8873C5.8954 10.0376 6.13284 10.0376 6.27929 9.8873L9.7917 6.28538C10.7392 5.30775 10.7362 3.72885 9.7822 2.74999C8.90375 1.84862 7.52809 1.77191 6.57265 2.52393C6.48883 2.58991 6.40825 2.66226 6.33151 2.74099L5.99605 3.08587L5.65599 2.73693C5.57761 2.65651 5.49525 2.58265 5.40956 2.51538ZM7.04767 3.43893C7.60289 2.86945 8.49943 2.86653 9.06605 3.44793C9.64336 4.04031 9.64309 5.00077 9.07454 5.58846L9.0736 5.58943L6.01425 8.72674L2.93435 5.56648C2.3556 4.97264 2.35777 4.00853 2.92559 3.42589C3.4791 2.85794 4.37486 2.85516 4.93984 3.43488L5.2799 3.78381C5.46824 3.97706 5.72669 4.086 5.99654 4.08587C6.26638 4.08574 6.52472 3.97655 6.71288 3.78312L7.04767 3.43893Z" fill="currentColor"></path></svg>            <svg x-show="isFavorite" class="fill-current h-6 w-6 text-red-700 outline-none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" fill="none" style="display: none;"><path d="M5.65599 2.73693C4.70219 1.75824 3.15912 1.75349 2.20944 2.72795C1.25976 3.7024 1.26439 5.28574 2.2182 6.26443L5.74895 9.8873C5.8954 10.0376 6.13284 10.0376 6.27929 9.8873L9.7917 6.28538C10.7392 5.30775 10.7362 3.72885 9.7822 2.74999C8.82669 1.76955 7.28289 1.76479 6.33151 2.74099L5.99605 3.08587L5.65599 2.73693Z" fill="currentColor"></path></svg>        </button>
-        <div x-show="showTooltip" class="tooltip max-md:!hidden" style="display: none;">
-    Add to Favorites
-</div>
-     </span>
-</div>
-
-<!-- Livewire Component wire-end: -->            </div>
-                        <span class="font-bold text-gray-700 w-[44px]">
-                    FREE
-            </span>
-                        <a href="https://www.videvo.net/royalty-free-music-track/where-to-go-today-60s/233198/" class="flex h-9 items-center justify-center rounded-lg bg-blue-400 px-5 font-bold text-white">
-                <svg class="fill-current mr-2 h-4 w-4" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M8 12.2188C7.79281 12.2188 7.59409 12.1364 7.44756 11.9899L4.79594 9.33828C4.49084 9.03319 4.49084 8.53853 4.79594 8.23344C5.10103 7.92834 5.59566 7.92834 5.90078 8.23344L7.21875 9.55141V0.78125C7.21875 0.349781 7.56853 0 8 0C8.43147 0 8.78125 0.349781 8.78125 0.78125V9.55141L10.0992 8.23344C10.4043 7.92834 10.899 7.92834 11.2041 8.23344C11.5092 8.53853 11.5092 9.03319 11.2041 9.33828L8.55244 11.9899C8.40591 12.1364 8.20722 12.2188 8 12.2188ZM14.4375 8.78125C14.4375 8.34978 14.7872 8 15.2188 8C15.6503 8 16 8.34978 16 8.78125V12.9688C16 14.4334 14.8084 15.625 13.3438 15.625H2.65625C1.19159 15.625 0 14.4334 0 12.9688V8.78125C0 8.34978 0.349781 8 0.78125 8C1.21272 8 1.5625 8.34978 1.5625 8.78125V12.9688C1.5625 13.5718 2.05316 14.0625 2.65625 14.0625H13.3438C13.9468 14.0625 14.4375 13.5718 14.4375 12.9688V8.78125Z"></path>
-</svg>                Download
-            </a>
-        </div>
-    </div>
-    <div x-show="showInfo" class="grid grid-cols-3 border-t border-gray-250 p-2 text-sm" style="display: none;">
-                    <div class="border-r border-gray-250 py-2 px-4">
-                <p class="font-bold text-gray-600">Genre</p>
-                                    <a href="https://www.videvo.net/royalty-free-music/children/" class="font-bold text-gray-900 hover:underline">Children</a>,                                     <a href="https://www.videvo.net/royalty-free-music/romantic/" class="font-bold text-gray-900 hover:underline">Romantic</a>,                                     <a href="https://www.videvo.net/royalty-free-music/easy-listening/" class="font-bold text-gray-900 hover:underline">Easy Listening</a>                                            </div>
-            <div class="border-r border-gray-250 py-2 px-4">
-                <p class="font-bold text-gray-600">Mood</p>
-                                    <a href="https://www.videvo.net/royalty-free-music/mood/tender/" class="font-bold text-gray-900 hover:underline">Tender</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/patient/" class="font-bold text-gray-900 hover:underline">Patient</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/affectionate/" class="font-bold text-gray-900 hover:underline">Affectionate</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/relaxed/" class="font-bold text-gray-900 hover:underline">Relaxed</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/playful/" class="font-bold text-gray-900 hover:underline">Playful</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/anticipating/" class="font-bold text-gray-900 hover:underline">Anticipating</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/nostalgic/" class="font-bold text-gray-900 hover:underline">Nostalgic</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/children/" class="font-bold text-gray-900 hover:underline">Children</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/tranquil/" class="font-bold text-gray-900 hover:underline">Tranquil</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/romantic/" class="font-bold text-gray-900 hover:underline">Romantic</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/innocent/" class="font-bold text-gray-900 hover:underline">Innocent</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/jingle/" class="font-bold text-gray-900 hover:underline">Jingle</a>                                            </div>
-            <div class="py-2 px-4">
-                <p class="font-bold text-gray-600">Instrumentation</p>
-                                    <a href="https://www.videvo.net/royalty-free-music/instrument/piano/" class="font-bold text-gray-900 hover:underline">Piano</a>,                                     <a href="https://www.videvo.net/royalty-free-music/instrument/solo-piano/" class="font-bold text-gray-900 hover:underline">Solo Piano</a>                                            </div>
-        
-    </div>
-</div>
-                                    <div class="-mx-4 mb-2 flex flex-col border-b border-gray-200 px-3 hover:bg-gray-150 lg:mx-0 lg:rounded lg:border-0 audio-row audio-player pb-2 md:pb-0" x-data="{ &#39;showInfo&#39;: false, showTooltip: false }">
-        <div class="flex items-center lg:min-h-20 flex-row lg:gap-4 flex-wrap lg:flex-no-wrap w-full">
-        <div class="flex items-center flex-grow lg:max-w-[380px] lg:min-w-[280px] md:order-1 lg:order-none">
-            <button class="relative mr-4 flex h-14 w-14 shrink-0 items-center justify-center bg-black z-20 button-play-pause" @click="window.audioHandler.handleAudioPlayPause($refs.audioElement920779); playing = playing === 920779 ? &#39;&#39; : 920779;">
-                <img src="./Royalty Free Music Download.blade_files/SM498 Blue Collar Heroes_59-Put-the-Pieces-Back-Together-30-SM498.png" class="absolute top-0 left-0 h-full w-full object-cover">
-                <svg x-bind:class="{ &#39;hidden&#39;: playing === 920779 }" class="fill-current relative z-10 h-8 w-8 text-white drop-shadow play-icon" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg"><path d="M14.4621 8.1418L4.15546 1.93628C3.85647 1.75624 3.48667 1.75457 3.18613 1.93178C2.88556 2.10904 2.7002 2.43817 2.7002 2.79451V15.2056C2.7002 15.5619 2.88556 15.891 3.18613 16.0683C3.33511 16.1562 3.50106 16.2 3.66705 16.2C3.83586 16.2 4.00471 16.1546 4.15546 16.0638L14.4621 9.85827C14.7584 9.67986 14.9405 9.35319 14.9405 9.00003C14.9405 8.64688 14.7584 8.32021 14.4621 8.1418Z"></path></svg>                <svg x-bind:class="{ &#39;hidden&#39;: playing !== 920779 }" class="fill-current relative z-10 h-12 w-12 text-white drop-shadow pause-icon hidden" width="54px" height="54px" viewBox="0 0 54 54" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>pause-button-white-sml</title>
-    <g id="pause-button-white-sml" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Group-2" transform="translate(14.000000, 14.000000)">
-            <path d="M8,0 C10.1421954,0 11.8910789,1.82429918 11.9951047,4.1170563 L12,4.33333333 L12,21.6666667 C12,23.9873783 10.3160315,25.8820021 8.19964034,25.9946968 L8,26 L4,26 C1.85780461,26 0.108921124,24.1757008 0.00489530723,21.8829437 L0,21.6666667 L0,4.33333333 C0,2.01262166 1.68396847,0.117997884 3.80035966,0.0053032495 L4,0 L8,0 Z M22,0 C24.1421954,0 25.8910789,1.82429918 25.9951047,4.1170563 L26,4.33333333 L26,21.6666667 C26,23.9873783 24.3160315,25.8820021 22.1996403,25.9946968 L22,26 L18,26 C15.8578046,26 14.1089211,24.1757008 14.0048953,21.8829437 L14,21.6666667 L14,4.33333333 C14,2.01262166 15.6839685,0.117997884 17.8003597,0.0053032495 L18,0 L22,0 Z" id="Combined-Shape" fill-opacity="0.4" fill="#000000"></path>
-            <path d="M4,2 L8,2 C9.1045695,2 10,2.8954305 10,4 L10,22 C10,23.1045695 9.1045695,24 8,24 L4,24 C2.8954305,24 2,23.1045695 2,22 L2,4 C2,2.8954305 2.8954305,2 4,2 Z M18,2 L22,2 C23.1045695,2 24,2.8954305 24,4 L24,22 C24,23.1045695 23.1045695,24 22,24 L18,24 C16.8954305,24 16,23.1045695 16,22 L16,4 C16,2.8954305 16.8954305,2 18,2 Z" id="Combined-Shape" fill="#FFFFFF"></path>
-        </g>
-    </g>
-</svg>                
-                <audio preload="none" x-ref="audioElement920779" x-on:ended="playing = &#39;&#39;" id="linkAudio-920779" class="listing-audio audio-element hidden">
-                                            <source src="https://cdn.videvo.net/videvo_files/audio/premium/audio0389/watermarked/SM498%20Blue%20Collar%20Heroes_06-Nothing-Is-Impossible-FULL-SM498_preview.mp3" type="audio/mp3">
-                                        Your browser does not support the audio element.
-                </audio>
-            </button>
-            <div class="flex min-w-0 max-w-[calc(100vw-104px)] flex-col lg:max-w-[280px]">
-                <a href="https://www.videvo.net/royalty-free-music-track/nothing-is-impossible/920779/" class="mb-1 font-semibold leading-none text-gray-800 hover:underline overflow-hidden whitespace-nowrap text-ellipsis">Nothing Is Impossible</a>
-                                    <a href="https://www.videvo.net/royalty-free-music-albums/blue-collar-heroes/" class="mb-1 text-sm font-bold leading-none text-gray-400 hover:text-gray-600 overflow-hidden whitespace-nowrap text-ellipsis">
-                        Blue Collar Heroes
-                    </a>
-                                <p class="w-full truncate text-sm text-gray-600 overflow-hidden whitespace-nowrap text-ellipsis">
-                    Corporate
-                    | Achievement, Ambitious, Business, Competition, Confident, Determined, Expectant, Inspiring, Motivating, Optimistic, Positive, Productive, Proud, Strong, Technology
-                </p>
-            </div>
-        </div>
-        <div class="flex lg:flex-1 items-center w-full h-[60px] max-h-[60px] lg:h-[84px] lg:max-h-[84px] md:grow-[2] md:basis-170% md:min-w-[300px] justify-start md:order-3 lg:order-none xs:my-3 md:my-0">
-            <div class="mr-4 flex-1 h-full w-full">
-                <div class="z-20 w-full h-full">
-                    <div class="waveform waveform-length-bpm h-full w-full relative min-h-[60px] max-h-[60px] lg:min-h-[84px] lg:max-h-[84px]">
-    <div class="waveform-image waveform-container h-full relative w-full overflow-hidden">
-        <canvas id="mainWaveformCanvas-listing-920779" @click="window.audioHandler.handleCanvasClick(event,$refs.audioElement920779);  if(playing === &#39;&#39; || playing !== 920779) { playing = 920779 }" class="js--audio-waveform-canvas belongs-listing h-[60px] lg:h-[84px] w-full max-w-full max-h-[60px] lg:max-h-[84px] absolute top-0 left-0" data-waveformjson="{&quot;margin&quot;:{&quot;low&quot;:0,&quot;high&quot;:250},&quot;heights&quot;:[46,39,29,26,34,28,27,29,22,33,64,48,52,44,40,31,47,32,33,28,33,30,21,51,55,62,43,42,38,36,29,28,36,24,48,44,49,37,37,33,37,39,31,29,28,28,24,56,55,35,38,38,39,29,30,24,28,24,68,50,51,40,36,34,41,26,29,32,45,31,26,57,45,42,31,44,35,29,31,31,34,30,53,47,52,48,38,29,36,31,33,29,36,43,49,78,37,52,61,36,41,65,30,63,89,45,67,87,48,56,68,46,45,74,42,59,76,29,20,83,62,69,78,42,51,80,52,31,84,49,49,74,47,58,69,76,59,75,50,33,81,33,21,95,55,39,74,42,47,75,45,26,68,67,73,75,47,41,66,43,32,77,50,33,70,26,23,79,53,48,58,39,49,68,34,29,77,58,47,61,47,47,58,51,54,85,43,62,74,25,77,73,70,89,59,55,75,69,44,78,70,85,78,60,64,78,53,54,85,71,49,67,43,57,64,69,52,78,60,45,76,39,61,74,60,57,75,67,50,71,42,51,73,49,59,70,55,57,95,67,59,77,34,55,78,46,47,65,57,75,66,66,46,77,35,43,68,39,51,70,48,51,61,62,62,71,56,61,83,55,66,76,71,57,84,48,46,60,44,53,82,48,59,71,60,68,83,59,62,91,59,53,77,45,54,83,80,61,72,49,57,67,48,44,73,76,47,80,47,52,77,64,66,73,54,46,80,75,58,76,53,60,72,42,40,75,76,80,77,53,59,69,71,57,91,64,47,77,40,43,75,48,54,79,91,72,59,47,43,63,34,33,73,55,44,73,51,56,86,67,81,76,65,72,64,55,75,64,65,76,71,46,54,43,60,87,57,69,80,71,75,71,59,51,44,47,46,57,42,40,50,40,30,52,25,25,34,40,48,41,52,35,42,47,34,75,62,53,43,45,58,49,41,36,40,33,34,46,29,41,35,54,46,45,41,34,49,49,53,75,56,54,56,54,55,48,43,44,81,31,27,88,51,53,62,56,53,82,49,58,75,65,74,93,61,68,78,56,44,64,47,51,73,32,32,75,58,78,83,63,68,83,52,68,78,60,70,73,54,58,68,67,72,85,57,57,78,52,49,94,46,51,77,47,50,62,64,56,76,63,74,70,64,44,74,46,43,77,49,43,73,37,39,87,45,58,73,63,57,67,61,40,88,62,60,70,51,58,63,65,72,78,51,74,74,37,84,62,48,66,55,61,72,69,57,67,58,75,71,51,57,71,58,45,83,62,49,79,49,37,69,55,76,90,62,69,80,50,45,76,72,73,84,65,59,77,58,67,85,54,62,80,50,56,85,63,57,77,44,64,77,50,62,70,46,71,72,60,53,73,44,52,75,39,45,75,55,42,63,58,45,74,58,67,76,41,57,74,68,68,77,67,56,58,51,62,78,57,49,72,52,61,90,45,45,74,52,66,77,58,53,82,75,61,89,47,61,73,58,46,78,62,47,96,36,40,73,73,71,71,66,70,74,53,43,97,62,69,94,57,53,74,64,73,83,64,56,79,43,41,95,58,56,70,51,46,67,79,60,72,57,60,72,60,45,66,38,66,73,59,75,74,42,63,69,57,58,63,62,63,60,50,83,59,57,63,65,48,56,62,57,77,60,64,78,70,57,76,73,57,53,50,52,47,35,32,33,23,70,51,47,43,46,41,45,42,41,39,28,25,30,61,55,51,49,36,37,35,34,35,33,26,59,61,60,41,47,50,61,43,45,38,40,39,29,84,37,37,42,34,26,25,39,26,22,24,25,20,16,19,16,11,10,6,4,3,2,1,0,0]}" width="543" height="84"></canvas>
-        <div class="blue-waveform-container absolute top-0 left-0 h-full w-0 overflow-hidden pointer-events-none" style="width: 0px;">
-            <div class="overlay absolute top-0 right-0 h-full opacity-50 w-[4px] bg-overlayBlue-500"></div>
-        </div>
-    </div>
-</div>
-                </div>
-            </div>
-            <div>
-                <p class="mb-1 text-sm font-bold leading-none text-gray-600">
-                    02:26
-                </p>
-                                    <p class="text-sm font-bold leading-none text-gray-600">0 BPM</p>
-                            </div>
-        </div>
-        <div class="flex w-full items-center justify-between lg:w-auto md:gap-4 basis-full md:basis-0 grow-0 md:order-2 lg:order-none">
-            <span class="relative inline-flex" x-on:mouseover="showTooltip = true" x-on:mouseleave="showTooltip = false">
-                <button x-on:click="showInfo = ! showInfo">
-                    <svg class="fill-current h-6 w-6 text-gray-700 hover:text-gray-900" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M2.34313 13.6569C3.85416 15.1678 5.86313 16 8 16C10.1369 16 12.1458 15.1678 13.6569 13.6569C15.1678 12.1458 16 10.1369 16 8C16 5.86313 15.1678 3.85416 13.6569 2.34313C12.1458 0.832156 10.1369 0 8 0C5.86313 0 3.85416 0.832156 2.34313 2.34313C0.832156 3.85416 0 5.86313 0 8C0 10.1369 0.832156 12.1458 2.34313 13.6569ZM1.5625 8C1.5625 4.45034 4.45034 1.5625 8 1.5625C11.5497 1.5625 14.4375 4.45034 14.4375 8C14.4375 11.5497 11.5497 14.4375 8 14.4375C4.45034 14.4375 1.5625 11.5497 1.5625 8ZM8.3125 12.5625C7.88103 12.5625 7.53125 12.2127 7.53125 11.7812V7.8125H6.75C6.31853 7.8125 5.96875 7.46272 5.96875 7.03125C5.96875 6.59978 6.31853 6.25 6.75 6.25H8.3125C8.74397 6.25 9.09375 6.59978 9.09375 7.03125V11.7812C9.09375 12.2127 8.74397 12.5625 8.3125 12.5625ZM7.0625 4.375C7.0625 4.89194 7.48306 5.3125 8 5.3125C8.51694 5.3125 8.9375 4.89194 8.9375 4.375C8.9375 3.85806 8.51694 3.4375 8 3.4375C7.48306 3.4375 7.0625 3.85806 7.0625 4.375Z"></path></svg>                </button>
-                <div x-show="showTooltip" class="tooltip max-md:!hidden" style="display: none;">
-    More Info
-</div>
-             </span>
-
-            <div>
-                <div wire:id="JsvL327qZBuOfChtoW7Q" class="flex relative z-40" x-data="{ isClipInAnyUserCollection: $wire.entangle(&#39;isClipInAnyUserCollection&#39;), mode: $wire.entangle(&#39;mode&#39;), showModal: $wire.entangle(&#39;showModal&#39;), hidden: $wire.entangle(&#39;hidden&#39;), showTooltip: false}">
-    <span class="relative inline-flex" x-on:mouseover="showTooltip = true" x-on:mouseleave="showTooltip = false">
-        <button class="relative add-to-collection-button overflow-hidden" wire:click.stop.prevent="toggleModal()">
-            <svg x-bind:class="{&#39;text-white&#39;: mode == &#39;light&#39;, &#39;not-added&#39;: !isClipInAnyUserCollection, &#39;!translate-y-0&#39;: !hidden}" x-show="!isClipInAnyUserCollection" class="fill-current h-6 w-6 text-gray-700 outline-none translate-y-8 not-added !translate-y-0" xmlns="http://www.w3.org/2000/svg" fill="currentColor" stroke="none" viewBox="0 0 24 24"><path d="M20 2H8c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2V4c0-1.103-.897-2-2-2zM8 16V4h12l.002 12H8z"></path><path d="M4 8H2v12c0 1.103.897 2 2 2h12v-2H4V8zm11-2h-2v3h-3v2h3v3h2v-3h3V9h-3z"></path></svg>            <svg x-show="isClipInAnyUserCollection" class="fill-current h-6 w-6 text-[#198ACF] outline-none" xmlns="http://www.w3.org/2000/svg" fill="currentColor" stroke="none" viewBox="0 0 24 24" style="display: none;"><path d="M4 22h12v-2H4V8H2v12c0 1.103.897 2 2 2z"></path><path d="M20 2H8c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2V4c0-1.103-.897-2-2-2zm-2 9h-3v3h-2v-3h-3V9h3V6h2v3h3v2z"></path></svg>        </button>
-        <div x-show="showTooltip" class="tooltip max-md:!hidden" style="display: none;">
-    Add to Collections
-</div>
-     </span>
-    <div x-show="showModal" style="display: none;">
-        <div class="modal-wrapper-add-to-collection flex flex-col items-center justify-center absolute bottom-0 right-[-15px] z-60 cursor-auto min-w-[300px] rounded-lg " style="transform: translateY(100%) translateY(10px);">
-            <div class="flex flex-col bg-white fixed top-0 left-0 md:relative md:rounded-lg md:shadow-lg h-full md:h-auto p-4 w-full" @click.outside="showModal = false;">
-                <div class="flex justify-start relative md:justify-between items-center ">
-                    <p class="text-lg font-bold text-[#2b2b2b]">Add to collection</p>
-                    <a href="https://www.videvo.net/my-collections/" class="ml-4 md:ml-0 text-sm text-gray-500 hover:text-gray-700">Manage</a>
-                    <div class="w-10 h-10 flex items-center justify-center absolute top-0 right-0 md:hidden close-modal w-6 text-2xl text-gray-600 leading-4 font-bold text-right" @click.stop.prevent="showModal = false; window.clipActions?.closeAllModals();"></div>
-                </div>
-                <div class="flex justify-start w-full">
-                    <div wire:id="KDUGi3Qt4dNMxoSR3FqH" class="flex py-2 relative h-[56px] item-center" x-data="{showForm: false, showResponse: false, timeoutToggle: false}">
-    <template x-if="showResponse"></template>
-    <div class="cursor-pointer text-base text-[#1b95e0] bold h-full order-2 flex items-center" @click="showForm = !showForm" x-show="!showForm">
-        <svg class="fill-current w-7 h-7 mr-[10px]" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
-    <path fill="#1B95E0" fill-rule="evenodd" d="M14 7c.552 0 1 .448 1 1v5h5c.552 0 1 .448 1 1s-.448 1-1 1h-5v5c0 .552-.448 1-1 1s-1-.448-1-1v-5H8c-.552 0-1-.448-1-1s.448-1 1-1h5V8c0-.552.448-1 1-1z"></path>
-</svg>        Create new collection
-    </div>
-    <form x-show="showForm" class="flex space-between items-center border border-[#1b95e0] justify-items-stretch rounded-sm overflow-hidden h-full" wire:submit.prevent="addUserCollection" style="display: none;">
-        <input class="px-2 border-0 outline-0 h-full" placeholder="Add collection name" type="text" wire:model="collectionName">
-        <button type="submit" @click="window.clipActions?.closeAllModals(); showResponse = true; setTimeout(() =&gt; {showResponse = false; }, 3000); showForm = !showForm" class="h-full leading-10 bg-gray-100 text-blue-600 text-base font-bold text-center min-w-[60px]">Add</button>
-    </form>
-
-</div>
-<!-- Livewire Component wire-end:KDUGi3Qt4dNMxoSR3FqH -->                </div>
-                <div class="flex flex-col grow overflow-auto relative md:max-h-[calc(46px*3.5)] max-md:max-h[calc(100vh-100px)] transition duration-150" x-data="{selectedCollections:  [],}">
-                                        <div class="m:h-[80px] flex items-center justify-between fixed py-3 md:py-3 left-0 px-4 bottom-0 left-0 w-full md:!hidden" style="box-shadow: 0 -2px 0 0 rgb(0 0 0 / 10%);">
-                        <a x-on:click="showModal = false; window.clipActions?.closeAllModals();" class="pt-3 pb-3 pr-6 pl-6 font-bold text-base rounded-lg text-blue-600 bg-[#ececec]">Cancel</a>
-                        <a x-on:click="showModal = false; window.clipActions?.closeAllModals(); $wire.toggleClipInUserCollections(selectedCollections)" class="pt-3 pb-3 pr-6 pl-6 font-bold text-base rounded-lg bg-blue-600 text-white">Apply</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Livewire Component wire-end:JsvL327qZBuOfChtoW7Q -->            </div>
-            <div>
-                <div wire:id="iE1qzcSNAOPXBvo4Ji2D" class="flex" x-data="{ isFavorite: $wire.entangle(&#39;isFavorite&#39;), mode: $wire.entangle(&#39;mode&#39;), hidden: $wire.entangle(&#39;hidden&#39;), showTooltip: false }">
-    <span class="relative inline-flex" x-on:mouseover="showTooltip = true" x-on:mouseleave="showTooltip = false">
-        <button class="text-gray-700 hover:text-gray-900 overflow-hidden toggle-favorite" wire:key="clip-920779" wire:click.stop.prevent="toggleFavorite();">
-            <svg x-bind:class="{&#39;text-white&#39;: mode == &#39;light&#39;, &#39;not-added&#39;: !isFavorite, &#39;!translate-y-0&#39;: !hidden}" x-show="!isFavorite" class="fill-current h-6 w-6 outline-none translate-y-8 not-added !translate-y-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" fill="none"><path d="M5.40956 2.51538C4.45258 1.76408 3.08107 1.83357 2.20944 2.72795C1.25976 3.7024 1.26439 5.28574 2.2182 6.26443L5.74895 9.8873C5.8954 10.0376 6.13284 10.0376 6.27929 9.8873L9.7917 6.28538C10.7392 5.30775 10.7362 3.72885 9.7822 2.74999C8.90375 1.84862 7.52809 1.77191 6.57265 2.52393C6.48883 2.58991 6.40825 2.66226 6.33151 2.74099L5.99605 3.08587L5.65599 2.73693C5.57761 2.65651 5.49525 2.58265 5.40956 2.51538ZM7.04767 3.43893C7.60289 2.86945 8.49943 2.86653 9.06605 3.44793C9.64336 4.04031 9.64309 5.00077 9.07454 5.58846L9.0736 5.58943L6.01425 8.72674L2.93435 5.56648C2.3556 4.97264 2.35777 4.00853 2.92559 3.42589C3.4791 2.85794 4.37486 2.85516 4.93984 3.43488L5.2799 3.78381C5.46824 3.97706 5.72669 4.086 5.99654 4.08587C6.26638 4.08574 6.52472 3.97655 6.71288 3.78312L7.04767 3.43893Z" fill="currentColor"></path></svg>            <svg x-show="isFavorite" class="fill-current h-6 w-6 text-red-700 outline-none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" fill="none" style="display: none;"><path d="M5.65599 2.73693C4.70219 1.75824 3.15912 1.75349 2.20944 2.72795C1.25976 3.7024 1.26439 5.28574 2.2182 6.26443L5.74895 9.8873C5.8954 10.0376 6.13284 10.0376 6.27929 9.8873L9.7917 6.28538C10.7392 5.30775 10.7362 3.72885 9.7822 2.74999C8.82669 1.76955 7.28289 1.76479 6.33151 2.74099L5.99605 3.08587L5.65599 2.73693Z" fill="currentColor"></path></svg>        </button>
-        <div x-show="showTooltip" class="tooltip max-md:!hidden" style="display: none;">
-    Add to Favorites
-</div>
-     </span>
-</div>
-
-<!-- Livewire Component wire-end: -->            </div>
-                        <span class="w-[44px] flex justify-center">
-                <svg data-cy="premium-icon" class="fill-current h-6 w-6 text-orange-600" viewBox="-120 0 512 512.00115" xmlns="http://www.w3.org/2000/svg"><path d="m270.214844 180.054688c-2.628906-4.816407-7.679688-7.816407-13.167969-7.816407h-54.425781l24.753906-154.871093c1.082031-6.773438-2.570312-13.417969-8.867188-16.136719-6.292968-2.71875-13.640624-.820313-17.828124 4.613281l-197.5625 256.398438c-3.488282 4.527343-4.097657 10.644531-1.578126 15.777343 2.523438 5.128907 7.746094 8.378907 13.460938 8.378907h85.816406l-57.566406 206.574218c-1.992188 7.144532 1.539062 14.675782 8.304688 17.710938 1.988281.890625 4.074218 1.316406 6.136718 1.316406 4.96875 0 9.78125-2.476562 12.621094-6.882812l199.351562-309.761719c2.96875-4.613281 3.179688-10.484375.550782-15.300781zm0 0"></path></svg>            </span>
-                        <a href="https://www.videvo.net/royalty-free-music-track/nothing-is-impossible/920779/" class="flex h-9 items-center justify-center rounded-lg bg-blue-400 px-5 font-bold text-white">
-                <svg class="fill-current mr-2 h-4 w-4" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M8 12.2188C7.79281 12.2188 7.59409 12.1364 7.44756 11.9899L4.79594 9.33828C4.49084 9.03319 4.49084 8.53853 4.79594 8.23344C5.10103 7.92834 5.59566 7.92834 5.90078 8.23344L7.21875 9.55141V0.78125C7.21875 0.349781 7.56853 0 8 0C8.43147 0 8.78125 0.349781 8.78125 0.78125V9.55141L10.0992 8.23344C10.4043 7.92834 10.899 7.92834 11.2041 8.23344C11.5092 8.53853 11.5092 9.03319 11.2041 9.33828L8.55244 11.9899C8.40591 12.1364 8.20722 12.2188 8 12.2188ZM14.4375 8.78125C14.4375 8.34978 14.7872 8 15.2188 8C15.6503 8 16 8.34978 16 8.78125V12.9688C16 14.4334 14.8084 15.625 13.3438 15.625H2.65625C1.19159 15.625 0 14.4334 0 12.9688V8.78125C0 8.34978 0.349781 8 0.78125 8C1.21272 8 1.5625 8.34978 1.5625 8.78125V12.9688C1.5625 13.5718 2.05316 14.0625 2.65625 14.0625H13.3438C13.9468 14.0625 14.4375 13.5718 14.4375 12.9688V8.78125Z"></path>
-</svg>                Download
-            </a>
-        </div>
-    </div>
-    <div x-show="showInfo" class="grid grid-cols-3 border-t border-gray-250 p-2 text-sm" style="display: none;">
-                    <div class="border-r border-gray-250 py-2 px-4">
-                <p class="font-bold text-gray-600">Genre</p>
-                                    <a href="https://www.videvo.net/royalty-free-music/corporate/" class="font-bold text-gray-900 hover:underline">Corporate</a>                                            </div>
-            <div class="border-r border-gray-250 py-2 px-4">
-                <p class="font-bold text-gray-600">Mood</p>
-                                    <a href="https://www.videvo.net/royalty-free-music/mood/confident/" class="font-bold text-gray-900 hover:underline">Confident</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/optimistic/" class="font-bold text-gray-900 hover:underline">Optimistic</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/determined/" class="font-bold text-gray-900 hover:underline">Determined</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/positive/" class="font-bold text-gray-900 hover:underline">Positive</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/ambitious/" class="font-bold text-gray-900 hover:underline">Ambitious</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/strong/" class="font-bold text-gray-900 hover:underline">Strong</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/proud/" class="font-bold text-gray-900 hover:underline">Proud</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/competition/" class="font-bold text-gray-900 hover:underline">Competition</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/inspiring/" class="font-bold text-gray-900 hover:underline">Inspiring</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/technology/" class="font-bold text-gray-900 hover:underline">Technology</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/expectant/" class="font-bold text-gray-900 hover:underline">Expectant</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/achievement/" class="font-bold text-gray-900 hover:underline">Achievement</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/motivating/" class="font-bold text-gray-900 hover:underline">Motivating</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/productive/" class="font-bold text-gray-900 hover:underline">Productive</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/business/" class="font-bold text-gray-900 hover:underline">Business</a>                                            </div>
-            <div class="py-2 px-4">
-                <p class="font-bold text-gray-600">Instrumentation</p>
-                                    <a href="https://www.videvo.net/royalty-free-music/instrument/keyboards/" class="font-bold text-gray-900 hover:underline">Keyboards</a>,                                     <a href="https://www.videvo.net/royalty-free-music/instrument/guitar/" class="font-bold text-gray-900 hover:underline">Guitar</a>,                                     <a href="https://www.videvo.net/royalty-free-music/instrument/percussion/" class="font-bold text-gray-900 hover:underline">Percussion</a>,                                     <a href="https://www.videvo.net/royalty-free-music/instrument/strings/" class="font-bold text-gray-900 hover:underline">Strings</a>,                                     <a href="https://www.videvo.net/royalty-free-music/instrument/keyboard/" class="font-bold text-gray-900 hover:underline">Keyboard</a>                                            </div>
-        
-    </div>
-</div>
-                                    <div class="-mx-4 mb-2 flex flex-col border-b border-gray-200 px-3 hover:bg-gray-150 lg:mx-0 lg:rounded lg:border-0 audio-row audio-player pb-2 md:pb-0" x-data="{ &#39;showInfo&#39;: false, showTooltip: false }">
-        <div class="flex items-center lg:min-h-20 flex-row lg:gap-4 flex-wrap lg:flex-no-wrap w-full">
-        <div class="flex items-center flex-grow lg:max-w-[380px] lg:min-w-[280px] md:order-1 lg:order-none">
-            <button class="relative mr-4 flex h-14 w-14 shrink-0 items-center justify-center bg-black z-20 button-play-pause" @click="window.audioHandler.handleAudioPlayPause($refs.audioElement232836); playing = playing === 232836 ? &#39;&#39; : 232836;">
-                <img src="./images/music.jpg" class="absolute top-0 left-0 h-full w-full object-cover">
-                <svg x-bind:class="{ &#39;hidden&#39;: playing === 232836 }" class="fill-current relative z-10 h-8 w-8 text-white drop-shadow play-icon" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg"><path d="M14.4621 8.1418L4.15546 1.93628C3.85647 1.75624 3.48667 1.75457 3.18613 1.93178C2.88556 2.10904 2.7002 2.43817 2.7002 2.79451V15.2056C2.7002 15.5619 2.88556 15.891 3.18613 16.0683C3.33511 16.1562 3.50106 16.2 3.66705 16.2C3.83586 16.2 4.00471 16.1546 4.15546 16.0638L14.4621 9.85827C14.7584 9.67986 14.9405 9.35319 14.9405 9.00003C14.9405 8.64688 14.7584 8.32021 14.4621 8.1418Z"></path></svg>                <svg x-bind:class="{ &#39;hidden&#39;: playing !== 232836 }" class="fill-current relative z-10 h-12 w-12 text-white drop-shadow pause-icon hidden" width="54px" height="54px" viewBox="0 0 54 54" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>pause-button-white-sml</title>
-    <g id="pause-button-white-sml" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Group-2" transform="translate(14.000000, 14.000000)">
-            <path d="M8,0 C10.1421954,0 11.8910789,1.82429918 11.9951047,4.1170563 L12,4.33333333 L12,21.6666667 C12,23.9873783 10.3160315,25.8820021 8.19964034,25.9946968 L8,26 L4,26 C1.85780461,26 0.108921124,24.1757008 0.00489530723,21.8829437 L0,21.6666667 L0,4.33333333 C0,2.01262166 1.68396847,0.117997884 3.80035966,0.0053032495 L4,0 L8,0 Z M22,0 C24.1421954,0 25.8910789,1.82429918 25.9951047,4.1170563 L26,4.33333333 L26,21.6666667 C26,23.9873783 24.3160315,25.8820021 22.1996403,25.9946968 L22,26 L18,26 C15.8578046,26 14.1089211,24.1757008 14.0048953,21.8829437 L14,21.6666667 L14,4.33333333 C14,2.01262166 15.6839685,0.117997884 17.8003597,0.0053032495 L18,0 L22,0 Z" id="Combined-Shape" fill-opacity="0.4" fill="#000000"></path>
-            <path d="M4,2 L8,2 C9.1045695,2 10,2.8954305 10,4 L10,22 C10,23.1045695 9.1045695,24 8,24 L4,24 C2.8954305,24 2,23.1045695 2,22 L2,4 C2,2.8954305 2.8954305,2 4,2 Z M18,2 L22,2 C23.1045695,2 24,2.8954305 24,4 L24,22 C24,23.1045695 23.1045695,24 22,24 L18,24 C16.8954305,24 16,23.1045695 16,22 L16,4 C16,2.8954305 16.8954305,2 18,2 Z" id="Combined-Shape" fill="#FFFFFF"></path>
-        </g>
-    </g>
-</svg>                
-                <audio preload="none" x-ref="audioElement232836" x-on:ended="playing = &#39;&#39;" id="linkAudio-232836" class="listing-audio audio-element hidden">
-                                            <source src="https://cdn.videvo.net/videvo_files/audio/premium/audio0189/watermarked/Ultimate-Victory-WST010901_preview.mp3" type="audio/mp3">
-                                        Your browser does not support the audio element.
-                </audio>
-            </button>
-            <div class="flex min-w-0 max-w-[calc(100vw-104px)] flex-col lg:max-w-[280px]">
-                <a href="https://www.videvo.net/royalty-free-music-track/ultimate-victory-30s/232836/" class="mb-1 font-semibold leading-none text-gray-800 hover:underline overflow-hidden whitespace-nowrap text-ellipsis">Ultimate Victory - 30s</a>
-                                    <a href="https://www.videvo.net/royalty-free-music-albums/winning-sports-themes/" class="mb-1 text-sm font-bold leading-none text-gray-400 hover:text-gray-600 overflow-hidden whitespace-nowrap text-ellipsis">
-                        Winning Sports Themes
-                    </a>
-                                <p class="w-full truncate text-sm text-gray-600 overflow-hidden whitespace-nowrap text-ellipsis">
-                    Drama &amp; Film Scores Documentary Military Sports
-                    | Achievement, Action, Anticipating, Bold, Competition, Confident, Documentary, Elegant, Epic, Fanfare, Inspiring, Jingle, Joyous, Media, Motivating, Olympic, Patriotic, Proud, Respectful, Satisfied, Strong
-                </p>
-            </div>
-        </div>
-        <div class="flex lg:flex-1 items-center w-full h-[60px] max-h-[60px] lg:h-[84px] lg:max-h-[84px] md:grow-[2] md:basis-170% md:min-w-[300px] justify-start md:order-3 lg:order-none xs:my-3 md:my-0">
-            <div class="mr-4 flex-1 h-full w-full">
-                <div class="z-20 w-full h-full">
-                    <div class="waveform waveform-length-bpm h-full w-full relative min-h-[60px] max-h-[60px] lg:min-h-[84px] lg:max-h-[84px]">
-    <div class="waveform-image waveform-container h-full relative w-full overflow-hidden">
-        <canvas id="mainWaveformCanvas-listing-232836" @click="window.audioHandler.handleCanvasClick(event,$refs.audioElement232836);  if(playing === &#39;&#39; || playing !== 232836) { playing = 232836 }" class="js--audio-waveform-canvas belongs-listing h-[60px] lg:h-[84px] w-full max-w-full max-h-[60px] lg:max-h-[84px] absolute top-0 left-0" data-waveformjson="{&quot;margin&quot;:{&quot;low&quot;:0,&quot;high&quot;:250},&quot;heights&quot;:[14,32,40,34,23,27,22,24,25,20,17,11,11,24,18,18,15,26,25,29,26,26,20,24,20,17,17,23,20,17,22,23,18,17,14,15,16,19,21,17,24,18,16,16,15,15,16,19,29,26,19,25,24,22,26,24,21,21,14,17,16,15,14,17,17,17,21,16,15,14,16,14,11,9,14,13,8,6,7,6,9,6,7,9,14,14,15,10,8,12,20,20,17,13,9,40,34,42,25,22,22,34,26,15,20,17,20,25,23,23,17,16,21,20,23,17,17,23,20,14,18,20,17,19,20,22,20,19,24,21,18,21,20,21,21,16,24,23,22,20,14,11,19,17,18,10,17,23,20,18,19,20,19,22,19,20,18,15,19,22,26,21,28,22,20,22,24,27,26,27,27,24,23,24,22,20,20,20,22,24,22,18,14,20,19,20,13,15,14,21,42,49,34,32,31,19,23,26,26,22,16,16,23,22,24,18,25,32,28,26,24,22,23,21,24,21,23,17,16,19,23,20,17,21,21,20,28,24,25,35,27,30,26,21,21,17,18,27,24,22,27,29,29,24,22,24,17,21,19,23,25,22,22,18,18,21,19,17,16,14,15,13,12,17,12,7,5,8,6,9,6,7,9,16,16,19,13,15,14,24,30,24,18,15,35,45,33,41,24,31,33,28,33,33,26,26,26,26,25,26,21,21,26,21,23,18,20,18,21,22,21,17,19,18,20,18,15,18,14,13,17,18,22,23,20,21,20,17,17,11,11,20,21,23,26,24,31,21,23,26,22,21,27,27,24,22,19,22,21,25,27,21,23,23,25,25,24,22,23,27,24,28,22,27,27,27,37,28,26,29,16,16,23,26,24,19,18,18,64,67,70,58,36,48,50,63,42,47,41,50,48,34,41,53,50,39,57,46,49,44,50,47,43,43,41,31,35,34,32,26,43,40,28,32,30,31,38,29,46,45,49,43,32,35,31,39,40,41,34,34,38,44,36,34,34,31,24,30,57,41,35,48,27,39,49,32,34,29,26,41,30,39,37,28,29,33,26,20,18,19,23,24,29,32,28,29,28,28,50,34,28,28,48,56,57,57,51,48,39,54,56,53,48,62,56,38,38,52,34,38,47,44,35,44,33,49,29,39,40,36,31,28,37,42,41,40,34,34,35,52,32,27,27,37,46,46,27,30,30,27,35,36,48,45,54,45,44,46,48,33,41,41,44,48,25,50,43,36,31,38,39,32,32,42,35,33,33,28,44,35,51,41,38,48,48,41,40,37,33,32,29,47,34,36,29,34,35,76,58,76,64,55,45,52,53,52,42,47,45,37,42,45,43,41,57,53,48,43,42,49,39,46,40,37,32,36,41,26,28,37,31,27,30,30,31,40,31,48,49,42,43,30,32,33,47,38,34,31,46,31,48,33,28,43,39,38,47,36,38,44,37,38,46,41,36,34,33,48,33,32,40,32,34,35,26,29,38,41,31,28,46,37,30,35,29,28,36,41,41,35,31,41,62,56,45,52,98,57,60,56,43,55,43,45,53,33,38,38,42,59,46,52,32,44,49,43,34,44,37,35,30,31,37,34,29,38,61,77,60,48,49,38,41,41,32,24,31,22,20,19,19,14,19,17,15,15,12,15,10,12,9,9,8,9,6,6,5,5,4,4,4,5,4,3,2,2,3,3,2,2,1,2,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}" width="529" height="84"></canvas>
-        <div class="blue-waveform-container absolute top-0 left-0 h-full w-0 overflow-hidden pointer-events-none" style="width: 0px;">
-            <div class="overlay absolute top-0 right-0 h-full opacity-50 w-[4px] bg-overlayBlue-500"></div>
-        </div>
-    </div>
-</div>
-                </div>
-            </div>
-            <div>
-                <p class="mb-1 text-sm font-bold leading-none text-gray-600">
-                    00:31
-                </p>
-                                    <p class="text-sm font-bold leading-none text-gray-600">126 BPM</p>
-                            </div>
-        </div>
-        <div class="flex w-full items-center justify-between lg:w-auto md:gap-4 basis-full md:basis-0 grow-0 md:order-2 lg:order-none">
-            <span class="relative inline-flex" x-on:mouseover="showTooltip = true" x-on:mouseleave="showTooltip = false">
-                <button x-on:click="showInfo = ! showInfo">
-                    <svg class="fill-current h-6 w-6 text-gray-700 hover:text-gray-900" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M2.34313 13.6569C3.85416 15.1678 5.86313 16 8 16C10.1369 16 12.1458 15.1678 13.6569 13.6569C15.1678 12.1458 16 10.1369 16 8C16 5.86313 15.1678 3.85416 13.6569 2.34313C12.1458 0.832156 10.1369 0 8 0C5.86313 0 3.85416 0.832156 2.34313 2.34313C0.832156 3.85416 0 5.86313 0 8C0 10.1369 0.832156 12.1458 2.34313 13.6569ZM1.5625 8C1.5625 4.45034 4.45034 1.5625 8 1.5625C11.5497 1.5625 14.4375 4.45034 14.4375 8C14.4375 11.5497 11.5497 14.4375 8 14.4375C4.45034 14.4375 1.5625 11.5497 1.5625 8ZM8.3125 12.5625C7.88103 12.5625 7.53125 12.2127 7.53125 11.7812V7.8125H6.75C6.31853 7.8125 5.96875 7.46272 5.96875 7.03125C5.96875 6.59978 6.31853 6.25 6.75 6.25H8.3125C8.74397 6.25 9.09375 6.59978 9.09375 7.03125V11.7812C9.09375 12.2127 8.74397 12.5625 8.3125 12.5625ZM7.0625 4.375C7.0625 4.89194 7.48306 5.3125 8 5.3125C8.51694 5.3125 8.9375 4.89194 8.9375 4.375C8.9375 3.85806 8.51694 3.4375 8 3.4375C7.48306 3.4375 7.0625 3.85806 7.0625 4.375Z"></path></svg>                </button>
-                <div x-show="showTooltip" class="tooltip max-md:!hidden" style="display: none;">
-    More Info
-</div>
-             </span>
-
-            <div>
-                <div wire:id="czMKCgtEalit0YzKNcPj" class="flex relative z-40" x-data="{ isClipInAnyUserCollection: $wire.entangle(&#39;isClipInAnyUserCollection&#39;), mode: $wire.entangle(&#39;mode&#39;), showModal: $wire.entangle(&#39;showModal&#39;), hidden: $wire.entangle(&#39;hidden&#39;), showTooltip: false}">
-    <span class="relative inline-flex" x-on:mouseover="showTooltip = true" x-on:mouseleave="showTooltip = false">
-        <button class="relative add-to-collection-button overflow-hidden" wire:click.stop.prevent="toggleModal()">
-            <svg x-bind:class="{&#39;text-white&#39;: mode == &#39;light&#39;, &#39;not-added&#39;: !isClipInAnyUserCollection, &#39;!translate-y-0&#39;: !hidden}" x-show="!isClipInAnyUserCollection" class="fill-current h-6 w-6 text-gray-700 outline-none translate-y-8 not-added !translate-y-0" xmlns="http://www.w3.org/2000/svg" fill="currentColor" stroke="none" viewBox="0 0 24 24"><path d="M20 2H8c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2V4c0-1.103-.897-2-2-2zM8 16V4h12l.002 12H8z"></path><path d="M4 8H2v12c0 1.103.897 2 2 2h12v-2H4V8zm11-2h-2v3h-3v2h3v3h2v-3h3V9h-3z"></path></svg>            <svg x-show="isClipInAnyUserCollection" class="fill-current h-6 w-6 text-[#198ACF] outline-none" xmlns="http://www.w3.org/2000/svg" fill="currentColor" stroke="none" viewBox="0 0 24 24" style="display: none;"><path d="M4 22h12v-2H4V8H2v12c0 1.103.897 2 2 2z"></path><path d="M20 2H8c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2V4c0-1.103-.897-2-2-2zm-2 9h-3v3h-2v-3h-3V9h3V6h2v3h3v2z"></path></svg>        </button>
-        <div x-show="showTooltip" class="tooltip max-md:!hidden" style="display: none;">
-    Add to Collections
-</div>
-     </span>
-    <div x-show="showModal" style="display: none;">
-        <div class="modal-wrapper-add-to-collection flex flex-col items-center justify-center absolute bottom-0 right-[-15px] z-60 cursor-auto min-w-[300px] rounded-lg " style="transform: translateY(100%) translateY(10px);">
-            <div class="flex flex-col bg-white fixed top-0 left-0 md:relative md:rounded-lg md:shadow-lg h-full md:h-auto p-4 w-full" @click.outside="showModal = false;">
-                <div class="flex justify-start relative md:justify-between items-center ">
-                    <p class="text-lg font-bold text-[#2b2b2b]">Add to collection</p>
-                    <a href="https://www.videvo.net/my-collections/" class="ml-4 md:ml-0 text-sm text-gray-500 hover:text-gray-700">Manage</a>
-                    <div class="w-10 h-10 flex items-center justify-center absolute top-0 right-0 md:hidden close-modal w-6 text-2xl text-gray-600 leading-4 font-bold text-right" @click.stop.prevent="showModal = false; window.clipActions?.closeAllModals();"></div>
-                </div>
-                <div class="flex justify-start w-full">
-                    <div wire:id="RkXIiGTgjQFsxVSPPfD5" class="flex py-2 relative h-[56px] item-center" x-data="{showForm: false, showResponse: false, timeoutToggle: false}">
-    <template x-if="showResponse"></template>
-    <div class="cursor-pointer text-base text-[#1b95e0] bold h-full order-2 flex items-center" @click="showForm = !showForm" x-show="!showForm">
-        <svg class="fill-current w-7 h-7 mr-[10px]" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
-    <path fill="#1B95E0" fill-rule="evenodd" d="M14 7c.552 0 1 .448 1 1v5h5c.552 0 1 .448 1 1s-.448 1-1 1h-5v5c0 .552-.448 1-1 1s-1-.448-1-1v-5H8c-.552 0-1-.448-1-1s.448-1 1-1h5V8c0-.552.448-1 1-1z"></path>
-</svg>        Create new collection
-    </div>
-    <form x-show="showForm" class="flex space-between items-center border border-[#1b95e0] justify-items-stretch rounded-sm overflow-hidden h-full" wire:submit.prevent="addUserCollection" style="display: none;">
-        <input class="px-2 border-0 outline-0 h-full" placeholder="Add collection name" type="text" wire:model="collectionName">
-        <button type="submit" @click="window.clipActions?.closeAllModals(); showResponse = true; setTimeout(() =&gt; {showResponse = false; }, 3000); showForm = !showForm" class="h-full leading-10 bg-gray-100 text-blue-600 text-base font-bold text-center min-w-[60px]">Add</button>
-    </form>
-
-</div>
-<!-- Livewire Component wire-end:RkXIiGTgjQFsxVSPPfD5 -->                </div>
-                <div class="flex flex-col grow overflow-auto relative md:max-h-[calc(46px*3.5)] max-md:max-h[calc(100vh-100px)] transition duration-150" x-data="{selectedCollections:  [],}">
-                                        <div class="m:h-[80px] flex items-center justify-between fixed py-3 md:py-3 left-0 px-4 bottom-0 left-0 w-full md:!hidden" style="box-shadow: 0 -2px 0 0 rgb(0 0 0 / 10%);">
-                        <a x-on:click="showModal = false; window.clipActions?.closeAllModals();" class="pt-3 pb-3 pr-6 pl-6 font-bold text-base rounded-lg text-blue-600 bg-[#ececec]">Cancel</a>
-                        <a x-on:click="showModal = false; window.clipActions?.closeAllModals(); $wire.toggleClipInUserCollections(selectedCollections)" class="pt-3 pb-3 pr-6 pl-6 font-bold text-base rounded-lg bg-blue-600 text-white">Apply</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Livewire Component wire-end:czMKCgtEalit0YzKNcPj -->            </div>
-            <div>
-                <div wire:id="6dADhwvEuBBYRRmvAwn5" class="flex" x-data="{ isFavorite: $wire.entangle(&#39;isFavorite&#39;), mode: $wire.entangle(&#39;mode&#39;), hidden: $wire.entangle(&#39;hidden&#39;), showTooltip: false }">
-    <span class="relative inline-flex" x-on:mouseover="showTooltip = true" x-on:mouseleave="showTooltip = false">
-        <button class="text-gray-700 hover:text-gray-900 overflow-hidden toggle-favorite" wire:key="clip-232836" wire:click.stop.prevent="toggleFavorite();">
-            <svg x-bind:class="{&#39;text-white&#39;: mode == &#39;light&#39;, &#39;not-added&#39;: !isFavorite, &#39;!translate-y-0&#39;: !hidden}" x-show="!isFavorite" class="fill-current h-6 w-6 outline-none translate-y-8 not-added !translate-y-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" fill="none"><path d="M5.40956 2.51538C4.45258 1.76408 3.08107 1.83357 2.20944 2.72795C1.25976 3.7024 1.26439 5.28574 2.2182 6.26443L5.74895 9.8873C5.8954 10.0376 6.13284 10.0376 6.27929 9.8873L9.7917 6.28538C10.7392 5.30775 10.7362 3.72885 9.7822 2.74999C8.90375 1.84862 7.52809 1.77191 6.57265 2.52393C6.48883 2.58991 6.40825 2.66226 6.33151 2.74099L5.99605 3.08587L5.65599 2.73693C5.57761 2.65651 5.49525 2.58265 5.40956 2.51538ZM7.04767 3.43893C7.60289 2.86945 8.49943 2.86653 9.06605 3.44793C9.64336 4.04031 9.64309 5.00077 9.07454 5.58846L9.0736 5.58943L6.01425 8.72674L2.93435 5.56648C2.3556 4.97264 2.35777 4.00853 2.92559 3.42589C3.4791 2.85794 4.37486 2.85516 4.93984 3.43488L5.2799 3.78381C5.46824 3.97706 5.72669 4.086 5.99654 4.08587C6.26638 4.08574 6.52472 3.97655 6.71288 3.78312L7.04767 3.43893Z" fill="currentColor"></path></svg>            <svg x-show="isFavorite" class="fill-current h-6 w-6 text-red-700 outline-none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" fill="none" style="display: none;"><path d="M5.65599 2.73693C4.70219 1.75824 3.15912 1.75349 2.20944 2.72795C1.25976 3.7024 1.26439 5.28574 2.2182 6.26443L5.74895 9.8873C5.8954 10.0376 6.13284 10.0376 6.27929 9.8873L9.7917 6.28538C10.7392 5.30775 10.7362 3.72885 9.7822 2.74999C8.82669 1.76955 7.28289 1.76479 6.33151 2.74099L5.99605 3.08587L5.65599 2.73693Z" fill="currentColor"></path></svg>        </button>
-        <div x-show="showTooltip" class="tooltip max-md:!hidden" style="display: none;">
-    Add to Favorites
-</div>
-     </span>
-</div>
-
-<!-- Livewire Component wire-end: -->            </div>
-                        <span class="font-bold text-gray-700 w-[44px]">
-                    FREE
-            </span>
-                        <a href="https://www.videvo.net/royalty-free-music-track/ultimate-victory-30s/232836/" class="flex h-9 items-center justify-center rounded-lg bg-blue-400 px-5 font-bold text-white">
-                <svg class="fill-current mr-2 h-4 w-4" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M8 12.2188C7.79281 12.2188 7.59409 12.1364 7.44756 11.9899L4.79594 9.33828C4.49084 9.03319 4.49084 8.53853 4.79594 8.23344C5.10103 7.92834 5.59566 7.92834 5.90078 8.23344L7.21875 9.55141V0.78125C7.21875 0.349781 7.56853 0 8 0C8.43147 0 8.78125 0.349781 8.78125 0.78125V9.55141L10.0992 8.23344C10.4043 7.92834 10.899 7.92834 11.2041 8.23344C11.5092 8.53853 11.5092 9.03319 11.2041 9.33828L8.55244 11.9899C8.40591 12.1364 8.20722 12.2188 8 12.2188ZM14.4375 8.78125C14.4375 8.34978 14.7872 8 15.2188 8C15.6503 8 16 8.34978 16 8.78125V12.9688C16 14.4334 14.8084 15.625 13.3438 15.625H2.65625C1.19159 15.625 0 14.4334 0 12.9688V8.78125C0 8.34978 0.349781 8 0.78125 8C1.21272 8 1.5625 8.34978 1.5625 8.78125V12.9688C1.5625 13.5718 2.05316 14.0625 2.65625 14.0625H13.3438C13.9468 14.0625 14.4375 13.5718 14.4375 12.9688V8.78125Z"></path>
-</svg>                Download
-            </a>
-        </div>
-    </div>
-    <div x-show="showInfo" class="grid grid-cols-3 border-t border-gray-250 p-2 text-sm" style="display: none;">
-                    <div class="border-r border-gray-250 py-2 px-4">
-                <p class="font-bold text-gray-600">Genre</p>
-                                    <a href="https://www.videvo.net/royalty-free-music/documentary/" class="font-bold text-gray-900 hover:underline">Documentary</a>,                                     <a href="https://www.videvo.net/royalty-free-music/military/" class="font-bold text-gray-900 hover:underline">Military</a>,                                     <a href="https://www.videvo.net/royalty-free-music/sports/" class="font-bold text-gray-900 hover:underline">Sports</a>,                                     <a href="https://www.videvo.net/royalty-free-music/drama-&amp;-film-scores/" class="font-bold text-gray-900 hover:underline">Drama &amp; Film Scores</a>                                            </div>
-            <div class="border-r border-gray-250 py-2 px-4">
-                <p class="font-bold text-gray-600">Mood</p>
-                                    <a href="https://www.videvo.net/royalty-free-music/mood/confident/" class="font-bold text-gray-900 hover:underline">Confident</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/respectful/" class="font-bold text-gray-900 hover:underline">Respectful</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/elegant/" class="font-bold text-gray-900 hover:underline">Elegant</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/bold/" class="font-bold text-gray-900 hover:underline">Bold</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/strong/" class="font-bold text-gray-900 hover:underline">Strong</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/proud/" class="font-bold text-gray-900 hover:underline">Proud</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/anticipating/" class="font-bold text-gray-900 hover:underline">Anticipating</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/competition/" class="font-bold text-gray-900 hover:underline">Competition</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/joyous/" class="font-bold text-gray-900 hover:underline">Joyous</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/action/" class="font-bold text-gray-900 hover:underline">Action</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/inspiring/" class="font-bold text-gray-900 hover:underline">Inspiring</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/satisfied/" class="font-bold text-gray-900 hover:underline">Satisfied</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/media/" class="font-bold text-gray-900 hover:underline">Media</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/epic/" class="font-bold text-gray-900 hover:underline">Epic</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/achievement/" class="font-bold text-gray-900 hover:underline">Achievement</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/patriotic/" class="font-bold text-gray-900 hover:underline">Patriotic</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/motivating/" class="font-bold text-gray-900 hover:underline">Motivating</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/jingle/" class="font-bold text-gray-900 hover:underline">Jingle</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/documentary/" class="font-bold text-gray-900 hover:underline">Documentary</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/fanfare/" class="font-bold text-gray-900 hover:underline">Fanfare</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/olympic/" class="font-bold text-gray-900 hover:underline">Olympic</a>                                            </div>
-            <div class="py-2 px-4">
-                <p class="font-bold text-gray-600">Instrumentation</p>
-                                    <a href="https://www.videvo.net/royalty-free-music/instrument/orchestra/" class="font-bold text-gray-900 hover:underline">Orchestra</a>                                            </div>
-        
-    </div>
-</div>
-                                    <div class="-mx-4 mb-2 flex flex-col border-b border-gray-200 px-3 hover:bg-gray-150 lg:mx-0 lg:rounded lg:border-0 audio-row audio-player pb-2 md:pb-0" x-data="{ &#39;showInfo&#39;: false, showTooltip: false }">
-        <div class="flex items-center lg:min-h-20 flex-row lg:gap-4 flex-wrap lg:flex-no-wrap w-full">
-        <div class="flex items-center flex-grow lg:max-w-[380px] lg:min-w-[280px] md:order-1 lg:order-none">
-            <button class="relative mr-4 flex h-14 w-14 shrink-0 items-center justify-center bg-black z-20 button-play-pause" @click="window.audioHandler.handleAudioPlayPause($refs.audioElement233359); playing = playing === 233359 ? &#39;&#39; : 233359;">
-                <img src="./images/music.jpg" class="absolute top-0 left-0 h-full w-full object-cover">
-                <svg x-bind:class="{ &#39;hidden&#39;: playing === 233359 }" class="fill-current relative z-10 h-8 w-8 text-white drop-shadow play-icon" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg"><path d="M14.4621 8.1418L4.15546 1.93628C3.85647 1.75624 3.48667 1.75457 3.18613 1.93178C2.88556 2.10904 2.7002 2.43817 2.7002 2.79451V15.2056C2.7002 15.5619 2.88556 15.891 3.18613 16.0683C3.33511 16.1562 3.50106 16.2 3.66705 16.2C3.83586 16.2 4.00471 16.1546 4.15546 16.0638L14.4621 9.85827C14.7584 9.67986 14.9405 9.35319 14.9405 9.00003C14.9405 8.64688 14.7584 8.32021 14.4621 8.1418Z"></path></svg>                <svg x-bind:class="{ &#39;hidden&#39;: playing !== 233359 }" class="fill-current relative z-10 h-12 w-12 text-white drop-shadow pause-icon hidden" width="54px" height="54px" viewBox="0 0 54 54" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>pause-button-white-sml</title>
-    <g id="pause-button-white-sml" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Group-2" transform="translate(14.000000, 14.000000)">
-            <path d="M8,0 C10.1421954,0 11.8910789,1.82429918 11.9951047,4.1170563 L12,4.33333333 L12,21.6666667 C12,23.9873783 10.3160315,25.8820021 8.19964034,25.9946968 L8,26 L4,26 C1.85780461,26 0.108921124,24.1757008 0.00489530723,21.8829437 L0,21.6666667 L0,4.33333333 C0,2.01262166 1.68396847,0.117997884 3.80035966,0.0053032495 L4,0 L8,0 Z M22,0 C24.1421954,0 25.8910789,1.82429918 25.9951047,4.1170563 L26,4.33333333 L26,21.6666667 C26,23.9873783 24.3160315,25.8820021 22.1996403,25.9946968 L22,26 L18,26 C15.8578046,26 14.1089211,24.1757008 14.0048953,21.8829437 L14,21.6666667 L14,4.33333333 C14,2.01262166 15.6839685,0.117997884 17.8003597,0.0053032495 L18,0 L22,0 Z" id="Combined-Shape" fill-opacity="0.4" fill="#000000"></path>
-            <path d="M4,2 L8,2 C9.1045695,2 10,2.8954305 10,4 L10,22 C10,23.1045695 9.1045695,24 8,24 L4,24 C2.8954305,24 2,23.1045695 2,22 L2,4 C2,2.8954305 2.8954305,2 4,2 Z M18,2 L22,2 C23.1045695,2 24,2.8954305 24,4 L24,22 C24,23.1045695 23.1045695,24 22,24 L18,24 C16.8954305,24 16,23.1045695 16,22 L16,4 C16,2.8954305 16.8954305,2 18,2 Z" id="Combined-Shape" fill="#FFFFFF"></path>
-        </g>
-    </g>
-</svg>                
-                <audio preload="none" x-ref="audioElement233359" x-on:ended="playing = &#39;&#39;" id="linkAudio-233359" class="listing-audio audio-element hidden">
-                                            <source src="https://cdn.videvo.net/videvo_files/audio/premium/audio0199/watermarked/World-Class-CPI010201_preview.mp3" type="audio/mp3">
-                                        Your browser does not support the audio element.
-                </audio>
-            </button>
-            <div class="flex min-w-0 max-w-[calc(100vw-104px)] flex-col lg:max-w-[280px]">
-                <a href="https://www.videvo.net/royalty-free-music-track/world-class-alt-mix/233359/" class="mb-1 font-semibold leading-none text-gray-800 hover:underline overflow-hidden whitespace-nowrap text-ellipsis">World Class - Alt Mix</a>
-                                    <a href="https://www.videvo.net/royalty-free-music-albums/corporate-inspiration/" class="mb-1 text-sm font-bold leading-none text-gray-400 hover:text-gray-600 overflow-hidden whitespace-nowrap text-ellipsis">
-                        Corporate Inspiration
-                    </a>
-                                <p class="w-full truncate text-sm text-gray-600 overflow-hidden whitespace-nowrap text-ellipsis">
-                    Corporate Drama &amp; Film Scores Military Sports
-                    | Achievement, Action, Adventure, Ambitious, Bold, Brave, Business, Competition, Confident, Determined, Epic, Fanfare, Industry, Inspiring, Intense, Motivating, Olympic, Optimistic, Patriotic, Productive, Proud, Respectful, Satisfied, Strong, Underscore
-                </p>
-            </div>
-        </div>
-        <div class="flex lg:flex-1 items-center w-full h-[60px] max-h-[60px] lg:h-[84px] lg:max-h-[84px] md:grow-[2] md:basis-170% md:min-w-[300px] justify-start md:order-3 lg:order-none xs:my-3 md:my-0">
-            <div class="mr-4 flex-1 h-full w-full">
-                <div class="z-20 w-full h-full">
-                    <div class="waveform waveform-length-bpm h-full w-full relative min-h-[60px] max-h-[60px] lg:min-h-[84px] lg:max-h-[84px]">
-    <div class="waveform-image waveform-container h-full relative w-full overflow-hidden">
-        <canvas id="mainWaveformCanvas-listing-233359" @click="window.audioHandler.handleCanvasClick(event,$refs.audioElement233359);  if(playing === &#39;&#39; || playing !== 233359) { playing = 233359 }" class="js--audio-waveform-canvas belongs-listing h-[60px] lg:h-[84px] w-full max-w-full max-h-[60px] lg:max-h-[84px] absolute top-0 left-0" data-waveformjson="{&quot;margin&quot;:{&quot;low&quot;:0,&quot;high&quot;:250},&quot;heights&quot;:[5,49,27,33,47,49,27,24,16,13,51,22,27,18,17,10,12,9,10,29,47,28,21,50,28,28,21,15,17,55,22,21,18,14,11,17,14,14,46,22,30,22,48,27,30,18,12,58,40,27,18,17,11,11,11,10,14,52,26,29,46,38,28,19,17,15,50,28,23,18,26,16,20,16,15,50,43,33,21,50,26,28,18,16,13,51,21,27,17,15,10,9,10,10,47,26,29,29,50,29,18,20,18,55,41,22,21,21,23,24,24,28,26,74,26,39,52,36,31,34,22,26,58,32,32,21,17,19,17,13,18,60,58,31,25,48,29,28,29,21,28,39,28,25,28,21,16,21,24,22,58,27,41,40,53,30,29,32,17,61,49,32,22,25,14,16,20,18,19,53,33,31,65,35,36,29,26,17,49,28,28,27,16,29,35,36,31,59,36,32,26,48,36,27,25,27,23,62,33,32,17,20,18,14,15,19,60,32,33,41,50,31,22,28,27,39,33,27,19,25,19,21,24,26,35,63,41,29,58,36,41,23,17,15,59,28,31,36,18,16,10,10,9,56,30,35,24,56,26,33,33,23,32,47,33,26,37,20,18,22,22,18,55,30,32,56,50,32,27,22,23,45,33,33,37,32,28,25,28,29,53,59,32,24,55,32,33,34,20,22,48,26,30,35,20,15,16,27,19,53,37,30,28,52,26,33,22,21,36,45,29,36,26,16,15,31,22,18,53,31,29,51,35,33,24,35,26,48,38,30,17,35,19,17,26,21,53,52,28,27,55,27,28,23,18,17,50,29,33,26,21,15,15,23,20,52,34,31,27,53,42,51,47,32,41,55,35,28,33,21,21,26,25,19,55,29,31,49,29,32,31,29,24,52,27,33,27,23,18,21,27,21,46,58,34,34,48,30,46,54,37,36,52,34,35,36,22,20,22,29,23,59,32,31,52,47,35,30,28,23,46,46,40,36,24,17,20,28,26,21,63,36,25,54,33,41,39,42,44,52,38,38,25,30,27,28,27,29,56,32,34,26,62,31,30,21,20,26,42,29,27,26,19,19,20,31,20,52,29,28,56,41,30,28,22,26,45,26,34,40,28,15,16,30,27,34,46,27,18,57,29,30,27,27,18,59,26,29,24,26,13,22,15,23,46,28,30,34,46,30,32,32,29,28,55,29,25,26,22,35,36,33,37,62,36,35,45,46,34,25,23,25,54,33,26,17,20,19,14,11,14,58,41,34,23,50,25,28,31,24,27,43,30,23,27,17,14,20,27,19,52,32,37,23,46,28,29,29,18,71,44,33,21,23,13,15,21,17,18,60,31,35,61,34,35,21,21,15,49,31,27,18,34,25,29,27,24,62,47,34,26,50,30,27,23,19,25,54,33,31,18,18,16,11,14,16,58,31,34,32,50,28,19,31,27,44,35,26,25,26,25,27,28,33,31,71,39,42,49,37,32,33,23,26,58,30,32,20,17,19,17,13,18,60,57,31,25,47,29,29,29,28,22,40,28,25,29,20,16,21,24,20,58,27,41,42,54,30,29,32,17,60,26,32,22,25,14,16,20,18,19,51,33,31,65,36,35,22,25,17,49,27,27,28,16,30,36,37,31,61,36,32,26,47,36,27,26,27,32,61,34,24,18,20,16,14,15,19,61,32,33,42,49,31,22,28,27,39,33,27,18,25,19,20,23,26,37,56,45,29,54,31,31,27,22,29,58,33,30,18,17,14,12,12,13,61,31,34,23,44,32,26,30,25,43,47,33,29,33,26,43,48,50,52,63,35,26,14,11,6,3,3,1,0,0,0,0,0,0,0]}" width="532" height="84"></canvas>
-        <div class="blue-waveform-container absolute top-0 left-0 h-full w-0 overflow-hidden pointer-events-none" style="width: 0px;">
-            <div class="overlay absolute top-0 right-0 h-full opacity-50 w-[4px] bg-overlayBlue-500"></div>
-        </div>
-    </div>
-</div>
-                </div>
-            </div>
-            <div>
-                <p class="mb-1 text-sm font-bold leading-none text-gray-600">
-                    03:02
-                </p>
-                                    <p class="text-sm font-bold leading-none text-gray-600">114 BPM</p>
-                            </div>
-        </div>
-        <div class="flex w-full items-center justify-between lg:w-auto md:gap-4 basis-full md:basis-0 grow-0 md:order-2 lg:order-none">
-            <span class="relative inline-flex" x-on:mouseover="showTooltip = true" x-on:mouseleave="showTooltip = false">
-                <button x-on:click="showInfo = ! showInfo">
-                    <svg class="fill-current h-6 w-6 text-gray-700 hover:text-gray-900" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M2.34313 13.6569C3.85416 15.1678 5.86313 16 8 16C10.1369 16 12.1458 15.1678 13.6569 13.6569C15.1678 12.1458 16 10.1369 16 8C16 5.86313 15.1678 3.85416 13.6569 2.34313C12.1458 0.832156 10.1369 0 8 0C5.86313 0 3.85416 0.832156 2.34313 2.34313C0.832156 3.85416 0 5.86313 0 8C0 10.1369 0.832156 12.1458 2.34313 13.6569ZM1.5625 8C1.5625 4.45034 4.45034 1.5625 8 1.5625C11.5497 1.5625 14.4375 4.45034 14.4375 8C14.4375 11.5497 11.5497 14.4375 8 14.4375C4.45034 14.4375 1.5625 11.5497 1.5625 8ZM8.3125 12.5625C7.88103 12.5625 7.53125 12.2127 7.53125 11.7812V7.8125H6.75C6.31853 7.8125 5.96875 7.46272 5.96875 7.03125C5.96875 6.59978 6.31853 6.25 6.75 6.25H8.3125C8.74397 6.25 9.09375 6.59978 9.09375 7.03125V11.7812C9.09375 12.2127 8.74397 12.5625 8.3125 12.5625ZM7.0625 4.375C7.0625 4.89194 7.48306 5.3125 8 5.3125C8.51694 5.3125 8.9375 4.89194 8.9375 4.375C8.9375 3.85806 8.51694 3.4375 8 3.4375C7.48306 3.4375 7.0625 3.85806 7.0625 4.375Z"></path></svg>                </button>
-                <div x-show="showTooltip" class="tooltip max-md:!hidden" style="display: none;">
-    More Info
-</div>
-             </span>
-
-            <div>
-                <div wire:id="KKDLlijNyMcFpvYo3wxJ" class="flex relative z-40" x-data="{ isClipInAnyUserCollection: $wire.entangle(&#39;isClipInAnyUserCollection&#39;), mode: $wire.entangle(&#39;mode&#39;), showModal: $wire.entangle(&#39;showModal&#39;), hidden: $wire.entangle(&#39;hidden&#39;), showTooltip: false}">
-    <span class="relative inline-flex" x-on:mouseover="showTooltip = true" x-on:mouseleave="showTooltip = false">
-        <button class="relative add-to-collection-button overflow-hidden" wire:click.stop.prevent="toggleModal()">
-            <svg x-bind:class="{&#39;text-white&#39;: mode == &#39;light&#39;, &#39;not-added&#39;: !isClipInAnyUserCollection, &#39;!translate-y-0&#39;: !hidden}" x-show="!isClipInAnyUserCollection" class="fill-current h-6 w-6 text-gray-700 outline-none translate-y-8 not-added !translate-y-0" xmlns="http://www.w3.org/2000/svg" fill="currentColor" stroke="none" viewBox="0 0 24 24"><path d="M20 2H8c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2V4c0-1.103-.897-2-2-2zM8 16V4h12l.002 12H8z"></path><path d="M4 8H2v12c0 1.103.897 2 2 2h12v-2H4V8zm11-2h-2v3h-3v2h3v3h2v-3h3V9h-3z"></path></svg>            <svg x-show="isClipInAnyUserCollection" class="fill-current h-6 w-6 text-[#198ACF] outline-none" xmlns="http://www.w3.org/2000/svg" fill="currentColor" stroke="none" viewBox="0 0 24 24" style="display: none;"><path d="M4 22h12v-2H4V8H2v12c0 1.103.897 2 2 2z"></path><path d="M20 2H8c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2V4c0-1.103-.897-2-2-2zm-2 9h-3v3h-2v-3h-3V9h3V6h2v3h3v2z"></path></svg>        </button>
-        <div x-show="showTooltip" class="tooltip max-md:!hidden" style="display: none;">
-    Add to Collections
-</div>
-     </span>
-    <div x-show="showModal" style="display: none;">
-        <div class="modal-wrapper-add-to-collection flex flex-col items-center justify-center absolute bottom-0 right-[-15px] z-60 cursor-auto min-w-[300px] rounded-lg " style="transform: translateY(100%) translateY(10px);">
-            <div class="flex flex-col bg-white fixed top-0 left-0 md:relative md:rounded-lg md:shadow-lg h-full md:h-auto p-4 w-full" @click.outside="showModal = false;">
-                <div class="flex justify-start relative md:justify-between items-center ">
-                    <p class="text-lg font-bold text-[#2b2b2b]">Add to collection</p>
-                    <a href="https://www.videvo.net/my-collections/" class="ml-4 md:ml-0 text-sm text-gray-500 hover:text-gray-700">Manage</a>
-                    <div class="w-10 h-10 flex items-center justify-center absolute top-0 right-0 md:hidden close-modal w-6 text-2xl text-gray-600 leading-4 font-bold text-right" @click.stop.prevent="showModal = false; window.clipActions?.closeAllModals();"></div>
-                </div>
-                <div class="flex justify-start w-full">
-                    <div wire:id="Q8CdfY0T0uaqrylMLKmK" class="flex py-2 relative h-[56px] item-center" x-data="{showForm: false, showResponse: false, timeoutToggle: false}">
-    <template x-if="showResponse"></template>
-    <div class="cursor-pointer text-base text-[#1b95e0] bold h-full order-2 flex items-center" @click="showForm = !showForm" x-show="!showForm">
-        <svg class="fill-current w-7 h-7 mr-[10px]" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
-    <path fill="#1B95E0" fill-rule="evenodd" d="M14 7c.552 0 1 .448 1 1v5h5c.552 0 1 .448 1 1s-.448 1-1 1h-5v5c0 .552-.448 1-1 1s-1-.448-1-1v-5H8c-.552 0-1-.448-1-1s.448-1 1-1h5V8c0-.552.448-1 1-1z"></path>
-</svg>        Create new collection
-    </div>
-    <form x-show="showForm" class="flex space-between items-center border border-[#1b95e0] justify-items-stretch rounded-sm overflow-hidden h-full" wire:submit.prevent="addUserCollection" style="display: none;">
-        <input class="px-2 border-0 outline-0 h-full" placeholder="Add collection name" type="text" wire:model="collectionName">
-        <button type="submit" @click="window.clipActions?.closeAllModals(); showResponse = true; setTimeout(() =&gt; {showResponse = false; }, 3000); showForm = !showForm" class="h-full leading-10 bg-gray-100 text-blue-600 text-base font-bold text-center min-w-[60px]">Add</button>
-    </form>
-
-</div>
-<!-- Livewire Component wire-end:Q8CdfY0T0uaqrylMLKmK -->                </div>
-                <div class="flex flex-col grow overflow-auto relative md:max-h-[calc(46px*3.5)] max-md:max-h[calc(100vh-100px)] transition duration-150" x-data="{selectedCollections:  [],}">
-                                        <div class="m:h-[80px] flex items-center justify-between fixed py-3 md:py-3 left-0 px-4 bottom-0 left-0 w-full md:!hidden" style="box-shadow: 0 -2px 0 0 rgb(0 0 0 / 10%);">
-                        <a x-on:click="showModal = false; window.clipActions?.closeAllModals();" class="pt-3 pb-3 pr-6 pl-6 font-bold text-base rounded-lg text-blue-600 bg-[#ececec]">Cancel</a>
-                        <a x-on:click="showModal = false; window.clipActions?.closeAllModals(); $wire.toggleClipInUserCollections(selectedCollections)" class="pt-3 pb-3 pr-6 pl-6 font-bold text-base rounded-lg bg-blue-600 text-white">Apply</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Livewire Component wire-end:KKDLlijNyMcFpvYo3wxJ -->            </div>
-            <div>
-                <div wire:id="gijugc8lN0uGca4DtbZ1" class="flex" x-data="{ isFavorite: $wire.entangle(&#39;isFavorite&#39;), mode: $wire.entangle(&#39;mode&#39;), hidden: $wire.entangle(&#39;hidden&#39;), showTooltip: false }">
-    <span class="relative inline-flex" x-on:mouseover="showTooltip = true" x-on:mouseleave="showTooltip = false">
-        <button class="text-gray-700 hover:text-gray-900 overflow-hidden toggle-favorite" wire:key="clip-233359" wire:click.stop.prevent="toggleFavorite();">
-            <svg x-bind:class="{&#39;text-white&#39;: mode == &#39;light&#39;, &#39;not-added&#39;: !isFavorite, &#39;!translate-y-0&#39;: !hidden}" x-show="!isFavorite" class="fill-current h-6 w-6 outline-none translate-y-8 not-added !translate-y-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" fill="none"><path d="M5.40956 2.51538C4.45258 1.76408 3.08107 1.83357 2.20944 2.72795C1.25976 3.7024 1.26439 5.28574 2.2182 6.26443L5.74895 9.8873C5.8954 10.0376 6.13284 10.0376 6.27929 9.8873L9.7917 6.28538C10.7392 5.30775 10.7362 3.72885 9.7822 2.74999C8.90375 1.84862 7.52809 1.77191 6.57265 2.52393C6.48883 2.58991 6.40825 2.66226 6.33151 2.74099L5.99605 3.08587L5.65599 2.73693C5.57761 2.65651 5.49525 2.58265 5.40956 2.51538ZM7.04767 3.43893C7.60289 2.86945 8.49943 2.86653 9.06605 3.44793C9.64336 4.04031 9.64309 5.00077 9.07454 5.58846L9.0736 5.58943L6.01425 8.72674L2.93435 5.56648C2.3556 4.97264 2.35777 4.00853 2.92559 3.42589C3.4791 2.85794 4.37486 2.85516 4.93984 3.43488L5.2799 3.78381C5.46824 3.97706 5.72669 4.086 5.99654 4.08587C6.26638 4.08574 6.52472 3.97655 6.71288 3.78312L7.04767 3.43893Z" fill="currentColor"></path></svg>            <svg x-show="isFavorite" class="fill-current h-6 w-6 text-red-700 outline-none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" fill="none" style="display: none;"><path d="M5.65599 2.73693C4.70219 1.75824 3.15912 1.75349 2.20944 2.72795C1.25976 3.7024 1.26439 5.28574 2.2182 6.26443L5.74895 9.8873C5.8954 10.0376 6.13284 10.0376 6.27929 9.8873L9.7917 6.28538C10.7392 5.30775 10.7362 3.72885 9.7822 2.74999C8.82669 1.76955 7.28289 1.76479 6.33151 2.74099L5.99605 3.08587L5.65599 2.73693Z" fill="currentColor"></path></svg>        </button>
-        <div x-show="showTooltip" class="tooltip max-md:!hidden" style="display: none;">
-    Add to Favorites
-</div>
-     </span>
-</div>
-
-<!-- Livewire Component wire-end: -->            </div>
-                        <span class="w-[44px] flex justify-center">
-                <svg data-cy="premium-icon" class="fill-current h-6 w-6 text-orange-600" viewBox="-120 0 512 512.00115" xmlns="http://www.w3.org/2000/svg"><path d="m270.214844 180.054688c-2.628906-4.816407-7.679688-7.816407-13.167969-7.816407h-54.425781l24.753906-154.871093c1.082031-6.773438-2.570312-13.417969-8.867188-16.136719-6.292968-2.71875-13.640624-.820313-17.828124 4.613281l-197.5625 256.398438c-3.488282 4.527343-4.097657 10.644531-1.578126 15.777343 2.523438 5.128907 7.746094 8.378907 13.460938 8.378907h85.816406l-57.566406 206.574218c-1.992188 7.144532 1.539062 14.675782 8.304688 17.710938 1.988281.890625 4.074218 1.316406 6.136718 1.316406 4.96875 0 9.78125-2.476562 12.621094-6.882812l199.351562-309.761719c2.96875-4.613281 3.179688-10.484375.550782-15.300781zm0 0"></path></svg>            </span>
-                        <a href="https://www.videvo.net/royalty-free-music-track/world-class-alt-mix/233359/" class="flex h-9 items-center justify-center rounded-lg bg-blue-400 px-5 font-bold text-white">
-                <svg class="fill-current mr-2 h-4 w-4" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M8 12.2188C7.79281 12.2188 7.59409 12.1364 7.44756 11.9899L4.79594 9.33828C4.49084 9.03319 4.49084 8.53853 4.79594 8.23344C5.10103 7.92834 5.59566 7.92834 5.90078 8.23344L7.21875 9.55141V0.78125C7.21875 0.349781 7.56853 0 8 0C8.43147 0 8.78125 0.349781 8.78125 0.78125V9.55141L10.0992 8.23344C10.4043 7.92834 10.899 7.92834 11.2041 8.23344C11.5092 8.53853 11.5092 9.03319 11.2041 9.33828L8.55244 11.9899C8.40591 12.1364 8.20722 12.2188 8 12.2188ZM14.4375 8.78125C14.4375 8.34978 14.7872 8 15.2188 8C15.6503 8 16 8.34978 16 8.78125V12.9688C16 14.4334 14.8084 15.625 13.3438 15.625H2.65625C1.19159 15.625 0 14.4334 0 12.9688V8.78125C0 8.34978 0.349781 8 0.78125 8C1.21272 8 1.5625 8.34978 1.5625 8.78125V12.9688C1.5625 13.5718 2.05316 14.0625 2.65625 14.0625H13.3438C13.9468 14.0625 14.4375 13.5718 14.4375 12.9688V8.78125Z"></path>
-</svg>                Download
-            </a>
-        </div>
-    </div>
-    <div x-show="showInfo" class="grid grid-cols-3 border-t border-gray-250 p-2 text-sm" style="display: none;">
-                    <div class="border-r border-gray-250 py-2 px-4">
-                <p class="font-bold text-gray-600">Genre</p>
-                                    <a href="https://www.videvo.net/royalty-free-music/military/" class="font-bold text-gray-900 hover:underline">Military</a>,                                     <a href="https://www.videvo.net/royalty-free-music/sports/" class="font-bold text-gray-900 hover:underline">Sports</a>,                                     <a href="https://www.videvo.net/royalty-free-music/drama-&amp;-film-scores/" class="font-bold text-gray-900 hover:underline">Drama &amp; Film Scores</a>,                                     <a href="https://www.videvo.net/royalty-free-music/corporate/" class="font-bold text-gray-900 hover:underline">Corporate</a>                                            </div>
-            <div class="border-r border-gray-250 py-2 px-4">
-                <p class="font-bold text-gray-600">Mood</p>
-                                    <a href="https://www.videvo.net/royalty-free-music/mood/confident/" class="font-bold text-gray-900 hover:underline">Confident</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/optimistic/" class="font-bold text-gray-900 hover:underline">Optimistic</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/determined/" class="font-bold text-gray-900 hover:underline">Determined</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/respectful/" class="font-bold text-gray-900 hover:underline">Respectful</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/bold/" class="font-bold text-gray-900 hover:underline">Bold</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/ambitious/" class="font-bold text-gray-900 hover:underline">Ambitious</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/intense/" class="font-bold text-gray-900 hover:underline">Intense</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/brave/" class="font-bold text-gray-900 hover:underline">Brave</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/strong/" class="font-bold text-gray-900 hover:underline">Strong</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/proud/" class="font-bold text-gray-900 hover:underline">Proud</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/competition/" class="font-bold text-gray-900 hover:underline">Competition</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/action/" class="font-bold text-gray-900 hover:underline">Action</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/adventure/" class="font-bold text-gray-900 hover:underline">Adventure</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/inspiring/" class="font-bold text-gray-900 hover:underline">Inspiring</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/satisfied/" class="font-bold text-gray-900 hover:underline">Satisfied</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/epic/" class="font-bold text-gray-900 hover:underline">Epic</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/achievement/" class="font-bold text-gray-900 hover:underline">Achievement</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/patriotic/" class="font-bold text-gray-900 hover:underline">Patriotic</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/motivating/" class="font-bold text-gray-900 hover:underline">Motivating</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/productive/" class="font-bold text-gray-900 hover:underline">Productive</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/underscore/" class="font-bold text-gray-900 hover:underline">Underscore</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/business/" class="font-bold text-gray-900 hover:underline">Business</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/industry/" class="font-bold text-gray-900 hover:underline">Industry</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/fanfare/" class="font-bold text-gray-900 hover:underline">Fanfare</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/olympic/" class="font-bold text-gray-900 hover:underline">Olympic</a>                                            </div>
-            <div class="py-2 px-4">
-                <p class="font-bold text-gray-600">Instrumentation</p>
-                                    <a href="https://www.videvo.net/royalty-free-music/instrument/orchestra/" class="font-bold text-gray-900 hover:underline">Orchestra</a>                                            </div>
-        
-    </div>
-</div>
-                                    <div class="-mx-4 mb-2 flex flex-col border-b border-gray-200 px-3 hover:bg-gray-150 lg:mx-0 lg:rounded lg:border-0 audio-row audio-player pb-2 md:pb-0" x-data="{ &#39;showInfo&#39;: false, showTooltip: false }">
-        <div class="flex items-center lg:min-h-20 flex-row lg:gap-4 flex-wrap lg:flex-no-wrap w-full">
-        <div class="flex items-center flex-grow lg:max-w-[380px] lg:min-w-[280px] md:order-1 lg:order-none">
-            <button class="relative mr-4 flex h-14 w-14 shrink-0 items-center justify-center bg-black z-20 button-play-pause" @click="window.audioHandler.handleAudioPlayPause($refs.audioElement230799); playing = playing === 230799 ? &#39;&#39; : 230799;">
-                <img src="./images/music.jpg" class="absolute top-0 left-0 h-full w-full object-cover">
-                <svg x-bind:class="{ &#39;hidden&#39;: playing === 230799 }" class="fill-current relative z-10 h-8 w-8 text-white drop-shadow play-icon" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg"><path d="M14.4621 8.1418L4.15546 1.93628C3.85647 1.75624 3.48667 1.75457 3.18613 1.93178C2.88556 2.10904 2.7002 2.43817 2.7002 2.79451V15.2056C2.7002 15.5619 2.88556 15.891 3.18613 16.0683C3.33511 16.1562 3.50106 16.2 3.66705 16.2C3.83586 16.2 4.00471 16.1546 4.15546 16.0638L14.4621 9.85827C14.7584 9.67986 14.9405 9.35319 14.9405 9.00003C14.9405 8.64688 14.7584 8.32021 14.4621 8.1418Z"></path></svg>                <svg x-bind:class="{ &#39;hidden&#39;: playing !== 230799 }" class="fill-current relative z-10 h-12 w-12 text-white drop-shadow pause-icon hidden" width="54px" height="54px" viewBox="0 0 54 54" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>pause-button-white-sml</title>
-    <g id="pause-button-white-sml" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Group-2" transform="translate(14.000000, 14.000000)">
-            <path d="M8,0 C10.1421954,0 11.8910789,1.82429918 11.9951047,4.1170563 L12,4.33333333 L12,21.6666667 C12,23.9873783 10.3160315,25.8820021 8.19964034,25.9946968 L8,26 L4,26 C1.85780461,26 0.108921124,24.1757008 0.00489530723,21.8829437 L0,21.6666667 L0,4.33333333 C0,2.01262166 1.68396847,0.117997884 3.80035966,0.0053032495 L4,0 L8,0 Z M22,0 C24.1421954,0 25.8910789,1.82429918 25.9951047,4.1170563 L26,4.33333333 L26,21.6666667 C26,23.9873783 24.3160315,25.8820021 22.1996403,25.9946968 L22,26 L18,26 C15.8578046,26 14.1089211,24.1757008 14.0048953,21.8829437 L14,21.6666667 L14,4.33333333 C14,2.01262166 15.6839685,0.117997884 17.8003597,0.0053032495 L18,0 L22,0 Z" id="Combined-Shape" fill-opacity="0.4" fill="#000000"></path>
-            <path d="M4,2 L8,2 C9.1045695,2 10,2.8954305 10,4 L10,22 C10,23.1045695 9.1045695,24 8,24 L4,24 C2.8954305,24 2,23.1045695 2,22 L2,4 C2,2.8954305 2.8954305,2 4,2 Z M18,2 L22,2 C23.1045695,2 24,2.8954305 24,4 L24,22 C24,23.1045695 23.1045695,24 22,24 L18,24 C16.8954305,24 16,23.1045695 16,22 L16,4 C16,2.8954305 16.8954305,2 18,2 Z" id="Combined-Shape" fill="#FFFFFF"></path>
-        </g>
-    </g>
-</svg>                
-                <audio preload="none" x-ref="audioElement230799" x-on:ended="playing = &#39;&#39;" id="linkAudio-230799" class="listing-audio audio-element hidden">
-                                            <source src="https://cdn.videvo.net/videvo_files/audio/premium/audio0144/watermarked/Plain-Folks-COC011401_preview.mp3" type="audio/mp3">
-                                        Your browser does not support the audio element.
-                </audio>
-            </button>
-            <div class="flex min-w-0 max-w-[calc(100vw-104px)] flex-col lg:max-w-[280px]">
-                <a href="https://www.videvo.net/royalty-free-music-track/plain-folks/230799/" class="mb-1 font-semibold leading-none text-gray-800 hover:underline overflow-hidden whitespace-nowrap text-ellipsis">Plain Folks</a>
-                                    <a href="https://www.videvo.net/royalty-free-music-albums/contemporary-country-music/" class="mb-1 text-sm font-bold leading-none text-gray-400 hover:text-gray-600 overflow-hidden whitespace-nowrap text-ellipsis">
-                        Contemporary Country Music
-                    </a>
-                                <p class="w-full truncate text-sm text-gray-600 overflow-hidden whitespace-nowrap text-ellipsis">
-                    Country Easy Listening
-                    | Affectionate, Americana, Innocent, Nostalgic, Tender
-                </p>
-            </div>
-        </div>
-        <div class="flex lg:flex-1 items-center w-full h-[60px] max-h-[60px] lg:h-[84px] lg:max-h-[84px] md:grow-[2] md:basis-170% md:min-w-[300px] justify-start md:order-3 lg:order-none xs:my-3 md:my-0">
-            <div class="mr-4 flex-1 h-full w-full">
-                <div class="z-20 w-full h-full">
-                    <div class="waveform waveform-length-bpm h-full w-full relative min-h-[60px] max-h-[60px] lg:min-h-[84px] lg:max-h-[84px]">
-    <div class="waveform-image waveform-container h-full relative w-full overflow-hidden">
-        <canvas id="mainWaveformCanvas-listing-230799" @click="window.audioHandler.handleCanvasClick(event,$refs.audioElement230799);  if(playing === &#39;&#39; || playing !== 230799) { playing = 230799 }" class="js--audio-waveform-canvas belongs-listing h-[60px] lg:h-[84px] w-full max-w-full max-h-[60px] lg:max-h-[84px] absolute top-0 left-0" data-waveformjson="{&quot;margin&quot;:{&quot;low&quot;:0,&quot;high&quot;:250},&quot;heights&quot;:[37,39,35,21,18,22,29,31,31,31,33,28,40,36,30,29,31,49,45,43,40,31,40,54,47,43,42,43,74,68,73,31,40,42,42,33,33,24,22,35,28,29,32,38,38,54,54,47,74,83,88,78,73,71,73,77,68,67,58,69,55,69,70,57,26,56,57,58,41,35,23,64,44,44,34,50,44,51,42,45,38,65,60,57,48,49,48,75,51,50,49,61,64,59,76,73,53,62,67,63,48,42,37,62,54,50,46,59,47,71,67,63,61,89,96,89,85,84,86,79,73,61,58,68,84,78,81,76,94,111,100,89,74,85,66,78,66,54,50,46,38,71,56,46,42,89,93,65,50,45,51,68,61,49,51,37,42,53,70,69,49,85,78,74,61,53,30,71,57,39,41,48,40,50,51,48,44,42,82,79,74,68,64,64,56,48,39,40,36,46,33,40,46,49,70,97,75,73,60,85,74,86,83,89,64,55,48,63,76,78,78,53,107,106,94,94,84,79,82,88,73,61,52,58,45,88,69,70,59,96,94,75,80,72,67,68,67,59,49,54,55,64,65,56,56,82,74,66,60,52,53,44,49,44,40,37,50,45,82,86,82,71,85,79,93,81,89,79,97,79,69,57,69,72,82,93,72,71,99,72,73,71,55,62,47,78,70,95,99,96,75,87,83,86,95,114,118,114,110,102,102,100,98,77,81,82,84,70,91,81,77,76,92,85,74,81,69,65,57,48,39,31,30,26,25,24,26,21,19,49,72,65,63,36,37,29,36,37,38,36,36,31,40,27,27,25,54,53,53,35,52,49,41,39,37,26,26,23,33,46,40,35,31,42,40,42,33,24,23,35,30,29,25,33,38,54,54,49,44,83,89,81,78,73,73,68,77,67,60,66,69,69,70,66,57,56,56,58,46,35,32,64,45,43,40,50,47,51,44,45,40,65,64,60,52,49,48,76,55,51,49,58,61,65,76,57,73,62,65,67,48,44,37,62,61,50,46,46,59,54,71,63,62,60,89,96,89,84,84,86,79,63,58,58,84,82,81,79,94,75,110,94,89,59,85,57,77,63,54,46,46,39,71,52,41,42,94,87,57,50,47,51,69,50,50,40,42,39,53,71,69,46,86,77,73,55,31,27,71,45,41,38,48,37,50,51,43,43,82,79,74,71,68,64,62,48,39,40,35,46,37,40,39,49,40,97,79,70,73,60,85,74,85,89,66,64,47,40,76,74,78,72,84,107,106,91,94,79,74,82,88,68,53,58,51,87,79,67,70,92,97,78,76,79,73,67,68,62,49,54,55,51,64,65,56,82,74,66,60,55,53,48,44,49,40,37,48,50,74,87,81,83,70,85,91,93,89,79,66,97,69,61,60,69,72,93,72,66,71,100,73,73,58,62,56,73,78,95,99,96,92,84,87,83,95,75,114,119,110,110,103,100,98,85,81,74,84,74,93,81,80,76,88,92,81,81,80,70,62,54,43,35,30,26,25,25,26,21,20,16,64,71,65,50,37,37,37,35,38,36,36,32,40,37,27,24,43,54,53,35,35,52,41,40,39,27,25,26,21,39,46,36,33,75,82,76,55,39,34,29,84,55,47,53,75,76,55,73,61,62,53,59,92,100,93,98,93,87,81,74,64,69,57,69,70,62,52,48,37,38,33,28,25,20,18,11,9,9,40,51,58,69,70,66,54,54,49,41,39,34,26,26,23,19,13,13,12,10,7,5,4,4,3,2,2,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}" width="529" height="84"></canvas>
-        <div class="blue-waveform-container absolute top-0 left-0 h-full w-0 overflow-hidden pointer-events-none" style="width: 0px;">
-            <div class="overlay absolute top-0 right-0 h-full opacity-50 w-[4px] bg-overlayBlue-500"></div>
-        </div>
-    </div>
-</div>
-                </div>
-            </div>
-            <div>
-                <p class="mb-1 text-sm font-bold leading-none text-gray-600">
-                    00:56
-                </p>
-                                    <p class="text-sm font-bold leading-none text-gray-600">100 BPM</p>
-                            </div>
-        </div>
-        <div class="flex w-full items-center justify-between lg:w-auto md:gap-4 basis-full md:basis-0 grow-0 md:order-2 lg:order-none">
-            <span class="relative inline-flex" x-on:mouseover="showTooltip = true" x-on:mouseleave="showTooltip = false">
-                <button x-on:click="showInfo = ! showInfo">
-                    <svg class="fill-current h-6 w-6 text-gray-700 hover:text-gray-900" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M2.34313 13.6569C3.85416 15.1678 5.86313 16 8 16C10.1369 16 12.1458 15.1678 13.6569 13.6569C15.1678 12.1458 16 10.1369 16 8C16 5.86313 15.1678 3.85416 13.6569 2.34313C12.1458 0.832156 10.1369 0 8 0C5.86313 0 3.85416 0.832156 2.34313 2.34313C0.832156 3.85416 0 5.86313 0 8C0 10.1369 0.832156 12.1458 2.34313 13.6569ZM1.5625 8C1.5625 4.45034 4.45034 1.5625 8 1.5625C11.5497 1.5625 14.4375 4.45034 14.4375 8C14.4375 11.5497 11.5497 14.4375 8 14.4375C4.45034 14.4375 1.5625 11.5497 1.5625 8ZM8.3125 12.5625C7.88103 12.5625 7.53125 12.2127 7.53125 11.7812V7.8125H6.75C6.31853 7.8125 5.96875 7.46272 5.96875 7.03125C5.96875 6.59978 6.31853 6.25 6.75 6.25H8.3125C8.74397 6.25 9.09375 6.59978 9.09375 7.03125V11.7812C9.09375 12.2127 8.74397 12.5625 8.3125 12.5625ZM7.0625 4.375C7.0625 4.89194 7.48306 5.3125 8 5.3125C8.51694 5.3125 8.9375 4.89194 8.9375 4.375C8.9375 3.85806 8.51694 3.4375 8 3.4375C7.48306 3.4375 7.0625 3.85806 7.0625 4.375Z"></path></svg>                </button>
-                <div x-show="showTooltip" class="tooltip max-md:!hidden" style="display: none;">
-    More Info
-</div>
-             </span>
-
-            <div>
-                <div wire:id="jDJh1DYsXAApqzeG2lEz" class="flex relative z-40" x-data="{ isClipInAnyUserCollection: $wire.entangle(&#39;isClipInAnyUserCollection&#39;), mode: $wire.entangle(&#39;mode&#39;), showModal: $wire.entangle(&#39;showModal&#39;), hidden: $wire.entangle(&#39;hidden&#39;), showTooltip: false}">
-    <span class="relative inline-flex" x-on:mouseover="showTooltip = true" x-on:mouseleave="showTooltip = false">
-        <button class="relative add-to-collection-button overflow-hidden" wire:click.stop.prevent="toggleModal()">
-            <svg x-bind:class="{&#39;text-white&#39;: mode == &#39;light&#39;, &#39;not-added&#39;: !isClipInAnyUserCollection, &#39;!translate-y-0&#39;: !hidden}" x-show="!isClipInAnyUserCollection" class="fill-current h-6 w-6 text-gray-700 outline-none translate-y-8 not-added !translate-y-0" xmlns="http://www.w3.org/2000/svg" fill="currentColor" stroke="none" viewBox="0 0 24 24"><path d="M20 2H8c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2V4c0-1.103-.897-2-2-2zM8 16V4h12l.002 12H8z"></path><path d="M4 8H2v12c0 1.103.897 2 2 2h12v-2H4V8zm11-2h-2v3h-3v2h3v3h2v-3h3V9h-3z"></path></svg>            <svg x-show="isClipInAnyUserCollection" class="fill-current h-6 w-6 text-[#198ACF] outline-none" xmlns="http://www.w3.org/2000/svg" fill="currentColor" stroke="none" viewBox="0 0 24 24" style="display: none;"><path d="M4 22h12v-2H4V8H2v12c0 1.103.897 2 2 2z"></path><path d="M20 2H8c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2V4c0-1.103-.897-2-2-2zm-2 9h-3v3h-2v-3h-3V9h3V6h2v3h3v2z"></path></svg>        </button>
-        <div x-show="showTooltip" class="tooltip max-md:!hidden" style="display: none;">
-    Add to Collections
-</div>
-     </span>
-    <div x-show="showModal" style="display: none;">
-        <div class="modal-wrapper-add-to-collection flex flex-col items-center justify-center absolute bottom-0 right-[-15px] z-60 cursor-auto min-w-[300px] rounded-lg " style="transform: translateY(100%) translateY(10px);">
-            <div class="flex flex-col bg-white fixed top-0 left-0 md:relative md:rounded-lg md:shadow-lg h-full md:h-auto p-4 w-full" @click.outside="showModal = false;">
-                <div class="flex justify-start relative md:justify-between items-center ">
-                    <p class="text-lg font-bold text-[#2b2b2b]">Add to collection</p>
-                    <a href="https://www.videvo.net/my-collections/" class="ml-4 md:ml-0 text-sm text-gray-500 hover:text-gray-700">Manage</a>
-                    <div class="w-10 h-10 flex items-center justify-center absolute top-0 right-0 md:hidden close-modal w-6 text-2xl text-gray-600 leading-4 font-bold text-right" @click.stop.prevent="showModal = false; window.clipActions?.closeAllModals();"></div>
-                </div>
-                <div class="flex justify-start w-full">
-                    <div wire:id="BqLdtu6dgnlMVodzJmLy" class="flex py-2 relative h-[56px] item-center" x-data="{showForm: false, showResponse: false, timeoutToggle: false}">
-    <template x-if="showResponse"></template>
-    <div class="cursor-pointer text-base text-[#1b95e0] bold h-full order-2 flex items-center" @click="showForm = !showForm" x-show="!showForm">
-        <svg class="fill-current w-7 h-7 mr-[10px]" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
-    <path fill="#1B95E0" fill-rule="evenodd" d="M14 7c.552 0 1 .448 1 1v5h5c.552 0 1 .448 1 1s-.448 1-1 1h-5v5c0 .552-.448 1-1 1s-1-.448-1-1v-5H8c-.552 0-1-.448-1-1s.448-1 1-1h5V8c0-.552.448-1 1-1z"></path>
-</svg>        Create new collection
-    </div>
-    <form x-show="showForm" class="flex space-between items-center border border-[#1b95e0] justify-items-stretch rounded-sm overflow-hidden h-full" wire:submit.prevent="addUserCollection" style="display: none;">
-        <input class="px-2 border-0 outline-0 h-full" placeholder="Add collection name" type="text" wire:model="collectionName">
-        <button type="submit" @click="window.clipActions?.closeAllModals(); showResponse = true; setTimeout(() =&gt; {showResponse = false; }, 3000); showForm = !showForm" class="h-full leading-10 bg-gray-100 text-blue-600 text-base font-bold text-center min-w-[60px]">Add</button>
-    </form>
-
-</div>
-<!-- Livewire Component wire-end:BqLdtu6dgnlMVodzJmLy -->                </div>
-                <div class="flex flex-col grow overflow-auto relative md:max-h-[calc(46px*3.5)] max-md:max-h[calc(100vh-100px)] transition duration-150" x-data="{selectedCollections:  [],}">
-                                        <div class="m:h-[80px] flex items-center justify-between fixed py-3 md:py-3 left-0 px-4 bottom-0 left-0 w-full md:!hidden" style="box-shadow: 0 -2px 0 0 rgb(0 0 0 / 10%);">
-                        <a x-on:click="showModal = false; window.clipActions?.closeAllModals();" class="pt-3 pb-3 pr-6 pl-6 font-bold text-base rounded-lg text-blue-600 bg-[#ececec]">Cancel</a>
-                        <a x-on:click="showModal = false; window.clipActions?.closeAllModals(); $wire.toggleClipInUserCollections(selectedCollections)" class="pt-3 pb-3 pr-6 pl-6 font-bold text-base rounded-lg bg-blue-600 text-white">Apply</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Livewire Component wire-end:jDJh1DYsXAApqzeG2lEz -->            </div>
-            <div>
-                <div wire:id="WROtM4EDkvvLMuliGRvS" class="flex" x-data="{ isFavorite: $wire.entangle(&#39;isFavorite&#39;), mode: $wire.entangle(&#39;mode&#39;), hidden: $wire.entangle(&#39;hidden&#39;), showTooltip: false }">
-    <span class="relative inline-flex" x-on:mouseover="showTooltip = true" x-on:mouseleave="showTooltip = false">
-        <button class="text-gray-700 hover:text-gray-900 overflow-hidden toggle-favorite" wire:key="clip-230799" wire:click.stop.prevent="toggleFavorite();">
-            <svg x-bind:class="{&#39;text-white&#39;: mode == &#39;light&#39;, &#39;not-added&#39;: !isFavorite, &#39;!translate-y-0&#39;: !hidden}" x-show="!isFavorite" class="fill-current h-6 w-6 outline-none translate-y-8 not-added !translate-y-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" fill="none"><path d="M5.40956 2.51538C4.45258 1.76408 3.08107 1.83357 2.20944 2.72795C1.25976 3.7024 1.26439 5.28574 2.2182 6.26443L5.74895 9.8873C5.8954 10.0376 6.13284 10.0376 6.27929 9.8873L9.7917 6.28538C10.7392 5.30775 10.7362 3.72885 9.7822 2.74999C8.90375 1.84862 7.52809 1.77191 6.57265 2.52393C6.48883 2.58991 6.40825 2.66226 6.33151 2.74099L5.99605 3.08587L5.65599 2.73693C5.57761 2.65651 5.49525 2.58265 5.40956 2.51538ZM7.04767 3.43893C7.60289 2.86945 8.49943 2.86653 9.06605 3.44793C9.64336 4.04031 9.64309 5.00077 9.07454 5.58846L9.0736 5.58943L6.01425 8.72674L2.93435 5.56648C2.3556 4.97264 2.35777 4.00853 2.92559 3.42589C3.4791 2.85794 4.37486 2.85516 4.93984 3.43488L5.2799 3.78381C5.46824 3.97706 5.72669 4.086 5.99654 4.08587C6.26638 4.08574 6.52472 3.97655 6.71288 3.78312L7.04767 3.43893Z" fill="currentColor"></path></svg>            <svg x-show="isFavorite" class="fill-current h-6 w-6 text-red-700 outline-none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" fill="none" style="display: none;"><path d="M5.65599 2.73693C4.70219 1.75824 3.15912 1.75349 2.20944 2.72795C1.25976 3.7024 1.26439 5.28574 2.2182 6.26443L5.74895 9.8873C5.8954 10.0376 6.13284 10.0376 6.27929 9.8873L9.7917 6.28538C10.7392 5.30775 10.7362 3.72885 9.7822 2.74999C8.82669 1.76955 7.28289 1.76479 6.33151 2.74099L5.99605 3.08587L5.65599 2.73693Z" fill="currentColor"></path></svg>        </button>
-        <div x-show="showTooltip" class="tooltip max-md:!hidden" style="display: none;">
-    Add to Favorites
-</div>
-     </span>
-</div>
-
-<!-- Livewire Component wire-end: -->            </div>
-                        <span class="font-bold text-gray-700 w-[44px]">
-                    FREE
-            </span>
-                        <a href="https://www.videvo.net/royalty-free-music-track/plain-folks/230799/" class="flex h-9 items-center justify-center rounded-lg bg-blue-400 px-5 font-bold text-white">
-                <svg class="fill-current mr-2 h-4 w-4" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M8 12.2188C7.79281 12.2188 7.59409 12.1364 7.44756 11.9899L4.79594 9.33828C4.49084 9.03319 4.49084 8.53853 4.79594 8.23344C5.10103 7.92834 5.59566 7.92834 5.90078 8.23344L7.21875 9.55141V0.78125C7.21875 0.349781 7.56853 0 8 0C8.43147 0 8.78125 0.349781 8.78125 0.78125V9.55141L10.0992 8.23344C10.4043 7.92834 10.899 7.92834 11.2041 8.23344C11.5092 8.53853 11.5092 9.03319 11.2041 9.33828L8.55244 11.9899C8.40591 12.1364 8.20722 12.2188 8 12.2188ZM14.4375 8.78125C14.4375 8.34978 14.7872 8 15.2188 8C15.6503 8 16 8.34978 16 8.78125V12.9688C16 14.4334 14.8084 15.625 13.3438 15.625H2.65625C1.19159 15.625 0 14.4334 0 12.9688V8.78125C0 8.34978 0.349781 8 0.78125 8C1.21272 8 1.5625 8.34978 1.5625 8.78125V12.9688C1.5625 13.5718 2.05316 14.0625 2.65625 14.0625H13.3438C13.9468 14.0625 14.4375 13.5718 14.4375 12.9688V8.78125Z"></path>
-</svg>                Download
-            </a>
-        </div>
-    </div>
-    <div x-show="showInfo" class="grid grid-cols-3 border-t border-gray-250 p-2 text-sm" style="display: none;">
-                    <div class="border-r border-gray-250 py-2 px-4">
-                <p class="font-bold text-gray-600">Genre</p>
-                                    <a href="https://www.videvo.net/royalty-free-music/country/" class="font-bold text-gray-900 hover:underline">Country</a>,                                     <a href="https://www.videvo.net/royalty-free-music/easy-listening/" class="font-bold text-gray-900 hover:underline">Easy Listening</a>                                            </div>
-            <div class="border-r border-gray-250 py-2 px-4">
-                <p class="font-bold text-gray-600">Mood</p>
-                                    <a href="https://www.videvo.net/royalty-free-music/mood/tender/" class="font-bold text-gray-900 hover:underline">Tender</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/affectionate/" class="font-bold text-gray-900 hover:underline">Affectionate</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/nostalgic/" class="font-bold text-gray-900 hover:underline">Nostalgic</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/innocent/" class="font-bold text-gray-900 hover:underline">Innocent</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/americana/" class="font-bold text-gray-900 hover:underline">Americana</a>                                            </div>
-            <div class="py-2 px-4">
-                <p class="font-bold text-gray-600">Instrumentation</p>
-                                    <a href="https://www.videvo.net/royalty-free-music/instrument/acoustic-guitar/" class="font-bold text-gray-900 hover:underline">Acoustic Guitar</a>,                                     <a href="https://www.videvo.net/royalty-free-music/instrument/guitar/" class="font-bold text-gray-900 hover:underline">Guitar</a>                                            </div>
-        
-    </div>
-</div>
-                                    <div class="-mx-4 mb-2 flex flex-col border-b border-gray-200 px-3 hover:bg-gray-150 lg:mx-0 lg:rounded lg:border-0 audio-row audio-player pb-2 md:pb-0" x-data="{ &#39;showInfo&#39;: false, showTooltip: false }">
-        <div class="flex items-center lg:min-h-20 flex-row lg:gap-4 flex-wrap lg:flex-no-wrap w-full">
-        <div class="flex items-center flex-grow lg:max-w-[380px] lg:min-w-[280px] md:order-1 lg:order-none">
-            <button class="relative mr-4 flex h-14 w-14 shrink-0 items-center justify-center bg-black z-20 button-play-pause" @click="window.audioHandler.handleAudioPlayPause($refs.audioElement920780); playing = playing === 920780 ? &#39;&#39; : 920780;">
-                <img src="./Royalty Free Music Download.blade_files/SM498 Blue Collar Heroes_59-Put-the-Pieces-Back-Together-30-SM498.png" class="absolute top-0 left-0 h-full w-full object-cover">
-                <svg x-bind:class="{ &#39;hidden&#39;: playing === 920780 }" class="fill-current relative z-10 h-8 w-8 text-white drop-shadow play-icon" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg"><path d="M14.4621 8.1418L4.15546 1.93628C3.85647 1.75624 3.48667 1.75457 3.18613 1.93178C2.88556 2.10904 2.7002 2.43817 2.7002 2.79451V15.2056C2.7002 15.5619 2.88556 15.891 3.18613 16.0683C3.33511 16.1562 3.50106 16.2 3.66705 16.2C3.83586 16.2 4.00471 16.1546 4.15546 16.0638L14.4621 9.85827C14.7584 9.67986 14.9405 9.35319 14.9405 9.00003C14.9405 8.64688 14.7584 8.32021 14.4621 8.1418Z"></path></svg>                <svg x-bind:class="{ &#39;hidden&#39;: playing !== 920780 }" class="fill-current relative z-10 h-12 w-12 text-white drop-shadow pause-icon hidden" width="54px" height="54px" viewBox="0 0 54 54" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>pause-button-white-sml</title>
-    <g id="pause-button-white-sml" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Group-2" transform="translate(14.000000, 14.000000)">
-            <path d="M8,0 C10.1421954,0 11.8910789,1.82429918 11.9951047,4.1170563 L12,4.33333333 L12,21.6666667 C12,23.9873783 10.3160315,25.8820021 8.19964034,25.9946968 L8,26 L4,26 C1.85780461,26 0.108921124,24.1757008 0.00489530723,21.8829437 L0,21.6666667 L0,4.33333333 C0,2.01262166 1.68396847,0.117997884 3.80035966,0.0053032495 L4,0 L8,0 Z M22,0 C24.1421954,0 25.8910789,1.82429918 25.9951047,4.1170563 L26,4.33333333 L26,21.6666667 C26,23.9873783 24.3160315,25.8820021 22.1996403,25.9946968 L22,26 L18,26 C15.8578046,26 14.1089211,24.1757008 14.0048953,21.8829437 L14,21.6666667 L14,4.33333333 C14,2.01262166 15.6839685,0.117997884 17.8003597,0.0053032495 L18,0 L22,0 Z" id="Combined-Shape" fill-opacity="0.4" fill="#000000"></path>
-            <path d="M4,2 L8,2 C9.1045695,2 10,2.8954305 10,4 L10,22 C10,23.1045695 9.1045695,24 8,24 L4,24 C2.8954305,24 2,23.1045695 2,22 L2,4 C2,2.8954305 2.8954305,2 4,2 Z M18,2 L22,2 C23.1045695,2 24,2.8954305 24,4 L24,22 C24,23.1045695 23.1045695,24 22,24 L18,24 C16.8954305,24 16,23.1045695 16,22 L16,4 C16,2.8954305 16.8954305,2 18,2 Z" id="Combined-Shape" fill="#FFFFFF"></path>
-        </g>
-    </g>
-</svg>                
-                <audio preload="none" x-ref="audioElement920780" x-on:ended="playing = &#39;&#39;" id="linkAudio-920780" class="listing-audio audio-element hidden">
-                                            <source src="https://cdn.videvo.net/videvo_files/audio/premium/audio0389/watermarked/SM498%20Blue%20Collar%20Heroes_07-Nothing-Is-Impossible-ALT-SM498_preview.mp3" type="audio/mp3">
-                                        Your browser does not support the audio element.
-                </audio>
-            </button>
-            <div class="flex min-w-0 max-w-[calc(100vw-104px)] flex-col lg:max-w-[280px]">
-                <a href="https://www.videvo.net/royalty-free-music-track/nothing-is-impossible-alt-mix/920780/" class="mb-1 font-semibold leading-none text-gray-800 hover:underline overflow-hidden whitespace-nowrap text-ellipsis">Nothing Is Impossible - Alt Mix</a>
-                                    <a href="https://www.videvo.net/royalty-free-music-albums/blue-collar-heroes/" class="mb-1 text-sm font-bold leading-none text-gray-400 hover:text-gray-600 overflow-hidden whitespace-nowrap text-ellipsis">
-                        Blue Collar Heroes
-                    </a>
-                                <p class="w-full truncate text-sm text-gray-600 overflow-hidden whitespace-nowrap text-ellipsis">
-                    Corporate
-                    | Achievement, Ambitious, Business, Competition, Confident, Determined, Expectant, Inspiring, Motivating, Optimistic, Positive, Productive, Proud, Strong, Technology
-                </p>
-            </div>
-        </div>
-        <div class="flex lg:flex-1 items-center w-full h-[60px] max-h-[60px] lg:h-[84px] lg:max-h-[84px] md:grow-[2] md:basis-170% md:min-w-[300px] justify-start md:order-3 lg:order-none xs:my-3 md:my-0">
-            <div class="mr-4 flex-1 h-full w-full">
-                <div class="z-20 w-full h-full">
-                    <div class="waveform waveform-length-bpm h-full w-full relative min-h-[60px] max-h-[60px] lg:min-h-[84px] lg:max-h-[84px]">
-    <div class="waveform-image waveform-container h-full relative w-full overflow-hidden">
-        <canvas id="mainWaveformCanvas-listing-920780" @click="window.audioHandler.handleCanvasClick(event,$refs.audioElement920780);  if(playing === &#39;&#39; || playing !== 920780) { playing = 920780 }" class="js--audio-waveform-canvas belongs-listing h-[60px] lg:h-[84px] w-full max-w-full max-h-[60px] lg:max-h-[84px] absolute top-0 left-0" data-waveformjson="{&quot;margin&quot;:{&quot;low&quot;:0,&quot;high&quot;:250},&quot;heights&quot;:[47,35,29,23,31,24,27,29,24,32,63,47,54,48,40,35,46,33,28,24,33,31,22,48,55,61,39,44,36,32,31,24,35,23,50,46,53,41,38,36,36,33,27,26,26,23,17,58,45,36,33,32,38,33,24,21,26,37,63,50,47,39,31,31,41,30,32,31,35,31,21,54,44,41,34,43,33,30,36,37,24,30,47,50,55,41,35,29,37,28,29,31,33,42,45,75,36,42,64,30,28,65,23,28,68,44,67,87,50,44,68,34,30,71,29,24,57,24,19,69,60,60,79,39,42,84,34,23,67,50,50,73,45,39,62,38,31,59,27,26,72,25,22,89,38,39,75,33,28,67,23,19,61,63,64,73,40,38,64,37,29,71,28,23,70,23,21,64,41,34,59,38,32,66,25,26,74,49,50,60,48,42,58,32,56,72,29,61,69,23,76,68,63,86,54,50,89,62,41,73,58,80,73,54,59,80,55,45,80,69,44,56,41,56,67,72,55,74,58,39,77,37,53,64,51,62,78,70,55,68,38,50,68,52,53,71,56,51,88,68,58,82,43,63,68,49,49,68,54,73,69,60,49,66,34,45,67,35,52,69,41,59,59,52,52,62,53,63,76,45,57,72,69,67,76,50,38,61,46,58,84,44,63,58,49,61,75,58,66,89,49,48,79,33,43,65,89,56,72,51,43,66,41,35,78,33,48,57,46,54,75,56,52,74,38,36,80,51,58,62,57,55,75,39,41,63,49,39,70,44,51,66,50,55,86,54,44,75,47,38,73,36,44,63,74,70,54,46,39,59,31,37,73,38,48,65,44,56,64,59,62,69,57,65,51,59,72,59,63,78,63,39,57,58,57,82,47,54,65,60,76,70,59,51,44,50,54,42,40,38,54,42,34,46,33,25,35,43,45,49,36,33,39,31,27,71,58,57,43,37,53,54,39,33,47,41,34,38,38,28,36,41,40,42,38,37,57,52,62,74,54,52,45,51,53,38,36,54,71,27,27,82,39,46,65,52,55,75,49,55,70,43,69,80,60,50,79,48,41,82,41,43,66,34,30,71,57,81,79,59,79,83,48,36,79,51,65,70,62,50,69,55,54,62,39,52,78,48,46,86,40,44,74,48,39,78,53,52,79,66,66,63,52,44,63,33,33,70,29,33,72,36,35,67,50,38,69,61,51,79,37,46,85,60,57,67,50,59,65,50,44,78,46,73,68,47,84,60,50,60,60,64,65,72,51,64,50,81,74,56,48,64,58,47,77,60,43,82,53,43,68,56,76,83,64,76,78,56,46,69,54,80,77,75,55,63,53,56,68,53,62,77,46,53,94,71,56,76,48,67,67,43,69,66,49,64,67,60,56,69,49,60,73,54,52,77,38,46,63,55,47,77,56,58,68,42,64,82,52,59,77,65,55,63,54,61,70,60,53,74,50,51,80,42,46,76,48,50,72,53,60,71,72,57,80,49,61,66,51,39,75,41,44,76,27,33,67,74,70,73,77,68,80,40,34,70,55,65,76,49,49,70,55,58,63,52,52,76,40,41,88,45,47,72,47,40,69,53,51,66,62,70,73,47,43,66,49,65,79,39,66,66,37,65,62,46,61,68,50,71,59,50,79,58,67,70,66,49,57,65,47,71,50,55,70,66,75,82,67,60,50,56,48,48,43,31,29,22,69,52,54,45,41,39,34,43,49,35,38,28,30,57,62,52,50,44,39,39,31,27,36,25,61,50,50,42,39,36,40,48,41,34,32,31,30,81,33,39,37,28,31,32,35,26,26,23,22,19,16,13,13,11,10,6,3,2,1,0,0,0]}" width="543" height="84"></canvas>
-        <div class="blue-waveform-container absolute top-0 left-0 h-full w-0 overflow-hidden pointer-events-none" style="width: 0px;">
-            <div class="overlay absolute top-0 right-0 h-full opacity-50 w-[4px] bg-overlayBlue-500"></div>
-        </div>
-    </div>
-</div>
-                </div>
-            </div>
-            <div>
-                <p class="mb-1 text-sm font-bold leading-none text-gray-600">
-                    02:26
-                </p>
-                                    <p class="text-sm font-bold leading-none text-gray-600">0 BPM</p>
-                            </div>
-        </div>
-        <div class="flex w-full items-center justify-between lg:w-auto md:gap-4 basis-full md:basis-0 grow-0 md:order-2 lg:order-none">
-            <span class="relative inline-flex" x-on:mouseover="showTooltip = true" x-on:mouseleave="showTooltip = false">
-                <button x-on:click="showInfo = ! showInfo">
-                    <svg class="fill-current h-6 w-6 text-gray-700 hover:text-gray-900" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M2.34313 13.6569C3.85416 15.1678 5.86313 16 8 16C10.1369 16 12.1458 15.1678 13.6569 13.6569C15.1678 12.1458 16 10.1369 16 8C16 5.86313 15.1678 3.85416 13.6569 2.34313C12.1458 0.832156 10.1369 0 8 0C5.86313 0 3.85416 0.832156 2.34313 2.34313C0.832156 3.85416 0 5.86313 0 8C0 10.1369 0.832156 12.1458 2.34313 13.6569ZM1.5625 8C1.5625 4.45034 4.45034 1.5625 8 1.5625C11.5497 1.5625 14.4375 4.45034 14.4375 8C14.4375 11.5497 11.5497 14.4375 8 14.4375C4.45034 14.4375 1.5625 11.5497 1.5625 8ZM8.3125 12.5625C7.88103 12.5625 7.53125 12.2127 7.53125 11.7812V7.8125H6.75C6.31853 7.8125 5.96875 7.46272 5.96875 7.03125C5.96875 6.59978 6.31853 6.25 6.75 6.25H8.3125C8.74397 6.25 9.09375 6.59978 9.09375 7.03125V11.7812C9.09375 12.2127 8.74397 12.5625 8.3125 12.5625ZM7.0625 4.375C7.0625 4.89194 7.48306 5.3125 8 5.3125C8.51694 5.3125 8.9375 4.89194 8.9375 4.375C8.9375 3.85806 8.51694 3.4375 8 3.4375C7.48306 3.4375 7.0625 3.85806 7.0625 4.375Z"></path></svg>                </button>
-                <div x-show="showTooltip" class="tooltip max-md:!hidden" style="display: none;">
-    More Info
-</div>
-             </span>
-
-            <div>
-                <div wire:id="8zr1VbmVDoZG21d8wx5f" class="flex relative z-40" x-data="{ isClipInAnyUserCollection: $wire.entangle(&#39;isClipInAnyUserCollection&#39;), mode: $wire.entangle(&#39;mode&#39;), showModal: $wire.entangle(&#39;showModal&#39;), hidden: $wire.entangle(&#39;hidden&#39;), showTooltip: false}">
-    <span class="relative inline-flex" x-on:mouseover="showTooltip = true" x-on:mouseleave="showTooltip = false">
-        <button class="relative add-to-collection-button overflow-hidden" wire:click.stop.prevent="toggleModal()">
-            <svg x-bind:class="{&#39;text-white&#39;: mode == &#39;light&#39;, &#39;not-added&#39;: !isClipInAnyUserCollection, &#39;!translate-y-0&#39;: !hidden}" x-show="!isClipInAnyUserCollection" class="fill-current h-6 w-6 text-gray-700 outline-none translate-y-8 not-added !translate-y-0" xmlns="http://www.w3.org/2000/svg" fill="currentColor" stroke="none" viewBox="0 0 24 24"><path d="M20 2H8c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2V4c0-1.103-.897-2-2-2zM8 16V4h12l.002 12H8z"></path><path d="M4 8H2v12c0 1.103.897 2 2 2h12v-2H4V8zm11-2h-2v3h-3v2h3v3h2v-3h3V9h-3z"></path></svg>            <svg x-show="isClipInAnyUserCollection" class="fill-current h-6 w-6 text-[#198ACF] outline-none" xmlns="http://www.w3.org/2000/svg" fill="currentColor" stroke="none" viewBox="0 0 24 24" style="display: none;"><path d="M4 22h12v-2H4V8H2v12c0 1.103.897 2 2 2z"></path><path d="M20 2H8c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2V4c0-1.103-.897-2-2-2zm-2 9h-3v3h-2v-3h-3V9h3V6h2v3h3v2z"></path></svg>        </button>
-        <div x-show="showTooltip" class="tooltip max-md:!hidden" style="display: none;">
-    Add to Collections
-</div>
-     </span>
-    <div x-show="showModal" style="display: none;">
-        <div class="modal-wrapper-add-to-collection flex flex-col items-center justify-center absolute bottom-0 right-[-15px] z-60 cursor-auto min-w-[300px] rounded-lg " style="transform: translateY(100%) translateY(10px);">
-            <div class="flex flex-col bg-white fixed top-0 left-0 md:relative md:rounded-lg md:shadow-lg h-full md:h-auto p-4 w-full" @click.outside="showModal = false;">
-                <div class="flex justify-start relative md:justify-between items-center ">
-                    <p class="text-lg font-bold text-[#2b2b2b]">Add to collection</p>
-                    <a href="https://www.videvo.net/my-collections/" class="ml-4 md:ml-0 text-sm text-gray-500 hover:text-gray-700">Manage</a>
-                    <div class="w-10 h-10 flex items-center justify-center absolute top-0 right-0 md:hidden close-modal w-6 text-2xl text-gray-600 leading-4 font-bold text-right" @click.stop.prevent="showModal = false; window.clipActions?.closeAllModals();"></div>
-                </div>
-                <div class="flex justify-start w-full">
-                    <div wire:id="cDzCm60sZ8nfpCGvphos" class="flex py-2 relative h-[56px] item-center" x-data="{showForm: false, showResponse: false, timeoutToggle: false}">
-    <template x-if="showResponse"></template>
-    <div class="cursor-pointer text-base text-[#1b95e0] bold h-full order-2 flex items-center" @click="showForm = !showForm" x-show="!showForm">
-        <svg class="fill-current w-7 h-7 mr-[10px]" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
-    <path fill="#1B95E0" fill-rule="evenodd" d="M14 7c.552 0 1 .448 1 1v5h5c.552 0 1 .448 1 1s-.448 1-1 1h-5v5c0 .552-.448 1-1 1s-1-.448-1-1v-5H8c-.552 0-1-.448-1-1s.448-1 1-1h5V8c0-.552.448-1 1-1z"></path>
-</svg>        Create new collection
-    </div>
-    <form x-show="showForm" class="flex space-between items-center border border-[#1b95e0] justify-items-stretch rounded-sm overflow-hidden h-full" wire:submit.prevent="addUserCollection" style="display: none;">
-        <input class="px-2 border-0 outline-0 h-full" placeholder="Add collection name" type="text" wire:model="collectionName">
-        <button type="submit" @click="window.clipActions?.closeAllModals(); showResponse = true; setTimeout(() =&gt; {showResponse = false; }, 3000); showForm = !showForm" class="h-full leading-10 bg-gray-100 text-blue-600 text-base font-bold text-center min-w-[60px]">Add</button>
-    </form>
-
-</div>
-<!-- Livewire Component wire-end:cDzCm60sZ8nfpCGvphos -->                </div>
-                <div class="flex flex-col grow overflow-auto relative md:max-h-[calc(46px*3.5)] max-md:max-h[calc(100vh-100px)] transition duration-150" x-data="{selectedCollections:  [],}">
-                                        <div class="m:h-[80px] flex items-center justify-between fixed py-3 md:py-3 left-0 px-4 bottom-0 left-0 w-full md:!hidden" style="box-shadow: 0 -2px 0 0 rgb(0 0 0 / 10%);">
-                        <a x-on:click="showModal = false; window.clipActions?.closeAllModals();" class="pt-3 pb-3 pr-6 pl-6 font-bold text-base rounded-lg text-blue-600 bg-[#ececec]">Cancel</a>
-                        <a x-on:click="showModal = false; window.clipActions?.closeAllModals(); $wire.toggleClipInUserCollections(selectedCollections)" class="pt-3 pb-3 pr-6 pl-6 font-bold text-base rounded-lg bg-blue-600 text-white">Apply</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Livewire Component wire-end:8zr1VbmVDoZG21d8wx5f -->            </div>
-            <div>
-                <div wire:id="kfP9RGOzaj9TuPl2WK3P" class="flex" x-data="{ isFavorite: $wire.entangle(&#39;isFavorite&#39;), mode: $wire.entangle(&#39;mode&#39;), hidden: $wire.entangle(&#39;hidden&#39;), showTooltip: false }">
-    <span class="relative inline-flex" x-on:mouseover="showTooltip = true" x-on:mouseleave="showTooltip = false">
-        <button class="text-gray-700 hover:text-gray-900 overflow-hidden toggle-favorite" wire:key="clip-920780" wire:click.stop.prevent="toggleFavorite();">
-            <svg x-bind:class="{&#39;text-white&#39;: mode == &#39;light&#39;, &#39;not-added&#39;: !isFavorite, &#39;!translate-y-0&#39;: !hidden}" x-show="!isFavorite" class="fill-current h-6 w-6 outline-none translate-y-8 not-added !translate-y-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" fill="none"><path d="M5.40956 2.51538C4.45258 1.76408 3.08107 1.83357 2.20944 2.72795C1.25976 3.7024 1.26439 5.28574 2.2182 6.26443L5.74895 9.8873C5.8954 10.0376 6.13284 10.0376 6.27929 9.8873L9.7917 6.28538C10.7392 5.30775 10.7362 3.72885 9.7822 2.74999C8.90375 1.84862 7.52809 1.77191 6.57265 2.52393C6.48883 2.58991 6.40825 2.66226 6.33151 2.74099L5.99605 3.08587L5.65599 2.73693C5.57761 2.65651 5.49525 2.58265 5.40956 2.51538ZM7.04767 3.43893C7.60289 2.86945 8.49943 2.86653 9.06605 3.44793C9.64336 4.04031 9.64309 5.00077 9.07454 5.58846L9.0736 5.58943L6.01425 8.72674L2.93435 5.56648C2.3556 4.97264 2.35777 4.00853 2.92559 3.42589C3.4791 2.85794 4.37486 2.85516 4.93984 3.43488L5.2799 3.78381C5.46824 3.97706 5.72669 4.086 5.99654 4.08587C6.26638 4.08574 6.52472 3.97655 6.71288 3.78312L7.04767 3.43893Z" fill="currentColor"></path></svg>            <svg x-show="isFavorite" class="fill-current h-6 w-6 text-red-700 outline-none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" fill="none" style="display: none;"><path d="M5.65599 2.73693C4.70219 1.75824 3.15912 1.75349 2.20944 2.72795C1.25976 3.7024 1.26439 5.28574 2.2182 6.26443L5.74895 9.8873C5.8954 10.0376 6.13284 10.0376 6.27929 9.8873L9.7917 6.28538C10.7392 5.30775 10.7362 3.72885 9.7822 2.74999C8.82669 1.76955 7.28289 1.76479 6.33151 2.74099L5.99605 3.08587L5.65599 2.73693Z" fill="currentColor"></path></svg>        </button>
-        <div x-show="showTooltip" class="tooltip max-md:!hidden" style="display: none;">
-    Add to Favorites
-</div>
-     </span>
-</div>
-
-<!-- Livewire Component wire-end: -->            </div>
-                        <span class="w-[44px] flex justify-center">
-                <svg data-cy="premium-icon" class="fill-current h-6 w-6 text-orange-600" viewBox="-120 0 512 512.00115" xmlns="http://www.w3.org/2000/svg"><path d="m270.214844 180.054688c-2.628906-4.816407-7.679688-7.816407-13.167969-7.816407h-54.425781l24.753906-154.871093c1.082031-6.773438-2.570312-13.417969-8.867188-16.136719-6.292968-2.71875-13.640624-.820313-17.828124 4.613281l-197.5625 256.398438c-3.488282 4.527343-4.097657 10.644531-1.578126 15.777343 2.523438 5.128907 7.746094 8.378907 13.460938 8.378907h85.816406l-57.566406 206.574218c-1.992188 7.144532 1.539062 14.675782 8.304688 17.710938 1.988281.890625 4.074218 1.316406 6.136718 1.316406 4.96875 0 9.78125-2.476562 12.621094-6.882812l199.351562-309.761719c2.96875-4.613281 3.179688-10.484375.550782-15.300781zm0 0"></path></svg>            </span>
-                        <a href="https://www.videvo.net/royalty-free-music-track/nothing-is-impossible-alt-mix/920780/" class="flex h-9 items-center justify-center rounded-lg bg-blue-400 px-5 font-bold text-white">
-                <svg class="fill-current mr-2 h-4 w-4" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M8 12.2188C7.79281 12.2188 7.59409 12.1364 7.44756 11.9899L4.79594 9.33828C4.49084 9.03319 4.49084 8.53853 4.79594 8.23344C5.10103 7.92834 5.59566 7.92834 5.90078 8.23344L7.21875 9.55141V0.78125C7.21875 0.349781 7.56853 0 8 0C8.43147 0 8.78125 0.349781 8.78125 0.78125V9.55141L10.0992 8.23344C10.4043 7.92834 10.899 7.92834 11.2041 8.23344C11.5092 8.53853 11.5092 9.03319 11.2041 9.33828L8.55244 11.9899C8.40591 12.1364 8.20722 12.2188 8 12.2188ZM14.4375 8.78125C14.4375 8.34978 14.7872 8 15.2188 8C15.6503 8 16 8.34978 16 8.78125V12.9688C16 14.4334 14.8084 15.625 13.3438 15.625H2.65625C1.19159 15.625 0 14.4334 0 12.9688V8.78125C0 8.34978 0.349781 8 0.78125 8C1.21272 8 1.5625 8.34978 1.5625 8.78125V12.9688C1.5625 13.5718 2.05316 14.0625 2.65625 14.0625H13.3438C13.9468 14.0625 14.4375 13.5718 14.4375 12.9688V8.78125Z"></path>
-</svg>                Download
-            </a>
-        </div>
-    </div>
-    <div x-show="showInfo" class="grid grid-cols-3 border-t border-gray-250 p-2 text-sm" style="display: none;">
-                    <div class="border-r border-gray-250 py-2 px-4">
-                <p class="font-bold text-gray-600">Genre</p>
-                                    <a href="https://www.videvo.net/royalty-free-music/corporate/" class="font-bold text-gray-900 hover:underline">Corporate</a>                                            </div>
-            <div class="border-r border-gray-250 py-2 px-4">
-                <p class="font-bold text-gray-600">Mood</p>
-                                    <a href="https://www.videvo.net/royalty-free-music/mood/confident/" class="font-bold text-gray-900 hover:underline">Confident</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/optimistic/" class="font-bold text-gray-900 hover:underline">Optimistic</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/determined/" class="font-bold text-gray-900 hover:underline">Determined</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/positive/" class="font-bold text-gray-900 hover:underline">Positive</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/ambitious/" class="font-bold text-gray-900 hover:underline">Ambitious</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/strong/" class="font-bold text-gray-900 hover:underline">Strong</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/proud/" class="font-bold text-gray-900 hover:underline">Proud</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/competition/" class="font-bold text-gray-900 hover:underline">Competition</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/inspiring/" class="font-bold text-gray-900 hover:underline">Inspiring</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/technology/" class="font-bold text-gray-900 hover:underline">Technology</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/expectant/" class="font-bold text-gray-900 hover:underline">Expectant</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/achievement/" class="font-bold text-gray-900 hover:underline">Achievement</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/motivating/" class="font-bold text-gray-900 hover:underline">Motivating</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/productive/" class="font-bold text-gray-900 hover:underline">Productive</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/business/" class="font-bold text-gray-900 hover:underline">Business</a>                                            </div>
-            <div class="py-2 px-4">
-                <p class="font-bold text-gray-600">Instrumentation</p>
-                                    <a href="https://www.videvo.net/royalty-free-music/instrument/keyboards/" class="font-bold text-gray-900 hover:underline">Keyboards</a>,                                     <a href="https://www.videvo.net/royalty-free-music/instrument/guitar/" class="font-bold text-gray-900 hover:underline">Guitar</a>,                                     <a href="https://www.videvo.net/royalty-free-music/instrument/percussion/" class="font-bold text-gray-900 hover:underline">Percussion</a>,                                     <a href="https://www.videvo.net/royalty-free-music/instrument/strings/" class="font-bold text-gray-900 hover:underline">Strings</a>,                                     <a href="https://www.videvo.net/royalty-free-music/instrument/keyboard/" class="font-bold text-gray-900 hover:underline">Keyboard</a>                                            </div>
-        
-    </div>
-</div>
-                                    <div class="-mx-4 mb-2 flex flex-col border-b border-gray-200 px-3 hover:bg-gray-150 lg:mx-0 lg:rounded lg:border-0 audio-row audio-player pb-2 md:pb-0" x-data="{ &#39;showInfo&#39;: false, showTooltip: false }">
-        <div class="flex items-center lg:min-h-20 flex-row lg:gap-4 flex-wrap lg:flex-no-wrap w-full">
-        <div class="flex items-center flex-grow lg:max-w-[380px] lg:min-w-[280px] md:order-1 lg:order-none">
-            <button class="relative mr-4 flex h-14 w-14 shrink-0 items-center justify-center bg-black z-20 button-play-pause" @click="window.audioHandler.handleAudioPlayPause($refs.audioElement229816); playing = playing === 229816 ? &#39;&#39; : 229816;">
-                <img src="./images/music.jpg" class="absolute top-0 left-0 h-full w-full object-cover">
-                <svg x-bind:class="{ &#39;hidden&#39;: playing === 229816 }" class="fill-current relative z-10 h-8 w-8 text-white drop-shadow play-icon" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg"><path d="M14.4621 8.1418L4.15546 1.93628C3.85647 1.75624 3.48667 1.75457 3.18613 1.93178C2.88556 2.10904 2.7002 2.43817 2.7002 2.79451V15.2056C2.7002 15.5619 2.88556 15.891 3.18613 16.0683C3.33511 16.1562 3.50106 16.2 3.66705 16.2C3.83586 16.2 4.00471 16.1546 4.15546 16.0638L14.4621 9.85827C14.7584 9.67986 14.9405 9.35319 14.9405 9.00003C14.9405 8.64688 14.7584 8.32021 14.4621 8.1418Z"></path></svg>                <svg x-bind:class="{ &#39;hidden&#39;: playing !== 229816 }" class="fill-current relative z-10 h-12 w-12 text-white drop-shadow pause-icon hidden" width="54px" height="54px" viewBox="0 0 54 54" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>pause-button-white-sml</title>
-    <g id="pause-button-white-sml" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Group-2" transform="translate(14.000000, 14.000000)">
-            <path d="M8,0 C10.1421954,0 11.8910789,1.82429918 11.9951047,4.1170563 L12,4.33333333 L12,21.6666667 C12,23.9873783 10.3160315,25.8820021 8.19964034,25.9946968 L8,26 L4,26 C1.85780461,26 0.108921124,24.1757008 0.00489530723,21.8829437 L0,21.6666667 L0,4.33333333 C0,2.01262166 1.68396847,0.117997884 3.80035966,0.0053032495 L4,0 L8,0 Z M22,0 C24.1421954,0 25.8910789,1.82429918 25.9951047,4.1170563 L26,4.33333333 L26,21.6666667 C26,23.9873783 24.3160315,25.8820021 22.1996403,25.9946968 L22,26 L18,26 C15.8578046,26 14.1089211,24.1757008 14.0048953,21.8829437 L14,21.6666667 L14,4.33333333 C14,2.01262166 15.6839685,0.117997884 17.8003597,0.0053032495 L18,0 L22,0 Z" id="Combined-Shape" fill-opacity="0.4" fill="#000000"></path>
-            <path d="M4,2 L8,2 C9.1045695,2 10,2.8954305 10,4 L10,22 C10,23.1045695 9.1045695,24 8,24 L4,24 C2.8954305,24 2,23.1045695 2,22 L2,4 C2,2.8954305 2.8954305,2 4,2 Z M18,2 L22,2 C23.1045695,2 24,2.8954305 24,4 L24,22 C24,23.1045695 23.1045695,24 22,24 L18,24 C16.8954305,24 16,23.1045695 16,22 L16,4 C16,2.8954305 16.8954305,2 18,2 Z" id="Combined-Shape" fill="#FFFFFF"></path>
-        </g>
-    </g>
-</svg>                
-                <audio preload="none" x-ref="audioElement229816" x-on:ended="playing = &#39;&#39;" id="linkAudio-229816" class="listing-audio audio-element hidden">
-                                            <source src="https://cdn.videvo.net/videvo_files/audio/premium/audio0127/watermarked/Lost-Civilization-NEW024201_preview.mp3" type="audio/mp3">
-                                        Your browser does not support the audio element.
-                </audio>
-            </button>
-            <div class="flex min-w-0 max-w-[calc(100vw-104px)] flex-col lg:max-w-[280px]">
-                <a href="https://www.videvo.net/royalty-free-music-track/lost-civilization-60s/229816/" class="mb-1 font-semibold leading-none text-gray-800 hover:underline overflow-hidden whitespace-nowrap text-ellipsis">Lost Civilization - 60s</a>
-                                    <a href="https://www.videvo.net/royalty-free-music-albums/new-age-mix-2/" class="mb-1 text-sm font-bold leading-none text-gray-400 hover:text-gray-600 overflow-hidden whitespace-nowrap text-ellipsis">
-                        New Age Mix 2
-                    </a>
-                                <p class="w-full truncate text-sm text-gray-600 overflow-hidden whitespace-nowrap text-ellipsis">
-                    New Age
-                    | Apologetic, Depressed, Fantasy, Grieving, Jingle, Lonely, Melancholy, Melodrama, Sad, Subdued, Tragedy
-                </p>
-            </div>
-        </div>
-        <div class="flex lg:flex-1 items-center w-full h-[60px] max-h-[60px] lg:h-[84px] lg:max-h-[84px] md:grow-[2] md:basis-170% md:min-w-[300px] justify-start md:order-3 lg:order-none xs:my-3 md:my-0">
-            <div class="mr-4 flex-1 h-full w-full">
-                <div class="z-20 w-full h-full">
-                    <div class="waveform waveform-length-bpm h-full w-full relative min-h-[60px] max-h-[60px] lg:min-h-[84px] lg:max-h-[84px]">
-    <div class="waveform-image waveform-container h-full relative w-full overflow-hidden">
-        <canvas id="mainWaveformCanvas-listing-229816" @click="window.audioHandler.handleCanvasClick(event,$refs.audioElement229816);  if(playing === &#39;&#39; || playing !== 229816) { playing = 229816 }" class="js--audio-waveform-canvas belongs-listing h-[60px] lg:h-[84px] w-full max-w-full max-h-[60px] lg:max-h-[84px] absolute top-0 left-0" data-waveformjson="{&quot;margin&quot;:{&quot;low&quot;:0,&quot;high&quot;:250},&quot;heights&quot;:[21,17,16,17,21,26,19,16,11,23,20,20,21,17,22,23,13,12,12,25,18,16,12,10,19,19,16,15,13,10,9,7,7,25,35,28,49,34,56,53,37,35,40,38,38,34,33,28,28,30,35,31,33,44,43,49,34,45,54,41,32,36,36,36,44,33,36,40,44,40,45,31,36,25,26,26,22,49,39,34,29,26,29,31,31,30,28,26,25,24,21,32,27,21,13,17,29,23,19,18,17,19,15,19,19,21,18,15,17,17,15,29,27,24,35,33,38,32,46,43,41,37,31,33,32,34,26,24,21,21,42,39,27,25,23,45,41,28,32,25,30,28,26,22,20,17,14,11,11,23,20,19,20,14,46,34,26,20,15,29,18,13,11,15,20,14,12,13,33,28,23,14,14,43,38,33,23,14,18,13,15,18,15,20,19,16,12,8,45,38,41,47,49,43,40,36,32,39,42,37,34,30,31,30,25,21,23,47,44,34,30,22,42,39,44,44,39,31,27,29,32,33,30,29,27,32,27,26,23,29,25,37,38,31,26,24,32,23,21,22,16,29,20,18,18,27,33,27,22,17,34,34,26,19,18,24,19,21,22,16,15,14,16,14,15,41,38,30,38,35,59,50,53,37,30,39,39,35,35,44,41,33,29,31,39,53,56,31,23,41,37,35,27,25,37,25,31,30,23,23,23,16,16,17,27,21,22,23,26,30,29,21,19,41,30,25,21,17,27,25,20,19,18,51,37,23,17,14,29,27,23,17,30,24,21,21,25,24,24,18,17,13,39,52,39,47,45,44,46,45,48,50,45,47,45,41,32,40,37,28,32,43,40,29,27,27,43,42,37,33,36,29,30,33,30,29,33,31,28,20,21,29,36,25,31,36,61,46,34,33,32,26,24,29,31,33,27,30,40,33,51,32,31,26,29,45,27,23,21,19,16,16,16,18,18,15,16,15,21,17,18,22,26,25,47,58,64,64,54,53,62,35,33,35,36,39,32,29,29,38,37,32,30,37,44,41,34,37,39,40,34,34,23,34,35,37,34,36,31,34,21,17,22,39,38,38,40,36,40,31,28,37,30,35,34,27,23,45,35,29,24,21,35,35,42,40,33,29,37,19,23,20,35,33,34,32,41,38,28,27,30,48,46,36,35,42,32,35,27,28,32,24,29,25,20,18,36,35,32,20,15,44,44,37,33,28,38,32,23,23,21,31,33,38,37,35,44,28,23,23,43,43,45,39,37,40,33,25,35,17,34,31,26,20,39,35,40,39,24,37,35,34,42,38,34,40,32,33,38,26,24,22,17,19,34,33,28,28,23,55,57,50,58,52,47,45,35,37,32,36,32,27,21,54,59,35,30,25,48,66,44,48,46,46,51,33,39,33,42,45,33,36,38,50,35,31,25,53,65,50,58,58,55,58,38,39,30,32,34,32,27,32,60,53,32,29,22,50,51,46,48,43,43,43,36,39,40,29,22,22,22,36,31,26,30,32,46,45,43,39,37,34,33,26,31,21,28,27,22,18,31,39,30,31,19,41,41,46,41,41,40,43,25,27,25,36,35,31,36,36,45,42,30,19,44,64,49,42,41,39,40,39,32,34,26,33,30,26,27,37,36,34,26,29,44,44,34,31,20,32,32,26,29,27,21,22,14,21,61,60,74,77,72,70,61,47,54,58,54,54,52,72,58,46,57,30,33,31,41,40,24,27,30,33,31,26,27,16,20,26,27,25,18,21,19,22,22,15,21,17,11,10,6,5,4,2,3,3,2,3,2,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}" width="535" height="84"></canvas>
-        <div class="blue-waveform-container absolute top-0 left-0 h-full w-0 overflow-hidden pointer-events-none" style="width: 0px;">
-            <div class="overlay absolute top-0 right-0 h-full opacity-50 w-[4px] bg-overlayBlue-500"></div>
-        </div>
-    </div>
-</div>
-                </div>
-            </div>
-            <div>
-                <p class="mb-1 text-sm font-bold leading-none text-gray-600">
-                    01:01
-                </p>
-                                    <p class="text-sm font-bold leading-none text-gray-600">82 BPM</p>
-                            </div>
-        </div>
-        <div class="flex w-full items-center justify-between lg:w-auto md:gap-4 basis-full md:basis-0 grow-0 md:order-2 lg:order-none">
-            <span class="relative inline-flex" x-on:mouseover="showTooltip = true" x-on:mouseleave="showTooltip = false">
-                <button x-on:click="showInfo = ! showInfo">
-                    <svg class="fill-current h-6 w-6 text-gray-700 hover:text-gray-900" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M2.34313 13.6569C3.85416 15.1678 5.86313 16 8 16C10.1369 16 12.1458 15.1678 13.6569 13.6569C15.1678 12.1458 16 10.1369 16 8C16 5.86313 15.1678 3.85416 13.6569 2.34313C12.1458 0.832156 10.1369 0 8 0C5.86313 0 3.85416 0.832156 2.34313 2.34313C0.832156 3.85416 0 5.86313 0 8C0 10.1369 0.832156 12.1458 2.34313 13.6569ZM1.5625 8C1.5625 4.45034 4.45034 1.5625 8 1.5625C11.5497 1.5625 14.4375 4.45034 14.4375 8C14.4375 11.5497 11.5497 14.4375 8 14.4375C4.45034 14.4375 1.5625 11.5497 1.5625 8ZM8.3125 12.5625C7.88103 12.5625 7.53125 12.2127 7.53125 11.7812V7.8125H6.75C6.31853 7.8125 5.96875 7.46272 5.96875 7.03125C5.96875 6.59978 6.31853 6.25 6.75 6.25H8.3125C8.74397 6.25 9.09375 6.59978 9.09375 7.03125V11.7812C9.09375 12.2127 8.74397 12.5625 8.3125 12.5625ZM7.0625 4.375C7.0625 4.89194 7.48306 5.3125 8 5.3125C8.51694 5.3125 8.9375 4.89194 8.9375 4.375C8.9375 3.85806 8.51694 3.4375 8 3.4375C7.48306 3.4375 7.0625 3.85806 7.0625 4.375Z"></path></svg>                </button>
-                <div x-show="showTooltip" class="tooltip max-md:!hidden" style="display: none;">
-    More Info
-</div>
-             </span>
-
-            <div>
-                <div wire:id="Q5mpwBY3iI2AxrUw0x5V" class="flex relative z-40" x-data="{ isClipInAnyUserCollection: $wire.entangle(&#39;isClipInAnyUserCollection&#39;), mode: $wire.entangle(&#39;mode&#39;), showModal: $wire.entangle(&#39;showModal&#39;), hidden: $wire.entangle(&#39;hidden&#39;), showTooltip: false}">
-    <span class="relative inline-flex" x-on:mouseover="showTooltip = true" x-on:mouseleave="showTooltip = false">
-        <button class="relative add-to-collection-button overflow-hidden" wire:click.stop.prevent="toggleModal()">
-            <svg x-bind:class="{&#39;text-white&#39;: mode == &#39;light&#39;, &#39;not-added&#39;: !isClipInAnyUserCollection, &#39;!translate-y-0&#39;: !hidden}" x-show="!isClipInAnyUserCollection" class="fill-current h-6 w-6 text-gray-700 outline-none translate-y-8 not-added !translate-y-0" xmlns="http://www.w3.org/2000/svg" fill="currentColor" stroke="none" viewBox="0 0 24 24"><path d="M20 2H8c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2V4c0-1.103-.897-2-2-2zM8 16V4h12l.002 12H8z"></path><path d="M4 8H2v12c0 1.103.897 2 2 2h12v-2H4V8zm11-2h-2v3h-3v2h3v3h2v-3h3V9h-3z"></path></svg>            <svg x-show="isClipInAnyUserCollection" class="fill-current h-6 w-6 text-[#198ACF] outline-none" xmlns="http://www.w3.org/2000/svg" fill="currentColor" stroke="none" viewBox="0 0 24 24" style="display: none;"><path d="M4 22h12v-2H4V8H2v12c0 1.103.897 2 2 2z"></path><path d="M20 2H8c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2V4c0-1.103-.897-2-2-2zm-2 9h-3v3h-2v-3h-3V9h3V6h2v3h3v2z"></path></svg>        </button>
-        <div x-show="showTooltip" class="tooltip max-md:!hidden" style="display: none;">
-    Add to Collections
-</div>
-     </span>
-    <div x-show="showModal" style="display: none;">
-        <div class="modal-wrapper-add-to-collection flex flex-col items-center justify-center absolute bottom-0 right-[-15px] z-60 cursor-auto min-w-[300px] rounded-lg " style="transform: translateY(100%) translateY(10px);">
-            <div class="flex flex-col bg-white fixed top-0 left-0 md:relative md:rounded-lg md:shadow-lg h-full md:h-auto p-4 w-full" @click.outside="showModal = false;">
-                <div class="flex justify-start relative md:justify-between items-center ">
-                    <p class="text-lg font-bold text-[#2b2b2b]">Add to collection</p>
-                    <a href="https://www.videvo.net/my-collections/" class="ml-4 md:ml-0 text-sm text-gray-500 hover:text-gray-700">Manage</a>
-                    <div class="w-10 h-10 flex items-center justify-center absolute top-0 right-0 md:hidden close-modal w-6 text-2xl text-gray-600 leading-4 font-bold text-right" @click.stop.prevent="showModal = false; window.clipActions?.closeAllModals();"></div>
-                </div>
-                <div class="flex justify-start w-full">
-                    <div wire:id="POm0TMhpZ4fVbQUnkbcr" class="flex py-2 relative h-[56px] item-center" x-data="{showForm: false, showResponse: false, timeoutToggle: false}">
-    <template x-if="showResponse"></template>
-    <div class="cursor-pointer text-base text-[#1b95e0] bold h-full order-2 flex items-center" @click="showForm = !showForm" x-show="!showForm">
-        <svg class="fill-current w-7 h-7 mr-[10px]" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
-    <path fill="#1B95E0" fill-rule="evenodd" d="M14 7c.552 0 1 .448 1 1v5h5c.552 0 1 .448 1 1s-.448 1-1 1h-5v5c0 .552-.448 1-1 1s-1-.448-1-1v-5H8c-.552 0-1-.448-1-1s.448-1 1-1h5V8c0-.552.448-1 1-1z"></path>
-</svg>        Create new collection
-    </div>
-    <form x-show="showForm" class="flex space-between items-center border border-[#1b95e0] justify-items-stretch rounded-sm overflow-hidden h-full" wire:submit.prevent="addUserCollection" style="display: none;">
-        <input class="px-2 border-0 outline-0 h-full" placeholder="Add collection name" type="text" wire:model="collectionName">
-        <button type="submit" @click="window.clipActions?.closeAllModals(); showResponse = true; setTimeout(() =&gt; {showResponse = false; }, 3000); showForm = !showForm" class="h-full leading-10 bg-gray-100 text-blue-600 text-base font-bold text-center min-w-[60px]">Add</button>
-    </form>
-
-</div>
-<!-- Livewire Component wire-end:POm0TMhpZ4fVbQUnkbcr -->                </div>
-                <div class="flex flex-col grow overflow-auto relative md:max-h-[calc(46px*3.5)] max-md:max-h[calc(100vh-100px)] transition duration-150" x-data="{selectedCollections:  [],}">
-                                        <div class="m:h-[80px] flex items-center justify-between fixed py-3 md:py-3 left-0 px-4 bottom-0 left-0 w-full md:!hidden" style="box-shadow: 0 -2px 0 0 rgb(0 0 0 / 10%);">
-                        <a x-on:click="showModal = false; window.clipActions?.closeAllModals();" class="pt-3 pb-3 pr-6 pl-6 font-bold text-base rounded-lg text-blue-600 bg-[#ececec]">Cancel</a>
-                        <a x-on:click="showModal = false; window.clipActions?.closeAllModals(); $wire.toggleClipInUserCollections(selectedCollections)" class="pt-3 pb-3 pr-6 pl-6 font-bold text-base rounded-lg bg-blue-600 text-white">Apply</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Livewire Component wire-end:Q5mpwBY3iI2AxrUw0x5V -->            </div>
-            <div>
-                <div wire:id="7CMDxnromYMxeh17f1tx" class="flex" x-data="{ isFavorite: $wire.entangle(&#39;isFavorite&#39;), mode: $wire.entangle(&#39;mode&#39;), hidden: $wire.entangle(&#39;hidden&#39;), showTooltip: false }">
-    <span class="relative inline-flex" x-on:mouseover="showTooltip = true" x-on:mouseleave="showTooltip = false">
-        <button class="text-gray-700 hover:text-gray-900 overflow-hidden toggle-favorite" wire:key="clip-229816" wire:click.stop.prevent="toggleFavorite();">
-            <svg x-bind:class="{&#39;text-white&#39;: mode == &#39;light&#39;, &#39;not-added&#39;: !isFavorite, &#39;!translate-y-0&#39;: !hidden}" x-show="!isFavorite" class="fill-current h-6 w-6 outline-none translate-y-8 not-added !translate-y-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" fill="none"><path d="M5.40956 2.51538C4.45258 1.76408 3.08107 1.83357 2.20944 2.72795C1.25976 3.7024 1.26439 5.28574 2.2182 6.26443L5.74895 9.8873C5.8954 10.0376 6.13284 10.0376 6.27929 9.8873L9.7917 6.28538C10.7392 5.30775 10.7362 3.72885 9.7822 2.74999C8.90375 1.84862 7.52809 1.77191 6.57265 2.52393C6.48883 2.58991 6.40825 2.66226 6.33151 2.74099L5.99605 3.08587L5.65599 2.73693C5.57761 2.65651 5.49525 2.58265 5.40956 2.51538ZM7.04767 3.43893C7.60289 2.86945 8.49943 2.86653 9.06605 3.44793C9.64336 4.04031 9.64309 5.00077 9.07454 5.58846L9.0736 5.58943L6.01425 8.72674L2.93435 5.56648C2.3556 4.97264 2.35777 4.00853 2.92559 3.42589C3.4791 2.85794 4.37486 2.85516 4.93984 3.43488L5.2799 3.78381C5.46824 3.97706 5.72669 4.086 5.99654 4.08587C6.26638 4.08574 6.52472 3.97655 6.71288 3.78312L7.04767 3.43893Z" fill="currentColor"></path></svg>            <svg x-show="isFavorite" class="fill-current h-6 w-6 text-red-700 outline-none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" fill="none" style="display: none;"><path d="M5.65599 2.73693C4.70219 1.75824 3.15912 1.75349 2.20944 2.72795C1.25976 3.7024 1.26439 5.28574 2.2182 6.26443L5.74895 9.8873C5.8954 10.0376 6.13284 10.0376 6.27929 9.8873L9.7917 6.28538C10.7392 5.30775 10.7362 3.72885 9.7822 2.74999C8.82669 1.76955 7.28289 1.76479 6.33151 2.74099L5.99605 3.08587L5.65599 2.73693Z" fill="currentColor"></path></svg>        </button>
-        <div x-show="showTooltip" class="tooltip max-md:!hidden" style="display: none;">
-    Add to Favorites
-</div>
-     </span>
-</div>
-
-<!-- Livewire Component wire-end: -->            </div>
-                        <span class="font-bold text-gray-700 w-[44px]">
-                    FREE
-            </span>
-                        <a href="https://www.videvo.net/royalty-free-music-track/lost-civilization-60s/229816/" class="flex h-9 items-center justify-center rounded-lg bg-blue-400 px-5 font-bold text-white">
-                <svg class="fill-current mr-2 h-4 w-4" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M8 12.2188C7.79281 12.2188 7.59409 12.1364 7.44756 11.9899L4.79594 9.33828C4.49084 9.03319 4.49084 8.53853 4.79594 8.23344C5.10103 7.92834 5.59566 7.92834 5.90078 8.23344L7.21875 9.55141V0.78125C7.21875 0.349781 7.56853 0 8 0C8.43147 0 8.78125 0.349781 8.78125 0.78125V9.55141L10.0992 8.23344C10.4043 7.92834 10.899 7.92834 11.2041 8.23344C11.5092 8.53853 11.5092 9.03319 11.2041 9.33828L8.55244 11.9899C8.40591 12.1364 8.20722 12.2188 8 12.2188ZM14.4375 8.78125C14.4375 8.34978 14.7872 8 15.2188 8C15.6503 8 16 8.34978 16 8.78125V12.9688C16 14.4334 14.8084 15.625 13.3438 15.625H2.65625C1.19159 15.625 0 14.4334 0 12.9688V8.78125C0 8.34978 0.349781 8 0.78125 8C1.21272 8 1.5625 8.34978 1.5625 8.78125V12.9688C1.5625 13.5718 2.05316 14.0625 2.65625 14.0625H13.3438C13.9468 14.0625 14.4375 13.5718 14.4375 12.9688V8.78125Z"></path>
-</svg>                Download
-            </a>
-        </div>
-    </div>
-    <div x-show="showInfo" class="grid grid-cols-3 border-t border-gray-250 p-2 text-sm" style="display: none;">
-                    <div class="border-r border-gray-250 py-2 px-4">
-                <p class="font-bold text-gray-600">Genre</p>
-                                    <a href="https://www.videvo.net/royalty-free-music/new-age/" class="font-bold text-gray-900 hover:underline">New Age</a>                                            </div>
-            <div class="border-r border-gray-250 py-2 px-4">
-                <p class="font-bold text-gray-600">Mood</p>
-                                    <a href="https://www.videvo.net/royalty-free-music/mood/subdued/" class="font-bold text-gray-900 hover:underline">Subdued</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/melancholy/" class="font-bold text-gray-900 hover:underline">Melancholy</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/lonely/" class="font-bold text-gray-900 hover:underline">Lonely</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/melodrama/" class="font-bold text-gray-900 hover:underline">Melodrama</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/sad/" class="font-bold text-gray-900 hover:underline">Sad</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/apologetic/" class="font-bold text-gray-900 hover:underline">Apologetic</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/grieving/" class="font-bold text-gray-900 hover:underline">Grieving</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/fantasy/" class="font-bold text-gray-900 hover:underline">Fantasy</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/depressed/" class="font-bold text-gray-900 hover:underline">Depressed</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/tragedy/" class="font-bold text-gray-900 hover:underline">Tragedy</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/jingle/" class="font-bold text-gray-900 hover:underline">Jingle</a>                                            </div>
-            <div class="py-2 px-4">
-                <p class="font-bold text-gray-600">Instrumentation</p>
-                                    <a href="https://www.videvo.net/royalty-free-music/instrument/flute/" class="font-bold text-gray-900 hover:underline">Flute</a>,                                     <a href="https://www.videvo.net/royalty-free-music/instrument/oboe/" class="font-bold text-gray-900 hover:underline">Oboe</a>                                            </div>
-        
-    </div>
-</div>
-                                    <div class="-mx-4 mb-2 flex flex-col border-b border-gray-200 px-3 hover:bg-gray-150 lg:mx-0 lg:rounded lg:border-0 audio-row audio-player pb-2 md:pb-0" x-data="{ &#39;showInfo&#39;: false, showTooltip: false }">
-        <div class="flex items-center lg:min-h-20 flex-row lg:gap-4 flex-wrap lg:flex-no-wrap w-full">
-        <div class="flex items-center flex-grow lg:max-w-[380px] lg:min-w-[280px] md:order-1 lg:order-none">
-            <button class="relative mr-4 flex h-14 w-14 shrink-0 items-center justify-center bg-black z-20 button-play-pause" @click="window.audioHandler.handleAudioPlayPause($refs.audioElement920689); playing = playing === 920689 ? &#39;&#39; : 920689;">
-                <img src="./Royalty Free Music Download.blade_files/SM496 Drafting the Blueprint_01-Trademark-Quality-FULL-SM496.png" class="absolute top-0 left-0 h-full w-full object-cover">
-                <svg x-bind:class="{ &#39;hidden&#39;: playing === 920689 }" class="fill-current relative z-10 h-8 w-8 text-white drop-shadow play-icon" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg"><path d="M14.4621 8.1418L4.15546 1.93628C3.85647 1.75624 3.48667 1.75457 3.18613 1.93178C2.88556 2.10904 2.7002 2.43817 2.7002 2.79451V15.2056C2.7002 15.5619 2.88556 15.891 3.18613 16.0683C3.33511 16.1562 3.50106 16.2 3.66705 16.2C3.83586 16.2 4.00471 16.1546 4.15546 16.0638L14.4621 9.85827C14.7584 9.67986 14.9405 9.35319 14.9405 9.00003C14.9405 8.64688 14.7584 8.32021 14.4621 8.1418Z"></path></svg>                <svg x-bind:class="{ &#39;hidden&#39;: playing !== 920689 }" class="fill-current relative z-10 h-12 w-12 text-white drop-shadow pause-icon hidden" width="54px" height="54px" viewBox="0 0 54 54" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>pause-button-white-sml</title>
-    <g id="pause-button-white-sml" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Group-2" transform="translate(14.000000, 14.000000)">
-            <path d="M8,0 C10.1421954,0 11.8910789,1.82429918 11.9951047,4.1170563 L12,4.33333333 L12,21.6666667 C12,23.9873783 10.3160315,25.8820021 8.19964034,25.9946968 L8,26 L4,26 C1.85780461,26 0.108921124,24.1757008 0.00489530723,21.8829437 L0,21.6666667 L0,4.33333333 C0,2.01262166 1.68396847,0.117997884 3.80035966,0.0053032495 L4,0 L8,0 Z M22,0 C24.1421954,0 25.8910789,1.82429918 25.9951047,4.1170563 L26,4.33333333 L26,21.6666667 C26,23.9873783 24.3160315,25.8820021 22.1996403,25.9946968 L22,26 L18,26 C15.8578046,26 14.1089211,24.1757008 14.0048953,21.8829437 L14,21.6666667 L14,4.33333333 C14,2.01262166 15.6839685,0.117997884 17.8003597,0.0053032495 L18,0 L22,0 Z" id="Combined-Shape" fill-opacity="0.4" fill="#000000"></path>
-            <path d="M4,2 L8,2 C9.1045695,2 10,2.8954305 10,4 L10,22 C10,23.1045695 9.1045695,24 8,24 L4,24 C2.8954305,24 2,23.1045695 2,22 L2,4 C2,2.8954305 2.8954305,2 4,2 Z M18,2 L22,2 C23.1045695,2 24,2.8954305 24,4 L24,22 C24,23.1045695 23.1045695,24 22,24 L18,24 C16.8954305,24 16,23.1045695 16,22 L16,4 C16,2.8954305 16.8954305,2 18,2 Z" id="Combined-Shape" fill="#FFFFFF"></path>
-        </g>
-    </g>
-</svg>                
-                <audio preload="none" x-ref="audioElement920689" x-on:ended="playing = &#39;&#39;" id="linkAudio-920689" class="listing-audio audio-element hidden">
-                                            <source src="https://cdn.videvo.net/videvo_files/audio/premium/audio0389/watermarked/SM496%20Drafting%20the%20Blueprint_36-Ground-breaking-Innovation-FULL-SM496_preview.mp3" type="audio/mp3">
-                                        Your browser does not support the audio element.
-                </audio>
-            </button>
-            <div class="flex min-w-0 max-w-[calc(100vw-104px)] flex-col lg:max-w-[280px]">
-                <a href="https://www.videvo.net/royalty-free-music-track/ground-breaking-innovation/920689/" class="mb-1 font-semibold leading-none text-gray-800 hover:underline overflow-hidden whitespace-nowrap text-ellipsis">Ground-breaking Innovation</a>
-                                    <a href="https://www.videvo.net/royalty-free-music-albums/drafting-the-blueprint/" class="mb-1 text-sm font-bold leading-none text-gray-400 hover:text-gray-600 overflow-hidden whitespace-nowrap text-ellipsis">
-                        Drafting the Blueprint
-                    </a>
-                                <p class="w-full truncate text-sm text-gray-600 overflow-hidden whitespace-nowrap text-ellipsis">
-                    Corporate
-                    | Achievement, Adventure, Ambitious, Bold, Competition, Confident, Happy, Motivating, Optimistic, Proud, Strong
-                </p>
-            </div>
-        </div>
-        <div class="flex lg:flex-1 items-center w-full h-[60px] max-h-[60px] lg:h-[84px] lg:max-h-[84px] md:grow-[2] md:basis-170% md:min-w-[300px] justify-start md:order-3 lg:order-none xs:my-3 md:my-0">
-            <div class="mr-4 flex-1 h-full w-full">
-                <div class="z-20 w-full h-full">
-                    <div class="waveform waveform-length-bpm h-full w-full relative min-h-[60px] max-h-[60px] lg:min-h-[84px] lg:max-h-[84px]">
-    <div class="waveform-image waveform-container h-full relative w-full overflow-hidden">
-        <canvas id="mainWaveformCanvas-listing-920689" @click="window.audioHandler.handleCanvasClick(event,$refs.audioElement920689);  if(playing === &#39;&#39; || playing !== 920689) { playing = 920689 }" class="js--audio-waveform-canvas belongs-listing h-[60px] lg:h-[84px] w-full max-w-full max-h-[60px] lg:max-h-[84px] absolute top-0 left-0" data-waveformjson="{&quot;margin&quot;:{&quot;low&quot;:0,&quot;high&quot;:250},&quot;heights&quot;:[0,0,0,0,0,1,1,3,3,5,6,7,11,24,53,43,37,34,30,27,31,24,22,20,76,56,34,28,27,24,17,27,22,26,70,39,38,33,30,25,23,28,29,24,51,42,39,26,28,22,29,34,20,29,46,41,34,29,27,30,27,27,21,33,85,39,32,22,22,22,27,29,24,65,69,34,36,34,26,24,25,28,23,56,52,39,27,25,27,31,22,35,35,50,42,42,77,35,47,34,77,65,25,72,62,71,38,26,45,19,63,26,32,75,43,72,49,27,49,24,77,25,24,54,41,68,32,30,55,40,68,25,28,54,40,86,36,47,43,26,63,30,49,78,41,77,25,43,23,23,66,25,77,67,38,75,29,45,24,27,77,20,50,50,39,68,25,52,31,28,66,36,50,49,38,75,30,43,30,38,78,30,74,67,77,37,28,40,24,64,29,34,73,41,71,54,30,48,28,75,28,30,55,37,68,26,29,54,31,75,25,29,50,43,86,34,27,47,30,62,27,42,77,40,79,28,42,24,23,67,28,58,74,35,68,34,44,27,30,76,26,49,51,40,73,24,52,28,25,64,38,60,54,42,75,29,53,32,26,77,33,70,66,70,78,34,50,30,61,44,46,75,43,76,46,43,46,30,77,29,26,53,47,67,42,28,56,36,68,25,30,56,49,86,35,27,54,36,63,38,43,78,45,79,34,51,33,30,65,38,51,76,31,75,39,48,33,27,70,28,51,55,39,62,27,52,35,26,70,31,56,49,51,68,46,58,45,36,65,38,73,65,52,75,47,51,26,68,71,38,76,51,78,34,31,52,30,78,28,35,51,42,80,42,37,56,31,84,41,29,56,55,72,42,29,55,40,58,35,29,73,46,75,45,39,55,25,66,43,50,77,48,74,35,52,42,32,69,30,55,50,47,80,36,51,37,32,65,48,52,55,51,64,44,50,41,32,68,39,79,71,40,82,53,59,29,60,71,43,74,44,79,48,31,55,33,71,30,35,54,45,79,31,46,60,33,84,33,35,65,54,79,50,33,53,39,60,34,32,76,50,89,50,37,59,33,69,45,58,73,41,66,35,51,46,30,64,29,61,61,46,75,40,54,29,36,53,50,62,62,46,67,37,52,36,26,62,39,75,72,49,86,47,58,28,38,65,45,81,49,59,72,38,54,27,79,34,43,57,44,67,43,45,59,37,71,41,39,57,54,72,42,34,50,40,72,37,28,76,49,72,45,36,57,36,64,44,44,77,38,68,43,42,56,31,73,35,56,53,48,79,40,57,34,37,62,41,54,57,52,69,43,51,40,34,73,48,75,79,48,85,52,54,25,31,67,39,80,58,56,73,33,55,30,75,61,37,56,55,71,46,45,61,34,71,33,44,55,61,65,40,35,52,41,72,41,31,76,55,72,46,32,61,29,75,52,34,69,45,71,39,48,56,32,76,41,61,58,47,75,41,60,34,37,64,41,59,51,49,64,42,54,36,33,64,44,82,82,52,85,46,58,28,29,66,36,74,54,40,71,36,58,29,58,75,33,60,53,72,41,42,63,34,76,38,41,56,52,73,39,42,53,48,66,40,32,76,54,79,46,37,58,29,71,48,30,76,46,72,45,37,51,32,73,33,37,61,41,82,44,59,33,44,61,42,51,42,38,30,22,16,13,17,13,8,57,64,30,18,15,14,11,8,8,7,45,38,20,16,11,9,6,4,4,4,48,38,32,23,19,19,14,10,10,8,27,35,23,17,13,12,11,11,7,5,4,4,4,3,3,2,2,2,2,2,2,2,1,1,1,1,0,0,0,0,0,0,0,0,0]}" width="543" height="84"></canvas>
-        <div class="blue-waveform-container absolute top-0 left-0 h-full w-0 overflow-hidden pointer-events-none" style="width: 0px;">
-            <div class="overlay absolute top-0 right-0 h-full opacity-50 w-[4px] bg-overlayBlue-500"></div>
-        </div>
-    </div>
-</div>
-                </div>
-            </div>
-            <div>
-                <p class="mb-1 text-sm font-bold leading-none text-gray-600">
-                    02:41
-                </p>
-                                    <p class="text-sm font-bold leading-none text-gray-600">0 BPM</p>
-                            </div>
-        </div>
-        <div class="flex w-full items-center justify-between lg:w-auto md:gap-4 basis-full md:basis-0 grow-0 md:order-2 lg:order-none">
-            <span class="relative inline-flex" x-on:mouseover="showTooltip = true" x-on:mouseleave="showTooltip = false">
-                <button x-on:click="showInfo = ! showInfo">
-                    <svg class="fill-current h-6 w-6 text-gray-700 hover:text-gray-900" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M2.34313 13.6569C3.85416 15.1678 5.86313 16 8 16C10.1369 16 12.1458 15.1678 13.6569 13.6569C15.1678 12.1458 16 10.1369 16 8C16 5.86313 15.1678 3.85416 13.6569 2.34313C12.1458 0.832156 10.1369 0 8 0C5.86313 0 3.85416 0.832156 2.34313 2.34313C0.832156 3.85416 0 5.86313 0 8C0 10.1369 0.832156 12.1458 2.34313 13.6569ZM1.5625 8C1.5625 4.45034 4.45034 1.5625 8 1.5625C11.5497 1.5625 14.4375 4.45034 14.4375 8C14.4375 11.5497 11.5497 14.4375 8 14.4375C4.45034 14.4375 1.5625 11.5497 1.5625 8ZM8.3125 12.5625C7.88103 12.5625 7.53125 12.2127 7.53125 11.7812V7.8125H6.75C6.31853 7.8125 5.96875 7.46272 5.96875 7.03125C5.96875 6.59978 6.31853 6.25 6.75 6.25H8.3125C8.74397 6.25 9.09375 6.59978 9.09375 7.03125V11.7812C9.09375 12.2127 8.74397 12.5625 8.3125 12.5625ZM7.0625 4.375C7.0625 4.89194 7.48306 5.3125 8 5.3125C8.51694 5.3125 8.9375 4.89194 8.9375 4.375C8.9375 3.85806 8.51694 3.4375 8 3.4375C7.48306 3.4375 7.0625 3.85806 7.0625 4.375Z"></path></svg>                </button>
-                <div x-show="showTooltip" class="tooltip max-md:!hidden" style="display: none;">
-    More Info
-</div>
-             </span>
-
-            <div>
-                <div wire:id="0GW6jDF1AizVA19hdbHw" class="flex relative z-40" x-data="{ isClipInAnyUserCollection: $wire.entangle(&#39;isClipInAnyUserCollection&#39;), mode: $wire.entangle(&#39;mode&#39;), showModal: $wire.entangle(&#39;showModal&#39;), hidden: $wire.entangle(&#39;hidden&#39;), showTooltip: false}">
-    <span class="relative inline-flex" x-on:mouseover="showTooltip = true" x-on:mouseleave="showTooltip = false">
-        <button class="relative add-to-collection-button overflow-hidden" wire:click.stop.prevent="toggleModal()">
-            <svg x-bind:class="{&#39;text-white&#39;: mode == &#39;light&#39;, &#39;not-added&#39;: !isClipInAnyUserCollection, &#39;!translate-y-0&#39;: !hidden}" x-show="!isClipInAnyUserCollection" class="fill-current h-6 w-6 text-gray-700 outline-none translate-y-8 not-added !translate-y-0" xmlns="http://www.w3.org/2000/svg" fill="currentColor" stroke="none" viewBox="0 0 24 24"><path d="M20 2H8c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2V4c0-1.103-.897-2-2-2zM8 16V4h12l.002 12H8z"></path><path d="M4 8H2v12c0 1.103.897 2 2 2h12v-2H4V8zm11-2h-2v3h-3v2h3v3h2v-3h3V9h-3z"></path></svg>            <svg x-show="isClipInAnyUserCollection" class="fill-current h-6 w-6 text-[#198ACF] outline-none" xmlns="http://www.w3.org/2000/svg" fill="currentColor" stroke="none" viewBox="0 0 24 24" style="display: none;"><path d="M4 22h12v-2H4V8H2v12c0 1.103.897 2 2 2z"></path><path d="M20 2H8c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2V4c0-1.103-.897-2-2-2zm-2 9h-3v3h-2v-3h-3V9h3V6h2v3h3v2z"></path></svg>        </button>
-        <div x-show="showTooltip" class="tooltip max-md:!hidden" style="display: none;">
-    Add to Collections
-</div>
-     </span>
-    <div x-show="showModal" style="display: none;">
-        <div class="modal-wrapper-add-to-collection flex flex-col items-center justify-center absolute bottom-0 right-[-15px] z-60 cursor-auto min-w-[300px] rounded-lg " style="transform: translateY(100%) translateY(10px);">
-            <div class="flex flex-col bg-white fixed top-0 left-0 md:relative md:rounded-lg md:shadow-lg h-full md:h-auto p-4 w-full" @click.outside="showModal = false;">
-                <div class="flex justify-start relative md:justify-between items-center ">
-                    <p class="text-lg font-bold text-[#2b2b2b]">Add to collection</p>
-                    <a href="https://www.videvo.net/my-collections/" class="ml-4 md:ml-0 text-sm text-gray-500 hover:text-gray-700">Manage</a>
-                    <div class="w-10 h-10 flex items-center justify-center absolute top-0 right-0 md:hidden close-modal w-6 text-2xl text-gray-600 leading-4 font-bold text-right" @click.stop.prevent="showModal = false; window.clipActions?.closeAllModals();"></div>
-                </div>
-                <div class="flex justify-start w-full">
-                    <div wire:id="btt0DW5QEJ5809sM3WIe" class="flex py-2 relative h-[56px] item-center" x-data="{showForm: false, showResponse: false, timeoutToggle: false}">
-    <template x-if="showResponse"></template>
-    <div class="cursor-pointer text-base text-[#1b95e0] bold h-full order-2 flex items-center" @click="showForm = !showForm" x-show="!showForm">
-        <svg class="fill-current w-7 h-7 mr-[10px]" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
-    <path fill="#1B95E0" fill-rule="evenodd" d="M14 7c.552 0 1 .448 1 1v5h5c.552 0 1 .448 1 1s-.448 1-1 1h-5v5c0 .552-.448 1-1 1s-1-.448-1-1v-5H8c-.552 0-1-.448-1-1s.448-1 1-1h5V8c0-.552.448-1 1-1z"></path>
-</svg>        Create new collection
-    </div>
-    <form x-show="showForm" class="flex space-between items-center border border-[#1b95e0] justify-items-stretch rounded-sm overflow-hidden h-full" wire:submit.prevent="addUserCollection" style="display: none;">
-        <input class="px-2 border-0 outline-0 h-full" placeholder="Add collection name" type="text" wire:model="collectionName">
-        <button type="submit" @click="window.clipActions?.closeAllModals(); showResponse = true; setTimeout(() =&gt; {showResponse = false; }, 3000); showForm = !showForm" class="h-full leading-10 bg-gray-100 text-blue-600 text-base font-bold text-center min-w-[60px]">Add</button>
-    </form>
-
-</div>
-<!-- Livewire Component wire-end:btt0DW5QEJ5809sM3WIe -->                </div>
-                <div class="flex flex-col grow overflow-auto relative md:max-h-[calc(46px*3.5)] max-md:max-h[calc(100vh-100px)] transition duration-150" x-data="{selectedCollections:  [],}">
-                                        <div class="m:h-[80px] flex items-center justify-between fixed py-3 md:py-3 left-0 px-4 bottom-0 left-0 w-full md:!hidden" style="box-shadow: 0 -2px 0 0 rgb(0 0 0 / 10%);">
-                        <a x-on:click="showModal = false; window.clipActions?.closeAllModals();" class="pt-3 pb-3 pr-6 pl-6 font-bold text-base rounded-lg text-blue-600 bg-[#ececec]">Cancel</a>
-                        <a x-on:click="showModal = false; window.clipActions?.closeAllModals(); $wire.toggleClipInUserCollections(selectedCollections)" class="pt-3 pb-3 pr-6 pl-6 font-bold text-base rounded-lg bg-blue-600 text-white">Apply</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Livewire Component wire-end:0GW6jDF1AizVA19hdbHw -->            </div>
-            <div>
-                <div wire:id="NwjMiL2iot3Nn9Igsmml" class="flex" x-data="{ isFavorite: $wire.entangle(&#39;isFavorite&#39;), mode: $wire.entangle(&#39;mode&#39;), hidden: $wire.entangle(&#39;hidden&#39;), showTooltip: false }">
-    <span class="relative inline-flex" x-on:mouseover="showTooltip = true" x-on:mouseleave="showTooltip = false">
-        <button class="text-gray-700 hover:text-gray-900 overflow-hidden toggle-favorite" wire:key="clip-920689" wire:click.stop.prevent="toggleFavorite();">
-            <svg x-bind:class="{&#39;text-white&#39;: mode == &#39;light&#39;, &#39;not-added&#39;: !isFavorite, &#39;!translate-y-0&#39;: !hidden}" x-show="!isFavorite" class="fill-current h-6 w-6 outline-none translate-y-8 not-added !translate-y-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" fill="none"><path d="M5.40956 2.51538C4.45258 1.76408 3.08107 1.83357 2.20944 2.72795C1.25976 3.7024 1.26439 5.28574 2.2182 6.26443L5.74895 9.8873C5.8954 10.0376 6.13284 10.0376 6.27929 9.8873L9.7917 6.28538C10.7392 5.30775 10.7362 3.72885 9.7822 2.74999C8.90375 1.84862 7.52809 1.77191 6.57265 2.52393C6.48883 2.58991 6.40825 2.66226 6.33151 2.74099L5.99605 3.08587L5.65599 2.73693C5.57761 2.65651 5.49525 2.58265 5.40956 2.51538ZM7.04767 3.43893C7.60289 2.86945 8.49943 2.86653 9.06605 3.44793C9.64336 4.04031 9.64309 5.00077 9.07454 5.58846L9.0736 5.58943L6.01425 8.72674L2.93435 5.56648C2.3556 4.97264 2.35777 4.00853 2.92559 3.42589C3.4791 2.85794 4.37486 2.85516 4.93984 3.43488L5.2799 3.78381C5.46824 3.97706 5.72669 4.086 5.99654 4.08587C6.26638 4.08574 6.52472 3.97655 6.71288 3.78312L7.04767 3.43893Z" fill="currentColor"></path></svg>            <svg x-show="isFavorite" class="fill-current h-6 w-6 text-red-700 outline-none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" fill="none" style="display: none;"><path d="M5.65599 2.73693C4.70219 1.75824 3.15912 1.75349 2.20944 2.72795C1.25976 3.7024 1.26439 5.28574 2.2182 6.26443L5.74895 9.8873C5.8954 10.0376 6.13284 10.0376 6.27929 9.8873L9.7917 6.28538C10.7392 5.30775 10.7362 3.72885 9.7822 2.74999C8.82669 1.76955 7.28289 1.76479 6.33151 2.74099L5.99605 3.08587L5.65599 2.73693Z" fill="currentColor"></path></svg>        </button>
-        <div x-show="showTooltip" class="tooltip max-md:!hidden" style="display: none;">
-    Add to Favorites
-</div>
-     </span>
-</div>
-
-<!-- Livewire Component wire-end: -->            </div>
-                        <span class="w-[44px] flex justify-center">
-                <svg data-cy="premium-icon" class="fill-current h-6 w-6 text-orange-600" viewBox="-120 0 512 512.00115" xmlns="http://www.w3.org/2000/svg"><path d="m270.214844 180.054688c-2.628906-4.816407-7.679688-7.816407-13.167969-7.816407h-54.425781l24.753906-154.871093c1.082031-6.773438-2.570312-13.417969-8.867188-16.136719-6.292968-2.71875-13.640624-.820313-17.828124 4.613281l-197.5625 256.398438c-3.488282 4.527343-4.097657 10.644531-1.578126 15.777343 2.523438 5.128907 7.746094 8.378907 13.460938 8.378907h85.816406l-57.566406 206.574218c-1.992188 7.144532 1.539062 14.675782 8.304688 17.710938 1.988281.890625 4.074218 1.316406 6.136718 1.316406 4.96875 0 9.78125-2.476562 12.621094-6.882812l199.351562-309.761719c2.96875-4.613281 3.179688-10.484375.550782-15.300781zm0 0"></path></svg>            </span>
-                        <a href="https://www.videvo.net/royalty-free-music-track/ground-breaking-innovation/920689/" class="flex h-9 items-center justify-center rounded-lg bg-blue-400 px-5 font-bold text-white">
-                <svg class="fill-current mr-2 h-4 w-4" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M8 12.2188C7.79281 12.2188 7.59409 12.1364 7.44756 11.9899L4.79594 9.33828C4.49084 9.03319 4.49084 8.53853 4.79594 8.23344C5.10103 7.92834 5.59566 7.92834 5.90078 8.23344L7.21875 9.55141V0.78125C7.21875 0.349781 7.56853 0 8 0C8.43147 0 8.78125 0.349781 8.78125 0.78125V9.55141L10.0992 8.23344C10.4043 7.92834 10.899 7.92834 11.2041 8.23344C11.5092 8.53853 11.5092 9.03319 11.2041 9.33828L8.55244 11.9899C8.40591 12.1364 8.20722 12.2188 8 12.2188ZM14.4375 8.78125C14.4375 8.34978 14.7872 8 15.2188 8C15.6503 8 16 8.34978 16 8.78125V12.9688C16 14.4334 14.8084 15.625 13.3438 15.625H2.65625C1.19159 15.625 0 14.4334 0 12.9688V8.78125C0 8.34978 0.349781 8 0.78125 8C1.21272 8 1.5625 8.34978 1.5625 8.78125V12.9688C1.5625 13.5718 2.05316 14.0625 2.65625 14.0625H13.3438C13.9468 14.0625 14.4375 13.5718 14.4375 12.9688V8.78125Z"></path>
-</svg>                Download
-            </a>
-        </div>
-    </div>
-    <div x-show="showInfo" class="grid grid-cols-3 border-t border-gray-250 p-2 text-sm" style="display: none;">
-                    <div class="border-r border-gray-250 py-2 px-4">
-                <p class="font-bold text-gray-600">Genre</p>
-                                    <a href="https://www.videvo.net/royalty-free-music/corporate/" class="font-bold text-gray-900 hover:underline">Corporate</a>                                            </div>
-            <div class="border-r border-gray-250 py-2 px-4">
-                <p class="font-bold text-gray-600">Mood</p>
-                                    <a href="https://www.videvo.net/royalty-free-music/mood/happy/" class="font-bold text-gray-900 hover:underline">Happy</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/confident/" class="font-bold text-gray-900 hover:underline">Confident</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/optimistic/" class="font-bold text-gray-900 hover:underline">Optimistic</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/bold/" class="font-bold text-gray-900 hover:underline">Bold</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/ambitious/" class="font-bold text-gray-900 hover:underline">Ambitious</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/strong/" class="font-bold text-gray-900 hover:underline">Strong</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/proud/" class="font-bold text-gray-900 hover:underline">Proud</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/competition/" class="font-bold text-gray-900 hover:underline">Competition</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/adventure/" class="font-bold text-gray-900 hover:underline">Adventure</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/achievement/" class="font-bold text-gray-900 hover:underline">Achievement</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/motivating/" class="font-bold text-gray-900 hover:underline">Motivating</a>                                            </div>
-            <div class="py-2 px-4">
-                <p class="font-bold text-gray-600">Instrumentation</p>
-                                    <a href="https://www.videvo.net/royalty-free-music/instrument/keyboards/" class="font-bold text-gray-900 hover:underline">Keyboards</a>,                                     <a href="https://www.videvo.net/royalty-free-music/instrument/guitar/" class="font-bold text-gray-900 hover:underline">Guitar</a>,                                     <a href="https://www.videvo.net/royalty-free-music/instrument/percussion/" class="font-bold text-gray-900 hover:underline">Percussion</a>,                                     <a href="https://www.videvo.net/royalty-free-music/instrument/strings/" class="font-bold text-gray-900 hover:underline">Strings</a>,                                     <a href="https://www.videvo.net/royalty-free-music/instrument/keyboard/" class="font-bold text-gray-900 hover:underline">Keyboard</a>                                            </div>
-        
-    </div>
-</div>
-                                    <div class="-mx-4 mb-2 flex flex-col border-b border-gray-200 px-3 hover:bg-gray-150 lg:mx-0 lg:rounded lg:border-0 audio-row audio-player pb-2 md:pb-0" x-data="{ &#39;showInfo&#39;: false, showTooltip: false }">
-        <div class="flex items-center lg:min-h-20 flex-row lg:gap-4 flex-wrap lg:flex-no-wrap w-full">
-        <div class="flex items-center flex-grow lg:max-w-[380px] lg:min-w-[280px] md:order-1 lg:order-none">
-            <button class="relative mr-4 flex h-14 w-14 shrink-0 items-center justify-center bg-black z-20 button-play-pause" @click="window.audioHandler.handleAudioPlayPause($refs.audioElement232185); playing = playing === 232185 ? &#39;&#39; : 232185;">
-                <img src="./Royalty Free Music Download.blade_files/Track-You-Down_TTX015501.png" class="absolute top-0 left-0 h-full w-full object-cover">
-                <svg x-bind:class="{ &#39;hidden&#39;: playing === 232185 }" class="fill-current relative z-10 h-8 w-8 text-white drop-shadow play-icon" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg"><path d="M14.4621 8.1418L4.15546 1.93628C3.85647 1.75624 3.48667 1.75457 3.18613 1.93178C2.88556 2.10904 2.7002 2.43817 2.7002 2.79451V15.2056C2.7002 15.5619 2.88556 15.891 3.18613 16.0683C3.33511 16.1562 3.50106 16.2 3.66705 16.2C3.83586 16.2 4.00471 16.1546 4.15546 16.0638L14.4621 9.85827C14.7584 9.67986 14.9405 9.35319 14.9405 9.00003C14.9405 8.64688 14.7584 8.32021 14.4621 8.1418Z"></path></svg>                <svg x-bind:class="{ &#39;hidden&#39;: playing !== 232185 }" class="fill-current relative z-10 h-12 w-12 text-white drop-shadow pause-icon hidden" width="54px" height="54px" viewBox="0 0 54 54" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>pause-button-white-sml</title>
-    <g id="pause-button-white-sml" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Group-2" transform="translate(14.000000, 14.000000)">
-            <path d="M8,0 C10.1421954,0 11.8910789,1.82429918 11.9951047,4.1170563 L12,4.33333333 L12,21.6666667 C12,23.9873783 10.3160315,25.8820021 8.19964034,25.9946968 L8,26 L4,26 C1.85780461,26 0.108921124,24.1757008 0.00489530723,21.8829437 L0,21.6666667 L0,4.33333333 C0,2.01262166 1.68396847,0.117997884 3.80035966,0.0053032495 L4,0 L8,0 Z M22,0 C24.1421954,0 25.8910789,1.82429918 25.9951047,4.1170563 L26,4.33333333 L26,21.6666667 C26,23.9873783 24.3160315,25.8820021 22.1996403,25.9946968 L22,26 L18,26 C15.8578046,26 14.1089211,24.1757008 14.0048953,21.8829437 L14,21.6666667 L14,4.33333333 C14,2.01262166 15.6839685,0.117997884 17.8003597,0.0053032495 L18,0 L22,0 Z" id="Combined-Shape" fill-opacity="0.4" fill="#000000"></path>
-            <path d="M4,2 L8,2 C9.1045695,2 10,2.8954305 10,4 L10,22 C10,23.1045695 9.1045695,24 8,24 L4,24 C2.8954305,24 2,23.1045695 2,22 L2,4 C2,2.8954305 2.8954305,2 4,2 Z M18,2 L22,2 C23.1045695,2 24,2.8954305 24,4 L24,22 C24,23.1045695 23.1045695,24 22,24 L18,24 C16.8954305,24 16,23.1045695 16,22 L16,4 C16,2.8954305 16.8954305,2 18,2 Z" id="Combined-Shape" fill="#FFFFFF"></path>
-        </g>
-    </g>
-</svg>                
-                <audio preload="none" x-ref="audioElement232185" x-on:ended="playing = &#39;&#39;" id="linkAudio-232185" class="listing-audio audio-element hidden">
-                                            <source src="https://cdn.videvo.net/videvo_files/audio/premium/audio0169/watermarked/Surrounded-by-the-Enemy_TTX018501_preview.mp3" type="audio/mp3">
-                                        Your browser does not support the audio element.
-                </audio>
-            </button>
-            <div class="flex min-w-0 max-w-[calc(100vw-104px)] flex-col lg:max-w-[280px]">
-                <a href="https://www.videvo.net/royalty-free-music-track/surrounded-by-the-enemy/232185/" class="mb-1 font-semibold leading-none text-gray-800 hover:underline overflow-hidden whitespace-nowrap text-ellipsis">Surrounded by the Enemy</a>
-                                    <a href="https://www.videvo.net/royalty-free-music-albums/trailer-trax/" class="mb-1 text-sm font-bold leading-none text-gray-400 hover:text-gray-600 overflow-hidden whitespace-nowrap text-ellipsis">
-                        Trailer Trax
-                    </a>
-                                <p class="w-full truncate text-sm text-gray-600 overflow-hidden whitespace-nowrap text-ellipsis">
-                    Drama &amp; Film Scores
-                    | Action, Adventure, Afraid, Anxious, Brave, Determined, Epic, Intense, Military, Suspense, Threatening
-                </p>
-            </div>
-        </div>
-        <div class="flex lg:flex-1 items-center w-full h-[60px] max-h-[60px] lg:h-[84px] lg:max-h-[84px] md:grow-[2] md:basis-170% md:min-w-[300px] justify-start md:order-3 lg:order-none xs:my-3 md:my-0">
-            <div class="mr-4 flex-1 h-full w-full">
-                <div class="z-20 w-full h-full">
-                    <div class="waveform waveform-length-bpm h-full w-full relative min-h-[60px] max-h-[60px] lg:min-h-[84px] lg:max-h-[84px]">
-    <div class="waveform-image waveform-container h-full relative w-full overflow-hidden">
-        <canvas id="mainWaveformCanvas-listing-232185" @click="window.audioHandler.handleCanvasClick(event,$refs.audioElement232185);  if(playing === &#39;&#39; || playing !== 232185) { playing = 232185 }" class="js--audio-waveform-canvas belongs-listing h-[60px] lg:h-[84px] w-full max-w-full max-h-[60px] lg:max-h-[84px] absolute top-0 left-0" data-waveformjson="{&quot;margin&quot;:{&quot;low&quot;:0,&quot;high&quot;:250},&quot;heights&quot;:[37,27,21,15,9,17,14,16,11,34,38,19,14,12,18,16,7,13,9,43,36,26,23,12,17,14,12,16,11,38,22,10,14,8,18,16,12,13,9,38,35,21,24,23,19,22,19,23,17,38,30,19,17,15,25,16,18,16,13,42,28,21,29,18,26,20,20,14,14,44,24,17,18,16,33,17,21,18,70,66,39,34,32,30,42,27,29,33,66,65,37,35,32,36,29,20,26,28,68,71,40,39,31,38,35,24,26,21,65,72,38,36,30,28,27,22,29,21,64,62,31,36,32,42,37,27,30,33,66,53,35,31,36,32,21,25,27,29,70,42,39,35,31,38,28,25,26,20,71,48,41,33,37,33,23,30,25,64,66,46,51,42,46,53,42,37,39,69,65,43,36,32,50,34,33,32,38,67,72,41,42,36,36,38,23,28,21,65,70,38,37,29,31,26,31,24,23,63,58,36,38,38,49,47,33,34,38,66,52,37,32,46,35,29,33,35,35,70,42,40,36,27,36,29,28,26,53,70,52,37,29,31,30,24,36,32,62,72,42,44,41,50,47,40,34,39,67,63,38,39,32,49,38,30,37,37,66,70,42,41,34,39,39,24,27,24,65,56,39,39,28,39,23,34,23,24,65,53,39,34,40,49,42,33,39,32,67,42,39,32,50,38,30,34,37,65,70,43,41,36,34,39,30,27,23,53,65,55,43,36,42,39,33,49,42,63,80,62,61,57,52,66,56,62,49,75,77,55,41,43,52,40,40,47,38,69,68,47,47,36,41,39,32,41,26,65,57,42,46,25,40,27,25,31,29,69,47,43,38,42,51,50,52,38,37,73,43,41,43,48,44,37,41,33,64,66,49,43,43,41,36,38,39,25,65,65,48,45,37,38,40,30,38,30,71,81,46,47,39,47,49,49,47,45,69,69,46,52,45,47,47,36,42,26,76,67,53,46,37,41,49,42,39,31,73,57,34,40,35,54,25,33,29,31,71,40,39,38,38,40,35,36,26,56,71,40,35,37,38,42,30,30,24,75,66,46,41,40,43,45,31,34,30,72,61,40,41,38,46,54,27,39,29,73,79,56,51,45,50,41,43,42,51,69,65,52,46,39,39,38,37,34,28,76,70,44,38,46,54,42,32,34,34,72,56,34,35,30,48,22,26,31,34,73,41,39,42,39,44,40,37,26,55,71,46,37,40,42,42,33,30,25,76,69,44,45,44,49,43,37,35,35,72,61,42,44,41,47,57,33,46,38,73,72,52,50,57,68,57,63,56,53,75,68,49,47,59,64,52,51,57,55,81,54,60,63,49,47,45,41,40,29,79,63,45,31,32,47,28,38,27,71,67,54,61,56,58,74,66,57,52,72,63,60,72,54,69,59,51,64,49,71,80,55,59,50,51,44,47,44,35,75,67,52,50,47,49,57,53,52,41,74,70,58,60,64,75,76,69,58,53,73,66,55,49,76,74,53,59,51,54,79,60,55,61,54,54,45,50,49,53,71,65,58,48,47,51,39,45,34,71,64,53,63,59,73,75,68,57,53,72,66,46,55,51,76,53,56,58,54,80,80,51,61,54,49,53,45,51,42,75,70,53,57,40,55,50,45,52,42,85,69,41,46,46,68,55,43,40,43,77,54,47,42,33,42,36,38,32,32,79,49,38,35,40,54,31,45,35,52,78,41,41,38,31,53,31,38,37,71,77,38,36,40,39,57,42,40,40,83,77,56,48,39,43,64,47,65,51,81,82,59,74,58,77,67,58,78,73,87,89,51,31,28,15,7,8,8,5,4,2,2,1,0,0,0,0,0,0,0]}" width="529" height="84"></canvas>
-        <div class="blue-waveform-container absolute top-0 left-0 h-full w-0 overflow-hidden pointer-events-none" style="width: 0px;">
-            <div class="overlay absolute top-0 right-0 h-full opacity-50 w-[4px] bg-overlayBlue-500"></div>
-        </div>
-    </div>
-</div>
-                </div>
-            </div>
-            <div>
-                <p class="mb-1 text-sm font-bold leading-none text-gray-600">
-                    02:18
-                </p>
-                                    <p class="text-sm font-bold leading-none text-gray-600">140 BPM</p>
-                            </div>
-        </div>
-        <div class="flex w-full items-center justify-between lg:w-auto md:gap-4 basis-full md:basis-0 grow-0 md:order-2 lg:order-none">
-            <span class="relative inline-flex" x-on:mouseover="showTooltip = true" x-on:mouseleave="showTooltip = false">
-                <button x-on:click="showInfo = ! showInfo">
-                    <svg class="fill-current h-6 w-6 text-gray-700 hover:text-gray-900" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M2.34313 13.6569C3.85416 15.1678 5.86313 16 8 16C10.1369 16 12.1458 15.1678 13.6569 13.6569C15.1678 12.1458 16 10.1369 16 8C16 5.86313 15.1678 3.85416 13.6569 2.34313C12.1458 0.832156 10.1369 0 8 0C5.86313 0 3.85416 0.832156 2.34313 2.34313C0.832156 3.85416 0 5.86313 0 8C0 10.1369 0.832156 12.1458 2.34313 13.6569ZM1.5625 8C1.5625 4.45034 4.45034 1.5625 8 1.5625C11.5497 1.5625 14.4375 4.45034 14.4375 8C14.4375 11.5497 11.5497 14.4375 8 14.4375C4.45034 14.4375 1.5625 11.5497 1.5625 8ZM8.3125 12.5625C7.88103 12.5625 7.53125 12.2127 7.53125 11.7812V7.8125H6.75C6.31853 7.8125 5.96875 7.46272 5.96875 7.03125C5.96875 6.59978 6.31853 6.25 6.75 6.25H8.3125C8.74397 6.25 9.09375 6.59978 9.09375 7.03125V11.7812C9.09375 12.2127 8.74397 12.5625 8.3125 12.5625ZM7.0625 4.375C7.0625 4.89194 7.48306 5.3125 8 5.3125C8.51694 5.3125 8.9375 4.89194 8.9375 4.375C8.9375 3.85806 8.51694 3.4375 8 3.4375C7.48306 3.4375 7.0625 3.85806 7.0625 4.375Z"></path></svg>                </button>
-                <div x-show="showTooltip" class="tooltip max-md:!hidden" style="display: none;">
-    More Info
-</div>
-             </span>
-
-            <div>
-                <div wire:id="izyPk9bEEVjUXIBJGy0B" class="flex relative z-40" x-data="{ isClipInAnyUserCollection: $wire.entangle(&#39;isClipInAnyUserCollection&#39;), mode: $wire.entangle(&#39;mode&#39;), showModal: $wire.entangle(&#39;showModal&#39;), hidden: $wire.entangle(&#39;hidden&#39;), showTooltip: false}">
-    <span class="relative inline-flex" x-on:mouseover="showTooltip = true" x-on:mouseleave="showTooltip = false">
-        <button class="relative add-to-collection-button overflow-hidden" wire:click.stop.prevent="toggleModal()">
-            <svg x-bind:class="{&#39;text-white&#39;: mode == &#39;light&#39;, &#39;not-added&#39;: !isClipInAnyUserCollection, &#39;!translate-y-0&#39;: !hidden}" x-show="!isClipInAnyUserCollection" class="fill-current h-6 w-6 text-gray-700 outline-none translate-y-8 not-added !translate-y-0" xmlns="http://www.w3.org/2000/svg" fill="currentColor" stroke="none" viewBox="0 0 24 24"><path d="M20 2H8c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2V4c0-1.103-.897-2-2-2zM8 16V4h12l.002 12H8z"></path><path d="M4 8H2v12c0 1.103.897 2 2 2h12v-2H4V8zm11-2h-2v3h-3v2h3v3h2v-3h3V9h-3z"></path></svg>            <svg x-show="isClipInAnyUserCollection" class="fill-current h-6 w-6 text-[#198ACF] outline-none" xmlns="http://www.w3.org/2000/svg" fill="currentColor" stroke="none" viewBox="0 0 24 24" style="display: none;"><path d="M4 22h12v-2H4V8H2v12c0 1.103.897 2 2 2z"></path><path d="M20 2H8c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2V4c0-1.103-.897-2-2-2zm-2 9h-3v3h-2v-3h-3V9h3V6h2v3h3v2z"></path></svg>        </button>
-        <div x-show="showTooltip" class="tooltip max-md:!hidden" style="display: none;">
-    Add to Collections
-</div>
-     </span>
-    <div x-show="showModal" style="display: none;">
-        <div class="modal-wrapper-add-to-collection flex flex-col items-center justify-center absolute bottom-0 right-[-15px] z-60 cursor-auto min-w-[300px] rounded-lg " style="transform: translateY(100%) translateY(10px);">
-            <div class="flex flex-col bg-white fixed top-0 left-0 md:relative md:rounded-lg md:shadow-lg h-full md:h-auto p-4 w-full" @click.outside="showModal = false;">
-                <div class="flex justify-start relative md:justify-between items-center ">
-                    <p class="text-lg font-bold text-[#2b2b2b]">Add to collection</p>
-                    <a href="https://www.videvo.net/my-collections/" class="ml-4 md:ml-0 text-sm text-gray-500 hover:text-gray-700">Manage</a>
-                    <div class="w-10 h-10 flex items-center justify-center absolute top-0 right-0 md:hidden close-modal w-6 text-2xl text-gray-600 leading-4 font-bold text-right" @click.stop.prevent="showModal = false; window.clipActions?.closeAllModals();"></div>
-                </div>
-                <div class="flex justify-start w-full">
-                    <div wire:id="wSft6cKVPDJxkL5zWUDw" class="flex py-2 relative h-[56px] item-center" x-data="{showForm: false, showResponse: false, timeoutToggle: false}">
-    <template x-if="showResponse"></template>
-    <div class="cursor-pointer text-base text-[#1b95e0] bold h-full order-2 flex items-center" @click="showForm = !showForm" x-show="!showForm">
-        <svg class="fill-current w-7 h-7 mr-[10px]" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
-    <path fill="#1B95E0" fill-rule="evenodd" d="M14 7c.552 0 1 .448 1 1v5h5c.552 0 1 .448 1 1s-.448 1-1 1h-5v5c0 .552-.448 1-1 1s-1-.448-1-1v-5H8c-.552 0-1-.448-1-1s.448-1 1-1h5V8c0-.552.448-1 1-1z"></path>
-</svg>        Create new collection
-    </div>
-    <form x-show="showForm" class="flex space-between items-center border border-[#1b95e0] justify-items-stretch rounded-sm overflow-hidden h-full" wire:submit.prevent="addUserCollection" style="display: none;">
-        <input class="px-2 border-0 outline-0 h-full" placeholder="Add collection name" type="text" wire:model="collectionName">
-        <button type="submit" @click="window.clipActions?.closeAllModals(); showResponse = true; setTimeout(() =&gt; {showResponse = false; }, 3000); showForm = !showForm" class="h-full leading-10 bg-gray-100 text-blue-600 text-base font-bold text-center min-w-[60px]">Add</button>
-    </form>
-
-</div>
-<!-- Livewire Component wire-end:wSft6cKVPDJxkL5zWUDw -->                </div>
-                <div class="flex flex-col grow overflow-auto relative md:max-h-[calc(46px*3.5)] max-md:max-h[calc(100vh-100px)] transition duration-150" x-data="{selectedCollections:  [],}">
-                                        <div class="m:h-[80px] flex items-center justify-between fixed py-3 md:py-3 left-0 px-4 bottom-0 left-0 w-full md:!hidden" style="box-shadow: 0 -2px 0 0 rgb(0 0 0 / 10%);">
-                        <a x-on:click="showModal = false; window.clipActions?.closeAllModals();" class="pt-3 pb-3 pr-6 pl-6 font-bold text-base rounded-lg text-blue-600 bg-[#ececec]">Cancel</a>
-                        <a x-on:click="showModal = false; window.clipActions?.closeAllModals(); $wire.toggleClipInUserCollections(selectedCollections)" class="pt-3 pb-3 pr-6 pl-6 font-bold text-base rounded-lg bg-blue-600 text-white">Apply</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Livewire Component wire-end:izyPk9bEEVjUXIBJGy0B -->            </div>
-            <div>
-                <div wire:id="Gh8YaIfKJB0mTOHGMDm2" class="flex" x-data="{ isFavorite: $wire.entangle(&#39;isFavorite&#39;), mode: $wire.entangle(&#39;mode&#39;), hidden: $wire.entangle(&#39;hidden&#39;), showTooltip: false }">
-    <span class="relative inline-flex" x-on:mouseover="showTooltip = true" x-on:mouseleave="showTooltip = false">
-        <button class="text-gray-700 hover:text-gray-900 overflow-hidden toggle-favorite" wire:key="clip-232185" wire:click.stop.prevent="toggleFavorite();">
-            <svg x-bind:class="{&#39;text-white&#39;: mode == &#39;light&#39;, &#39;not-added&#39;: !isFavorite, &#39;!translate-y-0&#39;: !hidden}" x-show="!isFavorite" class="fill-current h-6 w-6 outline-none translate-y-8 not-added !translate-y-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" fill="none"><path d="M5.40956 2.51538C4.45258 1.76408 3.08107 1.83357 2.20944 2.72795C1.25976 3.7024 1.26439 5.28574 2.2182 6.26443L5.74895 9.8873C5.8954 10.0376 6.13284 10.0376 6.27929 9.8873L9.7917 6.28538C10.7392 5.30775 10.7362 3.72885 9.7822 2.74999C8.90375 1.84862 7.52809 1.77191 6.57265 2.52393C6.48883 2.58991 6.40825 2.66226 6.33151 2.74099L5.99605 3.08587L5.65599 2.73693C5.57761 2.65651 5.49525 2.58265 5.40956 2.51538ZM7.04767 3.43893C7.60289 2.86945 8.49943 2.86653 9.06605 3.44793C9.64336 4.04031 9.64309 5.00077 9.07454 5.58846L9.0736 5.58943L6.01425 8.72674L2.93435 5.56648C2.3556 4.97264 2.35777 4.00853 2.92559 3.42589C3.4791 2.85794 4.37486 2.85516 4.93984 3.43488L5.2799 3.78381C5.46824 3.97706 5.72669 4.086 5.99654 4.08587C6.26638 4.08574 6.52472 3.97655 6.71288 3.78312L7.04767 3.43893Z" fill="currentColor"></path></svg>            <svg x-show="isFavorite" class="fill-current h-6 w-6 text-red-700 outline-none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" fill="none" style="display: none;"><path d="M5.65599 2.73693C4.70219 1.75824 3.15912 1.75349 2.20944 2.72795C1.25976 3.7024 1.26439 5.28574 2.2182 6.26443L5.74895 9.8873C5.8954 10.0376 6.13284 10.0376 6.27929 9.8873L9.7917 6.28538C10.7392 5.30775 10.7362 3.72885 9.7822 2.74999C8.82669 1.76955 7.28289 1.76479 6.33151 2.74099L5.99605 3.08587L5.65599 2.73693Z" fill="currentColor"></path></svg>        </button>
-        <div x-show="showTooltip" class="tooltip max-md:!hidden" style="display: none;">
-    Add to Favorites
-</div>
-     </span>
-</div>
-
-<!-- Livewire Component wire-end: -->            </div>
-                        <span class="font-bold text-gray-700 w-[44px]">
-                    FREE
-            </span>
-                        <a href="https://www.videvo.net/royalty-free-music-track/surrounded-by-the-enemy/232185/" class="flex h-9 items-center justify-center rounded-lg bg-blue-400 px-5 font-bold text-white">
-                <svg class="fill-current mr-2 h-4 w-4" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M8 12.2188C7.79281 12.2188 7.59409 12.1364 7.44756 11.9899L4.79594 9.33828C4.49084 9.03319 4.49084 8.53853 4.79594 8.23344C5.10103 7.92834 5.59566 7.92834 5.90078 8.23344L7.21875 9.55141V0.78125C7.21875 0.349781 7.56853 0 8 0C8.43147 0 8.78125 0.349781 8.78125 0.78125V9.55141L10.0992 8.23344C10.4043 7.92834 10.899 7.92834 11.2041 8.23344C11.5092 8.53853 11.5092 9.03319 11.2041 9.33828L8.55244 11.9899C8.40591 12.1364 8.20722 12.2188 8 12.2188ZM14.4375 8.78125C14.4375 8.34978 14.7872 8 15.2188 8C15.6503 8 16 8.34978 16 8.78125V12.9688C16 14.4334 14.8084 15.625 13.3438 15.625H2.65625C1.19159 15.625 0 14.4334 0 12.9688V8.78125C0 8.34978 0.349781 8 0.78125 8C1.21272 8 1.5625 8.34978 1.5625 8.78125V12.9688C1.5625 13.5718 2.05316 14.0625 2.65625 14.0625H13.3438C13.9468 14.0625 14.4375 13.5718 14.4375 12.9688V8.78125Z"></path>
-</svg>                Download
-            </a>
-        </div>
-    </div>
-    <div x-show="showInfo" class="grid grid-cols-3 border-t border-gray-250 p-2 text-sm" style="display: none;">
-                    <div class="border-r border-gray-250 py-2 px-4">
-                <p class="font-bold text-gray-600">Genre</p>
-                                    <a href="https://www.videvo.net/royalty-free-music/drama-&amp;-film-scores/" class="font-bold text-gray-900 hover:underline">Drama &amp; Film Scores</a>                                            </div>
-            <div class="border-r border-gray-250 py-2 px-4">
-                <p class="font-bold text-gray-600">Mood</p>
-                                    <a href="https://www.videvo.net/royalty-free-music/mood/determined/" class="font-bold text-gray-900 hover:underline">Determined</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/anxious/" class="font-bold text-gray-900 hover:underline">Anxious</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/intense/" class="font-bold text-gray-900 hover:underline">Intense</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/suspense/" class="font-bold text-gray-900 hover:underline">Suspense</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/threatening/" class="font-bold text-gray-900 hover:underline">Threatening</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/brave/" class="font-bold text-gray-900 hover:underline">Brave</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/action/" class="font-bold text-gray-900 hover:underline">Action</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/adventure/" class="font-bold text-gray-900 hover:underline">Adventure</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/afraid/" class="font-bold text-gray-900 hover:underline">Afraid</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/epic/" class="font-bold text-gray-900 hover:underline">Epic</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/military/" class="font-bold text-gray-900 hover:underline">Military</a>                                            </div>
-            <div class="py-2 px-4">
-                <p class="font-bold text-gray-600">Instrumentation</p>
-                                    <a href="https://www.videvo.net/royalty-free-music/instrument/orchestra/" class="font-bold text-gray-900 hover:underline">Orchestra</a>                                            </div>
-        
-    </div>
-</div>
-                                    <div class="-mx-4 mb-2 flex flex-col border-b border-gray-200 px-3 hover:bg-gray-150 lg:mx-0 lg:rounded lg:border-0 audio-row audio-player pb-2 md:pb-0" x-data="{ &#39;showInfo&#39;: false, showTooltip: false }">
-        <div class="flex items-center lg:min-h-20 flex-row lg:gap-4 flex-wrap lg:flex-no-wrap w-full">
-        <div class="flex items-center flex-grow lg:max-w-[380px] lg:min-w-[280px] md:order-1 lg:order-none">
-            <button class="relative mr-4 flex h-14 w-14 shrink-0 items-center justify-center bg-black z-20 button-play-pause" @click="window.audioHandler.handleAudioPlayPause($refs.audioElement920654); playing = playing === 920654 ? &#39;&#39; : 920654;">
-                <img src="./Royalty Free Music Download.blade_files/SM496 Drafting the Blueprint_01-Trademark-Quality-FULL-SM496.png" class="absolute top-0 left-0 h-full w-full object-cover">
-                <svg x-bind:class="{ &#39;hidden&#39;: playing === 920654 }" class="fill-current relative z-10 h-8 w-8 text-white drop-shadow play-icon" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg"><path d="M14.4621 8.1418L4.15546 1.93628C3.85647 1.75624 3.48667 1.75457 3.18613 1.93178C2.88556 2.10904 2.7002 2.43817 2.7002 2.79451V15.2056C2.7002 15.5619 2.88556 15.891 3.18613 16.0683C3.33511 16.1562 3.50106 16.2 3.66705 16.2C3.83586 16.2 4.00471 16.1546 4.15546 16.0638L14.4621 9.85827C14.7584 9.67986 14.9405 9.35319 14.9405 9.00003C14.9405 8.64688 14.7584 8.32021 14.4621 8.1418Z"></path></svg>                <svg x-bind:class="{ &#39;hidden&#39;: playing !== 920654 }" class="fill-current relative z-10 h-12 w-12 text-white drop-shadow pause-icon hidden" width="54px" height="54px" viewBox="0 0 54 54" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>pause-button-white-sml</title>
-    <g id="pause-button-white-sml" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Group-2" transform="translate(14.000000, 14.000000)">
-            <path d="M8,0 C10.1421954,0 11.8910789,1.82429918 11.9951047,4.1170563 L12,4.33333333 L12,21.6666667 C12,23.9873783 10.3160315,25.8820021 8.19964034,25.9946968 L8,26 L4,26 C1.85780461,26 0.108921124,24.1757008 0.00489530723,21.8829437 L0,21.6666667 L0,4.33333333 C0,2.01262166 1.68396847,0.117997884 3.80035966,0.0053032495 L4,0 L8,0 Z M22,0 C24.1421954,0 25.8910789,1.82429918 25.9951047,4.1170563 L26,4.33333333 L26,21.6666667 C26,23.9873783 24.3160315,25.8820021 22.1996403,25.9946968 L22,26 L18,26 C15.8578046,26 14.1089211,24.1757008 14.0048953,21.8829437 L14,21.6666667 L14,4.33333333 C14,2.01262166 15.6839685,0.117997884 17.8003597,0.0053032495 L18,0 L22,0 Z" id="Combined-Shape" fill-opacity="0.4" fill="#000000"></path>
-            <path d="M4,2 L8,2 C9.1045695,2 10,2.8954305 10,4 L10,22 C10,23.1045695 9.1045695,24 8,24 L4,24 C2.8954305,24 2,23.1045695 2,22 L2,4 C2,2.8954305 2.8954305,2 4,2 Z M18,2 L22,2 C23.1045695,2 24,2.8954305 24,4 L24,22 C24,23.1045695 23.1045695,24 22,24 L18,24 C16.8954305,24 16,23.1045695 16,22 L16,4 C16,2.8954305 16.8954305,2 18,2 Z" id="Combined-Shape" fill="#FFFFFF"></path>
-        </g>
-    </g>
-</svg>                
-                <audio preload="none" x-ref="audioElement920654" x-on:ended="playing = &#39;&#39;" id="linkAudio-920654" class="listing-audio audio-element hidden">
-                                            <source src="https://cdn.videvo.net/videvo_files/audio/premium/audio0389/watermarked/SM496%20Drafting%20the%20Blueprint_01-Trademark-Quality-FULL-SM496_preview.mp3" type="audio/mp3">
-                                        Your browser does not support the audio element.
-                </audio>
-            </button>
-            <div class="flex min-w-0 max-w-[calc(100vw-104px)] flex-col lg:max-w-[280px]">
-                <a href="https://www.videvo.net/royalty-free-music-track/trademark-quality/920654/" class="mb-1 font-semibold leading-none text-gray-800 hover:underline overflow-hidden whitespace-nowrap text-ellipsis">Trademark Quality</a>
-                                    <a href="https://www.videvo.net/royalty-free-music-albums/drafting-the-blueprint/" class="mb-1 text-sm font-bold leading-none text-gray-400 hover:text-gray-600 overflow-hidden whitespace-nowrap text-ellipsis">
-                        Drafting the Blueprint
-                    </a>
-                                <p class="w-full truncate text-sm text-gray-600 overflow-hidden whitespace-nowrap text-ellipsis">
-                    Corporate
-                    | Achievement, Adventure, Ambitious, Bold, Competition, Confident, Happy, Motivating, Optimistic, Proud, Strong
-                </p>
-            </div>
-        </div>
-        <div class="flex lg:flex-1 items-center w-full h-[60px] max-h-[60px] lg:h-[84px] lg:max-h-[84px] md:grow-[2] md:basis-170% md:min-w-[300px] justify-start md:order-3 lg:order-none xs:my-3 md:my-0">
-            <div class="mr-4 flex-1 h-full w-full">
-                <div class="z-20 w-full h-full">
-                    <div class="waveform waveform-length-bpm h-full w-full relative min-h-[60px] max-h-[60px] lg:min-h-[84px] lg:max-h-[84px]">
-    <div class="waveform-image waveform-container h-full relative w-full overflow-hidden">
-        <canvas id="mainWaveformCanvas-listing-920654" @click="window.audioHandler.handleCanvasClick(event,$refs.audioElement920654);  if(playing === &#39;&#39; || playing !== 920654) { playing = 920654 }" class="js--audio-waveform-canvas belongs-listing h-[60px] lg:h-[84px] w-full max-w-full max-h-[60px] lg:max-h-[84px] absolute top-0 left-0" data-waveformjson="{&quot;margin&quot;:{&quot;low&quot;:0,&quot;high&quot;:250},&quot;heights&quot;:[0,0,1,2,3,5,4,6,10,19,49,33,45,39,38,29,35,39,55,43,31,28,44,36,37,19,27,37,30,52,49,49,51,39,43,28,28,41,50,44,28,39,34,39,33,25,41,46,33,73,48,69,44,46,48,40,52,57,54,34,32,54,42,44,21,34,51,36,64,49,49,62,43,47,31,37,56,49,63,31,37,42,44,49,30,53,30,46,77,59,81,56,42,57,39,63,70,65,67,38,43,40,57,52,44,46,44,72,60,59,67,50,59,39,37,63,56,52,44,36,43,46,58,42,44,65,46,77,59,79,61,55,54,35,63,40,71,66,43,47,45,44,55,40,48,44,75,62,57,62,54,59,42,46,69,58,52,39,43,48,56,67,46,37,65,45,85,60,68,81,58,55,37,65,44,71,67,43,45,47,45,53,41,48,46,47,71,56,64,52,60,42,39,62,56,54,42,45,45,56,64,47,43,59,47,47,27,20,14,13,11,8,8,11,17,75,50,84,67,59,46,52,55,50,54,56,41,54,59,46,59,47,65,52,71,65,58,62,54,58,34,44,62,65,58,45,39,52,54,61,44,41,63,44,78,62,68,86,59,48,55,53,54,54,60,45,50,48,58,59,44,67,53,42,71,59,62,52,50,58,46,59,60,60,45,40,58,53,60,49,61,59,51,80,62,73,87,63,49,54,55,53,59,53,44,53,48,65,55,53,65,56,52,73,57,60,57,52,53,48,57,64,61,59,44,56,65,72,43,55,62,48,89,64,68,86,60,52,57,58,52,56,57,45,53,49,67,63,51,69,52,60,75,55,62,54,47,50,45,61,68,64,57,44,57,65,71,70,56,65,48,37,29,26,16,14,11,8,8,17,24,78,49,63,85,59,44,62,49,59,60,56,45,59,50,70,57,58,60,52,55,78,59,65,55,50,53,52,68,69,64,58,44,61,61,71,43,58,67,53,84,61,70,83,66,55,54,66,59,56,59,45,56,50,66,59,54,71,61,62,76,59,62,54,47,51,49,61,66,62,59,48,59,67,61,74,63,62,53,86,67,70,87,64,51,42,62,57,55,62,47,49,57,62,63,57,59,74,58,76,58,63,67,51,55,52,70,51,68,57,45,62,64,52,71,61,61,51,48,83,63,86,64,51,43,68,56,60,58,52,48,60,65,60,55,56,76,55,78,60,60,69,50,53,51,65,56,65,60,50,59,49,56,67,62,77,51,52,85,65,85,66,55,57,60,57,55,59,47,51,54,65,57,50,54,67,58,78,61,59,64,51,52,50,54,64,69,59,47,63,53,65,70,60,62,48,52,83,61,83,67,51,53,68,61,56,54,64,49,56,63,65,57,60,78,61,77,58,63,63,56,51,49,41,64,65,62,53,44,58,58,70,69,58,56,56,86,66,87,73,63,50,62,56,53,66,55,43,59,65,44,64,56,73,51,75,60,59,68,55,53,41,55,70,70,66,55,45,62,64,71,60,48,64,55,84,67,65,86,63,49,66,59,56,59,59,47,56,51,65,61,54,72,60,59,78,60,70,54,52,50,50,61,74,67,52,49,63,56,65,58,57,68,58,59,43,28,19,14,9,6,4,3,2,2,1,1,1,1,1,0,0,0,0,0,0,0,0,19,27,19,19,9,7,4,4,4,46,37,21,13,10,7,5,5,4,2,2,38,28,28,20,13,11,9,7,7,52,27,22,18,13,12,8,8,7,5,5,32,21,22,12,8,6,6,5,4,4,3,2,2,2,2,2,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}" width="543" height="84"></canvas>
-        <div class="blue-waveform-container absolute top-0 left-0 h-full w-0 overflow-hidden pointer-events-none" style="width: 0px;">
-            <div class="overlay absolute top-0 right-0 h-full opacity-50 w-[4px] bg-overlayBlue-500"></div>
-        </div>
-    </div>
-</div>
-                </div>
-            </div>
-            <div>
-                <p class="mb-1 text-sm font-bold leading-none text-gray-600">
-                    02:38
-                </p>
-                                    <p class="text-sm font-bold leading-none text-gray-600">0 BPM</p>
-                            </div>
-        </div>
-        <div class="flex w-full items-center justify-between lg:w-auto md:gap-4 basis-full md:basis-0 grow-0 md:order-2 lg:order-none">
-            <span class="relative inline-flex" x-on:mouseover="showTooltip = true" x-on:mouseleave="showTooltip = false">
-                <button x-on:click="showInfo = ! showInfo">
-                    <svg class="fill-current h-6 w-6 text-gray-700 hover:text-gray-900" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M2.34313 13.6569C3.85416 15.1678 5.86313 16 8 16C10.1369 16 12.1458 15.1678 13.6569 13.6569C15.1678 12.1458 16 10.1369 16 8C16 5.86313 15.1678 3.85416 13.6569 2.34313C12.1458 0.832156 10.1369 0 8 0C5.86313 0 3.85416 0.832156 2.34313 2.34313C0.832156 3.85416 0 5.86313 0 8C0 10.1369 0.832156 12.1458 2.34313 13.6569ZM1.5625 8C1.5625 4.45034 4.45034 1.5625 8 1.5625C11.5497 1.5625 14.4375 4.45034 14.4375 8C14.4375 11.5497 11.5497 14.4375 8 14.4375C4.45034 14.4375 1.5625 11.5497 1.5625 8ZM8.3125 12.5625C7.88103 12.5625 7.53125 12.2127 7.53125 11.7812V7.8125H6.75C6.31853 7.8125 5.96875 7.46272 5.96875 7.03125C5.96875 6.59978 6.31853 6.25 6.75 6.25H8.3125C8.74397 6.25 9.09375 6.59978 9.09375 7.03125V11.7812C9.09375 12.2127 8.74397 12.5625 8.3125 12.5625ZM7.0625 4.375C7.0625 4.89194 7.48306 5.3125 8 5.3125C8.51694 5.3125 8.9375 4.89194 8.9375 4.375C8.9375 3.85806 8.51694 3.4375 8 3.4375C7.48306 3.4375 7.0625 3.85806 7.0625 4.375Z"></path></svg>                </button>
-                <div x-show="showTooltip" class="tooltip max-md:!hidden" style="display: none;">
-    More Info
-</div>
-             </span>
-
-            <div>
-                <div wire:id="rSyprOxqLzqWCWVDhkaZ" class="flex relative z-40" x-data="{ isClipInAnyUserCollection: $wire.entangle(&#39;isClipInAnyUserCollection&#39;), mode: $wire.entangle(&#39;mode&#39;), showModal: $wire.entangle(&#39;showModal&#39;), hidden: $wire.entangle(&#39;hidden&#39;), showTooltip: false}">
-    <span class="relative inline-flex" x-on:mouseover="showTooltip = true" x-on:mouseleave="showTooltip = false">
-        <button class="relative add-to-collection-button overflow-hidden" wire:click.stop.prevent="toggleModal()">
-            <svg x-bind:class="{&#39;text-white&#39;: mode == &#39;light&#39;, &#39;not-added&#39;: !isClipInAnyUserCollection, &#39;!translate-y-0&#39;: !hidden}" x-show="!isClipInAnyUserCollection" class="fill-current h-6 w-6 text-gray-700 outline-none translate-y-8 not-added !translate-y-0" xmlns="http://www.w3.org/2000/svg" fill="currentColor" stroke="none" viewBox="0 0 24 24"><path d="M20 2H8c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2V4c0-1.103-.897-2-2-2zM8 16V4h12l.002 12H8z"></path><path d="M4 8H2v12c0 1.103.897 2 2 2h12v-2H4V8zm11-2h-2v3h-3v2h3v3h2v-3h3V9h-3z"></path></svg>            <svg x-show="isClipInAnyUserCollection" class="fill-current h-6 w-6 text-[#198ACF] outline-none" xmlns="http://www.w3.org/2000/svg" fill="currentColor" stroke="none" viewBox="0 0 24 24" style="display: none;"><path d="M4 22h12v-2H4V8H2v12c0 1.103.897 2 2 2z"></path><path d="M20 2H8c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2V4c0-1.103-.897-2-2-2zm-2 9h-3v3h-2v-3h-3V9h3V6h2v3h3v2z"></path></svg>        </button>
-        <div x-show="showTooltip" class="tooltip max-md:!hidden" style="display: none;">
-    Add to Collections
-</div>
-     </span>
-    <div x-show="showModal" style="display: none;">
-        <div class="modal-wrapper-add-to-collection flex flex-col items-center justify-center absolute bottom-0 right-[-15px] z-60 cursor-auto min-w-[300px] rounded-lg " style="transform: translateY(100%) translateY(10px);">
-            <div class="flex flex-col bg-white fixed top-0 left-0 md:relative md:rounded-lg md:shadow-lg h-full md:h-auto p-4 w-full" @click.outside="showModal = false;">
-                <div class="flex justify-start relative md:justify-between items-center ">
-                    <p class="text-lg font-bold text-[#2b2b2b]">Add to collection</p>
-                    <a href="https://www.videvo.net/my-collections/" class="ml-4 md:ml-0 text-sm text-gray-500 hover:text-gray-700">Manage</a>
-                    <div class="w-10 h-10 flex items-center justify-center absolute top-0 right-0 md:hidden close-modal w-6 text-2xl text-gray-600 leading-4 font-bold text-right" @click.stop.prevent="showModal = false; window.clipActions?.closeAllModals();"></div>
-                </div>
-                <div class="flex justify-start w-full">
-                    <div wire:id="boYOm2Rj9LmPMQ1V6AeM" class="flex py-2 relative h-[56px] item-center" x-data="{showForm: false, showResponse: false, timeoutToggle: false}">
-    <template x-if="showResponse"></template>
-    <div class="cursor-pointer text-base text-[#1b95e0] bold h-full order-2 flex items-center" @click="showForm = !showForm" x-show="!showForm">
-        <svg class="fill-current w-7 h-7 mr-[10px]" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
-    <path fill="#1B95E0" fill-rule="evenodd" d="M14 7c.552 0 1 .448 1 1v5h5c.552 0 1 .448 1 1s-.448 1-1 1h-5v5c0 .552-.448 1-1 1s-1-.448-1-1v-5H8c-.552 0-1-.448-1-1s.448-1 1-1h5V8c0-.552.448-1 1-1z"></path>
-</svg>        Create new collection
-    </div>
-    <form x-show="showForm" class="flex space-between items-center border border-[#1b95e0] justify-items-stretch rounded-sm overflow-hidden h-full" wire:submit.prevent="addUserCollection" style="display: none;">
-        <input class="px-2 border-0 outline-0 h-full" placeholder="Add collection name" type="text" wire:model="collectionName">
-        <button type="submit" @click="window.clipActions?.closeAllModals(); showResponse = true; setTimeout(() =&gt; {showResponse = false; }, 3000); showForm = !showForm" class="h-full leading-10 bg-gray-100 text-blue-600 text-base font-bold text-center min-w-[60px]">Add</button>
-    </form>
-
-</div>
-<!-- Livewire Component wire-end:boYOm2Rj9LmPMQ1V6AeM -->                </div>
-                <div class="flex flex-col grow overflow-auto relative md:max-h-[calc(46px*3.5)] max-md:max-h[calc(100vh-100px)] transition duration-150" x-data="{selectedCollections:  [],}">
-                                        <div class="m:h-[80px] flex items-center justify-between fixed py-3 md:py-3 left-0 px-4 bottom-0 left-0 w-full md:!hidden" style="box-shadow: 0 -2px 0 0 rgb(0 0 0 / 10%);">
-                        <a x-on:click="showModal = false; window.clipActions?.closeAllModals();" class="pt-3 pb-3 pr-6 pl-6 font-bold text-base rounded-lg text-blue-600 bg-[#ececec]">Cancel</a>
-                        <a x-on:click="showModal = false; window.clipActions?.closeAllModals(); $wire.toggleClipInUserCollections(selectedCollections)" class="pt-3 pb-3 pr-6 pl-6 font-bold text-base rounded-lg bg-blue-600 text-white">Apply</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Livewire Component wire-end:rSyprOxqLzqWCWVDhkaZ -->            </div>
-            <div>
-                <div wire:id="4boxAvCi5HP3SNc1MSiF" class="flex" x-data="{ isFavorite: $wire.entangle(&#39;isFavorite&#39;), mode: $wire.entangle(&#39;mode&#39;), hidden: $wire.entangle(&#39;hidden&#39;), showTooltip: false }">
-    <span class="relative inline-flex" x-on:mouseover="showTooltip = true" x-on:mouseleave="showTooltip = false">
-        <button class="text-gray-700 hover:text-gray-900 overflow-hidden toggle-favorite" wire:key="clip-920654" wire:click.stop.prevent="toggleFavorite();">
-            <svg x-bind:class="{&#39;text-white&#39;: mode == &#39;light&#39;, &#39;not-added&#39;: !isFavorite, &#39;!translate-y-0&#39;: !hidden}" x-show="!isFavorite" class="fill-current h-6 w-6 outline-none translate-y-8 not-added !translate-y-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" fill="none"><path d="M5.40956 2.51538C4.45258 1.76408 3.08107 1.83357 2.20944 2.72795C1.25976 3.7024 1.26439 5.28574 2.2182 6.26443L5.74895 9.8873C5.8954 10.0376 6.13284 10.0376 6.27929 9.8873L9.7917 6.28538C10.7392 5.30775 10.7362 3.72885 9.7822 2.74999C8.90375 1.84862 7.52809 1.77191 6.57265 2.52393C6.48883 2.58991 6.40825 2.66226 6.33151 2.74099L5.99605 3.08587L5.65599 2.73693C5.57761 2.65651 5.49525 2.58265 5.40956 2.51538ZM7.04767 3.43893C7.60289 2.86945 8.49943 2.86653 9.06605 3.44793C9.64336 4.04031 9.64309 5.00077 9.07454 5.58846L9.0736 5.58943L6.01425 8.72674L2.93435 5.56648C2.3556 4.97264 2.35777 4.00853 2.92559 3.42589C3.4791 2.85794 4.37486 2.85516 4.93984 3.43488L5.2799 3.78381C5.46824 3.97706 5.72669 4.086 5.99654 4.08587C6.26638 4.08574 6.52472 3.97655 6.71288 3.78312L7.04767 3.43893Z" fill="currentColor"></path></svg>            <svg x-show="isFavorite" class="fill-current h-6 w-6 text-red-700 outline-none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" fill="none" style="display: none;"><path d="M5.65599 2.73693C4.70219 1.75824 3.15912 1.75349 2.20944 2.72795C1.25976 3.7024 1.26439 5.28574 2.2182 6.26443L5.74895 9.8873C5.8954 10.0376 6.13284 10.0376 6.27929 9.8873L9.7917 6.28538C10.7392 5.30775 10.7362 3.72885 9.7822 2.74999C8.82669 1.76955 7.28289 1.76479 6.33151 2.74099L5.99605 3.08587L5.65599 2.73693Z" fill="currentColor"></path></svg>        </button>
-        <div x-show="showTooltip" class="tooltip max-md:!hidden" style="display: none;">
-    Add to Favorites
-</div>
-     </span>
-</div>
-
-<!-- Livewire Component wire-end: -->            </div>
-                        <span class="w-[44px] flex justify-center">
-                <svg data-cy="premium-icon" class="fill-current h-6 w-6 text-orange-600" viewBox="-120 0 512 512.00115" xmlns="http://www.w3.org/2000/svg"><path d="m270.214844 180.054688c-2.628906-4.816407-7.679688-7.816407-13.167969-7.816407h-54.425781l24.753906-154.871093c1.082031-6.773438-2.570312-13.417969-8.867188-16.136719-6.292968-2.71875-13.640624-.820313-17.828124 4.613281l-197.5625 256.398438c-3.488282 4.527343-4.097657 10.644531-1.578126 15.777343 2.523438 5.128907 7.746094 8.378907 13.460938 8.378907h85.816406l-57.566406 206.574218c-1.992188 7.144532 1.539062 14.675782 8.304688 17.710938 1.988281.890625 4.074218 1.316406 6.136718 1.316406 4.96875 0 9.78125-2.476562 12.621094-6.882812l199.351562-309.761719c2.96875-4.613281 3.179688-10.484375.550782-15.300781zm0 0"></path></svg>            </span>
-                        <a href="https://www.videvo.net/royalty-free-music-track/trademark-quality/920654/" class="flex h-9 items-center justify-center rounded-lg bg-blue-400 px-5 font-bold text-white">
-                <svg class="fill-current mr-2 h-4 w-4" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M8 12.2188C7.79281 12.2188 7.59409 12.1364 7.44756 11.9899L4.79594 9.33828C4.49084 9.03319 4.49084 8.53853 4.79594 8.23344C5.10103 7.92834 5.59566 7.92834 5.90078 8.23344L7.21875 9.55141V0.78125C7.21875 0.349781 7.56853 0 8 0C8.43147 0 8.78125 0.349781 8.78125 0.78125V9.55141L10.0992 8.23344C10.4043 7.92834 10.899 7.92834 11.2041 8.23344C11.5092 8.53853 11.5092 9.03319 11.2041 9.33828L8.55244 11.9899C8.40591 12.1364 8.20722 12.2188 8 12.2188ZM14.4375 8.78125C14.4375 8.34978 14.7872 8 15.2188 8C15.6503 8 16 8.34978 16 8.78125V12.9688C16 14.4334 14.8084 15.625 13.3438 15.625H2.65625C1.19159 15.625 0 14.4334 0 12.9688V8.78125C0 8.34978 0.349781 8 0.78125 8C1.21272 8 1.5625 8.34978 1.5625 8.78125V12.9688C1.5625 13.5718 2.05316 14.0625 2.65625 14.0625H13.3438C13.9468 14.0625 14.4375 13.5718 14.4375 12.9688V8.78125Z"></path>
-</svg>                Download
-            </a>
-        </div>
-    </div>
-    <div x-show="showInfo" class="grid grid-cols-3 border-t border-gray-250 p-2 text-sm" style="display: none;">
-                    <div class="border-r border-gray-250 py-2 px-4">
-                <p class="font-bold text-gray-600">Genre</p>
-                                    <a href="https://www.videvo.net/royalty-free-music/corporate/" class="font-bold text-gray-900 hover:underline">Corporate</a>                                            </div>
-            <div class="border-r border-gray-250 py-2 px-4">
-                <p class="font-bold text-gray-600">Mood</p>
-                                    <a href="https://www.videvo.net/royalty-free-music/mood/happy/" class="font-bold text-gray-900 hover:underline">Happy</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/confident/" class="font-bold text-gray-900 hover:underline">Confident</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/optimistic/" class="font-bold text-gray-900 hover:underline">Optimistic</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/bold/" class="font-bold text-gray-900 hover:underline">Bold</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/ambitious/" class="font-bold text-gray-900 hover:underline">Ambitious</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/strong/" class="font-bold text-gray-900 hover:underline">Strong</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/proud/" class="font-bold text-gray-900 hover:underline">Proud</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/competition/" class="font-bold text-gray-900 hover:underline">Competition</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/adventure/" class="font-bold text-gray-900 hover:underline">Adventure</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/achievement/" class="font-bold text-gray-900 hover:underline">Achievement</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/motivating/" class="font-bold text-gray-900 hover:underline">Motivating</a>                                            </div>
-            <div class="py-2 px-4">
-                <p class="font-bold text-gray-600">Instrumentation</p>
-                                    <a href="https://www.videvo.net/royalty-free-music/instrument/keyboards/" class="font-bold text-gray-900 hover:underline">Keyboards</a>,                                     <a href="https://www.videvo.net/royalty-free-music/instrument/guitar/" class="font-bold text-gray-900 hover:underline">Guitar</a>,                                     <a href="https://www.videvo.net/royalty-free-music/instrument/percussion/" class="font-bold text-gray-900 hover:underline">Percussion</a>,                                     <a href="https://www.videvo.net/royalty-free-music/instrument/strings/" class="font-bold text-gray-900 hover:underline">Strings</a>,                                     <a href="https://www.videvo.net/royalty-free-music/instrument/keyboard/" class="font-bold text-gray-900 hover:underline">Keyboard</a>                                            </div>
-        
-    </div>
-</div>
-                                    <div class="-mx-4 mb-2 flex flex-col border-b border-gray-200 px-3 hover:bg-gray-150 lg:mx-0 lg:rounded lg:border-0 audio-row audio-player pb-2 md:pb-0" x-data="{ &#39;showInfo&#39;: false, showTooltip: false }">
-        <div class="flex items-center lg:min-h-20 flex-row lg:gap-4 flex-wrap lg:flex-no-wrap w-full">
-        <div class="flex items-center flex-grow lg:max-w-[380px] lg:min-w-[280px] md:order-1 lg:order-none">
-            <button class="relative mr-4 flex h-14 w-14 shrink-0 items-center justify-center bg-black z-20 button-play-pause" @click="window.audioHandler.handleAudioPlayPause($refs.audioElement228878); playing = playing === 228878 ? &#39;&#39; : 228878;">
-                <img src="./images/music.jpg" class="absolute top-0 left-0 h-full w-full object-cover">
-                <svg x-bind:class="{ &#39;hidden&#39;: playing === 228878 }" class="fill-current relative z-10 h-8 w-8 text-white drop-shadow play-icon" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg"><path d="M14.4621 8.1418L4.15546 1.93628C3.85647 1.75624 3.48667 1.75457 3.18613 1.93178C2.88556 2.10904 2.7002 2.43817 2.7002 2.79451V15.2056C2.7002 15.5619 2.88556 15.891 3.18613 16.0683C3.33511 16.1562 3.50106 16.2 3.66705 16.2C3.83586 16.2 4.00471 16.1546 4.15546 16.0638L14.4621 9.85827C14.7584 9.67986 14.9405 9.35319 14.9405 9.00003C14.9405 8.64688 14.7584 8.32021 14.4621 8.1418Z"></path></svg>                <svg x-bind:class="{ &#39;hidden&#39;: playing !== 228878 }" class="fill-current relative z-10 h-12 w-12 text-white drop-shadow pause-icon hidden" width="54px" height="54px" viewBox="0 0 54 54" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>pause-button-white-sml</title>
-    <g id="pause-button-white-sml" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Group-2" transform="translate(14.000000, 14.000000)">
-            <path d="M8,0 C10.1421954,0 11.8910789,1.82429918 11.9951047,4.1170563 L12,4.33333333 L12,21.6666667 C12,23.9873783 10.3160315,25.8820021 8.19964034,25.9946968 L8,26 L4,26 C1.85780461,26 0.108921124,24.1757008 0.00489530723,21.8829437 L0,21.6666667 L0,4.33333333 C0,2.01262166 1.68396847,0.117997884 3.80035966,0.0053032495 L4,0 L8,0 Z M22,0 C24.1421954,0 25.8910789,1.82429918 25.9951047,4.1170563 L26,4.33333333 L26,21.6666667 C26,23.9873783 24.3160315,25.8820021 22.1996403,25.9946968 L22,26 L18,26 C15.8578046,26 14.1089211,24.1757008 14.0048953,21.8829437 L14,21.6666667 L14,4.33333333 C14,2.01262166 15.6839685,0.117997884 17.8003597,0.0053032495 L18,0 L22,0 Z" id="Combined-Shape" fill-opacity="0.4" fill="#000000"></path>
-            <path d="M4,2 L8,2 C9.1045695,2 10,2.8954305 10,4 L10,22 C10,23.1045695 9.1045695,24 8,24 L4,24 C2.8954305,24 2,23.1045695 2,22 L2,4 C2,2.8954305 2.8954305,2 4,2 Z M18,2 L22,2 C23.1045695,2 24,2.8954305 24,4 L24,22 C24,23.1045695 23.1045695,24 22,24 L18,24 C16.8954305,24 16,23.1045695 16,22 L16,4 C16,2.8954305 16.8954305,2 18,2 Z" id="Combined-Shape" fill="#FFFFFF"></path>
-        </g>
-    </g>
-</svg>                
-                <audio preload="none" x-ref="audioElement228878" x-on:ended="playing = &#39;&#39;" id="linkAudio-228878" class="listing-audio audio-element hidden">
-                                            <source src="https://cdn.videvo.net/videvo_files/audio/premium/audio0108/watermarked/Hair-Trigger-WST011601_preview.mp3" type="audio/mp3">
-                                        Your browser does not support the audio element.
-                </audio>
-            </button>
-            <div class="flex min-w-0 max-w-[calc(100vw-104px)] flex-col lg:max-w-[280px]">
-                <a href="https://www.videvo.net/royalty-free-music-track/hair-trigger/228878/" class="mb-1 font-semibold leading-none text-gray-800 hover:underline overflow-hidden whitespace-nowrap text-ellipsis">Hair Trigger</a>
-                                    <a href="https://www.videvo.net/royalty-free-music-albums/winning-sports-themes/" class="mb-1 text-sm font-bold leading-none text-gray-400 hover:text-gray-600 overflow-hidden whitespace-nowrap text-ellipsis">
-                        Winning Sports Themes
-                    </a>
-                                <p class="w-full truncate text-sm text-gray-600 overflow-hidden whitespace-nowrap text-ellipsis">
-                    Rock Sports
-                    | Achievement, Action, Aggressive, Anticipating, Arrogant, Bold, Competition, Confident, Defiant, Determined, Excited, Hostile, Intense, Motivating, Strong
-                </p>
-            </div>
-        </div>
-        <div class="flex lg:flex-1 items-center w-full h-[60px] max-h-[60px] lg:h-[84px] lg:max-h-[84px] md:grow-[2] md:basis-170% md:min-w-[300px] justify-start md:order-3 lg:order-none xs:my-3 md:my-0">
-            <div class="mr-4 flex-1 h-full w-full">
-                <div class="z-20 w-full h-full">
-                    <div class="waveform waveform-length-bpm h-full w-full relative min-h-[60px] max-h-[60px] lg:min-h-[84px] lg:max-h-[84px]">
-    <div class="waveform-image waveform-container h-full relative w-full overflow-hidden">
-        <canvas id="mainWaveformCanvas-listing-228878" @click="window.audioHandler.handleCanvasClick(event,$refs.audioElement228878);  if(playing === &#39;&#39; || playing !== 228878) { playing = 228878 }" class="js--audio-waveform-canvas belongs-listing h-[60px] lg:h-[84px] w-full max-w-full max-h-[60px] lg:max-h-[84px] absolute top-0 left-0" data-waveformjson="{&quot;margin&quot;:{&quot;low&quot;:0,&quot;high&quot;:250},&quot;heights&quot;:[12,10,10,16,10,17,18,15,25,17,19,13,15,13,15,11,15,24,17,14,20,17,17,26,19,13,19,15,18,26,26,24,16,13,22,21,15,22,19,23,32,22,24,30,36,30,75,63,35,57,34,62,57,49,64,73,51,62,72,44,43,31,54,73,63,74,53,76,50,72,45,24,60,32,61,64,61,62,73,49,72,52,34,44,33,44,57,58,74,71,68,47,63,56,31,55,35,63,54,50,54,71,60,56,61,34,42,41,62,59,59,65,56,54,42,66,40,26,56,35,68,62,58,50,70,45,110,86,68,78,58,47,73,65,46,87,60,46,72,61,44,60,42,54,87,67,53,71,62,63,67,42,72,53,46,61,68,62,63,76,48,66,53,43,67,46,62,59,73,60,75,64,64,67,56,81,76,63,67,56,61,78,76,59,75,67,50,66,48,52,79,60,67,82,58,65,62,45,34,67,41,59,62,60,64,73,46,62,49,42,67,47,60,62,69,59,77,58,62,58,71,55,73,62,82,66,81,85,91,50,55,77,56,57,54,58,75,39,61,50,55,48,64,49,52,53,53,69,58,58,62,54,48,55,48,45,53,52,55,46,44,64,63,46,58,58,63,46,45,62,53,63,77,54,72,51,67,76,54,53,54,56,69,36,66,57,52,53,62,55,50,50,51,67,65,60,43,56,50,57,56,54,53,57,51,51,37,70,62,48,50,60,63,70,47,62,59,65,60,68,67,62,59,82,65,67,56,64,71,43,57,62,56,57,69,60,63,49,59,68,69,59,57,66,55,54,58,54,57,58,60,75,47,66,69,52,48,65,55,74,55,73,70,70,93,66,22,14,7,25,14,14,20,12,18,22,17,27,21,15,23,15,15,13,15,16,23,15,19,28,21,22,19,18,17,18,16,12,20,15,21,18,15,28,22,21,16,13,20,23,14,25,25,29,21,34,26,17,18,23,21,21,20,18,27,16,26,20,18,15,19,15,30,18,21,29,24,24,25,23,20,23,18,21,25,28,20,28,15,30,22,25,21,29,18,29,33,29,41,40,41,63,71,38,57,35,64,55,49,54,73,59,57,68,45,40,42,33,68,62,72,53,65,52,73,47,32,59,59,60,53,63,56,75,45,70,56,34,46,38,18,64,59,72,73,72,59,63,56,41,55,36,61,56,54,54,75,55,55,58,37,40,42,27,62,62,65,52,56,43,67,43,36,54,55,67,48,63,55,70,50,70,108,75,70,74,60,88,76,51,65,60,40,54,62,48,61,52,62,81,64,65,66,58,66,67,42,31,77,40,58,63,68,63,74,42,66,49,38,68,43,58,57,60,58,81,66,71,66,57,50,82,68,72,58,70,76,78,65,64,63,61,60,54,53,76,52,64,73,55,64,69,44,35,77,41,58,64,71,44,62,52,68,53,44,70,45,43,51,51,59,84,58,69,66,73,72,68,71,85,69,84,93,89,86,40,77,59,55,55,56,70,34,63,56,54,47,65,50,54,46,52,68,59,59,39,60,48,45,57,45,51,52,51,55,47,62,61,45,56,55,45,68,44,49,67,61,76,54,71,50,49,74,56,54,54,56,68,39,69,55,57,50,66,52,51,53,47,69,59,58,47,57,48,49,57,53,57,56,51,55,48,71,62,43,47,65,51,72,49,55,59,64,40,70,68,61,57,72,67,50,61,60,67,71,58,56,59,56,66,53,53,59,59,68,71,35,57,74,55,52,55,58,57,55,60,81,69,67,54,70,44,66,62,73,58,74,69,66,49,91,28,15,10,6,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0]}" width="532" height="84"></canvas>
-        <div class="blue-waveform-container absolute top-0 left-0 h-full w-0 overflow-hidden pointer-events-none" style="width: 0px;">
-            <div class="overlay absolute top-0 right-0 h-full opacity-50 w-[4px] bg-overlayBlue-500"></div>
-        </div>
-    </div>
-</div>
-                </div>
-            </div>
-            <div>
-                <p class="mb-1 text-sm font-bold leading-none text-gray-600">
-                    02:32
-                </p>
-                                    <p class="text-sm font-bold leading-none text-gray-600">110 BPM</p>
-                            </div>
-        </div>
-        <div class="flex w-full items-center justify-between lg:w-auto md:gap-4 basis-full md:basis-0 grow-0 md:order-2 lg:order-none">
-            <span class="relative inline-flex" x-on:mouseover="showTooltip = true" x-on:mouseleave="showTooltip = false">
-                <button x-on:click="showInfo = ! showInfo">
-                    <svg class="fill-current h-6 w-6 text-gray-700 hover:text-gray-900" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M2.34313 13.6569C3.85416 15.1678 5.86313 16 8 16C10.1369 16 12.1458 15.1678 13.6569 13.6569C15.1678 12.1458 16 10.1369 16 8C16 5.86313 15.1678 3.85416 13.6569 2.34313C12.1458 0.832156 10.1369 0 8 0C5.86313 0 3.85416 0.832156 2.34313 2.34313C0.832156 3.85416 0 5.86313 0 8C0 10.1369 0.832156 12.1458 2.34313 13.6569ZM1.5625 8C1.5625 4.45034 4.45034 1.5625 8 1.5625C11.5497 1.5625 14.4375 4.45034 14.4375 8C14.4375 11.5497 11.5497 14.4375 8 14.4375C4.45034 14.4375 1.5625 11.5497 1.5625 8ZM8.3125 12.5625C7.88103 12.5625 7.53125 12.2127 7.53125 11.7812V7.8125H6.75C6.31853 7.8125 5.96875 7.46272 5.96875 7.03125C5.96875 6.59978 6.31853 6.25 6.75 6.25H8.3125C8.74397 6.25 9.09375 6.59978 9.09375 7.03125V11.7812C9.09375 12.2127 8.74397 12.5625 8.3125 12.5625ZM7.0625 4.375C7.0625 4.89194 7.48306 5.3125 8 5.3125C8.51694 5.3125 8.9375 4.89194 8.9375 4.375C8.9375 3.85806 8.51694 3.4375 8 3.4375C7.48306 3.4375 7.0625 3.85806 7.0625 4.375Z"></path></svg>                </button>
-                <div x-show="showTooltip" class="tooltip max-md:!hidden" style="display: none;">
-    More Info
-</div>
-             </span>
-
-            <div>
-                <div wire:id="1JuItRjQiq9JX53uZ94Y" class="flex relative z-40" x-data="{ isClipInAnyUserCollection: $wire.entangle(&#39;isClipInAnyUserCollection&#39;), mode: $wire.entangle(&#39;mode&#39;), showModal: $wire.entangle(&#39;showModal&#39;), hidden: $wire.entangle(&#39;hidden&#39;), showTooltip: false}">
-    <span class="relative inline-flex" x-on:mouseover="showTooltip = true" x-on:mouseleave="showTooltip = false">
-        <button class="relative add-to-collection-button overflow-hidden" wire:click.stop.prevent="toggleModal()">
-            <svg x-bind:class="{&#39;text-white&#39;: mode == &#39;light&#39;, &#39;not-added&#39;: !isClipInAnyUserCollection, &#39;!translate-y-0&#39;: !hidden}" x-show="!isClipInAnyUserCollection" class="fill-current h-6 w-6 text-gray-700 outline-none translate-y-8 not-added !translate-y-0" xmlns="http://www.w3.org/2000/svg" fill="currentColor" stroke="none" viewBox="0 0 24 24"><path d="M20 2H8c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2V4c0-1.103-.897-2-2-2zM8 16V4h12l.002 12H8z"></path><path d="M4 8H2v12c0 1.103.897 2 2 2h12v-2H4V8zm11-2h-2v3h-3v2h3v3h2v-3h3V9h-3z"></path></svg>            <svg x-show="isClipInAnyUserCollection" class="fill-current h-6 w-6 text-[#198ACF] outline-none" xmlns="http://www.w3.org/2000/svg" fill="currentColor" stroke="none" viewBox="0 0 24 24" style="display: none;"><path d="M4 22h12v-2H4V8H2v12c0 1.103.897 2 2 2z"></path><path d="M20 2H8c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2V4c0-1.103-.897-2-2-2zm-2 9h-3v3h-2v-3h-3V9h3V6h2v3h3v2z"></path></svg>        </button>
-        <div x-show="showTooltip" class="tooltip max-md:!hidden" style="display: none;">
-    Add to Collections
-</div>
-     </span>
-    <div x-show="showModal" style="display: none;">
-        <div class="modal-wrapper-add-to-collection flex flex-col items-center justify-center absolute bottom-0 right-[-15px] z-60 cursor-auto min-w-[300px] rounded-lg " style="transform: translateY(100%) translateY(10px);">
-            <div class="flex flex-col bg-white fixed top-0 left-0 md:relative md:rounded-lg md:shadow-lg h-full md:h-auto p-4 w-full" @click.outside="showModal = false;">
-                <div class="flex justify-start relative md:justify-between items-center ">
-                    <p class="text-lg font-bold text-[#2b2b2b]">Add to collection</p>
-                    <a href="https://www.videvo.net/my-collections/" class="ml-4 md:ml-0 text-sm text-gray-500 hover:text-gray-700">Manage</a>
-                    <div class="w-10 h-10 flex items-center justify-center absolute top-0 right-0 md:hidden close-modal w-6 text-2xl text-gray-600 leading-4 font-bold text-right" @click.stop.prevent="showModal = false; window.clipActions?.closeAllModals();"></div>
-                </div>
-                <div class="flex justify-start w-full">
-                    <div wire:id="MWnVF2vbbvA6boZPKU0I" class="flex py-2 relative h-[56px] item-center" x-data="{showForm: false, showResponse: false, timeoutToggle: false}">
-    <template x-if="showResponse"></template>
-    <div class="cursor-pointer text-base text-[#1b95e0] bold h-full order-2 flex items-center" @click="showForm = !showForm" x-show="!showForm">
-        <svg class="fill-current w-7 h-7 mr-[10px]" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
-    <path fill="#1B95E0" fill-rule="evenodd" d="M14 7c.552 0 1 .448 1 1v5h5c.552 0 1 .448 1 1s-.448 1-1 1h-5v5c0 .552-.448 1-1 1s-1-.448-1-1v-5H8c-.552 0-1-.448-1-1s.448-1 1-1h5V8c0-.552.448-1 1-1z"></path>
-</svg>        Create new collection
-    </div>
-    <form x-show="showForm" class="flex space-between items-center border border-[#1b95e0] justify-items-stretch rounded-sm overflow-hidden h-full" wire:submit.prevent="addUserCollection" style="display: none;">
-        <input class="px-2 border-0 outline-0 h-full" placeholder="Add collection name" type="text" wire:model="collectionName">
-        <button type="submit" @click="window.clipActions?.closeAllModals(); showResponse = true; setTimeout(() =&gt; {showResponse = false; }, 3000); showForm = !showForm" class="h-full leading-10 bg-gray-100 text-blue-600 text-base font-bold text-center min-w-[60px]">Add</button>
-    </form>
-
-</div>
-<!-- Livewire Component wire-end:MWnVF2vbbvA6boZPKU0I -->                </div>
-                <div class="flex flex-col grow overflow-auto relative md:max-h-[calc(46px*3.5)] max-md:max-h[calc(100vh-100px)] transition duration-150" x-data="{selectedCollections:  [],}">
-                                        <div class="m:h-[80px] flex items-center justify-between fixed py-3 md:py-3 left-0 px-4 bottom-0 left-0 w-full md:!hidden" style="box-shadow: 0 -2px 0 0 rgb(0 0 0 / 10%);">
-                        <a x-on:click="showModal = false; window.clipActions?.closeAllModals();" class="pt-3 pb-3 pr-6 pl-6 font-bold text-base rounded-lg text-blue-600 bg-[#ececec]">Cancel</a>
-                        <a x-on:click="showModal = false; window.clipActions?.closeAllModals(); $wire.toggleClipInUserCollections(selectedCollections)" class="pt-3 pb-3 pr-6 pl-6 font-bold text-base rounded-lg bg-blue-600 text-white">Apply</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Livewire Component wire-end:1JuItRjQiq9JX53uZ94Y -->            </div>
-            <div>
-                <div wire:id="U7B58pmwIjub0YLS2gci" class="flex" x-data="{ isFavorite: $wire.entangle(&#39;isFavorite&#39;), mode: $wire.entangle(&#39;mode&#39;), hidden: $wire.entangle(&#39;hidden&#39;), showTooltip: false }">
-    <span class="relative inline-flex" x-on:mouseover="showTooltip = true" x-on:mouseleave="showTooltip = false">
-        <button class="text-gray-700 hover:text-gray-900 overflow-hidden toggle-favorite" wire:key="clip-228878" wire:click.stop.prevent="toggleFavorite();">
-            <svg x-bind:class="{&#39;text-white&#39;: mode == &#39;light&#39;, &#39;not-added&#39;: !isFavorite, &#39;!translate-y-0&#39;: !hidden}" x-show="!isFavorite" class="fill-current h-6 w-6 outline-none translate-y-8 not-added !translate-y-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" fill="none"><path d="M5.40956 2.51538C4.45258 1.76408 3.08107 1.83357 2.20944 2.72795C1.25976 3.7024 1.26439 5.28574 2.2182 6.26443L5.74895 9.8873C5.8954 10.0376 6.13284 10.0376 6.27929 9.8873L9.7917 6.28538C10.7392 5.30775 10.7362 3.72885 9.7822 2.74999C8.90375 1.84862 7.52809 1.77191 6.57265 2.52393C6.48883 2.58991 6.40825 2.66226 6.33151 2.74099L5.99605 3.08587L5.65599 2.73693C5.57761 2.65651 5.49525 2.58265 5.40956 2.51538ZM7.04767 3.43893C7.60289 2.86945 8.49943 2.86653 9.06605 3.44793C9.64336 4.04031 9.64309 5.00077 9.07454 5.58846L9.0736 5.58943L6.01425 8.72674L2.93435 5.56648C2.3556 4.97264 2.35777 4.00853 2.92559 3.42589C3.4791 2.85794 4.37486 2.85516 4.93984 3.43488L5.2799 3.78381C5.46824 3.97706 5.72669 4.086 5.99654 4.08587C6.26638 4.08574 6.52472 3.97655 6.71288 3.78312L7.04767 3.43893Z" fill="currentColor"></path></svg>            <svg x-show="isFavorite" class="fill-current h-6 w-6 text-red-700 outline-none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" fill="none" style="display: none;"><path d="M5.65599 2.73693C4.70219 1.75824 3.15912 1.75349 2.20944 2.72795C1.25976 3.7024 1.26439 5.28574 2.2182 6.26443L5.74895 9.8873C5.8954 10.0376 6.13284 10.0376 6.27929 9.8873L9.7917 6.28538C10.7392 5.30775 10.7362 3.72885 9.7822 2.74999C8.82669 1.76955 7.28289 1.76479 6.33151 2.74099L5.99605 3.08587L5.65599 2.73693Z" fill="currentColor"></path></svg>        </button>
-        <div x-show="showTooltip" class="tooltip max-md:!hidden" style="display: none;">
-    Add to Favorites
-</div>
-     </span>
-</div>
-
-<!-- Livewire Component wire-end: -->            </div>
-                        <span class="font-bold text-gray-700 w-[44px]">
-                    FREE
-            </span>
-                        <a href="https://www.videvo.net/royalty-free-music-track/hair-trigger/228878/" class="flex h-9 items-center justify-center rounded-lg bg-blue-400 px-5 font-bold text-white">
-                <svg class="fill-current mr-2 h-4 w-4" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M8 12.2188C7.79281 12.2188 7.59409 12.1364 7.44756 11.9899L4.79594 9.33828C4.49084 9.03319 4.49084 8.53853 4.79594 8.23344C5.10103 7.92834 5.59566 7.92834 5.90078 8.23344L7.21875 9.55141V0.78125C7.21875 0.349781 7.56853 0 8 0C8.43147 0 8.78125 0.349781 8.78125 0.78125V9.55141L10.0992 8.23344C10.4043 7.92834 10.899 7.92834 11.2041 8.23344C11.5092 8.53853 11.5092 9.03319 11.2041 9.33828L8.55244 11.9899C8.40591 12.1364 8.20722 12.2188 8 12.2188ZM14.4375 8.78125C14.4375 8.34978 14.7872 8 15.2188 8C15.6503 8 16 8.34978 16 8.78125V12.9688C16 14.4334 14.8084 15.625 13.3438 15.625H2.65625C1.19159 15.625 0 14.4334 0 12.9688V8.78125C0 8.34978 0.349781 8 0.78125 8C1.21272 8 1.5625 8.34978 1.5625 8.78125V12.9688C1.5625 13.5718 2.05316 14.0625 2.65625 14.0625H13.3438C13.9468 14.0625 14.4375 13.5718 14.4375 12.9688V8.78125Z"></path>
-</svg>                Download
-            </a>
-        </div>
-    </div>
-    <div x-show="showInfo" class="grid grid-cols-3 border-t border-gray-250 p-2 text-sm" style="display: none;">
-                    <div class="border-r border-gray-250 py-2 px-4">
-                <p class="font-bold text-gray-600">Genre</p>
-                                    <a href="https://www.videvo.net/royalty-free-music/sports/" class="font-bold text-gray-900 hover:underline">Sports</a>,                                     <a href="https://www.videvo.net/royalty-free-music/rock/" class="font-bold text-gray-900 hover:underline">Rock</a>                                            </div>
-            <div class="border-r border-gray-250 py-2 px-4">
-                <p class="font-bold text-gray-600">Mood</p>
-                                    <a href="https://www.videvo.net/royalty-free-music/mood/confident/" class="font-bold text-gray-900 hover:underline">Confident</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/determined/" class="font-bold text-gray-900 hover:underline">Determined</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/bold/" class="font-bold text-gray-900 hover:underline">Bold</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/excited/" class="font-bold text-gray-900 hover:underline">Excited</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/intense/" class="font-bold text-gray-900 hover:underline">Intense</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/hostile/" class="font-bold text-gray-900 hover:underline">Hostile</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/strong/" class="font-bold text-gray-900 hover:underline">Strong</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/anticipating/" class="font-bold text-gray-900 hover:underline">Anticipating</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/competition/" class="font-bold text-gray-900 hover:underline">Competition</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/action/" class="font-bold text-gray-900 hover:underline">Action</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/aggressive/" class="font-bold text-gray-900 hover:underline">Aggressive</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/defiant/" class="font-bold text-gray-900 hover:underline">Defiant</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/achievement/" class="font-bold text-gray-900 hover:underline">Achievement</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/motivating/" class="font-bold text-gray-900 hover:underline">Motivating</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/arrogant/" class="font-bold text-gray-900 hover:underline">Arrogant</a>                                            </div>
-            <div class="py-2 px-4">
-                <p class="font-bold text-gray-600">Instrumentation</p>
-                                    <a href="https://www.videvo.net/royalty-free-music/instrument/electric-guitar/" class="font-bold text-gray-900 hover:underline">Electric Guitar</a>,                                     <a href="https://www.videvo.net/royalty-free-music/instrument/guitar/" class="font-bold text-gray-900 hover:underline">Guitar</a>,                                     <a href="https://www.videvo.net/royalty-free-music/instrument/orchestra/" class="font-bold text-gray-900 hover:underline">Orchestra</a>,                                     <a href="https://www.videvo.net/royalty-free-music/instrument/electric/" class="font-bold text-gray-900 hover:underline">Electric</a>                                            </div>
-        
-    </div>
-</div>
-                                    <div class="-mx-4 mb-2 flex flex-col border-b border-gray-200 px-3 hover:bg-gray-150 lg:mx-0 lg:rounded lg:border-0 audio-row audio-player pb-2 md:pb-0" x-data="{ &#39;showInfo&#39;: false, showTooltip: false }">
-        <div class="flex items-center lg:min-h-20 flex-row lg:gap-4 flex-wrap lg:flex-no-wrap w-full">
-        <div class="flex items-center flex-grow lg:max-w-[380px] lg:min-w-[280px] md:order-1 lg:order-none">
-            <button class="relative mr-4 flex h-14 w-14 shrink-0 items-center justify-center bg-black z-20 button-play-pause" @click="window.audioHandler.handleAudioPlayPause($refs.audioElement232942); playing = playing === 232942 ? &#39;&#39; : 232942;">
-                <img src="./images/music.jpg" class="absolute top-0 left-0 h-full w-full object-cover">
-                <svg x-bind:class="{ &#39;hidden&#39;: playing === 232942 }" class="fill-current relative z-10 h-8 w-8 text-white drop-shadow play-icon" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg"><path d="M14.4621 8.1418L4.15546 1.93628C3.85647 1.75624 3.48667 1.75457 3.18613 1.93178C2.88556 2.10904 2.7002 2.43817 2.7002 2.79451V15.2056C2.7002 15.5619 2.88556 15.891 3.18613 16.0683C3.33511 16.1562 3.50106 16.2 3.66705 16.2C3.83586 16.2 4.00471 16.1546 4.15546 16.0638L14.4621 9.85827C14.7584 9.67986 14.9405 9.35319 14.9405 9.00003C14.9405 8.64688 14.7584 8.32021 14.4621 8.1418Z"></path></svg>                <svg x-bind:class="{ &#39;hidden&#39;: playing !== 232942 }" class="fill-current relative z-10 h-12 w-12 text-white drop-shadow pause-icon hidden" width="54px" height="54px" viewBox="0 0 54 54" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>pause-button-white-sml</title>
-    <g id="pause-button-white-sml" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Group-2" transform="translate(14.000000, 14.000000)">
-            <path d="M8,0 C10.1421954,0 11.8910789,1.82429918 11.9951047,4.1170563 L12,4.33333333 L12,21.6666667 C12,23.9873783 10.3160315,25.8820021 8.19964034,25.9946968 L8,26 L4,26 C1.85780461,26 0.108921124,24.1757008 0.00489530723,21.8829437 L0,21.6666667 L0,4.33333333 C0,2.01262166 1.68396847,0.117997884 3.80035966,0.0053032495 L4,0 L8,0 Z M22,0 C24.1421954,0 25.8910789,1.82429918 25.9951047,4.1170563 L26,4.33333333 L26,21.6666667 C26,23.9873783 24.3160315,25.8820021 22.1996403,25.9946968 L22,26 L18,26 C15.8578046,26 14.1089211,24.1757008 14.0048953,21.8829437 L14,21.6666667 L14,4.33333333 C14,2.01262166 15.6839685,0.117997884 17.8003597,0.0053032495 L18,0 L22,0 Z" id="Combined-Shape" fill-opacity="0.4" fill="#000000"></path>
-            <path d="M4,2 L8,2 C9.1045695,2 10,2.8954305 10,4 L10,22 C10,23.1045695 9.1045695,24 8,24 L4,24 C2.8954305,24 2,23.1045695 2,22 L2,4 C2,2.8954305 2.8954305,2 4,2 Z M18,2 L22,2 C23.1045695,2 24,2.8954305 24,4 L24,22 C24,23.1045695 23.1045695,24 22,24 L18,24 C16.8954305,24 16,23.1045695 16,22 L16,4 C16,2.8954305 16.8954305,2 18,2 Z" id="Combined-Shape" fill="#FFFFFF"></path>
-        </g>
-    </g>
-</svg>                
-                <audio preload="none" x-ref="audioElement232942" x-on:ended="playing = &#39;&#39;" id="linkAudio-232942" class="listing-audio audio-element hidden">
-                                            <source src="https://cdn.videvo.net/videvo_files/audio/premium/audio0190/watermarked/Victory-is-Mine_EFT014001_preview.mp3" type="audio/mp3">
-                                        Your browser does not support the audio element.
-                </audio>
-            </button>
-            <div class="flex min-w-0 max-w-[calc(100vw-104px)] flex-col lg:max-w-[280px]">
-                <a href="https://www.videvo.net/royalty-free-music-track/victory-is-mine/232942/" class="mb-1 font-semibold leading-none text-gray-800 hover:underline overflow-hidden whitespace-nowrap text-ellipsis">Victory is Mine</a>
-                                    <a href="https://www.videvo.net/royalty-free-music-albums/epic-film-trailers/" class="mb-1 text-sm font-bold leading-none text-gray-400 hover:text-gray-600 overflow-hidden whitespace-nowrap text-ellipsis">
-                        Epic Film Trailers
-                    </a>
-                                <p class="w-full truncate text-sm text-gray-600 overflow-hidden whitespace-nowrap text-ellipsis">
-                    Drama &amp; Film Scores
-                    | Achievement, Action, Adventure, Aggressive, Ambitious, Anticipating, Bold, Brave, Confident, Determined, Epic, Expectant, Happy, Inspiring, Motivating, Optimistic, Proud, Strong
-                </p>
-            </div>
-        </div>
-        <div class="flex lg:flex-1 items-center w-full h-[60px] max-h-[60px] lg:h-[84px] lg:max-h-[84px] md:grow-[2] md:basis-170% md:min-w-[300px] justify-start md:order-3 lg:order-none xs:my-3 md:my-0">
-            <div class="mr-4 flex-1 h-full w-full">
-                <div class="z-20 w-full h-full">
-                    <div class="waveform waveform-length-bpm h-full w-full relative min-h-[60px] max-h-[60px] lg:min-h-[84px] lg:max-h-[84px]">
-    <div class="waveform-image waveform-container h-full relative w-full overflow-hidden">
-        <canvas id="mainWaveformCanvas-listing-232942" @click="window.audioHandler.handleCanvasClick(event,$refs.audioElement232942);  if(playing === &#39;&#39; || playing !== 232942) { playing = 232942 }" class="js--audio-waveform-canvas belongs-listing h-[60px] lg:h-[84px] w-full max-w-full max-h-[60px] lg:max-h-[84px] absolute top-0 left-0" data-waveformjson="{&quot;margin&quot;:{&quot;low&quot;:0,&quot;high&quot;:250},&quot;heights&quot;:[41,36,35,46,67,38,21,43,49,36,27,35,34,21,36,37,38,39,26,33,51,64,68,61,56,42,29,39,48,29,26,58,49,28,44,54,53,37,46,55,47,30,27,44,31,33,28,54,32,26,34,41,20,45,48,54,45,35,54,58,42,53,50,60,37,33,37,54,38,55,65,64,65,49,52,48,50,55,49,51,51,35,59,57,76,62,71,63,54,51,50,43,55,34,82,53,44,60,58,55,55,56,69,56,51,48,78,57,45,38,73,42,43,61,54,40,53,46,74,54,62,56,70,62,66,64,67,63,63,74,65,66,67,59,59,56,52,71,58,41,51,50,53,66,58,63,65,58,56,72,56,48,53,66,50,53,43,61,57,63,60,68,66,56,62,67,55,67,58,57,49,52,55,59,71,61,59,59,47,51,58,63,58,52,64,65,53,55,56,63,53,50,69,65,46,55,80,74,63,56,71,58,40,54,72,74,61,70,60,62,54,63,74,65,56,56,65,67,41,46,52,58,78,62,65,62,55,63,74,59,58,60,61,52,56,75,57,59,57,53,68,50,61,53,78,52,52,56,53,45,59,70,70,68,57,66,69,68,46,62,73,61,49,56,53,57,35,56,60,51,56,50,48,63,63,69,60,70,69,62,58,54,71,70,57,42,60,75,44,35,24,13,9,7,8,8,4,8,12,11,14,22,23,25,18,19,17,15,16,17,20,17,16,14,15,10,16,15,16,20,14,15,17,16,11,11,16,10,6,12,11,7,18,17,17,21,16,15,12,12,15,17,15,17,15,19,17,8,13,14,16,16,15,14,13,15,36,47,49,51,48,48,44,43,50,43,58,46,40,49,63,61,65,49,57,48,47,45,55,52,45,59,54,51,58,63,53,51,42,42,45,35,40,45,39,43,55,52,50,50,41,72,55,53,63,56,40,47,47,47,50,50,38,48,51,45,43,54,51,45,48,42,53,46,61,62,59,55,55,41,38,32,52,47,36,44,42,42,42,33,57,45,49,35,44,40,35,22,54,51,42,49,55,50,38,51,60,54,47,43,55,48,27,33,54,40,34,47,38,40,44,51,47,54,42,43,51,34,31,30,45,37,44,57,49,54,50,50,54,53,54,52,54,56,47,64,78,54,48,49,72,54,51,59,69,68,62,49,51,49,38,51,51,40,47,62,50,43,42,61,54,53,47,57,60,47,46,59,60,49,48,63,47,54,46,66,52,46,52,60,51,50,53,70,59,58,61,56,46,46,64,80,68,49,53,35,30,37,36,33,31,30,29,25,35,32,31,28,31,31,36,39,38,47,31,32,44,48,42,42,44,51,71,55,53,62,48,49,47,65,65,58,44,35,46,46,41,51,65,56,45,48,58,43,63,57,78,60,53,66,62,68,81,74,56,58,60,78,63,70,65,77,55,66,66,53,54,42,49,62,50,62,54,66,69,58,56,64,53,54,61,73,60,49,53,59,58,64,74,75,63,62,68,75,56,59,64,66,54,46,57,63,75,51,63,56,57,67,58,53,67,58,60,68,51,47,57,61,61,58,58,52,58,61,82,70,74,69,70,63,70,75,69,72,82,69,68,67,70,68,76,74,68,67,76,66,66,62,70,83,77,66,66,71,71,80,69,86,63,68,66,75,72,78,73,68,58,81,63,64,68,75,60,80,64,69,66,70,66,75,83,76,70,85,80,69,55,70,52,57,58,53,49,51,42,64,46,49,47,74,45,58,53,70,51,71,68,70,73,51,64,78,61,63,72,78,41,30,25,11,8,6,4,3,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}" width="543" height="84"></canvas>
-        <div class="blue-waveform-container absolute top-0 left-0 h-full w-0 overflow-hidden pointer-events-none" style="width: 0px;">
-            <div class="overlay absolute top-0 right-0 h-full opacity-50 w-[4px] bg-overlayBlue-500"></div>
-        </div>
-    </div>
-</div>
-                </div>
-            </div>
-            <div>
-                <p class="mb-1 text-sm font-bold leading-none text-gray-600">
-                    03:19
-                </p>
-                                    <p class="text-sm font-bold leading-none text-gray-600">0 BPM</p>
-                            </div>
-        </div>
-        <div class="flex w-full items-center justify-between lg:w-auto md:gap-4 basis-full md:basis-0 grow-0 md:order-2 lg:order-none">
-            <span class="relative inline-flex" x-on:mouseover="showTooltip = true" x-on:mouseleave="showTooltip = false">
-                <button x-on:click="showInfo = ! showInfo">
-                    <svg class="fill-current h-6 w-6 text-gray-700 hover:text-gray-900" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M2.34313 13.6569C3.85416 15.1678 5.86313 16 8 16C10.1369 16 12.1458 15.1678 13.6569 13.6569C15.1678 12.1458 16 10.1369 16 8C16 5.86313 15.1678 3.85416 13.6569 2.34313C12.1458 0.832156 10.1369 0 8 0C5.86313 0 3.85416 0.832156 2.34313 2.34313C0.832156 3.85416 0 5.86313 0 8C0 10.1369 0.832156 12.1458 2.34313 13.6569ZM1.5625 8C1.5625 4.45034 4.45034 1.5625 8 1.5625C11.5497 1.5625 14.4375 4.45034 14.4375 8C14.4375 11.5497 11.5497 14.4375 8 14.4375C4.45034 14.4375 1.5625 11.5497 1.5625 8ZM8.3125 12.5625C7.88103 12.5625 7.53125 12.2127 7.53125 11.7812V7.8125H6.75C6.31853 7.8125 5.96875 7.46272 5.96875 7.03125C5.96875 6.59978 6.31853 6.25 6.75 6.25H8.3125C8.74397 6.25 9.09375 6.59978 9.09375 7.03125V11.7812C9.09375 12.2127 8.74397 12.5625 8.3125 12.5625ZM7.0625 4.375C7.0625 4.89194 7.48306 5.3125 8 5.3125C8.51694 5.3125 8.9375 4.89194 8.9375 4.375C8.9375 3.85806 8.51694 3.4375 8 3.4375C7.48306 3.4375 7.0625 3.85806 7.0625 4.375Z"></path></svg>                </button>
-                <div x-show="showTooltip" class="tooltip max-md:!hidden" style="display: none;">
-    More Info
-</div>
-             </span>
-
-            <div>
-                <div wire:id="Fv7ZnX0lNpyw6dYp1kZN" class="flex relative z-40" x-data="{ isClipInAnyUserCollection: $wire.entangle(&#39;isClipInAnyUserCollection&#39;), mode: $wire.entangle(&#39;mode&#39;), showModal: $wire.entangle(&#39;showModal&#39;), hidden: $wire.entangle(&#39;hidden&#39;), showTooltip: false}">
-    <span class="relative inline-flex" x-on:mouseover="showTooltip = true" x-on:mouseleave="showTooltip = false">
-        <button class="relative add-to-collection-button overflow-hidden" wire:click.stop.prevent="toggleModal()">
-            <svg x-bind:class="{&#39;text-white&#39;: mode == &#39;light&#39;, &#39;not-added&#39;: !isClipInAnyUserCollection, &#39;!translate-y-0&#39;: !hidden}" x-show="!isClipInAnyUserCollection" class="fill-current h-6 w-6 text-gray-700 outline-none translate-y-8 not-added !translate-y-0" xmlns="http://www.w3.org/2000/svg" fill="currentColor" stroke="none" viewBox="0 0 24 24"><path d="M20 2H8c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2V4c0-1.103-.897-2-2-2zM8 16V4h12l.002 12H8z"></path><path d="M4 8H2v12c0 1.103.897 2 2 2h12v-2H4V8zm11-2h-2v3h-3v2h3v3h2v-3h3V9h-3z"></path></svg>            <svg x-show="isClipInAnyUserCollection" class="fill-current h-6 w-6 text-[#198ACF] outline-none" xmlns="http://www.w3.org/2000/svg" fill="currentColor" stroke="none" viewBox="0 0 24 24" style="display: none;"><path d="M4 22h12v-2H4V8H2v12c0 1.103.897 2 2 2z"></path><path d="M20 2H8c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2V4c0-1.103-.897-2-2-2zm-2 9h-3v3h-2v-3h-3V9h3V6h2v3h3v2z"></path></svg>        </button>
-        <div x-show="showTooltip" class="tooltip max-md:!hidden" style="display: none;">
-    Add to Collections
-</div>
-     </span>
-    <div x-show="showModal" style="display: none;">
-        <div class="modal-wrapper-add-to-collection flex flex-col items-center justify-center absolute bottom-0 right-[-15px] z-60 cursor-auto min-w-[300px] rounded-lg " style="transform: translateY(100%) translateY(10px);">
-            <div class="flex flex-col bg-white fixed top-0 left-0 md:relative md:rounded-lg md:shadow-lg h-full md:h-auto p-4 w-full" @click.outside="showModal = false;">
-                <div class="flex justify-start relative md:justify-between items-center ">
-                    <p class="text-lg font-bold text-[#2b2b2b]">Add to collection</p>
-                    <a href="https://www.videvo.net/my-collections/" class="ml-4 md:ml-0 text-sm text-gray-500 hover:text-gray-700">Manage</a>
-                    <div class="w-10 h-10 flex items-center justify-center absolute top-0 right-0 md:hidden close-modal w-6 text-2xl text-gray-600 leading-4 font-bold text-right" @click.stop.prevent="showModal = false; window.clipActions?.closeAllModals();"></div>
-                </div>
-                <div class="flex justify-start w-full">
-                    <div wire:id="mdh3JLWWgaymZ53YdW0Y" class="flex py-2 relative h-[56px] item-center" x-data="{showForm: false, showResponse: false, timeoutToggle: false}">
-    <template x-if="showResponse"></template>
-    <div class="cursor-pointer text-base text-[#1b95e0] bold h-full order-2 flex items-center" @click="showForm = !showForm" x-show="!showForm">
-        <svg class="fill-current w-7 h-7 mr-[10px]" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
-    <path fill="#1B95E0" fill-rule="evenodd" d="M14 7c.552 0 1 .448 1 1v5h5c.552 0 1 .448 1 1s-.448 1-1 1h-5v5c0 .552-.448 1-1 1s-1-.448-1-1v-5H8c-.552 0-1-.448-1-1s.448-1 1-1h5V8c0-.552.448-1 1-1z"></path>
-</svg>        Create new collection
-    </div>
-    <form x-show="showForm" class="flex space-between items-center border border-[#1b95e0] justify-items-stretch rounded-sm overflow-hidden h-full" wire:submit.prevent="addUserCollection" style="display: none;">
-        <input class="px-2 border-0 outline-0 h-full" placeholder="Add collection name" type="text" wire:model="collectionName">
-        <button type="submit" @click="window.clipActions?.closeAllModals(); showResponse = true; setTimeout(() =&gt; {showResponse = false; }, 3000); showForm = !showForm" class="h-full leading-10 bg-gray-100 text-blue-600 text-base font-bold text-center min-w-[60px]">Add</button>
-    </form>
-
-</div>
-<!-- Livewire Component wire-end:mdh3JLWWgaymZ53YdW0Y -->                </div>
-                <div class="flex flex-col grow overflow-auto relative md:max-h-[calc(46px*3.5)] max-md:max-h[calc(100vh-100px)] transition duration-150" x-data="{selectedCollections:  [],}">
-                                        <div class="m:h-[80px] flex items-center justify-between fixed py-3 md:py-3 left-0 px-4 bottom-0 left-0 w-full md:!hidden" style="box-shadow: 0 -2px 0 0 rgb(0 0 0 / 10%);">
-                        <a x-on:click="showModal = false; window.clipActions?.closeAllModals();" class="pt-3 pb-3 pr-6 pl-6 font-bold text-base rounded-lg text-blue-600 bg-[#ececec]">Cancel</a>
-                        <a x-on:click="showModal = false; window.clipActions?.closeAllModals(); $wire.toggleClipInUserCollections(selectedCollections)" class="pt-3 pb-3 pr-6 pl-6 font-bold text-base rounded-lg bg-blue-600 text-white">Apply</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Livewire Component wire-end:Fv7ZnX0lNpyw6dYp1kZN -->            </div>
-            <div>
-                <div wire:id="7aWc5djLNyBOmT5sIyD8" class="flex" x-data="{ isFavorite: $wire.entangle(&#39;isFavorite&#39;), mode: $wire.entangle(&#39;mode&#39;), hidden: $wire.entangle(&#39;hidden&#39;), showTooltip: false }">
-    <span class="relative inline-flex" x-on:mouseover="showTooltip = true" x-on:mouseleave="showTooltip = false">
-        <button class="text-gray-700 hover:text-gray-900 overflow-hidden toggle-favorite" wire:key="clip-232942" wire:click.stop.prevent="toggleFavorite();">
-            <svg x-bind:class="{&#39;text-white&#39;: mode == &#39;light&#39;, &#39;not-added&#39;: !isFavorite, &#39;!translate-y-0&#39;: !hidden}" x-show="!isFavorite" class="fill-current h-6 w-6 outline-none translate-y-8 not-added !translate-y-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" fill="none"><path d="M5.40956 2.51538C4.45258 1.76408 3.08107 1.83357 2.20944 2.72795C1.25976 3.7024 1.26439 5.28574 2.2182 6.26443L5.74895 9.8873C5.8954 10.0376 6.13284 10.0376 6.27929 9.8873L9.7917 6.28538C10.7392 5.30775 10.7362 3.72885 9.7822 2.74999C8.90375 1.84862 7.52809 1.77191 6.57265 2.52393C6.48883 2.58991 6.40825 2.66226 6.33151 2.74099L5.99605 3.08587L5.65599 2.73693C5.57761 2.65651 5.49525 2.58265 5.40956 2.51538ZM7.04767 3.43893C7.60289 2.86945 8.49943 2.86653 9.06605 3.44793C9.64336 4.04031 9.64309 5.00077 9.07454 5.58846L9.0736 5.58943L6.01425 8.72674L2.93435 5.56648C2.3556 4.97264 2.35777 4.00853 2.92559 3.42589C3.4791 2.85794 4.37486 2.85516 4.93984 3.43488L5.2799 3.78381C5.46824 3.97706 5.72669 4.086 5.99654 4.08587C6.26638 4.08574 6.52472 3.97655 6.71288 3.78312L7.04767 3.43893Z" fill="currentColor"></path></svg>            <svg x-show="isFavorite" class="fill-current h-6 w-6 text-red-700 outline-none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" fill="none" style="display: none;"><path d="M5.65599 2.73693C4.70219 1.75824 3.15912 1.75349 2.20944 2.72795C1.25976 3.7024 1.26439 5.28574 2.2182 6.26443L5.74895 9.8873C5.8954 10.0376 6.13284 10.0376 6.27929 9.8873L9.7917 6.28538C10.7392 5.30775 10.7362 3.72885 9.7822 2.74999C8.82669 1.76955 7.28289 1.76479 6.33151 2.74099L5.99605 3.08587L5.65599 2.73693Z" fill="currentColor"></path></svg>        </button>
-        <div x-show="showTooltip" class="tooltip max-md:!hidden" style="display: none;">
-    Add to Favorites
-</div>
-     </span>
-</div>
-
-<!-- Livewire Component wire-end: -->            </div>
-                        <span class="w-[44px] flex justify-center">
-                <svg data-cy="premium-icon" class="fill-current h-6 w-6 text-orange-600" viewBox="-120 0 512 512.00115" xmlns="http://www.w3.org/2000/svg"><path d="m270.214844 180.054688c-2.628906-4.816407-7.679688-7.816407-13.167969-7.816407h-54.425781l24.753906-154.871093c1.082031-6.773438-2.570312-13.417969-8.867188-16.136719-6.292968-2.71875-13.640624-.820313-17.828124 4.613281l-197.5625 256.398438c-3.488282 4.527343-4.097657 10.644531-1.578126 15.777343 2.523438 5.128907 7.746094 8.378907 13.460938 8.378907h85.816406l-57.566406 206.574218c-1.992188 7.144532 1.539062 14.675782 8.304688 17.710938 1.988281.890625 4.074218 1.316406 6.136718 1.316406 4.96875 0 9.78125-2.476562 12.621094-6.882812l199.351562-309.761719c2.96875-4.613281 3.179688-10.484375.550782-15.300781zm0 0"></path></svg>            </span>
-                        <a href="https://www.videvo.net/royalty-free-music-track/victory-is-mine/232942/" class="flex h-9 items-center justify-center rounded-lg bg-blue-400 px-5 font-bold text-white">
-                <svg class="fill-current mr-2 h-4 w-4" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M8 12.2188C7.79281 12.2188 7.59409 12.1364 7.44756 11.9899L4.79594 9.33828C4.49084 9.03319 4.49084 8.53853 4.79594 8.23344C5.10103 7.92834 5.59566 7.92834 5.90078 8.23344L7.21875 9.55141V0.78125C7.21875 0.349781 7.56853 0 8 0C8.43147 0 8.78125 0.349781 8.78125 0.78125V9.55141L10.0992 8.23344C10.4043 7.92834 10.899 7.92834 11.2041 8.23344C11.5092 8.53853 11.5092 9.03319 11.2041 9.33828L8.55244 11.9899C8.40591 12.1364 8.20722 12.2188 8 12.2188ZM14.4375 8.78125C14.4375 8.34978 14.7872 8 15.2188 8C15.6503 8 16 8.34978 16 8.78125V12.9688C16 14.4334 14.8084 15.625 13.3438 15.625H2.65625C1.19159 15.625 0 14.4334 0 12.9688V8.78125C0 8.34978 0.349781 8 0.78125 8C1.21272 8 1.5625 8.34978 1.5625 8.78125V12.9688C1.5625 13.5718 2.05316 14.0625 2.65625 14.0625H13.3438C13.9468 14.0625 14.4375 13.5718 14.4375 12.9688V8.78125Z"></path>
-</svg>                Download
-            </a>
-        </div>
-    </div>
-    <div x-show="showInfo" class="grid grid-cols-3 border-t border-gray-250 p-2 text-sm" style="display: none;">
-                    <div class="border-r border-gray-250 py-2 px-4">
-                <p class="font-bold text-gray-600">Genre</p>
-                                    <a href="https://www.videvo.net/royalty-free-music/drama-&amp;-film-scores/" class="font-bold text-gray-900 hover:underline">Drama &amp; Film Scores</a>                                            </div>
-            <div class="border-r border-gray-250 py-2 px-4">
-                <p class="font-bold text-gray-600">Mood</p>
-                                    <a href="https://www.videvo.net/royalty-free-music/mood/happy/" class="font-bold text-gray-900 hover:underline">Happy</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/confident/" class="font-bold text-gray-900 hover:underline">Confident</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/optimistic/" class="font-bold text-gray-900 hover:underline">Optimistic</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/determined/" class="font-bold text-gray-900 hover:underline">Determined</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/bold/" class="font-bold text-gray-900 hover:underline">Bold</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/ambitious/" class="font-bold text-gray-900 hover:underline">Ambitious</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/brave/" class="font-bold text-gray-900 hover:underline">Brave</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/strong/" class="font-bold text-gray-900 hover:underline">Strong</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/proud/" class="font-bold text-gray-900 hover:underline">Proud</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/anticipating/" class="font-bold text-gray-900 hover:underline">Anticipating</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/action/" class="font-bold text-gray-900 hover:underline">Action</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/aggressive/" class="font-bold text-gray-900 hover:underline">Aggressive</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/adventure/" class="font-bold text-gray-900 hover:underline">Adventure</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/inspiring/" class="font-bold text-gray-900 hover:underline">Inspiring</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/expectant/" class="font-bold text-gray-900 hover:underline">Expectant</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/epic/" class="font-bold text-gray-900 hover:underline">Epic</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/achievement/" class="font-bold text-gray-900 hover:underline">Achievement</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/motivating/" class="font-bold text-gray-900 hover:underline">Motivating</a>                                            </div>
-            <div class="py-2 px-4">
-                <p class="font-bold text-gray-600">Instrumentation</p>
-                                    <a href="https://www.videvo.net/royalty-free-music/instrument/orchestra/" class="font-bold text-gray-900 hover:underline">Orchestra</a>                                            </div>
-        
-    </div>
-</div>
-                                    <div class="-mx-4 mb-2 flex flex-col border-b border-gray-200 px-3 hover:bg-gray-150 lg:mx-0 lg:rounded lg:border-0 audio-row audio-player pb-2 md:pb-0" x-data="{ &#39;showInfo&#39;: false, showTooltip: false }">
-        <div class="flex items-center lg:min-h-20 flex-row lg:gap-4 flex-wrap lg:flex-no-wrap w-full">
-        <div class="flex items-center flex-grow lg:max-w-[380px] lg:min-w-[280px] md:order-1 lg:order-none">
-            <button class="relative mr-4 flex h-14 w-14 shrink-0 items-center justify-center bg-black z-20 button-play-pause" @click="window.audioHandler.handleAudioPlayPause($refs.audioElement229554); playing = playing === 229554 ? &#39;&#39; : 229554;">
-                <img src="./images/music.jpg" class="absolute top-0 left-0 h-full w-full object-cover">
-                <svg x-bind:class="{ &#39;hidden&#39;: playing === 229554 }" class="fill-current relative z-10 h-8 w-8 text-white drop-shadow play-icon" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg"><path d="M14.4621 8.1418L4.15546 1.93628C3.85647 1.75624 3.48667 1.75457 3.18613 1.93178C2.88556 2.10904 2.7002 2.43817 2.7002 2.79451V15.2056C2.7002 15.5619 2.88556 15.891 3.18613 16.0683C3.33511 16.1562 3.50106 16.2 3.66705 16.2C3.83586 16.2 4.00471 16.1546 4.15546 16.0638L14.4621 9.85827C14.7584 9.67986 14.9405 9.35319 14.9405 9.00003C14.9405 8.64688 14.7584 8.32021 14.4621 8.1418Z"></path></svg>                <svg x-bind:class="{ &#39;hidden&#39;: playing !== 229554 }" class="fill-current relative z-10 h-12 w-12 text-white drop-shadow pause-icon hidden" width="54px" height="54px" viewBox="0 0 54 54" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>pause-button-white-sml</title>
-    <g id="pause-button-white-sml" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Group-2" transform="translate(14.000000, 14.000000)">
-            <path d="M8,0 C10.1421954,0 11.8910789,1.82429918 11.9951047,4.1170563 L12,4.33333333 L12,21.6666667 C12,23.9873783 10.3160315,25.8820021 8.19964034,25.9946968 L8,26 L4,26 C1.85780461,26 0.108921124,24.1757008 0.00489530723,21.8829437 L0,21.6666667 L0,4.33333333 C0,2.01262166 1.68396847,0.117997884 3.80035966,0.0053032495 L4,0 L8,0 Z M22,0 C24.1421954,0 25.8910789,1.82429918 25.9951047,4.1170563 L26,4.33333333 L26,21.6666667 C26,23.9873783 24.3160315,25.8820021 22.1996403,25.9946968 L22,26 L18,26 C15.8578046,26 14.1089211,24.1757008 14.0048953,21.8829437 L14,21.6666667 L14,4.33333333 C14,2.01262166 15.6839685,0.117997884 17.8003597,0.0053032495 L18,0 L22,0 Z" id="Combined-Shape" fill-opacity="0.4" fill="#000000"></path>
-            <path d="M4,2 L8,2 C9.1045695,2 10,2.8954305 10,4 L10,22 C10,23.1045695 9.1045695,24 8,24 L4,24 C2.8954305,24 2,23.1045695 2,22 L2,4 C2,2.8954305 2.8954305,2 4,2 Z M18,2 L22,2 C23.1045695,2 24,2.8954305 24,4 L24,22 C24,23.1045695 23.1045695,24 22,24 L18,24 C16.8954305,24 16,23.1045695 16,22 L16,4 C16,2.8954305 16.8954305,2 18,2 Z" id="Combined-Shape" fill="#FFFFFF"></path>
-        </g>
-    </g>
-</svg>                
-                <audio preload="none" x-ref="audioElement229554" x-on:ended="playing = &#39;&#39;" id="linkAudio-229554" class="listing-audio audio-element hidden">
-                                            <source src="https://cdn.videvo.net/videvo_files/audio/premium/audio0122/watermarked/Keeping-Watch-NAL011801_preview.mp3" type="audio/mp3">
-                                        Your browser does not support the audio element.
-                </audio>
-            </button>
-            <div class="flex min-w-0 max-w-[calc(100vw-104px)] flex-col lg:max-w-[280px]">
-                <a href="https://www.videvo.net/royalty-free-music-track/keeping-watch/229554/" class="mb-1 font-semibold leading-none text-gray-800 hover:underline overflow-hidden whitespace-nowrap text-ellipsis">Keeping Watch</a>
-                                    <a href="https://www.videvo.net/royalty-free-music-albums/new-age-landscapes/" class="mb-1 text-sm font-bold leading-none text-gray-400 hover:text-gray-600 overflow-hidden whitespace-nowrap text-ellipsis">
-                        New Age Landscapes
-                    </a>
-                                <p class="w-full truncate text-sm text-gray-600 overflow-hidden whitespace-nowrap text-ellipsis">
-                    New Age
-                    | Adventure, Anticipating, Fantasy, Hesitant, Innocent, Mystery, Science Fiction, Subdued, Tender, Tranquil
-                </p>
-            </div>
-        </div>
-        <div class="flex lg:flex-1 items-center w-full h-[60px] max-h-[60px] lg:h-[84px] lg:max-h-[84px] md:grow-[2] md:basis-170% md:min-w-[300px] justify-start md:order-3 lg:order-none xs:my-3 md:my-0">
-            <div class="mr-4 flex-1 h-full w-full">
-                <div class="z-20 w-full h-full">
-                    <div class="waveform waveform-length-bpm h-full w-full relative min-h-[60px] max-h-[60px] lg:min-h-[84px] lg:max-h-[84px]">
-    <div class="waveform-image waveform-container h-full relative w-full overflow-hidden">
-        <canvas id="mainWaveformCanvas-listing-229554" @click="window.audioHandler.handleCanvasClick(event,$refs.audioElement229554);  if(playing === &#39;&#39; || playing !== 229554) { playing = 229554 }" class="js--audio-waveform-canvas belongs-listing h-[60px] lg:h-[84px] w-full max-w-full max-h-[60px] lg:max-h-[84px] absolute top-0 left-0" data-waveformjson="{&quot;margin&quot;:{&quot;low&quot;:0,&quot;high&quot;:250},&quot;heights&quot;:[0,0,0,1,1,1,1,1,2,2,3,6,7,7,5,14,12,8,21,22,23,27,27,20,19,27,23,20,29,25,29,37,36,34,29,36,34,25,41,35,30,34,37,33,28,61,43,43,34,45,37,35,35,32,27,32,30,28,61,49,53,39,88,43,43,54,42,39,38,26,32,34,27,31,33,30,25,24,25,23,24,20,22,34,32,17,32,22,20,20,22,20,21,22,22,16,14,26,25,24,48,40,31,26,32,30,32,38,25,29,30,26,31,35,26,28,26,26,27,23,44,45,34,38,37,39,33,46,41,46,46,47,39,30,39,25,30,29,35,39,28,42,35,25,37,32,33,31,31,28,28,42,35,29,34,54,46,41,29,29,31,34,30,29,24,26,32,23,75,55,46,51,39,40,48,39,27,25,28,30,36,26,26,29,27,34,32,31,29,35,27,29,35,38,28,28,26,34,21,26,34,29,20,29,30,26,30,31,38,34,53,32,36,50,44,43,33,27,35,41,41,37,36,26,26,30,28,27,28,24,44,36,24,42,50,42,42,60,44,39,57,47,37,40,49,41,38,37,33,37,34,35,41,34,35,37,46,30,33,35,29,38,34,28,26,45,52,49,35,39,41,31,32,28,28,29,28,28,40,38,28,27,31,28,34,31,27,26,30,36,36,57,49,33,34,26,35,39,42,28,29,42,34,30,32,34,29,25,26,28,28,21,39,33,24,35,55,43,33,41,35,33,59,36,33,35,34,34,31,36,33,35,27,31,31,24,28,31,28,44,45,43,35,39,34,38,40,46,41,46,47,40,38,39,38,30,29,34,38,37,36,42,26,27,37,28,33,31,32,28,25,42,35,32,54,40,46,35,29,31,29,34,30,26,24,32,26,61,49,53,33,88,43,43,54,42,39,38,26,32,34,28,29,33,30,25,24,25,23,24,20,22,34,32,17,32,22,20,21,22,20,21,22,22,16,14,26,25,24,48,40,31,26,32,30,32,38,25,29,30,26,30,35,26,28,26,26,27,23,44,45,34,38,37,38,33,43,46,46,46,47,38,30,39,26,30,29,35,38,28,42,35,25,37,32,33,30,32,28,28,42,36,29,32,54,46,42,29,29,31,34,30,29,25,26,32,22,75,55,47,51,39,40,48,39,27,25,28,30,36,26,26,29,27,34,32,31,28,35,27,29,36,37,28,28,26,34,22,26,34,29,25,29,30,26,30,31,38,34,53,32,36,50,44,43,33,29,35,41,41,37,36,26,26,30,28,27,28,24,44,38,25,40,50,43,43,60,45,40,57,47,37,40,49,41,38,37,33,37,34,35,41,34,35,37,46,30,33,35,29,38,34,28,26,45,52,49,35,39,41,31,32,28,28,29,28,28,32,40,27,28,31,28,34,31,23,27,30,32,36,57,49,34,34,26,35,31,42,28,29,42,36,30,32,34,29,25,26,28,28,20,39,33,24,35,55,43,33,41,35,33,59,36,33,35,35,34,31,36,33,35,27,31,31,24,28,32,28,26,41,33,38,39,37,36,56,47,45,57,58,43,38,47,42,45,52,36,43,46,46,42,38,37,37,34,47,36,29,26,42,36,30,39,36,32,34,34,30,31,37,42,41,26,35,30,26,25,42,25,25,23,45,39,42,30,31,26,29,30,24,27,29,29,20,23,26,32,24,27,26,39,24,28,35,21,17,21,26,25,22,17,23,17,15,17,12,18,16,16,16,18,13,11,9,12,11,8,9,10,7,5,6,4,3,3,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}" width="536" height="84"></canvas>
-        <div class="blue-waveform-container absolute top-0 left-0 h-full w-0 overflow-hidden pointer-events-none" style="width: 0px;">
-            <div class="overlay absolute top-0 right-0 h-full opacity-50 w-[4px] bg-overlayBlue-500"></div>
-        </div>
-    </div>
-</div>
-                </div>
-            </div>
-            <div>
-                <p class="mb-1 text-sm font-bold leading-none text-gray-600">
-                    01:11
-                </p>
-                                    <p class="text-sm font-bold leading-none text-gray-600">97 BPM</p>
-                            </div>
-        </div>
-        <div class="flex w-full items-center justify-between lg:w-auto md:gap-4 basis-full md:basis-0 grow-0 md:order-2 lg:order-none">
-            <span class="relative inline-flex" x-on:mouseover="showTooltip = true" x-on:mouseleave="showTooltip = false">
-                <button x-on:click="showInfo = ! showInfo">
-                    <svg class="fill-current h-6 w-6 text-gray-700 hover:text-gray-900" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M2.34313 13.6569C3.85416 15.1678 5.86313 16 8 16C10.1369 16 12.1458 15.1678 13.6569 13.6569C15.1678 12.1458 16 10.1369 16 8C16 5.86313 15.1678 3.85416 13.6569 2.34313C12.1458 0.832156 10.1369 0 8 0C5.86313 0 3.85416 0.832156 2.34313 2.34313C0.832156 3.85416 0 5.86313 0 8C0 10.1369 0.832156 12.1458 2.34313 13.6569ZM1.5625 8C1.5625 4.45034 4.45034 1.5625 8 1.5625C11.5497 1.5625 14.4375 4.45034 14.4375 8C14.4375 11.5497 11.5497 14.4375 8 14.4375C4.45034 14.4375 1.5625 11.5497 1.5625 8ZM8.3125 12.5625C7.88103 12.5625 7.53125 12.2127 7.53125 11.7812V7.8125H6.75C6.31853 7.8125 5.96875 7.46272 5.96875 7.03125C5.96875 6.59978 6.31853 6.25 6.75 6.25H8.3125C8.74397 6.25 9.09375 6.59978 9.09375 7.03125V11.7812C9.09375 12.2127 8.74397 12.5625 8.3125 12.5625ZM7.0625 4.375C7.0625 4.89194 7.48306 5.3125 8 5.3125C8.51694 5.3125 8.9375 4.89194 8.9375 4.375C8.9375 3.85806 8.51694 3.4375 8 3.4375C7.48306 3.4375 7.0625 3.85806 7.0625 4.375Z"></path></svg>                </button>
-                <div x-show="showTooltip" class="tooltip max-md:!hidden" style="display: none;">
-    More Info
-</div>
-             </span>
-
-            <div>
-                <div wire:id="E9HaYeHfX1XR0tCBpIWV" class="flex relative z-40" x-data="{ isClipInAnyUserCollection: $wire.entangle(&#39;isClipInAnyUserCollection&#39;), mode: $wire.entangle(&#39;mode&#39;), showModal: $wire.entangle(&#39;showModal&#39;), hidden: $wire.entangle(&#39;hidden&#39;), showTooltip: false}">
-    <span class="relative inline-flex" x-on:mouseover="showTooltip = true" x-on:mouseleave="showTooltip = false">
-        <button class="relative add-to-collection-button overflow-hidden" wire:click.stop.prevent="toggleModal()">
-            <svg x-bind:class="{&#39;text-white&#39;: mode == &#39;light&#39;, &#39;not-added&#39;: !isClipInAnyUserCollection, &#39;!translate-y-0&#39;: !hidden}" x-show="!isClipInAnyUserCollection" class="fill-current h-6 w-6 text-gray-700 outline-none translate-y-8 not-added !translate-y-0" xmlns="http://www.w3.org/2000/svg" fill="currentColor" stroke="none" viewBox="0 0 24 24"><path d="M20 2H8c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2V4c0-1.103-.897-2-2-2zM8 16V4h12l.002 12H8z"></path><path d="M4 8H2v12c0 1.103.897 2 2 2h12v-2H4V8zm11-2h-2v3h-3v2h3v3h2v-3h3V9h-3z"></path></svg>            <svg x-show="isClipInAnyUserCollection" class="fill-current h-6 w-6 text-[#198ACF] outline-none" xmlns="http://www.w3.org/2000/svg" fill="currentColor" stroke="none" viewBox="0 0 24 24" style="display: none;"><path d="M4 22h12v-2H4V8H2v12c0 1.103.897 2 2 2z"></path><path d="M20 2H8c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2V4c0-1.103-.897-2-2-2zm-2 9h-3v3h-2v-3h-3V9h3V6h2v3h3v2z"></path></svg>        </button>
-        <div x-show="showTooltip" class="tooltip max-md:!hidden" style="display: none;">
-    Add to Collections
-</div>
-     </span>
-    <div x-show="showModal" style="display: none;">
-        <div class="modal-wrapper-add-to-collection flex flex-col items-center justify-center absolute bottom-0 right-[-15px] z-60 cursor-auto min-w-[300px] rounded-lg " style="transform: translateY(100%) translateY(10px);">
-            <div class="flex flex-col bg-white fixed top-0 left-0 md:relative md:rounded-lg md:shadow-lg h-full md:h-auto p-4 w-full" @click.outside="showModal = false;">
-                <div class="flex justify-start relative md:justify-between items-center ">
-                    <p class="text-lg font-bold text-[#2b2b2b]">Add to collection</p>
-                    <a href="https://www.videvo.net/my-collections/" class="ml-4 md:ml-0 text-sm text-gray-500 hover:text-gray-700">Manage</a>
-                    <div class="w-10 h-10 flex items-center justify-center absolute top-0 right-0 md:hidden close-modal w-6 text-2xl text-gray-600 leading-4 font-bold text-right" @click.stop.prevent="showModal = false; window.clipActions?.closeAllModals();"></div>
-                </div>
-                <div class="flex justify-start w-full">
-                    <div wire:id="h0zPk6RtVE0CBwphWbwS" class="flex py-2 relative h-[56px] item-center" x-data="{showForm: false, showResponse: false, timeoutToggle: false}">
-    <template x-if="showResponse"></template>
-    <div class="cursor-pointer text-base text-[#1b95e0] bold h-full order-2 flex items-center" @click="showForm = !showForm" x-show="!showForm">
-        <svg class="fill-current w-7 h-7 mr-[10px]" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
-    <path fill="#1B95E0" fill-rule="evenodd" d="M14 7c.552 0 1 .448 1 1v5h5c.552 0 1 .448 1 1s-.448 1-1 1h-5v5c0 .552-.448 1-1 1s-1-.448-1-1v-5H8c-.552 0-1-.448-1-1s.448-1 1-1h5V8c0-.552.448-1 1-1z"></path>
-</svg>        Create new collection
-    </div>
-    <form x-show="showForm" class="flex space-between items-center border border-[#1b95e0] justify-items-stretch rounded-sm overflow-hidden h-full" wire:submit.prevent="addUserCollection" style="display: none;">
-        <input class="px-2 border-0 outline-0 h-full" placeholder="Add collection name" type="text" wire:model="collectionName">
-        <button type="submit" @click="window.clipActions?.closeAllModals(); showResponse = true; setTimeout(() =&gt; {showResponse = false; }, 3000); showForm = !showForm" class="h-full leading-10 bg-gray-100 text-blue-600 text-base font-bold text-center min-w-[60px]">Add</button>
-    </form>
-
-</div>
-<!-- Livewire Component wire-end:h0zPk6RtVE0CBwphWbwS -->                </div>
-                <div class="flex flex-col grow overflow-auto relative md:max-h-[calc(46px*3.5)] max-md:max-h[calc(100vh-100px)] transition duration-150" x-data="{selectedCollections:  [],}">
-                                        <div class="m:h-[80px] flex items-center justify-between fixed py-3 md:py-3 left-0 px-4 bottom-0 left-0 w-full md:!hidden" style="box-shadow: 0 -2px 0 0 rgb(0 0 0 / 10%);">
-                        <a x-on:click="showModal = false; window.clipActions?.closeAllModals();" class="pt-3 pb-3 pr-6 pl-6 font-bold text-base rounded-lg text-blue-600 bg-[#ececec]">Cancel</a>
-                        <a x-on:click="showModal = false; window.clipActions?.closeAllModals(); $wire.toggleClipInUserCollections(selectedCollections)" class="pt-3 pb-3 pr-6 pl-6 font-bold text-base rounded-lg bg-blue-600 text-white">Apply</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Livewire Component wire-end:E9HaYeHfX1XR0tCBpIWV -->            </div>
-            <div>
-                <div wire:id="KWtRyXrh94SOgsaVoy0K" class="flex" x-data="{ isFavorite: $wire.entangle(&#39;isFavorite&#39;), mode: $wire.entangle(&#39;mode&#39;), hidden: $wire.entangle(&#39;hidden&#39;), showTooltip: false }">
-    <span class="relative inline-flex" x-on:mouseover="showTooltip = true" x-on:mouseleave="showTooltip = false">
-        <button class="text-gray-700 hover:text-gray-900 overflow-hidden toggle-favorite" wire:key="clip-229554" wire:click.stop.prevent="toggleFavorite();">
-            <svg x-bind:class="{&#39;text-white&#39;: mode == &#39;light&#39;, &#39;not-added&#39;: !isFavorite, &#39;!translate-y-0&#39;: !hidden}" x-show="!isFavorite" class="fill-current h-6 w-6 outline-none translate-y-8 not-added !translate-y-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" fill="none"><path d="M5.40956 2.51538C4.45258 1.76408 3.08107 1.83357 2.20944 2.72795C1.25976 3.7024 1.26439 5.28574 2.2182 6.26443L5.74895 9.8873C5.8954 10.0376 6.13284 10.0376 6.27929 9.8873L9.7917 6.28538C10.7392 5.30775 10.7362 3.72885 9.7822 2.74999C8.90375 1.84862 7.52809 1.77191 6.57265 2.52393C6.48883 2.58991 6.40825 2.66226 6.33151 2.74099L5.99605 3.08587L5.65599 2.73693C5.57761 2.65651 5.49525 2.58265 5.40956 2.51538ZM7.04767 3.43893C7.60289 2.86945 8.49943 2.86653 9.06605 3.44793C9.64336 4.04031 9.64309 5.00077 9.07454 5.58846L9.0736 5.58943L6.01425 8.72674L2.93435 5.56648C2.3556 4.97264 2.35777 4.00853 2.92559 3.42589C3.4791 2.85794 4.37486 2.85516 4.93984 3.43488L5.2799 3.78381C5.46824 3.97706 5.72669 4.086 5.99654 4.08587C6.26638 4.08574 6.52472 3.97655 6.71288 3.78312L7.04767 3.43893Z" fill="currentColor"></path></svg>            <svg x-show="isFavorite" class="fill-current h-6 w-6 text-red-700 outline-none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" fill="none" style="display: none;"><path d="M5.65599 2.73693C4.70219 1.75824 3.15912 1.75349 2.20944 2.72795C1.25976 3.7024 1.26439 5.28574 2.2182 6.26443L5.74895 9.8873C5.8954 10.0376 6.13284 10.0376 6.27929 9.8873L9.7917 6.28538C10.7392 5.30775 10.7362 3.72885 9.7822 2.74999C8.82669 1.76955 7.28289 1.76479 6.33151 2.74099L5.99605 3.08587L5.65599 2.73693Z" fill="currentColor"></path></svg>        </button>
-        <div x-show="showTooltip" class="tooltip max-md:!hidden" style="display: none;">
-    Add to Favorites
-</div>
-     </span>
-</div>
-
-<!-- Livewire Component wire-end: -->            </div>
-                        <span class="font-bold text-gray-700 w-[44px]">
-                    FREE
-            </span>
-                        <a href="https://www.videvo.net/royalty-free-music-track/keeping-watch/229554/" class="flex h-9 items-center justify-center rounded-lg bg-blue-400 px-5 font-bold text-white">
-                <svg class="fill-current mr-2 h-4 w-4" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M8 12.2188C7.79281 12.2188 7.59409 12.1364 7.44756 11.9899L4.79594 9.33828C4.49084 9.03319 4.49084 8.53853 4.79594 8.23344C5.10103 7.92834 5.59566 7.92834 5.90078 8.23344L7.21875 9.55141V0.78125C7.21875 0.349781 7.56853 0 8 0C8.43147 0 8.78125 0.349781 8.78125 0.78125V9.55141L10.0992 8.23344C10.4043 7.92834 10.899 7.92834 11.2041 8.23344C11.5092 8.53853 11.5092 9.03319 11.2041 9.33828L8.55244 11.9899C8.40591 12.1364 8.20722 12.2188 8 12.2188ZM14.4375 8.78125C14.4375 8.34978 14.7872 8 15.2188 8C15.6503 8 16 8.34978 16 8.78125V12.9688C16 14.4334 14.8084 15.625 13.3438 15.625H2.65625C1.19159 15.625 0 14.4334 0 12.9688V8.78125C0 8.34978 0.349781 8 0.78125 8C1.21272 8 1.5625 8.34978 1.5625 8.78125V12.9688C1.5625 13.5718 2.05316 14.0625 2.65625 14.0625H13.3438C13.9468 14.0625 14.4375 13.5718 14.4375 12.9688V8.78125Z"></path>
-</svg>                Download
-            </a>
-        </div>
-    </div>
-    <div x-show="showInfo" class="grid grid-cols-3 border-t border-gray-250 p-2 text-sm" style="display: none;">
-                    <div class="border-r border-gray-250 py-2 px-4">
-                <p class="font-bold text-gray-600">Genre</p>
-                                    <a href="https://www.videvo.net/royalty-free-music/new-age/" class="font-bold text-gray-900 hover:underline">New Age</a>                                            </div>
-            <div class="border-r border-gray-250 py-2 px-4">
-                <p class="font-bold text-gray-600">Mood</p>
-                                    <a href="https://www.videvo.net/royalty-free-music/mood/tender/" class="font-bold text-gray-900 hover:underline">Tender</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/subdued/" class="font-bold text-gray-900 hover:underline">Subdued</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/anticipating/" class="font-bold text-gray-900 hover:underline">Anticipating</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/adventure/" class="font-bold text-gray-900 hover:underline">Adventure</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/tranquil/" class="font-bold text-gray-900 hover:underline">Tranquil</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/innocent/" class="font-bold text-gray-900 hover:underline">Innocent</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/mystery/" class="font-bold text-gray-900 hover:underline">Mystery</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/hesitant/" class="font-bold text-gray-900 hover:underline">Hesitant</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/science-fiction/" class="font-bold text-gray-900 hover:underline">Science Fiction</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/fantasy/" class="font-bold text-gray-900 hover:underline">Fantasy</a>                                            </div>
-            <div class="py-2 px-4">
-                <p class="font-bold text-gray-600">Instrumentation</p>
-                                    <a href="https://www.videvo.net/royalty-free-music/instrument/acoustic-guitar/" class="font-bold text-gray-900 hover:underline">Acoustic Guitar</a>,                                     <a href="https://www.videvo.net/royalty-free-music/instrument/guitar/" class="font-bold text-gray-900 hover:underline">Guitar</a>,                                     <a href="https://www.videvo.net/royalty-free-music/instrument/strings/" class="font-bold text-gray-900 hover:underline">Strings</a>                                            </div>
-        
-    </div>
-</div>
-                                    <div class="-mx-4 mb-2 flex flex-col border-b border-gray-200 px-3 hover:bg-gray-150 lg:mx-0 lg:rounded lg:border-0 audio-row audio-player pb-2 md:pb-0" x-data="{ &#39;showInfo&#39;: false, showTooltip: false }">
-        <div class="flex items-center lg:min-h-20 flex-row lg:gap-4 flex-wrap lg:flex-no-wrap w-full">
-        <div class="flex items-center flex-grow lg:max-w-[380px] lg:min-w-[280px] md:order-1 lg:order-none">
-            <button class="relative mr-4 flex h-14 w-14 shrink-0 items-center justify-center bg-black z-20 button-play-pause" @click="window.audioHandler.handleAudioPlayPause($refs.audioElement1020146); playing = playing === 1020146 ? &#39;&#39; : 1020146;">
-                <img src="./Royalty Free Music Download.blade_files/Simon Pettersson - Good Vibes_All Eyes On You_60 sec.png" class="absolute top-0 left-0 h-full w-full object-cover">
-                <svg x-bind:class="{ &#39;hidden&#39;: playing === 1020146 }" class="fill-current relative z-10 h-8 w-8 text-white drop-shadow play-icon" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg"><path d="M14.4621 8.1418L4.15546 1.93628C3.85647 1.75624 3.48667 1.75457 3.18613 1.93178C2.88556 2.10904 2.7002 2.43817 2.7002 2.79451V15.2056C2.7002 15.5619 2.88556 15.891 3.18613 16.0683C3.33511 16.1562 3.50106 16.2 3.66705 16.2C3.83586 16.2 4.00471 16.1546 4.15546 16.0638L14.4621 9.85827C14.7584 9.67986 14.9405 9.35319 14.9405 9.00003C14.9405 8.64688 14.7584 8.32021 14.4621 8.1418Z"></path></svg>                <svg x-bind:class="{ &#39;hidden&#39;: playing !== 1020146 }" class="fill-current relative z-10 h-12 w-12 text-white drop-shadow pause-icon hidden" width="54px" height="54px" viewBox="0 0 54 54" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>pause-button-white-sml</title>
-    <g id="pause-button-white-sml" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Group-2" transform="translate(14.000000, 14.000000)">
-            <path d="M8,0 C10.1421954,0 11.8910789,1.82429918 11.9951047,4.1170563 L12,4.33333333 L12,21.6666667 C12,23.9873783 10.3160315,25.8820021 8.19964034,25.9946968 L8,26 L4,26 C1.85780461,26 0.108921124,24.1757008 0.00489530723,21.8829437 L0,21.6666667 L0,4.33333333 C0,2.01262166 1.68396847,0.117997884 3.80035966,0.0053032495 L4,0 L8,0 Z M22,0 C24.1421954,0 25.8910789,1.82429918 25.9951047,4.1170563 L26,4.33333333 L26,21.6666667 C26,23.9873783 24.3160315,25.8820021 22.1996403,25.9946968 L22,26 L18,26 C15.8578046,26 14.1089211,24.1757008 14.0048953,21.8829437 L14,21.6666667 L14,4.33333333 C14,2.01262166 15.6839685,0.117997884 17.8003597,0.0053032495 L18,0 L22,0 Z" id="Combined-Shape" fill-opacity="0.4" fill="#000000"></path>
-            <path d="M4,2 L8,2 C9.1045695,2 10,2.8954305 10,4 L10,22 C10,23.1045695 9.1045695,24 8,24 L4,24 C2.8954305,24 2,23.1045695 2,22 L2,4 C2,2.8954305 2.8954305,2 4,2 Z M18,2 L22,2 C23.1045695,2 24,2.8954305 24,4 L24,22 C24,23.1045695 23.1045695,24 22,24 L18,24 C16.8954305,24 16,23.1045695 16,22 L16,4 C16,2.8954305 16.8954305,2 18,2 Z" id="Combined-Shape" fill="#FFFFFF"></path>
-        </g>
-    </g>
-</svg>                
-                <audio preload="none" x-ref="audioElement1020146" x-on:ended="playing = &#39;&#39;" id="linkAudio-1020146" class="listing-audio audio-element hidden">
-                                            <source src="https://cdn.videvo.net/videvo_files/audio/premium/audio0413/watermarked/Simon%20Pettersson%20-%20Good%20Vibes_Adventure%20Time_Main_preview.mp3" type="audio/mp3">
-                                        Your browser does not support the audio element.
-                </audio>
-            </button>
-            <div class="flex min-w-0 max-w-[calc(100vw-104px)] flex-col lg:max-w-[280px]">
-                <a href="https://www.videvo.net/royalty-free-music-track/adventure-time/1020146/" class="mb-1 font-semibold leading-none text-gray-800 hover:underline overflow-hidden whitespace-nowrap text-ellipsis">Adventure Time</a>
-                                    <a href="https://www.videvo.net/royalty-free-music-albums/good-vibes/" class="mb-1 text-sm font-bold leading-none text-gray-400 hover:text-gray-600 overflow-hidden whitespace-nowrap text-ellipsis">
-                        Good Vibes
-                    </a>
-                                <p class="w-full truncate text-sm text-gray-600 overflow-hidden whitespace-nowrap text-ellipsis">
-                    
-                    
-                </p>
-            </div>
-        </div>
-        <div class="flex lg:flex-1 items-center w-full h-[60px] max-h-[60px] lg:h-[84px] lg:max-h-[84px] md:grow-[2] md:basis-170% md:min-w-[300px] justify-start md:order-3 lg:order-none xs:my-3 md:my-0">
-            <div class="mr-4 flex-1 h-full w-full">
-                <div class="z-20 w-full h-full">
-                    <div class="waveform waveform-length-bpm h-full w-full relative min-h-[60px] max-h-[60px] lg:min-h-[84px] lg:max-h-[84px]">
-    <div class="waveform-image waveform-container h-full relative w-full overflow-hidden">
-        <canvas id="mainWaveformCanvas-listing-1020146" @click="window.audioHandler.handleCanvasClick(event,$refs.audioElement1020146);  if(playing === &#39;&#39; || playing !== 1020146) { playing = 1020146 }" class="js--audio-waveform-canvas belongs-listing h-[60px] lg:h-[84px] w-full max-w-full max-h-[60px] lg:max-h-[84px] absolute top-0 left-0" data-waveformjson="{&quot;margin&quot;:{&quot;low&quot;:0,&quot;high&quot;:250},&quot;heights&quot;:[0,77,61,55,39,60,61,71,53,44,33,32,27,20,19,22,60,55,56,47,38,65,74,65,52,50,43,49,44,48,81,80,63,53,58,56,66,66,67,43,50,60,44,45,35,60,57,57,52,44,56,90,59,72,73,51,63,72,62,75,103,79,81,81,85,102,102,84,76,92,61,56,67,66,49,104,68,88,78,54,98,92,79,73,104,66,48,91,98,100,108,105,82,101,65,102,76,95,63,62,73,100,79,73,92,81,86,70,90,58,72,81,38,41,46,43,29,39,18,100,55,87,69,100,18,103,57,73,107,61,99,33,100,62,92,42,84,78,96,107,90,41,73,104,59,106,27,109,45,106,48,103,105,81,99,74,51,55,106,67,100,13,86,105,73,83,79,87,38,103,77,51,77,104,75,109,99,83,108,66,91,77,110,30,107,83,61,110,104,90,95,106,60,110,51,84,87,95,17,106,59,65,108,77,107,54,109,68,109,47,91,102,103,108,83,46,61,106,71,92,17,102,75,106,88,76,103,91,108,71,82,72,104,64,66,51,102,44,16,14,14,12,9,8,9,7,7,9,11,16,22,27,62,54,49,54,57,50,52,48,47,35,35,26,22,22,20,52,45,42,33,33,25,63,72,47,44,34,39,25,49,37,70,54,50,43,50,54,47,47,36,33,27,28,21,37,30,57,49,38,32,28,50,58,49,48,48,50,40,28,44,98,86,76,80,68,67,81,65,72,57,51,41,61,36,38,68,67,63,47,61,44,65,70,56,53,50,42,38,56,56,80,78,91,83,71,56,92,68,49,53,44,47,43,60,52,76,67,68,63,58,76,85,53,63,84,66,79,71,57,56,104,70,77,73,84,91,73,65,62,84,31,44,43,57,80,103,79,77,69,47,89,76,53,58,105,46,42,75,69,108,95,67,78,74,84,93,64,70,68,67,60,56,65,60,89,56,64,61,69,72,108,74,60,106,48,70,84,92,72,110,70,86,92,76,99,76,104,46,55,68,83,50,72,103,100,71,86,89,64,82,94,92,61,74,60,85,68,73,107,92,103,76,99,93,103,62,84,62,80,89,76,90,72,93,80,81,77,84,72,69,70,45,46,27,44,22,39,17,99,48,92,76,98,102,105,55,60,103,71,97,20,91,63,109,36,94,101,79,105,92,52,49,104,65,97,22,109,96,106,73,96,104,68,100,63,71,68,108,71,101,78,77,102,50,98,56,89,17,107,69,58,101,104,100,101,109,83,108,51,94,89,105,25,107,78,64,108,101,104,34,103,60,108,43,98,94,100,107,109,49,58,103,64,95,30,108,68,109,52,91,102,71,109,64,57,53,107,64,94,14,77,108,86,101,82,100,36,104,60,73,73,106,47,65,66,39,102,63,103,73,103,36,106,72,79,104,104,104,81,102,78,102,55,88,80,99,34,106,52,51,107,66,105,44,108,73,108,53,105,106,95,107,103,79,76,107,85,92,32,76,83,105,53,103,94,74,105,90,74,81,109,73,104,96,105,105,91,98,84,102,52,109,74,70,54,109,72,106,95,80,106,55,94,97,102,36,103,49,57,107,108,100,97,108,95,110,65,100,104,105,22,107,75,65,107,88,105,49,86,76,107,45,107,105,94,108,79,70,77,105,66,106,54,104,64,78,51,41,43,43,33,28,20,16,13,12,8,8,7,7,6,5,3,3,2,2,2,2,2,2,1,1,1,1,1,0,1,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}" width="543" height="84"></canvas>
-        <div class="blue-waveform-container absolute top-0 left-0 h-full w-0 overflow-hidden pointer-events-none" style="width: 0px;">
-            <div class="overlay absolute top-0 right-0 h-full opacity-50 w-[4px] bg-overlayBlue-500"></div>
-        </div>
-    </div>
-</div>
-                </div>
-            </div>
-            <div>
-                <p class="mb-1 text-sm font-bold leading-none text-gray-600">
-                    02:16
-                </p>
-                                    <p class="text-sm font-bold leading-none text-gray-600">0 BPM</p>
-                            </div>
-        </div>
-        <div class="flex w-full items-center justify-between lg:w-auto md:gap-4 basis-full md:basis-0 grow-0 md:order-2 lg:order-none">
-            <span class="relative inline-flex" x-on:mouseover="showTooltip = true" x-on:mouseleave="showTooltip = false">
-                <button x-on:click="showInfo = ! showInfo">
-                    <svg class="fill-current h-6 w-6 text-gray-700 hover:text-gray-900" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M2.34313 13.6569C3.85416 15.1678 5.86313 16 8 16C10.1369 16 12.1458 15.1678 13.6569 13.6569C15.1678 12.1458 16 10.1369 16 8C16 5.86313 15.1678 3.85416 13.6569 2.34313C12.1458 0.832156 10.1369 0 8 0C5.86313 0 3.85416 0.832156 2.34313 2.34313C0.832156 3.85416 0 5.86313 0 8C0 10.1369 0.832156 12.1458 2.34313 13.6569ZM1.5625 8C1.5625 4.45034 4.45034 1.5625 8 1.5625C11.5497 1.5625 14.4375 4.45034 14.4375 8C14.4375 11.5497 11.5497 14.4375 8 14.4375C4.45034 14.4375 1.5625 11.5497 1.5625 8ZM8.3125 12.5625C7.88103 12.5625 7.53125 12.2127 7.53125 11.7812V7.8125H6.75C6.31853 7.8125 5.96875 7.46272 5.96875 7.03125C5.96875 6.59978 6.31853 6.25 6.75 6.25H8.3125C8.74397 6.25 9.09375 6.59978 9.09375 7.03125V11.7812C9.09375 12.2127 8.74397 12.5625 8.3125 12.5625ZM7.0625 4.375C7.0625 4.89194 7.48306 5.3125 8 5.3125C8.51694 5.3125 8.9375 4.89194 8.9375 4.375C8.9375 3.85806 8.51694 3.4375 8 3.4375C7.48306 3.4375 7.0625 3.85806 7.0625 4.375Z"></path></svg>                </button>
-                <div x-show="showTooltip" class="tooltip max-md:!hidden" style="display: none;">
-    More Info
-</div>
-             </span>
-
-            <div>
-                <div wire:id="3vCgjeZr0sQjm7vGNS9R" class="flex relative z-40" x-data="{ isClipInAnyUserCollection: $wire.entangle(&#39;isClipInAnyUserCollection&#39;), mode: $wire.entangle(&#39;mode&#39;), showModal: $wire.entangle(&#39;showModal&#39;), hidden: $wire.entangle(&#39;hidden&#39;), showTooltip: false}">
-    <span class="relative inline-flex" x-on:mouseover="showTooltip = true" x-on:mouseleave="showTooltip = false">
-        <button class="relative add-to-collection-button overflow-hidden" wire:click.stop.prevent="toggleModal()">
-            <svg x-bind:class="{&#39;text-white&#39;: mode == &#39;light&#39;, &#39;not-added&#39;: !isClipInAnyUserCollection, &#39;!translate-y-0&#39;: !hidden}" x-show="!isClipInAnyUserCollection" class="fill-current h-6 w-6 text-gray-700 outline-none translate-y-8 not-added !translate-y-0" xmlns="http://www.w3.org/2000/svg" fill="currentColor" stroke="none" viewBox="0 0 24 24"><path d="M20 2H8c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2V4c0-1.103-.897-2-2-2zM8 16V4h12l.002 12H8z"></path><path d="M4 8H2v12c0 1.103.897 2 2 2h12v-2H4V8zm11-2h-2v3h-3v2h3v3h2v-3h3V9h-3z"></path></svg>            <svg x-show="isClipInAnyUserCollection" class="fill-current h-6 w-6 text-[#198ACF] outline-none" xmlns="http://www.w3.org/2000/svg" fill="currentColor" stroke="none" viewBox="0 0 24 24" style="display: none;"><path d="M4 22h12v-2H4V8H2v12c0 1.103.897 2 2 2z"></path><path d="M20 2H8c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2V4c0-1.103-.897-2-2-2zm-2 9h-3v3h-2v-3h-3V9h3V6h2v3h3v2z"></path></svg>        </button>
-        <div x-show="showTooltip" class="tooltip max-md:!hidden" style="display: none;">
-    Add to Collections
-</div>
-     </span>
-    <div x-show="showModal" style="display: none;">
-        <div class="modal-wrapper-add-to-collection flex flex-col items-center justify-center absolute bottom-0 right-[-15px] z-60 cursor-auto min-w-[300px] rounded-lg " style="transform: translateY(100%) translateY(10px);">
-            <div class="flex flex-col bg-white fixed top-0 left-0 md:relative md:rounded-lg md:shadow-lg h-full md:h-auto p-4 w-full" @click.outside="showModal = false;">
-                <div class="flex justify-start relative md:justify-between items-center ">
-                    <p class="text-lg font-bold text-[#2b2b2b]">Add to collection</p>
-                    <a href="https://www.videvo.net/my-collections/" class="ml-4 md:ml-0 text-sm text-gray-500 hover:text-gray-700">Manage</a>
-                    <div class="w-10 h-10 flex items-center justify-center absolute top-0 right-0 md:hidden close-modal w-6 text-2xl text-gray-600 leading-4 font-bold text-right" @click.stop.prevent="showModal = false; window.clipActions?.closeAllModals();"></div>
-                </div>
-                <div class="flex justify-start w-full">
-                    <div wire:id="ncURpkEgwI2VWi61l9pa" class="flex py-2 relative h-[56px] item-center" x-data="{showForm: false, showResponse: false, timeoutToggle: false}">
-    <template x-if="showResponse"></template>
-    <div class="cursor-pointer text-base text-[#1b95e0] bold h-full order-2 flex items-center" @click="showForm = !showForm" x-show="!showForm">
-        <svg class="fill-current w-7 h-7 mr-[10px]" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
-    <path fill="#1B95E0" fill-rule="evenodd" d="M14 7c.552 0 1 .448 1 1v5h5c.552 0 1 .448 1 1s-.448 1-1 1h-5v5c0 .552-.448 1-1 1s-1-.448-1-1v-5H8c-.552 0-1-.448-1-1s.448-1 1-1h5V8c0-.552.448-1 1-1z"></path>
-</svg>        Create new collection
-    </div>
-    <form x-show="showForm" class="flex space-between items-center border border-[#1b95e0] justify-items-stretch rounded-sm overflow-hidden h-full" wire:submit.prevent="addUserCollection" style="display: none;">
-        <input class="px-2 border-0 outline-0 h-full" placeholder="Add collection name" type="text" wire:model="collectionName">
-        <button type="submit" @click="window.clipActions?.closeAllModals(); showResponse = true; setTimeout(() =&gt; {showResponse = false; }, 3000); showForm = !showForm" class="h-full leading-10 bg-gray-100 text-blue-600 text-base font-bold text-center min-w-[60px]">Add</button>
-    </form>
-
-</div>
-<!-- Livewire Component wire-end:ncURpkEgwI2VWi61l9pa -->                </div>
-                <div class="flex flex-col grow overflow-auto relative md:max-h-[calc(46px*3.5)] max-md:max-h[calc(100vh-100px)] transition duration-150" x-data="{selectedCollections:  [],}">
-                                        <div class="m:h-[80px] flex items-center justify-between fixed py-3 md:py-3 left-0 px-4 bottom-0 left-0 w-full md:!hidden" style="box-shadow: 0 -2px 0 0 rgb(0 0 0 / 10%);">
-                        <a x-on:click="showModal = false; window.clipActions?.closeAllModals();" class="pt-3 pb-3 pr-6 pl-6 font-bold text-base rounded-lg text-blue-600 bg-[#ececec]">Cancel</a>
-                        <a x-on:click="showModal = false; window.clipActions?.closeAllModals(); $wire.toggleClipInUserCollections(selectedCollections)" class="pt-3 pb-3 pr-6 pl-6 font-bold text-base rounded-lg bg-blue-600 text-white">Apply</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Livewire Component wire-end:3vCgjeZr0sQjm7vGNS9R -->            </div>
-            <div>
-                <div wire:id="XBIaU0HZDhZcEE2urtBD" class="flex" x-data="{ isFavorite: $wire.entangle(&#39;isFavorite&#39;), mode: $wire.entangle(&#39;mode&#39;), hidden: $wire.entangle(&#39;hidden&#39;), showTooltip: false }">
-    <span class="relative inline-flex" x-on:mouseover="showTooltip = true" x-on:mouseleave="showTooltip = false">
-        <button class="text-gray-700 hover:text-gray-900 overflow-hidden toggle-favorite" wire:key="clip-1020146" wire:click.stop.prevent="toggleFavorite();">
-            <svg x-bind:class="{&#39;text-white&#39;: mode == &#39;light&#39;, &#39;not-added&#39;: !isFavorite, &#39;!translate-y-0&#39;: !hidden}" x-show="!isFavorite" class="fill-current h-6 w-6 outline-none translate-y-8 not-added !translate-y-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" fill="none"><path d="M5.40956 2.51538C4.45258 1.76408 3.08107 1.83357 2.20944 2.72795C1.25976 3.7024 1.26439 5.28574 2.2182 6.26443L5.74895 9.8873C5.8954 10.0376 6.13284 10.0376 6.27929 9.8873L9.7917 6.28538C10.7392 5.30775 10.7362 3.72885 9.7822 2.74999C8.90375 1.84862 7.52809 1.77191 6.57265 2.52393C6.48883 2.58991 6.40825 2.66226 6.33151 2.74099L5.99605 3.08587L5.65599 2.73693C5.57761 2.65651 5.49525 2.58265 5.40956 2.51538ZM7.04767 3.43893C7.60289 2.86945 8.49943 2.86653 9.06605 3.44793C9.64336 4.04031 9.64309 5.00077 9.07454 5.58846L9.0736 5.58943L6.01425 8.72674L2.93435 5.56648C2.3556 4.97264 2.35777 4.00853 2.92559 3.42589C3.4791 2.85794 4.37486 2.85516 4.93984 3.43488L5.2799 3.78381C5.46824 3.97706 5.72669 4.086 5.99654 4.08587C6.26638 4.08574 6.52472 3.97655 6.71288 3.78312L7.04767 3.43893Z" fill="currentColor"></path></svg>            <svg x-show="isFavorite" class="fill-current h-6 w-6 text-red-700 outline-none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" fill="none" style="display: none;"><path d="M5.65599 2.73693C4.70219 1.75824 3.15912 1.75349 2.20944 2.72795C1.25976 3.7024 1.26439 5.28574 2.2182 6.26443L5.74895 9.8873C5.8954 10.0376 6.13284 10.0376 6.27929 9.8873L9.7917 6.28538C10.7392 5.30775 10.7362 3.72885 9.7822 2.74999C8.82669 1.76955 7.28289 1.76479 6.33151 2.74099L5.99605 3.08587L5.65599 2.73693Z" fill="currentColor"></path></svg>        </button>
-        <div x-show="showTooltip" class="tooltip max-md:!hidden" style="display: none;">
-    Add to Favorites
-</div>
-     </span>
-</div>
-
-<!-- Livewire Component wire-end: -->            </div>
-                        <span class="w-[44px] flex justify-center">
-                <svg data-cy="premium-icon" class="fill-current h-6 w-6 text-orange-600" viewBox="-120 0 512 512.00115" xmlns="http://www.w3.org/2000/svg"><path d="m270.214844 180.054688c-2.628906-4.816407-7.679688-7.816407-13.167969-7.816407h-54.425781l24.753906-154.871093c1.082031-6.773438-2.570312-13.417969-8.867188-16.136719-6.292968-2.71875-13.640624-.820313-17.828124 4.613281l-197.5625 256.398438c-3.488282 4.527343-4.097657 10.644531-1.578126 15.777343 2.523438 5.128907 7.746094 8.378907 13.460938 8.378907h85.816406l-57.566406 206.574218c-1.992188 7.144532 1.539062 14.675782 8.304688 17.710938 1.988281.890625 4.074218 1.316406 6.136718 1.316406 4.96875 0 9.78125-2.476562 12.621094-6.882812l199.351562-309.761719c2.96875-4.613281 3.179688-10.484375.550782-15.300781zm0 0"></path></svg>            </span>
-                        <a href="https://www.videvo.net/royalty-free-music-track/adventure-time/1020146/" class="flex h-9 items-center justify-center rounded-lg bg-blue-400 px-5 font-bold text-white">
-                <svg class="fill-current mr-2 h-4 w-4" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M8 12.2188C7.79281 12.2188 7.59409 12.1364 7.44756 11.9899L4.79594 9.33828C4.49084 9.03319 4.49084 8.53853 4.79594 8.23344C5.10103 7.92834 5.59566 7.92834 5.90078 8.23344L7.21875 9.55141V0.78125C7.21875 0.349781 7.56853 0 8 0C8.43147 0 8.78125 0.349781 8.78125 0.78125V9.55141L10.0992 8.23344C10.4043 7.92834 10.899 7.92834 11.2041 8.23344C11.5092 8.53853 11.5092 9.03319 11.2041 9.33828L8.55244 11.9899C8.40591 12.1364 8.20722 12.2188 8 12.2188ZM14.4375 8.78125C14.4375 8.34978 14.7872 8 15.2188 8C15.6503 8 16 8.34978 16 8.78125V12.9688C16 14.4334 14.8084 15.625 13.3438 15.625H2.65625C1.19159 15.625 0 14.4334 0 12.9688V8.78125C0 8.34978 0.349781 8 0.78125 8C1.21272 8 1.5625 8.34978 1.5625 8.78125V12.9688C1.5625 13.5718 2.05316 14.0625 2.65625 14.0625H13.3438C13.9468 14.0625 14.4375 13.5718 14.4375 12.9688V8.78125Z"></path>
-</svg>                Download
-            </a>
-        </div>
-    </div>
-    <div x-show="showInfo" class="grid grid-cols-3 border-t border-gray-250 p-2 text-sm" style="display: none;">
-                    <div class="border-r border-gray-250 py-2 px-4">
-                <p class="font-bold text-gray-600">Genre</p>
-                                                    <span class="font-bold text-gray-900">-</span>
-                            </div>
-            <div class="border-r border-gray-250 py-2 px-4">
-                <p class="font-bold text-gray-600">Mood</p>
-                                                    <span class="font-bold text-gray-900">-</span>
-                            </div>
-            <div class="py-2 px-4">
-                <p class="font-bold text-gray-600">Instrumentation</p>
-                                                    <span class="font-bold text-gray-900">-</span>
-                            </div>
-        
-    </div>
-</div>
-                                    <div class="-mx-4 mb-2 flex flex-col border-b border-gray-200 px-3 hover:bg-gray-150 lg:mx-0 lg:rounded lg:border-0 audio-row audio-player pb-2 md:pb-0" x-data="{ &#39;showInfo&#39;: false, showTooltip: false }">
-        <div class="flex items-center lg:min-h-20 flex-row lg:gap-4 flex-wrap lg:flex-no-wrap w-full">
-        <div class="flex items-center flex-grow lg:max-w-[380px] lg:min-w-[280px] md:order-1 lg:order-none">
-            <button class="relative mr-4 flex h-14 w-14 shrink-0 items-center justify-center bg-black z-20 button-play-pause" @click="window.audioHandler.handleAudioPlayPause($refs.audioElement231158); playing = playing === 231158 ? &#39;&#39; : 231158;">
-                <img src="./images/music.jpg" class="absolute top-0 left-0 h-full w-full object-cover">
-                <svg x-bind:class="{ &#39;hidden&#39;: playing === 231158 }" class="fill-current relative z-10 h-8 w-8 text-white drop-shadow play-icon" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg"><path d="M14.4621 8.1418L4.15546 1.93628C3.85647 1.75624 3.48667 1.75457 3.18613 1.93178C2.88556 2.10904 2.7002 2.43817 2.7002 2.79451V15.2056C2.7002 15.5619 2.88556 15.891 3.18613 16.0683C3.33511 16.1562 3.50106 16.2 3.66705 16.2C3.83586 16.2 4.00471 16.1546 4.15546 16.0638L14.4621 9.85827C14.7584 9.67986 14.9405 9.35319 14.9405 9.00003C14.9405 8.64688 14.7584 8.32021 14.4621 8.1418Z"></path></svg>                <svg x-bind:class="{ &#39;hidden&#39;: playing !== 231158 }" class="fill-current relative z-10 h-12 w-12 text-white drop-shadow pause-icon hidden" width="54px" height="54px" viewBox="0 0 54 54" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>pause-button-white-sml</title>
-    <g id="pause-button-white-sml" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Group-2" transform="translate(14.000000, 14.000000)">
-            <path d="M8,0 C10.1421954,0 11.8910789,1.82429918 11.9951047,4.1170563 L12,4.33333333 L12,21.6666667 C12,23.9873783 10.3160315,25.8820021 8.19964034,25.9946968 L8,26 L4,26 C1.85780461,26 0.108921124,24.1757008 0.00489530723,21.8829437 L0,21.6666667 L0,4.33333333 C0,2.01262166 1.68396847,0.117997884 3.80035966,0.0053032495 L4,0 L8,0 Z M22,0 C24.1421954,0 25.8910789,1.82429918 25.9951047,4.1170563 L26,4.33333333 L26,21.6666667 C26,23.9873783 24.3160315,25.8820021 22.1996403,25.9946968 L22,26 L18,26 C15.8578046,26 14.1089211,24.1757008 14.0048953,21.8829437 L14,21.6666667 L14,4.33333333 C14,2.01262166 15.6839685,0.117997884 17.8003597,0.0053032495 L18,0 L22,0 Z" id="Combined-Shape" fill-opacity="0.4" fill="#000000"></path>
-            <path d="M4,2 L8,2 C9.1045695,2 10,2.8954305 10,4 L10,22 C10,23.1045695 9.1045695,24 8,24 L4,24 C2.8954305,24 2,23.1045695 2,22 L2,4 C2,2.8954305 2.8954305,2 4,2 Z M18,2 L22,2 C23.1045695,2 24,2.8954305 24,4 L24,22 C24,23.1045695 23.1045695,24 22,24 L18,24 C16.8954305,24 16,23.1045695 16,22 L16,4 C16,2.8954305 16.8954305,2 18,2 Z" id="Combined-Shape" fill="#FFFFFF"></path>
-        </g>
-    </g>
-</svg>                
-                <audio preload="none" x-ref="audioElement231158" x-on:ended="playing = &#39;&#39;" id="linkAudio-231158" class="listing-audio audio-element hidden">
-                                            <source src="https://cdn.videvo.net/videvo_files/audio/premium/audio0151/watermarked/Rimsky-Korsakov-The-Flight-of-the-Bumble-Bee-CLA014201_preview.mp3" type="audio/mp3">
-                                        Your browser does not support the audio element.
-                </audio>
-            </button>
-            <div class="flex min-w-0 max-w-[calc(100vw-104px)] flex-col lg:max-w-[280px]">
-                <a href="https://www.videvo.net/royalty-free-music-track/the-flight-of-the-bumble-bee-60s/231158/" class="mb-1 font-semibold leading-none text-gray-800 hover:underline overflow-hidden whitespace-nowrap text-ellipsis">The Flight of the Bumble Bee - 60s</a>
-                                    <a href="https://www.videvo.net/royalty-free-music-albums/classical-mix-1/" class="mb-1 text-sm font-bold leading-none text-gray-400 hover:text-gray-600 overflow-hidden whitespace-nowrap text-ellipsis">
-                        Classical Mix 1
-                    </a>
-                                <p class="w-full truncate text-sm text-gray-600 overflow-hidden whitespace-nowrap text-ellipsis">
-                    Classical
-                    | Anxious, Frantic, Intense, Jingle
-                </p>
-            </div>
-        </div>
-        <div class="flex lg:flex-1 items-center w-full h-[60px] max-h-[60px] lg:h-[84px] lg:max-h-[84px] md:grow-[2] md:basis-170% md:min-w-[300px] justify-start md:order-3 lg:order-none xs:my-3 md:my-0">
-            <div class="mr-4 flex-1 h-full w-full">
-                <div class="z-20 w-full h-full">
-                    <div class="waveform waveform-length-bpm h-full w-full relative min-h-[60px] max-h-[60px] lg:min-h-[84px] lg:max-h-[84px]">
-    <div class="waveform-image waveform-container h-full relative w-full overflow-hidden">
-        <canvas id="mainWaveformCanvas-listing-231158" @click="window.audioHandler.handleCanvasClick(event,$refs.audioElement231158);  if(playing === &#39;&#39; || playing !== 231158) { playing = 231158 }" class="js--audio-waveform-canvas belongs-listing h-[60px] lg:h-[84px] w-full max-w-full max-h-[60px] lg:max-h-[84px] absolute top-0 left-0" data-waveformjson="{&quot;margin&quot;:{&quot;low&quot;:0,&quot;high&quot;:250},&quot;heights&quot;:[12,17,10,7,8,11,13,4,10,6,15,15,12,12,9,15,13,9,11,7,22,18,10,11,15,16,14,8,10,11,27,26,17,10,18,16,14,8,13,12,32,20,7,9,13,26,26,17,19,17,31,29,15,12,9,32,14,12,10,18,21,11,13,17,17,19,13,17,20,25,29,23,14,12,23,19,12,14,14,18,35,14,15,14,19,29,15,21,19,16,27,16,16,12,20,16,15,16,9,22,27,14,14,10,22,25,14,21,15,18,30,13,16,14,15,14,16,29,13,34,37,16,16,16,17,20,14,9,11,18,19,11,17,14,36,32,13,35,16,25,31,13,15,12,20,23,13,15,14,34,38,17,18,20,30,38,19,21,23,26,40,26,20,17,13,14,10,19,19,18,33,37,29,29,30,38,26,32,25,20,24,20,19,14,13,15,15,26,21,21,43,25,29,21,18,20,16,14,11,12,21,20,17,13,12,18,16,14,11,16,21,22,16,17,19,34,26,26,18,23,22,29,35,30,33,33,28,26,30,27,32,33,52,28,23,35,26,31,29,34,41,22,25,15,18,23,22,24,17,30,33,50,40,43,49,31,36,33,22,22,19,15,17,19,15,24,13,28,21,26,33,23,26,27,21,22,28,23,16,22,21,16,20,14,29,27,30,19,15,25,29,22,26,29,24,21,17,19,25,25,29,26,18,18,16,21,17,13,15,24,39,16,20,14,16,21,12,17,18,22,41,26,27,20,27,38,33,26,28,20,30,22,37,19,24,35,36,37,29,25,25,24,37,33,38,44,47,22,29,32,35,32,44,30,57,50,46,27,17,54,73,53,38,46,50,40,43,48,44,48,42,29,29,32,19,15,13,13,13,34,39,27,23,10,21,14,14,16,11,19,20,11,20,24,21,15,8,20,12,33,37,18,15,11,19,20,11,16,8,33,27,24,31,19,22,22,14,18,14,42,30,24,20,24,17,19,17,21,20,21,22,9,11,11,7,6,7,5,5,17,18,13,14,16,14,16,15,17,15,21,18,25,17,15,20,18,16,19,22,29,16,14,17,16,34,20,19,21,20,18,23,17,24,18,26,17,24,32,15,37,22,18,19,16,18,20,18,17,20,35,34,27,21,19,17,16,15,15,13,15,19,21,19,17,21,23,27,24,31,32,36,35,33,34,43,45,42,38,22,41,34,20,15,14,21,18,10,22,16,35,33,14,11,13,39,44,35,25,16,50,49,26,13,15,18,15,10,22,12,39,32,23,12,17,58,43,30,24,27,29,29,21,12,14,20,32,19,23,28,29,34,19,18,15,48,43,13,19,14,32,33,18,8,14,28,23,21,34,14,41,35,24,18,19,47,24,19,29,29,43,30,23,22,23,18,15,28,27,25,32,26,16,21,19,31,38,45,32,30,30,29,17,23,20,18,12,19,21,29,37,24,16,17,12,46,34,24,18,21,67,33,21,30,24,34,31,25,20,16,32,23,13,11,14,17,16,24,22,16,40,28,17,13,12,23,16,12,9,10,32,20,15,11,14,30,17,20,17,20,26,22,17,24,26,25,17,15,13,20,19,17,20,23,35,44,29,17,10,25,48,30,22,17,16,30,17,30,18,28,26,28,21,24,29,23,26,31,30,28,50,22,14,6,11,19,17,18,14,34,37,26,15,18,23,32,21,31,35,25,30,13,20,16,13,16,18,19,17,36,35,10,21,23,27,31,25,29,14,45,47,15,13,7,9,9,5,4,3,5,3,3,2,1,1,8,3,1,2,1,7,9,7,3,3,2,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0]}" width="529" height="84"></canvas>
-        <div class="blue-waveform-container absolute top-0 left-0 h-full w-0 overflow-hidden pointer-events-none" style="width: 0px;">
-            <div class="overlay absolute top-0 right-0 h-full opacity-50 w-[4px] bg-overlayBlue-500"></div>
-        </div>
-    </div>
-</div>
-                </div>
-            </div>
-            <div>
-                <p class="mb-1 text-sm font-bold leading-none text-gray-600">
-                    01:00
-                </p>
-                                    <p class="text-sm font-bold leading-none text-gray-600">152 BPM</p>
-                            </div>
-        </div>
-        <div class="flex w-full items-center justify-between lg:w-auto md:gap-4 basis-full md:basis-0 grow-0 md:order-2 lg:order-none">
-            <span class="relative inline-flex" x-on:mouseover="showTooltip = true" x-on:mouseleave="showTooltip = false">
-                <button x-on:click="showInfo = ! showInfo">
-                    <svg class="fill-current h-6 w-6 text-gray-700 hover:text-gray-900" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M2.34313 13.6569C3.85416 15.1678 5.86313 16 8 16C10.1369 16 12.1458 15.1678 13.6569 13.6569C15.1678 12.1458 16 10.1369 16 8C16 5.86313 15.1678 3.85416 13.6569 2.34313C12.1458 0.832156 10.1369 0 8 0C5.86313 0 3.85416 0.832156 2.34313 2.34313C0.832156 3.85416 0 5.86313 0 8C0 10.1369 0.832156 12.1458 2.34313 13.6569ZM1.5625 8C1.5625 4.45034 4.45034 1.5625 8 1.5625C11.5497 1.5625 14.4375 4.45034 14.4375 8C14.4375 11.5497 11.5497 14.4375 8 14.4375C4.45034 14.4375 1.5625 11.5497 1.5625 8ZM8.3125 12.5625C7.88103 12.5625 7.53125 12.2127 7.53125 11.7812V7.8125H6.75C6.31853 7.8125 5.96875 7.46272 5.96875 7.03125C5.96875 6.59978 6.31853 6.25 6.75 6.25H8.3125C8.74397 6.25 9.09375 6.59978 9.09375 7.03125V11.7812C9.09375 12.2127 8.74397 12.5625 8.3125 12.5625ZM7.0625 4.375C7.0625 4.89194 7.48306 5.3125 8 5.3125C8.51694 5.3125 8.9375 4.89194 8.9375 4.375C8.9375 3.85806 8.51694 3.4375 8 3.4375C7.48306 3.4375 7.0625 3.85806 7.0625 4.375Z"></path></svg>                </button>
-                <div x-show="showTooltip" class="tooltip max-md:!hidden" style="display: none;">
-    More Info
-</div>
-             </span>
-
-            <div>
-                <div wire:id="CQaxDmPIfF3j50Wcl8RE" class="flex relative z-40" x-data="{ isClipInAnyUserCollection: $wire.entangle(&#39;isClipInAnyUserCollection&#39;), mode: $wire.entangle(&#39;mode&#39;), showModal: $wire.entangle(&#39;showModal&#39;), hidden: $wire.entangle(&#39;hidden&#39;), showTooltip: false}">
-    <span class="relative inline-flex" x-on:mouseover="showTooltip = true" x-on:mouseleave="showTooltip = false">
-        <button class="relative add-to-collection-button overflow-hidden" wire:click.stop.prevent="toggleModal()">
-            <svg x-bind:class="{&#39;text-white&#39;: mode == &#39;light&#39;, &#39;not-added&#39;: !isClipInAnyUserCollection, &#39;!translate-y-0&#39;: !hidden}" x-show="!isClipInAnyUserCollection" class="fill-current h-6 w-6 text-gray-700 outline-none translate-y-8 not-added !translate-y-0" xmlns="http://www.w3.org/2000/svg" fill="currentColor" stroke="none" viewBox="0 0 24 24"><path d="M20 2H8c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2V4c0-1.103-.897-2-2-2zM8 16V4h12l.002 12H8z"></path><path d="M4 8H2v12c0 1.103.897 2 2 2h12v-2H4V8zm11-2h-2v3h-3v2h3v3h2v-3h3V9h-3z"></path></svg>            <svg x-show="isClipInAnyUserCollection" class="fill-current h-6 w-6 text-[#198ACF] outline-none" xmlns="http://www.w3.org/2000/svg" fill="currentColor" stroke="none" viewBox="0 0 24 24" style="display: none;"><path d="M4 22h12v-2H4V8H2v12c0 1.103.897 2 2 2z"></path><path d="M20 2H8c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2V4c0-1.103-.897-2-2-2zm-2 9h-3v3h-2v-3h-3V9h3V6h2v3h3v2z"></path></svg>        </button>
-        <div x-show="showTooltip" class="tooltip max-md:!hidden" style="display: none;">
-    Add to Collections
-</div>
-     </span>
-    <div x-show="showModal" style="display: none;">
-        <div class="modal-wrapper-add-to-collection flex flex-col items-center justify-center absolute bottom-0 right-[-15px] z-60 cursor-auto min-w-[300px] rounded-lg " style="transform: translateY(100%) translateY(10px);">
-            <div class="flex flex-col bg-white fixed top-0 left-0 md:relative md:rounded-lg md:shadow-lg h-full md:h-auto p-4 w-full" @click.outside="showModal = false;">
-                <div class="flex justify-start relative md:justify-between items-center ">
-                    <p class="text-lg font-bold text-[#2b2b2b]">Add to collection</p>
-                    <a href="https://www.videvo.net/my-collections/" class="ml-4 md:ml-0 text-sm text-gray-500 hover:text-gray-700">Manage</a>
-                    <div class="w-10 h-10 flex items-center justify-center absolute top-0 right-0 md:hidden close-modal w-6 text-2xl text-gray-600 leading-4 font-bold text-right" @click.stop.prevent="showModal = false; window.clipActions?.closeAllModals();"></div>
-                </div>
-                <div class="flex justify-start w-full">
-                    <div wire:id="kjnhtvdUW4JozLAxhaSP" class="flex py-2 relative h-[56px] item-center" x-data="{showForm: false, showResponse: false, timeoutToggle: false}">
-    <template x-if="showResponse"></template>
-    <div class="cursor-pointer text-base text-[#1b95e0] bold h-full order-2 flex items-center" @click="showForm = !showForm" x-show="!showForm">
-        <svg class="fill-current w-7 h-7 mr-[10px]" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
-    <path fill="#1B95E0" fill-rule="evenodd" d="M14 7c.552 0 1 .448 1 1v5h5c.552 0 1 .448 1 1s-.448 1-1 1h-5v5c0 .552-.448 1-1 1s-1-.448-1-1v-5H8c-.552 0-1-.448-1-1s.448-1 1-1h5V8c0-.552.448-1 1-1z"></path>
-</svg>        Create new collection
-    </div>
-    <form x-show="showForm" class="flex space-between items-center border border-[#1b95e0] justify-items-stretch rounded-sm overflow-hidden h-full" wire:submit.prevent="addUserCollection" style="display: none;">
-        <input class="px-2 border-0 outline-0 h-full" placeholder="Add collection name" type="text" wire:model="collectionName">
-        <button type="submit" @click="window.clipActions?.closeAllModals(); showResponse = true; setTimeout(() =&gt; {showResponse = false; }, 3000); showForm = !showForm" class="h-full leading-10 bg-gray-100 text-blue-600 text-base font-bold text-center min-w-[60px]">Add</button>
-    </form>
-
-</div>
-<!-- Livewire Component wire-end:kjnhtvdUW4JozLAxhaSP -->                </div>
-                <div class="flex flex-col grow overflow-auto relative md:max-h-[calc(46px*3.5)] max-md:max-h[calc(100vh-100px)] transition duration-150" x-data="{selectedCollections:  [],}">
-                                        <div class="m:h-[80px] flex items-center justify-between fixed py-3 md:py-3 left-0 px-4 bottom-0 left-0 w-full md:!hidden" style="box-shadow: 0 -2px 0 0 rgb(0 0 0 / 10%);">
-                        <a x-on:click="showModal = false; window.clipActions?.closeAllModals();" class="pt-3 pb-3 pr-6 pl-6 font-bold text-base rounded-lg text-blue-600 bg-[#ececec]">Cancel</a>
-                        <a x-on:click="showModal = false; window.clipActions?.closeAllModals(); $wire.toggleClipInUserCollections(selectedCollections)" class="pt-3 pb-3 pr-6 pl-6 font-bold text-base rounded-lg bg-blue-600 text-white">Apply</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Livewire Component wire-end:CQaxDmPIfF3j50Wcl8RE -->            </div>
-            <div>
-                <div wire:id="jYbwcoBUFRBMezCkmZ0z" class="flex" x-data="{ isFavorite: $wire.entangle(&#39;isFavorite&#39;), mode: $wire.entangle(&#39;mode&#39;), hidden: $wire.entangle(&#39;hidden&#39;), showTooltip: false }">
-    <span class="relative inline-flex" x-on:mouseover="showTooltip = true" x-on:mouseleave="showTooltip = false">
-        <button class="text-gray-700 hover:text-gray-900 overflow-hidden toggle-favorite" wire:key="clip-231158" wire:click.stop.prevent="toggleFavorite();">
-            <svg x-bind:class="{&#39;text-white&#39;: mode == &#39;light&#39;, &#39;not-added&#39;: !isFavorite, &#39;!translate-y-0&#39;: !hidden}" x-show="!isFavorite" class="fill-current h-6 w-6 outline-none translate-y-8 not-added !translate-y-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" fill="none"><path d="M5.40956 2.51538C4.45258 1.76408 3.08107 1.83357 2.20944 2.72795C1.25976 3.7024 1.26439 5.28574 2.2182 6.26443L5.74895 9.8873C5.8954 10.0376 6.13284 10.0376 6.27929 9.8873L9.7917 6.28538C10.7392 5.30775 10.7362 3.72885 9.7822 2.74999C8.90375 1.84862 7.52809 1.77191 6.57265 2.52393C6.48883 2.58991 6.40825 2.66226 6.33151 2.74099L5.99605 3.08587L5.65599 2.73693C5.57761 2.65651 5.49525 2.58265 5.40956 2.51538ZM7.04767 3.43893C7.60289 2.86945 8.49943 2.86653 9.06605 3.44793C9.64336 4.04031 9.64309 5.00077 9.07454 5.58846L9.0736 5.58943L6.01425 8.72674L2.93435 5.56648C2.3556 4.97264 2.35777 4.00853 2.92559 3.42589C3.4791 2.85794 4.37486 2.85516 4.93984 3.43488L5.2799 3.78381C5.46824 3.97706 5.72669 4.086 5.99654 4.08587C6.26638 4.08574 6.52472 3.97655 6.71288 3.78312L7.04767 3.43893Z" fill="currentColor"></path></svg>            <svg x-show="isFavorite" class="fill-current h-6 w-6 text-red-700 outline-none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" fill="none" style="display: none;"><path d="M5.65599 2.73693C4.70219 1.75824 3.15912 1.75349 2.20944 2.72795C1.25976 3.7024 1.26439 5.28574 2.2182 6.26443L5.74895 9.8873C5.8954 10.0376 6.13284 10.0376 6.27929 9.8873L9.7917 6.28538C10.7392 5.30775 10.7362 3.72885 9.7822 2.74999C8.82669 1.76955 7.28289 1.76479 6.33151 2.74099L5.99605 3.08587L5.65599 2.73693Z" fill="currentColor"></path></svg>        </button>
-        <div x-show="showTooltip" class="tooltip max-md:!hidden" style="display: none;">
-    Add to Favorites
-</div>
-     </span>
-</div>
-
-<!-- Livewire Component wire-end: -->            </div>
-                        <span class="font-bold text-gray-700 w-[44px]">
-                    FREE
-            </span>
-                        <a href="https://www.videvo.net/royalty-free-music-track/the-flight-of-the-bumble-bee-60s/231158/" class="flex h-9 items-center justify-center rounded-lg bg-blue-400 px-5 font-bold text-white">
-                <svg class="fill-current mr-2 h-4 w-4" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M8 12.2188C7.79281 12.2188 7.59409 12.1364 7.44756 11.9899L4.79594 9.33828C4.49084 9.03319 4.49084 8.53853 4.79594 8.23344C5.10103 7.92834 5.59566 7.92834 5.90078 8.23344L7.21875 9.55141V0.78125C7.21875 0.349781 7.56853 0 8 0C8.43147 0 8.78125 0.349781 8.78125 0.78125V9.55141L10.0992 8.23344C10.4043 7.92834 10.899 7.92834 11.2041 8.23344C11.5092 8.53853 11.5092 9.03319 11.2041 9.33828L8.55244 11.9899C8.40591 12.1364 8.20722 12.2188 8 12.2188ZM14.4375 8.78125C14.4375 8.34978 14.7872 8 15.2188 8C15.6503 8 16 8.34978 16 8.78125V12.9688C16 14.4334 14.8084 15.625 13.3438 15.625H2.65625C1.19159 15.625 0 14.4334 0 12.9688V8.78125C0 8.34978 0.349781 8 0.78125 8C1.21272 8 1.5625 8.34978 1.5625 8.78125V12.9688C1.5625 13.5718 2.05316 14.0625 2.65625 14.0625H13.3438C13.9468 14.0625 14.4375 13.5718 14.4375 12.9688V8.78125Z"></path>
-</svg>                Download
-            </a>
-        </div>
-    </div>
-    <div x-show="showInfo" class="grid grid-cols-3 border-t border-gray-250 p-2 text-sm" style="display: none;">
-                    <div class="border-r border-gray-250 py-2 px-4">
-                <p class="font-bold text-gray-600">Genre</p>
-                                    <a href="https://www.videvo.net/royalty-free-music/classical/" class="font-bold text-gray-900 hover:underline">Classical</a>                                            </div>
-            <div class="border-r border-gray-250 py-2 px-4">
-                <p class="font-bold text-gray-600">Mood</p>
-                                    <a href="https://www.videvo.net/royalty-free-music/mood/anxious/" class="font-bold text-gray-900 hover:underline">Anxious</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/intense/" class="font-bold text-gray-900 hover:underline">Intense</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/frantic/" class="font-bold text-gray-900 hover:underline">Frantic</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/jingle/" class="font-bold text-gray-900 hover:underline">Jingle</a>                                            </div>
-            <div class="py-2 px-4">
-                <p class="font-bold text-gray-600">Instrumentation</p>
-                                    <a href="https://www.videvo.net/royalty-free-music/instrument/string-quartet/" class="font-bold text-gray-900 hover:underline">String Quartet</a>                                            </div>
-        
-    </div>
-</div>
-                                    <div class="-mx-4 mb-2 flex flex-col border-b border-gray-200 px-3 hover:bg-gray-150 lg:mx-0 lg:rounded lg:border-0 audio-row audio-player pb-2 md:pb-0" x-data="{ &#39;showInfo&#39;: false, showTooltip: false }">
-        <div class="flex items-center lg:min-h-20 flex-row lg:gap-4 flex-wrap lg:flex-no-wrap w-full">
-        <div class="flex items-center flex-grow lg:max-w-[380px] lg:min-w-[280px] md:order-1 lg:order-none">
-            <button class="relative mr-4 flex h-14 w-14 shrink-0 items-center justify-center bg-black z-20 button-play-pause" @click="window.audioHandler.handleAudioPlayPause($refs.audioElement228274); playing = playing === 228274 ? &#39;&#39; : 228274;">
-                <img src="./images/music.jpg" class="absolute top-0 left-0 h-full w-full object-cover">
-                <svg x-bind:class="{ &#39;hidden&#39;: playing === 228274 }" class="fill-current relative z-10 h-8 w-8 text-white drop-shadow play-icon" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg"><path d="M14.4621 8.1418L4.15546 1.93628C3.85647 1.75624 3.48667 1.75457 3.18613 1.93178C2.88556 2.10904 2.7002 2.43817 2.7002 2.79451V15.2056C2.7002 15.5619 2.88556 15.891 3.18613 16.0683C3.33511 16.1562 3.50106 16.2 3.66705 16.2C3.83586 16.2 4.00471 16.1546 4.15546 16.0638L14.4621 9.85827C14.7584 9.67986 14.9405 9.35319 14.9405 9.00003C14.9405 8.64688 14.7584 8.32021 14.4621 8.1418Z"></path></svg>                <svg x-bind:class="{ &#39;hidden&#39;: playing !== 228274 }" class="fill-current relative z-10 h-12 w-12 text-white drop-shadow pause-icon hidden" width="54px" height="54px" viewBox="0 0 54 54" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>pause-button-white-sml</title>
-    <g id="pause-button-white-sml" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Group-2" transform="translate(14.000000, 14.000000)">
-            <path d="M8,0 C10.1421954,0 11.8910789,1.82429918 11.9951047,4.1170563 L12,4.33333333 L12,21.6666667 C12,23.9873783 10.3160315,25.8820021 8.19964034,25.9946968 L8,26 L4,26 C1.85780461,26 0.108921124,24.1757008 0.00489530723,21.8829437 L0,21.6666667 L0,4.33333333 C0,2.01262166 1.68396847,0.117997884 3.80035966,0.0053032495 L4,0 L8,0 Z M22,0 C24.1421954,0 25.8910789,1.82429918 25.9951047,4.1170563 L26,4.33333333 L26,21.6666667 C26,23.9873783 24.3160315,25.8820021 22.1996403,25.9946968 L22,26 L18,26 C15.8578046,26 14.1089211,24.1757008 14.0048953,21.8829437 L14,21.6666667 L14,4.33333333 C14,2.01262166 15.6839685,0.117997884 17.8003597,0.0053032495 L18,0 L22,0 Z" id="Combined-Shape" fill-opacity="0.4" fill="#000000"></path>
-            <path d="M4,2 L8,2 C9.1045695,2 10,2.8954305 10,4 L10,22 C10,23.1045695 9.1045695,24 8,24 L4,24 C2.8954305,24 2,23.1045695 2,22 L2,4 C2,2.8954305 2.8954305,2 4,2 Z M18,2 L22,2 C23.1045695,2 24,2.8954305 24,4 L24,22 C24,23.1045695 23.1045695,24 22,24 L18,24 C16.8954305,24 16,23.1045695 16,22 L16,4 C16,2.8954305 16.8954305,2 18,2 Z" id="Combined-Shape" fill="#FFFFFF"></path>
-        </g>
-    </g>
-</svg>                
-                <audio preload="none" x-ref="audioElement228274" x-on:ended="playing = &#39;&#39;" id="linkAudio-228274" class="listing-audio audio-element hidden">
-                                            <source src="https://cdn.videvo.net/videvo_files/audio/premium/audio0088/watermarked/Fantastic-Voyage_FULL_EMM010701_preview.mp3" type="audio/mp3">
-                                        Your browser does not support the audio element.
-                </audio>
-            </button>
-            <div class="flex min-w-0 max-w-[calc(100vw-104px)] flex-col lg:max-w-[280px]">
-                <a href="https://www.videvo.net/royalty-free-music-track/fantastic-voyage/228274/" class="mb-1 font-semibold leading-none text-gray-800 hover:underline overflow-hidden whitespace-nowrap text-ellipsis">Fantastic Voyage</a>
-                                    <a href="https://www.videvo.net/royalty-free-music-albums/epic-movie-music/" class="mb-1 text-sm font-bold leading-none text-gray-400 hover:text-gray-600 overflow-hidden whitespace-nowrap text-ellipsis">
-                        Epic Movie Music
-                    </a>
-                                <p class="w-full truncate text-sm text-gray-600 overflow-hidden whitespace-nowrap text-ellipsis">
-                    Drama &amp; Film Scores
-                    | Achievement, Action, Adventure, Ambitious, Bold, Brave, Confident, Determined, Epic, Fantasy, Inspiring, Motivating, Strong
-                </p>
-            </div>
-        </div>
-        <div class="flex lg:flex-1 items-center w-full h-[60px] max-h-[60px] lg:h-[84px] lg:max-h-[84px] md:grow-[2] md:basis-170% md:min-w-[300px] justify-start md:order-3 lg:order-none xs:my-3 md:my-0">
-            <div class="mr-4 flex-1 h-full w-full">
-                <div class="z-20 w-full h-full">
-                    <div class="waveform waveform-length-bpm h-full w-full relative min-h-[60px] max-h-[60px] lg:min-h-[84px] lg:max-h-[84px]">
-    <div class="waveform-image waveform-container h-full relative w-full overflow-hidden">
-        <canvas id="mainWaveformCanvas-listing-228274" @click="window.audioHandler.handleCanvasClick(event,$refs.audioElement228274);  if(playing === &#39;&#39; || playing !== 228274) { playing = 228274 }" class="js--audio-waveform-canvas belongs-listing h-[60px] lg:h-[84px] w-full max-w-full max-h-[60px] lg:max-h-[84px] absolute top-0 left-0" data-waveformjson="{&quot;margin&quot;:{&quot;low&quot;:0,&quot;high&quot;:250},&quot;heights&quot;:[110,89,77,61,65,60,64,59,64,75,74,94,91,87,110,80,89,77,81,78,70,73,67,75,78,84,87,83,101,103,85,91,105,103,81,97,99,90,97,90,89,104,100,99,94,75,82,81,83,79,85,87,75,85,100,112,111,88,88,89,74,95,79,77,80,92,99,102,88,109,97,98,73,92,87,83,77,81,84,68,76,80,96,96,103,85,71,78,72,65,75,84,89,95,99,109,95,98,78,76,76,87,93,79,92,80,93,91,79,89,79,87,87,76,70,55,75,56,62,61,55,53,49,44,57,57,54,60,78,78,74,76,63,55,68,71,75,96,84,73,69,68,56,66,61,74,77,79,78,68,66,79,77,69,65,63,65,65,73,67,72,59,63,58,55,71,68,55,53,50,64,81,82,58,60,53,48,50,48,58,69,53,61,67,65,72,67,59,59,72,69,71,69,78,69,48,48,48,60,79,81,74,63,75,94,77,97,85,90,101,78,74,73,64,63,52,61,52,46,39,48,36,38,34,29,36,32,15,19,10,7,4,3,3,2,1,2,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,18,16,11,23,18,21,24,17,16,14,14,11,11,11,20,29,23,26,24,15,23,18,16,13,14,15,14,9,13,21,21,31,29,24,27,20,16,14,14,13,14,14,11,10,36,22,32,26,17,21,27,18,17,13,14,12,13,14,19,25,22,30,35,28,29,31,26,25,28,22,22,28,27,48,44,39,35,41,23,32,27,34,30,27,22,26,28,27,26,32,23,23,20,29,27,22,23,24,17,14,16,17,16,17,15,16,15,13,14,11,10,10,10,12,11,9,6,6,4,4,3,2,1,1,1,2,2,2,3,3,6,6,7,10,27,36,31,32,18,21,16,20,16,23,19,9,9,5,4,6,15,12,28,22,29,22,30,24,23,14,18,15,14,16,12,15,15,16,19,23,26,22,24,20,23,19,20,15,18,13,8,10,6,4,24,18,21,33,22,18,14,14,12,10,9,16,17,13,14,10,13,10,13,11,25,24,25,26,33,38,25,27,21,22,29,41,41,44,20,32,33,33,41,35,39,34,32,33,26,30,28,36,32,35,47,52,50,63,53,70,60,50,48,54,49,54,50,49,59,59,50,57,44,41,43,48,32,26,23,34,42,40,41,45,50,42,53,57,53,59,67,65,61,66,74,81,82,87,98,67,82,89,62,54,65,71,81,53,55,59,54,48,58,61,57,82,86,82,84,88,67,81,81,78,78,70,65,63,64,92,68,76,92,78,96,100,106,85,94,77,93,76,80,96,84,71,84,99,89,91,90,77,94,84,82,85,96,77,87,87,82,98,93,82,97,92,83,92,79,73,73,62,64,61,87,88,75,84,95,105,102,67,65,65,83,72,78,80,71,60,67,74,77,78,75,77,68,68,60,66,56,51,81,79,80,86,82,74,87,84,85,88,98,112,96,93,89,94,87,96,83,76,74,85,82,89,76,83,76,74,78,80,67,45,40,28,19,14,12,7,4,3,3,1,0,0,0,13,15,17,19,16,13,35,36,29,37,32,32,34,39,42,37,39,37,40,45,41,40,36,31,27,22,19,19,33,26,26,31,28,30,23,28,22,21,21,24,22,21,23,19,24,21,20,24,22,18,21,16,30,39,37,35,23,18,18,17,14,16,17,16,15,15,14,14,13,16,17,19,17,15,16,17,15,12,13,11,12,12,11,9,7,7,8,8,10,8,8,7,8,8,7,6,6,7,7,6,6,5,4,3,2,1,1,0,0,0,0,0,0,0,0,0,0,0]}" width="529" height="84"></canvas>
-        <div class="blue-waveform-container absolute top-0 left-0 h-full w-0 overflow-hidden pointer-events-none" style="width: 0px;">
-            <div class="overlay absolute top-0 right-0 h-full opacity-50 w-[4px] bg-overlayBlue-500"></div>
-        </div>
-    </div>
-</div>
-                </div>
-            </div>
-            <div>
-                <p class="mb-1 text-sm font-bold leading-none text-gray-600">
-                    01:55
-                </p>
-                                    <p class="text-sm font-bold leading-none text-gray-600">122 BPM</p>
-                            </div>
-        </div>
-        <div class="flex w-full items-center justify-between lg:w-auto md:gap-4 basis-full md:basis-0 grow-0 md:order-2 lg:order-none">
-            <span class="relative inline-flex" x-on:mouseover="showTooltip = true" x-on:mouseleave="showTooltip = false">
-                <button x-on:click="showInfo = ! showInfo">
-                    <svg class="fill-current h-6 w-6 text-gray-700 hover:text-gray-900" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M2.34313 13.6569C3.85416 15.1678 5.86313 16 8 16C10.1369 16 12.1458 15.1678 13.6569 13.6569C15.1678 12.1458 16 10.1369 16 8C16 5.86313 15.1678 3.85416 13.6569 2.34313C12.1458 0.832156 10.1369 0 8 0C5.86313 0 3.85416 0.832156 2.34313 2.34313C0.832156 3.85416 0 5.86313 0 8C0 10.1369 0.832156 12.1458 2.34313 13.6569ZM1.5625 8C1.5625 4.45034 4.45034 1.5625 8 1.5625C11.5497 1.5625 14.4375 4.45034 14.4375 8C14.4375 11.5497 11.5497 14.4375 8 14.4375C4.45034 14.4375 1.5625 11.5497 1.5625 8ZM8.3125 12.5625C7.88103 12.5625 7.53125 12.2127 7.53125 11.7812V7.8125H6.75C6.31853 7.8125 5.96875 7.46272 5.96875 7.03125C5.96875 6.59978 6.31853 6.25 6.75 6.25H8.3125C8.74397 6.25 9.09375 6.59978 9.09375 7.03125V11.7812C9.09375 12.2127 8.74397 12.5625 8.3125 12.5625ZM7.0625 4.375C7.0625 4.89194 7.48306 5.3125 8 5.3125C8.51694 5.3125 8.9375 4.89194 8.9375 4.375C8.9375 3.85806 8.51694 3.4375 8 3.4375C7.48306 3.4375 7.0625 3.85806 7.0625 4.375Z"></path></svg>                </button>
-                <div x-show="showTooltip" class="tooltip max-md:!hidden" style="display: none;">
-    More Info
-</div>
-             </span>
-
-            <div>
-                <div wire:id="zkqodWLArzUeP28vsier" class="flex relative z-40" x-data="{ isClipInAnyUserCollection: $wire.entangle(&#39;isClipInAnyUserCollection&#39;), mode: $wire.entangle(&#39;mode&#39;), showModal: $wire.entangle(&#39;showModal&#39;), hidden: $wire.entangle(&#39;hidden&#39;), showTooltip: false}">
-    <span class="relative inline-flex" x-on:mouseover="showTooltip = true" x-on:mouseleave="showTooltip = false">
-        <button class="relative add-to-collection-button overflow-hidden" wire:click.stop.prevent="toggleModal()">
-            <svg x-bind:class="{&#39;text-white&#39;: mode == &#39;light&#39;, &#39;not-added&#39;: !isClipInAnyUserCollection, &#39;!translate-y-0&#39;: !hidden}" x-show="!isClipInAnyUserCollection" class="fill-current h-6 w-6 text-gray-700 outline-none translate-y-8 not-added !translate-y-0" xmlns="http://www.w3.org/2000/svg" fill="currentColor" stroke="none" viewBox="0 0 24 24"><path d="M20 2H8c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2V4c0-1.103-.897-2-2-2zM8 16V4h12l.002 12H8z"></path><path d="M4 8H2v12c0 1.103.897 2 2 2h12v-2H4V8zm11-2h-2v3h-3v2h3v3h2v-3h3V9h-3z"></path></svg>            <svg x-show="isClipInAnyUserCollection" class="fill-current h-6 w-6 text-[#198ACF] outline-none" xmlns="http://www.w3.org/2000/svg" fill="currentColor" stroke="none" viewBox="0 0 24 24" style="display: none;"><path d="M4 22h12v-2H4V8H2v12c0 1.103.897 2 2 2z"></path><path d="M20 2H8c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2V4c0-1.103-.897-2-2-2zm-2 9h-3v3h-2v-3h-3V9h3V6h2v3h3v2z"></path></svg>        </button>
-        <div x-show="showTooltip" class="tooltip max-md:!hidden" style="display: none;">
-    Add to Collections
-</div>
-     </span>
-    <div x-show="showModal" style="display: none;">
-        <div class="modal-wrapper-add-to-collection flex flex-col items-center justify-center absolute bottom-0 right-[-15px] z-60 cursor-auto min-w-[300px] rounded-lg " style="transform: translateY(100%) translateY(10px);">
-            <div class="flex flex-col bg-white fixed top-0 left-0 md:relative md:rounded-lg md:shadow-lg h-full md:h-auto p-4 w-full" @click.outside="showModal = false;">
-                <div class="flex justify-start relative md:justify-between items-center ">
-                    <p class="text-lg font-bold text-[#2b2b2b]">Add to collection</p>
-                    <a href="https://www.videvo.net/my-collections/" class="ml-4 md:ml-0 text-sm text-gray-500 hover:text-gray-700">Manage</a>
-                    <div class="w-10 h-10 flex items-center justify-center absolute top-0 right-0 md:hidden close-modal w-6 text-2xl text-gray-600 leading-4 font-bold text-right" @click.stop.prevent="showModal = false; window.clipActions?.closeAllModals();"></div>
-                </div>
-                <div class="flex justify-start w-full">
-                    <div wire:id="sS41r8Gs0zp96FAGjIEZ" class="flex py-2 relative h-[56px] item-center" x-data="{showForm: false, showResponse: false, timeoutToggle: false}">
-    <template x-if="showResponse"></template>
-    <div class="cursor-pointer text-base text-[#1b95e0] bold h-full order-2 flex items-center" @click="showForm = !showForm" x-show="!showForm">
-        <svg class="fill-current w-7 h-7 mr-[10px]" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
-    <path fill="#1B95E0" fill-rule="evenodd" d="M14 7c.552 0 1 .448 1 1v5h5c.552 0 1 .448 1 1s-.448 1-1 1h-5v5c0 .552-.448 1-1 1s-1-.448-1-1v-5H8c-.552 0-1-.448-1-1s.448-1 1-1h5V8c0-.552.448-1 1-1z"></path>
-</svg>        Create new collection
-    </div>
-    <form x-show="showForm" class="flex space-between items-center border border-[#1b95e0] justify-items-stretch rounded-sm overflow-hidden h-full" wire:submit.prevent="addUserCollection" style="display: none;">
-        <input class="px-2 border-0 outline-0 h-full" placeholder="Add collection name" type="text" wire:model="collectionName">
-        <button type="submit" @click="window.clipActions?.closeAllModals(); showResponse = true; setTimeout(() =&gt; {showResponse = false; }, 3000); showForm = !showForm" class="h-full leading-10 bg-gray-100 text-blue-600 text-base font-bold text-center min-w-[60px]">Add</button>
-    </form>
-
-</div>
-<!-- Livewire Component wire-end:sS41r8Gs0zp96FAGjIEZ -->                </div>
-                <div class="flex flex-col grow overflow-auto relative md:max-h-[calc(46px*3.5)] max-md:max-h[calc(100vh-100px)] transition duration-150" x-data="{selectedCollections:  [],}">
-                                        <div class="m:h-[80px] flex items-center justify-between fixed py-3 md:py-3 left-0 px-4 bottom-0 left-0 w-full md:!hidden" style="box-shadow: 0 -2px 0 0 rgb(0 0 0 / 10%);">
-                        <a x-on:click="showModal = false; window.clipActions?.closeAllModals();" class="pt-3 pb-3 pr-6 pl-6 font-bold text-base rounded-lg text-blue-600 bg-[#ececec]">Cancel</a>
-                        <a x-on:click="showModal = false; window.clipActions?.closeAllModals(); $wire.toggleClipInUserCollections(selectedCollections)" class="pt-3 pb-3 pr-6 pl-6 font-bold text-base rounded-lg bg-blue-600 text-white">Apply</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Livewire Component wire-end:zkqodWLArzUeP28vsier -->            </div>
-            <div>
-                <div wire:id="dh4ktEwT52MUI0uwG2bO" class="flex" x-data="{ isFavorite: $wire.entangle(&#39;isFavorite&#39;), mode: $wire.entangle(&#39;mode&#39;), hidden: $wire.entangle(&#39;hidden&#39;), showTooltip: false }">
-    <span class="relative inline-flex" x-on:mouseover="showTooltip = true" x-on:mouseleave="showTooltip = false">
-        <button class="text-gray-700 hover:text-gray-900 overflow-hidden toggle-favorite" wire:key="clip-228274" wire:click.stop.prevent="toggleFavorite();">
-            <svg x-bind:class="{&#39;text-white&#39;: mode == &#39;light&#39;, &#39;not-added&#39;: !isFavorite, &#39;!translate-y-0&#39;: !hidden}" x-show="!isFavorite" class="fill-current h-6 w-6 outline-none translate-y-8 not-added !translate-y-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" fill="none"><path d="M5.40956 2.51538C4.45258 1.76408 3.08107 1.83357 2.20944 2.72795C1.25976 3.7024 1.26439 5.28574 2.2182 6.26443L5.74895 9.8873C5.8954 10.0376 6.13284 10.0376 6.27929 9.8873L9.7917 6.28538C10.7392 5.30775 10.7362 3.72885 9.7822 2.74999C8.90375 1.84862 7.52809 1.77191 6.57265 2.52393C6.48883 2.58991 6.40825 2.66226 6.33151 2.74099L5.99605 3.08587L5.65599 2.73693C5.57761 2.65651 5.49525 2.58265 5.40956 2.51538ZM7.04767 3.43893C7.60289 2.86945 8.49943 2.86653 9.06605 3.44793C9.64336 4.04031 9.64309 5.00077 9.07454 5.58846L9.0736 5.58943L6.01425 8.72674L2.93435 5.56648C2.3556 4.97264 2.35777 4.00853 2.92559 3.42589C3.4791 2.85794 4.37486 2.85516 4.93984 3.43488L5.2799 3.78381C5.46824 3.97706 5.72669 4.086 5.99654 4.08587C6.26638 4.08574 6.52472 3.97655 6.71288 3.78312L7.04767 3.43893Z" fill="currentColor"></path></svg>            <svg x-show="isFavorite" class="fill-current h-6 w-6 text-red-700 outline-none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" fill="none" style="display: none;"><path d="M5.65599 2.73693C4.70219 1.75824 3.15912 1.75349 2.20944 2.72795C1.25976 3.7024 1.26439 5.28574 2.2182 6.26443L5.74895 9.8873C5.8954 10.0376 6.13284 10.0376 6.27929 9.8873L9.7917 6.28538C10.7392 5.30775 10.7362 3.72885 9.7822 2.74999C8.82669 1.76955 7.28289 1.76479 6.33151 2.74099L5.99605 3.08587L5.65599 2.73693Z" fill="currentColor"></path></svg>        </button>
-        <div x-show="showTooltip" class="tooltip max-md:!hidden" style="display: none;">
-    Add to Favorites
-</div>
-     </span>
-</div>
-
-<!-- Livewire Component wire-end: -->            </div>
-                        <span class="w-[44px] flex justify-center">
-                <svg data-cy="premium-icon" class="fill-current h-6 w-6 text-orange-600" viewBox="-120 0 512 512.00115" xmlns="http://www.w3.org/2000/svg"><path d="m270.214844 180.054688c-2.628906-4.816407-7.679688-7.816407-13.167969-7.816407h-54.425781l24.753906-154.871093c1.082031-6.773438-2.570312-13.417969-8.867188-16.136719-6.292968-2.71875-13.640624-.820313-17.828124 4.613281l-197.5625 256.398438c-3.488282 4.527343-4.097657 10.644531-1.578126 15.777343 2.523438 5.128907 7.746094 8.378907 13.460938 8.378907h85.816406l-57.566406 206.574218c-1.992188 7.144532 1.539062 14.675782 8.304688 17.710938 1.988281.890625 4.074218 1.316406 6.136718 1.316406 4.96875 0 9.78125-2.476562 12.621094-6.882812l199.351562-309.761719c2.96875-4.613281 3.179688-10.484375.550782-15.300781zm0 0"></path></svg>            </span>
-                        <a href="https://www.videvo.net/royalty-free-music-track/fantastic-voyage/228274/" class="flex h-9 items-center justify-center rounded-lg bg-blue-400 px-5 font-bold text-white">
-                <svg class="fill-current mr-2 h-4 w-4" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M8 12.2188C7.79281 12.2188 7.59409 12.1364 7.44756 11.9899L4.79594 9.33828C4.49084 9.03319 4.49084 8.53853 4.79594 8.23344C5.10103 7.92834 5.59566 7.92834 5.90078 8.23344L7.21875 9.55141V0.78125C7.21875 0.349781 7.56853 0 8 0C8.43147 0 8.78125 0.349781 8.78125 0.78125V9.55141L10.0992 8.23344C10.4043 7.92834 10.899 7.92834 11.2041 8.23344C11.5092 8.53853 11.5092 9.03319 11.2041 9.33828L8.55244 11.9899C8.40591 12.1364 8.20722 12.2188 8 12.2188ZM14.4375 8.78125C14.4375 8.34978 14.7872 8 15.2188 8C15.6503 8 16 8.34978 16 8.78125V12.9688C16 14.4334 14.8084 15.625 13.3438 15.625H2.65625C1.19159 15.625 0 14.4334 0 12.9688V8.78125C0 8.34978 0.349781 8 0.78125 8C1.21272 8 1.5625 8.34978 1.5625 8.78125V12.9688C1.5625 13.5718 2.05316 14.0625 2.65625 14.0625H13.3438C13.9468 14.0625 14.4375 13.5718 14.4375 12.9688V8.78125Z"></path>
-</svg>                Download
-            </a>
-        </div>
-    </div>
-    <div x-show="showInfo" class="grid grid-cols-3 border-t border-gray-250 p-2 text-sm" style="display: none;">
-                    <div class="border-r border-gray-250 py-2 px-4">
-                <p class="font-bold text-gray-600">Genre</p>
-                                    <a href="https://www.videvo.net/royalty-free-music/drama-&amp;-film-scores/" class="font-bold text-gray-900 hover:underline">Drama &amp; Film Scores</a>                                            </div>
-            <div class="border-r border-gray-250 py-2 px-4">
-                <p class="font-bold text-gray-600">Mood</p>
-                                    <a href="https://www.videvo.net/royalty-free-music/mood/confident/" class="font-bold text-gray-900 hover:underline">Confident</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/determined/" class="font-bold text-gray-900 hover:underline">Determined</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/bold/" class="font-bold text-gray-900 hover:underline">Bold</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/ambitious/" class="font-bold text-gray-900 hover:underline">Ambitious</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/brave/" class="font-bold text-gray-900 hover:underline">Brave</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/strong/" class="font-bold text-gray-900 hover:underline">Strong</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/action/" class="font-bold text-gray-900 hover:underline">Action</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/adventure/" class="font-bold text-gray-900 hover:underline">Adventure</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/inspiring/" class="font-bold text-gray-900 hover:underline">Inspiring</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/epic/" class="font-bold text-gray-900 hover:underline">Epic</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/achievement/" class="font-bold text-gray-900 hover:underline">Achievement</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/motivating/" class="font-bold text-gray-900 hover:underline">Motivating</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/fantasy/" class="font-bold text-gray-900 hover:underline">Fantasy</a>                                            </div>
-            <div class="py-2 px-4">
-                <p class="font-bold text-gray-600">Instrumentation</p>
-                                    <a href="https://www.videvo.net/royalty-free-music/instrument/orchestra/" class="font-bold text-gray-900 hover:underline">Orchestra</a>                                            </div>
-        
-    </div>
-</div>
-                                    <div class="-mx-4 mb-2 flex flex-col border-b border-gray-200 px-3 hover:bg-gray-150 lg:mx-0 lg:rounded lg:border-0 audio-row audio-player pb-2 md:pb-0" x-data="{ &#39;showInfo&#39;: false, showTooltip: false }">
-        <div class="flex items-center lg:min-h-20 flex-row lg:gap-4 flex-wrap lg:flex-no-wrap w-full">
-        <div class="flex items-center flex-grow lg:max-w-[380px] lg:min-w-[280px] md:order-1 lg:order-none">
-            <button class="relative mr-4 flex h-14 w-14 shrink-0 items-center justify-center bg-black z-20 button-play-pause" @click="window.audioHandler.handleAudioPlayPause($refs.audioElement230629); playing = playing === 230629 ? &#39;&#39; : 230629;">
-                <img src="./images/music.jpg" class="absolute top-0 left-0 h-full w-full object-cover">
-                <svg x-bind:class="{ &#39;hidden&#39;: playing === 230629 }" class="fill-current relative z-10 h-8 w-8 text-white drop-shadow play-icon" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg"><path d="M14.4621 8.1418L4.15546 1.93628C3.85647 1.75624 3.48667 1.75457 3.18613 1.93178C2.88556 2.10904 2.7002 2.43817 2.7002 2.79451V15.2056C2.7002 15.5619 2.88556 15.891 3.18613 16.0683C3.33511 16.1562 3.50106 16.2 3.66705 16.2C3.83586 16.2 4.00471 16.1546 4.15546 16.0638L14.4621 9.85827C14.7584 9.67986 14.9405 9.35319 14.9405 9.00003C14.9405 8.64688 14.7584 8.32021 14.4621 8.1418Z"></path></svg>                <svg x-bind:class="{ &#39;hidden&#39;: playing !== 230629 }" class="fill-current relative z-10 h-12 w-12 text-white drop-shadow pause-icon hidden" width="54px" height="54px" viewBox="0 0 54 54" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>pause-button-white-sml</title>
-    <g id="pause-button-white-sml" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Group-2" transform="translate(14.000000, 14.000000)">
-            <path d="M8,0 C10.1421954,0 11.8910789,1.82429918 11.9951047,4.1170563 L12,4.33333333 L12,21.6666667 C12,23.9873783 10.3160315,25.8820021 8.19964034,25.9946968 L8,26 L4,26 C1.85780461,26 0.108921124,24.1757008 0.00489530723,21.8829437 L0,21.6666667 L0,4.33333333 C0,2.01262166 1.68396847,0.117997884 3.80035966,0.0053032495 L4,0 L8,0 Z M22,0 C24.1421954,0 25.8910789,1.82429918 25.9951047,4.1170563 L26,4.33333333 L26,21.6666667 C26,23.9873783 24.3160315,25.8820021 22.1996403,25.9946968 L22,26 L18,26 C15.8578046,26 14.1089211,24.1757008 14.0048953,21.8829437 L14,21.6666667 L14,4.33333333 C14,2.01262166 15.6839685,0.117997884 17.8003597,0.0053032495 L18,0 L22,0 Z" id="Combined-Shape" fill-opacity="0.4" fill="#000000"></path>
-            <path d="M4,2 L8,2 C9.1045695,2 10,2.8954305 10,4 L10,22 C10,23.1045695 9.1045695,24 8,24 L4,24 C2.8954305,24 2,23.1045695 2,22 L2,4 C2,2.8954305 2.8954305,2 4,2 Z M18,2 L22,2 C23.1045695,2 24,2.8954305 24,4 L24,22 C24,23.1045695 23.1045695,24 22,24 L18,24 C16.8954305,24 16,23.1045695 16,22 L16,4 C16,2.8954305 16.8954305,2 18,2 Z" id="Combined-Shape" fill="#FFFFFF"></path>
-        </g>
-    </g>
-</svg>                
-                <audio preload="none" x-ref="audioElement230629" x-on:ended="playing = &#39;&#39;" id="linkAudio-230629" class="listing-audio audio-element hidden">
-                                            <source src="https://cdn.videvo.net/videvo_files/audio/premium/audio0140/watermarked/Our-Cause-Is-Just_FULL_HEV011301_preview.mp3" type="audio/mp3">
-                                        Your browser does not support the audio element.
-                </audio>
-            </button>
-            <div class="flex min-w-0 max-w-[calc(100vw-104px)] flex-col lg:max-w-[280px]">
-                <a href="https://www.videvo.net/royalty-free-music-track/our-cause-is-just/230629/" class="mb-1 font-semibold leading-none text-gray-800 hover:underline overflow-hidden whitespace-nowrap text-ellipsis">Our Cause Is Just</a>
-                                    <a href="https://www.videvo.net/royalty-free-music-albums/heroic-victories/" class="mb-1 text-sm font-bold leading-none text-gray-400 hover:text-gray-600 overflow-hidden whitespace-nowrap text-ellipsis">
-                        Heroic Victories
-                    </a>
-                                <p class="w-full truncate text-sm text-gray-600 overflow-hidden whitespace-nowrap text-ellipsis">
-                    Drama &amp; Film Scores
-                    | Achievement, Action, Adventure, Ambitious, Bold, Brave, Determined, Expectant, Inspiring, Motivating, Proud, Strong
-                </p>
-            </div>
-        </div>
-        <div class="flex lg:flex-1 items-center w-full h-[60px] max-h-[60px] lg:h-[84px] lg:max-h-[84px] md:grow-[2] md:basis-170% md:min-w-[300px] justify-start md:order-3 lg:order-none xs:my-3 md:my-0">
-            <div class="mr-4 flex-1 h-full w-full">
-                <div class="z-20 w-full h-full">
-                    <div class="waveform waveform-length-bpm h-full w-full relative min-h-[60px] max-h-[60px] lg:min-h-[84px] lg:max-h-[84px]">
-    <div class="waveform-image waveform-container h-full relative w-full overflow-hidden">
-        <canvas id="mainWaveformCanvas-listing-230629" @click="window.audioHandler.handleCanvasClick(event,$refs.audioElement230629);  if(playing === &#39;&#39; || playing !== 230629) { playing = 230629 }" class="js--audio-waveform-canvas belongs-listing h-[60px] lg:h-[84px] w-full max-w-full max-h-[60px] lg:max-h-[84px] absolute top-0 left-0" data-waveformjson="{&quot;margin&quot;:{&quot;low&quot;:0,&quot;high&quot;:250},&quot;heights&quot;:[0,2,6,9,7,7,8,6,32,21,27,24,32,33,33,31,35,32,27,32,31,28,50,35,57,48,40,31,33,20,33,34,40,37,31,35,31,31,31,34,36,47,42,33,52,38,41,41,36,56,55,48,40,35,42,29,42,43,52,43,43,40,38,40,42,36,39,35,44,48,47,41,45,63,49,37,36,46,40,35,36,70,47,50,43,39,49,58,43,70,55,40,40,38,34,42,36,53,46,46,53,48,44,44,40,48,46,48,41,59,52,44,50,57,63,63,53,49,58,66,64,71,65,52,46,51,58,49,63,63,60,59,73,73,78,83,88,77,34,22,10,7,4,3,3,1,1,1,1,0,0,0,0,1,76,48,53,45,68,74,51,73,67,48,49,77,71,60,73,48,68,65,61,61,62,59,60,63,53,47,51,66,82,55,61,79,71,58,60,82,64,66,61,64,61,63,64,64,67,82,56,71,54,78,72,78,57,65,63,89,70,62,59,74,69,52,67,76,77,58,62,73,62,59,70,75,55,58,78,67,68,69,71,60,74,70,76,76,65,62,77,56,64,80,76,78,78,47,79,70,67,68,97,65,65,67,93,61,70,68,69,68,70,62,78,64,60,78,88,77,84,80,73,70,80,73,89,93,89,97,84,64,52,77,79,66,68,83,78,78,75,74,75,67,72,77,88,75,67,68,77,71,63,85,75,79,84,80,72,66,71,70,77,81,75,78,85,67,73,83,72,83,88,87,75,70,89,83,72,69,77,83,71,70,92,72,79,76,78,72,95,61,89,71,71,58,72,88,59,67,87,72,73,64,81,78,69,83,88,80,70,86,78,82,72,75,83,72,72,90,88,74,67,78,90,79,73,93,86,73,78,82,77,76,83,92,94,84,77,80,83,74,69,83,79,82,76,85,84,84,80,84,78,79,93,90,85,89,104,88,77,80,85,85,96,76,86,78,85,70,91,90,89,80,83,76,72,79,96,75,80,73,85,86,92,72,91,84,77,84,88,76,79,86,89,92,90,80,99,83,77,75,106,83,74,88,82,73,89,89,90,82,86,91,92,90,83,81,94,89,93,94,89,72,79,108,95,83,73,89,82,78,73,88,104,97,88,88,78,87,86,91,63,78,85,91,94,80,90,98,82,91,88,84,87,98,93,95,88,72,91,86,79,83,95,97,95,81,90,92,85,80,100,81,85,83,93,92,92,74,97,102,92,92,93,84,82,71,97,85,76,84,83,82,82,82,93,86,82,96,78,82,90,88,94,79,80,85,90,89,91,102,103,103,81,89,88,83,88,89,89,91,77,97,93,86,75,109,88,86,80,101,85,88,89,100,87,91,95,87,84,78,98,88,91,85,97,90,92,78,87,96,87,75,86,90,85,85,100,93,90,83,91,86,94,85,92,87,87,83,94,95,91,81,95,90,88,89,94,86,79,74,97,72,95,77,80,94,90,80,92,90,81,93,91,93,100,89,98,92,87,95,90,89,86,96,91,91,87,94,88,92,80,90,96,81,87,96,92,86,97,99,84,94,82,90,99,85,75,87,79,91,79,93,91,85,84,93,81,87,101,87,92,95,83,88,83,85,94,84,90,84,90,99,100,94,97,86,90,92,93,100,87,80,83,93,94,83,88,84,90,88,96,86,97,86,89,100,87,106,97,90,95,84,99,91,78,99,86,83,84,85,96,89,87,90,91,99,85,88,95,84,92,92,95,90,65,100,98,90,70,85,85,89,93,94,96,87,91,97,81,72,45,30,27,15,11,9,6,7,5,5,4,3,2,2,2,1,0,0,0,0,0,0,0,0,0,0,0,0]}" width="529" height="84"></canvas>
-        <div class="blue-waveform-container absolute top-0 left-0 h-full w-0 overflow-hidden pointer-events-none" style="width: 0px;">
-            <div class="overlay absolute top-0 right-0 h-full opacity-50 w-[4px] bg-overlayBlue-500"></div>
-        </div>
-    </div>
-</div>
-                </div>
-            </div>
-            <div>
-                <p class="mb-1 text-sm font-bold leading-none text-gray-600">
-                    02:43
-                </p>
-                                    <p class="text-sm font-bold leading-none text-gray-600">150 BPM</p>
-                            </div>
-        </div>
-        <div class="flex w-full items-center justify-between lg:w-auto md:gap-4 basis-full md:basis-0 grow-0 md:order-2 lg:order-none">
-            <span class="relative inline-flex" x-on:mouseover="showTooltip = true" x-on:mouseleave="showTooltip = false">
-                <button x-on:click="showInfo = ! showInfo">
-                    <svg class="fill-current h-6 w-6 text-gray-700 hover:text-gray-900" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M2.34313 13.6569C3.85416 15.1678 5.86313 16 8 16C10.1369 16 12.1458 15.1678 13.6569 13.6569C15.1678 12.1458 16 10.1369 16 8C16 5.86313 15.1678 3.85416 13.6569 2.34313C12.1458 0.832156 10.1369 0 8 0C5.86313 0 3.85416 0.832156 2.34313 2.34313C0.832156 3.85416 0 5.86313 0 8C0 10.1369 0.832156 12.1458 2.34313 13.6569ZM1.5625 8C1.5625 4.45034 4.45034 1.5625 8 1.5625C11.5497 1.5625 14.4375 4.45034 14.4375 8C14.4375 11.5497 11.5497 14.4375 8 14.4375C4.45034 14.4375 1.5625 11.5497 1.5625 8ZM8.3125 12.5625C7.88103 12.5625 7.53125 12.2127 7.53125 11.7812V7.8125H6.75C6.31853 7.8125 5.96875 7.46272 5.96875 7.03125C5.96875 6.59978 6.31853 6.25 6.75 6.25H8.3125C8.74397 6.25 9.09375 6.59978 9.09375 7.03125V11.7812C9.09375 12.2127 8.74397 12.5625 8.3125 12.5625ZM7.0625 4.375C7.0625 4.89194 7.48306 5.3125 8 5.3125C8.51694 5.3125 8.9375 4.89194 8.9375 4.375C8.9375 3.85806 8.51694 3.4375 8 3.4375C7.48306 3.4375 7.0625 3.85806 7.0625 4.375Z"></path></svg>                </button>
-                <div x-show="showTooltip" class="tooltip max-md:!hidden" style="display: none;">
-    More Info
-</div>
-             </span>
-
-            <div>
-                <div wire:id="mKD5QyKlNXVqMwuwtiFe" class="flex relative z-40" x-data="{ isClipInAnyUserCollection: $wire.entangle(&#39;isClipInAnyUserCollection&#39;), mode: $wire.entangle(&#39;mode&#39;), showModal: $wire.entangle(&#39;showModal&#39;), hidden: $wire.entangle(&#39;hidden&#39;), showTooltip: false}">
-    <span class="relative inline-flex" x-on:mouseover="showTooltip = true" x-on:mouseleave="showTooltip = false">
-        <button class="relative add-to-collection-button overflow-hidden" wire:click.stop.prevent="toggleModal()">
-            <svg x-bind:class="{&#39;text-white&#39;: mode == &#39;light&#39;, &#39;not-added&#39;: !isClipInAnyUserCollection, &#39;!translate-y-0&#39;: !hidden}" x-show="!isClipInAnyUserCollection" class="fill-current h-6 w-6 text-gray-700 outline-none translate-y-8 not-added !translate-y-0" xmlns="http://www.w3.org/2000/svg" fill="currentColor" stroke="none" viewBox="0 0 24 24"><path d="M20 2H8c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2V4c0-1.103-.897-2-2-2zM8 16V4h12l.002 12H8z"></path><path d="M4 8H2v12c0 1.103.897 2 2 2h12v-2H4V8zm11-2h-2v3h-3v2h3v3h2v-3h3V9h-3z"></path></svg>            <svg x-show="isClipInAnyUserCollection" class="fill-current h-6 w-6 text-[#198ACF] outline-none" xmlns="http://www.w3.org/2000/svg" fill="currentColor" stroke="none" viewBox="0 0 24 24" style="display: none;"><path d="M4 22h12v-2H4V8H2v12c0 1.103.897 2 2 2z"></path><path d="M20 2H8c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2V4c0-1.103-.897-2-2-2zm-2 9h-3v3h-2v-3h-3V9h3V6h2v3h3v2z"></path></svg>        </button>
-        <div x-show="showTooltip" class="tooltip max-md:!hidden" style="display: none;">
-    Add to Collections
-</div>
-     </span>
-    <div x-show="showModal" style="display: none;">
-        <div class="modal-wrapper-add-to-collection flex flex-col items-center justify-center absolute bottom-0 right-[-15px] z-60 cursor-auto min-w-[300px] rounded-lg " style="transform: translateY(100%) translateY(10px);">
-            <div class="flex flex-col bg-white fixed top-0 left-0 md:relative md:rounded-lg md:shadow-lg h-full md:h-auto p-4 w-full" @click.outside="showModal = false;">
-                <div class="flex justify-start relative md:justify-between items-center ">
-                    <p class="text-lg font-bold text-[#2b2b2b]">Add to collection</p>
-                    <a href="https://www.videvo.net/my-collections/" class="ml-4 md:ml-0 text-sm text-gray-500 hover:text-gray-700">Manage</a>
-                    <div class="w-10 h-10 flex items-center justify-center absolute top-0 right-0 md:hidden close-modal w-6 text-2xl text-gray-600 leading-4 font-bold text-right" @click.stop.prevent="showModal = false; window.clipActions?.closeAllModals();"></div>
-                </div>
-                <div class="flex justify-start w-full">
-                    <div wire:id="RMJuRDo3i4U2wuE9PAC8" class="flex py-2 relative h-[56px] item-center" x-data="{showForm: false, showResponse: false, timeoutToggle: false}">
-    <template x-if="showResponse"></template>
-    <div class="cursor-pointer text-base text-[#1b95e0] bold h-full order-2 flex items-center" @click="showForm = !showForm" x-show="!showForm">
-        <svg class="fill-current w-7 h-7 mr-[10px]" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
-    <path fill="#1B95E0" fill-rule="evenodd" d="M14 7c.552 0 1 .448 1 1v5h5c.552 0 1 .448 1 1s-.448 1-1 1h-5v5c0 .552-.448 1-1 1s-1-.448-1-1v-5H8c-.552 0-1-.448-1-1s.448-1 1-1h5V8c0-.552.448-1 1-1z"></path>
-</svg>        Create new collection
-    </div>
-    <form x-show="showForm" class="flex space-between items-center border border-[#1b95e0] justify-items-stretch rounded-sm overflow-hidden h-full" wire:submit.prevent="addUserCollection" style="display: none;">
-        <input class="px-2 border-0 outline-0 h-full" placeholder="Add collection name" type="text" wire:model="collectionName">
-        <button type="submit" @click="window.clipActions?.closeAllModals(); showResponse = true; setTimeout(() =&gt; {showResponse = false; }, 3000); showForm = !showForm" class="h-full leading-10 bg-gray-100 text-blue-600 text-base font-bold text-center min-w-[60px]">Add</button>
-    </form>
-
-</div>
-<!-- Livewire Component wire-end:RMJuRDo3i4U2wuE9PAC8 -->                </div>
-                <div class="flex flex-col grow overflow-auto relative md:max-h-[calc(46px*3.5)] max-md:max-h[calc(100vh-100px)] transition duration-150" x-data="{selectedCollections:  [],}">
-                                        <div class="m:h-[80px] flex items-center justify-between fixed py-3 md:py-3 left-0 px-4 bottom-0 left-0 w-full md:!hidden" style="box-shadow: 0 -2px 0 0 rgb(0 0 0 / 10%);">
-                        <a x-on:click="showModal = false; window.clipActions?.closeAllModals();" class="pt-3 pb-3 pr-6 pl-6 font-bold text-base rounded-lg text-blue-600 bg-[#ececec]">Cancel</a>
-                        <a x-on:click="showModal = false; window.clipActions?.closeAllModals(); $wire.toggleClipInUserCollections(selectedCollections)" class="pt-3 pb-3 pr-6 pl-6 font-bold text-base rounded-lg bg-blue-600 text-white">Apply</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Livewire Component wire-end:mKD5QyKlNXVqMwuwtiFe -->            </div>
-            <div>
-                <div wire:id="fSSryncqQQ6Jj7t6QYyy" class="flex" x-data="{ isFavorite: $wire.entangle(&#39;isFavorite&#39;), mode: $wire.entangle(&#39;mode&#39;), hidden: $wire.entangle(&#39;hidden&#39;), showTooltip: false }">
-    <span class="relative inline-flex" x-on:mouseover="showTooltip = true" x-on:mouseleave="showTooltip = false">
-        <button class="text-gray-700 hover:text-gray-900 overflow-hidden toggle-favorite" wire:key="clip-230629" wire:click.stop.prevent="toggleFavorite();">
-            <svg x-bind:class="{&#39;text-white&#39;: mode == &#39;light&#39;, &#39;not-added&#39;: !isFavorite, &#39;!translate-y-0&#39;: !hidden}" x-show="!isFavorite" class="fill-current h-6 w-6 outline-none translate-y-8 not-added !translate-y-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" fill="none"><path d="M5.40956 2.51538C4.45258 1.76408 3.08107 1.83357 2.20944 2.72795C1.25976 3.7024 1.26439 5.28574 2.2182 6.26443L5.74895 9.8873C5.8954 10.0376 6.13284 10.0376 6.27929 9.8873L9.7917 6.28538C10.7392 5.30775 10.7362 3.72885 9.7822 2.74999C8.90375 1.84862 7.52809 1.77191 6.57265 2.52393C6.48883 2.58991 6.40825 2.66226 6.33151 2.74099L5.99605 3.08587L5.65599 2.73693C5.57761 2.65651 5.49525 2.58265 5.40956 2.51538ZM7.04767 3.43893C7.60289 2.86945 8.49943 2.86653 9.06605 3.44793C9.64336 4.04031 9.64309 5.00077 9.07454 5.58846L9.0736 5.58943L6.01425 8.72674L2.93435 5.56648C2.3556 4.97264 2.35777 4.00853 2.92559 3.42589C3.4791 2.85794 4.37486 2.85516 4.93984 3.43488L5.2799 3.78381C5.46824 3.97706 5.72669 4.086 5.99654 4.08587C6.26638 4.08574 6.52472 3.97655 6.71288 3.78312L7.04767 3.43893Z" fill="currentColor"></path></svg>            <svg x-show="isFavorite" class="fill-current h-6 w-6 text-red-700 outline-none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" fill="none" style="display: none;"><path d="M5.65599 2.73693C4.70219 1.75824 3.15912 1.75349 2.20944 2.72795C1.25976 3.7024 1.26439 5.28574 2.2182 6.26443L5.74895 9.8873C5.8954 10.0376 6.13284 10.0376 6.27929 9.8873L9.7917 6.28538C10.7392 5.30775 10.7362 3.72885 9.7822 2.74999C8.82669 1.76955 7.28289 1.76479 6.33151 2.74099L5.99605 3.08587L5.65599 2.73693Z" fill="currentColor"></path></svg>        </button>
-        <div x-show="showTooltip" class="tooltip max-md:!hidden" style="display: none;">
-    Add to Favorites
-</div>
-     </span>
-</div>
-
-<!-- Livewire Component wire-end: -->            </div>
-                        <span class="font-bold text-gray-700 w-[44px]">
-                    FREE
-            </span>
-                        <a href="https://www.videvo.net/royalty-free-music-track/our-cause-is-just/230629/" class="flex h-9 items-center justify-center rounded-lg bg-blue-400 px-5 font-bold text-white">
-                <svg class="fill-current mr-2 h-4 w-4" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M8 12.2188C7.79281 12.2188 7.59409 12.1364 7.44756 11.9899L4.79594 9.33828C4.49084 9.03319 4.49084 8.53853 4.79594 8.23344C5.10103 7.92834 5.59566 7.92834 5.90078 8.23344L7.21875 9.55141V0.78125C7.21875 0.349781 7.56853 0 8 0C8.43147 0 8.78125 0.349781 8.78125 0.78125V9.55141L10.0992 8.23344C10.4043 7.92834 10.899 7.92834 11.2041 8.23344C11.5092 8.53853 11.5092 9.03319 11.2041 9.33828L8.55244 11.9899C8.40591 12.1364 8.20722 12.2188 8 12.2188ZM14.4375 8.78125C14.4375 8.34978 14.7872 8 15.2188 8C15.6503 8 16 8.34978 16 8.78125V12.9688C16 14.4334 14.8084 15.625 13.3438 15.625H2.65625C1.19159 15.625 0 14.4334 0 12.9688V8.78125C0 8.34978 0.349781 8 0.78125 8C1.21272 8 1.5625 8.34978 1.5625 8.78125V12.9688C1.5625 13.5718 2.05316 14.0625 2.65625 14.0625H13.3438C13.9468 14.0625 14.4375 13.5718 14.4375 12.9688V8.78125Z"></path>
-</svg>                Download
-            </a>
-        </div>
-    </div>
-    <div x-show="showInfo" class="grid grid-cols-3 border-t border-gray-250 p-2 text-sm" style="display: none;">
-                    <div class="border-r border-gray-250 py-2 px-4">
-                <p class="font-bold text-gray-600">Genre</p>
-                                    <a href="https://www.videvo.net/royalty-free-music/drama-&amp;-film-scores/" class="font-bold text-gray-900 hover:underline">Drama &amp; Film Scores</a>                                            </div>
-            <div class="border-r border-gray-250 py-2 px-4">
-                <p class="font-bold text-gray-600">Mood</p>
-                                    <a href="https://www.videvo.net/royalty-free-music/mood/determined/" class="font-bold text-gray-900 hover:underline">Determined</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/bold/" class="font-bold text-gray-900 hover:underline">Bold</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/ambitious/" class="font-bold text-gray-900 hover:underline">Ambitious</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/brave/" class="font-bold text-gray-900 hover:underline">Brave</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/strong/" class="font-bold text-gray-900 hover:underline">Strong</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/proud/" class="font-bold text-gray-900 hover:underline">Proud</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/action/" class="font-bold text-gray-900 hover:underline">Action</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/adventure/" class="font-bold text-gray-900 hover:underline">Adventure</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/inspiring/" class="font-bold text-gray-900 hover:underline">Inspiring</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/expectant/" class="font-bold text-gray-900 hover:underline">Expectant</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/achievement/" class="font-bold text-gray-900 hover:underline">Achievement</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/motivating/" class="font-bold text-gray-900 hover:underline">Motivating</a>                                            </div>
-            <div class="py-2 px-4">
-                <p class="font-bold text-gray-600">Instrumentation</p>
-                                    <a href="https://www.videvo.net/royalty-free-music/instrument/orchestra/" class="font-bold text-gray-900 hover:underline">Orchestra</a>                                            </div>
-        
-    </div>
-</div>
-                                    <div class="-mx-4 mb-2 flex flex-col border-b border-gray-200 px-3 hover:bg-gray-150 lg:mx-0 lg:rounded lg:border-0 audio-row audio-player pb-2 md:pb-0" x-data="{ &#39;showInfo&#39;: false, showTooltip: false }">
-        <div class="flex items-center lg:min-h-20 flex-row lg:gap-4 flex-wrap lg:flex-no-wrap w-full">
-        <div class="flex items-center flex-grow lg:max-w-[380px] lg:min-w-[280px] md:order-1 lg:order-none">
-            <button class="relative mr-4 flex h-14 w-14 shrink-0 items-center justify-center bg-black z-20 button-play-pause" @click="window.audioHandler.handleAudioPlayPause($refs.audioElement229310); playing = playing === 229310 ? &#39;&#39; : 229310;">
-                <img src="./images/music.jpg" class="absolute top-0 left-0 h-full w-full object-cover">
-                <svg x-bind:class="{ &#39;hidden&#39;: playing === 229310 }" class="fill-current relative z-10 h-8 w-8 text-white drop-shadow play-icon" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg"><path d="M14.4621 8.1418L4.15546 1.93628C3.85647 1.75624 3.48667 1.75457 3.18613 1.93178C2.88556 2.10904 2.7002 2.43817 2.7002 2.79451V15.2056C2.7002 15.5619 2.88556 15.891 3.18613 16.0683C3.33511 16.1562 3.50106 16.2 3.66705 16.2C3.83586 16.2 4.00471 16.1546 4.15546 16.0638L14.4621 9.85827C14.7584 9.67986 14.9405 9.35319 14.9405 9.00003C14.9405 8.64688 14.7584 8.32021 14.4621 8.1418Z"></path></svg>                <svg x-bind:class="{ &#39;hidden&#39;: playing !== 229310 }" class="fill-current relative z-10 h-12 w-12 text-white drop-shadow pause-icon hidden" width="54px" height="54px" viewBox="0 0 54 54" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>pause-button-white-sml</title>
-    <g id="pause-button-white-sml" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Group-2" transform="translate(14.000000, 14.000000)">
-            <path d="M8,0 C10.1421954,0 11.8910789,1.82429918 11.9951047,4.1170563 L12,4.33333333 L12,21.6666667 C12,23.9873783 10.3160315,25.8820021 8.19964034,25.9946968 L8,26 L4,26 C1.85780461,26 0.108921124,24.1757008 0.00489530723,21.8829437 L0,21.6666667 L0,4.33333333 C0,2.01262166 1.68396847,0.117997884 3.80035966,0.0053032495 L4,0 L8,0 Z M22,0 C24.1421954,0 25.8910789,1.82429918 25.9951047,4.1170563 L26,4.33333333 L26,21.6666667 C26,23.9873783 24.3160315,25.8820021 22.1996403,25.9946968 L22,26 L18,26 C15.8578046,26 14.1089211,24.1757008 14.0048953,21.8829437 L14,21.6666667 L14,4.33333333 C14,2.01262166 15.6839685,0.117997884 17.8003597,0.0053032495 L18,0 L22,0 Z" id="Combined-Shape" fill-opacity="0.4" fill="#000000"></path>
-            <path d="M4,2 L8,2 C9.1045695,2 10,2.8954305 10,4 L10,22 C10,23.1045695 9.1045695,24 8,24 L4,24 C2.8954305,24 2,23.1045695 2,22 L2,4 C2,2.8954305 2.8954305,2 4,2 Z M18,2 L22,2 C23.1045695,2 24,2.8954305 24,4 L24,22 C24,23.1045695 23.1045695,24 22,24 L18,24 C16.8954305,24 16,23.1045695 16,22 L16,4 C16,2.8954305 16.8954305,2 18,2 Z" id="Combined-Shape" fill="#FFFFFF"></path>
-        </g>
-    </g>
-</svg>                
-                <audio preload="none" x-ref="audioElement229310" x-on:ended="playing = &#39;&#39;" id="linkAudio-229310" class="listing-audio audio-element hidden">
-                                            <source src="https://cdn.videvo.net/videvo_files/audio/premium/audio0120/watermarked/Innocent-Face-PEL011701_preview.mp3" type="audio/mp3">
-                                        Your browser does not support the audio element.
-                </audio>
-            </button>
-            <div class="flex min-w-0 max-w-[calc(100vw-104px)] flex-col lg:max-w-[280px]">
-                <a href="https://www.videvo.net/royalty-free-music-track/innocent-face/229310/" class="mb-1 font-semibold leading-none text-gray-800 hover:underline overflow-hidden whitespace-nowrap text-ellipsis">Innocent Face</a>
-                                    <a href="https://www.videvo.net/royalty-free-music-albums/positive-easy-listening-music/" class="mb-1 text-sm font-bold leading-none text-gray-400 hover:text-gray-600 overflow-hidden whitespace-nowrap text-ellipsis">
-                        Positive Easy Listening Music
-                    </a>
-                                <p class="w-full truncate text-sm text-gray-600 overflow-hidden whitespace-nowrap text-ellipsis">
-                    Easy Listening Romantic
-                    | Affectionate, Happy, Nostalgic, Optimistic, Relaxed, Romantic, Tender
-                </p>
-            </div>
-        </div>
-        <div class="flex lg:flex-1 items-center w-full h-[60px] max-h-[60px] lg:h-[84px] lg:max-h-[84px] md:grow-[2] md:basis-170% md:min-w-[300px] justify-start md:order-3 lg:order-none xs:my-3 md:my-0">
-            <div class="mr-4 flex-1 h-full w-full">
-                <div class="z-20 w-full h-full">
-                    <div class="waveform waveform-length-bpm h-full w-full relative min-h-[60px] max-h-[60px] lg:min-h-[84px] lg:max-h-[84px]">
-    <div class="waveform-image waveform-container h-full relative w-full overflow-hidden">
-        <canvas id="mainWaveformCanvas-listing-229310" @click="window.audioHandler.handleCanvasClick(event,$refs.audioElement229310);  if(playing === &#39;&#39; || playing !== 229310) { playing = 229310 }" class="js--audio-waveform-canvas belongs-listing h-[60px] lg:h-[84px] w-full max-w-full max-h-[60px] lg:max-h-[84px] absolute top-0 left-0" data-waveformjson="{&quot;margin&quot;:{&quot;low&quot;:0,&quot;high&quot;:250},&quot;heights&quot;:[27,16,20,13,13,15,13,16,18,29,48,18,22,18,15,15,17,23,24,26,65,18,14,32,22,40,21,46,33,23,49,19,19,39,29,54,27,57,35,46,55,41,35,43,35,48,66,30,38,41,39,77,32,43,32,40,58,21,63,33,41,62,43,35,38,35,59,38,55,44,41,73,39,33,31,25,65,22,52,31,46,57,42,57,33,35,65,36,49,36,35,20,71,44,32,35,40,50,33,57,43,44,56,36,44,47,36,57,25,58,43,37,57,33,35,22,21,53,41,53,39,57,78,54,52,39,56,63,50,48,37,31,40,68,44,41,46,29,65,31,58,35,38,89,42,49,48,55,88,29,48,37,36,65,36,36,37,28,66,46,42,28,45,77,47,62,39,28,69,47,59,52,33,65,46,35,35,36,40,61,23,53,39,41,74,39,35,27,46,55,38,54,28,45,65,45,39,36,42,64,35,71,41,33,65,52,46,29,45,65,51,45,48,34,63,54,72,63,63,62,79,55,75,74,61,76,54,99,43,70,48,76,93,59,65,98,49,71,43,53,47,70,40,75,47,74,47,76,59,43,64,77,79,76,77,87,51,90,48,58,80,55,74,87,54,55,72,54,86,46,59,55,91,68,64,67,81,54,79,50,67,59,86,77,68,52,87,45,63,51,48,45,87,43,73,91,59,52,56,51,59,57,46,81,50,86,102,109,77,64,49,37,57,39,72,30,34,75,31,80,27,30,74,24,54,35,55,92,38,54,27,44,88,38,62,39,30,86,50,46,59,56,54,51,54,56,63,80,50,61,51,40,28,56,43,54,48,38,88,46,67,39,37,60,42,50,44,50,51,46,34,39,57,73,41,52,80,48,105,73,55,40,35,29,28,51,30,24,56,28,29,32,35,48,23,36,57,46,38,104,48,64,42,34,82,45,44,40,36,69,49,49,49,54,65,37,79,67,60,92,42,48,50,49,68,40,76,64,50,92,43,47,33,38,49,26,65,57,56,43,96,44,54,43,42,41,95,60,63,58,81,52,56,47,33,33,67,64,51,39,77,51,63,43,43,66,42,44,54,53,94,50,70,47,37,60,34,53,46,73,106,85,75,59,59,44,58,47,49,57,45,99,43,85,40,31,45,67,91,52,65,79,38,57,44,51,62,37,54,61,50,67,47,70,61,39,85,59,98,75,81,89,75,64,46,45,66,70,51,77,58,52,84,49,49,29,61,67,35,85,47,85,77,51,43,44,52,76,45,36,42,48,98,57,75,54,42,67,46,64,91,59,81,59,87,83,53,69,39,74,77,61,62,97,52,54,44,64,59,75,71,59,49,74,47,76,28,61,38,88,89,80,78,90,52,90,37,53,78,83,43,91,62,81,62,84,81,51,68,89,53,93,61,98,47,58,59,45,59,49,68,75,75,55,72,55,79,39,72,52,84,86,59,82,87,53,84,37,76,49,82,88,64,56,74,61,85,63,46,52,87,63,70,72,85,58,63,65,49,58,69,48,75,50,43,89,50,65,48,46,47,90,63,82,83,65,54,64,32,61,54,83,40,49,87,94,72,80,50,39,81,34,56,62,60,85,40,53,42,51,66,37,85,70,64,98,68,41,54,60,52,91,88,62,60,35,68,38,42,28,41,103,46,36,37,63,87,37,36,40,47,55,43,54,56,71,72,58,40,36,37,39,38,42,42,47,84,56,43,34,38,35,36,37,33,32,29,26,25,23,24,19,19,15,11,10,13,13,20,23,15,16,13,13,16,12,14,11,13,10,14,12,10,9,13,7,10,7,5,3,1,0,0,0,0,0,0,0,0,0]}" width="535" height="84"></canvas>
-        <div class="blue-waveform-container absolute top-0 left-0 h-full w-0 overflow-hidden pointer-events-none" style="width: 0px;">
-            <div class="overlay absolute top-0 right-0 h-full opacity-50 w-[4px] bg-overlayBlue-500"></div>
-        </div>
-    </div>
-</div>
-                </div>
-            </div>
-            <div>
-                <p class="mb-1 text-sm font-bold leading-none text-gray-600">
-                    03:11
-                </p>
-                                    <p class="text-sm font-bold leading-none text-gray-600">99 BPM</p>
-                            </div>
-        </div>
-        <div class="flex w-full items-center justify-between lg:w-auto md:gap-4 basis-full md:basis-0 grow-0 md:order-2 lg:order-none">
-            <span class="relative inline-flex" x-on:mouseover="showTooltip = true" x-on:mouseleave="showTooltip = false">
-                <button x-on:click="showInfo = ! showInfo">
-                    <svg class="fill-current h-6 w-6 text-gray-700 hover:text-gray-900" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M2.34313 13.6569C3.85416 15.1678 5.86313 16 8 16C10.1369 16 12.1458 15.1678 13.6569 13.6569C15.1678 12.1458 16 10.1369 16 8C16 5.86313 15.1678 3.85416 13.6569 2.34313C12.1458 0.832156 10.1369 0 8 0C5.86313 0 3.85416 0.832156 2.34313 2.34313C0.832156 3.85416 0 5.86313 0 8C0 10.1369 0.832156 12.1458 2.34313 13.6569ZM1.5625 8C1.5625 4.45034 4.45034 1.5625 8 1.5625C11.5497 1.5625 14.4375 4.45034 14.4375 8C14.4375 11.5497 11.5497 14.4375 8 14.4375C4.45034 14.4375 1.5625 11.5497 1.5625 8ZM8.3125 12.5625C7.88103 12.5625 7.53125 12.2127 7.53125 11.7812V7.8125H6.75C6.31853 7.8125 5.96875 7.46272 5.96875 7.03125C5.96875 6.59978 6.31853 6.25 6.75 6.25H8.3125C8.74397 6.25 9.09375 6.59978 9.09375 7.03125V11.7812C9.09375 12.2127 8.74397 12.5625 8.3125 12.5625ZM7.0625 4.375C7.0625 4.89194 7.48306 5.3125 8 5.3125C8.51694 5.3125 8.9375 4.89194 8.9375 4.375C8.9375 3.85806 8.51694 3.4375 8 3.4375C7.48306 3.4375 7.0625 3.85806 7.0625 4.375Z"></path></svg>                </button>
-                <div x-show="showTooltip" class="tooltip max-md:!hidden" style="display: none;">
-    More Info
-</div>
-             </span>
-
-            <div>
-                <div wire:id="8R2xnOSEnQFMHKvf4Gb4" class="flex relative z-40" x-data="{ isClipInAnyUserCollection: $wire.entangle(&#39;isClipInAnyUserCollection&#39;), mode: $wire.entangle(&#39;mode&#39;), showModal: $wire.entangle(&#39;showModal&#39;), hidden: $wire.entangle(&#39;hidden&#39;), showTooltip: false}">
-    <span class="relative inline-flex" x-on:mouseover="showTooltip = true" x-on:mouseleave="showTooltip = false">
-        <button class="relative add-to-collection-button overflow-hidden" wire:click.stop.prevent="toggleModal()">
-            <svg x-bind:class="{&#39;text-white&#39;: mode == &#39;light&#39;, &#39;not-added&#39;: !isClipInAnyUserCollection, &#39;!translate-y-0&#39;: !hidden}" x-show="!isClipInAnyUserCollection" class="fill-current h-6 w-6 text-gray-700 outline-none translate-y-8 not-added !translate-y-0" xmlns="http://www.w3.org/2000/svg" fill="currentColor" stroke="none" viewBox="0 0 24 24"><path d="M20 2H8c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2V4c0-1.103-.897-2-2-2zM8 16V4h12l.002 12H8z"></path><path d="M4 8H2v12c0 1.103.897 2 2 2h12v-2H4V8zm11-2h-2v3h-3v2h3v3h2v-3h3V9h-3z"></path></svg>            <svg x-show="isClipInAnyUserCollection" class="fill-current h-6 w-6 text-[#198ACF] outline-none" xmlns="http://www.w3.org/2000/svg" fill="currentColor" stroke="none" viewBox="0 0 24 24" style="display: none;"><path d="M4 22h12v-2H4V8H2v12c0 1.103.897 2 2 2z"></path><path d="M20 2H8c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2V4c0-1.103-.897-2-2-2zm-2 9h-3v3h-2v-3h-3V9h3V6h2v3h3v2z"></path></svg>        </button>
-        <div x-show="showTooltip" class="tooltip max-md:!hidden" style="display: none;">
-    Add to Collections
-</div>
-     </span>
-    <div x-show="showModal" style="display: none;">
-        <div class="modal-wrapper-add-to-collection flex flex-col items-center justify-center absolute bottom-0 right-[-15px] z-60 cursor-auto min-w-[300px] rounded-lg " style="transform: translateY(100%) translateY(10px);">
-            <div class="flex flex-col bg-white fixed top-0 left-0 md:relative md:rounded-lg md:shadow-lg h-full md:h-auto p-4 w-full" @click.outside="showModal = false;">
-                <div class="flex justify-start relative md:justify-between items-center ">
-                    <p class="text-lg font-bold text-[#2b2b2b]">Add to collection</p>
-                    <a href="https://www.videvo.net/my-collections/" class="ml-4 md:ml-0 text-sm text-gray-500 hover:text-gray-700">Manage</a>
-                    <div class="w-10 h-10 flex items-center justify-center absolute top-0 right-0 md:hidden close-modal w-6 text-2xl text-gray-600 leading-4 font-bold text-right" @click.stop.prevent="showModal = false; window.clipActions?.closeAllModals();"></div>
-                </div>
-                <div class="flex justify-start w-full">
-                    <div wire:id="xvHbrKalyQSt96yhD7ub" class="flex py-2 relative h-[56px] item-center" x-data="{showForm: false, showResponse: false, timeoutToggle: false}">
-    <template x-if="showResponse"></template>
-    <div class="cursor-pointer text-base text-[#1b95e0] bold h-full order-2 flex items-center" @click="showForm = !showForm" x-show="!showForm">
-        <svg class="fill-current w-7 h-7 mr-[10px]" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
-    <path fill="#1B95E0" fill-rule="evenodd" d="M14 7c.552 0 1 .448 1 1v5h5c.552 0 1 .448 1 1s-.448 1-1 1h-5v5c0 .552-.448 1-1 1s-1-.448-1-1v-5H8c-.552 0-1-.448-1-1s.448-1 1-1h5V8c0-.552.448-1 1-1z"></path>
-</svg>        Create new collection
-    </div>
-    <form x-show="showForm" class="flex space-between items-center border border-[#1b95e0] justify-items-stretch rounded-sm overflow-hidden h-full" wire:submit.prevent="addUserCollection" style="display: none;">
-        <input class="px-2 border-0 outline-0 h-full" placeholder="Add collection name" type="text" wire:model="collectionName">
-        <button type="submit" @click="window.clipActions?.closeAllModals(); showResponse = true; setTimeout(() =&gt; {showResponse = false; }, 3000); showForm = !showForm" class="h-full leading-10 bg-gray-100 text-blue-600 text-base font-bold text-center min-w-[60px]">Add</button>
-    </form>
-
-</div>
-<!-- Livewire Component wire-end:xvHbrKalyQSt96yhD7ub -->                </div>
-                <div class="flex flex-col grow overflow-auto relative md:max-h-[calc(46px*3.5)] max-md:max-h[calc(100vh-100px)] transition duration-150" x-data="{selectedCollections:  [],}">
-                                        <div class="m:h-[80px] flex items-center justify-between fixed py-3 md:py-3 left-0 px-4 bottom-0 left-0 w-full md:!hidden" style="box-shadow: 0 -2px 0 0 rgb(0 0 0 / 10%);">
-                        <a x-on:click="showModal = false; window.clipActions?.closeAllModals();" class="pt-3 pb-3 pr-6 pl-6 font-bold text-base rounded-lg text-blue-600 bg-[#ececec]">Cancel</a>
-                        <a x-on:click="showModal = false; window.clipActions?.closeAllModals(); $wire.toggleClipInUserCollections(selectedCollections)" class="pt-3 pb-3 pr-6 pl-6 font-bold text-base rounded-lg bg-blue-600 text-white">Apply</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Livewire Component wire-end:8R2xnOSEnQFMHKvf4Gb4 -->            </div>
-            <div>
-                <div wire:id="C2C9lwbhp3dCKS6AAklH" class="flex" x-data="{ isFavorite: $wire.entangle(&#39;isFavorite&#39;), mode: $wire.entangle(&#39;mode&#39;), hidden: $wire.entangle(&#39;hidden&#39;), showTooltip: false }">
-    <span class="relative inline-flex" x-on:mouseover="showTooltip = true" x-on:mouseleave="showTooltip = false">
-        <button class="text-gray-700 hover:text-gray-900 overflow-hidden toggle-favorite" wire:key="clip-229310" wire:click.stop.prevent="toggleFavorite();">
-            <svg x-bind:class="{&#39;text-white&#39;: mode == &#39;light&#39;, &#39;not-added&#39;: !isFavorite, &#39;!translate-y-0&#39;: !hidden}" x-show="!isFavorite" class="fill-current h-6 w-6 outline-none translate-y-8 not-added !translate-y-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" fill="none"><path d="M5.40956 2.51538C4.45258 1.76408 3.08107 1.83357 2.20944 2.72795C1.25976 3.7024 1.26439 5.28574 2.2182 6.26443L5.74895 9.8873C5.8954 10.0376 6.13284 10.0376 6.27929 9.8873L9.7917 6.28538C10.7392 5.30775 10.7362 3.72885 9.7822 2.74999C8.90375 1.84862 7.52809 1.77191 6.57265 2.52393C6.48883 2.58991 6.40825 2.66226 6.33151 2.74099L5.99605 3.08587L5.65599 2.73693C5.57761 2.65651 5.49525 2.58265 5.40956 2.51538ZM7.04767 3.43893C7.60289 2.86945 8.49943 2.86653 9.06605 3.44793C9.64336 4.04031 9.64309 5.00077 9.07454 5.58846L9.0736 5.58943L6.01425 8.72674L2.93435 5.56648C2.3556 4.97264 2.35777 4.00853 2.92559 3.42589C3.4791 2.85794 4.37486 2.85516 4.93984 3.43488L5.2799 3.78381C5.46824 3.97706 5.72669 4.086 5.99654 4.08587C6.26638 4.08574 6.52472 3.97655 6.71288 3.78312L7.04767 3.43893Z" fill="currentColor"></path></svg>            <svg x-show="isFavorite" class="fill-current h-6 w-6 text-red-700 outline-none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" fill="none" style="display: none;"><path d="M5.65599 2.73693C4.70219 1.75824 3.15912 1.75349 2.20944 2.72795C1.25976 3.7024 1.26439 5.28574 2.2182 6.26443L5.74895 9.8873C5.8954 10.0376 6.13284 10.0376 6.27929 9.8873L9.7917 6.28538C10.7392 5.30775 10.7362 3.72885 9.7822 2.74999C8.82669 1.76955 7.28289 1.76479 6.33151 2.74099L5.99605 3.08587L5.65599 2.73693Z" fill="currentColor"></path></svg>        </button>
-        <div x-show="showTooltip" class="tooltip max-md:!hidden" style="display: none;">
-    Add to Favorites
-</div>
-     </span>
-</div>
-
-<!-- Livewire Component wire-end: -->            </div>
-                        <span class="w-[44px] flex justify-center">
-                <svg data-cy="premium-icon" class="fill-current h-6 w-6 text-orange-600" viewBox="-120 0 512 512.00115" xmlns="http://www.w3.org/2000/svg"><path d="m270.214844 180.054688c-2.628906-4.816407-7.679688-7.816407-13.167969-7.816407h-54.425781l24.753906-154.871093c1.082031-6.773438-2.570312-13.417969-8.867188-16.136719-6.292968-2.71875-13.640624-.820313-17.828124 4.613281l-197.5625 256.398438c-3.488282 4.527343-4.097657 10.644531-1.578126 15.777343 2.523438 5.128907 7.746094 8.378907 13.460938 8.378907h85.816406l-57.566406 206.574218c-1.992188 7.144532 1.539062 14.675782 8.304688 17.710938 1.988281.890625 4.074218 1.316406 6.136718 1.316406 4.96875 0 9.78125-2.476562 12.621094-6.882812l199.351562-309.761719c2.96875-4.613281 3.179688-10.484375.550782-15.300781zm0 0"></path></svg>            </span>
-                        <a href="https://www.videvo.net/royalty-free-music-track/innocent-face/229310/" class="flex h-9 items-center justify-center rounded-lg bg-blue-400 px-5 font-bold text-white">
-                <svg class="fill-current mr-2 h-4 w-4" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M8 12.2188C7.79281 12.2188 7.59409 12.1364 7.44756 11.9899L4.79594 9.33828C4.49084 9.03319 4.49084 8.53853 4.79594 8.23344C5.10103 7.92834 5.59566 7.92834 5.90078 8.23344L7.21875 9.55141V0.78125C7.21875 0.349781 7.56853 0 8 0C8.43147 0 8.78125 0.349781 8.78125 0.78125V9.55141L10.0992 8.23344C10.4043 7.92834 10.899 7.92834 11.2041 8.23344C11.5092 8.53853 11.5092 9.03319 11.2041 9.33828L8.55244 11.9899C8.40591 12.1364 8.20722 12.2188 8 12.2188ZM14.4375 8.78125C14.4375 8.34978 14.7872 8 15.2188 8C15.6503 8 16 8.34978 16 8.78125V12.9688C16 14.4334 14.8084 15.625 13.3438 15.625H2.65625C1.19159 15.625 0 14.4334 0 12.9688V8.78125C0 8.34978 0.349781 8 0.78125 8C1.21272 8 1.5625 8.34978 1.5625 8.78125V12.9688C1.5625 13.5718 2.05316 14.0625 2.65625 14.0625H13.3438C13.9468 14.0625 14.4375 13.5718 14.4375 12.9688V8.78125Z"></path>
-</svg>                Download
-            </a>
-        </div>
-    </div>
-    <div x-show="showInfo" class="grid grid-cols-3 border-t border-gray-250 p-2 text-sm" style="display: none;">
-                    <div class="border-r border-gray-250 py-2 px-4">
-                <p class="font-bold text-gray-600">Genre</p>
-                                    <a href="https://www.videvo.net/royalty-free-music/romantic/" class="font-bold text-gray-900 hover:underline">Romantic</a>,                                     <a href="https://www.videvo.net/royalty-free-music/easy-listening/" class="font-bold text-gray-900 hover:underline">Easy Listening</a>                                            </div>
-            <div class="border-r border-gray-250 py-2 px-4">
-                <p class="font-bold text-gray-600">Mood</p>
-                                    <a href="https://www.videvo.net/royalty-free-music/mood/happy/" class="font-bold text-gray-900 hover:underline">Happy</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/optimistic/" class="font-bold text-gray-900 hover:underline">Optimistic</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/tender/" class="font-bold text-gray-900 hover:underline">Tender</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/affectionate/" class="font-bold text-gray-900 hover:underline">Affectionate</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/relaxed/" class="font-bold text-gray-900 hover:underline">Relaxed</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/nostalgic/" class="font-bold text-gray-900 hover:underline">Nostalgic</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/romantic/" class="font-bold text-gray-900 hover:underline">Romantic</a>                                            </div>
-            <div class="py-2 px-4">
-                <p class="font-bold text-gray-600">Instrumentation</p>
-                                    <a href="https://www.videvo.net/royalty-free-music/instrument/piano/" class="font-bold text-gray-900 hover:underline">Piano</a>,                                     <a href="https://www.videvo.net/royalty-free-music/instrument/acoustic-guitar/" class="font-bold text-gray-900 hover:underline">Acoustic Guitar</a>,                                     <a href="https://www.videvo.net/royalty-free-music/instrument/bass/" class="font-bold text-gray-900 hover:underline">Bass</a>,                                     <a href="https://www.videvo.net/royalty-free-music/instrument/guitar/" class="font-bold text-gray-900 hover:underline">Guitar</a>,                                     <a href="https://www.videvo.net/royalty-free-music/instrument/strings/" class="font-bold text-gray-900 hover:underline">Strings</a>                                            </div>
-        
-    </div>
-</div>
-                                    <div class="-mx-4 mb-2 flex flex-col border-b border-gray-200 px-3 hover:bg-gray-150 lg:mx-0 lg:rounded lg:border-0 audio-row audio-player pb-2 md:pb-0" x-data="{ &#39;showInfo&#39;: false, showTooltip: false }">
-        <div class="flex items-center lg:min-h-20 flex-row lg:gap-4 flex-wrap lg:flex-no-wrap w-full">
-        <div class="flex items-center flex-grow lg:max-w-[380px] lg:min-w-[280px] md:order-1 lg:order-none">
-            <button class="relative mr-4 flex h-14 w-14 shrink-0 items-center justify-center bg-black z-20 button-play-pause" @click="window.audioHandler.handleAudioPlayPause($refs.audioElement233330); playing = playing === 233330 ? &#39;&#39; : 233330;">
-                <img src="./images/music.jpg" class="absolute top-0 left-0 h-full w-full object-cover">
-                <svg x-bind:class="{ &#39;hidden&#39;: playing === 233330 }" class="fill-current relative z-10 h-8 w-8 text-white drop-shadow play-icon" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg"><path d="M14.4621 8.1418L4.15546 1.93628C3.85647 1.75624 3.48667 1.75457 3.18613 1.93178C2.88556 2.10904 2.7002 2.43817 2.7002 2.79451V15.2056C2.7002 15.5619 2.88556 15.891 3.18613 16.0683C3.33511 16.1562 3.50106 16.2 3.66705 16.2C3.83586 16.2 4.00471 16.1546 4.15546 16.0638L14.4621 9.85827C14.7584 9.67986 14.9405 9.35319 14.9405 9.00003C14.9405 8.64688 14.7584 8.32021 14.4621 8.1418Z"></path></svg>                <svg x-bind:class="{ &#39;hidden&#39;: playing !== 233330 }" class="fill-current relative z-10 h-12 w-12 text-white drop-shadow pause-icon hidden" width="54px" height="54px" viewBox="0 0 54 54" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>pause-button-white-sml</title>
-    <g id="pause-button-white-sml" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Group-2" transform="translate(14.000000, 14.000000)">
-            <path d="M8,0 C10.1421954,0 11.8910789,1.82429918 11.9951047,4.1170563 L12,4.33333333 L12,21.6666667 C12,23.9873783 10.3160315,25.8820021 8.19964034,25.9946968 L8,26 L4,26 C1.85780461,26 0.108921124,24.1757008 0.00489530723,21.8829437 L0,21.6666667 L0,4.33333333 C0,2.01262166 1.68396847,0.117997884 3.80035966,0.0053032495 L4,0 L8,0 Z M22,0 C24.1421954,0 25.8910789,1.82429918 25.9951047,4.1170563 L26,4.33333333 L26,21.6666667 C26,23.9873783 24.3160315,25.8820021 22.1996403,25.9946968 L22,26 L18,26 C15.8578046,26 14.1089211,24.1757008 14.0048953,21.8829437 L14,21.6666667 L14,4.33333333 C14,2.01262166 15.6839685,0.117997884 17.8003597,0.0053032495 L18,0 L22,0 Z" id="Combined-Shape" fill-opacity="0.4" fill="#000000"></path>
-            <path d="M4,2 L8,2 C9.1045695,2 10,2.8954305 10,4 L10,22 C10,23.1045695 9.1045695,24 8,24 L4,24 C2.8954305,24 2,23.1045695 2,22 L2,4 C2,2.8954305 2.8954305,2 4,2 Z M18,2 L22,2 C23.1045695,2 24,2.8954305 24,4 L24,22 C24,23.1045695 23.1045695,24 22,24 L18,24 C16.8954305,24 16,23.1045695 16,22 L16,4 C16,2.8954305 16.8954305,2 18,2 Z" id="Combined-Shape" fill="#FFFFFF"></path>
-        </g>
-    </g>
-</svg>                
-                <audio preload="none" x-ref="audioElement233330" x-on:ended="playing = &#39;&#39;" id="linkAudio-233330" class="listing-audio audio-element hidden">
-                                            <source src="https://cdn.videvo.net/videvo_files/audio/premium/audio0197/watermarked/With-You-in-My-Arms-SSJ011001_preview.mp3" type="audio/mp3">
-                                        Your browser does not support the audio element.
-                </audio>
-            </button>
-            <div class="flex min-w-0 max-w-[calc(100vw-104px)] flex-col lg:max-w-[280px]">
-                <a href="https://www.videvo.net/royalty-free-music-track/with-you-in-my-arms/233330/" class="mb-1 font-semibold leading-none text-gray-800 hover:underline overflow-hidden whitespace-nowrap text-ellipsis">With You in My Arms</a>
-                                    <a href="https://www.videvo.net/royalty-free-music-albums/snappy-smooth-jazz-music/" class="mb-1 text-sm font-bold leading-none text-gray-400 hover:text-gray-600 overflow-hidden whitespace-nowrap text-ellipsis">
-                        Snappy &amp; Smooth Jazz Music
-                    </a>
-                                <p class="w-full truncate text-sm text-gray-600 overflow-hidden whitespace-nowrap text-ellipsis">
-                    Jazz Romantic
-                    | Affectionate, Elegant, Nostalgic, Period Dance, Relaxed, Romantic, Tender
-                </p>
-            </div>
-        </div>
-        <div class="flex lg:flex-1 items-center w-full h-[60px] max-h-[60px] lg:h-[84px] lg:max-h-[84px] md:grow-[2] md:basis-170% md:min-w-[300px] justify-start md:order-3 lg:order-none xs:my-3 md:my-0">
-            <div class="mr-4 flex-1 h-full w-full">
-                <div class="z-20 w-full h-full">
-                    <div class="waveform waveform-length-bpm h-full w-full relative min-h-[60px] max-h-[60px] lg:min-h-[84px] lg:max-h-[84px]">
-    <div class="waveform-image waveform-container h-full relative w-full overflow-hidden">
-        <canvas id="mainWaveformCanvas-listing-233330" @click="window.audioHandler.handleCanvasClick(event,$refs.audioElement233330);  if(playing === &#39;&#39; || playing !== 233330) { playing = 233330 }" class="js--audio-waveform-canvas belongs-listing h-[60px] lg:h-[84px] w-full max-w-full max-h-[60px] lg:max-h-[84px] absolute top-0 left-0" data-waveformjson="{&quot;margin&quot;:{&quot;low&quot;:0,&quot;high&quot;:250},&quot;heights&quot;:[32,30,21,12,21,36,24,29,29,17,31,47,55,40,31,41,32,25,41,58,28,31,58,33,28,35,25,16,21,33,29,23,36,36,21,41,51,35,25,35,58,53,47,37,35,28,24,51,40,37,45,57,36,42,35,6,74,81,69,68,46,54,36,28,59,38,44,36,66,76,59,58,62,60,50,80,43,37,49,53,30,53,42,24,58,54,39,29,22,39,31,52,55,77,57,53,65,38,28,41,62,34,42,30,24,32,38,63,50,34,43,43,32,47,40,30,26,28,30,26,55,64,37,29,44,62,46,34,55,39,40,49,55,31,31,64,46,23,37,38,21,18,50,42,25,37,48,21,39,54,46,37,34,56,48,40,62,50,31,38,44,45,36,56,41,35,37,18,30,70,58,59,64,58,63,58,42,59,43,45,29,77,87,60,72,65,42,54,46,40,33,54,41,27,48,49,26,57,47,24,31,23,59,46,38,51,49,43,26,38,38,26,28,47,37,25,44,34,39,33,48,21,16,43,31,24,32,66,42,25,47,54,46,37,60,45,29,66,65,45,31,51,42,46,35,52,32,19,42,24,33,49,49,30,39,54,58,49,60,59,55,49,53,49,36,56,65,30,33,58,32,28,28,45,34,23,45,28,26,12,34,23,54,68,60,40,45,75,48,47,59,49,42,49,72,51,44,47,44,45,40,70,39,34,54,36,47,36,44,27,18,35,23,10,2,12,8,75,67,63,58,33,59,56,48,44,28,25,10,34,38,67,53,62,83,49,69,48,37,33,30,22,38,36,37,53,54,68,30,25,58,58,48,45,43,31,23,47,32,28,28,59,33,41,43,33,37,49,39,31,35,42,34,39,58,28,23,32,49,60,51,34,63,48,22,43,34,37,33,52,32,45,38,28,29,60,67,69,51,44,58,44,38,48,45,48,43,73,69,60,66,61,45,41,76,34,30,61,59,32,49,49,17,58,40,24,18,17,44,38,65,64,67,41,43,52,64,35,41,51,32,27,31,24,28,39,43,21,15,29,26,27,57,61,35,36,27,21,34,39,42,23,11,53,43,23,51,47,16,17,43,60,44,40,53,32,34,28,18,31,26,55,55,53,57,46,37,39,52,50,21,52,50,28,14,61,42,40,53,47,29,18,40,41,21,29,34,31,42,60,55,40,50,67,59,51,61,48,45,44,64,41,56,44,39,48,56,66,39,39,66,46,32,39,46,37,20,40,47,25,4,3,5,86,71,50,69,57,97,66,61,49,25,14,18,62,52,72,47,54,77,55,85,61,54,89,61,55,63,45,40,45,30,35,14,40,36,30,21,31,32,23,15,41,22,45,45,46,32,35,33,16,20,28,47,32,33,51,52,31,36,47,42,29,43,51,49,32,56,47,18,42,57,39,25,53,39,39,42,19,43,69,61,67,68,74,54,35,37,45,40,31,71,77,70,52,59,41,36,43,65,48,45,54,41,51,47,42,27,54,56,36,27,44,58,48,43,60,41,24,26,42,34,35,53,41,28,29,49,37,34,53,50,32,12,52,47,29,33,42,26,40,34,31,28,19,22,5,13,45,34,28,27,33,23,13,45,32,31,28,38,17,33,11,10,35,32,22,17,10,26,25,25,29,34,18,37,42,41,33,22,29,19,10,39,35,27,23,26,20,30,26,14,3,36,32,18,18,31,44,25,33,33,24,16,16,23,20,19,26,18,29,18,22,52,48,84,53,80,60,41,28,24,24,23,26,25,22,25,26,18,15,14,14,14,14,14,13,12,10,11,11,11,12,11,10,8,7,1,1,0,0,0,0,0,0,0,0,0,0]}" width="532" height="84"></canvas>
-        <div class="blue-waveform-container absolute top-0 left-0 h-full w-0 overflow-hidden pointer-events-none" style="width: 0px;">
-            <div class="overlay absolute top-0 right-0 h-full opacity-50 w-[4px] bg-overlayBlue-500"></div>
-        </div>
-    </div>
-</div>
-                </div>
-            </div>
-            <div>
-                <p class="mb-1 text-sm font-bold leading-none text-gray-600">
-                    02:03
-                </p>
-                                    <p class="text-sm font-bold leading-none text-gray-600">110 BPM</p>
-                            </div>
-        </div>
-        <div class="flex w-full items-center justify-between lg:w-auto md:gap-4 basis-full md:basis-0 grow-0 md:order-2 lg:order-none">
-            <span class="relative inline-flex" x-on:mouseover="showTooltip = true" x-on:mouseleave="showTooltip = false">
-                <button x-on:click="showInfo = ! showInfo">
-                    <svg class="fill-current h-6 w-6 text-gray-700 hover:text-gray-900" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M2.34313 13.6569C3.85416 15.1678 5.86313 16 8 16C10.1369 16 12.1458 15.1678 13.6569 13.6569C15.1678 12.1458 16 10.1369 16 8C16 5.86313 15.1678 3.85416 13.6569 2.34313C12.1458 0.832156 10.1369 0 8 0C5.86313 0 3.85416 0.832156 2.34313 2.34313C0.832156 3.85416 0 5.86313 0 8C0 10.1369 0.832156 12.1458 2.34313 13.6569ZM1.5625 8C1.5625 4.45034 4.45034 1.5625 8 1.5625C11.5497 1.5625 14.4375 4.45034 14.4375 8C14.4375 11.5497 11.5497 14.4375 8 14.4375C4.45034 14.4375 1.5625 11.5497 1.5625 8ZM8.3125 12.5625C7.88103 12.5625 7.53125 12.2127 7.53125 11.7812V7.8125H6.75C6.31853 7.8125 5.96875 7.46272 5.96875 7.03125C5.96875 6.59978 6.31853 6.25 6.75 6.25H8.3125C8.74397 6.25 9.09375 6.59978 9.09375 7.03125V11.7812C9.09375 12.2127 8.74397 12.5625 8.3125 12.5625ZM7.0625 4.375C7.0625 4.89194 7.48306 5.3125 8 5.3125C8.51694 5.3125 8.9375 4.89194 8.9375 4.375C8.9375 3.85806 8.51694 3.4375 8 3.4375C7.48306 3.4375 7.0625 3.85806 7.0625 4.375Z"></path></svg>                </button>
-                <div x-show="showTooltip" class="tooltip max-md:!hidden" style="display: none;">
-    More Info
-</div>
-             </span>
-
-            <div>
-                <div wire:id="uNdwHyTfRhTTE5O1towX" class="flex relative z-40" x-data="{ isClipInAnyUserCollection: $wire.entangle(&#39;isClipInAnyUserCollection&#39;), mode: $wire.entangle(&#39;mode&#39;), showModal: $wire.entangle(&#39;showModal&#39;), hidden: $wire.entangle(&#39;hidden&#39;), showTooltip: false}">
-    <span class="relative inline-flex" x-on:mouseover="showTooltip = true" x-on:mouseleave="showTooltip = false">
-        <button class="relative add-to-collection-button overflow-hidden" wire:click.stop.prevent="toggleModal()">
-            <svg x-bind:class="{&#39;text-white&#39;: mode == &#39;light&#39;, &#39;not-added&#39;: !isClipInAnyUserCollection, &#39;!translate-y-0&#39;: !hidden}" x-show="!isClipInAnyUserCollection" class="fill-current h-6 w-6 text-gray-700 outline-none translate-y-8 not-added !translate-y-0" xmlns="http://www.w3.org/2000/svg" fill="currentColor" stroke="none" viewBox="0 0 24 24"><path d="M20 2H8c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2V4c0-1.103-.897-2-2-2zM8 16V4h12l.002 12H8z"></path><path d="M4 8H2v12c0 1.103.897 2 2 2h12v-2H4V8zm11-2h-2v3h-3v2h3v3h2v-3h3V9h-3z"></path></svg>            <svg x-show="isClipInAnyUserCollection" class="fill-current h-6 w-6 text-[#198ACF] outline-none" xmlns="http://www.w3.org/2000/svg" fill="currentColor" stroke="none" viewBox="0 0 24 24" style="display: none;"><path d="M4 22h12v-2H4V8H2v12c0 1.103.897 2 2 2z"></path><path d="M20 2H8c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2V4c0-1.103-.897-2-2-2zm-2 9h-3v3h-2v-3h-3V9h3V6h2v3h3v2z"></path></svg>        </button>
-        <div x-show="showTooltip" class="tooltip max-md:!hidden" style="display: none;">
-    Add to Collections
-</div>
-     </span>
-    <div x-show="showModal" style="display: none;">
-        <div class="modal-wrapper-add-to-collection flex flex-col items-center justify-center absolute bottom-0 right-[-15px] z-60 cursor-auto min-w-[300px] rounded-lg " style="transform: translateY(100%) translateY(10px);">
-            <div class="flex flex-col bg-white fixed top-0 left-0 md:relative md:rounded-lg md:shadow-lg h-full md:h-auto p-4 w-full" @click.outside="showModal = false;">
-                <div class="flex justify-start relative md:justify-between items-center ">
-                    <p class="text-lg font-bold text-[#2b2b2b]">Add to collection</p>
-                    <a href="https://www.videvo.net/my-collections/" class="ml-4 md:ml-0 text-sm text-gray-500 hover:text-gray-700">Manage</a>
-                    <div class="w-10 h-10 flex items-center justify-center absolute top-0 right-0 md:hidden close-modal w-6 text-2xl text-gray-600 leading-4 font-bold text-right" @click.stop.prevent="showModal = false; window.clipActions?.closeAllModals();"></div>
-                </div>
-                <div class="flex justify-start w-full">
-                    <div wire:id="ALdPVFRmbT40bQq5HEJW" class="flex py-2 relative h-[56px] item-center" x-data="{showForm: false, showResponse: false, timeoutToggle: false}">
-    <template x-if="showResponse"></template>
-    <div class="cursor-pointer text-base text-[#1b95e0] bold h-full order-2 flex items-center" @click="showForm = !showForm" x-show="!showForm">
-        <svg class="fill-current w-7 h-7 mr-[10px]" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
-    <path fill="#1B95E0" fill-rule="evenodd" d="M14 7c.552 0 1 .448 1 1v5h5c.552 0 1 .448 1 1s-.448 1-1 1h-5v5c0 .552-.448 1-1 1s-1-.448-1-1v-5H8c-.552 0-1-.448-1-1s.448-1 1-1h5V8c0-.552.448-1 1-1z"></path>
-</svg>        Create new collection
-    </div>
-    <form x-show="showForm" class="flex space-between items-center border border-[#1b95e0] justify-items-stretch rounded-sm overflow-hidden h-full" wire:submit.prevent="addUserCollection" style="display: none;">
-        <input class="px-2 border-0 outline-0 h-full" placeholder="Add collection name" type="text" wire:model="collectionName">
-        <button type="submit" @click="window.clipActions?.closeAllModals(); showResponse = true; setTimeout(() =&gt; {showResponse = false; }, 3000); showForm = !showForm" class="h-full leading-10 bg-gray-100 text-blue-600 text-base font-bold text-center min-w-[60px]">Add</button>
-    </form>
-
-</div>
-<!-- Livewire Component wire-end:ALdPVFRmbT40bQq5HEJW -->                </div>
-                <div class="flex flex-col grow overflow-auto relative md:max-h-[calc(46px*3.5)] max-md:max-h[calc(100vh-100px)] transition duration-150" x-data="{selectedCollections:  [],}">
-                                        <div class="m:h-[80px] flex items-center justify-between fixed py-3 md:py-3 left-0 px-4 bottom-0 left-0 w-full md:!hidden" style="box-shadow: 0 -2px 0 0 rgb(0 0 0 / 10%);">
-                        <a x-on:click="showModal = false; window.clipActions?.closeAllModals();" class="pt-3 pb-3 pr-6 pl-6 font-bold text-base rounded-lg text-blue-600 bg-[#ececec]">Cancel</a>
-                        <a x-on:click="showModal = false; window.clipActions?.closeAllModals(); $wire.toggleClipInUserCollections(selectedCollections)" class="pt-3 pb-3 pr-6 pl-6 font-bold text-base rounded-lg bg-blue-600 text-white">Apply</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Livewire Component wire-end:uNdwHyTfRhTTE5O1towX -->            </div>
-            <div>
-                <div wire:id="ctYGZh9BbLwixr5fM4F8" class="flex" x-data="{ isFavorite: $wire.entangle(&#39;isFavorite&#39;), mode: $wire.entangle(&#39;mode&#39;), hidden: $wire.entangle(&#39;hidden&#39;), showTooltip: false }">
-    <span class="relative inline-flex" x-on:mouseover="showTooltip = true" x-on:mouseleave="showTooltip = false">
-        <button class="text-gray-700 hover:text-gray-900 overflow-hidden toggle-favorite" wire:key="clip-233330" wire:click.stop.prevent="toggleFavorite();">
-            <svg x-bind:class="{&#39;text-white&#39;: mode == &#39;light&#39;, &#39;not-added&#39;: !isFavorite, &#39;!translate-y-0&#39;: !hidden}" x-show="!isFavorite" class="fill-current h-6 w-6 outline-none translate-y-8 not-added !translate-y-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" fill="none"><path d="M5.40956 2.51538C4.45258 1.76408 3.08107 1.83357 2.20944 2.72795C1.25976 3.7024 1.26439 5.28574 2.2182 6.26443L5.74895 9.8873C5.8954 10.0376 6.13284 10.0376 6.27929 9.8873L9.7917 6.28538C10.7392 5.30775 10.7362 3.72885 9.7822 2.74999C8.90375 1.84862 7.52809 1.77191 6.57265 2.52393C6.48883 2.58991 6.40825 2.66226 6.33151 2.74099L5.99605 3.08587L5.65599 2.73693C5.57761 2.65651 5.49525 2.58265 5.40956 2.51538ZM7.04767 3.43893C7.60289 2.86945 8.49943 2.86653 9.06605 3.44793C9.64336 4.04031 9.64309 5.00077 9.07454 5.58846L9.0736 5.58943L6.01425 8.72674L2.93435 5.56648C2.3556 4.97264 2.35777 4.00853 2.92559 3.42589C3.4791 2.85794 4.37486 2.85516 4.93984 3.43488L5.2799 3.78381C5.46824 3.97706 5.72669 4.086 5.99654 4.08587C6.26638 4.08574 6.52472 3.97655 6.71288 3.78312L7.04767 3.43893Z" fill="currentColor"></path></svg>            <svg x-show="isFavorite" class="fill-current h-6 w-6 text-red-700 outline-none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" fill="none" style="display: none;"><path d="M5.65599 2.73693C4.70219 1.75824 3.15912 1.75349 2.20944 2.72795C1.25976 3.7024 1.26439 5.28574 2.2182 6.26443L5.74895 9.8873C5.8954 10.0376 6.13284 10.0376 6.27929 9.8873L9.7917 6.28538C10.7392 5.30775 10.7362 3.72885 9.7822 2.74999C8.82669 1.76955 7.28289 1.76479 6.33151 2.74099L5.99605 3.08587L5.65599 2.73693Z" fill="currentColor"></path></svg>        </button>
-        <div x-show="showTooltip" class="tooltip max-md:!hidden" style="display: none;">
-    Add to Favorites
-</div>
-     </span>
-</div>
-
-<!-- Livewire Component wire-end: -->            </div>
-                        <span class="font-bold text-gray-700 w-[44px]">
-                    FREE
-            </span>
-                        <a href="https://www.videvo.net/royalty-free-music-track/with-you-in-my-arms/233330/" class="flex h-9 items-center justify-center rounded-lg bg-blue-400 px-5 font-bold text-white">
-                <svg class="fill-current mr-2 h-4 w-4" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M8 12.2188C7.79281 12.2188 7.59409 12.1364 7.44756 11.9899L4.79594 9.33828C4.49084 9.03319 4.49084 8.53853 4.79594 8.23344C5.10103 7.92834 5.59566 7.92834 5.90078 8.23344L7.21875 9.55141V0.78125C7.21875 0.349781 7.56853 0 8 0C8.43147 0 8.78125 0.349781 8.78125 0.78125V9.55141L10.0992 8.23344C10.4043 7.92834 10.899 7.92834 11.2041 8.23344C11.5092 8.53853 11.5092 9.03319 11.2041 9.33828L8.55244 11.9899C8.40591 12.1364 8.20722 12.2188 8 12.2188ZM14.4375 8.78125C14.4375 8.34978 14.7872 8 15.2188 8C15.6503 8 16 8.34978 16 8.78125V12.9688C16 14.4334 14.8084 15.625 13.3438 15.625H2.65625C1.19159 15.625 0 14.4334 0 12.9688V8.78125C0 8.34978 0.349781 8 0.78125 8C1.21272 8 1.5625 8.34978 1.5625 8.78125V12.9688C1.5625 13.5718 2.05316 14.0625 2.65625 14.0625H13.3438C13.9468 14.0625 14.4375 13.5718 14.4375 12.9688V8.78125Z"></path>
-</svg>                Download
-            </a>
-        </div>
-    </div>
-    <div x-show="showInfo" class="grid grid-cols-3 border-t border-gray-250 p-2 text-sm" style="display: none;">
-                    <div class="border-r border-gray-250 py-2 px-4">
-                <p class="font-bold text-gray-600">Genre</p>
-                                    <a href="https://www.videvo.net/royalty-free-music/romantic/" class="font-bold text-gray-900 hover:underline">Romantic</a>,                                     <a href="https://www.videvo.net/royalty-free-music/jazz/" class="font-bold text-gray-900 hover:underline">Jazz</a>                                            </div>
-            <div class="border-r border-gray-250 py-2 px-4">
-                <p class="font-bold text-gray-600">Mood</p>
-                                    <a href="https://www.videvo.net/royalty-free-music/mood/tender/" class="font-bold text-gray-900 hover:underline">Tender</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/elegant/" class="font-bold text-gray-900 hover:underline">Elegant</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/affectionate/" class="font-bold text-gray-900 hover:underline">Affectionate</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/relaxed/" class="font-bold text-gray-900 hover:underline">Relaxed</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/nostalgic/" class="font-bold text-gray-900 hover:underline">Nostalgic</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/romantic/" class="font-bold text-gray-900 hover:underline">Romantic</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/period-dance/" class="font-bold text-gray-900 hover:underline">Period Dance</a>                                            </div>
-            <div class="py-2 px-4">
-                <p class="font-bold text-gray-600">Instrumentation</p>
-                                    <a href="https://www.videvo.net/royalty-free-music/instrument/piano/" class="font-bold text-gray-900 hover:underline">Piano</a>,                                     <a href="https://www.videvo.net/royalty-free-music/instrument/trumpet/" class="font-bold text-gray-900 hover:underline">Trumpet</a>                                            </div>
-        
-    </div>
-</div>
+            <div class="pt-4" x-show="active === &#39;popular&#39;" id="AudioFeed">
+                                    
                             </div>
 
             <div class="pt-4" x-show="active === &#39;newest&#39;" style="display: none;">
@@ -9025,7 +6275,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
         <!-- / Content -->
     </div>
-    </main><script src="./Royalty Free Music Download.blade_files/otSDKStub.js.download" id="onetrust_modal" data-document-language="true" charset="UTF-8" data-domain-script="e616b904-3acd-4e4b-ad07-5deddea821ea"></script>
+    </main><script src="./assets/otSDKStub.js.download" id="onetrust_modal" data-document-language="true" charset="UTF-8" data-domain-script="e616b904-3acd-4e4b-ad07-5deddea821ea"></script>
             <footer class="mt-auto bg-gray-900 pt-8 text-gray-300 sm:pt-14 lg:pt-16">
     <div class="container mx-auto px-8">
         <div class="flex flex-col gap-8 lg:flex-row lg:gap-24">
@@ -9133,14 +6383,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <h3 class="mb-2 text-xl font-bold text-white">Site language</h3>
                 <div class="flex items-center justify-center gap-2 lg:justify-start">
                     <a href="https://www.videvo.net/royalty-free-music/" class="flex items-center gap-2 rounded py-2 px-4 text-sm bg-[#000]/30 text-white">
-                        <img src="./Royalty Free Music Download.blade_files/en-flag.svg" class="h-4 w-4">
+                        <img src="./assets/en-flag.svg" class="h-4 w-4">
                         English                    </a>
 
                     <a href="https://www.videvo.net/es/musica-libre-de-derechos/" class="flex items-center gap-2 rounded py-2 px-4 text-sm text-gray-500 hover:bg-[#000]/30">
-                        <img src="./Royalty Free Music Download.blade_files/es-flag.svg" class="h-4 w-4">
+                        <img src="./assets/es-flag.svg" class="h-4 w-4">
                         Spanish                    </a>
                     <a href="https://www.videvo.net/de/lizenzfreie-musik/" class="flex items-center gap-2 rounded py-2 px-4 text-sm text-gray-500 hover:bg-[#000]/30">
-                        <img src="./Royalty Free Music Download.blade_files/de-flag.svg" class="h-4 w-4">
+                        <img src="./assets/de-flag.svg" class="h-4 w-4">
                         Deutsch                    </a>
                 </div>
             </div>
@@ -9149,7 +6399,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="mt-8 sm:mt-16">
         <div class="container mx-auto flex flex-col items-center justify-between border-t border-gray-800 px-8 py-6 text-center sm:flex-row">
             <div class="flex flex-col sm:flex-row sm:items-end">
-                <img src="./Royalty Free Music Download.blade_files/freepikcompany.svg" class="mb-2 h-8 sm:mb-0" alt="Freepik Company">
+                <img src="./assets/freepikcompany.svg" class="mb-2 h-8 sm:mb-0" alt="Freepik Company">
                 <p class="ml-2 text-sm leading-normal text-gray-500 opacity-75">Copyright ©2022 Freepik Company S.L. All rights reserved.</p>
             </div>
         </div>
@@ -9176,7 +6426,176 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </footer>
     
     <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async="" src="./Royalty Free Music Download.blade_files/js(4)"></script>
+    <script>
+        
+$(document).ready(() => {
+    
+    $.ajax({
+    url: './Api/Audio',
+    method: 'GET',
+    contentType: false,
+    cache: false,
+    processData: false,
+    success:function(response)
+    {
+        console.log(response);
+        response.forEach(vid => {
+            $('#AudioFeed').append(`<div class="-mx-4 mb-2 flex flex-col border-b border-gray-200 px-3 hover:bg-gray-150 lg:mx-0 lg:rounded lg:border-0 audio-row audio-player pb-2 md:pb-0" x-data="{ &#39;showInfo&#39;: false, showTooltip: false }">
+        <div class="flex items-center lg:min-h-20 flex-row lg:gap-4 flex-wrap lg:flex-no-wrap w-full">
+        <div class="flex items-center flex-grow lg:max-w-[380px] lg:min-w-[280px] md:order-1 lg:order-none">
+            <button class="relative mr-4 flex h-14 w-14 shrink-0 items-center justify-center bg-black z-20 button-play-pause" @click="window.audioHandler.handleAudioPlayPause($refs.audioElement221441); playing = playing === 221441 ? &#39;&#39; : 221441;">
+                <img src="./assets/01-Going-Camping-FULL-SM377.png" class="absolute top-0 left-0 h-full w-full object-cover">
+                <svg x-bind:class="{ &#39;hidden&#39;: playing === 221441 }" class="fill-current relative z-10 h-8 w-8 text-white drop-shadow play-icon" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg"><path d="M14.4621 8.1418L4.15546 1.93628C3.85647 1.75624 3.48667 1.75457 3.18613 1.93178C2.88556 2.10904 2.7002 2.43817 2.7002 2.79451V15.2056C2.7002 15.5619 2.88556 15.891 3.18613 16.0683C3.33511 16.1562 3.50106 16.2 3.66705 16.2C3.83586 16.2 4.00471 16.1546 4.15546 16.0638L14.4621 9.85827C14.7584 9.67986 14.9405 9.35319 14.9405 9.00003C14.9405 8.64688 14.7584 8.32021 14.4621 8.1418Z"></path></svg>                <svg x-bind:class="{ &#39;hidden&#39;: playing !== 221441 }" class="fill-current relative z-10 h-12 w-12 text-white drop-shadow pause-icon hidden" width="54px" height="54px" viewBox="0 0 54 54" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>pause-button-white-sml</title>
+    <g id="pause-button-white-sml" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-2" transform="translate(14.000000, 14.000000)">
+            <path d="M8,0 C10.1421954,0 11.8910789,1.82429918 11.9951047,4.1170563 L12,4.33333333 L12,21.6666667 C12,23.9873783 10.3160315,25.8820021 8.19964034,25.9946968 L8,26 L4,26 C1.85780461,26 0.108921124,24.1757008 0.00489530723,21.8829437 L0,21.6666667 L0,4.33333333 C0,2.01262166 1.68396847,0.117997884 3.80035966,0.0053032495 L4,0 L8,0 Z M22,0 C24.1421954,0 25.8910789,1.82429918 25.9951047,4.1170563 L26,4.33333333 L26,21.6666667 C26,23.9873783 24.3160315,25.8820021 22.1996403,25.9946968 L22,26 L18,26 C15.8578046,26 14.1089211,24.1757008 14.0048953,21.8829437 L14,21.6666667 L14,4.33333333 C14,2.01262166 15.6839685,0.117997884 17.8003597,0.0053032495 L18,0 L22,0 Z" id="Combined-Shape" fill-opacity="0.4" fill="#000000"></path>
+            <path d="M4,2 L8,2 C9.1045695,2 10,2.8954305 10,4 L10,22 C10,23.1045695 9.1045695,24 8,24 L4,24 C2.8954305,24 2,23.1045695 2,22 L2,4 C2,2.8954305 2.8954305,2 4,2 Z M18,2 L22,2 C23.1045695,2 24,2.8954305 24,4 L24,22 C24,23.1045695 23.1045695,24 22,24 L18,24 C16.8954305,24 16,23.1045695 16,22 L16,4 C16,2.8954305 16.8954305,2 18,2 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>                
+                <audio preload="none" x-ref="audioElement221441" x-on:ended="playing = &#39;&#39;" id="linkAudio-221441" class="listing-audio audio-element hidden">
+                                            <source src="https://cdn.videvo.net/videvo_files/audio/premium/audio0001/watermarked/01-Going-Camping-FULL-SM377_preview.mp3" type="audio/mp3">
+                                        Your browser does not support the audio element.
+                </audio>
+            </button>
+            <div class="flex min-w-0 max-w-[calc(100vw-104px)] flex-col lg:max-w-[280px]">
+                <a href="https://www.videvo.net/royalty-free-music-track/going-camping/221441/" class="mb-1 font-semibold leading-none text-gray-800 hover:underline overflow-hidden whitespace-nowrap text-ellipsis"> ${vid.title}</a>
+                                    <a href="https://www.videvo.net/royalty-free-music-albums/easygoing-country-music/" class="mb-1 text-sm font-bold leading-none text-gray-400 hover:text-gray-600 overflow-hidden whitespace-nowrap text-ellipsis">
+                        ${vid.description} 
+                    </a>
+                                <p class="w-full truncate text-sm text-gray-600 overflow-hidden whitespace-nowrap text-ellipsis">
+                     ${vid.Category}
+                    | ${vid.Category2} 
+                </p>
+            </div>
+        </div>
+        <div class="flex lg:flex-1 items-center w-full h-[60px] max-h-[60px] lg:h-[84px] lg:max-h-[84px] md:grow-[2] md:basis-170% md:min-w-[300px] justify-start md:order-3 lg:order-none xs:my-3 md:my-0">
+            <div class="mr-4 flex-1 h-full w-full">
+                <div class="z-20 w-full h-full">
+                    <div class="waveform waveform-length-bpm h-full w-full relative min-h-[60px] max-h-[60px] lg:min-h-[84px] lg:max-h-[84px]">
+    <div class="waveform-image waveform-container h-full relative w-full overflow-hidden">
+        <canvas id="mainWaveformCanvas-listing-221441" @click="window.audioHandler.handleCanvasClick(event,$refs.audioElement221441);  if(playing === &#39;&#39; || playing !== 221441) { playing = 221441 }" class="js--audio-waveform-canvas belongs-listing h-[60px] lg:h-[84px] w-full max-w-full max-h-[60px] lg:max-h-[84px] absolute top-0 left-0" data-waveformjson="{&quot;margin&quot;:{&quot;low&quot;:0,&quot;high&quot;:250},&quot;heights&quot;:[0,0,109,70,93,117,117,97,108,120,85,100,37,70,107,53,41,68,57,119,57,108,75,121,76,84,56,116,73,111,89,98,65,95,60,67,109,55,74,113,89,93,121,119,115,65,89,109,89,100,113,95,102,65,95,78,115,94,106,65,112,75,102,105,98,100,75,95,70,113,100,111,111,121,110,118,87,120,67,80,73,104,81,82,47,119,77,89,65,111,88,72,87,62,119,65,88,66,116,81,103,77,116,115,111,119,121,100,120,114,116,59,100,85,111,111,107,63,108,119,75,103,78,115,83,91,70,119,55,103,65,121,51,95,83,119,73,95,86,113,66,84,65,113,96,63,37,24,20,21,38,64,115,72,83,72,77,73,77,56,119,59,52,88,60,57,45,36,119,68,91,95,120,108,100,111,109,119,77,96,81,120,73,118,64,122,72,85,89,71,107,89,71,118,71,82,104,79,61,61,53,108,117,80,96,84,121,91,80,75,112,93,104,62,118,96,90,68,108,64,109,85,119,86,91,96,114,72,82,85,88,116,81,104,53,112,80,110,74,119,74,101,57,116,47,90,66,114,108,120,68,104,115,115,112,120,99,118,121,116,121,77,90,77,121,110,96,54,120,93,104,58,122,72,76,63,115,51,81,64,115,60,86,56,116,111,98,88,94,110,114,120,104,120,86,66,57,87,36,44,51,115,71,60,84,71,92,97,70,107,49,63,75,59,41,42,53,55,119,58,85,73,118,69,104,66,120,73,86,52,119,44,100,42,122,89,79,85,67,55,63,58,75,116,58,62,72,37,35,30,29,117,107,106,100,119,99,117,107,121,86,97,66,120,55,75,91,95,87,113,122,118,121,116,118,99,120,63,88,98,114,110,99,68,114,90,102,81,106,70,112,88,113,74,101,74,100,81,87,95,69,112,99,111,111,120,110,118,87,120,67,80,74,104,81,83,47,119,77,89,65,111,88,73,87,62,118,65,89,67,116,82,103,76,115,115,111,119,121,100,120,114,116,59,100,84,111,110,104,61,108,119,76,102,78,115,83,89,70,118,46,102,66,121,51,94,83,119,73,94,86,113,66,84,66,113,96,57,37,24,20,21,38,61,115,72,83,73,76,73,76,52,119,59,53,87,60,58,46,36,120,67,91,94,120,108,103,111,109,119,77,95,80,121,73,121,64,122,70,85,88,71,107,89,72,118,71,82,105,79,61,62,53,117,100,80,95,84,120,91,80,75,112,93,105,62,118,97,91,68,108,64,110,84,119,86,92,96,114,71,85,69,116,85,81,104,53,111,81,111,74,118,74,101,57,116,47,90,66,115,109,120,65,104,116,115,112,120,87,118,121,106,120,82,88,78,122,110,95,50,120,93,105,58,122,72,76,63,116,51,80,64,115,60,87,56,116,109,98,88,95,111,116,118,107,120,86,66,50,87,36,44,50,115,71,60,84,71,92,97,70,107,48,63,75,59,41,42,54,55,119,58,84,73,118,69,105,66,121,73,86,52,119,44,99,42,123,89,78,85,67,55,63,58,116,112,62,60,72,37,35,30,29,117,107,106,100,119,100,117,107,121,86,97,66,120,55,75,91,94,88,114,122,121,117,115,118,100,119,63,90,98,113,110,101,68,114,90,101,81,106,70,112,88,113,74,101,72,121,108,101,107,71,100,77,109,100,122,94,109,97,115,73,90,98,120,106,100,70,120,96,110,90,104,73,76,68,110,116,87,85,72,112,65,102,94,108,114,72,57,119,96,118,74,104,71,62,55,34,30,25,8,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}" width="536" height="84"></canvas>
+        <div class="blue-waveform-container absolute top-0 left-0 h-full w-0 overflow-hidden pointer-events-none" style="width: 0px;">
+            <div class="overlay absolute top-0 right-0 h-full opacity-50 w-[4px] bg-overlayBlue-500"></div>
+        </div>
+    </div>
+</div>
+                </div>
+            </div>
+            <div>
+                <p class="mb-1 text-sm font-bold leading-none text-gray-600">
+                    ${vid.duration}
+                </p>
+                                    <p class="text-sm font-bold leading-none text-gray-600">73 BPM</p>
+                            </div>
+        </div>
+        <div class="flex w-full items-center justify-between lg:w-auto md:gap-4 basis-full md:basis-0 grow-0 md:order-2 lg:order-none">
+            <span class="relative inline-flex" x-on:mouseover="showTooltip = true" x-on:mouseleave="showTooltip = false">
+                <button x-on:click="showInfo = ! showInfo">
+                    <svg class="fill-current h-6 w-6 text-gray-700 hover:text-gray-900" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M2.34313 13.6569C3.85416 15.1678 5.86313 16 8 16C10.1369 16 12.1458 15.1678 13.6569 13.6569C15.1678 12.1458 16 10.1369 16 8C16 5.86313 15.1678 3.85416 13.6569 2.34313C12.1458 0.832156 10.1369 0 8 0C5.86313 0 3.85416 0.832156 2.34313 2.34313C0.832156 3.85416 0 5.86313 0 8C0 10.1369 0.832156 12.1458 2.34313 13.6569ZM1.5625 8C1.5625 4.45034 4.45034 1.5625 8 1.5625C11.5497 1.5625 14.4375 4.45034 14.4375 8C14.4375 11.5497 11.5497 14.4375 8 14.4375C4.45034 14.4375 1.5625 11.5497 1.5625 8ZM8.3125 12.5625C7.88103 12.5625 7.53125 12.2127 7.53125 11.7812V7.8125H6.75C6.31853 7.8125 5.96875 7.46272 5.96875 7.03125C5.96875 6.59978 6.31853 6.25 6.75 6.25H8.3125C8.74397 6.25 9.09375 6.59978 9.09375 7.03125V11.7812C9.09375 12.2127 8.74397 12.5625 8.3125 12.5625ZM7.0625 4.375C7.0625 4.89194 7.48306 5.3125 8 5.3125C8.51694 5.3125 8.9375 4.89194 8.9375 4.375C8.9375 3.85806 8.51694 3.4375 8 3.4375C7.48306 3.4375 7.0625 3.85806 7.0625 4.375Z"></path></svg>                </button>
+                <div x-show="showTooltip" class="tooltip max-md:!hidden" style="display: none;">
+    More Info
+</div>
+             </span>
+
+            <div>
+                <div wire:id="A4GenXBHQUQkCHsEpMBO" class="flex relative z-40" x-data="{ isClipInAnyUserCollection: $wire.entangle(&#39;isClipInAnyUserCollection&#39;), mode: $wire.entangle(&#39;mode&#39;), showModal: $wire.entangle(&#39;showModal&#39;), hidden: $wire.entangle(&#39;hidden&#39;), showTooltip: false}">
+    <span class="relative inline-flex" x-on:mouseover="showTooltip = true" x-on:mouseleave="showTooltip = false">
+        <button class="relative add-to-collection-button overflow-hidden" wire:click.stop.prevent="toggleModal()">
+            <svg x-bind:class="{&#39;text-white&#39;: mode == &#39;light&#39;, &#39;not-added&#39;: !isClipInAnyUserCollection, &#39;!translate-y-0&#39;: !hidden}" x-show="!isClipInAnyUserCollection" class="fill-current h-6 w-6 text-gray-700 outline-none translate-y-8 not-added !translate-y-0" xmlns="http://www.w3.org/2000/svg" fill="currentColor" stroke="none" viewBox="0 0 24 24"><path d="M20 2H8c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2V4c0-1.103-.897-2-2-2zM8 16V4h12l.002 12H8z"></path><path d="M4 8H2v12c0 1.103.897 2 2 2h12v-2H4V8zm11-2h-2v3h-3v2h3v3h2v-3h3V9h-3z"></path></svg>            <svg x-show="isClipInAnyUserCollection" class="fill-current h-6 w-6 text-[#198ACF] outline-none" xmlns="http://www.w3.org/2000/svg" fill="currentColor" stroke="none" viewBox="0 0 24 24" style="display: none;"><path d="M4 22h12v-2H4V8H2v12c0 1.103.897 2 2 2z"></path><path d="M20 2H8c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2V4c0-1.103-.897-2-2-2zm-2 9h-3v3h-2v-3h-3V9h3V6h2v3h3v2z"></path></svg>        </button>
+        <div x-show="showTooltip" class="tooltip max-md:!hidden" style="display: none;">
+    Add to Collections
+</div>
+     </span>
+    <div x-show="showModal" style="display: none;">
+        <div class="modal-wrapper-add-to-collection flex flex-col items-center justify-center absolute bottom-0 right-[-15px] z-60 cursor-auto min-w-[300px] rounded-lg " style="transform: translateY(100%) translateY(10px);">
+            <div class="flex flex-col bg-white fixed top-0 left-0 md:relative md:rounded-lg md:shadow-lg h-full md:h-auto p-4 w-full" @click.outside="showModal = false;">
+                <div class="flex justify-start relative md:justify-between items-center ">
+                    <p class="text-lg font-bold text-[#2b2b2b]">Add to collection</p>
+                    <a href="https://www.videvo.net/my-collections/" class="ml-4 md:ml-0 text-sm text-gray-500 hover:text-gray-700">Manage</a>
+                    <div class="w-10 h-10 flex items-center justify-center absolute top-0 right-0 md:hidden close-modal w-6 text-2xl text-gray-600 leading-4 font-bold text-right" @click.stop.prevent="showModal = false; window.clipActions?.closeAllModals();"></div>
+                </div>
+                <div class="flex justify-start w-full">
+                    <div wire:id="66pPfJZNHWDgYrGIVAKV" class="flex py-2 relative h-[56px] item-center" x-data="{showForm: false, showResponse: false, timeoutToggle: false}">
+    <template x-if="showResponse"></template>
+    <div class="cursor-pointer text-base text-[#1b95e0] bold h-full order-2 flex items-center" @click="showForm = !showForm" x-show="!showForm">
+        <svg class="fill-current w-7 h-7 mr-[10px]" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+    <path fill="#1B95E0" fill-rule="evenodd" d="M14 7c.552 0 1 .448 1 1v5h5c.552 0 1 .448 1 1s-.448 1-1 1h-5v5c0 .552-.448 1-1 1s-1-.448-1-1v-5H8c-.552 0-1-.448-1-1s.448-1 1-1h5V8c0-.552.448-1 1-1z"></path>
+</svg>        Create new collection
+    </div>
+    <form x-show="showForm" class="flex space-between items-center border border-[#1b95e0] justify-items-stretch rounded-sm overflow-hidden h-full" wire:submit.prevent="addUserCollection" style="display: none;">
+        <input class="px-2 border-0 outline-0 h-full" placeholder="Add collection name" type="text" wire:model="collectionName">
+        <button type="submit" @click="window.clipActions?.closeAllModals(); showResponse = true; setTimeout(() =&gt; {showResponse = false; }, 3000); showForm = !showForm" class="h-full leading-10 bg-gray-100 text-blue-600 text-base font-bold text-center min-w-[60px]">Add</button>
+    </form>
+
+</div>
+<!-- Livewire Component wire-end:66pPfJZNHWDgYrGIVAKV -->                </div>
+                <div class="flex flex-col grow overflow-auto relative md:max-h-[calc(46px*3.5)] max-md:max-h[calc(100vh-100px)] transition duration-150" x-data="{selectedCollections:  [],}">
+                                        <div class="m:h-[80px] flex items-center justify-between fixed py-3 md:py-3 left-0 px-4 bottom-0 left-0 w-full md:!hidden" style="box-shadow: 0 -2px 0 0 rgb(0 0 0 / 10%);">
+                        <a x-on:click="showModal = false; window.clipActions?.closeAllModals();" class="pt-3 pb-3 pr-6 pl-6 font-bold text-base rounded-lg text-blue-600 bg-[#ececec]">Cancel</a>
+                        <a x-on:click="showModal = false; window.clipActions?.closeAllModals(); $wire.toggleClipInUserCollections(selectedCollections)" class="pt-3 pb-3 pr-6 pl-6 font-bold text-base rounded-lg bg-blue-600 text-white">Apply</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Livewire Component wire-end:A4GenXBHQUQkCHsEpMBO -->            </div>
+            <div>
+                <div wire:id="oFjtSguUwnT9hP79I5xp" class="flex" x-data="{ isFavorite: $wire.entangle(&#39;isFavorite&#39;), mode: $wire.entangle(&#39;mode&#39;), hidden: $wire.entangle(&#39;hidden&#39;), showTooltip: false }">
+    <span class="relative inline-flex" x-on:mouseover="showTooltip = true" x-on:mouseleave="showTooltip = false">
+        <button class="text-gray-700 hover:text-gray-900 overflow-hidden toggle-favorite" wire:key="clip-221441" wire:click.stop.prevent="toggleFavorite();">
+            <svg x-bind:class="{&#39;text-white&#39;: mode == &#39;light&#39;, &#39;not-added&#39;: !isFavorite, &#39;!translate-y-0&#39;: !hidden}" x-show="!isFavorite" class="fill-current h-6 w-6 outline-none translate-y-8 not-added !translate-y-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" fill="none"><path d="M5.40956 2.51538C4.45258 1.76408 3.08107 1.83357 2.20944 2.72795C1.25976 3.7024 1.26439 5.28574 2.2182 6.26443L5.74895 9.8873C5.8954 10.0376 6.13284 10.0376 6.27929 9.8873L9.7917 6.28538C10.7392 5.30775 10.7362 3.72885 9.7822 2.74999C8.90375 1.84862 7.52809 1.77191 6.57265 2.52393C6.48883 2.58991 6.40825 2.66226 6.33151 2.74099L5.99605 3.08587L5.65599 2.73693C5.57761 2.65651 5.49525 2.58265 5.40956 2.51538ZM7.04767 3.43893C7.60289 2.86945 8.49943 2.86653 9.06605 3.44793C9.64336 4.04031 9.64309 5.00077 9.07454 5.58846L9.0736 5.58943L6.01425 8.72674L2.93435 5.56648C2.3556 4.97264 2.35777 4.00853 2.92559 3.42589C3.4791 2.85794 4.37486 2.85516 4.93984 3.43488L5.2799 3.78381C5.46824 3.97706 5.72669 4.086 5.99654 4.08587C6.26638 4.08574 6.52472 3.97655 6.71288 3.78312L7.04767 3.43893Z" fill="currentColor"></path></svg>            <svg x-show="isFavorite" class="fill-current h-6 w-6 text-red-700 outline-none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" fill="none" style="display: none;"><path d="M5.65599 2.73693C4.70219 1.75824 3.15912 1.75349 2.20944 2.72795C1.25976 3.7024 1.26439 5.28574 2.2182 6.26443L5.74895 9.8873C5.8954 10.0376 6.13284 10.0376 6.27929 9.8873L9.7917 6.28538C10.7392 5.30775 10.7362 3.72885 9.7822 2.74999C8.82669 1.76955 7.28289 1.76479 6.33151 2.74099L5.99605 3.08587L5.65599 2.73693Z" fill="currentColor"></path></svg>        </button>
+        <div x-show="showTooltip" class="tooltip max-md:!hidden" style="display: none;">
+    Add to Favorites
+</div>
+     </span>
+</div>
+
+<!-- Livewire Component wire-end: -->            </div>
+                        <span class="w-[44px] flex justify-center">
+                <svg data-cy="premium-icon" class="fill-current h-6 w-6 text-orange-600" viewBox="-120 0 512 512.00115" xmlns="http://www.w3.org/2000/svg"><path d="m270.214844 180.054688c-2.628906-4.816407-7.679688-7.816407-13.167969-7.816407h-54.425781l24.753906-154.871093c1.082031-6.773438-2.570312-13.417969-8.867188-16.136719-6.292968-2.71875-13.640624-.820313-17.828124 4.613281l-197.5625 256.398438c-3.488282 4.527343-4.097657 10.644531-1.578126 15.777343 2.523438 5.128907 7.746094 8.378907 13.460938 8.378907h85.816406l-57.566406 206.574218c-1.992188 7.144532 1.539062 14.675782 8.304688 17.710938 1.988281.890625 4.074218 1.316406 6.136718 1.316406 4.96875 0 9.78125-2.476562 12.621094-6.882812l199.351562-309.761719c2.96875-4.613281 3.179688-10.484375.550782-15.300781zm0 0"></path></svg>            </span>
+                        <a href="https://www.videvo.net/royalty-free-music-track/going-camping/221441/" class="flex h-9 items-center justify-center rounded-lg bg-blue-400 px-5 font-bold text-white">
+                <svg class="fill-current mr-2 h-4 w-4" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M8 12.2188C7.79281 12.2188 7.59409 12.1364 7.44756 11.9899L4.79594 9.33828C4.49084 9.03319 4.49084 8.53853 4.79594 8.23344C5.10103 7.92834 5.59566 7.92834 5.90078 8.23344L7.21875 9.55141V0.78125C7.21875 0.349781 7.56853 0 8 0C8.43147 0 8.78125 0.349781 8.78125 0.78125V9.55141L10.0992 8.23344C10.4043 7.92834 10.899 7.92834 11.2041 8.23344C11.5092 8.53853 11.5092 9.03319 11.2041 9.33828L8.55244 11.9899C8.40591 12.1364 8.20722 12.2188 8 12.2188ZM14.4375 8.78125C14.4375 8.34978 14.7872 8 15.2188 8C15.6503 8 16 8.34978 16 8.78125V12.9688C16 14.4334 14.8084 15.625 13.3438 15.625H2.65625C1.19159 15.625 0 14.4334 0 12.9688V8.78125C0 8.34978 0.349781 8 0.78125 8C1.21272 8 1.5625 8.34978 1.5625 8.78125V12.9688C1.5625 13.5718 2.05316 14.0625 2.65625 14.0625H13.3438C13.9468 14.0625 14.4375 13.5718 14.4375 12.9688V8.78125Z"></path>
+</svg>                Download
+            </a>
+        </div>
+    </div>
+    <div x-show="showInfo" class="grid grid-cols-3 border-t border-gray-250 p-2 text-sm" style="display: none;">
+                    <div class="border-r border-gray-250 py-2 px-4">
+                <p class="font-bold text-gray-600">Genre</p>
+                                    <a href="https://www.videvo.net/royalty-free-music/country/" class="font-bold text-gray-900 hover:underline">Country</a>                                            </div>
+            <div class="border-r border-gray-250 py-2 px-4">
+                <p class="font-bold text-gray-600">Mood</p>
+                                    <a href="https://www.videvo.net/royalty-free-music/mood/patient/" class="font-bold text-gray-900 hover:underline">Patient</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/relaxed/" class="font-bold text-gray-900 hover:underline">Relaxed</a>,                                     <a href="https://www.videvo.net/royalty-free-music/mood/satisfied/" class="font-bold text-gray-900 hover:underline">Satisfied</a>                                            </div>
+            <div class="py-2 px-4">
+                <p class="font-bold text-gray-600">Instrumentation</p>
+                                    <a href="https://www.videvo.net/royalty-free-music/instrument/guitar/" class="font-bold text-gray-900 hover:underline">Guitar</a>,                                     <a href="https://www.videvo.net/royalty-free-music/instrument/harmonica/" class="font-bold text-gray-900 hover:underline">Harmonica</a>,                                     <a href="https://www.videvo.net/royalty-free-music/instrument/banjo/" class="font-bold text-gray-900 hover:underline">Banjo</a>                                            </div>
+        
+    </div>
+</div>`);
+        });
+    },
+    error: function(response) {
+        console.log(response);
+    }
+    });
+
+});
+    </script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+crossorigin="anonymous"></script>
+<script async="" src="./assets/js(4)"></script>
 <script>
     window.dataLayer = window.dataLayer || [];
 
@@ -9188,12 +6607,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     gtag('config', 'UA-193025900-1');
 </script>
 
-<script src="./Royalty Free Music Download.blade_files/livewire.js.download" data-turbo-eval="false" data-turbolinks-eval="false"></script><script data-turbo-eval="false" data-turbolinks-eval="false">window.livewire = new Livewire();window.Livewire = window.livewire;window.livewire_app_url = '';window.livewire_token = 'wSw9w1VjlYH1akSPl4XPeNDntXD5KYLQ0SLCR17b';window.deferLoadingAlpine = function (callback) {window.addEventListener('livewire:load', function () {callback();});};let started = false;window.addEventListener('alpine:initializing', function () {if (! started) {window.livewire.start();started = true;}});document.addEventListener("DOMContentLoaded", function () {if (! started) {window.livewire.start();started = true;}});</script>
+<script src="./assets/livewire.js.download" data-turbo-eval="false" data-turbolinks-eval="false"></script><script data-turbo-eval="false" data-turbolinks-eval="false">window.livewire = new Livewire();window.Livewire = window.livewire;window.livewire_app_url = '';window.livewire_token = 'wSw9w1VjlYH1akSPl4XPeNDntXD5KYLQ0SLCR17b';window.deferLoadingAlpine = function (callback) {window.addEventListener('livewire:load', function () {callback();});};let started = false;window.addEventListener('alpine:initializing', function () {if (! started) {window.livewire.start();started = true;}});document.addEventListener("DOMContentLoaded", function () {if (! started) {window.livewire.start();started = true;}});</script>
 
-<link rel="modulepreload" href="./Royalty Free Music Download.blade_files/app.57ee516c.js.download"><script type="module" src="./Royalty Free Music Download.blade_files/app.57ee516c.js.download"></script><!-- Google -->
-<script async="" src="./Royalty Free Music Download.blade_files/api_client.js.download" gapi_processed="true"></script>
+<link rel="modulepreload" href="./assets/app.57ee516c.js.download"><script type="module" src="./assets/app.57ee516c.js.download"></script><!-- Google -->
+<script async="" src="./assets/api_client.js.download" gapi_processed="true"></script>
 
-    <link rel="modulepreload" href="./Royalty Free Music Download.blade_files/waveform-draw.45505668.js.download"><script type="module" src="./Royalty Free Music Download.blade_files/waveform-draw.45505668.js.download"></script>    <link rel="modulepreload" href="./Royalty Free Music Download.blade_files/audio-play.e9b5c033.js.download"><script type="module" src="./Royalty Free Music Download.blade_files/audio-play.e9b5c033.js.download"></script>        <link rel="modulepreload" href="./Royalty Free Music Download.blade_files/defer-images.b34739b9.js.download"><script type="module" src="./Royalty Free Music Download.blade_files/defer-images.b34739b9.js.download"></script>    <div wire:id="hBiiAEHYIfRX1KJzdE3D">
+    <link rel="modulepreload" href="./assets/waveform-draw.45505668.js.download"><script type="module" src="./assets/waveform-draw.45505668.js.download"></script>    <link rel="modulepreload" href="./assets/audio-play.e9b5c033.js.download"><script type="module" src="./assets/audio-play.e9b5c033.js.download"></script>        <link rel="modulepreload" href="./assets/defer-images.b34739b9.js.download"><script type="module" src="./assets/defer-images.b34739b9.js.download"></script>    <div wire:id="hBiiAEHYIfRX1KJzdE3D">
     </div>
 
   
@@ -9213,8 +6632,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
-<iframe id="_hjSafeContext_97546417" title="_hjSafeContext" tabindex="-1" aria-hidden="true" src="./Royalty Free Music Download.blade_files/saved_resource.html" style="display: none !important; width: 1px !important; height: 1px !important; opacity: 0 !important; pointer-events: none !important;"></iframe><script type="text/javascript" id="">window.hj=window.hj||function(){(hj.q=hj.q||[]).push(arguments)};var userId=localStorage.getItem("userID"),userType=localStorage.getItem("userType"),userGeoCountry=localStorage.getItem("userGeoCountry");window.hj("identify",userId,{"User Type":userType,"User Geo Country":userGeoCountry,"User ID":userId});</script><div id="onetrust-consent-sdk"><div class="onetrust-pc-dark-filter ot-hide ot-fade-in"></div></div><iframe src="./Royalty Free Music Download.blade_files/iu3.html" style="display: none;"></iframe><iframe src="./Royalty Free Music Download.blade_files/syncframe.html" width="0" height="0" frameborder="0" title="Criteo GUM iframe" style="border-width: 0px; margin: 0px; display: none;"></iframe></body><iframe sandbox="allow-scripts allow-same-origin" id="11ba0509430f9ba" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height:0px;width:0px;display:none;" scrolling="no" src="./Royalty Free Music Download.blade_files/async_usersync.html">
-    </iframe><iframe sandbox="allow-scripts allow-same-origin" id="1237aa7d704f766" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height:0px;width:0px;display:none;" scrolling="no" src="./Royalty Free Music Download.blade_files/user_sync.html">
-    </iframe><iframe sandbox="allow-scripts allow-same-origin" id="1378b771ea3086" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height:0px;width:0px;display:none;" scrolling="no" src="./Royalty Free Music Download.blade_files/saved_resource(1).html">
-    </iframe><iframe sandbox="allow-scripts allow-same-origin" id="1496d97fb388a97" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height:0px;width:0px;display:none;" scrolling="no" src="./Royalty Free Music Download.blade_files/usync.html">
+<iframe id="_hjSafeContext_97546417" title="_hjSafeContext" tabindex="-1" aria-hidden="true" src="./assets/saved_resource.html" style="display: none !important; width: 1px !important; height: 1px !important; opacity: 0 !important; pointer-events: none !important;"></iframe><script type="text/javascript" id="">window.hj=window.hj||function(){(hj.q=hj.q||[]).push(arguments)};var userId=localStorage.getItem("userID"),userType=localStorage.getItem("userType"),userGeoCountry=localStorage.getItem("userGeoCountry");window.hj("identify",userId,{"User Type":userType,"User Geo Country":userGeoCountry,"User ID":userId});</script><div id="onetrust-consent-sdk"><div class="onetrust-pc-dark-filter ot-hide ot-fade-in"></div></div><iframe src="./assets/iu3.html" style="display: none;"></iframe><iframe src="./assets/syncframe.html" width="0" height="0" frameborder="0" title="Criteo GUM iframe" style="border-width: 0px; margin: 0px; display: none;"></iframe></body><iframe sandbox="allow-scripts allow-same-origin" id="11ba0509430f9ba" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height:0px;width:0px;display:none;" scrolling="no" src="./assets/async_usersync.html">
+    </iframe><iframe sandbox="allow-scripts allow-same-origin" id="1237aa7d704f766" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height:0px;width:0px;display:none;" scrolling="no" src="./assets/user_sync.html">
+    </iframe><iframe sandbox="allow-scripts allow-same-origin" id="1378b771ea3086" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height:0px;width:0px;display:none;" scrolling="no" src="./assets/saved_resource(1).html">
+    </iframe><iframe sandbox="allow-scripts allow-same-origin" id="1496d97fb388a97" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height:0px;width:0px;display:none;" scrolling="no" src="./assets/usync.html">
     </iframe></html>

@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\VideoController;
+use App\Http\Controllers\AudioController;
 use App\Http\Controllers\UserController;
 /*
 |--------------------------------------------------------------------------
@@ -32,7 +33,12 @@ Route::get('Templates', function () {
 Route::get('uploadVid', function () {
     return view('uploadVid');
 });
+Route::get('uploadAud', function () {
+    return view('uploadAud');
+});
 Route::post('users/register', [UserController::class, 'store'])->name('store.post');
 Route::post('users/login', [UserController::class, 'login'])->name('login.post');
 Route::post('Video/upload', [VideoController::class, 'upload'])->name('video.post');
+Route::post('Audio/upload', [AudioController::class, 'upload'])->name('Audio.post');
 Route::get('Api/Video', [VideoController::class, 'fetch'])->name('videos.show');
+Route::get('Api/Audio', [AudioController::class, 'fetch'])->name('Audios.show');

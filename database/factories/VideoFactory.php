@@ -18,6 +18,7 @@ class VideoFactory extends Factory
     {
         return [
             'title' => $this->faker->sentence(),
+            'description' => $this->faker->sentence(),
             'author_id' => $this->faker->numberBetween(1, 100),
             'clip_type' => $this->faker->word(),
             'class' => $this->faker->word(),
