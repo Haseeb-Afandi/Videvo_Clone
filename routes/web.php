@@ -28,8 +28,14 @@ Route::get('stock-video-footage', function () {
 Route::get('Audio', function () {
     return view('audio');
 });
+Route::get('royalty-free-sound-effects', function () {
+    return view('soundEffects');
+});
 Route::get('Template', function () {
     return view('template');
+});
+Route::get('collections', function () {
+    return view('collections');
 });
 Route::get('uploadVid', function () {
     return view('uploadVid');
