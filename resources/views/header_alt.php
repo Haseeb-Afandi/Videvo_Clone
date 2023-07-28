@@ -4,176 +4,176 @@
             <a href="http://127.0.0.1:8000/" class="flex flex-1 items-center lg:flex-none order-0 sm:min-w-[90px]">
                 <img src="./images/logo.svg">
             </a>
-                            <div class="max-navbar:hidden max-w-xl flex-1 items-center py-2 flex order-0" class="{ &#39;max-navbar:hidden&#39;: !openSearch, &#39;max-navbar:basis-full max-navbar:order-3 max-sm:max-w-[calc(100vw-32px)]&#39;: openSearch }">
-                    <form x-data="initFormSearch()" id="search" action="http://127.0.0.1:8000/search/" class="bg-gray-150 h-9 relative flex flex-1 rounded max-w-full" @submit.prevent.stop="validateSearch">
+<div class="max-navbar:hidden max-w-xl flex-1 items-center py-2 flex order-0" :class="{ &#39;max-navbar:hidden&#39;: !openSearch, &#39;max-navbar:basis-full max-navbar:order-3 max-sm:max-w-[calc(100vw-32px)]&#39;: openSearch }">
+<form x-data="initFormSearch()" id="search" action="https://www.videvo.net/search/" class="bg-gray-150 h-9 relative flex flex-1 rounded max-w-full" @submit.prevent.stop="validateSearch">
 
     
-    <button type="submit"></button>
-    <div class="flex justify-center">
-        <div x-on:keydown.escape.prevent.stop="close($refs.button)" x-on:focusin.window="! $refs.panel.contains($event.target) &amp;&amp; close()" x-id="[&#39;dropdown-button&#39;]" class="relative">
-            <!-- Button -->
-            <button x-ref="button" x-on:click="toggle()" :aria-expanded="open" aria-controls="$id(&#39;dropdown-button&#39;)" type="button" class="bg-gray-200 border-gray-300 flex h-full items-center gap-2 whitespace-nowrap rounded-tl rounded-bl border-r pl-3 pr-2 font-bold text-gray-900" aria-expanded="false" aria-controls="dropdown-button-1">
-                <span class="`hidden`" class="hidden">
-                    All videos                </span>
-                <span x-text="categoryText">All videos</span>
-                <svg class="fill-current h-4 w-4 rotate-90 text-gray-600" xmlns="http://www.w3.org/2000/svg" viewBox="-49 141 512 512"><defs></defs><path d="M226.6 397l-92.3 92.3a25 25 0 0035.4 35.4l110-110a25 25 0 000-35.4l-110-110a25 25 0 00-35.4 35.4l92.3 92.3z"></path></svg>            </button>
+<button type="submit"></button>
+<div class="flex justify-center">
+    <div x-on:keydown.escape.prevent.stop="close($refs.button)" x-on:focusin.window="! $refs.panel.contains($event.target) &amp;&amp; close()" x-id="[&#39;dropdown-button&#39;]" class="relative">
+        <!-- Button -->
+        <button x-ref="button" x-on:click="toggle()" :aria-expanded="open" :aria-controls="$id(&#39;dropdown-button&#39;)" type="button" class="bg-gray-200 border-gray-300 flex h-full items-center gap-2 whitespace-nowrap rounded-tl rounded-bl border-r pl-3 pr-2 font-bold text-gray-900" aria-expanded="false" aria-controls="dropdown-button-1">
+            <span :class="`hidden`" class="hidden">
+                All videos                </span>
+            <span x-text="categoryText">All videos</span>
+            <svg class="fill-current h-4 w-4 rotate-90 text-gray-600" xmlns="http://www.w3.org/2000/svg" viewBox="-49 141 512 512"><defs></defs><path d="M226.6 397l-92.3 92.3a25 25 0 0035.4 35.4l110-110a25 25 0 000-35.4l-110-110a25 25 0 00-35.4 35.4l92.3 92.3z"></path></svg>            </button>
 
-            <!-- Panel -->
-            <div x-ref="panel" x-show="open" x-transition.origin.top.left="" id="$id(&#39;dropdown-button&#39;)" style="display: none;" class="absolute left-0 z-20 mt-2 rounded-md bg-white p-2 shadow-md" id="dropdown-button-1">
-                <button x-on:click.prevent="setCategory(&#39;video&#39;, &#39;All Videos&#39;)" class="category === &#39;videos&#39; ? &#39;font-bold bg-blue-400 text-white&#39; : &#39;text-gray-800 hover:bg-gray-150&#39;" class="flex w-full items-center gap-2 whitespace-nowrap rounded px-4 py-2 text-left text-gray-800 hover:bg-gray-150">
-                    All videos                    <svg x-show="category === &#39;video&#39;" class="fill-current ml-auto h-3 w-3" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <!-- Panel -->
+        <div x-ref="panel" x-show="open" x-transition.origin.top.left="" :id="$id(&#39;dropdown-button&#39;)" style="display: none;" class="absolute left-0 z-20 mt-2 rounded-md bg-white p-2 shadow-md" id="dropdown-button-1">
+            <button x-on:click.prevent="setCategory(&#39;video&#39;, &#39;All Videos&#39;)" :class="category === &#39;videos&#39; ? &#39;font-bold bg-blue-400 text-white&#39; : &#39;text-gray-800 hover:bg-gray-150&#39;" class="flex w-full items-center gap-2 whitespace-nowrap rounded px-4 py-2 text-left text-gray-800 hover:bg-gray-150">
+                All videos                    <svg x-show="category === &#39;video&#39;" class="fill-current ml-auto h-3 w-3" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M4.89321 13.6583C4.64475 13.6583 4.39628 13.5635 4.20669 13.3739L0.284359 9.45158C-0.0947864 9.07244 -0.0947864 8.45768 0.284359 8.07857C0.663544 7.69939 1.27822 7.69939 1.65737 8.07857L4.89384 11.3151L14.3433 1.88374C14.7227 1.50494 15.3375 1.50549 15.7163 1.88502C16.0951 2.26452 16.0945 2.87927 15.715 3.25803L5.57908 13.3745C5.38956 13.5637 5.14133 13.6583 4.89321 13.6583Z"></path>
 </svg>                </button>
-                <button x-on:click.prevent="setCategory(&#39;footage&#39;, &#39;Footage&#39;)" class="category === &#39;footage&#39; ? &#39;font-bold bg-blue-400 text-white&#39; : &#39;text-gray-800 hover:bg-gray-150&#39;" class="flex w-full items-center gap-2 whitespace-nowrap rounded px-4 py-2 text-left text-gray-800 hover:bg-gray-150">
-                    Footage                    <svg x-show="category === &#39;footage&#39;" class="fill-current ml-auto h-3 w-3" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" style="display: none;">
+            <button x-on:click.prevent="setCategory(&#39;footage&#39;, &#39;Footage&#39;)" :class="category === &#39;footage&#39; ? &#39;font-bold bg-blue-400 text-white&#39; : &#39;text-gray-800 hover:bg-gray-150&#39;" class="flex w-full items-center gap-2 whitespace-nowrap rounded px-4 py-2 text-left text-gray-800 hover:bg-gray-150">
+                Footage                    <svg x-show="category === &#39;footage&#39;" class="fill-current ml-auto h-3 w-3" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" style="display: none;">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M4.89321 13.6583C4.64475 13.6583 4.39628 13.5635 4.20669 13.3739L0.284359 9.45158C-0.0947864 9.07244 -0.0947864 8.45768 0.284359 8.07857C0.663544 7.69939 1.27822 7.69939 1.65737 8.07857L4.89384 11.3151L14.3433 1.88374C14.7227 1.50494 15.3375 1.50549 15.7163 1.88502C16.0951 2.26452 16.0945 2.87927 15.715 3.25803L5.57908 13.3745C5.38956 13.5637 5.14133 13.6583 4.89321 13.6583Z"></path>
 </svg>                </button>
-                <button x-on:click.prevent="setCategory(&#39;motion-graphics&#39;, &#39;Motion Graphics&#39;)" class="category === &#39;motion-graphics&#39; ? &#39;font-bold bg-blue-400 text-white&#39; : &#39;text-gray-800 hover:bg-gray-150&#39;" class="flex w-full items-center gap-2 whitespace-nowrap rounded px-4 py-2 text-left text-gray-800 hover:bg-gray-150">
-                    Motion graphics                    <svg x-show="category === &#39;motion-graphics&#39;" class="fill-current ml-auto h-3 w-3" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" style="display: none;">
+            <button x-on:click.prevent="setCategory(&#39;motion-graphics&#39;, &#39;Motion Graphics&#39;)" :class="category === &#39;motion-graphics&#39; ? &#39;font-bold bg-blue-400 text-white&#39; : &#39;text-gray-800 hover:bg-gray-150&#39;" class="flex w-full items-center gap-2 whitespace-nowrap rounded px-4 py-2 text-left text-gray-800 hover:bg-gray-150">
+                Motion graphics                    <svg x-show="category === &#39;motion-graphics&#39;" class="fill-current ml-auto h-3 w-3" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" style="display: none;">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M4.89321 13.6583C4.64475 13.6583 4.39628 13.5635 4.20669 13.3739L0.284359 9.45158C-0.0947864 9.07244 -0.0947864 8.45768 0.284359 8.07857C0.663544 7.69939 1.27822 7.69939 1.65737 8.07857L4.89384 11.3151L14.3433 1.88374C14.7227 1.50494 15.3375 1.50549 15.7163 1.88502C16.0951 2.26452 16.0945 2.87927 15.715 3.25803L5.57908 13.3745C5.38956 13.5637 5.14133 13.6583 4.89321 13.6583Z"></path>
 </svg>                </button>
-                <button x-on:click.prevent="setCategory(&#39;music&#39;, &#39;Music&#39;)" class="category === &#39;music&#39; ? &#39;font-bold bg-blue-400 text-white&#39; : &#39;text-gray-800 hover:bg-gray-150&#39;" class="flex w-full items-center gap-2 whitespace-nowrap rounded px-4 py-2 text-left text-gray-800 hover:bg-gray-150">
-                    Music                    <svg x-show="category === &#39;music&#39;" class="fill-current ml-auto h-3 w-3" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" style="display: none;">
+            <button x-on:click.prevent="setCategory(&#39;music&#39;, &#39;Music&#39;)" :class="category === &#39;music&#39; ? &#39;font-bold bg-blue-400 text-white&#39; : &#39;text-gray-800 hover:bg-gray-150&#39;" class="flex w-full items-center gap-2 whitespace-nowrap rounded px-4 py-2 text-left text-gray-800 hover:bg-gray-150">
+                Music                    <svg x-show="category === &#39;music&#39;" class="fill-current ml-auto h-3 w-3" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" style="display: none;">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M4.89321 13.6583C4.64475 13.6583 4.39628 13.5635 4.20669 13.3739L0.284359 9.45158C-0.0947864 9.07244 -0.0947864 8.45768 0.284359 8.07857C0.663544 7.69939 1.27822 7.69939 1.65737 8.07857L4.89384 11.3151L14.3433 1.88374C14.7227 1.50494 15.3375 1.50549 15.7163 1.88502C16.0951 2.26452 16.0945 2.87927 15.715 3.25803L5.57908 13.3745C5.38956 13.5637 5.14133 13.6583 4.89321 13.6583Z"></path>
 </svg>                </button>
-                <button x-on:click.prevent="setCategory(&#39;sound-effects&#39;, &#39;Sound Effects&#39;)" class="category === &#39;sound-effects&#39; ? &#39;font-bold bg-blue-400 text-white&#39; : &#39;text-gray-800 hover:bg-gray-150&#39;" class="flex w-full items-center gap-2 whitespace-nowrap rounded px-4 py-2 text-left text-gray-800 hover:bg-gray-150">
-                    Sound effects                    <svg x-show="category === &#39;sound-effects&#39;" class="fill-current ml-auto h-3 w-3" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" style="display: none;">
+            <button x-on:click.prevent="setCategory(&#39;sound-effects&#39;, &#39;Sound Effects&#39;)" :class="category === &#39;sound-effects&#39; ? &#39;font-bold bg-blue-400 text-white&#39; : &#39;text-gray-800 hover:bg-gray-150&#39;" class="flex w-full items-center gap-2 whitespace-nowrap rounded px-4 py-2 text-left text-gray-800 hover:bg-gray-150">
+                Sound effects                    <svg x-show="category === &#39;sound-effects&#39;" class="fill-current ml-auto h-3 w-3" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" style="display: none;">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M4.89321 13.6583C4.64475 13.6583 4.39628 13.5635 4.20669 13.3739L0.284359 9.45158C-0.0947864 9.07244 -0.0947864 8.45768 0.284359 8.07857C0.663544 7.69939 1.27822 7.69939 1.65737 8.07857L4.89384 11.3151L14.3433 1.88374C14.7227 1.50494 15.3375 1.50549 15.7163 1.88502C16.0951 2.26452 16.0945 2.87927 15.715 3.25803L5.57908 13.3745C5.38956 13.5637 5.14133 13.6583 4.89321 13.6583Z"></path>
 </svg>                </button>
-            </div>
         </div>
     </div>
-    <input id="searchInput" type="search" class="h-full min-w-0 flex-1 appearance-none rounded-tr rounded-br bg-transparent pl-4 pr-10 text-gray-800 placeholder-gray-600 hover:bg-white focus:bg-white focus:outline-none" placeholder="Search..." name="q" value="" autocomplete="off">
-    <input type="hidden" name="mode" :value="category" value="video">
+</div>
+<input id="searchInput" type="search" class="h-full min-w-0 flex-1 appearance-none rounded-tr rounded-br bg-transparent pl-4 pr-10 text-gray-800 placeholder-gray-600 hover:bg-white focus:bg-white focus:outline-none" placeholder="Search..." name="q" value="" autocomplete="off">
+<input type="hidden" name="mode" :value="category" value="video">
 
-    <button type="submit" class="w-9 h-9 absolute top-0 right-0 flex items-center justify-center rounded text-gray-900">
-        <svg class="fill-current h-4 w-4" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
+<button type="submit" class="w-9 h-9 absolute top-0 right-0 flex items-center justify-center rounded text-gray-900">
+    <svg class="fill-current h-4 w-4" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M17.7173 16.4393L12.9552 11.6773C13.9077 10.4527 14.4759 8.91502 14.4759 7.24698C14.4759 3.26096 11.233 0.0180664 7.24698 0.0180664C3.26096 0.0180664 0.0180664 3.26096 0.0180664 7.24698C0.0180664 11.233 3.26096 14.4759 7.24698 14.4759C8.91502 14.4759 10.4527 13.9077 11.6773 12.9552L16.4393 17.7172C16.6158 17.8937 16.8471 17.9819 17.0783 17.9819C17.3096 17.9819 17.5408 17.8937 17.7173 17.7173C18.0701 17.3644 18.0701 16.7922 17.7173 16.4393ZM1.8253 7.24698C1.8253 4.25746 4.25746 1.8253 7.24698 1.8253C10.2365 1.8253 12.6687 4.25746 12.6687 7.24698C12.6687 10.2365 10.2365 12.6687 7.24698 12.6687C4.25746 12.6687 1.8253 10.2365 1.8253 7.24698Z"></path>
 </svg>    </button>
 </form>
 <script>
-    function initFormSearch() {
-        let firstCategory = "video";
-        let firstCategoryName = firstCategory.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
-        return {
-            open: false,
-            category: firstCategory,
-            categoryText: `${(firstCategory === "video" ? "All videos" : firstCategoryName)}`,
-            toggle() {
-                if (this.open) {
-                    return this.close()
-                }
+function initFormSearch() {
+    let firstCategory = "video";
+    let firstCategoryName = firstCategory.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+    return {
+        open: false,
+        category: firstCategory,
+        categoryText: `${(firstCategory === "video" ? "All videos" : firstCategoryName)}`,
+        toggle() {
+            if (this.open) {
+                return this.close()
+            }
 
-                this.$refs.button.focus()
+            this.$refs.button.focus()
 
-                this.open = true
-            },
-            setCategory(category, text) {
-                this.category = category
-                this.categoryText = text
-                this.close()
-            },
-            close(focusAfter) {
-                if (!this.open) return
+            this.open = true
+        },
+        setCategory(category, text) {
+            this.category = category
+            this.categoryText = text
+            this.close()
+        },
+        close(focusAfter) {
+            if (!this.open) return
 
-                this.open = false
+            this.open = false
 
-                focusAfter && focusAfter.focus()
-            },
-            validateSearch(e) {
-                const searchValueLength = document.querySelector('#searchInput').value?.trim()?.length ?? 0;
-                if (searchValueLength === 0) {
-                    e.preventDefault();
-                    document.querySelector('#searchInput').value = '';
-                    toggleSearchInputPlaceholder();
-                    return false;
-                }
+            focusAfter && focusAfter.focus()
+        },
+        validateSearch(e) {
+            const searchValueLength = document.querySelector('#searchInput').value?.trim()?.length ?? 0;
+            if (searchValueLength === 0) {
+                e.preventDefault();
+                document.querySelector('#searchInput').value = '';
+                toggleSearchInputPlaceholder();
+                return false;
             }
         }
     }
+}
 
-    function toggleSearchInputPlaceholder() {
-        document.querySelector("#searchInput").placeholder = 'Enter a search term';
-        setTimeout(() => {
-            document.querySelector("#searchInput").placeholder = 'Search...';
-        }, 3000)
+function toggleSearchInputPlaceholder() {
+    document.querySelector("#searchInput").placeholder = 'Enter a search term';
+    setTimeout(() => {
+        document.querySelector("#searchInput").placeholder = 'Search...';
+    }, 3000)
+}
+
+    document.getElementById('search').addEventListener('submit', function(e) {
+    e.preventDefault();
+
+    const searchValueLength = document.querySelector('#searchInput').value?.trim()?.length ?? 0;
+    if (searchValueLength === 0) {
+        document.querySelector('#searchInput').value = '';
+        toggleSearchInputPlaceholder();
+        return false;
     }
 
-        document.getElementById('search').addEventListener('submit', function(e) {
-        e.preventDefault();
+    let oldTimestamp = localStorage.getItem('istock_redirected');
+    let difference = 86400000; //2629743.83;
+    let currentTimestamp = Date.now();
+    let timeout = 1000;
 
-        const searchValueLength = document.querySelector('#searchInput').value?.trim()?.length ?? 0;
-        if (searchValueLength === 0) {
-            document.querySelector('#searchInput').value = '';
-            toggleSearchInputPlaceholder();
-            return false;
+    if (oldTimestamp != null) {
+        this.submit();
+        return;
+    }
+
+    if ((oldTimestamp == null || currentTimestamp - oldTimestamp > difference) ) {
+
+        const istockRedirectBaseUrl = 'https://istockphoto.6q33.net/c/51471/1020584/4205';
+
+        let query = this.querySelector('input[name="q"]').value.replace(/(\r \t \n)/gm, '').trim();
+        query = query.replace(/(\s+)/gm, ' ');
+        query = query.replace(/%20/g, "+");
+
+        if(this.querySelector('input[name="mode"]').value == 'motion-graphics') {
+            query = 'animated ' + query;
         }
 
-        let oldTimestamp = localStorage.getItem('istock_redirected');
-        let difference = 86400000; //2629743.83;
-        let currentTimestamp = Date.now();
-        let timeout = 1000;
+        let url = new URL(istockRedirectBaseUrl);
+        url.searchParams.set('adplacement', 'red_indirect_all');
+        url.searchParams.set('sharedid', query);
+        url.href += '&u=https%3A%2F%2Fwww.istockphoto.com%2Fsearch%2F2%2Ffilm%3Fphrase%3D' + query;
 
-        if (oldTimestamp != null) {
+        if(redirectIstock(url.href, currentTimestamp)) {
             this.submit();
-            return;
         }
-
-        if ((oldTimestamp == null || currentTimestamp - oldTimestamp > difference) ) {
-
-            const istockRedirectBaseUrl = 'https://istockphoto.6q33.net/c/51471/1020584/4205';
-
-            let query = this.querySelector('input[name="q"]').value.replace(/(\r \t \n)/gm, '').trim();
-            query = query.replace(/(\s+)/gm, ' ');
-            query = query.replace(/%20/g, "+");
-
-            if(this.querySelector('input[name="mode"]').value == 'motion-graphics') {
-                query = 'animated ' + query;
-            }
-
-            let url = new URL(istockRedirectBaseUrl);
-            url.searchParams.set('adplacement', 'red_indirect_all');
-            url.searchParams.set('sharedid', query);
-            url.href += '&u=https%3A%2F%2Fwww.istockphoto.com%2Fsearch%2F2%2Ffilm%3Fphrase%3D' + query;
-
-            if(redirectIstock(url.href, currentTimestamp)) {
-                this.submit();
-            }
-        }
-
-    });
-
-    function redirectIstock(url, currentTimestamp) {
-        const link = document.createElement('a');
-        link.href = url;
-        link.setAttribute('target', '_blank');
-
-        link.style.display = 'none';
-        document.body.appendChild(link);
-        link.click();
-        link.remove();
-        try {
-            localStorage.setItem('istock_redirected', currentTimestamp);
-            
-            //Trigger Google Analytics event for istock redirect
-            window.dataLayer.push({
-                event: 'istockRedirectEvent',
-                eventCategory: 'Istock Redirect',
-                eventAction: 'Triggered redirect on search',
-                eventLabel: 'url: ' + "http://127.0.0.1:8000/video-editing-templates/"
-            });
-
-        } catch (error) {
-            console.log(error);
-        }
-        return true;
     }
-    
+
+});
+
+function redirectIstock(url, currentTimestamp) {
+    const link = document.createElement('a');
+    link.href = url;
+    link.setAttribute('target', '_blank');
+
+    link.style.display = 'none';
+    document.body.appendChild(link);
+    link.click();
+    link.remove();
+    try {
+        localStorage.setItem('istock_redirected', currentTimestamp);
+        
+        //Trigger Google Analytics event for istock redirect
+        window.dataLayer.push({
+            event: 'istockRedirectEvent',
+            eventCategory: 'Istock Redirect',
+            eventAction: 'Triggered redirect on search',
+            eventLabel: 'url: ' + "https://www.videvo.net/after-effects-templates/company-presentation/1005165/"
+        });
+
+    } catch (error) {
+        console.log(error);
+    }
+    return true;
+}
+
 
 </script>
-                </div>
-                <button x-on:click="openSearch = ! openSearch" class="max-sm:ml-0 ml-auto h-6 border-r border-white/20 px-4 text-white max-navbar:block hidden  order-0">
-                    <svg class="fill-current h-4 w-4" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
+            </div>
+            <button x-on:click="openSearch = ! openSearch" class="max-sm:ml-0 ml-auto h-6 border-r border-white/20 px-4 text-white max-navbar:block hidden  order-0">
+                <svg class="fill-current h-4 w-4" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M17.7173 16.4393L12.9552 11.6773C13.9077 10.4527 14.4759 8.91502 14.4759 7.24698C14.4759 3.26096 11.233 0.0180664 7.24698 0.0180664C3.26096 0.0180664 0.0180664 3.26096 0.0180664 7.24698C0.0180664 11.233 3.26096 14.4759 7.24698 14.4759C8.91502 14.4759 10.4527 13.9077 11.6773 12.9552L16.4393 17.7172C16.6158 17.8937 16.8471 17.9819 17.0783 17.9819C17.3096 17.9819 17.5408 17.8937 17.7173 17.7173C18.0701 17.3644 18.0701 16.7922 17.7173 16.4393ZM1.8253 7.24698C1.8253 4.25746 4.25746 1.8253 7.24698 1.8253C10.2365 1.8253 12.6687 4.25746 12.6687 7.24698C12.6687 10.2365 10.2365 12.6687 7.24698 12.6687C4.25746 12.6687 1.8253 10.2365 1.8253 7.24698Z"></path>
 </svg>                </button>
                         <div x-data="{ openMenu: false }" class="order-1 max-sm:ml-0 ml-auto flex items-center lg:order-2 lg:ml-0 lg:pr-4">

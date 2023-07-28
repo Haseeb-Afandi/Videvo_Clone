@@ -5,6 +5,7 @@ use App\Http\Controllers\VideoController;
 use App\Http\Controllers\AudioController;
 use App\Http\Controllers\TemplateController;
 use App\Http\Controllers\UserController;
+use App\Models\Video;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -23,16 +24,27 @@ Route::get('Log-in', function () {
     return view('Log-in');
 });
 Route::get('stock-video-footage', function () {
-    return view('Videos');
+    return view('Video');
+});
+Route::get('video/{id}', function (Video $id) {
+    return view('VideoSingle', [
+        'vid' => $id
+    ]);
 });
 Route::get('Audio', function () {
     return view('audio');
+});
+Route::get('AudioSingle', function () {
+    return view('audioSingle');
 });
 Route::get('royalty-free-sound-effects', function () {
     return view('soundEffects');
 });
 Route::get('Template', function () {
     return view('template');
+});
+Route::get('TemplateSingle', function () {
+    return view('templateSingle');
 });
 Route::get('collections', function () {
     return view('collections');
