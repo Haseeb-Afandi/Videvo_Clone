@@ -20,7 +20,10 @@ class UserController extends Controller
             'password' => 'required'
         ]);
 
-        $temp = User::create($data);
+        $temp = User::create([
+            'email' => $request->email,
+            'password' => hash::make($request->password),
+        ]);
 
         return response()->json(['success'=>'user registered succesfully']);
     }
@@ -40,9 +43,10 @@ class UserController extends Controller
             if (Auth::attempt($request->only(["email", "password"]))) {
 
                 $_SESSION['username'] = $request->email;
+                $_SESSION['logedin'] = true;
                 return response()->json(['success'=>'user login succesfully']);
             } else {
-                return response()->json(['success'=>'user login failed']);
+                return response()->json(['success'=>'invalid useremail or password']);
             }
         }
 

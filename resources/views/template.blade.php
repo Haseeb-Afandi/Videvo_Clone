@@ -1816,15 +1816,15 @@ $(document).ready(() => {
                 <div itemscope="" itemprop="VideoObject" itemtype="schema.org/VideoObject" class="!hidden">
                 <meta itemprop="name" content="${vid.title}">
                 <meta itemprop="description" content="${vid.description}">
-                <meta itemprop="contentUrl" content="https://cdn.videvo.net/videvo_files/mg_templates/premium/template0004/small_watermarked/104_Video%20Preview_preview.mp4">
-                <meta itemprop="thumbnailUrl" content="https://cdn.videvo.net/videvo_files/mg_templates/premium/template0004/thumbnails/104_Video%20Preview_small.jpg">
-                <meta itemprop="uploadDate" content="2021-11-05 15:57:49">
-                <meta itemprop="duration" content="PT45S">
-            </div>    <a href="http://127.0.0.1:8000/after-effects-templates/company-presentation/1005165/" class="block overflow-hidden rounded-md bg-white shadow-lg clip-wrapper" x-data="videoThumbnail()" x-on:mouseenter="playPreview" x-on:mouseleave="stopPreview">
+                <meta itemprop="contentUrl" content="./videos/${vid.preview}">
+                <meta itemprop="thumbnailUrl" content="./thumbnails/${vid.thumbnail}">
+                <meta itemprop="uploadDate" content="${vid.created_at}">
+                <meta itemprop="duration" content="${vid.duration}">
+            </div>    <a href="http://127.0.0.1:8000/Templates/${vid.id}" class="block overflow-hidden rounded-md bg-white shadow-lg clip-wrapper" x-data="videoThumbnail()" x-on:mouseenter="playPreview" x-on:mouseleave="stopPreview">
                     <div class="aspect-w-16 aspect-h-9">
-                        <img src="./assets/104_Video Preview_small.jpg" x-ref="thumb">
-                        <video preload="none" class="absolute inset-0 z-10 h-full w-full object-cover" muted="" x-ref="video" poster="https://cdn.videvo.net/videvo_files/mg_templates/premium/template0004/thumbnails/104_Video%20Preview_small.jpg" loop="">
-                                                <source src="http://127.0.0.1:8000/videos/${vid.Template}" type="video/mp4">
+                        <img src="./thumbnails/${vid.thumbnail}" x-ref="thumb">
+                        <video preload="none" class="absolute inset-0 z-10 h-full w-full object-cover" muted="" x-ref="video" poster="./thumbnails/${vid.thumbnail}" loop="">
+                                                <source src="http://127.0.0.1:8000/videos/${vid.preview}" type="video/mp4">
                                         </video>
                     </div>
                     <div class="p-3">

@@ -164,9 +164,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
     <meta name="theme-color" content="#ffffff">
 
-    <link rel="preload" href="./build/assets/proximanova-regular-webfont.77097479.woff2" as="font" type="font/woff2" crossorigin="">
-    <link rel="preload" href="./build/assets/proximanova-semibold-webfont.0f4e7c12.woff2" as="font" type="font/woff2" crossorigin="">
-    <link rel="preload" href="./build/assets/proximanova-bold-webfont.a1afd922.woff2" as="font" type="font/woff2" crossorigin="">
+    <link rel="preload" href="./assets/proximanova-regular-webfont.77097479.woff2" as="font" type="font/woff2" crossorigin="">
+    <link rel="preload" href="./assets/proximanova-semibold-webfont.0f4e7c12.woff2" as="font" type="font/woff2" crossorigin="">
+    <link rel="preload" href="./assets/proximanova-bold-webfont.a1afd922.woff2" as="font" type="font/woff2" crossorigin="">
 
     <script>
         var dataLayer = window.dataLayer || [];
@@ -378,7 +378,7 @@ window.addEventListener('load', function () {
             var vid = response[x];
                 $('#contVid').append(`<div class="relative clip-wrapper transition-shadow duration-200">
         <a href="./video/${vid.id}" @mouseenter="showHover = true" @mouseover="showHover = true" @mouseleave="showHover = false" class="group aspect-w-16 aspect-h-9 relative flex bg-white overflow-hidden" x-data="videoThumbnail()" x-on:mouseenter="playPreview" x-on:mouseleave="stopPreview" style="-webkit-mask-image: -webkit-radial-gradient(white, black);" id="3313">
-                    <img class="absolute inset-0 z-20 h-full w-full object-cover opacity-1" alt="" onerror="this.style.display=&#39;none&#39;" src="./assets/Raindrops_Videvo_small.jpg" x-ref="thumb">
+                    <img class="absolute inset-0 z-20 h-full w-full object-cover opacity-1" alt="" onerror="this.style.display=&#39;none&#39;" src="./thumbnails/${vid.thumbnail}" x-ref="thumb">
                 <video preload="none" class="absolute inset-0 z-10 h-full w-full object-cover" muted="" x-ref="video" loop="">
                             <source src="./Videos/${vid.Video}" type="video/mp4">
                                         

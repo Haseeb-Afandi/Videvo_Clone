@@ -6138,7 +6138,7 @@ $(document).ready(() => {
         <div class="flex items-center lg:min-h-20 flex-row lg:gap-4 flex-wrap lg:flex-no-wrap w-full">
         <div class="flex items-center flex-grow lg:max-w-[380px] lg:min-w-[280px] md:order-1 lg:order-none">
             <button class="relative mr-4 flex h-14 w-14 shrink-0 items-center justify-center bg-black z-20 button-play-pause" @click="window.audioHandler.handleAudioPlayPause($refs.audioElement221441); playing = playing === 221441 ? &#39;&#39; : 221441;">
-                <img src="./assets/01-Going-Camping-FULL-SM377.png" class="absolute top-0 left-0 h-full w-full object-cover">
+                <img src="./thumbnails/${vid.thumbnail}" class="absolute top-0 left-0 h-full w-full object-cover">
                 <svg x-bind:class="{ &#39;hidden&#39;: playing === 221441 }" class="fill-current relative z-10 h-8 w-8 text-white drop-shadow play-icon" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg"><path d="M14.4621 8.1418L4.15546 1.93628C3.85647 1.75624 3.48667 1.75457 3.18613 1.93178C2.88556 2.10904 2.7002 2.43817 2.7002 2.79451V15.2056C2.7002 15.5619 2.88556 15.891 3.18613 16.0683C3.33511 16.1562 3.50106 16.2 3.66705 16.2C3.83586 16.2 4.00471 16.1546 4.15546 16.0638L14.4621 9.85827C14.7584 9.67986 14.9405 9.35319 14.9405 9.00003C14.9405 8.64688 14.7584 8.32021 14.4621 8.1418Z"></path></svg>                <svg x-bind:class="{ &#39;hidden&#39;: playing !== 221441 }" class="fill-current relative z-10 h-12 w-12 text-white drop-shadow pause-icon hidden" width="54px" height="54px" viewBox="0 0 54 54" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>pause-button-white-sml</title>
     <g id="pause-button-white-sml" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -6154,8 +6154,8 @@ $(document).ready(() => {
                 </audio>
             </button>
             <div class="flex min-w-0 max-w-[calc(100vw-104px)] flex-col lg:max-w-[280px]">
-                <a href="http://127.0.0.1:8000/royalty-free-music-track/going-camping/221441/" class="mb-1 font-semibold leading-none text-gray-800 hover:underline overflow-hidden whitespace-nowrap text-ellipsis"> ${vid.title}</a>
-                                    <a href="http://127.0.0.1:8000/royalty-free-music-albums/easygoing-country-music/" class="mb-1 text-sm font-bold leading-none text-gray-400 hover:text-gray-600 overflow-hidden whitespace-nowrap text-ellipsis">
+                <a href="./Audio/${vid.id}" class="mb-1 font-semibold leading-none text-gray-800 hover:underline overflow-hidden whitespace-nowrap text-ellipsis"> ${vid.title}</a>
+                                    <a href="./Audio/${vid.id}" class="mb-1 text-sm font-bold leading-none text-gray-400 hover:text-gray-600 overflow-hidden whitespace-nowrap text-ellipsis">
                         ${vid.description} 
                     </a>
                                 <p class="w-full truncate text-sm text-gray-600 overflow-hidden whitespace-nowrap text-ellipsis">
@@ -6181,7 +6181,7 @@ $(document).ready(() => {
                 <p class="mb-1 text-sm font-bold leading-none text-gray-600">
                     ${vid.duration}
                 </p>
-                                    <p class="text-sm font-bold leading-none text-gray-600">73 BPM</p>
+                                    <p class="text-sm font-bold leading-none text-gray-600">${vid.bpm}</p>
                             </div>
         </div>
         <div class="flex w-full items-center justify-between lg:w-auto md:gap-4 basis-full md:basis-0 grow-0 md:order-2 lg:order-none">
@@ -6251,7 +6251,7 @@ $(document).ready(() => {
 <!-- Livewire Component wire-end: -->            </div>
                         <span class="w-[44px] flex justify-center">
                 <svg data-cy="premium-icon" class="fill-current h-6 w-6 text-orange-600" viewBox="-120 0 512 512.00115" xmlns="http://www.w3.org/2000/svg"><path d="m270.214844 180.054688c-2.628906-4.816407-7.679688-7.816407-13.167969-7.816407h-54.425781l24.753906-154.871093c1.082031-6.773438-2.570312-13.417969-8.867188-16.136719-6.292968-2.71875-13.640624-.820313-17.828124 4.613281l-197.5625 256.398438c-3.488282 4.527343-4.097657 10.644531-1.578126 15.777343 2.523438 5.128907 7.746094 8.378907 13.460938 8.378907h85.816406l-57.566406 206.574218c-1.992188 7.144532 1.539062 14.675782 8.304688 17.710938 1.988281.890625 4.074218 1.316406 6.136718 1.316406 4.96875 0 9.78125-2.476562 12.621094-6.882812l199.351562-309.761719c2.96875-4.613281 3.179688-10.484375.550782-15.300781zm0 0"></path></svg>            </span>
-                        <a href="http://127.0.0.1:8000/royalty-free-music-track/going-camping/221441/" class="flex h-9 items-center justify-center rounded-lg bg-blue-400 px-5 font-bold text-white">
+                        <a href="./Audios/${vid.Audio}" class="flex h-9 items-center justify-center rounded-lg bg-blue-400 px-5 font-bold text-white">
                 <svg class="fill-current mr-2 h-4 w-4" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M8 12.2188C7.79281 12.2188 7.59409 12.1364 7.44756 11.9899L4.79594 9.33828C4.49084 9.03319 4.49084 8.53853 4.79594 8.23344C5.10103 7.92834 5.59566 7.92834 5.90078 8.23344L7.21875 9.55141V0.78125C7.21875 0.349781 7.56853 0 8 0C8.43147 0 8.78125 0.349781 8.78125 0.78125V9.55141L10.0992 8.23344C10.4043 7.92834 10.899 7.92834 11.2041 8.23344C11.5092 8.53853 11.5092 9.03319 11.2041 9.33828L8.55244 11.9899C8.40591 12.1364 8.20722 12.2188 8 12.2188ZM14.4375 8.78125C14.4375 8.34978 14.7872 8 15.2188 8C15.6503 8 16 8.34978 16 8.78125V12.9688C16 14.4334 14.8084 15.625 13.3438 15.625H2.65625C1.19159 15.625 0 14.4334 0 12.9688V8.78125C0 8.34978 0.349781 8 0.78125 8C1.21272 8 1.5625 8.34978 1.5625 8.78125V12.9688C1.5625 13.5718 2.05316 14.0625 2.65625 14.0625H13.3438C13.9468 14.0625 14.4375 13.5718 14.4375 12.9688V8.78125Z"></path>
 </svg>                Download

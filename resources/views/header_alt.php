@@ -5,7 +5,7 @@
                 <img src="./images/logo.svg">
             </a>
 <div class="max-navbar:hidden max-w-xl flex-1 items-center py-2 flex order-0" :class="{ &#39;max-navbar:hidden&#39;: !openSearch, &#39;max-navbar:basis-full max-navbar:order-3 max-sm:max-w-[calc(100vw-32px)]&#39;: openSearch }">
-<form x-data="initFormSearch()" id="search" action="https://www.videvo.net/search/" class="bg-gray-150 h-9 relative flex flex-1 rounded max-w-full" @submit.prevent.stop="validateSearch">
+<form x-data="initFormSearch()" id="search" action="http://127.0.0.1:8000/search/" class="bg-gray-150 h-9 relative flex flex-1 rounded max-w-full" @submit.prevent.stop="validateSearch">
 
     
 <button type="submit"></button>
@@ -160,7 +160,7 @@ function redirectIstock(url, currentTimestamp) {
             event: 'istockRedirectEvent',
             eventCategory: 'Istock Redirect',
             eventAction: 'Triggered redirect on search',
-            eventLabel: 'url: ' + "https://www.videvo.net/after-effects-templates/company-presentation/1005165/"
+            eventLabel: 'url: ' + "http://127.0.0.1:8000/after-effects-templates/company-presentation/1005165/"
         });
 
     } catch (error) {
@@ -187,8 +187,8 @@ function redirectIstock(url, currentTimestamp) {
 </a>
         <div class="absolute top-full left-0 hidden flex-col gap-1 rounded-lg bg-white p-2 shadow-lg group-hover:flex">
             <a href="http://127.0.0.1:8000/stock-video-footage" class="text-gray-800 py-2 pl-3 pr-6 whitespace-nowrap flex items-center hover:bg-gray-150 rounded-lg"><span class="font-bold text-gray-800">All videos</span></a>
-            <a href="http://127.0.0.1:8000/free-stock-footage/" class="text-gray-800 py-2 pl-3 pr-6 whitespace-nowrap flex items-center hover:bg-gray-150 rounded-lg">Footage</a>
-            <a href="http://127.0.0.1:8000/free-motion-graphics/" class="text-gray-800 py-2 pl-3 pr-6 whitespace-nowrap flex items-center hover:bg-gray-150 rounded-lg">Motion graphics</a>
+            <a href="http://127.0.0.1:8000/free-stock-footage" class="text-gray-800 py-2 pl-3 pr-6 whitespace-nowrap flex items-center hover:bg-gray-150 rounded-lg">Footage</a>
+            <a href="http://127.0.0.1:8000/free-motion-graphics" class="text-gray-800 py-2 pl-3 pr-6 whitespace-nowrap flex items-center hover:bg-gray-150 rounded-lg">Motion graphics</a>
         </div>
     </span>
     <span class="group relative">
@@ -197,11 +197,11 @@ function redirectIstock(url, currentTimestamp) {
 </a>
         <div class="absolute top-full left-0 hidden flex-col gap-1 rounded-lg bg-white p-2 shadow-lg group-hover:flex">
             <a href="http://127.0.0.1:8000/Template" class="text-gray-800 py-2 pl-3 pr-6 whitespace-nowrap flex items-center hover:bg-gray-150 rounded-lg font-bold xl:bg-gray-150"><span class="font-bold text-gray-800">All templates</span></a>
-            <a href="http://127.0.0.1:8000/after-effects-templates/" class="text-gray-800 py-2 pl-3 pr-6 whitespace-nowrap flex items-center hover:bg-gray-150 rounded-lg">After Effects templates</a>
-            <a href="http://127.0.0.1:8000/premiere-pro-templates/" class="text-gray-800 py-2 pl-3 pr-6 whitespace-nowrap flex items-center hover:bg-gray-150 rounded-lg">Premiere Pro templates</a>
-            <a href="http://127.0.0.1:8000/davinci-resolve-templates/" class="text-gray-800 py-2 pl-3 pr-6 whitespace-nowrap flex items-center hover:bg-gray-150 rounded-lg">DaVinci Resolve templates</a>
-            <a href="http://127.0.0.1:8000/final-cut-pro-templates/" class="text-gray-800 py-2 pl-3 pr-6 whitespace-nowrap flex items-center hover:bg-gray-150 rounded-lg">Final Cut Pro templates</a>
-            <a href="http://127.0.0.1:8000/motion-graphics-templates/" class="text-gray-800 py-2 pl-3 pr-6 whitespace-nowrap flex items-center hover:bg-gray-150 rounded-lg">Motion Graphics templates</a>
+            <a href="http://127.0.0.1:8000/after-effects-templates" class="text-gray-800 py-2 pl-3 pr-6 whitespace-nowrap flex items-center hover:bg-gray-150 rounded-lg">After Effects templates</a>
+            <a href="http://127.0.0.1:8000/premiere-pro-templates" class="text-gray-800 py-2 pl-3 pr-6 whitespace-nowrap flex items-center hover:bg-gray-150 rounded-lg">Premiere Pro templates</a>
+            <a href="http://127.0.0.1:8000/davinci-resolve-templates" class="text-gray-800 py-2 pl-3 pr-6 whitespace-nowrap flex items-center hover:bg-gray-150 rounded-lg">DaVinci Resolve templates</a>
+            <a href="http://127.0.0.1:8000/final-cut-pro-templates" class="text-gray-800 py-2 pl-3 pr-6 whitespace-nowrap flex items-center hover:bg-gray-150 rounded-lg">Final Cut Pro templates</a>
+            <a href="http://127.0.0.1:8000/motion-graphics-templates" class="text-gray-800 py-2 pl-3 pr-6 whitespace-nowrap flex items-center hover:bg-gray-150 rounded-lg">Motion Graphics templates</a>
         </div>
     </span>
     <span class="group relative">
@@ -210,10 +210,10 @@ function redirectIstock(url, currentTimestamp) {
 </a>
         <div class="absolute top-full left-0 hidden flex-col gap-1 rounded-lg bg-white p-2 shadow-lg group-hover:flex">
             <a href="http://127.0.0.1:8000/Audio" class="text-gray-800 py-2 pl-3 pr-6 whitespace-nowrap flex items-center hover:bg-gray-150 rounded-lg"><span class="font-bold text-gray-800">Music</span></a>
-            <a href="http://127.0.0.1:8000/royalty-free-sound-effects/" class="text-gray-800 py-2 pl-3 pr-6 whitespace-nowrap flex items-center hover:bg-gray-150 rounded-lg"><span class="font-bold text-gray-800">Sound effects</span></a>
+            <a href="http://127.0.0.1:8000/royalty-free-sound-effects" class="text-gray-800 py-2 pl-3 pr-6 whitespace-nowrap flex items-center hover:bg-gray-150 rounded-lg"><span class="font-bold text-gray-800">Sound effects</span></a>
         </div>
     </span>
-    <a href="http://127.0.0.1:8000/collections/" class="flex flex-1 items-center rounded-lg p-2 font-bold text-gray-900 hover:bg-gray-150 xl:flex-none xl:rounded-none xl:text-white/90 xl:hover:bg-transparent xl:hover:text-white">
+    <a href="http://127.0.0.1:8000/collections" class="flex flex-1 items-center rounded-lg p-2 font-bold text-gray-900 hover:bg-gray-150 xl:flex-none xl:rounded-none xl:text-white/90 xl:hover:bg-transparent xl:hover:text-white">
     Collections
 </a>
     <a href="http://127.0.0.1:8000/Help" class="flex flex-1 items-center rounded-lg p-2 font-bold text-gray-900 hover:bg-gray-150 xl:flex-none xl:rounded-none xl:text-white/90 xl:hover:bg-transparent xl:hover:text-white">
@@ -242,8 +242,8 @@ function redirectIstock(url, currentTimestamp) {
         </div>
         <div class="{ hidden: !openVideos }" class="flex flex-col pl-6 hidden">
             <a href="http://127.0.0.1:8000/stock-video-footage" class="text-gray-800 py-2 pl-3 pr-6 whitespace-nowrap flex items-center hover:bg-gray-150 rounded-lg">All videos</a>
-            <a href="http://127.0.0.1:8000/free-stock-footage/" class="text-gray-800 py-2 pl-3 pr-6 whitespace-nowrap flex items-center hover:bg-gray-150 rounded-lg">Footage</a>
-            <a href="http://127.0.0.1:8000/free-motion-graphics/" class="text-gray-800 py-2 pl-3 pr-6 whitespace-nowrap flex items-center hover:bg-gray-150 rounded-lg">Motion graphics</a>
+            <a href="http://127.0.0.1:8000/free-stock-footage" class="text-gray-800 py-2 pl-3 pr-6 whitespace-nowrap flex items-center hover:bg-gray-150 rounded-lg">Footage</a>
+            <a href="http://127.0.0.1:8000/free-motion-graphics" class="text-gray-800 py-2 pl-3 pr-6 whitespace-nowrap flex items-center hover:bg-gray-150 rounded-lg">Motion graphics</a>
         </div>
     </div>
     <div class="relative px-4 py-1.5" x-data="{ openTemplates: false }">
@@ -255,12 +255,12 @@ function redirectIstock(url, currentTimestamp) {
                 <svg class="fill-current h-5 w-5 rotate-90 text-gray-900" xmlns="http://www.w3.org/2000/svg" viewBox="-49 141 512 512"><defs></defs><path d="M226.6 397l-92.3 92.3a25 25 0 0035.4 35.4l110-110a25 25 0 000-35.4l-110-110a25 25 0 00-35.4 35.4l92.3 92.3z"></path></svg>            </button>
         </div>
         <div :class="{ hidden: !openTemplates }" class="flex flex-col pl-6 hidden">
-            <a href="http://127.0.0.1:8000/video-editing-templates/" class="text-gray-800 py-2 pl-3 pr-6 whitespace-nowrap flex items-center hover:bg-gray-150 rounded-lg font-bold xl:bg-gray-150">All templates</a>
-            <a href="http://127.0.0.1:8000/after-effects-templates/" class="text-gray-800 py-2 pl-3 pr-6 whitespace-nowrap flex items-center hover:bg-gray-150 rounded-lg">After Effects templates</a>
-            <a href="http://127.0.0.1:8000/premiere-pro-templates/" class="text-gray-800 py-2 pl-3 pr-6 whitespace-nowrap flex items-center hover:bg-gray-150 rounded-lg">Premiere Pro templates</a>
-            <a href="http://127.0.0.1:8000/davinci-resolve-templates/" class="text-gray-800 py-2 pl-3 pr-6 whitespace-nowrap flex items-center hover:bg-gray-150 rounded-lg">DaVinci Resolve templates</a>
-            <a href="http://127.0.0.1:8000/final-cut-pro-templates/" class="text-gray-800 py-2 pl-3 pr-6 whitespace-nowrap flex items-center hover:bg-gray-150 rounded-lg">Final Cut Pro templates</a>
-            <a href="http://127.0.0.1:8000/motion-graphics-templates/" class="text-gray-800 py-2 pl-3 pr-6 whitespace-nowrap flex items-center hover:bg-gray-150 rounded-lg">Motion Graphics templates</a>
+            <a href="http://127.0.0.1:8000/video-editing-templates" class="text-gray-800 py-2 pl-3 pr-6 whitespace-nowrap flex items-center hover:bg-gray-150 rounded-lg font-bold xl:bg-gray-150">All templates</a>
+            <a href="http://127.0.0.1:8000/after-effects-templates" class="text-gray-800 py-2 pl-3 pr-6 whitespace-nowrap flex items-center hover:bg-gray-150 rounded-lg">After Effects templates</a>
+            <a href="http://127.0.0.1:8000/premiere-pro-templates" class="text-gray-800 py-2 pl-3 pr-6 whitespace-nowrap flex items-center hover:bg-gray-150 rounded-lg">Premiere Pro templates</a>
+            <a href="http://127.0.0.1:8000/davinci-resolve-templates" class="text-gray-800 py-2 pl-3 pr-6 whitespace-nowrap flex items-center hover:bg-gray-150 rounded-lg">DaVinci Resolve templates</a>
+            <a href="http://127.0.0.1:8000/final-cut-pro-templates" class="text-gray-800 py-2 pl-3 pr-6 whitespace-nowrap flex items-center hover:bg-gray-150 rounded-lg">Final Cut Pro templates</a>
+            <a href="http://127.0.0.1:8000/motion-graphics-templates" class="text-gray-800 py-2 pl-3 pr-6 whitespace-nowrap flex items-center hover:bg-gray-150 rounded-lg">Motion Graphics templates</a>
         </div>
     </div>
     <div class="px-4 py-1.5">
@@ -269,12 +269,12 @@ function redirectIstock(url, currentTimestamp) {
 </a>
     </div>
     <div class="px-4 py-1.5">
-        <a href="http://127.0.0.1:8000/royalty-free-sound-effects/" class="flex flex-1 items-center rounded-lg p-2 font-bold text-gray-900 hover:bg-gray-150 xl:flex-none xl:rounded-none xl:text-white/90 xl:hover:bg-transparent xl:hover:text-white">
+        <a href="http://127.0.0.1:8000/royalty-free-sound-effects" class="flex flex-1 items-center rounded-lg p-2 font-bold text-gray-900 hover:bg-gray-150 xl:flex-none xl:rounded-none xl:text-white/90 xl:hover:bg-transparent xl:hover:text-white">
     <svg class="fill-current mr-3 h-5 w-5 p-px xl:hidden" viewBox="0 0 28 28" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M20.1202143,11.0688896 C19.9916176,10.7181707 19.6928864,10.4857143 19.3389286,10.4857143 C18.9939471,10.4857143 18.67665,10.7077729 18.5470666,11.0955411 L17.4969177,14.2483969 L15.7319757,5.07275157 C15.6432177,4.60987347 15.2986832,4.33333333 14.9096429,4.33333333 C14.4924205,4.33333333 14.1390469,4.64553063 14.0726633,5.12578744 L12.5870974,15.8472742 L11.2070146,9.40281819 C11.1105702,8.95178445 10.7677335,8.68452381 10.385,8.68452381 C10.0206587,8.68452381 9.69381818,8.92717816 9.57837727,9.34445402 L8.29182875,14.0205753 L7.50795763,11.9611838 C7.37752625,11.6174539 7.0792676,11.3904762 6.72928571,11.3904762 C6.44411951,11.3904762 6.18906438,11.544319 6.03295091,11.7978366 L4.74225033,13.8571429 L2.53571429,13.8571429 C2.04761671,13.8571429 1.66666667,14.2804207 1.66666667,14.7857143 C1.66666667,15.2910079 2.04761671,15.7142857 2.53571429,15.7142857 L5.19714286,15.7142857 C5.48070356,15.7142857 5.74026583,15.5619221 5.89482186,15.310053 L6.55249238,14.267153 L7.64351083,17.1305876 C7.77508201,17.476633 8.06766243,17.7011905 8.41892857,17.7011905 C8.80310547,17.7011905 9.12006385,17.430115 9.22775274,17.0398578 L10.2845491,13.1979296 L11.9426182,20.9459442 C12.0406837,21.3994208 12.3749338,21.6666667 12.7614286,21.6666667 C13.1789643,21.6666667 13.5321397,21.3540822 13.5984292,20.8728697 L15.0412899,10.4597015 L16.4530211,17.8010416 C16.5393078,18.2506582 16.8861584,18.5416667 17.2807143,18.5416667 C17.6483058,18.5416667 17.9453664,18.3010721 18.0692054,17.9323069 L19.3748645,14.0162989 L20.5751519,17.2989923 C20.7037056,17.6495937 21.0035455,17.8821429 21.3575,17.8821429 C21.6402762,17.8821429 21.8952471,17.7296379 22.0502996,17.4788739 L23.210978,15.697619 L25.4728571,15.697619 C25.956669,15.697619 26.3333333,15.2791031 26.3333333,14.7785714 C26.3333333,14.2779477 25.9567247,13.8571429 25.4728571,13.8571429 L22.7707143,13.8571429 C22.4889028,13.8571429 22.2305569,14.0121285 22.0765685,14.2620473 L21.5625855,15.0146298 L20.1202143,11.0688896 Z"></path></svg>            Sound effects
 </a>
     </div>
     <div class="px-4 py-1.5">
-        <a href="http://127.0.0.1:8000/collections/" class="flex flex-1 items-center rounded-lg p-2 font-bold text-gray-900 hover:bg-gray-150 xl:flex-none xl:rounded-none xl:text-white/90 xl:hover:bg-transparent xl:hover:text-white">
+        <a href="http://127.0.0.1:8000/collections" class="flex flex-1 items-center rounded-lg p-2 font-bold text-gray-900 hover:bg-gray-150 xl:flex-none xl:rounded-none xl:text-white/90 xl:hover:bg-transparent xl:hover:text-white">
     <svg class="fill-current mr-3 h-5 w-5 p-px xl:hidden" xmlns="http://www.w3.org/2000/svg" fill="currentColor" stroke="none" viewBox="0 0 24 24"><path d="M20 2H8c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2V4c0-1.103-.897-2-2-2zM8 16V4h12l.002 12H8z"></path><path d="M4 8H2v12c0 1.103.897 2 2 2h12v-2H4V8zm11-2h-2v3h-3v2h3v3h2v-3h3V9h-3z"></path></svg>            Collections
 </a>
     </div>

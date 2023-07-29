@@ -78,9 +78,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
     <meta name="theme-color" content="#ffffff">
 
-    <link rel="preload" href="https://www.videvo.net/build/assets/proximanova-regular-webfont.77097479.woff2" as="font" type="font/woff2" crossorigin="">
-    <link rel="preload" href="https://www.videvo.net/build/assets/proximanova-semibold-webfont.0f4e7c12.woff2" as="font" type="font/woff2" crossorigin="">
-    <link rel="preload" href="https://www.videvo.net/build/assets/proximanova-bold-webfont.a1afd922.woff2" as="font" type="font/woff2" crossorigin="">
+    <link rel="preload" href="https://www.videvo.net/assets/proximanova-regular-webfont.77097479.woff2" as="font" type="font/woff2" crossorigin="">
+    <link rel="preload" href="https://www.videvo.net/assets/proximanova-semibold-webfont.0f4e7c12.woff2" as="font" type="font/woff2" crossorigin="">
+    <link rel="preload" href="https://www.videvo.net/assets/proximanova-bold-webfont.a1afd922.woff2" as="font" type="font/woff2" crossorigin="">
 
     <script>
         var dataLayer = window.dataLayer || [];

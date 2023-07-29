@@ -1,0 +1,6 @@
+.rm_hidder{
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+    transform: translate(-50%);
+}
