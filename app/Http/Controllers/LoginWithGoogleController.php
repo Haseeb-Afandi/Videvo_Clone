@@ -27,6 +27,17 @@ class LoginWithGoogleController extends Controller
             if($finduser){
        
                 Auth::login($finduser);
+
+                $data = User::where('google_id', $user->id)->first();
+
+                session([
+                    'userid' => $data['id'],
+                    'username' => $data['name'] ?? $data['email'],
+                    'useremail' => $data['email'],
+                    'profile_img' => $data['profile_img'] ?? './assets/01.svg',
+                    'prem_status' => $data['prem_status'],
+                    'logedin' => true,
+                ]);
       
                 return redirect()->intended('/');
        
@@ -39,8 +50,7 @@ class LoginWithGoogleController extends Controller
 
                 $profile_img = $user->avatar;
 
-                var_dump($profile_img);
-                echo '<br>';
+
 
                 $newUser = User::create([
                     'name' => $user->name,
@@ -50,9 +60,19 @@ class LoginWithGoogleController extends Controller
                     'password' => encrypt('123456dummy')
                 ]);
 
-                print_r($newUser);
       
                 Auth::login($newUser);
+
+                $data = User::where('google_id', $user->id)->first();
+
+                session([
+                    'userid' => $data['id'],
+                    'username' => $data['name'] ?? $data['email'],
+                    'useremail' => $data['email'],
+                    'profile_img' => $data['profile_img'] ?? './assets/01.svg',
+                    'prem_status' => $data['prem_status'],
+                    'logedin' => true,
+                ]);
       
                 return redirect()->intended('/');
             }

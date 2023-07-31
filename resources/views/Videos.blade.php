@@ -15,8 +15,8 @@
     <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <link href="./css/main.css" rel="stylesheet">
-    <link href="./css/Video.css" rel="stylesheet">
+    <link href="{{ url('/') }}/css/main.css" rel="stylesheet">
+    <link href="{{ url('/') }}/css/Video.css" rel="stylesheet">
 </head>
 
 <body class="flex min-h-screen flex-col overflow-y-scroll font-custom antialiased scroll-smooth">
@@ -25,7 +25,7 @@
             class="flex min-h-[3.5rem] items-center justify-between gap-2 px-4 duration-300 lg:h-16 lg:gap-0 lg:transition-all max-lg:h-full w-full">
             <div class="flex flex-1 items-center gap-3 sm:gap-4 lg:gap-8 max-lg:!gap-y-0">
                 <a href="#" class="flex flex-1 items-center lg:flex-none order-0 sm:min-w-[90px]">
-                    <img src="./images/logo.svg" width="90px" height="20px">
+                    <img src="{{ url('/') }}/images/logo.svg" width="90px" height="20px">
                 </a>
                 <div class="max-navbar:hidden max-w-xl flex-1 items-center py-2 flex order-0">
                     <form class="bg-gray-150 h-9 relative flex flex-1 rounded max-w-full">
@@ -100,7 +100,7 @@
                             class="hidden rounded-lg border-2 border-white/50 py-1 px-3 font-bold text-white hover:border-white sm:block">
                             Join Videvo
                         </a>
-                        <a href="./Log-in" class="rounded-lg py-1 px-3 font-bold text-white/75 hover:text-white">Log
+                        <a href="{{ url('/') }}/Log-in" class="rounded-lg py-1 px-3 font-bold text-white/75 hover:text-white">Log
                             In</a>
                     </div>
                 </div>
@@ -271,32 +271,32 @@
                             class="flex w-full justify-between gap-x-3 max-md:snap-x max-md:snap-mandatory max-md:overflow-x-scroll">
                             <div class="items1">
                                 <Video loop preload="none">
-                                    <source src="./videos/169028789064bfbf128aca41.35114151.mp4" type="video/mp4">
+                                    <source src="{{ url('/') }}/videos/169028789064bfbf128aca41.35114151.mp4" type="video/mp4">
                                 </Video>
                             </div>
                             <div class="items1">
                                 <Video loop preload="none">
-                                    <source src="./videos/169028789064bfbf128aca41.35114151.mp4" type="video/mp4">
+                                    <source src="{{ url('/') }}/videos/169028789064bfbf128aca41.35114151.mp4" type="video/mp4">
                                 </Video>
                             </div>
                             <div class="items1">
                                 <Video loop preload="none">
-                                    <source src="./videos/169028789064bfbf128aca41.35114151.mp4" type="video/mp4">
+                                    <source src="{{ url('/') }}/videos/169028789064bfbf128aca41.35114151.mp4" type="video/mp4">
                                 </Video>
                             </div>
                             <div class="items1">
                                 <Video loop preload="none">
-                                    <source src="./videos/169028789064bfbf128aca41.35114151.mp4" type="video/mp4">
+                                    <source src="{{ url('/') }}/videos/169028789064bfbf128aca41.35114151.mp4" type="video/mp4">
                                 </Video>
                             </div>
                             <div class="items1">
                                 <Video loop preload="none">
-                                    <source src="./videos/169028789064bfbf128aca41.35114151.mp4" type="video/mp4">
+                                    <source src="{{ url('/') }}/videos/169028789064bfbf128aca41.35114151.mp4" type="video/mp4">
                                 </Video>
                             </div>
                             <div class="items1">
                                 <Video loop preload="none">
-                                    <source src="./videos/169028789064bfbf128aca41.35114151.mp4" type="video/mp4">
+                                    <source src="{{ url('/') }}/videos/169028789064bfbf128aca41.35114151.mp4" type="video/mp4">
                                 </Video>
                                 <a href="#" target="_blank"
                                     class="view_more inset-0 z-20 flex items-center justify-center bg-black/75 hover:bg-black/90">
@@ -380,7 +380,7 @@
             <div id="vid_cont" class="container_main">
                 <div class="items">
                     <Video loop preload="none">
-                        <source src="./videos/169030444564bfffbda9cf70.32707743.mp4" type="video/mp4">
+                        <source src="{{ url('/') }}/videos/169030444564bfffbda9cf70.32707743.mp4" type="video/mp4">
                     </Video>
                 </div>
             </div>
@@ -405,7 +405,7 @@
         $(document).ready(() => {
     
             $.ajax({
-            url: './Api/Video',
+            url: '{{ url('/') }}/Api/Video',
             method: 'GET',
             contentType: false,
             cache: false,
@@ -414,7 +414,7 @@
             {
                 console.log(response);
                 response.forEach(vid => {
-                    $('#vid_cont').append('<div class="items"><Video loop preload="none"><source src="./videos/' + vid.Video +'" type="video/mp4"></Video><p class="videotitle">' + vid.title + '</p></div>');
+                    $('#vid_cont').append('<div class="items"><Video loop preload="none"><source src="{{ url('/') }}/videos/' + vid.Video +'" type="video/mp4"></Video><p class="videotitle">' + vid.title + '</p></div>');
                 });
             },
             error: function(response) {

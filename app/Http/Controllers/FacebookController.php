@@ -36,6 +36,17 @@ class FacebookController extends Controller
             if($finduser){
          
                 Auth::login($finduser);
+
+                $data = User::where('facebook_id', $user->id)->first();
+
+                session([
+                    'userid' => $data['id'],
+                    'username' => $data['name'] ?? $data['email'],
+                    'useremail' => $data['email'],
+                    'profile_img' => $data['profile_img'] ?? './assets/01.svg',
+                    'prem_status' => $data['prem_status'],
+                    'logedin' => true,
+                ]);
        
                 return redirect()->intended('/');
          
@@ -49,6 +60,17 @@ class FacebookController extends Controller
                     ]);
         
                 Auth::login($newUser);
+
+                $data = User::where('facebook_id', $user->id)->first();
+
+                session([
+                    'userid' => $data['id'],
+                    'username' => $data['name'] ?? $data['email'],
+                    'useremail' => $data['email'],
+                    'profile_img' => $data['profile_img'] ?? './assets/01.svg',
+                    'prem_status' => $data['prem_status'],
+                    'logedin' => true,
+                ]);
         
                 return redirect()->intended('/');
             }

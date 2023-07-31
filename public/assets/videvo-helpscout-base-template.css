@@ -1,0 +1,1153 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap');
+
+
+
+
+body {
+/*
+    height: 100vh;
+	background: url(https://www.videvo.net/wp-content/uploads/2019/07/Videvo-grid-bgrnd1.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+*/
+	font-family: 'PT Sans', sans-serif;
+    background-color: #eee;
+    color: #2B2B2B;
+
+}
+
+
+button, #searchBar button {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    text-shadow: none;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	}
+
+a {
+    color: #1B95E0;
+    }
+
+a:hover, a:focus {
+    color: #1B95E0;
+    }
+
+
+
+h1, #docsSearch h1 {
+	font-size: 40px;
+	font-weight: bold;
+	letter-spacing: 0.3px;
+}
+
+h2, .most-pop-articles h2 {
+    color: #2B2B2B;
+    font-weight: bold;
+    font-size: 24px;
+	letter-spacing: 0.2px;
+    }
+
+
+h3, .category-list h3 {
+    color: #2B2B2B;
+	font-weight: bold;
+    font-size: 24px;
+	letter-spacing: 0.2px;
+    }
+
+.related h3, #sidebar h3 {
+    font-size: 14px;
+    letter-spacing: 0.3px;
+    color: #9a9a9a;
+    }
+
+
+p, #fullArticle, #fullArticle p, #fullArticle ul, #fullArticle ol, #fullArticle li, #fullArticle div, #fullArticle blockquote, #fullArticle dd, #fullArticle table, .articleFoot p, .articleFoot time, .articleRatings, #sidebar form .search-query {
+    font-family: 'PT Sans', sans-serif;
+ 	font-size: 16px;
+ 	letter-spacing: 0.1px;
+ 	}
+
+
+
+
+
+/* NAV */
+
+
+/* .navbar .brand {
+    padding-top: 20px;
+    }
+
+
+#mainNav .brand img {
+    height: 30px;
+    width: auto;
+    }
+
+#mainNav .navbar-inner {
+	min-height: 82px;
+} */
+
+#mainNav .container-fluid {
+    max-width: 100% !important;
+    padding-left: 7px;
+}
+#mainNav .brand img {
+    height: auto;
+}
+.navbar .brand {
+    display: inline-block;
+    width: 100px;
+    padding-top: 0;
+		padding-bottom: 0;
+}
+#mainNav .navbar-inner {
+    min-height: 60px;
+}
+.navbar .nav .active .caret {
+    display: none;
+}
+
+
+/*  OLD NAV LOGO  */
+/*
+ #mainNav .brand span {
+	display: inline-block;
+	text-indent: -9000px;
+	width: 100px;
+	height: 60px;
+	background: url(https://www.videvo.net/wp-content/uploads/2019/11/Videvo-logo-Nav@2x.png) no-repeat 0 0;
+	background-size: 100%;
+} */
+
+
+/*  NEW NAV LOGO - WHITE  */
+/* #mainNav .brand span {
+	display: inline-block;
+	text-indent: -9000px;
+	width: 90px;
+	height: 60px;
+	background: url(https://www.videvo.net/wp-content/uploads/2020/12/Videvo-Logo-Nav-Reversed-60px@2x.png) no-repeat 0 0;
+	background-size: 100%;
+} */
+
+
+/*  NEW NAV LOGO - BLACK  */
+#mainNav .brand span {
+	display: inline-block;
+	text-indent: -9000px;
+	width: 90px;
+	height: 60px;
+	background: url(https://www.videvo.net/wp-content/uploads/2020/12/Videvo-Logo-Nav-60px@2x.png) no-repeat 0 0;
+	background-size: 100%;
+}
+
+
+
+@media (max-width: 1023px) {
+	#mainNav .container-fluid {
+		padding-left: 0;
+	}
+	.navbar-inner {
+		padding-left: 19px;
+	}
+}
+
+
+@media (min-width: 769px) {
+
+	.navbar .nav {
+		top: 12px;
+	   	}
+
+}
+
+
+@media (max-width: 768px) {
+
+	.navbar .btn-navbar {
+	    height: 82px;
+	    margin-top: 0;
+	    }
+
+	.navbar .btn-navbar .icon-bar {
+		background: #fff;
+		opacity: .8;
+		}
+
+	.navbar .btn-navbar:hover .icon-bar {
+		opacity: 1;
+		}
+
+
+/* Show desktop nav on mobile */
+
+	.navbar .btn-navbar {
+		display: none;
+		background: 0 0;
+	}
+
+	.nav-collapse.collapse {
+		overflow: visible;
+		z-index: 1;
+	}
+
+	.navbar .nav li {
+		display: inline-block;
+		float: right;
+	}
+
+	.navbar .nav {
+		top: -57px;
+	}
+
+	.navbar-inner {
+		padding-right: 12px;
+	}
+
+	#mainNav .container-fluid {
+		padding-left: 0;
+	}
+
+	#contactMobile, #sbContactMobile {
+		display: none;
+	}
+
+	#contact, #sbContact {
+		display: unset;
+	}
+	#contact, #sbContact {
+		/* position: absolute; */
+		right: 0;
+	}
+
+	#home, #sbHome {
+		position: absolute;
+		right: 86px;
+	}
+}
+
+@media screen and (max-width: 374px) {
+	.navbar-inner {
+		padding-left: 7px;
+		padding-right: 8px;
+	}
+}
+/* FOR BLACK BGRND  */
+
+/* .navbar .nav li a, .navbar .icon-private-w {
+    color: white;
+    -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 1px 16px 3px;
+    background: #2b2b2b;
+    border-radius: 5px;
+    }
+
+.navbar .nav>li>a:focus, .navbar .nav>li>a:hover {
+    background-color: #1b95e0;
+    }
+
+.navbar .nav #contact a {
+		border-radius: 5px;
+		border: solid 1px #d2d2d2;
+	}
+
+.navbar .nav #home a {
+		background-color: #2b2b2b;
+	}
+
+.navbar .nav #home a:hover {
+		background-color: #2b2b2b;
+	} */
+
+
+	/* FOR WHITE BGRND  */
+
+	.navbar .nav li a, .navbar .icon-private-w {
+	    color: #2b2b2b;
+			-webkit-font-smoothing: antialiased;
+			-moz-osx-font-smoothing: grayscale;
+	    font-size: 16px;
+	    font-weight: bold;
+	    padding: 1px 16px 3px;
+	    background: white;
+	    border-radius: 5px;
+	    }
+
+	.navbar .nav>li>a:focus, .navbar .nav>li>a:hover {
+			background-color: #1b95e0;
+	    }
+
+	.navbar .nav #contact a {
+		color: #1b95e0;
+		border-radius: 5px;
+		border: solid 1px #d2d2d2;
+		}
+	.navbar .nav #contact a:hover {
+		color: white;
+		border: solid 1px white;
+		}
+
+	.navbar .nav #home a {
+		color: #2b2b2b;
+		background-color: white;
+		}
+
+	.navbar .nav #home a:hover {
+		color: #1b95e0;
+		background-color: white;
+		}
+
+
+
+
+
+
+
+/* HOME */
+
+
+#docsSearch {
+	position: relative;
+	background: url(https://www.videvo.net/wp-content/uploads/2020/03/Videvo-grid-bgrnd2-sml.jpg);
+    background-color: #cccccc;
+    height: 230px;
+    background-position: 50% 40%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: none;
+    padding-top: 3em;
+    padding-bottom: 0;
+    top: -1px;
+    z-index: 10;
+}
+
+@media (max-width: 768px) {
+	#docsSearch {
+		margin: 0 -20px 1em;
+		}
+}
+
+
+#docsSearch:after {
+	content: "";
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,.5);
+	/* background: linear-gradient(140deg,
+		rgba(0,0,0,0.1) 0%,
+		rgba(0,0,0,0.30) 20%,
+		rgba(0,0,0,0.7) 45%,
+		rgba(0,0,0,0.30) 80%,
+		rgba(0,0,0,0.1) 100%); */
+}
+
+@media (min-width: 769px) {
+	#docsSearch:after {
+		background: linear-gradient(140deg,
+			rgba(0,0,0,0.1) 0%,
+			rgba(0,0,0,0.30) 20%,
+			rgba(0,0,0,0.7) 45%,
+			rgba(0,0,0,0.30) 80%,
+			rgba(0,0,0,0.1) 100%);
+	}
+}
+
+
+/*
+#docsSearch {
+	background-color: unset;
+}
+*/
+
+#docsSearch h1 {
+	color: white;
+	text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.8);
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+
+#searchBar .search-query {
+	background: #fff;
+	border-color: transparent;
+	box-shadow: none;
+	color: #777;
+}
+#searchBar button {
+	background: #F1861B;
+	border-radius: 0 25px 25px 0;
+	border-color: transparent;
+	color: #fff;
+}
+#searchBar button:hover {
+	background: #e77300;
+	border-color: transparent;
+	color: white;
+}
+
+
+#docsSearch #searchBar .search-query {
+  font-family: 'PT Sans', sans-serif;
+  border-radius: 25px;
+	padding-left: 25px;
+	box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.6);
+	}
+
+	@media (max-width: 374px) {
+		#docsSearch #searchBar .search-query {
+			padding-left: 17px !important;
+		}
+	}
+
+
+#searchBar .search-query, #searchBar button {
+	letter-spacing: 0.1px;
+}
+
+#docsSearch #searchBar .icon-search:before {
+	color: white;
+	top: 12px;
+	left: -1px;
+	position: relative;
+}
+#serp-dd {
+	top: 80px;
+	border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+	#serp-dd {
+		top: 74px;
+	}
+}
+
+#serp-dd.sb {
+	top: 46px;
+	border-radius: 5px;
+	}
+
+
+/* CATEGORIES V1 */
+
+.category-list {
+    text-align: center;
+    }
+
+.category-list .category {
+    box-sizing: border-box;
+		border: unset;
+    border-radius: 12px;
+    background-color: white;
+    -webkit-transition: background .3s;
+    -moz-transition: background .3s;
+    -o-transition: background .3s;
+    transition: background .3s;
+    padding: 0 1em 1.25em;
+    }
+
+@media (max-width: 600px) {
+		.category-list .category {
+				margin-bottom: 1em;
+			}
+		}
+
+.category-list .category:hover {
+    text-decoration: none;
+    background: #1b95e0;
+    }
+
+
+ .category-list h3 {
+    color: #1b95e0;
+	font-weight: bold;
+    font-size: 24px;
+    }
+.category-list .category:hover h3 {
+    color: white;
+    }
+
+
+.category-list .category .article-count {
+    color: #9a9a9a;
+    font-size: 16px;
+    font-weight: bold;
+    opacity: 0.6;
+    margin-top: 0;
+    }
+.category-list .category:hover .article-count {
+    color: white;
+    opacity: 0.6;
+    }
+
+.most-pop-articles {
+    margin-top: 30px;
+    }
+
+
+/* Icon style 1 */
+/*
+#category-5 h3::before, #category-7 h3::before, #category-8 h3::before, #category-11 h3::before, #category-6 h3::before, #category-4 h3::before {
+    content: "";
+    height: 140px;
+    width: 170px;
+    margin: auto;
+    margin-bottom: 0;
+	position: relative;
+	display: block;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(https://www.videvo.net/wp-content/uploads/2019/07/announcement_icon1@4x.png);
+    background-size: contain;
+	}
+.category-list .category {
+    padding-top: 0;
+    padding-bottom: 1.25em;
+    }
+*/
+
+/* Icon style 2 */
+/*
+#category-5 h3::before, #category-7 h3::before, #category-8 h3::before, #category-11 h3::before, #category-6 h3::before, #category-4 h3::before {
+    height: 80px;
+    width: 170px;
+    margin-bottom: 5px;
+    background-image: url(https://www.videvo.net/wp-content/uploads/2019/07/world_user@4x.png);
+    opacity: .2;
+	}
+.category-list .category {
+    padding-top: .25em;
+    padding-bottom: 1.25em;
+    }
+*/
+
+/* Final icon style */
+
+#category-5 h3::before, #category-7 h3::before, #category-8 h3::before, #category-11 h3::before, #category-6 h3::before, #category-4 h3::before {
+    content: "";
+    height: 75px;
+    width: 70px;
+    margin: auto;
+    margin-bottom: -2px;
+	position: relative;
+	display: block;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(https://www.videvo.net/wp-content/uploads/2019/07/Videvo-Help-Icon-Account.png);
+    background-size: contain;
+	}
+
+
+#category-5 h3::before {
+    background-image: url(https://www.videvo.net/wp-content/uploads/2019/07/Videvo-Help-Icon-Account-2.png);
+/*     opacity: .2; */
+	}
+
+#category-7 h3::before {
+    background-image: url(https://www.videvo.net/wp-content/uploads/2019/07/Videvo-Help-Icon-Billing-1.png);
+/*     opacity: .2; */
+	}
+
+#category-8 h3::before {
+    background-image: url(https://www.videvo.net/wp-content/uploads/2019/07/Videvo-Help-Icon-Download-2.png);
+/*     opacity: .2; */
+	}
+
+#category-11 h3::before {
+    background-image: url(https://www.videvo.net/wp-content/uploads/2019/07/Videvo-Help-Icon-FAQs-2.png);
+/*     opacity: .2; */
+	}
+
+#category-6 h3::before {
+    background-image: url(https://www.videvo.net/wp-content/uploads/2019/07/Videvo-Help-Icon-License-1.png);
+/*     opacity: .2; */
+	}
+
+#category-4 h3::before {
+    background-image: url(https://www.videvo.net/wp-content/uploads/2019/07/Videvo-Help-Icon-Subs-1.png);
+/*     opacity: .2; */
+	}
+
+
+
+
+/* CATEGORIES V2 */
+
+
+/*
+.category-list {
+    text-align: center;
+    }
+
+.category-list .category {
+	position: relative;
+    height: 15vh;
+	width: 28%;
+    margin: 0 1.2% 30px;
+    border: unset;
+    border-radius: 12px;
+	background-color: #cccccc;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+    -webkit-transition: background .3s;
+    -moz-transition: background .3s;
+    -o-transition: background .3s;
+    transition: background .3s;
+    }
+
+.category-list .category:hover {
+    height: 15vh;
+    border: unset;
+	background-color: #cccccc;
+	background-position: center !important;
+	background-repeat: no-repeat !important;
+	background-size: cover !important;
+    }
+
+
+.category-list .category:hover {
+    text-decoration: none;
+    background: #1b95e0;
+    }
+
+
+ .category-list h3 {
+    color: #1b95e0;
+	font-weight: bold;
+    font-size: 24px;
+    }
+.category-list .category:hover h3 {
+    color: white;
+    }
+
+
+.category-list .category .article-count {
+    color: #9a9a9a;
+    font-size: 16px;
+    font-weight: bold;
+    opacity: 0.6;
+    margin-top: 0;
+    }
+.category-list .category:hover .article-count {
+    color: white;
+    opacity: 0.6;
+    }
+
+#category-5 {
+	background-image: url(https://www.videvo.net/wp-content/uploads/2018/10/blur-camera-camera-equipment-639090-e1539087772891.jpg);
+	}
+
+#category-7 {
+	background-image: url(https://www.videvo.net/wp-content/uploads/2018/12/6.jpg);
+	}
+
+#category-8 {
+	background-image: url(https://www.videvo.net/wp-content/uploads/2018/05/Muisc-and-SFX-Feature.jpg);
+	}
+
+#category-11 {
+	background-image: url(https://www.videvo.net/wp-content/uploads/2017/08/MG_1563.jpg);
+	}
+
+#category-6 {
+	background-image: url(https://www.videvo.net/wp-content/uploads/2015/02/Filming_and_Travelling_1_Yuri.jpg);
+	}
+
+#category-4 {
+	background-image: url(https://www.videvo.net/wp-content/uploads/2016/09/Night-Traffic-Bokeh.jpg);
+	}
+*/
+
+
+/* Styling name option v2b */
+
+
+/*
+.category-list .category {
+	border-radius: 8px;
+	box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.05);
+	}
+
+.category-list .category:hover {
+	box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.2);
+	}
+
+.category-list h3 {
+    background: white;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: -10px;
+    padding: 16px 0;
+    border-radius: 0 0 8px 8px;
+    color: #2B2B2B;
+    font-size: 18px;
+}
+.category-list .category .article-count {
+	display: none;
+	}
+.category-list .category::before {
+	content: "";
+	background: white;
+	opacity: 0.5;
+}
+
+.category-list .category:hover h3 {
+    color: unset;
+    }
+*/
+
+
+
+/* Styling flex layout */
+
+.container-fluid {
+	display: flex;
+	flex-direction: column;
+	}
+
+
+.category-list {
+    margin: 0;
+    order: -1;
+    margin-top: 20px;
+    }
+
+/*
+@media (max-width: 768px) {
+	.category-list .category {
+		flex-basis: 50%;
+		}
+	}
+
+@media (max-width: 480px) {
+	.category-list .category {
+		flex-basis: 100%;
+		padding: 1em 1.2em;
+		}
+	}
+*/
+
+
+.most-pop-articles .popArticles, .articleList {
+	font-size: 18px;
+	}
+
+@media (max-width: 600px) {
+	.most-pop-articles .popArticles li {
+		margin-left: 0;
+		}
+}
+
+
+.icon-article-doc {
+    display: none;
+	}
+
+
+
+/* ARTICLES */
+
+
+#main-content {
+    background: unset;
+    }
+
+.contentWrapper, 	.contentWrapper.withRelated {
+    border: unset;
+    border-radius: 12px;
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+
+
+@media (max-width: 768px) {
+	.contentWrapper {
+		border-radius: 0;
+		}
+}
+
+#fullArticle .printArticle {
+    top: 50px;
+    }
+
+.contentWrapper h1 {
+    color: #2B2B2B;
+    font-weight: bold;
+    font-size: 30px;
+    }
+
+
+.contentWrapper {
+    min-height: 390px;
+    }
+
+.contentWrapper.withRelated {
+    min-height: 120px;
+    }
+
+
+#categoryHead {
+    margin-bottom: 30px;
+    }
+
+#categoryHead h1 {
+    margin-bottom: 15px;
+	}
+
+/*
+.contentWrapper #categoryHead::before {
+    content: "";
+    height: 140px;
+    width: 170px;
+    margin: auto;
+    margin-bottom: 0;
+	position: relative;
+	display: block;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(https://www.videvo.net/wp-content/uploads/2019/07/world_user@4x.png);
+    background-size: contain;
+	}
+*/
+
+
+
+#categoryHead p {
+    font-size: 16px;
+    }
+
+
+.contentWrapper p.descrip {
+	line-height: 1.4em;
+}
+
+.articleList li {
+    margin: 1em 0;
+		padding-left: 0;
+    }
+
+.articleList a {
+    margin-left: 0;
+    }
+
+
+
+
+/*
+.articleFoot {
+    margin-top: 50px;
+	}
+*/
+
+.articleFoot {
+    position: absolute;
+    margin: unset;
+    bottom: 30px;
+    }
+
+
+.articleFoot p, .articleFoot time, .articleRatings {
+	font-style: normal;
+	color: #9a9a9a;
+	}
+
+.articleFoot time.lu {
+    display:none;
+	}
+
+/*
+.articleRatings {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 60px;
+    max-width: 300px;
+    padding: 0;
+    padding-top: 20px;
+    background: #fff;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    margin-left: auto;
+    }
+*/
+
+.articleRatings {
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    min-height: 44px;
+    max-width: 300px;
+    padding: 0;
+    padding-top: 20px;
+    background: none;
+    bottom: 26px;
+    right: 46px;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    margin-left: auto;
+    }
+
+
+@media (max-width: 930px) {
+
+	.articleRatings {
+    	position: unset;
+		margin-left: unset;
+		}
+
+	.articleFoot {
+	    margin-top: 2.5em;
+		}
+}
+
+
+.rateAction--positive {
+	margin-right: 8px;
+	}
+
+.articleRatings-actions {
+    width: 70px;
+    }
+
+
+
+.related h3 {
+    margin: 0;
+    padding-top: 30px;
+    border-top: solid 1px #ececec;
+    }
+
+.related {
+    border: unset;
+    /* border-top: 50px; */
+/* 	padding: 55px 46px 25px; */
+    margin-top: -26px;
+    border-radius: 0 0 12px 12px;
+}
+
+@media (max-width: 768px) {
+
+	.related {
+		border-radius: 0;
+		}
+}
+
+
+#fullArticle .callout-yellow p, #fullArticle .callout-blue p, #fullArticle .callout-red p, #fullArticle .callout-green p, #fullArticle .callout p, #fullArticle .private-note p, #serp p, #serp-dd .result a, #serp-dd .result li {
+    font-size: 16px;
+    }
+
+
+
+/* SIDEBAR */
+
+
+#sidebar .nav-list li {
+    margin: 6px 0;
+}
+
+#sidebar .nav-list a {
+	font-size: 18px;
+	}
+
+#sidebar .nav-list a:hover, #sidebar .nav-list a:focus {
+    color: #1b95e0;
+    }
+
+#sidebar .nav-list .active a, #sidebar .nav-list .active a:hover, #sidebar .nav-list .active a:focus {
+	color: #1B95E0;
+}
+
+
+#sidebar form .search-query {
+    border-radius: 20px;
+    padding-left: 20px;
+    border: 1px solid transparent;
+    }
+
+
+#sidebar form .search-query:focus, #sidebar form .search-query:focus:invalid {
+    border-color: rgba(27, 149, 224, 0.6);
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    outline: 0!important;
+}
+
+#sidebar form .search-query {
+
+    border: 2px solid transparent;
+}
+#sidebar h3 {
+	display: none;
+}
+
+@media (min-width: 769px) {
+	#sidebar h3, #sidebar ul {
+		margin-left: 22px;
+	}
+}
+
+#serp .articleList>li {
+	padding-left: 0;
+}
+
+#serp .articleList>li a:hover {
+	text-decoration: underline;
+}
+
+
+/* CONTACT MODAL */
+
+#contactModal, .abuse {
+	border-radius: 12px;
+}
+
+#contactModal h2, .abuse h2 {
+	padding: 20px 20px 10px;
+	font-weight: 600;
+	font-size: 24px;
+	text-align: center;
+	border-bottom: none;
+	border-top-left-radius: 12px;
+	border-top-right-radius: 12px;
+}
+
+#contactModal label, #contactModal select, #contactModal textarea {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 18px;
+}
+
+#contactModal select, #contactModal textarea, #contactModal input[type=text], #contactModal input[type=password], #contactModal input[type=datetime], #contactModal input[type=datetime-local], #contactModal input[type=date], #contactModal input[type=month], #contactModal input[type=time], #contactModal input[type=week], input[type=number], input[type=email], input[type=url], input[type=search], input[type=tel], input[type=color], .uneditable-input {
+	font-size: 16px;
+	height: 26px;
+	padding: 3px 8px 6px;
+}
+
+input {
+	width: 336px;
+}
+
+input[type="file"] {
+	padding-top: 8px !important;
+}
+input:matches([type="button"], [type="submit"], [type="reset"]), input[type="file"]::-webkit-file-upload-button, button {
+	padding-top: 4px !important;
+	padding-right: 6px;
+	padding-bottom: 6px !important;
+	padding-left: 6px;
+}
+
+.btn {
+	display: inline-block;
+	padding: 4px 20px !important;
+	margin-bottom: 0;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 18px;
+	height: 36px;
+	/* width: 160px !important; */
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+	color: #fff;
+	text-shadow: unset;
+	background-color: #1B95E0;
+	background-image: unset;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe6e6e6', GradientType=0);
+	border-color: unset;
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+	border: none;
+	border-bottom-color: #b3b3b3;
+	-webkit-border-radius: 18px;
+	-moz-border-radius: 18px;
+	border-radius: 18px;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+
+.btn:hover, .btn:focus {
+	color: #fff;
+	background-color: #198AD0;
+}
+
+
+.form-horizontal .control-label {
+	padding-top: 9px;
+}
+
+#contactModal .parsley-errors-list, #contactForm .parsley-errors-list, .abuse .parsley-errors-list {
+	font-size: 14px;
+}
+
+@media (max-width: 480px) {
+	.form-horizontal .controls {
+		margin-left: 0 !important;
+}
+}
+
+
+/* MESSAGES */
+
+.appMessage {
+padding: 8px 46px;
+font-size: 14px!important;
+color: green;
+background: #e4f6ff;
+border-bottom: 1px solid #DFE8F1;
+}
+
+#contentArea>.appMessage {
+	top: -60px;
+	background-color: #C6F0C4;
+	z-index: 10;
+}
+
+.appMessage.success {
+color: green;
+}
+
+.appMessage.success em {
+	background: unset;
+}
+.appMessage em {
+	padding: 0;
+	color: green;
+	font-size: 14px;
+	font-weight: 600;
+	margin-right: 5px;
+	text-transform: inherit;
+	background: unset;
+}
+
+
+/* FOOTER */
+
+
+.sep:after {
+    color: #bbb;
+    }
+
+
+footer p {
+    font-size: 14px;
+    }

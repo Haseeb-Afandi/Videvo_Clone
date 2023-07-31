@@ -22,7 +22,8 @@ class AudioController extends Controller
             'description' => ['required', 'string', 'max:255'],
             'clip_type' => ['required'],
             'Category' => ['required'],
-            'Audio' => ['required']
+            'Audio' => ['required'],
+            'Thumbnail' => ['required']
         ]);
 
         if ($data->fails()) {

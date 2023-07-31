@@ -1,13 +1,16 @@
 <?php
 
+
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\LoginWithGoogleController;
+use App\Http\Controllers\Auth\ForgotPasswordController;
 use App\Http\Controllers\FacebookController;
 use App\Http\Controllers\VideoController;
 use App\Http\Controllers\AudioController;
 use App\Http\Controllers\TemplateController;
 use App\Http\Controllers\UserController;
 use App\Models\Video;
+use App\Models\Videoa;
 use App\Models\Audio;
 use App\Models\Template;
 /*
@@ -38,7 +41,13 @@ Route::get('Log-in', function () {
 Route::get('stock-video-footage', function () {
     return view('Video');
 });
-Route::get('video/{id}', function (Video $id) {
+Route::get('free-motion-graphics', function () {
+    return view('motionGraphics');
+});
+Route::get('free-stock-footage', function () {
+    return view('stockFootage');
+});
+Route::get('video/{id}', function (Videoa $id) {
     return view('VideoSingle', [
         'vid' => $id
     ]);
@@ -98,6 +107,40 @@ Route::get('Templates/{id}', function (Template $id) {
 Route::get('collections', function () {
     return view('collections');
 });
+// Route::get('Help', function () {
+//     return view('help');
+// });
+// Route::get('premium-plans', function () {
+//     return view('premium');
+// });
+// Route::get('favorites', function () {
+//     return view('profile', [
+//         'page' => 'favorites'
+//     ]);
+// });
+// Route::get('upload', function () {
+//     return view('profile', [
+//         'page' => 'upload'
+//     ]);
+// });
+// Route::get('mycollections', function () {
+//     return view('profile', [
+//         'page' => 'mycollections'
+//     ]);
+// });
+// Route::get('history', function () {
+//     return view('profile', [
+//         'page' => 'history'
+//     ]);
+// });
+// Route::get('profile', function () {
+//     return view('profile', [
+//         'page' => 'prpfile'
+//     ]);
+// });
+// Route::get('checkout', function () {
+//     return view('checkout');
+// });
 Route::get('uploadVid', function () {
     return view('uploadVid');
 });
@@ -107,12 +150,24 @@ Route::get('uploadAud', function () {
 Route::get('uploadTemp', function () {
     return view('uploadTemp');
 });
+Route::get('userdashboard', function () {
+    return view('userdashboard');
+});
+Route::get('admindashboard', function () {
+    return view('admindashboard');
+});
+Route::get('dashboard', function () {
+    return view('dashboard');
+});
 Route::post('users/register', [UserController::class, 'store'])->name('store.post');
 Route::post('users/login', [UserController::class, 'login'])->name('login.post');
+Route::get('users/logout', [UserController::class, 'logout'])->name('logout.post');
 Route::post('Video/upload', [VideoController::class, 'upload'])->name('video.post');
 Route::post('Audio/upload', [AudioController::class, 'upload'])->name('Audio.post');
 Route::post('Template/upload', [TemplateController::class, 'upload'])->name('Template.post');
 Route::get('Api/Video', [VideoController::class, 'fetch'])->name('videos.show');
+Route::get('Api/VideoFootage', [VideoController::class, 'fetchFootage'])->name('videosFootage.show');
+Route::get('Api/VideoMotion', [VideoController::class, 'fetchMotion'])->name('videosMotion.show');
 Route::get('Api/Audio', [AudioController::class, 'fetch'])->name('Audios.show');
 Route::get('Api/Template', [TemplateController::class, 'fetch'])->name('Templates.show');
 
@@ -125,3 +180,8 @@ Route::middleware([
         return view('dashboard');
     })->name('dashboard');
 });
+
+Route::get('paywithpaypal', array('as' => 'paywithpaypal','uses' => 'PaypalController@payWithPaypal',));
+Route::post('paypal', array('as' => 'paypal','uses' => 'PaypalController@postPaymentWithpaypal',));
+Route::get('paypal', array('as' => 'status','uses' => 'PaypalController@getPaymentStatus',));
+
