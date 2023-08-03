@@ -41,11 +41,8 @@
         <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
             <!-- Sidebar - Brand -->
-            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="dashboard">
-                <div class="sidebar-brand-icon rotate-n-15">
-                    <i class="fas fa-laugh-wink"></i>
-                </div>
-                <div class="sidebar-brand-text mx-3">SB Admin <sup>2</sup></div>
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="{{ url('/')}}">
+                <div class="sidebar-brand-text mx-3">Videvo</div>
             </a>
 
             <!-- Divider -->
@@ -53,7 +50,7 @@
 
             <!-- Nav Item - Dashboard -->
             <li class="nav-item active">
-                <a class="nav-link" href="index.html">
+                <a class="nav-link" href="{{ url('/')}}/userdashboard">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
                     <span>Dashboard</span></a>
             </li>
@@ -68,81 +65,26 @@
 
             <!-- Nav Item - Pages Collapse Menu -->
             <li class="nav-item">
-                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
-                    aria-expanded="true" aria-controls="collapseTwo">
-                    <i class="fas fa-fw fa-cog"></i>
-                    <span>Components</span>
+                <a class="nav-link collapsed" href="{{ url('/')}}/userdashboard/pendings">
+                    <i class="fas fa-fw fa-folder"></i>
+                    <span>Pendings</span>
                 </a>
-                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
-                    <div class="bg-white py-2 collapse-inner rounded">
-                        <h6 class="collapse-header">Custom Components:</h6>
-                        <a class="collapse-item" href="buttons.html">Buttons</a>
-                        <a class="collapse-item" href="cards.html">Cards</a>
-                    </div>
-                </div>
             </li>
-
-            <!-- Nav Item - Utilities Collapse Menu -->
             <li class="nav-item">
-                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities"
-                    aria-expanded="true" aria-controls="collapseUtilities">
-                    <i class="fas fa-fw fa-wrench"></i>
-                    <span>Utilities</span>
+                <a class="nav-link collapsed" href="{{ url('/')}}/userdashboard/approved">
+                    <i class="fas fa-fw fa-folder"></i>
+                    <span>Approved</span>
                 </a>
-                <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities"
-                    data-parent="#accordionSidebar">
-                    <div class="bg-white py-2 collapse-inner rounded">
-                        <h6 class="collapse-header">Custom Utilities:</h6>
-                        <a class="collapse-item" href="utilities-color.html">Colors</a>
-                        <a class="collapse-item" href="utilities-border.html">Borders</a>
-                        <a class="collapse-item" href="utilities-animation.html">Animations</a>
-                        <a class="collapse-item" href="utilities-other.html">Other</a>
-                    </div>
-                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="{{ url('/')}}/userdashboard/rejected">
+                    <i class="fas fa-fw fa-folder"></i>
+                    <span>Rejected</span>
+                </a>
             </li>
 
             <!-- Divider -->
             <hr class="sidebar-divider">
-
-            <!-- Heading -->
-            <div class="sidebar-heading">
-                Addons
-            </div>
-
-            <!-- Nav Item - Pages Collapse Menu -->
-            <li class="nav-item">
-                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages"
-                    aria-expanded="true" aria-controls="collapsePages">
-                    <i class="fas fa-fw fa-folder"></i>
-                    <span>Pages</span>
-                </a>
-                <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
-                    <div class="bg-white py-2 collapse-inner rounded">
-                        <h6 class="collapse-header">Login Screens:</h6>
-                        <a class="collapse-item" href="login.html">Login</a>
-                        <a class="collapse-item" href="register.html">Register</a>
-                        <a class="collapse-item" href="forgot-password.html">Forgot Password</a>
-                        <div class="collapse-divider"></div>
-                        <h6 class="collapse-header">Other Pages:</h6>
-                        <a class="collapse-item" href="404.html">404 Page</a>
-                        <a class="collapse-item" href="blank.html">Blank Page</a>
-                    </div>
-                </div>
-            </li>
-
-            <!-- Nav Item - Charts -->
-            <li class="nav-item">
-                <a class="nav-link" href="charts.html">
-                    <i class="fas fa-fw fa-chart-area"></i>
-                    <span>Charts</span></a>
-            </li>
-
-            <!-- Nav Item - Tables -->
-            <li class="nav-item">
-                <a class="nav-link" href="tables.html">
-                    <i class="fas fa-fw fa-table"></i>
-                    <span>Tables</span></a>
-            </li>
 
             <!-- Divider -->
             <hr class="sidebar-divider d-none d-md-block">
@@ -214,8 +156,8 @@
                     <!-- Page Heading -->
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
                         <h1 class="h3 mb-0 text-gray-800">Dashboard</h1>
-                        <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
-                                class="fas fa-download fa-sm text-white-50"></i> Generate Report</a>
+                        <a href="{{ url('/')}}" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
+                                class="fas fa-download fa-sm text-white-50"></i> Back</a>
                     </div>
 
                     <!-- Content Row -->
@@ -300,296 +242,382 @@
                                 <!-- Card Body -->
                                 <div class="card-body">
                                     <div>
-                                        <div id="vidform">
-                                            <form class="form-group" action="{{ route('video.post') }}" method="POST" enctype="multipart/form-data" id="video-form">
-                                                @csrf
-                                                <div class="form-item form-item--email">
-                                                    <label>Video </label>
+                                        <div id="vidform" class="justify-content-center">
+                                            <div class="col-lg-5">
+                                                <div class="contact-wrap w-100 p-md-5 p-4">
+                                                <form action="{{ route('video.post') }}" method="POST" enctype="multipart/form-data" id="video-form">
+                                                    @csrf
+
+                                                <div class="row">
+                                                <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <label >Video</label>
                                                     <input class="form-control" type="file" id="Video" name="Video">
                                                 </div>
-                                                <div class="form-item form-item--email">
-                                                    <label>Thumbnail </label>
-                                                    <input class="form-control" type="file" id="Thumbnail" name="Thumbnail">
                                                 </div>
-                                                <div class="form-item form-item--email">
+                                                <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <label>Thumbnail </label>
+                                                    <input class="form-control" type="file" id="Thumbnail" name="Thumbnail">                                                </div>
+                                                </div>
+                                                <div class="col-md-12">
+                                                <div class="form-group">
                                                     <input class="form-control" type="text" id="title" name="title" placeholder="Title">
                                                 </div>
-                                                <div class="form-item form-item--email">
+                                                </div>
+                                                <div class="col-md-12">
+                                                <div class="form-group">
                                                     <input class="form-control" type="text" id="description" name="description" placeholder="Description">
                                                 </div>
-                                                <div class="form-item form-item--password">
+                                                </div>
+                                                <div class="col-md-12">
+                                                <div class="form-group">
                                                     <label>Type: </label>
-                                                        <select class="slct" name="type" required>
-                                                            <option value="4K & HD Footage">Footage</option>
-                                                            <option value="Motion Graphics">Motion Graphics</option>
-                                                        </select>
+                                                    <select class="slct" name="type" required>
+                                                        <option value="4K & HD Footage">Footage</option>
+                                                        <option value="Motion Graphics">Motion Graphics</option>
+                                                    </select>                                                </div>
                                                 </div>
-                                                <div class="form-item form-item--password">
+                                                <div class="col-md-12">
+                                                <div class="form-group">
                                                     <label>Clip Type:  </label>
-                                                        <select class="slct" name="clip_type" required>
-                                                            <option value="Free">Free Clip</option>
-                                                            <option value="Premium">Premium Clip</option>
-                                                        </select>
+                                                    <select class="slct" name="clip_type" required>
+                                                        <option value="Free">Free Clip</option>
+                                                        <option value="Premium">Premium Clip</option>
+                                                    </select>                                                </div>
                                                 </div>
-                                                <div class="form-item">
+                                                <div class="col-md-12">
+                                                <div class="form-group">
                                                     <label>Category:  </label>
-                                                        <select class="slct" name="Category" required>
-                                                            <option value="Culture">Culture</option>
-                                                            <option value="Religion">Religion</option>
-                                                            <option value="Entertainment">Entertainment</option>
-                                                            <option value="Green Screen">Green Screen</option>
-                                                            <option value="medical">medical</option>
-                                                            <option value="Abstract">Abstract</option>
-                                                            <option value="Science">Science</option>
-                                                            <option value="Food">Food</option>
-                                                            <option value="Business">Business</option>
-                                                            <option value="Animals">Animals</option>
-                                                            <option value="City">City</option>
-                                                            <option value="Space">Space</option>
-                                                            <option value="family">family</option>
-                                                            <option value="Animated backgrounds">Animated backgrounds</option>
-                                                            <option value="Industry">Industry</option>
-                                                            <option value="Fitness">Fitness</option>
-                                                            <option value="Transport">Transport</option>
-                                                            <option value="Holiday">Holiday</option>
-                                                            <option value="People">People</option>
-                                                            <option value="VFX">VFX</option>
-                                                            <option value="Sports">Sports</option>
-                                                            <option value="Technology">Technology</option>
-                                                            <option value="Military">Military</option>
-                                                            <option value="Nature">Nature</option>
-                                                        </select>
+                                                    <select class="slct" name="Category" required>
+                                                        <option value="Culture">Culture</option>
+                                                        <option value="Religion">Religion</option>
+                                                        <option value="Entertainment">Entertainment</option>
+                                                        <option value="Green Screen">Green Screen</option>
+                                                        <option value="medical">medical</option>
+                                                        <option value="Abstract">Abstract</option>
+                                                        <option value="Science">Science</option>
+                                                        <option value="Food">Food</option>
+                                                        <option value="Business">Business</option>
+                                                        <option value="Animals">Animals</option>
+                                                        <option value="City">City</option>
+                                                        <option value="Space">Space</option>
+                                                        <option value="family">family</option>
+                                                        <option value="Animated backgrounds">Animated backgrounds</option>
+                                                        <option value="Industry">Industry</option>
+                                                        <option value="Fitness">Fitness</option>
+                                                        <option value="Transport">Transport</option>
+                                                        <option value="Holiday">Holiday</option>
+                                                        <option value="People">People</option>
+                                                        <option value="VFX">VFX</option>
+                                                        <option value="Sports">Sports</option>
+                                                        <option value="Technology">Technology</option>
+                                                        <option value="Military">Military</option>
+                                                        <option value="Nature">Nature</option>
+                                                    </select>                                                </div>
                                                 </div>
-                                                <div class="form-item form-item--password">
+                                                <div class="col-md-12">
+                                                <div class="form-group">
                                                     <label>Category2:  </label>
-                                                        <select class="slct" name="Category2">
-                                                            <option value="Culture">Culture</option>
-                                                            <option value="Religion">Religion</option>
-                                                            <option value="Entertainment">Entertainment</option>
-                                                            <option value="Green Screen">Green Screen</option>
-                                                            <option value="medical">medical</option>
-                                                            <option value="Abstract">Abstract</option>
-                                                            <option value="Science">Science</option>
-                                                            <option value="Food">Food</option>
-                                                            <option value="Business">Business</option>
-                                                            <option value="Animals">Animals</option>
-                                                            <option value="City">City</option>
-                                                            <option value="Space">Space</option>
-                                                            <option value="family">family</option>
-                                                            <option value="Animated backgrounds">Animated backgrounds</option>
-                                                            <option value="Industry">Industry</option>
-                                                            <option value="Fitness">Fitness</option>
-                                                            <option value="Transport">Transport</option>
-                                                            <option value="Holiday">Holiday</option>
-                                                            <option value="People">People</option>
-                                                            <option value="VFX">VFX</option>
-                                                            <option value="Sports">Sports</option>
-                                                            <option value="Technology">Technology</option>
-                                                            <option value="Military">Military</option>
-                                                            <option value="Nature">Nature</option>
-                                                        </select>
+                                                    <select class="slct" name="Category2">
+                                                        <option value="Culture">Culture</option>
+                                                        <option value="Religion">Religion</option>
+                                                        <option value="Entertainment">Entertainment</option>
+                                                        <option value="Green Screen">Green Screen</option>
+                                                        <option value="medical">medical</option>
+                                                        <option value="Abstract">Abstract</option>
+                                                        <option value="Science">Science</option>
+                                                        <option value="Food">Food</option>
+                                                        <option value="Business">Business</option>
+                                                        <option value="Animals">Animals</option>
+                                                        <option value="City">City</option>
+                                                        <option value="Space">Space</option>
+                                                        <option value="family">family</option>
+                                                        <option value="Animated backgrounds">Animated backgrounds</option>
+                                                        <option value="Industry">Industry</option>
+                                                        <option value="Fitness">Fitness</option>
+                                                        <option value="Transport">Transport</option>
+                                                        <option value="Holiday">Holiday</option>
+                                                        <option value="People">People</option>
+                                                        <option value="VFX">VFX</option>
+                                                        <option value="Sports">Sports</option>
+                                                        <option value="Technology">Technology</option>
+                                                        <option value="Military">Military</option>
+                                                        <option value="Nature">Nature</option>
+                                                    </select>                                                </div>
                                                 </div>
-                                                <div>
+                                                <div class="col-md-12">
+                                                <div class="form-group">
                                                     <input type="textarea" name="tags" class="form-control input-textarea" placeholder="Enter tags seperrated by a comma">
                                                 </div>
-                                                <div class="form-item submit">
-                                                    <div>
-                                                        <div class="grecaptcha-badge" data-style="bottomright" style="width: 256px; height: 60px; display: block; transition: right 0.3s ease 0s; position: fixed; bottom: 14px; right: -186px; box-shadow: gray 0px 0px 5px; border-radius: 2px; overflow: hidden;">
-                                                            <div class="grecaptcha-logo">
-                                                                <iframe title="reCAPTCHA" src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LfEmSMUAAAAAEDmOgt1G7o7c53duZH2xL_TXckC&amp;co=aHR0cHM6Ly9pZC5mcmVlcGlrY29tcGFueS5jb206NDQz&amp;hl=en&amp;v=iZWPJyR27lB0cR4hL_xOX0GC&amp;size=invisible&amp;cb=tc6jvmus3dbs" width="256" height="60" role="presentation" name="a-uwatuotf0n2q" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe>
-                                                            </div>
-                                                            <div class="grecaptcha-error">
-                                                            </div>
-                                                            <textarea id="g-recaptcha-response-1" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;">
-                                                            </textarea>
-                                                        </div>
-                                                        <iframe style="display: none;"></iframe>
-                                                    </div>
-                                                    <button class="buton" id="submit"  class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded" type="submit">Upload</button>
                                                 </div>
-                                            </form>
+                                                </div>
+                                                <div class="col-md-12">
+                                                 <div class="form-group">
+                                                <input type="submit" value="Upload" class="btn btn-primary">
+                                                <div class="submitting"></div>
+                                                </div>
+                                                </div>
+                                                </div>
+                                                </form>
+                                                </div>
+                                                </div>
+                                            {{-- end --}}
+                                            
                                         </div>
                                         <div id="audform" class="rm_hidder">
-                                            <form class="form-group" action="{{ route('Audio.post') }}" method="POST" enctype="multipart/form-data" id="video-form">
-                                                @csrf
-                                                <div class="form-item form-item--email">
-                                                    <label>Video </label>
+                                            <div class="col-lg-5">
+                                                <div class="contact-wrap w-100 p-md-5 p-4">
+                                                <form action="{{ route('Audio.post') }}" method="POST" enctype="multipart/form-data"id="video-form">
+                                                    @csrf
+
+                                                <div class="row">
+                                                <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <label >Audio</label>
                                                     <input class="form-control" type="file" id="Video" name="Video">
                                                 </div>
-                                                <div class="form-item form-item--email">
-                                                    <label>Thumbnail </label>
-                                                    <input class="form-control" type="file" id="Thumbnail" name="Thumbnail">
                                                 </div>
-                                                <div class="form-item form-item--email">
+                                                <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <label>Thumbnail </label>
+                                                    <input class="form-control" type="file" id="Thumbnail" name="Thumbnail">                                                </div>
+                                                </div>
+                                                <div class="col-md-12">
+                                                <div class="form-group">
                                                     <input class="form-control" type="text" id="title" name="title" placeholder="Title">
                                                 </div>
-                                                <div class="form-item form-item--email">
+                                                </div>
+                                                <div class="col-md-12">
+                                                <div class="form-group">
                                                     <input class="form-control" type="text" id="description" name="description" placeholder="Description">
                                                 </div>
-                                                <div class="form-item form-item--password">
+                                                </div>
+                                                <div class="col-md-12">
+                                                <div class="form-group">
                                                     <label>Type: </label>
-                                                        <select class="slct" name="type" required>
-                                                            <option value="4K & HD Footage">Music</option>
-                                                            <option value="Motion Graphics">Sound Effects</option>
-                                                        </select>
+                                                    <select class="slct" name="type" required>
+                                                        <option value="Music">Music</option>
+                                                        <option value="Sound Effects">Sound Effects</option>
+                                                    </select>                                                </div>
                                                 </div>
-                                                <div class="form-item form-item--password">
-                                                    <label>Clip Type:  </label>
-                                                        <select class="slct" name="clip_type" required>
-                                                            <option value="Free Clip">Free Clip</option>
-                                                            <option value="Premium Clip">Premium Clip</option>
-                                                        </select>
+                                                <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <label>Audio Type:  </label>
+                                                    <select class="slct" name="clip_type" required>
+                                                        <option value="Free">Free Clip</option>
+                                                        <option value="Premium">Premium Clip</option>
+                                                    </select>                                                </div>
                                                 </div>
-                                                <div class="form-item">
-                                                    <label>Effects:  </label>
-                                                        <select class="slct" name="Category" required>
-                                                            <option value="Electrical">Electrical</option>
-                                                            <option value="Nature">Nature</option>
-                                                            <option value="Entertainment">rain</option>
-                                                            <option value="Rain">Green Screen</option>
-                                                            <option value="Thunder">Thunder</option>
-                                                            <option value="Transport">Transport</option>
-                                                            <option value="Airplanes">Airplanes</option>
-                                                            <option value="Animals">Animals</option>
-                                                            <option value="Applause">Applause</option>
-                                                            <option value="Beeps">Beeps</option>
-                                                            <option value="Bell">Bell</option>
-                                                            <option value="Birds">Birds</option>
-                                                            <option value="Cars">Cars</option>
-                                                            <option value="Comedy">Comedy</option>
-                                                            <option value="Count Down">Count Down</option>
-                                                            <option value="Crickets">Crickets</option>
-                                                            <option value="Crowds">Crowds</option>
-                                                            <option value="Explosion">Explosion</option>
-                                                            <option value="Fire">Fire</option>
-                                                            <option value="Forest">Forest</option>
-                                                            <option value="Funny">Funny</option>
-                                                            <option value="Gunshot">Gunshots</option>
-                                                            <option value="Impacts">Impact</option>
-                                                            <option value="Laughter">Laughter</option>
-                                                        </select>
+                                                <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <label>Category:  </label>
+                                                    <select class="slct" name="Category" required>
+                                                        <option value="Blues">Blues</option>
+                                                        <option value="Children">Children</option>
+                                                        <option value="Classic Tv & Film">Classic TV & Film</option>
+                                                        <option value="Classical">Clasical</option>
+                                                        <option value="medical">medical</option>
+                                                        <option value="Abstract">Abstract</option>
+                                                        <option value="Science">Science</option>
+                                                        <option value="Food">Food</option>
+                                                        <option value="Business">Business</option>
+                                                        <option value="Animals">Animals</option>
+                                                        <option value="City">City</option>
+                                                        <option value="Space">Space</option>
+                                                        <option value="family">family</option>
+                                                        <option value="Animated backgrounds">Animated backgrounds</option>
+                                                        <option value="Industry">Industry</option>
+                                                        <option value="Fitness">Fitness</option>
+                                                        <option value="Transport">Transport</option>
+                                                        <option value="Holiday">Holiday</option>
+                                                        <option value="People">People</option>
+                                                        <option value="VFX">VFX</option>
+                                                        <option value="Sports">Sports</option>
+                                                        <option value="Technology">Technology</option>
+                                                        <option value="Military">Military</option>
+                                                        <option value="Nature">Nature</option>
+                                                    </select>                                                </div>
                                                 </div>
-                                                <div>
-                                                    <input type="textarea" class="form-control input-text" name="tags" placeholder="Enter tags seperated by a comma">
+                                                <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <label>Category2:  </label>
+                                                    <select class="slct" name="Category2">
+                                                        <option value="Happy">Happy</option>
+                                                        <option value="Confident">Confident</option>
+                                                        <option value="Optimistic">Optimistic</option>
+                                                        <option value="Determined">Determined</option>
+                                                        <option value="medical">medical</option>
+                                                        <option value="Abstract">Abstract</option>
+                                                        <option value="Science">Science</option>
+                                                        <option value="Food">Food</option>
+                                                        <option value="Business">Business</option>
+                                                        <option value="Animals">Animals</option>
+                                                        <option value="City">City</option>
+                                                        <option value="Space">Space</option>
+                                                        <option value="family">family</option>
+                                                        <option value="Animated backgrounds">Animated backgrounds</option>
+                                                        <option value="Industry">Industry</option>
+                                                        <option value="Fitness">Fitness</option>
+                                                        <option value="Transport">Transport</option>
+                                                        <option value="Holiday">Holiday</option>
+                                                        <option value="People">People</option>
+                                                        <option value="VFX">VFX</option>
+                                                        <option value="Sports">Sports</option>
+                                                        <option value="Technology">Technology</option>
+                                                        <option value="Military">Military</option>
+                                                        <option value="Nature">Nature</option>
+                                                    </select>                                                </div>
                                                 </div>
-                                                <div class="form-item submit">
-                                                    <div>
-                                                        <div class="grecaptcha-badge" data-style="bottomright" style="width: 256px; height: 60px; display: block; transition: right 0.3s ease 0s; position: fixed; bottom: 14px; right: -186px; box-shadow: gray 0px 0px 5px; border-radius: 2px; overflow: hidden;">
-                                                            <div class="grecaptcha-logo">
-                                                                <iframe title="reCAPTCHA" src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LfEmSMUAAAAAEDmOgt1G7o7c53duZH2xL_TXckC&amp;co=aHR0cHM6Ly9pZC5mcmVlcGlrY29tcGFueS5jb206NDQz&amp;hl=en&amp;v=iZWPJyR27lB0cR4hL_xOX0GC&amp;size=invisible&amp;cb=tc6jvmus3dbs" width="256" height="60" role="presentation" name="a-uwatuotf0n2q" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe>
-                                                            </div>
-                                                            <div class="grecaptcha-error">
-                                                            </div>
-                                                            <textarea id="g-recaptcha-response-1" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;">
-                                                            </textarea>
-                                                        </div>
-                                                        <iframe style="display: none;"></iframe>
-                                                    </div>
-                                                    <button class="buton" id="submit"  class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded" type="submit">Upload</button>
+                                                <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <input type="textarea" name="tags" class="form-control input-textarea" placeholder="Enter tags seperrated by a comma">
                                                 </div>
-                                            </form>
+                                                </div>
+                                                </div>
+                                                <div class="col-md-12">
+                                                 <div class="form-group">
+                                                <input type="submit" value="Upload" class="btn btn-primary">
+                                                <div class="submitting"></div>
+                                                </div>
+                                                </div>
+                                                </div>
+                                                </form>
+                                                </div>
+                                                </div>
                                         </div>
                                         <div id="tempform" class="rm_hidder">
-                                            <form action="{{ route('Template.post') }}" method="POST" enctype="multipart/form-data" id="Template-form">
-                                                @csrf
-                                                <div class="form-item form-item--email">
-                                                    <label>Template </label>
+
+                                            <div class="col-lg-5">
+                                                <div class="contact-wrap w-100 p-md-5 p-4">
+                                                <form action="{{ route('Template.post') }}" method="POST" enctype="multipart/form-data" id="video-form">
+                                                    @csrf
+
+                                                <div class="row">
+                                                <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <label>Template File</label>
                                                     <input type="file" id="Video" name="Template">
                                                 </div>
-                                                <div class="form-item form-item--email">
-                                                    <label>Title </label>
-                                                    <input type="text" id="title" name="title">
                                                 </div>
-                                                <div class="form-item form-item--email">
-                                                    <label>Description </label>
-                                                    <input type="text" id="description" name="description">
+                                                <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <label>Preview Video</label>
+                                                    <input type="file" id="Video" name="Preview">
                                                 </div>
-                                                <div class="form-item form-item--password">
-                                                    <label>Usage:  </label>
-                                                        <select name="clip_type" required>
-                                                            <option value="Commercial">Commercial</option>
-                                                            <option value="Editorial">Editorial</option>
-                                                        </select>
                                                 </div>
-                                                <div class="form-item form-item--password">
+                                                <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <label>Thumbnail </label>
+                                                    <input class="form-control" type="file" id="Thumbnail" name="Thumbnail">                                                </div>
+                                                </div>
+                                                <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <input class="form-control" type="text" id="title" name="title" placeholder="Title">
+                                                </div>
+                                                </div>
+                                                <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <input class="form-control" type="text" id="description" name="description" placeholder="Description">
+                                                </div>
+                                                </div>
+                                                <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <label>Type: </label>
+                                                    <select class="slct" name="type" required>
+                                                        <option value="After">After Effects</option>
+                                                        <option value="Premiere">Premiere Pro</option>
+                                                        <option value="Davinci">DaVinci Resolve</option>
+                                                        <option value="Final">Final Cut Pro</option>
+                                                        <option value="Motion">Motion Graphics</option>
+                                                    </select>                                                </div>
+                                                </div>
+                                                <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <label>Clip Type:  </label>
+                                                    <select class="slct" name="clip_type" required>
+                                                        <option value="Free">Free Clip</option>
+                                                        <option value="Premium">Premium Clip</option>
+                                                    </select>                                                </div>
+                                                </div>
+                                                <div class="col-md-12">
+                                                <div class="form-group">
                                                     <label>Category:  </label>
-                                                        <select name="Category" required>
-                                                            <option value="Culture">Culture</option>
-                                                            <option value="Religion">Religion</option>
-                                                            <option value="Entertainment">Entertainment</option>
-                                                            <option value="Green Screen">Green Screen</option>
-                                                            <option value="medical">medical</option>
-                                                            <option value="Abstract">Abstract</option>
-                                                            <option value="Science">Science</option>
-                                                            <option value="Food">Food</option>
-                                                            <option value="Business">Business</option>
-                                                            <option value="Animals">Animals</option>
-                                                            <option value="City">City</option>
-                                                            <option value="Space">Space</option>
-                                                            <option value="family">family</option>
-                                                            <option value="Animated backgrounds">Animated backgrounds</option>
-                                                            <option value="Industry">Industry</option>
-                                                            <option value="Fitness">Fitness</option>
-                                                            <option value="Transport">Transport</option>
-                                                            <option value="Holiday">Holiday</option>
-                                                            <option value="People">People</option>
-                                                            <option value="VFX">VFX</option>
-                                                            <option value="Sports">Sports</option>
-                                                            <option value="Technology">Technology</option>
-                                                            <option value="Military">Military</option>
-                                                            <option value="Nature">Nature</option>
-                                                        </select>
+                                                    <select class="slct" name="Category" required>
+                                                        <option value="Culture">Culture</option>
+                                                        <option value="Religion">Religion</option>
+                                                        <option value="Entertainment">Entertainment</option>
+                                                        <option value="Green Screen">Green Screen</option>
+                                                        <option value="medical">medical</option>
+                                                        <option value="Abstract">Abstract</option>
+                                                        <option value="Science">Science</option>
+                                                        <option value="Food">Food</option>
+                                                        <option value="Business">Business</option>
+                                                        <option value="Animals">Animals</option>
+                                                        <option value="City">City</option>
+                                                        <option value="Space">Space</option>
+                                                        <option value="family">family</option>
+                                                        <option value="Animated backgrounds">Animated backgrounds</option>
+                                                        <option value="Industry">Industry</option>
+                                                        <option value="Fitness">Fitness</option>
+                                                        <option value="Transport">Transport</option>
+                                                        <option value="Holiday">Holiday</option>
+                                                        <option value="People">People</option>
+                                                        <option value="VFX">VFX</option>
+                                                        <option value="Sports">Sports</option>
+                                                        <option value="Technology">Technology</option>
+                                                        <option value="Military">Military</option>
+                                                        <option value="Nature">Nature</option>
+                                                    </select>                                                </div>
                                                 </div>
-                                                <div class="form-item form-item--password">
+                                                <div class="col-md-12">
+                                                <div class="form-group">
                                                     <label>Category2:  </label>
-                                                        <select name="Category2">
-                                                            <option value="Culture">Culture</option>
-                                                            <option value="Religion">Religion</option>
-                                                            <option value="Entertainment">Entertainment</option>
-                                                            <option value="Green Screen">Green Screen</option>
-                                                            <option value="medical">medical</option>
-                                                            <option value="Abstract">Abstract</option>
-                                                            <option value="Science">Science</option>
-                                                            <option value="Food">Food</option>
-                                                            <option value="Business">Business</option>
-                                                            <option value="Animals">Animals</option>
-                                                            <option value="City">City</option>
-                                                            <option value="Space">Space</option>
-                                                            <option value="family">family</option>
-                                                            <option value="Animated backgrounds">Animated backgrounds</option>
-                                                            <option value="Industry">Industry</option>
-                                                            <option value="Fitness">Fitness</option>
-                                                            <option value="Transport">Transport</option>
-                                                            <option value="Holiday">Holiday</option>
-                                                            <option value="People">People</option>
-                                                            <option value="VFX">VFX</option>
-                                                            <option value="Sports">Sports</option>
-                                                            <option value="Technology">Technology</option>
-                                                            <option value="Military">Military</option>
-                                                            <option value="Nature">Nature</option>
-                                                        </select>
+                                                    <select class="slct" name="Category2">
+                                                        <option value="Culture">Culture</option>
+                                                        <option value="Religion">Religion</option>
+                                                        <option value="Entertainment">Entertainment</option>
+                                                        <option value="Green Screen">Green Screen</option>
+                                                        <option value="medical">medical</option>
+                                                        <option value="Abstract">Abstract</option>
+                                                        <option value="Science">Science</option>
+                                                        <option value="Food">Food</option>
+                                                        <option value="Business">Business</option>
+                                                        <option value="Animals">Animals</option>
+                                                        <option value="City">City</option>
+                                                        <option value="Space">Space</option>
+                                                        <option value="family">family</option>
+                                                        <option value="Animated backgrounds">Animated backgrounds</option>
+                                                        <option value="Industry">Industry</option>
+                                                        <option value="Fitness">Fitness</option>
+                                                        <option value="Transport">Transport</option>
+                                                        <option value="Holiday">Holiday</option>
+                                                        <option value="People">People</option>
+                                                        <option value="VFX">VFX</option>
+                                                        <option value="Sports">Sports</option>
+                                                        <option value="Technology">Technology</option>
+                                                        <option value="Military">Military</option>
+                                                        <option value="Nature">Nature</option>
+                                                    </select>                                                </div>
                                                 </div>
-                                                <div class="form-item form-item--password">
-                                                    <label>keywords </label>
-                                                        <input type="textarea" name="tags">
+                                                <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <input type="textarea" name="tags" class="form-control input-textarea" placeholder="Enter tags seperrated by a comma">
                                                 </div>
-                                                <div class="form-item submit">
-                                                    <div>
-                                                        <div class="grecaptcha-badge" data-style="bottomright" style="width: 256px; height: 60px; display: block; transition: right 0.3s ease 0s; position: fixed; bottom: 14px; right: -186px; box-shadow: gray 0px 0px 5px; border-radius: 2px; overflow: hidden;">
-                                                            <div class="grecaptcha-logo">
-                                                                <iframe title="reCAPTCHA" src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LfEmSMUAAAAAEDmOgt1G7o7c53duZH2xL_TXckC&amp;co=aHR0cHM6Ly9pZC5mcmVlcGlrY29tcGFueS5jb206NDQz&amp;hl=en&amp;v=iZWPJyR27lB0cR4hL_xOX0GC&amp;size=invisible&amp;cb=tc6jvmus3dbs" width="256" height="60" role="presentation" name="a-uwatuotf0n2q" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe>
-                                                            </div>
-                                                            <div class="grecaptcha-error">
-                                                            </div>
-                                                            <textarea id="g-recaptcha-response-1" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;">
-                                                            </textarea>
-                                                        </div>
-                                                        <iframe style="display: none;"></iframe>
-                                                    </div>
-                                                    <button id="submit"  class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded" type="submit">Submit</button>
                                                 </div>
-                                            </form>
+                                                </div>
+                                                <div class="col-md-12">
+                                                 <div class="form-group">
+                                                <input type="submit" value="Upload" class="btn btn-primary">
+                                                <div class="submitting"></div>
+                                                </div>
+                                                </div>
+                                                </div>
+                                                </form>
+                                                </div>
+                                                </div>
                                         </div>
+                                        {{-- end --}}
                                     </div>
                                 </div>
                             </div>
@@ -609,13 +637,7 @@
             <!-- End of Main Content -->
 
             <!-- Footer -->
-            <footer class="sticky-footer bg-white">
-                <div class="container my-auto">
-                    <div class="copyright text-center my-auto">
-                        <span>Copyright &copy; Your Website 2021</span>
-                    </div>
-                </div>
-            </footer>
+            
             <!-- End of Footer -->
 
         </div>

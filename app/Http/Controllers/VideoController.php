@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Videoa;
 use App\Models\Videoas;
 use App\Models\Videor;
+use App\Models\Tags;
 use App\Models\VideosA;
 use Response;
 use App\Models\Video;
@@ -33,17 +34,195 @@ class VideoController extends Controller
 
         return response()->json($videos);
     }
-    public function fetchFootage()
+    public function fetchp()
     {
-        $videos = Videoa::all()->where('type','4K & HD Footage');
+        $videos = Video::all()->where('author', Session::get('username'))->toArray();
+
+        $videos = array_values($videos);
 
         return response()->json($videos);
     }
-    public function fetchMotion()
+    public function fetchpa()
     {
-        $videos = Videoa::all()->where('type','Motion Graphics');
+        $videos = Video::all()->toArray();
+
+        $videos = array_values($videos);
 
         return response()->json($videos);
+    }
+    public function fetcha()
+    {
+        $videos = Videoa::all()->where('author', Session::get('username'))->toArray();
+
+        $videos = array_values($videos);
+
+        return response()->json($videos);
+    }
+    public function fetchr()
+    {
+        $videos = Videor::all()->where('author', Session::get('username'))->toArray();
+
+        return response()->json($videos);
+    }
+    public function fetchWhere($array)
+    {
+        $tags = Tags::all()->whereIn('tag', $array);
+        if (sizeof($tags) > 0) {
+            $tagsArray = $tags[0]['product_id'];
+
+            $videos = Videoa::all()->whereIn('id', $tagsArray)->toArray();
+
+            $videoArray = [];
+
+            $videos = array_values($videos);
+
+            $x = 0;
+            while ($x < sizeof($videos)) {
+                // print_r($videos[$x]);
+
+                $videoArray[$x] = $videos[$x];
+                $x++;
+            }
+
+            return response()->json($videos);
+        } else {
+
+            $videos = Videoa::all()->whereIn('Category', $array)->toArray();
+
+            $videoArray = [];
+
+            $videos = array_values($videos);
+
+            $x = 0;
+            while ($x < sizeof($videos)) {
+                // print_r($videos[$x]);
+
+                $videoArray[$x] = $videos[$x];
+                $x++;
+            }
+
+            return response()->json($videos);
+        }
+    }
+    public function fetchFootage()
+    {
+        $videos = Videoa::all()->where('type', '4K & HD Footage')->toArray();
+        $videoArray = [];
+
+        $videos = array_values($videos);
+
+        $x = 0;
+        while ($x < sizeof($videos)) {
+            // print_r($videos[$x]);
+
+            $videoArray[$x] = $videos[$x];
+            $x++;
+        }
+
+        return response()->json($videos);
+    }
+    public function fetchFootageWhere($array)
+    {
+        $tags = Tags::all()->whereIn('tag', $array)->toArray();
+        $tags = array_values($tags);
+
+        if (sizeof($tags) > 0) {
+            $tagsArray = $tags[0]['product_id'];
+
+            $videos = Videoa::all()->whereIn('id', $tagsArray)->where('type', '4K & HD Footage')->toArray();
+
+            $videoArray = [];
+
+            $videos = array_values($videos);
+
+            $x = 0;
+            while ($x < sizeof($videos)) {
+                // print_r($videos[$x]);
+
+                $videoArray[$x] = $videos[$x];
+                $x++;
+            }
+
+            return response()->json($videos);
+        } else {
+
+            $videos = Videoa::all()->whereIn('Category', $array)->where('type', '4K & HD Footage')->toArray();
+
+            $videoArray = [];
+
+            $videos = array_values($videos);
+
+            $x = 0;
+            while ($x < sizeof($videos)) {
+                // print_r($videos[$x]);
+
+                $videoArray[$x] = $videos[$x];
+                $x++;
+            }
+
+            return response()->json($videos);
+        }
+    }
+    public function fetchMotion()
+    {
+        $videos = Videoa::all()->where('type', 'Motion Graphics')->toArray();
+        $videoArray = [];
+
+        $videos = array_values($videos);
+
+        $x = 0;
+        while ($x < sizeof($videos)) {
+            // print_r($videos[$x]);
+
+            $videoArray[$x] = $videos[$x];
+            $x++;
+        }
+
+        // print_r($videoArray);
+
+
+        return response()->json($videoArray);
+    }
+    public function fetchMotionWhere($array)
+    {
+        $tags = Tags::all()->whereIn('tag', $array)->toArray();
+        $tags = array_values($tags);
+        if (sizeof($tags) > 0) {
+            $tagsArray = $tags[0]['product_id'];
+
+            $videos = Videoa::all()->whereIn('id', $tagsArray)->where('type', 'Motion Graphics')->toArray();
+
+            $videoArray = [];
+
+            $videos = array_values($videos);
+
+            $x = 0;
+            while ($x < sizeof($videos)) {
+                // print_r($videos[$x]);
+
+                $videoArray[$x] = $videos[$x];
+                $x++;
+            }
+
+            return response()->json($videos);
+        } else {
+
+            $videos = Videoa::all()->whereIn('Category', $array)->where('type', 'Motion Graphics')->toArray();
+
+            $videoArray = [];
+
+            $videos = array_values($videos);
+
+            $x = 0;
+            while ($x < sizeof($videos)) {
+                // print_r($videos[$x]);
+
+                $videoArray[$x] = $videos[$x];
+                $x++;
+            }
+
+            return response()->json($videos);
+        }
     }
     public function upload(Request $request)
     {
@@ -78,11 +257,11 @@ class VideoController extends Controller
         }
 
         $getID3 = new \getID3;
-        $file = $getID3->analyze(realpath(public_path('videos/'.$videoName)));
+        $file = $getID3->analyze(realpath(public_path('videos/' . $videoName)));
         $duration = date('i:s', $file['playtime_seconds']);
         $resolution = $file['video']['resolution_x'] . " x " . $file['video']['resolution_y'];
         $format = $file['video']['dataformat'];
-        
+
         $temp = Video::create([
             'title' => $request->title,
             'description' => $request->description,
@@ -98,6 +277,56 @@ class VideoController extends Controller
             'format' => $format,
         ]);
 
+        $VideoId = $temp->id;
+
+        $tags = explode(',', $request->tags);
+
+        if (sizeof($tags) > 0 && !is_null($tags)) {
+
+            $x = 0;
+            while ($x < sizeof($tags)) {
+
+                $temp2 = Tags::create([
+                    'product_id' => $VideoId,
+                    'tag' => $tags[$x],
+                ]);
+
+
+                $x++;
+            }
+
+        }
+
         return redirect()->intended('/userdashboard');
+    }
+    public function uploada(Request $request)
+    {
+        
+        $id = $request->id;
+
+        $data = Video::all()->where('id', $id)->firstOrFail()->toArray();
+
+        // $data = array_values($data);
+
+
+        $temp = Videoa::create($data);
+
+        $del = Video::where('id', $id)->delete();
+
+        return redirect()->intended('/admindashboard');
+    }
+    public function uploadr(Request $request)
+    {
+        
+        $id = $request->id;
+
+        $data = Video::all()->where('id', $id)->firstOrFail()->toArray();
+
+        $temp = Videor::create($data);
+
+        $del = Video::where('id', $id)->delete();
+
+
+        return redirect()->intended('/admindashboard');
     }
 }

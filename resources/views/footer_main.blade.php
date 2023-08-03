@@ -11,36 +11,36 @@
                 <div class="flex">
                     <ul class="w-1/2 p-0">
                         <li>
-                            <a class="mb-2 inline-block text-sm text-gray-500 hover:text-gray-300" href="http://127.0.0.1:8000/">Stock video</a>
+                            <a class="mb-2 inline-block text-sm text-gray-500 hover:text-gray-300" href="{{ url('/')}}/">Stock video</a>
                         </li>
                         <li>
-                            <a class="mb-2 inline-block text-sm text-gray-500 hover:text-gray-300" href="http://127.0.0.1:8000/free-stock-footage/">Footage</a>
+                            <a class="mb-2 inline-block text-sm text-gray-500 hover:text-gray-300" href="{{ url('/')}}/free-stock-footage/">Footage</a>
                         </li>
                         <li>
-                            <a class="mb-2 inline-block text-sm text-gray-500 hover:text-gray-300" href="http://127.0.0.1:8000/free-motion-graphics/">Motion graphics</a>
+                            <a class="mb-2 inline-block text-sm text-gray-500 hover:text-gray-300" href="{{ url('/')}}/free-motion-graphics/">Motion graphics</a>
                         </li>
                         <li>
-                            <a class="mb-2 inline-block text-sm text-gray-500 hover:text-gray-300" href="http://127.0.0.1:8000/video-editing-templates/">Video templates</a>
+                            <a class="mb-2 inline-block text-sm text-gray-500 hover:text-gray-300" href="{{ url('/')}}/video-editing-templates/">Video templates</a>
                         </li>
                         <li>
-                            <a class="mb-2 inline-block text-sm text-gray-500 hover:text-gray-300" href="http://127.0.0.1:8000/a/privacy-policy/">Privacy policy</a>
+                            <a class="mb-2 inline-block text-sm text-gray-500 hover:text-gray-300" href="{{ url('/')}}/a/privacy-policy/">Privacy policy</a>
                         </li>
                         <li>
-                            <a class="mb-2 inline-block text-sm text-gray-500 hover:text-gray-300" href="http://127.0.0.1:8000/a/terms-and-conditions/">Terms and conditions</a>
+                            <a class="mb-2 inline-block text-sm text-gray-500 hover:text-gray-300" href="{{ url('/')}}/a/terms-and-conditions/">Terms and conditions</a>
                         </li>
                         <li>
-                            <a class="mb-2 inline-block text-sm text-gray-500 hover:text-gray-300" href="http://127.0.0.1:8000/a/videvo-api">API</a>
+                            <a class="mb-2 inline-block text-sm text-gray-500 hover:text-gray-300" href="{{ url('/')}}/a/videvo-api">API</a>
                         </li>
                     </ul>
                     <ul class="w-1/2 p-0">
                         <li>
-                            <a class="mb-2 inline-block text-sm text-gray-500 hover:text-gray-300" href="http://127.0.0.1:8000/stock-video-footage/">Browse</a>
+                            <a class="mb-2 inline-block text-sm text-gray-500 hover:text-gray-300" href="{{ url('/')}}/stock-video-footage/">Browse</a>
                         </li>
                         <li>
-                            <a class="mb-2 inline-block text-sm text-gray-500 hover:text-gray-300" href="http://127.0.0.1:8000/premium-plans/">Premium</a>
+                            <a class="mb-2 inline-block text-sm text-gray-500 hover:text-gray-300" href="{{ url('/')}}/premium-plans/">Premium</a>
                         </li>
                         <li>
-                            <a class="mb-2 inline-block text-sm text-gray-500 hover:text-gray-300" href="http://127.0.0.1:8000/affiliates/">Affiliates</a>
+                            <a class="mb-2 inline-block text-sm text-gray-500 hover:text-gray-300" href="https://www.videvo.net/affiliates/">Affiliates</a>
                         </li>
                         <li>
                             <a class="mb-2 inline-block text-sm text-gray-500 hover:text-gray-300" href="https://www.videvo.net/blog">Blog</a>
@@ -49,7 +49,7 @@
                             <a class="mb-2 inline-block text-sm text-gray-500 hover:text-gray-300" href="https://help.videvo.net/category/6-licensing">Licensing</a>
                         </li>
                         <li>
-                            <a class="mb-2 inline-block text-sm text-gray-500 hover:text-gray-300" href="http://127.0.0.1:8000/a/contact-us">Contact</a>
+                            <a class="mb-2 inline-block text-sm text-gray-500 hover:text-gray-300" href="https://www.videvo.net/a/contact-us">Contact</a>
                         </li>
                     </ul>
                 </div>

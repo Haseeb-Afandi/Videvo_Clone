@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- saved from url=(0047){{ url('/') }}//after-effects-templates/ -->
+<!-- saved from url=(0047){{ url('/') }}/after-effects-templates/ -->
 <html lang="en" class="scroll-smooth"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script type="text/javascript" async="" src="{{ url('/') }}/assets/js"></script><script type="text/javascript" async="" src="{{ url('/') }}/assets/js(1)"></script><script type="text/javascript" async="" src="{{ url('/') }}/assets/localstore.js"></script>
     <script async="" src="{{ url('/') }}/assets/apstag.js"></script><script src="{{ url('/') }}/assets/cb=gapi.loaded_0" async=""></script><script type="text/javascript" async="" src="{{ url('/') }}/assets/analytics.js"></script><script type="text/javascript" async="" src="{{ url('/') }}/assets/js(2)"></script><script type="text/javascript" async="" src="{{ url('/') }}/assets/js(3)"></script><script type="text/javascript" async="" src="{{ url('/') }}/assets/hotjar-491796.js"></script><script type="text/javascript" async="" src="{{ url('/') }}/assets/analytics.js"></script><script async="" src="{{ url('/') }}/assets/gtm.js"></script><script async="" src="{{ url('/') }}/assets/gtm.js"></script><script>
     // Move loadOneTrustScript function out of the event handler
@@ -55,20 +55,20 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="description" content="Download premium After Effects templates. Unlimited downloads for use on your next personal or commercial project. Including Elements, Infographics, Titles, Logo Stings and Intros. Click here to download royalty-free licensing templates from Videvo today.">
 
 <meta property="og:type" content="article">
-<meta property="og:url" content="{{ url('/') }}//after-effects-templates/">
+<meta property="og:url" content="{{ url('/') }}/after-effects-templates/">
 <meta property="og:title" content="After Effects Templates Download Royalty-Free Premium">
         <meta property="og:description" content="Download premium After Effects templates. Unlimited downloads for use on your next personal or commercial project. Including Elements, Infographics, Titles, Logo Stings and Intros. Click here to download royalty-free licensing templates from Videvo today.">
     <meta property="og:site_name" content="Free Stock Footage - Videvo.net">
 <meta property="og:image" content="{{ url('/') }}//images/og-image.png">
 
-<link rel="alternate" hreflang="x-default" href="{{ url('/') }}//after-effects-templates/">
-<link rel="alternate" hreflang="en" href="{{ url('/') }}//after-effects-templates/">
+<link rel="alternate" hreflang="x-default" href="{{ url('/') }}/after-effects-templates/">
+<link rel="alternate" hreflang="en" href="{{ url('/') }}/after-effects-templates/">
 <link rel="alternate" hreflang="es" href="{{ url('/') }}//es/templates-after-effects/">
 <link rel="alternate" hreflang="de" href="{{ url('/') }}//de/after-effects-templates/">
 
-<link rel="next" href="{{ url('/') }}//after-effects-templates/?page=2">
+<link rel="next" href="{{ url('/') }}/after-effects-templates/?page=2">
 
-<link rel="canonical" href="{{ url('/') }}//after-effects-templates/">
+<link rel="canonical" href="{{ url('/') }}/after-effects-templates/">
 
 <!-- end SEO -->
 
@@ -100,6 +100,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
     <script async="" src="{{ url('/') }}/assets/videvonet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
 
     
     <link rel="preload" as="style" href="{{ url('/') }}/assets/app.94ef0c4a.css"><link rel="stylesheet" href="{{ url('/') }}/assets/app.94ef0c4a.css">    <style>[wire\:loading], [wire\:loading\.delay], [wire\:loading\.inline-block], [wire\:loading\.inline], [wire\:loading\.block], [wire\:loading\.flex], [wire\:loading\.table], [wire\:loading\.grid], [wire\:loading\.inline-flex] {display: none;}[wire\:loading\.delay\.shortest], [wire\:loading\.delay\.shorter], [wire\:loading\.delay\.short], [wire\:loading\.delay\.long], [wire\:loading\.delay\.longer], [wire\:loading\.delay\.longest] {display:none;}[wire\:offline] {display: none;}[wire\:dirty]:not(textarea):not(input):not(select) {display: none;}input:-webkit-autofill, select:-webkit-autofill, textarea:-webkit-autofill {animation-duration: 50000s;animation-name: livewireautofill;}@keyframes livewireautofill { from {} }</style>
@@ -311,48 +313,48 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
         <div class="px-4 py-8 sm:px-12">
             <div class="mb-4 flex gap-2 sm:gap-4">
-                <a href="{{ url('/') }}//after-effects-templates/" class="h-10 px-4 rounded font-bold flex items-center justify-center bg-blue-400 text-white">
+                <a href="{{ url('/') }}/after-effects-templates/" class="h-10 px-4 rounded font-bold flex items-center justify-center bg-blue-400 text-white">
                     All
                 </a>
                 <hr class="h-10 w-px border-r border-gray-200">
                 <div class="flex gap-2 overflow-auto pb-2 sm:gap-4 lg:flex-wrap">
-                                            <a href="{{ url('/') }}//after-effects-templates/infographics/" class="h-10 px-4 rounded font-bold flex items-center justify-cente shrink-0 capitalize bg-gray-200  text-gray-900 hover:bg-blue-400 hover:text-white">
+                                            <a href="{{ url('/') }}/after-effects-templates/infographics/" class="h-10 px-4 rounded font-bold flex items-center justify-cente shrink-0 capitalize bg-gray-200  text-gray-900 hover:bg-blue-400 hover:text-white">
                             infographics
                         </a>
-                                            <a href="{{ url('/') }}//after-effects-templates/slideshows/" class="h-10 px-4 rounded font-bold flex items-center justify-cente shrink-0 capitalize bg-gray-200  text-gray-900 hover:bg-blue-400 hover:text-white">
+                                            <a href="{{ url('/') }}/after-effects-templates/slideshows/" class="h-10 px-4 rounded font-bold flex items-center justify-cente shrink-0 capitalize bg-gray-200  text-gray-900 hover:bg-blue-400 hover:text-white">
                             slideshows
                         </a>
-                                            <a href="{{ url('/') }}//after-effects-templates/animations/" class="h-10 px-4 rounded font-bold flex items-center justify-cente shrink-0 capitalize bg-gray-200  text-gray-900 hover:bg-blue-400 hover:text-white">
+                                            <a href="{{ url('/') }}/after-effects-templates/animations/" class="h-10 px-4 rounded font-bold flex items-center justify-cente shrink-0 capitalize bg-gray-200  text-gray-900 hover:bg-blue-400 hover:text-white">
                             animations
                         </a>
-                                            <a href="{{ url('/') }}//after-effects-templates/outros/" class="h-10 px-4 rounded font-bold flex items-center justify-cente shrink-0 capitalize bg-gray-200  text-gray-900 hover:bg-blue-400 hover:text-white">
+                                            <a href="{{ url('/') }}/after-effects-templates/outros/" class="h-10 px-4 rounded font-bold flex items-center justify-cente shrink-0 capitalize bg-gray-200  text-gray-900 hover:bg-blue-400 hover:text-white">
                             outros
                         </a>
-                                            <a href="{{ url('/') }}//after-effects-templates/social-media/" class="h-10 px-4 rounded font-bold flex items-center justify-cente shrink-0 capitalize bg-gray-200  text-gray-900 hover:bg-blue-400 hover:text-white">
+                                            <a href="{{ url('/') }}/after-effects-templates/social-media/" class="h-10 px-4 rounded font-bold flex items-center justify-cente shrink-0 capitalize bg-gray-200  text-gray-900 hover:bg-blue-400 hover:text-white">
                             social media
                         </a>
-                                            <a href="{{ url('/') }}//after-effects-templates/overlays/" class="h-10 px-4 rounded font-bold flex items-center justify-cente shrink-0 capitalize bg-gray-200  text-gray-900 hover:bg-blue-400 hover:text-white">
+                                            <a href="{{ url('/') }}/after-effects-templates/overlays/" class="h-10 px-4 rounded font-bold flex items-center justify-cente shrink-0 capitalize bg-gray-200  text-gray-900 hover:bg-blue-400 hover:text-white">
                             overlays
                         </a>
-                                            <a href="{{ url('/') }}//after-effects-templates/transitions/" class="h-10 px-4 rounded font-bold flex items-center justify-cente shrink-0 capitalize bg-gray-200  text-gray-900 hover:bg-blue-400 hover:text-white">
+                                            <a href="{{ url('/') }}/after-effects-templates/transitions/" class="h-10 px-4 rounded font-bold flex items-center justify-cente shrink-0 capitalize bg-gray-200  text-gray-900 hover:bg-blue-400 hover:text-white">
                             transitions
                         </a>
-                                            <a href="{{ url('/') }}//after-effects-templates/logo-stings/" class="h-10 px-4 rounded font-bold flex items-center justify-cente shrink-0 capitalize bg-gray-200  text-gray-900 hover:bg-blue-400 hover:text-white">
+                                            <a href="{{ url('/') }}/after-effects-templates/logo-stings/" class="h-10 px-4 rounded font-bold flex items-center justify-cente shrink-0 capitalize bg-gray-200  text-gray-900 hover:bg-blue-400 hover:text-white">
                             logo stings
                         </a>
-                                            <a href="{{ url('/') }}//after-effects-templates/intros/" class="h-10 px-4 rounded font-bold flex items-center justify-cente shrink-0 capitalize bg-gray-200  text-gray-900 hover:bg-blue-400 hover:text-white">
+                                            <a href="{{ url('/') }}/after-effects-templates/intros/" class="h-10 px-4 rounded font-bold flex items-center justify-cente shrink-0 capitalize bg-gray-200  text-gray-900 hover:bg-blue-400 hover:text-white">
                             intros
                         </a>
-                                            <a href="{{ url('/') }}//after-effects-templates/lower-thirds/" class="h-10 px-4 rounded font-bold flex items-center justify-cente shrink-0 capitalize bg-gray-200  text-gray-900 hover:bg-blue-400 hover:text-white">
+                                            <a href="{{ url('/') }}/after-effects-templates/lower-thirds/" class="h-10 px-4 rounded font-bold flex items-center justify-cente shrink-0 capitalize bg-gray-200  text-gray-900 hover:bg-blue-400 hover:text-white">
                             lower thirds
                         </a>
-                                            <a href="{{ url('/') }}//after-effects-templates/titles/" class="h-10 px-4 rounded font-bold flex items-center justify-cente shrink-0 capitalize bg-gray-200  text-gray-900 hover:bg-blue-400 hover:text-white">
+                                            <a href="{{ url('/') }}/after-effects-templates/titles/" class="h-10 px-4 rounded font-bold flex items-center justify-cente shrink-0 capitalize bg-gray-200  text-gray-900 hover:bg-blue-400 hover:text-white">
                             titles
                         </a>
-                                            <a href="{{ url('/') }}//after-effects-templates/typography/" class="h-10 px-4 rounded font-bold flex items-center justify-cente shrink-0 capitalize bg-gray-200  text-gray-900 hover:bg-blue-400 hover:text-white">
+                                            <a href="{{ url('/') }}/after-effects-templates/typography/" class="h-10 px-4 rounded font-bold flex items-center justify-cente shrink-0 capitalize bg-gray-200  text-gray-900 hover:bg-blue-400 hover:text-white">
                             typography
                         </a>
-                                            <a href="{{ url('/') }}//after-effects-templates/other/" class="h-10 px-4 rounded font-bold flex items-center justify-cente shrink-0 capitalize bg-gray-200  text-gray-900 hover:bg-blue-400 hover:text-white">
+                                            <a href="{{ url('/') }}/after-effects-templates/other/" class="h-10 px-4 rounded font-bold flex items-center justify-cente shrink-0 capitalize bg-gray-200  text-gray-900 hover:bg-blue-400 hover:text-white">
                             Other
                         </a>
                                     </div>
@@ -369,16 +371,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div x-show="open" style="display: none;">
         <div class="absolute top-full right-0 z-30 mt-1 flex w-52 flex-col gap-1 rounded border border-gray-200 bg-white p-2 shadow-lg">
 
-                <a href="{{ url('/') }}//after-effects-templates/?sort=popular" class="py-2 px-4 rounded font-bold flex items-center justify-between bg-blue-400 text-white">
+                <a href="{{ url('/') }}/after-effects-templates/?sort=popular" class="py-2 px-4 rounded font-bold flex items-center justify-between bg-blue-400 text-white">
                     Popular                </a>
-                <a href="{{ url('/') }}//after-effects-templates/?sort=recent" class="py-2 px-4 rounded font-bold flex items-center justify-between text-gray-800 hover:bg-gray-150">
+                <a href="{{ url('/') }}/after-effects-templates/?sort=recent" class="py-2 px-4 rounded font-bold flex items-center justify-between text-gray-800 hover:bg-gray-150">
                     Newest                </a>
             </div>
     </div>
 </div>
     </div>
 
-    <div class="relative mt-6 mb-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4">
+    <div class="relative mt-6 mb-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4" id="contTemp">
 
 
     </div>
@@ -390,56 +392,56 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
             <div class="mx-auto grid mt-4 gap-4 lg:grid-cols-2">
                 <div class="flex flex-col sm:flex-row overflow-hidden rounded-2xl">
-    <a href="{{ url('/') }}//after-effects-templates/" class="h-44 sm:h-64 sm:h-auto sm:w-40 relative block w-full overflow-hidden">
+    <a href="{{ url('/') }}/after-effects-templates/" class="h-44 sm:h-64 sm:h-auto sm:w-40 relative block w-full overflow-hidden">
         <img src="{{ url('/') }}/assets/hero-background-circles(1).jpg" class="absolute top-0 left-0 h-full w-full object-cover">
         <div class="absolute inset-0 flex items-center justify-center">
             <span class="flex h-20 w-20 items-center justify-center rounded bg-white text-5xl font-bold text-gray-800 shadow-lg">Ae</span>
         </div>
     </a>
     <div class="bg-gray-800 p-4 flex-1">
-        <a href="{{ url('/') }}//after-effects-templates/" class="group mb-1 flex items-center text-xl font-bold text-white">
+        <a href="{{ url('/') }}/after-effects-templates/" class="group mb-1 flex items-center text-xl font-bold text-white">
             After Effects templates <svg class="fill-current h-6 w-6 transition-all duration-300 group-hover:ml-1" xmlns="http://www.w3.org/2000/svg" viewBox="-49 141 512 512"><defs></defs><path d="M226.6 397l-92.3 92.3a25 25 0 0035.4 35.4l110-110a25 25 0 000-35.4l-110-110a25 25 0 00-35.4 35.4l92.3 92.3z"></path></svg>        </a>
         <p class="mb-4 text-gray-300">
             Fully-customizable motion graphics and animation templates for Adobe After Effects.
         </p>
         <div class="flex flex-wrap items-center gap-2">
-                            <a href="{{ url('/') }}//after-effects-templates/infographics/" class="flex h-8 items-center justify-center rounded-md bg-white/20 px-3 text-sm font-bold text-white hover:bg-white hover:text-gray-900 lg:text-base">
+                            <a href="{{ url('/') }}/after-effects-templates/infographics/" class="flex h-8 items-center justify-center rounded-md bg-white/20 px-3 text-sm font-bold text-white hover:bg-white hover:text-gray-900 lg:text-base">
                     infographics
                 </a>
-                            <a href="{{ url('/') }}//after-effects-templates/slideshows/" class="flex h-8 items-center justify-center rounded-md bg-white/20 px-3 text-sm font-bold text-white hover:bg-white hover:text-gray-900 lg:text-base">
+                            <a href="{{ url('/') }}/after-effects-templates/slideshows/" class="flex h-8 items-center justify-center rounded-md bg-white/20 px-3 text-sm font-bold text-white hover:bg-white hover:text-gray-900 lg:text-base">
                     slideshows
                 </a>
-                            <a href="{{ url('/') }}//after-effects-templates/animations/" class="flex h-8 items-center justify-center rounded-md bg-white/20 px-3 text-sm font-bold text-white hover:bg-white hover:text-gray-900 lg:text-base">
+                            <a href="{{ url('/') }}/after-effects-templates/animations/" class="flex h-8 items-center justify-center rounded-md bg-white/20 px-3 text-sm font-bold text-white hover:bg-white hover:text-gray-900 lg:text-base">
                     animations
                 </a>
-                            <a href="{{ url('/') }}//after-effects-templates/outros/" class="flex h-8 items-center justify-center rounded-md bg-white/20 px-3 text-sm font-bold text-white hover:bg-white hover:text-gray-900 lg:text-base">
+                            <a href="{{ url('/') }}/after-effects-templates/outros/" class="flex h-8 items-center justify-center rounded-md bg-white/20 px-3 text-sm font-bold text-white hover:bg-white hover:text-gray-900 lg:text-base">
                     outros
                 </a>
-                            <a href="{{ url('/') }}//after-effects-templates/social-media/" class="flex h-8 items-center justify-center rounded-md bg-white/20 px-3 text-sm font-bold text-white hover:bg-white hover:text-gray-900 lg:text-base">
+                            <a href="{{ url('/') }}/after-effects-templates/social-media/" class="flex h-8 items-center justify-center rounded-md bg-white/20 px-3 text-sm font-bold text-white hover:bg-white hover:text-gray-900 lg:text-base">
                     social media
                 </a>
-                            <a href="{{ url('/') }}//after-effects-templates/overlays/" class="flex h-8 items-center justify-center rounded-md bg-white/20 px-3 text-sm font-bold text-white hover:bg-white hover:text-gray-900 lg:text-base">
+                            <a href="{{ url('/') }}/after-effects-templates/overlays/" class="flex h-8 items-center justify-center rounded-md bg-white/20 px-3 text-sm font-bold text-white hover:bg-white hover:text-gray-900 lg:text-base">
                     overlays
                 </a>
-                            <a href="{{ url('/') }}//after-effects-templates/transitions/" class="flex h-8 items-center justify-center rounded-md bg-white/20 px-3 text-sm font-bold text-white hover:bg-white hover:text-gray-900 lg:text-base">
+                            <a href="{{ url('/') }}/after-effects-templates/transitions/" class="flex h-8 items-center justify-center rounded-md bg-white/20 px-3 text-sm font-bold text-white hover:bg-white hover:text-gray-900 lg:text-base">
                     transitions
                 </a>
-                            <a href="{{ url('/') }}//after-effects-templates/logo-stings/" class="flex h-8 items-center justify-center rounded-md bg-white/20 px-3 text-sm font-bold text-white hover:bg-white hover:text-gray-900 lg:text-base">
+                            <a href="{{ url('/') }}/after-effects-templates/logo-stings/" class="flex h-8 items-center justify-center rounded-md bg-white/20 px-3 text-sm font-bold text-white hover:bg-white hover:text-gray-900 lg:text-base">
                     logo stings
                 </a>
-                            <a href="{{ url('/') }}//after-effects-templates/intros/" class="flex h-8 items-center justify-center rounded-md bg-white/20 px-3 text-sm font-bold text-white hover:bg-white hover:text-gray-900 lg:text-base">
+                            <a href="{{ url('/') }}/after-effects-templates/intros/" class="flex h-8 items-center justify-center rounded-md bg-white/20 px-3 text-sm font-bold text-white hover:bg-white hover:text-gray-900 lg:text-base">
                     intros
                 </a>
-                            <a href="{{ url('/') }}//after-effects-templates/lower-thirds/" class="flex h-8 items-center justify-center rounded-md bg-white/20 px-3 text-sm font-bold text-white hover:bg-white hover:text-gray-900 lg:text-base">
+                            <a href="{{ url('/') }}/after-effects-templates/lower-thirds/" class="flex h-8 items-center justify-center rounded-md bg-white/20 px-3 text-sm font-bold text-white hover:bg-white hover:text-gray-900 lg:text-base">
                     lower thirds
                 </a>
-                            <a href="{{ url('/') }}//after-effects-templates/titles/" class="flex h-8 items-center justify-center rounded-md bg-white/20 px-3 text-sm font-bold text-white hover:bg-white hover:text-gray-900 lg:text-base">
+                            <a href="{{ url('/') }}/after-effects-templates/titles/" class="flex h-8 items-center justify-center rounded-md bg-white/20 px-3 text-sm font-bold text-white hover:bg-white hover:text-gray-900 lg:text-base">
                     titles
                 </a>
-                            <a href="{{ url('/') }}//after-effects-templates/typography/" class="flex h-8 items-center justify-center rounded-md bg-white/20 px-3 text-sm font-bold text-white hover:bg-white hover:text-gray-900 lg:text-base">
+                            <a href="{{ url('/') }}/after-effects-templates/typography/" class="flex h-8 items-center justify-center rounded-md bg-white/20 px-3 text-sm font-bold text-white hover:bg-white hover:text-gray-900 lg:text-base">
                     typography
                 </a>
-                            <a href="{{ url('/') }}//after-effects-templates/other/" class="flex h-8 items-center justify-center rounded-md bg-white/20 px-3 text-sm font-bold text-white hover:bg-white hover:text-gray-900 lg:text-base">
+                            <a href="{{ url('/') }}/after-effects-templates/other/" class="flex h-8 items-center justify-center rounded-md bg-white/20 px-3 text-sm font-bold text-white hover:bg-white hover:text-gray-900 lg:text-base">
                     Other
                 </a>
                     </div>
@@ -494,6 +496,127 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     @include('footer_main')
     
     <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script>
+
+        $(document).ready(() => {
+            
+            $.ajax({@if($pageTitle == 'After Effects Templates')
+            url: '{{ url('/') }}/Api/Template/AE{{$tag}}',@elseif($pageTitle == 'Premiere Pro Templates')url: '{{ url('/') }}/Api/Template/PP{{$tag}}',@elseif($pageTitle == 'DaVinci Resolve Templates')url: '{{ url('/') }}/Api/Template/DR{{$tag}}',@elseif($pageTitle == 'Final Cut Pro Templates')url: '{{ url('/') }}/Api/Template/FC{{$tag}}',@elseif($pageTitle == 'Motion Graphics Templates')url: '{{ url('/') }}/Api/Template/MG{{$tag}}',@endif
+            method: 'GET',
+            contentType: false,
+            cache: false,
+            processData: false,
+            success:function(response)
+            {
+                response.forEach(vid => {
+                    $('#contTemp').append(`                                                <div class="relative flex flex-col rounded-md clip-wrapper transition-shadow duration-200">
+                        <div itemscope="" itemprop="VideoObject" itemtype="schema.org/VideoObject" class="!hidden">
+                        <meta itemprop="name" content="${vid.title}">
+                        <meta itemprop="description" content="${vid.description}">
+                        <meta itemprop="contentUrl" content="{{ url('/') }}/videos/${vid.preview}">
+                        <meta itemprop="thumbnailUrl" content="{{ url('/') }}/thumbnails/${vid.thumbnail}">
+                        <meta itemprop="uploadDate" content="${vid.created_at}">
+                        <meta itemprop="duration" content="${vid.duration}">
+                    </div>    <a href="http://127.0.0.1:8000/Templates/${vid.id}" class="block overflow-hidden rounded-md bg-white shadow-lg clip-wrapper" x-data="videoThumbnail()" x-on:mouseenter="playPreview" x-on:mouseleave="stopPreview">
+                            <div class="aspect-w-16 aspect-h-9">
+                                <img src="{{ url('/') }}/thumbnails/${vid.thumbnail}" x-ref="thumb">
+                                <video preload="none" class="absolute inset-0 z-10 h-full w-full object-cover" muted="" x-ref="video" poster="{{ url('/') }}/thumbnails/${vid.thumbnail}" loop="">
+                                                        <source src="http://127.0.0.1:8000/videos/${vid.preview}" type="video/mp4">
+                                                </video>
+                            </div>
+                            <div class="p-3">
+                                <p class="mb-2 truncate text-lg font-bold text-gray-900">${vid.title}</p>
+                                <div class="flex items-center justify-between">
+                                    <div class="flex items-center gap-2">
+                                        <span class="flex h-8 items-center justify-center rounded border border-gray-300 px-2 font-bold text-gray-700">
+                                            ${vid.Category}
+                                        </span>
+                                        <span class="text-gray-700 flex h-8 items-center justify-center rounded border border-gray-300 px-2 font-bold">
+                                            ${vid.Category2}
+                                        </span>
+                                    </div>
+                    
+                                </div>
+                            </div>
+                        </a>
+                        <div class="flex absolute bottom-3 right-2 z-40 w-full justify-end" x-data="{showTooltip: false}">
+                            <div class="p-2">
+                                <div wire:id="JowHAjOG9Cr8xqXHNtnp" class="flex relative z-40" x-data="{ isClipInAnyUserCollection: $wire.entangle(&#39;isClipInAnyUserCollection&#39;), mode: $wire.entangle(&#39;mode&#39;), showModal: $wire.entangle(&#39;showModal&#39;), hidden: $wire.entangle(&#39;hidden&#39;), showTooltip: false}">
+                        <span class="relative inline-flex" x-on:mouseover="showTooltip = true" x-on:mouseleave="showTooltip = false">
+                            <button class="relative add-to-collection-button overflow-hidden" wire:click.stop.prevent="toggleModal()">
+                                <svg x-bind:class="{&#39;text-white&#39;: mode == &#39;light&#39;, &#39;not-added&#39;: !isClipInAnyUserCollection, &#39;!translate-y-0&#39;: !hidden}" x-show="!isClipInAnyUserCollection" class="fill-current h-6 w-6 text-gray-700 outline-none translate-y-8 not-added !translate-y-0" xmlns="http://www.w3.org/2000/svg" fill="currentColor" stroke="none" viewBox="0 0 24 24"><path d="M20 2H8c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2V4c0-1.103-.897-2-2-2zM8 16V4h12l.002 12H8z"></path><path d="M4 8H2v12c0 1.103.897 2 2 2h12v-2H4V8zm11-2h-2v3h-3v2h3v3h2v-3h3V9h-3z"></path></svg>            <svg x-show="isClipInAnyUserCollection" class="fill-current h-6 w-6 text-[#198ACF] outline-none" xmlns="http://www.w3.org/2000/svg" fill="currentColor" stroke="none" viewBox="0 0 24 24" style="display: none;"><path d="M4 22h12v-2H4V8H2v12c0 1.103.897 2 2 2z"></path><path d="M20 2H8c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2V4c0-1.103-.897-2-2-2zm-2 9h-3v3h-2v-3h-3V9h3V6h2v3h3v2z"></path></svg>        </button>
+                            <div x-show="showTooltip" class="tooltip max-md:!hidden" style="display: none;">
+                        Add to Collections
+                    </div>
+                         </span>
+                        <div x-show="showModal" style="display: none;">
+                            <div class="modal-wrapper-add-to-collection flex flex-col items-center justify-center absolute bottom-0 right-[-15px] z-60 cursor-auto min-w-[300px] rounded-lg " style="transform: translateY(100%) translateY(10px);">
+                                <div class="flex flex-col bg-white fixed top-0 left-0 md:relative md:rounded-lg md:shadow-lg h-full md:h-auto p-4 w-full" @click.outside="showModal = false;">
+                                    <div class="flex justify-start relative md:justify-between items-center ">
+                                        <p class="text-lg font-bold text-[#2b2b2b]">Add to collection</p>
+                                        <a href="http://127.0.0.1:8000/my-collections/" class="ml-4 md:ml-0 text-sm text-gray-500 hover:text-gray-700">Manage</a>
+                                        <div class="w-10 h-10 flex items-center justify-center absolute top-0 right-0 md:hidden close-modal w-6 text-2xl text-gray-600 leading-4 font-bold text-right" @click.stop.prevent="showModal = false; window.clipActions?.closeAllModals();"></div>
+                                    </div>
+                                    <div class="flex justify-start w-full">
+                                        <div wire:id="hkl8ieY0V0oJr4FXA7vf" class="flex py-2 relative h-[56px] item-center" x-data="{showForm: false, showResponse: false, timeoutToggle: false}">
+                        <template x-if="showResponse"></template>
+                        <div class="cursor-pointer text-base text-[#1b95e0] bold h-full order-2 flex items-center" @click="showForm = !showForm" x-show="!showForm">
+                            <svg class="fill-current w-7 h-7 mr-[10px]" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+                        <path fill="#1B95E0" fill-rule="evenodd" d="M14 7c.552 0 1 .448 1 1v5h5c.552 0 1 .448 1 1s-.448 1-1 1h-5v5c0 .552-.448 1-1 1s-1-.448-1-1v-5H8c-.552 0-1-.448-1-1s.448-1 1-1h5V8c0-.552.448-1 1-1z"></path>
+                    </svg>        Create new collection
+                        </div>
+                        <form x-show="showForm" class="flex space-between items-center border border-[#1b95e0] justify-items-stretch rounded-sm overflow-hidden h-full" wire:submit.prevent="addUserCollection" style="display: none;">
+                            <input class="px-2 border-0 outline-0 h-full" placeholder="Add collection name" type="text" wire:model="collectionName">
+                            <button type="submit" @click="window.clipActions?.closeAllModals(); showResponse = true; setTimeout(() =&gt; {showResponse = false; }, 3000); showForm = !showForm" class="h-full leading-10 bg-gray-100 text-blue-600 text-base font-bold text-center min-w-[60px]">Add</button>
+                        </form>
+                    
+                    </div>
+                    <!-- Livewire Component wire-end:hkl8ieY0V0oJr4FXA7vf -->                </div>
+                                    <div class="flex flex-col grow overflow-auto relative md:max-h-[calc(46px*3.5)] max-md:max-h[calc(100vh-100px)] transition duration-150" x-data="{selectedCollections:  [],}">
+                                                            <div class="m:h-[80px] flex items-center justify-between fixed py-3 md:py-3 left-0 px-4 bottom-0 left-0 w-full md:!hidden" style="box-shadow: 0 -2px 0 0 rgb(0 0 0 / 10%);">
+                                            <a x-on:click="showModal = false; window.clipActions?.closeAllModals();" class="pt-3 pb-3 pr-6 pl-6 font-bold text-base rounded-lg text-blue-600 bg-[#ececec]">Cancel</a>
+                                            <a x-on:click="showModal = false; window.clipActions?.closeAllModals(); $wire.toggleClipInUserCollections(selectedCollections)" class="pt-3 pb-3 pr-6 pl-6 font-bold text-base rounded-lg bg-blue-600 text-white">Apply</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Livewire Component wire-end:JowHAjOG9Cr8xqXHNtnp -->        </div>
+                            <div class="p-2">
+                                <div wire:id="zf4dJZV0Y8zmGCM2d59F" class="flex" x-data="{ isFavorite: $wire.entangle(&#39;isFavorite&#39;), mode: $wire.entangle(&#39;mode&#39;), hidden: $wire.entangle(&#39;hidden&#39;), showTooltip: false }">
+                        <span class="relative inline-flex" x-on:mouseover="showTooltip = true" x-on:mouseleave="showTooltip = false">
+                            <button class="text-gray-700 hover:text-gray-900 overflow-hidden toggle-favorite" wire:key="clip-1005165" wire:click.stop.prevent="toggleFavorite();">
+                                <svg x-bind:class="{&#39;text-white&#39;: mode == &#39;light&#39;, &#39;not-added&#39;: !isFavorite, &#39;!translate-y-0&#39;: !hidden}" x-show="!isFavorite" class="fill-current h-6 w-6 outline-none translate-y-8 not-added !translate-y-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" fill="none"><path d="M5.40956 2.51538C4.45258 1.76408 3.08107 1.83357 2.20944 2.72795C1.25976 3.7024 1.26439 5.28574 2.2182 6.26443L5.74895 9.8873C5.8954 10.0376 6.13284 10.0376 6.27929 9.8873L9.7917 6.28538C10.7392 5.30775 10.7362 3.72885 9.7822 2.74999C8.90375 1.84862 7.52809 1.77191 6.57265 2.52393C6.48883 2.58991 6.40825 2.66226 6.33151 2.74099L5.99605 3.08587L5.65599 2.73693C5.57761 2.65651 5.49525 2.58265 5.40956 2.51538ZM7.04767 3.43893C7.60289 2.86945 8.49943 2.86653 9.06605 3.44793C9.64336 4.04031 9.64309 5.00077 9.07454 5.58846L9.0736 5.58943L6.01425 8.72674L2.93435 5.56648C2.3556 4.97264 2.35777 4.00853 2.92559 3.42589C3.4791 2.85794 4.37486 2.85516 4.93984 3.43488L5.2799 3.78381C5.46824 3.97706 5.72669 4.086 5.99654 4.08587C6.26638 4.08574 6.52472 3.97655 6.71288 3.78312L7.04767 3.43893Z" fill="currentColor"></path></svg>            <svg x-show="isFavorite" class="fill-current h-6 w-6 text-red-700 outline-none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" fill="none" style="display: none;"><path d="M5.65599 2.73693C4.70219 1.75824 3.15912 1.75349 2.20944 2.72795C1.25976 3.7024 1.26439 5.28574 2.2182 6.26443L5.74895 9.8873C5.8954 10.0376 6.13284 10.0376 6.27929 9.8873L9.7917 6.28538C10.7392 5.30775 10.7362 3.72885 9.7822 2.74999C8.82669 1.76955 7.28289 1.76479 6.33151 2.74099L5.99605 3.08587L5.65599 2.73693Z" fill="currentColor"></path></svg>        </button>
+                            <div x-show="showTooltip" class="tooltip max-md:!hidden" style="display: none;">
+                        Add to Favorites
+                    </div>
+                         </span>
+                    </div>
+                    
+                    <!-- Livewire Component wire-end: -->        </div>
+                            <span class="relative inline-flex" x-on:mouseover="showTooltip = true" x-on:mouseleave="showTooltip = false">
+                                <a class="p-2 text-gray-700 hover:text-gray-900 cursor-pointer" href="http://127.0.0.1:8000/after-effects-templates/company-presentation/1005165/">
+                                    <svg class="fill-current h-5 w-5" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M8 12.2188C7.79281 12.2188 7.59409 12.1364 7.44756 11.9899L4.79594 9.33828C4.49084 9.03319 4.49084 8.53853 4.79594 8.23344C5.10103 7.92834 5.59566 7.92834 5.90078 8.23344L7.21875 9.55141V0.78125C7.21875 0.349781 7.56853 0 8 0C8.43147 0 8.78125 0.349781 8.78125 0.78125V9.55141L10.0992 8.23344C10.4043 7.92834 10.899 7.92834 11.2041 8.23344C11.5092 8.53853 11.5092 9.03319 11.2041 9.33828L8.55244 11.9899C8.40591 12.1364 8.20722 12.2188 8 12.2188ZM14.4375 8.78125C14.4375 8.34978 14.7872 8 15.2188 8C15.6503 8 16 8.34978 16 8.78125V12.9688C16 14.4334 14.8084 15.625 13.3438 15.625H2.65625C1.19159 15.625 0 14.4334 0 12.9688V8.78125C0 8.34978 0.349781 8 0.78125 8C1.21272 8 1.5625 8.34978 1.5625 8.78125V12.9688C1.5625 13.5718 2.05316 14.0625 2.65625 14.0625H13.3438C13.9468 14.0625 14.4375 13.5718 14.4375 12.9688V8.78125Z"></path>
+                    </svg>            </a>
+                                <div x-show="showTooltip" class="tooltip max-md:!hidden" style="display: none;">
+                                Download
+                                </div>
+                            </span>
+                    
+                        </div>
+                    </div>`);
+                });
+            },
+            error: function(response) {
+                console.log(response);
+            }
+            });
+        
+        });
+        </script>
 <script async="" src="{{ url('/') }}/assets/js(4)"></script>
 <script>
     window.dataLayer = window.dataLayer || [];

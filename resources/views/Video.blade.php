@@ -33,7 +33,7 @@
             <div wire:id="mjvfGYOqHAj8Yd3SHRca" class="flex relative z-40" x-data="{ isClipInAnyUserCollection: $wire.entangle(&#39;isClipInAnyUserCollection&#39;), mode: $wire.entangle(&#39;mode&#39;), showModal: $wire.entangle(&#39;showModal&#39;), hidden: $wire.entangle(&#39;hidden&#39;), showTooltip: false}">
     <span class="relative inline-flex" x-on:mouseover="showTooltip = true" x-on:mouseleave="showTooltip = false">
         <button class="relative add-to-collection-button overflow-hidden" wire:click.stop.prevent="toggleModal()">
-            <svg x-bind:class="{&#39;text-white&#39;: mode == &#39;light&#39;, &#39;not-added&#39;: !isClipInAnyUserCollection, &#39;!translate-y-0&#39;: !hidden}" x-show="!isClipInAnyUserCollection" class="fill-current h-6 w-6 text-gray-700 outline-none translate-y-8 text-white not-added !translate-y-0" xmlns="http://www.w3.org/2000/svg" fill="currentColor" stroke="none" viewBox="0 0 24 24"><path d="M20 2H8c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2V4c0-1.103-.897-2-2-2zM8 16V4h12l.002 12H8z"></path><path d="M4 8H2v12c0 1.103.897 2 2 2h12v-2H4V8zm11-2h-2v3h-3v2h3v3h2v-3h3V9h-3z"></path></svg>            <svg x-show="isClipInAnyUserCollection" class="fill-current h-6 w-6 text-[#198ACF] outline-none" xmlns="http://www.w3.org/2000/svg" fill="currentColor" stroke="none" viewBox="0 0 24 24" style="display: none;"><path d="M4 22h12v-2H4V8H2v12c0 1.103.897 2 2 2z"></path><path d="M20 2H8c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2V4c0-1.103-.897-2-2-2zm-2 9h-3v3h-2v-3h-3V9h3V6h2v3h3v2z"></path></svg>        </button>
+            <svg class="fill-current h-6 w-6 text-gray-700 outline-none translate-y-8 text-white not-added !translate-y-0" xmlns="http://www.w3.org/2000/svg" fill="currentColor" stroke="none" viewBox="0 0 24 24"><path d="M20 2H8c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2V4c0-1.103-.897-2-2-2zM8 16V4h12l.002 12H8z"></path><path d="M4 8H2v12c0 1.103.897 2 2 2h12v-2H4V8zm11-2h-2v3h-3v2h3v3h2v-3h3V9h-3z"></path></svg>            <svg x-show="isClipInAnyUserCollection" class="fill-current h-6 w-6 text-[#198ACF] outline-none" xmlns="http://www.w3.org/2000/svg" fill="currentColor" stroke="none" viewBox="0 0 24 24" style="display: none;"><path d="M4 22h12v-2H4V8H2v12c0 1.103.897 2 2 2z"></path><path d="M20 2H8c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2V4c0-1.103-.897-2-2-2zm-2 9h-3v3h-2v-3h-3V9h3V6h2v3h3v2z"></path></svg>        </button>
         <div x-show="showTooltip" class="tooltip max-md:!hidden" style="display: none;">
     Add to Collections
 </div>
@@ -140,6 +140,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <title>Free Stock Video Footage Download 4K HD Clips</title>
 <meta name="description" content="Download free stock video footage with 4k and HD clips available. Click here to download royalty-free licensing videos from Videvo today.">
 
+<meta name="csrf-token" content="{{ csrf_token() }}" />
 <meta property="og:type" content="article">
 <meta property="og:url" content="{{ url('/') }}/stock-video-footage/">
 <meta property="og:title" content="Free Stock Video Footage Download 4K HD Clips">
@@ -366,7 +367,7 @@ window.addEventListener('load', function () {
     $(document).ready(() => {
 
         $.ajax({
-        url: '{{ url('/') }}/Api/Video',
+        url: '{{ url('/') }}/Api/Video{{$tag}}',
         method: 'GET',
         contentType: false,
         cache: false,
@@ -402,14 +403,14 @@ window.addEventListener('load', function () {
             </a>
             <div class="absolute bottom-0 right-0 z-30 inline-flex w-auto items-end justify-end gap-2 px-4 py-2 transition-all duration-300 ">
             <div wire:id="mjvfGYOqHAj8Yd3SHRca" class="flex relative z-40" x-data="{ isClipInAnyUserCollection: $wire.entangle(&#39;isClipInAnyUserCollection&#39;), mode: $wire.entangle(&#39;mode&#39;), showModal: $wire.entangle(&#39;showModal&#39;), hidden: $wire.entangle(&#39;hidden&#39;), showTooltip: false}">
-    <span class="relative inline-flex" x-on:mouseover="showTooltip = true" x-on:mouseleave="showTooltip = false">
+    <span class="relative inline-flex" x-on:mouseover="showTooltip = true" x-on:mouseleave="showTooltip = false" onclick="collection(${vid.id})">
         <button class="relative add-to-collection-button overflow-hidden" wire:click.stop.prevent="toggleModal()">
-            <svg x-bind:class="{&#39;text-white&#39;: mode == &#39;light&#39;, &#39;not-added&#39;: !isClipInAnyUserCollection, &#39;!translate-y-0&#39;: !hidden}" x-show="!isClipInAnyUserCollection" class="fill-current h-6 w-6 text-gray-700 outline-none translate-y-8 text-white not-added !translate-y-0" xmlns="http://www.w3.org/2000/svg" fill="currentColor" stroke="none" viewBox="0 0 24 24"><path d="M20 2H8c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2V4c0-1.103-.897-2-2-2zM8 16V4h12l.002 12H8z"></path><path d="M4 8H2v12c0 1.103.897 2 2 2h12v-2H4V8zm11-2h-2v3h-3v2h3v3h2v-3h3V9h-3z"></path></svg>            <svg x-show="isClipInAnyUserCollection" class="fill-current h-6 w-6 text-[#198ACF] outline-none" xmlns="http://www.w3.org/2000/svg" fill="currentColor" stroke="none" viewBox="0 0 24 24" style="display: none;"><path d="M4 22h12v-2H4V8H2v12c0 1.103.897 2 2 2z"></path><path d="M20 2H8c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2V4c0-1.103-.897-2-2-2zm-2 9h-3v3h-2v-3h-3V9h3V6h2v3h3v2z"></path></svg>        </button>
+            <svg class="fill-current h-6 w-6 text-gray-700 outline-none translate-y-8 text-white not-added !translate-y-0" xmlns="http://www.w3.org/2000/svg" fill="currentColor" stroke="none" viewBox="0 0 24 24"><path d="M20 2H8c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2V4c0-1.103-.897-2-2-2zM8 16V4h12l.002 12H8z"></path><path d="M4 8H2v12c0 1.103.897 2 2 2h12v-2H4V8zm11-2h-2v3h-3v2h3v3h2v-3h3V9h-3z"></path></svg>            <svg x-show="isClipInAnyUserCollection" class="fill-current h-6 w-6 text-[#198ACF] outline-none" xmlns="http://www.w3.org/2000/svg" fill="currentColor" stroke="none" viewBox="0 0 24 24" style="display: none;"><path d="M4 22h12v-2H4V8H2v12c0 1.103.897 2 2 2z"></path><path d="M20 2H8c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2V4c0-1.103-.897-2-2-2zm-2 9h-3v3h-2v-3h-3V9h3V6h2v3h3v2z"></path></svg>        </button>
         <div x-show="showTooltip" class="tooltip max-md:!hidden" style="display: none;">
     Add to Collections
 </div>
      </span>
-    <div x-show="showModal" style="display: none;">
+    <div x-show="showModal" style="display: none; position: absolute; bottom: 30; right: 0;" id="collectionModal">
         <div class="modal-wrapper-add-to-collection flex flex-col items-center justify-center absolute bottom-0 right-[-15px] z-60 cursor-auto min-w-[300px] rounded-lg " style="transform: translateY(100%) translateY(10px);">
             <div class="flex flex-col bg-white fixed top-0 left-0 md:relative md:rounded-lg md:shadow-lg h-full md:h-auto p-4 w-full" @click.outside="showModal = false;">
                 <div class="flex justify-start relative md:justify-between items-center ">
@@ -425,9 +426,12 @@ window.addEventListener('load', function () {
     <path fill="#1B95E0" fill-rule="evenodd" d="M14 7c.552 0 1 .448 1 1v5h5c.552 0 1 .448 1 1s-.448 1-1 1h-5v5c0 .552-.448 1-1 1s-1-.448-1-1v-5H8c-.552 0-1-.448-1-1s.448-1 1-1h5V8c0-.552.448-1 1-1z"></path>
 </svg>        Create new collection
     </div>
-    <form x-show="showForm" class="flex space-between items-center border border-[#1b95e0] justify-items-stretch rounded-sm overflow-hidden h-full" wire:submit.prevent="addUserCollection" style="display: none;">
-        <input class="px-2 border-0 outline-0 h-full" placeholder="Add collection name" type="text" wire:model="collectionName">
-        <button type="submit" @click="window.clipActions?.closeAllModals(); showResponse = true; setTimeout(() =&gt; {showResponse = false; }, 3000); showForm = !showForm" class="h-full leading-10 bg-gray-100 text-blue-600 text-base font-bold text-center min-w-[60px]">Add</button>
+    <form method="post" action="{{ route('collection.post') }}" enctype="multipart/form-data" x-show="showForm" class="flex space-between items-center border border-[#1b95e0] justify-items-stretch rounded-sm overflow-hidden h-full" style="display: none;">
+        @csrf
+        <input class="px-2 border-0 outline-0 h-full" placeholder="Add collection name" type="text" wire:model="collectionName" name="name">
+        <input type="hidden" name="productID" value="${vid.id}">
+        <input type="hidden" name="product_type" value="video">
+        <button type="submit" class="h-full leading-10 bg-gray-100 text-blue-600 text-base font-bold text-center min-w-[60px]">Add</button>
     </form>
 
 </div>
@@ -444,9 +448,9 @@ window.addEventListener('load', function () {
 </div>
 
 <!-- Livewire Component wire-end:mjvfGYOqHAj8Yd3SHRca -->            <div wire:id="VuzUOgI5NJVStHuDVtfQ" class="flex" x-data="{ isFavorite: $wire.entangle(&#39;isFavorite&#39;), mode: $wire.entangle(&#39;mode&#39;), hidden: $wire.entangle(&#39;hidden&#39;), showTooltip: false }">
-    <span class="relative inline-flex" x-on:mouseover="showTooltip = true" x-on:mouseleave="showTooltip = false">
+    <span class="relative inline-flex" x-on:mouseover="showTooltip = true" x-on:mouseleave="showTooltip = false" onclick="favorite(${vid.id})">
         <button class="text-gray-700 hover:text-gray-900 overflow-hidden toggle-favorite" wire:key="clip-3313" wire:click.stop.prevent="toggleFavorite();">
-            <svg x-bind:class="{&#39;text-white&#39;: mode == &#39;light&#39;, &#39;not-added&#39;: !isFavorite, &#39;!translate-y-0&#39;: !hidden}" x-show="!isFavorite" class="fill-current h-6 w-6 outline-none translate-y-8 text-white not-added !translate-y-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" fill="none"><path d="M5.40956 2.51538C4.45258 1.76408 3.08107 1.83357 2.20944 2.72795C1.25976 3.7024 1.26439 5.28574 2.2182 6.26443L5.74895 9.8873C5.8954 10.0376 6.13284 10.0376 6.27929 9.8873L9.7917 6.28538C10.7392 5.30775 10.7362 3.72885 9.7822 2.74999C8.90375 1.84862 7.52809 1.77191 6.57265 2.52393C6.48883 2.58991 6.40825 2.66226 6.33151 2.74099L5.99605 3.08587L5.65599 2.73693C5.57761 2.65651 5.49525 2.58265 5.40956 2.51538ZM7.04767 3.43893C7.60289 2.86945 8.49943 2.86653 9.06605 3.44793C9.64336 4.04031 9.64309 5.00077 9.07454 5.58846L9.0736 5.58943L6.01425 8.72674L2.93435 5.56648C2.3556 4.97264 2.35777 4.00853 2.92559 3.42589C3.4791 2.85794 4.37486 2.85516 4.93984 3.43488L5.2799 3.78381C5.46824 3.97706 5.72669 4.086 5.99654 4.08587C6.26638 4.08574 6.52472 3.97655 6.71288 3.78312L7.04767 3.43893Z" fill="currentColor"></path></svg>            <svg x-show="isFavorite" class="fill-current h-6 w-6 text-red-700 outline-none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" fill="none" style="display: none;"><path d="M5.65599 2.73693C4.70219 1.75824 3.15912 1.75349 2.20944 2.72795C1.25976 3.7024 1.26439 5.28574 2.2182 6.26443L5.74895 9.8873C5.8954 10.0376 6.13284 10.0376 6.27929 9.8873L9.7917 6.28538C10.7392 5.30775 10.7362 3.72885 9.7822 2.74999C8.82669 1.76955 7.28289 1.76479 6.33151 2.74099L5.99605 3.08587L5.65599 2.73693Z" fill="currentColor"></path></svg>        </button>
+            <svg class="fill-current h-6 w-6 outline-none translate-y-8 text-white not-added !translate-y-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" fill="none"><path d="M5.40956 2.51538C4.45258 1.76408 3.08107 1.83357 2.20944 2.72795C1.25976 3.7024 1.26439 5.28574 2.2182 6.26443L5.74895 9.8873C5.8954 10.0376 6.13284 10.0376 6.27929 9.8873L9.7917 6.28538C10.7392 5.30775 10.7362 3.72885 9.7822 2.74999C8.90375 1.84862 7.52809 1.77191 6.57265 2.52393C6.48883 2.58991 6.40825 2.66226 6.33151 2.74099L5.99605 3.08587L5.65599 2.73693C5.57761 2.65651 5.49525 2.58265 5.40956 2.51538ZM7.04767 3.43893C7.60289 2.86945 8.49943 2.86653 9.06605 3.44793C9.64336 4.04031 9.64309 5.00077 9.07454 5.58846L9.0736 5.58943L6.01425 8.72674L2.93435 5.56648C2.3556 4.97264 2.35777 4.00853 2.92559 3.42589C3.4791 2.85794 4.37486 2.85516 4.93984 3.43488L5.2799 3.78381C5.46824 3.97706 5.72669 4.086 5.99654 4.08587C6.26638 4.08574 6.52472 3.97655 6.71288 3.78312L7.04767 3.43893Z" fill="currentColor"></path></svg>            <svg x-show="isFavorite" class="fill-current h-6 w-6 text-red-700 outline-none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" fill="none" style="display: none;"><path d="M5.65599 2.73693C4.70219 1.75824 3.15912 1.75349 2.20944 2.72795C1.25976 3.7024 1.26439 5.28574 2.2182 6.26443L5.74895 9.8873C5.8954 10.0376 6.13284 10.0376 6.27929 9.8873L9.7917 6.28538C10.7392 5.30775 10.7362 3.72885 9.7822 2.74999C8.82669 1.76955 7.28289 1.76479 6.33151 2.74099L5.99605 3.08587L5.65599 2.73693Z" fill="currentColor"></path></svg>        </button>
         <div x-show="showTooltip" class="tooltip max-md:!hidden" style="display: none;">
     Add to Favorites
 </div>
@@ -470,6 +474,33 @@ window.addEventListener('load', function () {
         });
 
     });
+
+    function favorite(id) {
+
+        $.ajax({
+              headers: {
+                'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+              },
+              url: '{{ url('/') }}/post/favorite',
+              method: 'POST',
+              data: {productID: id, product_type: 'video'},
+              success:function(response)
+              {
+                alert("Added to favorites succesfully!");
+              },
+              error: function(response) {
+                console.log(response);
+              }
+          });
+        
+    }
+
+    function collection(id){
+        
+        var modal = $('#collectionModal');
+
+        modal.toggle();
+    }
 </script>
 
 
@@ -1260,117 +1291,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                     </span>
             </div>
 
-            <div class="hidden sm:flex sm:flex-1 sm:items-center justify-center md:justify-between">
-                <div class="hidden md:block">
-                    <p class="text-sm leading-5 text-gray-700">
-                        <span>Showing</span>
-                        <span class="font-medium">1</span>
-                        <span>to</span>
-                        <span class="font-medium">75</span>
-                        <span>of</span>
-                        <span class="font-medium">1552285</span>
-                        <span>results</span>
-                    </p>
-                </div>
-
-                <div>
-                    <span class="relative z-0 inline-flex rounded-md shadow-sm" x-on:click="window.scrollTo(0, 0)">
-                        <span>
-                            
-                                                            <span aria-disabled="true" aria-label="&amp;laquo; Previous">
-                                    <span class="relative inline-flex cursor-default items-center rounded-l-md border border-gray-300 bg-white px-2 py-2 text-sm font-medium leading-5 text-gray-500" aria-hidden="true">
-                                        <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20">
-                                            <path fill-rule="evenodd" d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clip-rule="evenodd"></path>
-                                        </svg>
-                                    </span>
-                                </span>
-                                                    </span>
-
-                        
-                                                    
-                            
-                            
-                                                                                                <span wire:key="paginator-page-1-page1">
-                                                                                    <span aria-current="page">
-                                                <span class="relative -ml-px inline-flex cursor-default select-none items-center border border-gray-300 bg-white px-3 py-2 md:px-4 md:py-2 text-sm font-medium leading-5 text-gray-500">1</span>
-                                            </span>
-                                                                            </span>
-                                                                    <span wire:key="paginator-page-1-page2">
-                                                                                    <a href="{{ url('/') }}/stock-video-footage/?page=2" wire:click.prevent="gotoPage(2, &#39;page&#39;)" class="focus:shadow-outline-blue relative -ml-px inline-flex items-center border border-gray-300 bg-white px-3 py-2 md:px-4 md:py-2 text-sm font-medium leading-5 text-gray-700 transition duration-150 ease-in-out hover:text-gray-500 focus:z-10 focus:border-blue-300 focus:outline-none active:bg-gray-100 active:text-gray-700" aria-label="Go to page 2">
-                                                2
-                                            </a>
-                                                                            </span>
-                                                                    <span wire:key="paginator-page-1-page3">
-                                                                                    <a href="{{ url('/') }}/stock-video-footage/?page=3" wire:click.prevent="gotoPage(3, &#39;page&#39;)" class="focus:shadow-outline-blue relative -ml-px inline-flex items-center border border-gray-300 bg-white px-3 py-2 md:px-4 md:py-2 text-sm font-medium leading-5 text-gray-700 transition duration-150 ease-in-out hover:text-gray-500 focus:z-10 focus:border-blue-300 focus:outline-none active:bg-gray-100 active:text-gray-700" aria-label="Go to page 3">
-                                                3
-                                            </a>
-                                                                            </span>
-                                                                    <span wire:key="paginator-page-1-page4">
-                                                                                    <a href="{{ url('/') }}/stock-video-footage/?page=4" wire:click.prevent="gotoPage(4, &#39;page&#39;)" class="focus:shadow-outline-blue relative -ml-px inline-flex items-center border border-gray-300 bg-white px-3 py-2 md:px-4 md:py-2 text-sm font-medium leading-5 text-gray-700 transition duration-150 ease-in-out hover:text-gray-500 focus:z-10 focus:border-blue-300 focus:outline-none active:bg-gray-100 active:text-gray-700" aria-label="Go to page 4">
-                                                4
-                                            </a>
-                                                                            </span>
-                                                                    <span wire:key="paginator-page-1-page5">
-                                                                                    <a href="{{ url('/') }}/stock-video-footage/?page=5" wire:click.prevent="gotoPage(5, &#39;page&#39;)" class="focus:shadow-outline-blue relative -ml-px inline-flex items-center border border-gray-300 bg-white px-3 py-2 md:px-4 md:py-2 text-sm font-medium leading-5 text-gray-700 transition duration-150 ease-in-out hover:text-gray-500 focus:z-10 focus:border-blue-300 focus:outline-none active:bg-gray-100 active:text-gray-700" aria-label="Go to page 5">
-                                                5
-                                            </a>
-                                                                            </span>
-                                                                    <span wire:key="paginator-page-1-page6">
-                                                                                    <a href="{{ url('/') }}/stock-video-footage/?page=6" wire:click.prevent="gotoPage(6, &#39;page&#39;)" class="focus:shadow-outline-blue relative -ml-px inline-flex items-center border border-gray-300 bg-white px-3 py-2 md:px-4 md:py-2 text-sm font-medium leading-5 text-gray-700 transition duration-150 ease-in-out hover:text-gray-500 focus:z-10 focus:border-blue-300 focus:outline-none active:bg-gray-100 active:text-gray-700" aria-label="Go to page 6">
-                                                6
-                                            </a>
-                                                                            </span>
-                                                                    <span wire:key="paginator-page-1-page7">
-                                                                                    <a href="{{ url('/') }}/stock-video-footage/?page=7" wire:click.prevent="gotoPage(7, &#39;page&#39;)" class="focus:shadow-outline-blue relative -ml-px inline-flex items-center border border-gray-300 bg-white px-3 py-2 md:px-4 md:py-2 text-sm font-medium leading-5 text-gray-700 transition duration-150 ease-in-out hover:text-gray-500 focus:z-10 focus:border-blue-300 focus:outline-none active:bg-gray-100 active:text-gray-700" aria-label="Go to page 7">
-                                                7
-                                            </a>
-                                                                            </span>
-                                                                    <span wire:key="paginator-page-1-page8">
-                                                                                    <a href="{{ url('/') }}/stock-video-footage/?page=8" wire:click.prevent="gotoPage(8, &#39;page&#39;)" class="focus:shadow-outline-blue relative -ml-px inline-flex items-center border border-gray-300 bg-white px-3 py-2 md:px-4 md:py-2 text-sm font-medium leading-5 text-gray-700 transition duration-150 ease-in-out hover:text-gray-500 focus:z-10 focus:border-blue-300 focus:outline-none active:bg-gray-100 active:text-gray-700" aria-label="Go to page 8">
-                                                8
-                                            </a>
-                                                                            </span>
-                                                                    <span wire:key="paginator-page-1-page9">
-                                                                                    <a href="{{ url('/') }}/stock-video-footage/?page=9" wire:click.prevent="gotoPage(9, &#39;page&#39;)" class="focus:shadow-outline-blue relative -ml-px inline-flex items-center border border-gray-300 bg-white px-3 py-2 md:px-4 md:py-2 text-sm font-medium leading-5 text-gray-700 transition duration-150 ease-in-out hover:text-gray-500 focus:z-10 focus:border-blue-300 focus:outline-none active:bg-gray-100 active:text-gray-700" aria-label="Go to page 9">
-                                                9
-                                            </a>
-                                                                            </span>
-                                                                    <span wire:key="paginator-page-1-page10">
-                                                                                    <a href="{{ url('/') }}/stock-video-footage/?page=10" wire:click.prevent="gotoPage(10, &#39;page&#39;)" class="focus:shadow-outline-blue relative -ml-px inline-flex items-center border border-gray-300 bg-white px-3 py-2 md:px-4 md:py-2 text-sm font-medium leading-5 text-gray-700 transition duration-150 ease-in-out hover:text-gray-500 focus:z-10 focus:border-blue-300 focus:outline-none active:bg-gray-100 active:text-gray-700" aria-label="Go to page 10">
-                                                10
-                                            </a>
-                                                                            </span>
-                                                                                                                
-                                                            <span aria-disabled="true">
-                                    <span class="relative -ml-px inline-flex cursor-default select-none items-center border border-gray-300 bg-white px-3 py-2 md:px-4 md:py-2 text-sm font-medium leading-5 text-gray-700">...</span>
-                                </span>
-                            
-                            
-                                                                                
-                            
-                            
-                                                                                                <span wire:key="paginator-page-1-page20697">
-                                                                                    <a href="{{ url('/') }}/stock-video-footage/?page=20697" wire:click.prevent="gotoPage(20697, &#39;page&#39;)" class="focus:shadow-outline-blue relative -ml-px inline-flex items-center border border-gray-300 bg-white px-3 py-2 md:px-4 md:py-2 text-sm font-medium leading-5 text-gray-700 transition duration-150 ease-in-out hover:text-gray-500 focus:z-10 focus:border-blue-300 focus:outline-none active:bg-gray-100 active:text-gray-700" aria-label="Go to page 20697">
-                                                20697
-                                            </a>
-                                                                            </span>
-                                                                    <span wire:key="paginator-page-1-page20698">
-                                                                                    <a href="{{ url('/') }}/stock-video-footage/?page=20698" wire:click.prevent="gotoPage(20698, &#39;page&#39;)" class="focus:shadow-outline-blue relative -ml-px inline-flex items-center border border-gray-300 bg-white px-3 py-2 md:px-4 md:py-2 text-sm font-medium leading-5 text-gray-700 transition duration-150 ease-in-out hover:text-gray-500 focus:z-10 focus:border-blue-300 focus:outline-none active:bg-gray-100 active:text-gray-700" aria-label="Go to page 20698">
-                                                20698
-                                            </a>
-                                                                            </span>
-                                                                                    
-                        <span>
-                            
-                                                            <a href="{{ url('/') }}/stock-video-footage/?page=2" wire:click.prevent="nextPage(&#39;page&#39;)" dusk="nextPage.after" rel="next" class="focus:shadow-outline-blue relative -ml-px inline-flex items-center rounded-r-md border border-gray-300 bg-white px-2 py-2 text-sm font-medium leading-5 text-gray-500 transition duration-150 ease-in-out hover:text-gray-400 focus:z-10 focus:border-blue-300 focus:outline-none active:bg-gray-100 active:text-gray-500" aria-label="Next &amp;raquo;">
-                                    <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20">
-                                        <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path>
-                                    </svg>
-                                </a>
-                                                    </span>
-                    </span>
-                </div>
-            </div>
+        
         </nav>
     </div>
 

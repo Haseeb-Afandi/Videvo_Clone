@@ -405,7 +405,7 @@
         $(document).ready(() => {
     
             $.ajax({
-            url: '{{ url('/') }}/Api/Video',
+            url: '{{ url('/') }}/Api/Video{{$tag}}',
             method: 'GET',
             contentType: false,
             cache: false,

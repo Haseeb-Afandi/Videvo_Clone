@@ -54,20 +54,21 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="description" content="Download royalty free music and background stock audio files with MP3 and WAV clips available from Videvo. Click here to download today.">
 
 <meta property="og:type" content="article">
-<meta property="og:url" content="http://127.0.0.1:8000/royalty-free-music/">
+<meta name="csrf-token" content="{{ csrf_token() }}" />
+<meta property="og:url" content="{{ url('/') }}/Audio/">
 <meta property="og:title" content="Royalty Free Music Download">
         <meta property="og:description" content="Download royalty free music and background stock audio files with MP3 and WAV clips available from Videvo. Click here to download today.">
     <meta property="og:site_name" content="Free Stock Footage - Videvo.net">
-<meta property="og:image" content="http://127.0.0.1:8000/images/og-image.png">
+<meta property="og:image" content="{{ url('/') }}/images/og-image.png">
 
-<link rel="alternate" hreflang="x-default" href="http://127.0.0.1:8000/royalty-free-music/">
-<link rel="alternate" hreflang="en" href="http://127.0.0.1:8000/royalty-free-music/">
-<link rel="alternate" hreflang="es" href="http://127.0.0.1:8000/es/musica-libre-de-derechos/">
-<link rel="alternate" hreflang="de" href="http://127.0.0.1:8000/de/lizenzfreie-musik/">
+<link rel="alternate" hreflang="x-default" href="{{ url('/') }}/Audio/">
+<link rel="alternate" hreflang="en" href="{{ url('/') }}/Audio/">
+<link rel="alternate" hreflang="es" href="{{ url('/') }}/es/musica-libre-de-derechos/">
+<link rel="alternate" hreflang="de" href="{{ url('/') }}/de/lizenzfreie-musik/">
 
-<link rel="next" href="http://127.0.0.1:8000/royalty-free-music/?page=2">
+<link rel="next" href="{{ url('/') }}/Audio/?page=2">
 
-<link rel="canonical" href="http://127.0.0.1:8000/royalty-free-music/">
+<link rel="canonical" href="{{ url('/') }}/Audio/">
 
 <!-- end SEO -->
 
@@ -319,7 +320,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="overflow-hidden mx-auto relative swiper-genres mb-8 swiper-initialized swiper-horizontal swiper-pointer-events" type="genres">
         <div class="swiper-wrapper relative flex" style="transform: translate3d(0px, 0px, 0px);">
             <div class="swiper-slide h-full w-1/4 shrink-0 swiper-slide-active" style="width: 163.25px; margin-right: 10px;">
-                            <a href="http://127.0.0.1:8000/royalty-free-music/blues/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
+                            <a href="{{ url('/') }}/Audio/blues/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
     <div class="absolute inset-0 z-10 flex items-center justify-center bg-black/80">
         <img src="{{ url('/') }}/assets/Blues-182.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
         <p class="capitalize relative z-20 font-bold text-white text-center">Blues</p>
@@ -327,7 +328,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </a>
                         </div>
                                                                                 <div class="swiper-slide h-full w-1/4 shrink-0 swiper-slide-next" style="width: 163.25px; margin-right: 10px;">
-                            <a href="http://127.0.0.1:8000/royalty-free-music/children/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
+                            <a href="{{ url('/') }}/Audio/children/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
     <div class="absolute inset-0 z-10 flex items-center justify-center bg-black/80">
         <img src="{{ url('/') }}/assets/Children-183.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
         <p class="capitalize relative z-20 font-bold text-white text-center">children</p>
@@ -335,7 +336,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </a>
                         </div>
                                                                                 <div class="swiper-slide h-full w-1/4 shrink-0" style="width: 163.25px; margin-right: 10px;">
-                            <a href="http://127.0.0.1:8000/royalty-free-music/classic-tv-&amp;-film-music/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
+                            <a href="{{ url('/') }}/Audio/classic-tv-&amp;-film-music/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
     <div class="absolute inset-0 z-10 flex items-center justify-center bg-black/80">
         <img src="{{ url('/') }}/assets/Classic TV &amp; Film Music-184.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
         <p class="capitalize relative z-20 font-bold text-white text-center">Classic TV &amp; Film</p>
@@ -343,7 +344,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </a>
                         </div>
                                                                                 <div class="swiper-slide h-full w-1/4 shrink-0" style="width: 163.25px; margin-right: 10px;">
-                            <a href="http://127.0.0.1:8000/royalty-free-music/classical/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
+                            <a href="{{ url('/') }}/Audio/classical/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
     <div class="absolute inset-0 z-10 flex items-center justify-center bg-black/80">
         <img src="{{ url('/') }}/assets/classical-185.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
         <p class="capitalize relative z-20 font-bold text-white text-center">classical</p>
@@ -351,7 +352,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </a>
                         </div>
                                                                                 <div class="swiper-slide h-full w-1/4 shrink-0" style="width: 163.25px; margin-right: 10px;">
-                            <a href="http://127.0.0.1:8000/royalty-free-music/comedy/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
+                            <a href="{{ url('/') }}/Audio/comedy/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
     <div class="absolute inset-0 z-10 flex items-center justify-center bg-black/80">
         <img src="{{ url('/') }}/assets/Comedy &amp; Cartoon-186.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
         <p class="capitalize relative z-20 font-bold text-white text-center">Comedy</p>
@@ -359,7 +360,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </a>
                         </div>
                                                                                                                     <div class="swiper-slide h-full w-1/4 shrink-0" style="width: 163.25px; margin-right: 10px;">
-                            <a href="http://127.0.0.1:8000/royalty-free-music/country/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
+                            <a href="{{ url('/') }}/Audio/country/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
     <div class="absolute inset-0 z-10 flex items-center justify-center bg-black/80">
         <img src="{{ url('/') }}/assets/Country-188.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
         <p class="capitalize relative z-20 font-bold text-white text-center">Country</p>
@@ -367,7 +368,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </a>
                         </div>
                                                                                                                                                         <div class="swiper-slide h-full w-1/4 shrink-0" style="width: 163.25px; margin-right: 10px;">
-                            <a href="http://127.0.0.1:8000/royalty-free-music/drama-&amp;-film-scores/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
+                            <a href="{{ url('/') }}/Audio/drama-&amp;-film-scores/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
     <div class="absolute inset-0 z-10 flex items-center justify-center bg-black/80">
         <img src="{{ url('/') }}/assets/Drama &amp; Film Scores-191.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
         <p class="capitalize relative z-20 font-bold text-white text-center">Drama &amp; Film Scores</p>
@@ -375,7 +376,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </a>
                         </div>
                                                                                 <div class="swiper-slide h-full w-1/4 shrink-0" style="width: 163.25px; margin-right: 10px;">
-                            <a href="http://127.0.0.1:8000/royalty-free-music/easy-listening/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
+                            <a href="{{ url('/') }}/Audio/easy-listening/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
     <div class="absolute inset-0 z-10 flex items-center justify-center bg-black/80">
         <img src="{{ url('/') }}/assets/Easy Listening-192_1606163777.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
         <p class="capitalize relative z-20 font-bold text-white text-center">Easy Listening</p>
@@ -383,7 +384,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </a>
                         </div>
                                                                                                                     <div class="swiper-slide h-full w-1/4 shrink-0" style="width: 163.25px; margin-right: 10px;">
-                            <a href="http://127.0.0.1:8000/royalty-free-music/jazz/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
+                            <a href="{{ url('/') }}/Audio/jazz/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
     <div class="absolute inset-0 z-10 flex items-center justify-center bg-black/80">
         <img src="{{ url('/') }}/assets/Jazz-194.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
         <p class="capitalize relative z-20 font-bold text-white text-center">Jazz</p>
@@ -391,7 +392,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </a>
                         </div>
                                                                                                                     <div class="swiper-slide h-full w-1/4 shrink-0" style="width: 163.25px; margin-right: 10px;">
-                            <a href="http://127.0.0.1:8000/royalty-free-music/new-age/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
+                            <a href="{{ url('/') }}/Audio/new-age/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
     <div class="absolute inset-0 z-10 flex items-center justify-center bg-black/80">
         <img src="{{ url('/') }}/assets/New Age-196.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
         <p class="capitalize relative z-20 font-bold text-white text-center">new age</p>
@@ -399,7 +400,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </a>
                         </div>
                                                                                 <div class="swiper-slide h-full w-1/4 shrink-0" style="width: 163.25px; margin-right: 10px;">
-                            <a href="http://127.0.0.1:8000/royalty-free-music/military/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
+                            <a href="{{ url('/') }}/Audio/military/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
     <div class="absolute inset-0 z-10 flex items-center justify-center bg-black/80">
         <img src="{{ url('/') }}/assets/Patriotic &amp; Military-198_1606164006.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
         <p class="capitalize relative z-20 font-bold text-white text-center">military</p>
@@ -407,7 +408,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </a>
                         </div>
                                                                                 <div class="swiper-slide h-full w-1/4 shrink-0" style="width: 163.25px; margin-right: 10px;">
-                            <a href="http://127.0.0.1:8000/royalty-free-music/retro-rock/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
+                            <a href="{{ url('/') }}/Audio/retro-rock/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
     <div class="absolute inset-0 z-10 flex items-center justify-center bg-black/80">
         <img src="{{ url('/') }}/assets/Retro Rock-199_1606164110.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
         <p class="capitalize relative z-20 font-bold text-white text-center">retro rock</p>
@@ -415,7 +416,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </a>
                         </div>
                                                                                 <div class="swiper-slide h-full w-1/4 shrink-0" style="width: 163.25px; margin-right: 10px;">
-                            <a href="http://127.0.0.1:8000/royalty-free-music/rock/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
+                            <a href="{{ url('/') }}/Audio/rock/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
     <div class="absolute inset-0 z-10 flex items-center justify-center bg-black/80">
         <img src="{{ url('/') }}/assets/Rock-200.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
         <p class="capitalize relative z-20 font-bold text-white text-center">Rock</p>
@@ -423,7 +424,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </a>
                         </div>
                                                                                 <div class="swiper-slide h-full w-1/4 shrink-0" style="width: 163.25px; margin-right: 10px;">
-                            <a href="http://127.0.0.1:8000/royalty-free-music/romantic/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
+                            <a href="{{ url('/') }}/Audio/romantic/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
     <div class="absolute inset-0 z-10 flex items-center justify-center bg-black/80">
         <img src="{{ url('/') }}/assets/Romantic-201.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
         <p class="capitalize relative z-20 font-bold text-white text-center">romantic</p>
@@ -431,7 +432,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </a>
                         </div>
                                                                                                                     <div class="swiper-slide h-full w-1/4 shrink-0" style="width: 163.25px; margin-right: 10px;">
-                            <a href="http://127.0.0.1:8000/royalty-free-music/solo-instrument/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
+                            <a href="{{ url('/') }}/Audio/solo-instrument/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
     <div class="absolute inset-0 z-10 flex items-center justify-center bg-black/80">
         <img src="{{ url('/') }}/assets/-203_1614787776.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
         <p class="capitalize relative z-20 font-bold text-white text-center">solo instrument</p>
@@ -439,7 +440,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </a>
                         </div>
                                                                                 <div class="swiper-slide h-full w-1/4 shrink-0" style="width: 163.25px; margin-right: 10px;">
-                            <a href="http://127.0.0.1:8000/royalty-free-music/sports/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
+                            <a href="{{ url('/') }}/Audio/sports/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
     <div class="absolute inset-0 z-10 flex items-center justify-center bg-black/80">
         <img src="{{ url('/') }}/assets/Sports-204.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
         <p class="capitalize relative z-20 font-bold text-white text-center">sports</p>
@@ -447,7 +448,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </a>
                         </div>
                                                                                                                     <div class="swiper-slide h-full w-1/4 shrink-0" style="width: 163.25px; margin-right: 10px;">
-                            <a href="http://127.0.0.1:8000/royalty-free-music/wedding/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
+                            <a href="{{ url('/') }}/Audio/wedding/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
     <div class="absolute inset-0 z-10 flex items-center justify-center bg-black/80">
         <img src="{{ url('/') }}/assets/-206_1614787741.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
         <p class="capitalize relative z-20 font-bold text-white text-center">Wedding</p>
@@ -455,7 +456,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </a>
                         </div>
                                                                                 <div class="swiper-slide h-full w-1/4 shrink-0" style="width: 163.25px; margin-right: 10px;">
-                            <a href="http://127.0.0.1:8000/royalty-free-music/world-music/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
+                            <a href="{{ url('/') }}/Audio/world-music/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
     <div class="absolute inset-0 z-10 flex items-center justify-center bg-black/80">
         <img src="{{ url('/') }}/assets/-207_1614787793.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
         <p class="capitalize relative z-20 font-bold text-white text-center">world music</p>
@@ -463,7 +464,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </a>
                         </div>
                                                                                 <div class="swiper-slide h-full w-1/4 shrink-0" style="width: 163.25px; margin-right: 10px;">
-                            <a href="http://127.0.0.1:8000/royalty-free-music/worship/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
+                            <a href="{{ url('/') }}/Audio/worship/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
     <div class="absolute inset-0 z-10 flex items-center justify-center bg-black/80">
         <img src="{{ url('/') }}/assets/-208_1614787813.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
         <p class="capitalize relative z-20 font-bold text-white text-center">worship</p>
@@ -471,7 +472,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </a>
                         </div>
                                                                                 <div class="swiper-slide h-full w-1/4 shrink-0" style="width: 163.25px; margin-right: 10px;">
-                            <a href="http://127.0.0.1:8000/royalty-free-music/xtreme-rock/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
+                            <a href="{{ url('/') }}/Audio/xtreme-rock/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
     <div class="absolute inset-0 z-10 flex items-center justify-center bg-black/80">
         <img src="{{ url('/') }}/assets/-209_1614787759.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
         <p class="capitalize relative z-20 font-bold text-white text-center">xtreme rock</p>
@@ -503,7 +504,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="overflow-hidden mx-auto relative swiper-moods swiper-initialized swiper-horizontal swiper-pointer-events" type="moods">
         <div class="swiper-wrapper relative flex" style="transform: translate3d(0px, 0px, 0px);">
             <div class="swiper-slide h-full w-1/4 shrink-0 swiper-slide-active" style="width: 163.25px; margin-right: 10px;">
-                            <a href="http://127.0.0.1:8000/royalty-free-music/mood/happy/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
+                            <a href="{{ url('/') }}/Audio/happy/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
     <div class="absolute inset-0 z-10 flex items-center justify-center bg-black/80">
         <img src="{{ url('/') }}/assets/Happy-2_1606348751.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
         <p class="capitalize relative z-20 font-bold text-white text-center">Happy</p>
@@ -511,7 +512,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </a>
                         </div>
                                                                                 <div class="swiper-slide h-full w-1/4 shrink-0 swiper-slide-next" style="width: 163.25px; margin-right: 10px;">
-                            <a href="http://127.0.0.1:8000/royalty-free-music/mood/confident/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
+                            <a href="{{ url('/') }}/Audio/confident/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
     <div class="absolute inset-0 z-10 flex items-center justify-center bg-black/80">
         <img src="{{ url('/') }}/assets/confident-3.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
         <p class="capitalize relative z-20 font-bold text-white text-center">Confident</p>
@@ -519,7 +520,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </a>
                         </div>
                                                                                 <div class="swiper-slide h-full w-1/4 shrink-0" style="width: 163.25px; margin-right: 10px;">
-                            <a href="http://127.0.0.1:8000/royalty-free-music/mood/optimistic/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
+                            <a href="{{ url('/') }}/Audio/optimistic/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
     <div class="absolute inset-0 z-10 flex items-center justify-center bg-black/80">
         <img src="{{ url('/') }}/assets/Optimistic-4.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
         <p class="capitalize relative z-20 font-bold text-white text-center">Optimistic</p>
@@ -527,7 +528,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </a>
                         </div>
                                                                                 <div class="swiper-slide h-full w-1/4 shrink-0" style="width: 163.25px; margin-right: 10px;">
-                            <a href="http://127.0.0.1:8000/royalty-free-music/mood/determined/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
+                            <a href="{{ url('/') }}/Audio/determined/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
     <div class="absolute inset-0 z-10 flex items-center justify-center bg-black/80">
         <img src="{{ url('/') }}/assets/determined-5.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
         <p class="capitalize relative z-20 font-bold text-white text-center">Determined</p>
@@ -535,7 +536,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </a>
                         </div>
                                                                                                                     <div class="swiper-slide h-full w-1/4 shrink-0" style="width: 163.25px; margin-right: 10px;">
-                            <a href="http://127.0.0.1:8000/royalty-free-music/mood/tender/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
+                            <a href="{{ url('/') }}/Audio/tender/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
     <div class="absolute inset-0 z-10 flex items-center justify-center bg-black/80">
         <img src="{{ url('/') }}/assets/Tender-7.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
         <p class="capitalize relative z-20 font-bold text-white text-center">Tender</p>
@@ -543,7 +544,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </a>
                         </div>
                                                                                                                                                                                             <div class="swiper-slide h-full w-1/4 shrink-0" style="width: 163.25px; margin-right: 10px;">
-                            <a href="http://127.0.0.1:8000/royalty-free-music/mood/affectionate/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
+                            <a href="{{ url('/') }}/Audio/affectionate/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
     <div class="absolute inset-0 z-10 flex items-center justify-center bg-black/80">
         <img src="{{ url('/') }}/assets/Affectionate-11.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
         <p class="capitalize relative z-20 font-bold text-white text-center">Affectionate</p>
@@ -551,7 +552,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </a>
                         </div>
                                                                                 <div class="swiper-slide h-full w-1/4 shrink-0" style="width: 163.25px; margin-right: 10px;">
-                            <a href="http://127.0.0.1:8000/royalty-free-music/mood/relaxed/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
+                            <a href="{{ url('/') }}/Audio/relaxed/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
     <div class="absolute inset-0 z-10 flex items-center justify-center bg-black/80">
         <img src="{{ url('/') }}/assets/Relaxed-12.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
         <p class="capitalize relative z-20 font-bold text-white text-center">Relaxed</p>
@@ -559,7 +560,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </a>
                         </div>
                                                                                                                     <div class="swiper-slide h-full w-1/4 shrink-0" style="width: 163.25px; margin-right: 10px;">
-                            <a href="http://127.0.0.1:8000/royalty-free-music/mood/ambitious/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
+                            <a href="{{ url('/') }}/Audio/ambitious/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
     <div class="absolute inset-0 z-10 flex items-center justify-center bg-black/80">
         <img src="{{ url('/') }}/assets/-14_1615470647.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
         <p class="capitalize relative z-20 font-bold text-white text-center">Ambitious</p>
@@ -567,7 +568,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </a>
                         </div>
                                                                                 <div class="swiper-slide h-full w-1/4 shrink-0" style="width: 163.25px; margin-right: 10px;">
-                            <a href="http://127.0.0.1:8000/royalty-free-music/mood/playful/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
+                            <a href="{{ url('/') }}/Audio/playful/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
     <div class="absolute inset-0 z-10 flex items-center justify-center bg-black/80">
         <img src="{{ url('/') }}/assets/Playful-15.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
         <p class="capitalize relative z-20 font-bold text-white text-center">Playful</p>
@@ -575,7 +576,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </a>
                         </div>
                                                                                 <div class="swiper-slide h-full w-1/4 shrink-0" style="width: 163.25px; margin-right: 10px;">
-                            <a href="http://127.0.0.1:8000/royalty-free-music/mood/excited/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
+                            <a href="{{ url('/') }}/Audio/excited/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
     <div class="absolute inset-0 z-10 flex items-center justify-center bg-black/80">
         <img src="{{ url('/') }}/assets/-16_1615470710.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
         <p class="capitalize relative z-20 font-bold text-white text-center">Excited</p>
@@ -583,7 +584,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </a>
                         </div>
                                                                                                                     <div class="swiper-slide h-full w-1/4 shrink-0" style="width: 163.25px; margin-right: 10px;">
-                            <a href="http://127.0.0.1:8000/royalty-free-music/mood/eerie/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
+                            <a href="{{ url('/') }}/Audio/eerie/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
     <div class="absolute inset-0 z-10 flex items-center justify-center bg-black/80">
         <img src="{{ url('/') }}/assets/-18_1615470986.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
         <p class="capitalize relative z-20 font-bold text-white text-center">Eerie</p>
@@ -591,7 +592,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </a>
                         </div>
                                                                                 <div class="swiper-slide h-full w-1/4 shrink-0" style="width: 163.25px; margin-right: 10px;">
-                            <a href="http://127.0.0.1:8000/royalty-free-music/mood/intense/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
+                            <a href="{{ url('/') }}/Audio/intense/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
     <div class="absolute inset-0 z-10 flex items-center justify-center bg-black/80">
         <img src="{{ url('/') }}/assets/-19_1615470794.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
         <p class="capitalize relative z-20 font-bold text-white text-center">Intense</p>
@@ -599,7 +600,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </a>
                         </div>
                                                                                                                                                         <div class="swiper-slide h-full w-1/4 shrink-0" style="width: 163.25px; margin-right: 10px;">
-                            <a href="http://127.0.0.1:8000/royalty-free-music/mood/suspense/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
+                            <a href="{{ url('/') }}/Audio/suspense/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
     <div class="absolute inset-0 z-10 flex items-center justify-center bg-black/80">
         <img src="{{ url('/') }}/assets/Suspense-22_1606224795.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
         <p class="capitalize relative z-20 font-bold text-white text-center">Suspense</p>
@@ -607,7 +608,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </a>
                         </div>
                                                                                                                                                                                                                                                                     <div class="swiper-slide h-full w-1/4 shrink-0" style="width: 163.25px; margin-right: 10px;">
-                            <a href="http://127.0.0.1:8000/royalty-free-music/mood/brave/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
+                            <a href="{{ url('/') }}/Audio/brave/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
     <div class="absolute inset-0 z-10 flex items-center justify-center bg-black/80">
         <img src="{{ url('/') }}/assets/-28_1615470661.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
         <p class="capitalize relative z-20 font-bold text-white text-center">Brave</p>
@@ -615,7 +616,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </a>
                         </div>
                                                                                 <div class="swiper-slide h-full w-1/4 shrink-0" style="width: 163.25px; margin-right: 10px;">
-                            <a href="http://127.0.0.1:8000/royalty-free-music/mood/strong/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
+                            <a href="{{ url('/') }}/Audio/strong/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
     <div class="absolute inset-0 z-10 flex items-center justify-center bg-black/80">
         <img src="{{ url('/') }}/assets/Strong-29.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
         <p class="capitalize relative z-20 font-bold text-white text-center">Strong</p>
@@ -623,7 +624,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </a>
                         </div>
                                                                                 <div class="swiper-slide h-full w-1/4 shrink-0" style="width: 163.25px; margin-right: 10px;">
-                            <a href="http://127.0.0.1:8000/royalty-free-music/mood/proud/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
+                            <a href="{{ url('/') }}/Audio/proud/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
     <div class="absolute inset-0 z-10 flex items-center justify-center bg-black/80">
         <img src="{{ url('/') }}/assets/Proud-30.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
         <p class="capitalize relative z-20 font-bold text-white text-center">Proud</p>
@@ -631,7 +632,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </a>
                         </div>
                                                                                                                                                         <div class="swiper-slide h-full w-1/4 shrink-0" style="width: 163.25px; margin-right: 10px;">
-                            <a href="http://127.0.0.1:8000/royalty-free-music/mood/nostalgic/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
+                            <a href="{{ url('/') }}/Audio/nostalgic/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
     <div class="absolute inset-0 z-10 flex items-center justify-center bg-black/80">
         <img src="{{ url('/') }}/assets/Nostalgic-33_1606224702.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
         <p class="capitalize relative z-20 font-bold text-white text-center">Nostalgic</p>
@@ -639,7 +640,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </a>
                         </div>
                                                                                                                     <div class="swiper-slide h-full w-1/4 shrink-0" style="width: 163.25px; margin-right: 10px;">
-                            <a href="http://127.0.0.1:8000/royalty-free-music/mood/joyous/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
+                            <a href="{{ url('/') }}/Audio/joyous/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
     <div class="absolute inset-0 z-10 flex items-center justify-center bg-black/80">
         <img src="{{ url('/') }}/assets/Joyous-35_1606224644.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
         <p class="capitalize relative z-20 font-bold text-white text-center">Joyous</p>
@@ -647,7 +648,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </a>
                         </div>
                                                                                                                     <div class="swiper-slide h-full w-1/4 shrink-0" style="width: 163.25px; margin-right: 10px;">
-                            <a href="http://127.0.0.1:8000/royalty-free-music/mood/funny/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
+                            <a href="{{ url('/') }}/Audio/funny/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
     <div class="absolute inset-0 z-10 flex items-center justify-center bg-black/80">
         <img src="{{ url('/') }}/assets/-37_1615470730.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
         <p class="capitalize relative z-20 font-bold text-white text-center">Funny</p>
@@ -655,7 +656,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </a>
                         </div>
                                                                                 <div class="swiper-slide h-full w-1/4 shrink-0" style="width: 163.25px; margin-right: 10px;">
-                            <a href="http://127.0.0.1:8000/royalty-free-music/mood/action/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
+                            <a href="{{ url('/') }}/Audio/action/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
     <div class="absolute inset-0 z-10 flex items-center justify-center bg-black/80">
         <img src="{{ url('/') }}/assets/Action-38.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
         <p class="capitalize relative z-20 font-bold text-white text-center">Action</p>
@@ -663,7 +664,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </a>
                         </div>
                                                                                 <div class="swiper-slide h-full w-1/4 shrink-0" style="width: 163.25px; margin-right: 10px;">
-                            <a href="http://127.0.0.1:8000/royalty-free-music/mood/aggressive/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
+                            <a href="{{ url('/') }}/Audio/aggressive/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
     <div class="absolute inset-0 z-10 flex items-center justify-center bg-black/80">
         <img src="{{ url('/') }}/assets/-39_1615470614.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
         <p class="capitalize relative z-20 font-bold text-white text-center">Aggressive</p>
@@ -671,7 +672,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </a>
                         </div>
                                                                                                                                                         <div class="swiper-slide h-full w-1/4 shrink-0" style="width: 163.25px; margin-right: 10px;">
-                            <a href="http://127.0.0.1:8000/royalty-free-music/mood/tranquil/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
+                            <a href="{{ url('/') }}/Audio/tranquil/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
     <div class="absolute inset-0 z-10 flex items-center justify-center bg-black/80">
         <img src="{{ url('/') }}/assets/Tranquil-42_1606224826.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
         <p class="capitalize relative z-20 font-bold text-white text-center">Tranquil</p>
@@ -679,7 +680,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </a>
                         </div>
                                                                                                                                                         <div class="swiper-slide h-full w-1/4 shrink-0" style="width: 163.25px; margin-right: 10px;">
-                            <a href="http://127.0.0.1:8000/royalty-free-music/mood/inspiring/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
+                            <a href="{{ url('/') }}/Audio/inspiring/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
     <div class="absolute inset-0 z-10 flex items-center justify-center bg-black/80">
         <img src="{{ url('/') }}/assets/-45_1615470745.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
         <p class="capitalize relative z-20 font-bold text-white text-center">Inspiring</p>
@@ -687,7 +688,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </a>
                         </div>
                                                                                                                                                                                                                                                                     <div class="swiper-slide h-full w-1/4 shrink-0" style="width: 163.25px; margin-right: 10px;">
-                            <a href="http://127.0.0.1:8000/royalty-free-music/mood/sad/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
+                            <a href="{{ url('/') }}/Audio/sad/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
     <div class="absolute inset-0 z-10 flex items-center justify-center bg-black/80">
         <img src="{{ url('/') }}/assets/Sad-51_1606224766.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
         <p class="capitalize relative z-20 font-bold text-white text-center">Sad</p>
@@ -695,7 +696,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </a>
                         </div>
                                                                                 <div class="swiper-slide h-full w-1/4 shrink-0" style="width: 163.25px; margin-right: 10px;">
-                            <a href="http://127.0.0.1:8000/royalty-free-music/mood/mystery/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
+                            <a href="{{ url('/') }}/Audio/mystery/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
     <div class="absolute inset-0 z-10 flex items-center justify-center bg-black/80">
         <img src="{{ url('/') }}/assets/Mystery-52_1606224673.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
         <p class="capitalize relative z-20 font-bold text-white text-center">Mystery</p>
@@ -703,7 +704,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </a>
                         </div>
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 <div class="swiper-slide h-full w-1/4 shrink-0" style="width: 163.25px; margin-right: 10px;">
-                            <a href="http://127.0.0.1:8000/royalty-free-music/mood/epic/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
+                            <a href="{{ url('/') }}/Audio/epic/" class="group aspect-w-1 aspect-h-1 relative flex bg-black">
     <div class="absolute inset-0 z-10 flex items-center justify-center bg-black/80">
         <img src="{{ url('/') }}/assets/-69_1615470695.jpg" class="absolute inset-0 h-full w-full object-contain opacity-80 transition-opacity duration-300 hover:opacity-50">
         <p class="capitalize relative z-20 font-bold text-white text-center">Epic</p>
@@ -752,9 +753,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
             <!-- Load more -->
             <div class="flex justify-center mt-12 mb-12">
-                <a href="http://127.0.0.1:8000/royalty-free-music/sort/popular/" x-show="active === &#39;popular&#39;" class="hover:cursor-pointer bg-gray-150 font-semibold p-3 rounded-[30px] text-[#198ACF]">More Popular music</a>
-                <a href="http://127.0.0.1:8000/royalty-free-music/sort/newest/" x-show="active === &#39;newest&#39;" class="hover:cursor-pointer bg-gray-150 font-semibold p-3 rounded-[30px] text-[#198ACF]" style="display: none;">More Newest music</a>
-                <a href="http://127.0.0.1:8000/royalty-free-music/sort/random/" x-show="active === &#39;random&#39;" class="hover:cursor-pointer bg-gray-150 font-semibold p-3 rounded-[30px] text-[#198ACF]" style="display: none;">More Random music</a>
+                <a href="{{ url('/') }}/Audio/sort/popular/" x-show="active === &#39;popular&#39;" class="hover:cursor-pointer bg-gray-150 font-semibold p-3 rounded-[30px] text-[#198ACF]">More Popular music</a>
+                <a href="{{ url('/') }}/Audio/sort/newest/" x-show="active === &#39;newest&#39;" class="hover:cursor-pointer bg-gray-150 font-semibold p-3 rounded-[30px] text-[#198ACF]" style="display: none;">More Newest music</a>
+                <a href="{{ url('/') }}/Audio/sort/random/" x-show="active === &#39;random&#39;" class="hover:cursor-pointer bg-gray-150 font-semibold p-3 rounded-[30px] text-[#198ACF]" style="display: none;">More Random music</a>
             </div>
             <!-- / Load more -->
 
@@ -774,7 +775,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 $(document).ready(() => {
     
     $.ajax({
-    url: '{{ url('/') }}/Api/Audio',
+    url: '{{ url('/') }}/Api/Audio{{$tag}}',
     method: 'GET',
     contentType: false,
     cache: false,
@@ -803,8 +804,8 @@ $(document).ready(() => {
                 </audio>
             </button>
             <div class="flex min-w-0 max-w-[calc(100vw-104px)] flex-col lg:max-w-[280px]">
-                <a href="{{ url('/') }}/Audio/${vid.id}" class="mb-1 font-semibold leading-none text-gray-800 hover:underline overflow-hidden whitespace-nowrap text-ellipsis"> ${vid.title}</a>
-                                    <a href="{{ url('/') }}/Audio/${vid.id}" class="mb-1 text-sm font-bold leading-none text-gray-400 hover:text-gray-600 overflow-hidden whitespace-nowrap text-ellipsis">
+                <a href="{{ url('/') }}/AudioSingle/${vid.id}" class="mb-1 font-semibold leading-none text-gray-800 hover:underline overflow-hidden whitespace-nowrap text-ellipsis"> ${vid.title}</a>
+                                    <a href="{{ url('/') }}/AudioSingle/${vid.id}" class="mb-1 text-sm font-bold leading-none text-gray-400 hover:text-gray-600 overflow-hidden whitespace-nowrap text-ellipsis">
                         ${vid.description} 
                     </a>
                                 <p class="w-full truncate text-sm text-gray-600 overflow-hidden whitespace-nowrap text-ellipsis">
@@ -837,26 +838,26 @@ $(document).ready(() => {
             <span class="relative inline-flex" x-on:mouseover="showTooltip = true" x-on:mouseleave="showTooltip = false">
                 <button x-on:click="showInfo = ! showInfo">
                     <svg class="fill-current h-6 w-6 text-gray-700 hover:text-gray-900" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M2.34313 13.6569C3.85416 15.1678 5.86313 16 8 16C10.1369 16 12.1458 15.1678 13.6569 13.6569C15.1678 12.1458 16 10.1369 16 8C16 5.86313 15.1678 3.85416 13.6569 2.34313C12.1458 0.832156 10.1369 0 8 0C5.86313 0 3.85416 0.832156 2.34313 2.34313C0.832156 3.85416 0 5.86313 0 8C0 10.1369 0.832156 12.1458 2.34313 13.6569ZM1.5625 8C1.5625 4.45034 4.45034 1.5625 8 1.5625C11.5497 1.5625 14.4375 4.45034 14.4375 8C14.4375 11.5497 11.5497 14.4375 8 14.4375C4.45034 14.4375 1.5625 11.5497 1.5625 8ZM8.3125 12.5625C7.88103 12.5625 7.53125 12.2127 7.53125 11.7812V7.8125H6.75C6.31853 7.8125 5.96875 7.46272 5.96875 7.03125C5.96875 6.59978 6.31853 6.25 6.75 6.25H8.3125C8.74397 6.25 9.09375 6.59978 9.09375 7.03125V11.7812C9.09375 12.2127 8.74397 12.5625 8.3125 12.5625ZM7.0625 4.375C7.0625 4.89194 7.48306 5.3125 8 5.3125C8.51694 5.3125 8.9375 4.89194 8.9375 4.375C8.9375 3.85806 8.51694 3.4375 8 3.4375C7.48306 3.4375 7.0625 3.85806 7.0625 4.375Z"></path></svg>                </button>
-                <div x-show="showTooltip" class="tooltip max-md:!hidden" style="display: none;">
+                <div  class="tooltip max-md:!hidden" style="display: none;">
     More Info
 </div>
              </span>
 
             <div>
                 <div wire:id="A4GenXBHQUQkCHsEpMBO" class="flex relative z-40" x-data="{ isClipInAnyUserCollection: $wire.entangle(&#39;isClipInAnyUserCollection&#39;), mode: $wire.entangle(&#39;mode&#39;), showModal: $wire.entangle(&#39;showModal&#39;), hidden: $wire.entangle(&#39;hidden&#39;), showTooltip: false}">
-    <span class="relative inline-flex" x-on:mouseover="showTooltip = true" x-on:mouseleave="showTooltip = false">
+    <span class="relative inline-flex" x-on:mouseover="showTooltip = true" x-on:mouseleave="showTooltip = false" onclick="collection(${vid.id})">
         <button class="relative add-to-collection-button overflow-hidden" wire:click.stop.prevent="toggleModal()">
-            <svg x-bind:class="{&#39;text-white&#39;: mode == &#39;light&#39;, &#39;not-added&#39;: !isClipInAnyUserCollection, &#39;!translate-y-0&#39;: !hidden}" x-show="!isClipInAnyUserCollection" class="fill-current h-6 w-6 text-gray-700 outline-none translate-y-8 not-added !translate-y-0" xmlns="http://www.w3.org/2000/svg" fill="currentColor" stroke="none" viewBox="0 0 24 24"><path d="M20 2H8c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2V4c0-1.103-.897-2-2-2zM8 16V4h12l.002 12H8z"></path><path d="M4 8H2v12c0 1.103.897 2 2 2h12v-2H4V8zm11-2h-2v3h-3v2h3v3h2v-3h3V9h-3z"></path></svg>            <svg x-show="isClipInAnyUserCollection" class="fill-current h-6 w-6 text-[#198ACF] outline-none" xmlns="http://www.w3.org/2000/svg" fill="currentColor" stroke="none" viewBox="0 0 24 24" style="display: none;"><path d="M4 22h12v-2H4V8H2v12c0 1.103.897 2 2 2z"></path><path d="M20 2H8c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2V4c0-1.103-.897-2-2-2zm-2 9h-3v3h-2v-3h-3V9h3V6h2v3h3v2z"></path></svg>        </button>
-        <div x-show="showTooltip" class="tooltip max-md:!hidden" style="display: none;">
+            <svg class="fill-current h-6 w-6 text-gray-700 outline-none translate-y-8 not-added !translate-y-0" xmlns="http://www.w3.org/2000/svg" fill="currentColor" stroke="none" viewBox="0 0 24 24"><path d="M20 2H8c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2V4c0-1.103-.897-2-2-2zM8 16V4h12l.002 12H8z"></path><path d="M4 8H2v12c0 1.103.897 2 2 2h12v-2H4V8zm11-2h-2v3h-3v2h3v3h2v-3h3V9h-3z"></path></svg>            <svg x-show="isClipInAnyUserCollection" class="fill-current h-6 w-6 text-[#198ACF] outline-none" xmlns="http://www.w3.org/2000/svg" fill="currentColor" stroke="none" viewBox="0 0 24 24" style="display: none;"><path d="M4 22h12v-2H4V8H2v12c0 1.103.897 2 2 2z"></path><path d="M20 2H8c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2V4c0-1.103-.897-2-2-2zm-2 9h-3v3h-2v-3h-3V9h3V6h2v3h3v2z"></path></svg>        </button>
+        <div  class="tooltip max-md:!hidden" style="display: none;">
     Add to Collections
 </div>
      </span>
-    <div x-show="showModal" style="display: none;">
+    <div x-show="showModal" style="display: none;" id="collectionModal">
         <div class="modal-wrapper-add-to-collection flex flex-col items-center justify-center absolute bottom-0 right-[-15px] z-60 cursor-auto min-w-[300px] rounded-lg " style="transform: translateY(100%) translateY(10px);">
             <div class="flex flex-col bg-white fixed top-0 left-0 md:relative md:rounded-lg md:shadow-lg h-full md:h-auto p-4 w-full" @click.outside="showModal = false;">
                 <div class="flex justify-start relative md:justify-between items-center ">
                     <p class="text-lg font-bold text-[#2b2b2b]">Add to collection</p>
-                    <a href="http://127.0.0.1:8000/my-collections/" class="ml-4 md:ml-0 text-sm text-gray-500 hover:text-gray-700">Manage</a>
+                    <a href="{{ url('/') }}/my-collections/" class="ml-4 md:ml-0 text-sm text-gray-500 hover:text-gray-700">Manage</a>
                     <div class="w-10 h-10 flex items-center justify-center absolute top-0 right-0 md:hidden close-modal w-6 text-2xl text-gray-600 leading-4 font-bold text-right" @click.stop.prevent="showModal = false; window.clipActions?.closeAllModals();"></div>
                 </div>
                 <div class="flex justify-start w-full">
@@ -867,9 +868,12 @@ $(document).ready(() => {
     <path fill="#1B95E0" fill-rule="evenodd" d="M14 7c.552 0 1 .448 1 1v5h5c.552 0 1 .448 1 1s-.448 1-1 1h-5v5c0 .552-.448 1-1 1s-1-.448-1-1v-5H8c-.552 0-1-.448-1-1s.448-1 1-1h5V8c0-.552.448-1 1-1z"></path>
 </svg>        Create new collection
     </div>
-    <form x-show="showForm" class="flex space-between items-center border border-[#1b95e0] justify-items-stretch rounded-sm overflow-hidden h-full" wire:submit.prevent="addUserCollection" style="display: none;">
-        <input class="px-2 border-0 outline-0 h-full" placeholder="Add collection name" type="text" wire:model="collectionName">
-        <button type="submit" @click="window.clipActions?.closeAllModals(); showResponse = true; setTimeout(() =&gt; {showResponse = false; }, 3000); showForm = !showForm" class="h-full leading-10 bg-gray-100 text-blue-600 text-base font-bold text-center min-w-[60px]">Add</button>
+    <form method="post" action="{{ route('collection.post') }}" enctype="multipart/form-data" x-show="showForm" class="flex space-between items-center border border-[#1b95e0] justify-items-stretch rounded-sm overflow-hidden h-full" style="display: none;">
+        @csrf
+        <input class="px-2 border-0 outline-0 h-full" placeholder="Add collection name" type="text" wire:model="collectionName" name="name">
+        <input type="hidden" name="productID" value="${vid.id}">
+        <input type="hidden" name="product_type" value="audio">
+        <button type="submit" class="h-full leading-10 bg-gray-100 text-blue-600 text-base font-bold text-center min-w-[60px]">Add</button>
     </form>
 
 </div>
@@ -888,10 +892,10 @@ $(document).ready(() => {
 <!-- Livewire Component wire-end:A4GenXBHQUQkCHsEpMBO -->            </div>
             <div>
                 <div wire:id="oFjtSguUwnT9hP79I5xp" class="flex" x-data="{ isFavorite: $wire.entangle(&#39;isFavorite&#39;), mode: $wire.entangle(&#39;mode&#39;), hidden: $wire.entangle(&#39;hidden&#39;), showTooltip: false }">
-    <span class="relative inline-flex" x-on:mouseover="showTooltip = true" x-on:mouseleave="showTooltip = false">
+    <span class="relative inline-flex" x-on:mouseover="showTooltip = true" x-on:mouseleave="showTooltip = false" onclick="favorite(${vid.id})">
         <button class="text-gray-700 hover:text-gray-900 overflow-hidden toggle-favorite" wire:key="clip-221441" wire:click.stop.prevent="toggleFavorite();">
-            <svg x-bind:class="{&#39;text-white&#39;: mode == &#39;light&#39;, &#39;not-added&#39;: !isFavorite, &#39;!translate-y-0&#39;: !hidden}" x-show="!isFavorite" class="fill-current h-6 w-6 outline-none translate-y-8 not-added !translate-y-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" fill="none"><path d="M5.40956 2.51538C4.45258 1.76408 3.08107 1.83357 2.20944 2.72795C1.25976 3.7024 1.26439 5.28574 2.2182 6.26443L5.74895 9.8873C5.8954 10.0376 6.13284 10.0376 6.27929 9.8873L9.7917 6.28538C10.7392 5.30775 10.7362 3.72885 9.7822 2.74999C8.90375 1.84862 7.52809 1.77191 6.57265 2.52393C6.48883 2.58991 6.40825 2.66226 6.33151 2.74099L5.99605 3.08587L5.65599 2.73693C5.57761 2.65651 5.49525 2.58265 5.40956 2.51538ZM7.04767 3.43893C7.60289 2.86945 8.49943 2.86653 9.06605 3.44793C9.64336 4.04031 9.64309 5.00077 9.07454 5.58846L9.0736 5.58943L6.01425 8.72674L2.93435 5.56648C2.3556 4.97264 2.35777 4.00853 2.92559 3.42589C3.4791 2.85794 4.37486 2.85516 4.93984 3.43488L5.2799 3.78381C5.46824 3.97706 5.72669 4.086 5.99654 4.08587C6.26638 4.08574 6.52472 3.97655 6.71288 3.78312L7.04767 3.43893Z" fill="currentColor"></path></svg>            <svg x-show="isFavorite" class="fill-current h-6 w-6 text-red-700 outline-none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" fill="none" style="display: none;"><path d="M5.65599 2.73693C4.70219 1.75824 3.15912 1.75349 2.20944 2.72795C1.25976 3.7024 1.26439 5.28574 2.2182 6.26443L5.74895 9.8873C5.8954 10.0376 6.13284 10.0376 6.27929 9.8873L9.7917 6.28538C10.7392 5.30775 10.7362 3.72885 9.7822 2.74999C8.82669 1.76955 7.28289 1.76479 6.33151 2.74099L5.99605 3.08587L5.65599 2.73693Z" fill="currentColor"></path></svg>        </button>
-        <div x-show="showTooltip" class="tooltip max-md:!hidden" style="display: none;">
+            <svg class="fill-current h-6 w-6 outline-none translate-y-8 not-added !translate-y-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" fill="none"><path d="M5.40956 2.51538C4.45258 1.76408 3.08107 1.83357 2.20944 2.72795C1.25976 3.7024 1.26439 5.28574 2.2182 6.26443L5.74895 9.8873C5.8954 10.0376 6.13284 10.0376 6.27929 9.8873L9.7917 6.28538C10.7392 5.30775 10.7362 3.72885 9.7822 2.74999C8.90375 1.84862 7.52809 1.77191 6.57265 2.52393C6.48883 2.58991 6.40825 2.66226 6.33151 2.74099L5.99605 3.08587L5.65599 2.73693C5.57761 2.65651 5.49525 2.58265 5.40956 2.51538ZM7.04767 3.43893C7.60289 2.86945 8.49943 2.86653 9.06605 3.44793C9.64336 4.04031 9.64309 5.00077 9.07454 5.58846L9.0736 5.58943L6.01425 8.72674L2.93435 5.56648C2.3556 4.97264 2.35777 4.00853 2.92559 3.42589C3.4791 2.85794 4.37486 2.85516 4.93984 3.43488L5.2799 3.78381C5.46824 3.97706 5.72669 4.086 5.99654 4.08587C6.26638 4.08574 6.52472 3.97655 6.71288 3.78312L7.04767 3.43893Z" fill="currentColor"></path></svg>            <svg x-show="isFavorite" class="fill-current h-6 w-6 text-red-700 outline-none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" fill="none" style="display: none;"><path d="M5.65599 2.73693C4.70219 1.75824 3.15912 1.75349 2.20944 2.72795C1.25976 3.7024 1.26439 5.28574 2.2182 6.26443L5.74895 9.8873C5.8954 10.0376 6.13284 10.0376 6.27929 9.8873L9.7917 6.28538C10.7392 5.30775 10.7362 3.72885 9.7822 2.74999C8.82669 1.76955 7.28289 1.76479 6.33151 2.74099L5.99605 3.08587L5.65599 2.73693Z" fill="currentColor"></path></svg>        </button>
+        <div  class="tooltip max-md:!hidden" style="display: none;">
     Add to Favorites
 </div>
      </span>
@@ -900,7 +904,7 @@ $(document).ready(() => {
 <!-- Livewire Component wire-end: -->            </div>
                         <span class="w-[44px] flex justify-center">
                 <svg data-cy="premium-icon" class="fill-current h-6 w-6 text-orange-600" viewBox="-120 0 512 512.00115" xmlns="http://www.w3.org/2000/svg"><path d="m270.214844 180.054688c-2.628906-4.816407-7.679688-7.816407-13.167969-7.816407h-54.425781l24.753906-154.871093c1.082031-6.773438-2.570312-13.417969-8.867188-16.136719-6.292968-2.71875-13.640624-.820313-17.828124 4.613281l-197.5625 256.398438c-3.488282 4.527343-4.097657 10.644531-1.578126 15.777343 2.523438 5.128907 7.746094 8.378907 13.460938 8.378907h85.816406l-57.566406 206.574218c-1.992188 7.144532 1.539062 14.675782 8.304688 17.710938 1.988281.890625 4.074218 1.316406 6.136718 1.316406 4.96875 0 9.78125-2.476562 12.621094-6.882812l199.351562-309.761719c2.96875-4.613281 3.179688-10.484375.550782-15.300781zm0 0"></path></svg>            </span>
-                        <a href="{{ url('/') }}/Audios/${vid.Audio}" class="flex h-9 items-center justify-center rounded-lg bg-blue-400 px-5 font-bold text-white">
+                        <a href="{{ url('/') }}/Audios/${vid.Audio}" class="flex h-9 items-center justify-center rounded-lg bg-blue-400 px-5 font-bold text-white" download>
                 <svg class="fill-current mr-2 h-4 w-4" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M8 12.2188C7.79281 12.2188 7.59409 12.1364 7.44756 11.9899L4.79594 9.33828C4.49084 9.03319 4.49084 8.53853 4.79594 8.23344C5.10103 7.92834 5.59566 7.92834 5.90078 8.23344L7.21875 9.55141V0.78125C7.21875 0.349781 7.56853 0 8 0C8.43147 0 8.78125 0.349781 8.78125 0.78125V9.55141L10.0992 8.23344C10.4043 7.92834 10.899 7.92834 11.2041 8.23344C11.5092 8.53853 11.5092 9.03319 11.2041 9.33828L8.55244 11.9899C8.40591 12.1364 8.20722 12.2188 8 12.2188ZM14.4375 8.78125C14.4375 8.34978 14.7872 8 15.2188 8C15.6503 8 16 8.34978 16 8.78125V12.9688C16 14.4334 14.8084 15.625 13.3438 15.625H2.65625C1.19159 15.625 0 14.4334 0 12.9688V8.78125C0 8.34978 0.349781 8 0.78125 8C1.21272 8 1.5625 8.34978 1.5625 8.78125V12.9688C1.5625 13.5718 2.05316 14.0625 2.65625 14.0625H13.3438C13.9468 14.0625 14.4375 13.5718 14.4375 12.9688V8.78125Z"></path>
 </svg>                Download
@@ -910,13 +914,13 @@ $(document).ready(() => {
     <div x-show="showInfo" class="grid grid-cols-3 border-t border-gray-250 p-2 text-sm" style="display: none;">
                     <div class="border-r border-gray-250 py-2 px-4">
                 <p class="font-bold text-gray-600">Genre</p>
-                                    <a href="http://127.0.0.1:8000/royalty-free-music/country/" class="font-bold text-gray-900 hover:underline">Country</a>                                            </div>
+                                    <a href="{{ url('/') }}/Audio/country/" class="font-bold text-gray-900 hover:underline">Country</a>                                            </div>
             <div class="border-r border-gray-250 py-2 px-4">
                 <p class="font-bold text-gray-600">Mood</p>
-                                    <a href="http://127.0.0.1:8000/royalty-free-music/mood/patient/" class="font-bold text-gray-900 hover:underline">Patient</a>,                                     <a href="http://127.0.0.1:8000/royalty-free-music/mood/relaxed/" class="font-bold text-gray-900 hover:underline">Relaxed</a>,                                     <a href="http://127.0.0.1:8000/royalty-free-music/mood/satisfied/" class="font-bold text-gray-900 hover:underline">Satisfied</a>                                            </div>
+                                    <a href="{{ url('/') }}/Audio/patient/" class="font-bold text-gray-900 hover:underline">Patient</a>,                                     <a href="{{ url('/') }}/Audio/relaxed/" class="font-bold text-gray-900 hover:underline">Relaxed</a>,                                     <a href="{{ url('/') }}/Audio/satisfied/" class="font-bold text-gray-900 hover:underline">Satisfied</a>                                            </div>
             <div class="py-2 px-4">
                 <p class="font-bold text-gray-600">Instrumentation</p>
-                                    <a href="http://127.0.0.1:8000/royalty-free-music/instrument/guitar/" class="font-bold text-gray-900 hover:underline">Guitar</a>,                                     <a href="http://127.0.0.1:8000/royalty-free-music/instrument/harmonica/" class="font-bold text-gray-900 hover:underline">Harmonica</a>,                                     <a href="http://127.0.0.1:8000/royalty-free-music/instrument/banjo/" class="font-bold text-gray-900 hover:underline">Banjo</a>                                            </div>
+                                    <a href="{{ url('/') }}/Audio/instrument/guitar/" class="font-bold text-gray-900 hover:underline">Guitar</a>,                                     <a href="{{ url('/') }}/Audio/instrument/harmonica/" class="font-bold text-gray-900 hover:underline">Harmonica</a>,                                     <a href="{{ url('/') }}/Audio/instrument/banjo/" class="font-bold text-gray-900 hover:underline">Banjo</a>                                            </div>
         
     </div>
 </div>`);
@@ -928,6 +932,33 @@ $(document).ready(() => {
     });
 
 });
+
+function favorite(id) {
+
+$.ajax({
+      headers: {
+        'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+      },
+      url: '{{ url('/') }}/post/favorite',
+      method: 'POST',
+      data: {productID: id, product_type: 'audio'},
+      success:function(response)
+      {
+        alert("Audio added to favourites!");
+      },
+      error: function(response) {
+        console.log(response);
+      }
+  });
+
+}
+
+function collection(id){
+
+var modal = $('#collectionModal');
+
+modal.toggle();
+}
     </script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
 integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"

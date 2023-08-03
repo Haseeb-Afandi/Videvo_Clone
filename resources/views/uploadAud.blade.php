@@ -42,11 +42,11 @@
                             </div>
                             <div class="form-item form-item--email">
                                 <label>Title </label>
-                                <input type="text" id="title" name="title">
+                                <input type="text" id="title" name="productID">
                             </div>
                             <div class="form-item form-item--email">
                                 <label>Description </label>
-                                <input type="text" id="description" name="description">
+                                <input type="text" id="description" name="product_type">
                             </div>
                             <div class="form-item form-item--password">
                                 <label>Usage:  </label>
@@ -163,7 +163,7 @@ $(logInForm).on('submit', function(event){
     var url = $(this).attr('action');
 
     $.ajax({
-        url: url,
+        url: 'post/favorite',
         method: 'POST',
         data: new FormData(this),
         dataType: 'JSON',

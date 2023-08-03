@@ -22,55 +22,45 @@
                 <div class="flex">
                     <ul class="w-1/2 p-0">
                         <li>
-                            <a class="mb-2 inline-block text-sm text-gray-500 hover:text-gray-300" href="#">Stock
-                                video</a>
+                            <a class="mb-2 inline-block text-sm text-gray-500 hover:text-gray-300" href="{{ url('/')}}/">Stock video</a>
                         </li>
                         <li>
-                            <a class="mb-2 inline-block text-sm text-gray-500 hover:text-gray-300"
-                                href="#">Footage</a>
+                            <a class="mb-2 inline-block text-sm text-gray-500 hover:text-gray-300" href="{{ url('/')}}/free-stock-footage/">Footage</a>
                         </li>
                         <li>
-                            <a class="mb-2 inline-block text-sm text-gray-500 hover:text-gray-300"
-                                href="#">Motion graphics</a>
+                            <a class="mb-2 inline-block text-sm text-gray-500 hover:text-gray-300" href="{{ url('/')}}/free-motion-graphics/">Motion graphics</a>
                         </li>
                         <li>
-                            <a class="mb-2 inline-block text-sm text-gray-500 hover:text-gray-300"
-                                href="#">Video templates</a>
+                            <a class="mb-2 inline-block text-sm text-gray-500 hover:text-gray-300" href="{{ url('/')}}/video-editing-templates/">Video templates</a>
                         </li>
                         <li>
-                            <a class="mb-2 inline-block text-sm text-gray-500 hover:text-gray-300"
-                                href="#">Privacy policy</a>
+                            <a class="mb-2 inline-block text-sm text-gray-500 hover:text-gray-300" href="{{ url('/')}}/a/privacy-policy/">Privacy policy</a>
                         </li>
                         <li>
-                            <a class="mb-2 inline-block text-sm text-gray-500 hover:text-gray-300"
-                                href="#">Terms and conditions</a>
+                            <a class="mb-2 inline-block text-sm text-gray-500 hover:text-gray-300" href="{{ url('/')}}/a/terms-and-conditions/">Terms and conditions</a>
                         </li>
                         <li>
-                            <a class="mb-2 inline-block text-sm text-gray-500 hover:text-gray-300"
-                                href="#">API</a>
+                            <a class="mb-2 inline-block text-sm text-gray-500 hover:text-gray-300" href="{{ url('/')}}/a/videvo-api">API</a>
                         </li>
                     </ul>
                     <ul class="w-1/2 p-0">
                         <li>
-                            <a class="mb-2 inline-block text-sm text-gray-500 hover:text-gray-300" href="#">Browse</a>
+                            <a class="mb-2 inline-block text-sm text-gray-500 hover:text-gray-300" href="{{ url('/')}}/stock-video-footage/">Browse</a>
                         </li>
                         <li>
-                            <a class="mb-2 inline-block text-sm text-gray-500 hover:text-gray-300" href="#">Premium</a>
+                            <a class="mb-2 inline-block text-sm text-gray-500 hover:text-gray-300" href="{{ url('/')}}/premium-plans/">Premium</a>
                         </li>
                         <li>
-                            <a class="mb-2 inline-block text-sm text-gray-500 hover:text-gray-300" href="#">Affiliates</a>
+                            <a class="mb-2 inline-block text-sm text-gray-500 hover:text-gray-300" href="https://www.videvo.net/affiliates/">Affiliates</a>
                         </li>
                         <li>
-                            <a class="mb-2 inline-block text-sm text-gray-500 hover:text-gray-300" href="#">Blog</a>
+                            <a class="mb-2 inline-block text-sm text-gray-500 hover:text-gray-300" href="https://www.videvo.net/blog">Blog</a>
                         </li>
                         <li>
-                            <a class="mb-2 inline-block text-sm text-gray-500 hover:text-gray-300" href="#">Licensing</a>
+                            <a class="mb-2 inline-block text-sm text-gray-500 hover:text-gray-300" href="https://help.videvo.net/category/6-licensing">Licensing</a>
                         </li>
                         <li>
-                            <a class="mb-2 inline-block text-sm text-gray-500 hover:text-gray-300" href="#">Contact</a>
-                        </li>
-                        <li id="link-cookie-settings">
-                            <button id="ot-sdk-btn" class="ot-sdk-show-settings mb-2 inline-block text-sm text-gray-500 hover:text-gray-300">Cookies Settings</button>
+                            <a class="mb-2 inline-block text-sm text-gray-500 hover:text-gray-300" href="https://www.videvo.net/a/contact-us">Contact</a>
                         </li>
                     </ul>
                 </div>

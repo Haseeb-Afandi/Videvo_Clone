@@ -46,9 +46,10 @@ class UserController extends Controller
 
                 session([
                     'userid' => $data['id'],
+                    'userrole' => $data['role'],
                     'username' => $data['name'] ?? $data['email'],
                     'useremail' => $data['email'],
-                    'profile_img' => $data['profile_img'] ?? './assets/01.svg',
+                    'profile_img' => $data['profile_img'] ?? '{{ url("/") }}/assets/01.svg',
                     'prem_status' => $data['prem_status'],
                     'logedin' => true,
                 ]);
@@ -59,6 +60,27 @@ class UserController extends Controller
             }
         }
 
+
+    }
+    public function passChange(Request $request){
+
+        $data = $request->validate([
+            'oldPass' => 'required',
+            'newPass' => 'required',
+            'newPassC' => 'required'
+        ]);
+
+        if (Auth::attempt(['email' => Session::get('useremail'), 'password' => $request->oldPass])) {
+
+            if($request->newPass == $request->newPassC){
+
+                $temp = User::where('id', Session::get('userid'))->update(['password' => Hash::make($request->newPass)]);
+
+            }
+
+        }
+
+        return redirect()->back();
 
     }
     public function logout(Request $request)

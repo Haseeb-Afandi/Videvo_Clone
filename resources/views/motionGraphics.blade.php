@@ -85,7 +85,7 @@
 <!-- Livewire Component wire-end: -->        </div>
     </div> --}}
 <!DOCTYPE html>
-<!-- saved from url=(0043){{ url('/') }}/stock-video-footage/ -->
+<!-- saved from url=(0043){{ url('/') }}/free-motion-graphics/ -->
 <html lang="en" class="scroll-smooth"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script type="text/javascript" async="" src="{{ url('/') }}/assets/js"></script><script type="text/javascript" async="" src="{{ url('/') }}/assets/js(1)"></script><script type="text/javascript" async="" src="{{ url('/') }}/assets/localstore.js"></script>
     <script async="" src="{{ url('/') }}/assets/apstag.js"></script><script type="text/javascript" async="" src="{{ url('/') }}/assets/analytics.js"></script><script type="text/javascript" async="" src="{{ url('/') }}/assets/js(2)"></script><script src="{{ url('/') }}/assets/cb=gapi.loaded_0" async=""></script><script type="text/javascript" async="" src="{{ url('/') }}/assets/js(3)"></script><script type="text/javascript" async="" src="{{ url('/') }}/assets/js(4)"></script><script type="text/javascript" async="" src="{{ url('/') }}/assets/hotjar-491796.js"></script><script type="text/javascript" async="" src="{{ url('/') }}/assets/analytics.js"></script><script async="" src="{{ url('/') }}/assets/gtm.js"></script><script async="" src="{{ url('/') }}/assets/gtm.js"></script><script>
     // Move loadOneTrustScript function out of the event handler
@@ -141,20 +141,20 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="description" content="Download free stock video footage with 4k and HD clips available. Click here to download royalty-free licensing videos from Videvo today.">
 
 <meta property="og:type" content="article">
-<meta property="og:url" content="{{ url('/') }}/stock-video-footage/">
+<meta property="og:url" content="{{ url('/') }}/free-motion-graphics/">
 <meta property="og:title" content="Free Stock Video Footage Download 4K HD Clips">
         <meta property="og:description" content="Download free stock video footage with 4k and HD clips available. Click here to download royalty-free licensing videos from Videvo today.">
     <meta property="og:site_name" content="Free stock video footage Download 4K HD clips">
 <meta property="og:image" content="{{ url('/') }}/images/og-image.png">
 
-<link rel="alternate" hreflang="x-default" href="{{ url('/') }}/stock-video-footage/">
-<link rel="alternate" hreflang="en" href="{{ url('/') }}/stock-video-footage/">
+<link rel="alternate" hreflang="x-default" href="{{ url('/') }}/free-motion-graphics/">
+<link rel="alternate" hreflang="en" href="{{ url('/') }}/free-motion-graphics/">
 <link rel="alternate" hreflang="es" href="{{ url('/') }}/es/videos-gratis/">
 <link rel="alternate" hreflang="de" href="{{ url('/') }}/de/stock-videos/">
 
-<link rel="next" href="{{ url('/') }}/stock-video-footage/?page=2">
+<link rel="next" href="{{ url('/') }}/free-motion-graphics/?page=2">
 
-<link rel="canonical" href="{{ url('/') }}/stock-video-footage/">
+<link rel="canonical" href="{{ url('/') }}/free-motion-graphics/">
 
 <!-- end SEO -->
 
@@ -366,14 +366,13 @@ window.addEventListener('load', function () {
     $(document).ready(() => {
 
         $.ajax({
-        url: '{{ url('/') }}/Api/VideoMotion',
+        url: '{{ url('/') }}/Api/VideoMotion{{$tag}}',
         method: 'GET',
         contentType: false,
         cache: false,
         processData: false,
         success:function(response)
         {
-            console.log(response);
             for(x = 0; x < response.length; x++){
             var vid = response[x];
                 $('#contVid').append(`<div class="relative clip-wrapper transition-shadow duration-200">
@@ -509,76 +508,76 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- Panel -->
     <div x-ref="panel" x-show="open" x-transition.origin.top.left="" x-on:click.outside="close($refs.button)" :id="$id(&#39;dropdown-button&#39;)" style="display: none;" class="absolute left-0 mt-2 rounded-md bg-white p-2 shadow-md" id="dropdown-button-2">
         <div class="grid w-[1040px] grid-cols-5">
-                            <a href="{{ url('/') }}/stock-video-footage/culture/" class="truncate rounded px-4 py-1.5 text-left text-gray-800 hover:bg-gray-150">
+                            <a href="{{ url('/') }}/free-motion-graphics/culture/" class="truncate rounded px-4 py-1.5 text-left text-gray-800 hover:bg-gray-150">
                     Culture
                 </a>
-                            <a href="{{ url('/') }}/stock-video-footage/abstract/" class="truncate rounded px-4 py-1.5 text-left text-gray-800 hover:bg-gray-150">
+                            <a href="{{ url('/') }}/free-motion-graphics/abstract/" class="truncate rounded px-4 py-1.5 text-left text-gray-800 hover:bg-gray-150">
                     Abstract
                 </a>
-                            <a href="{{ url('/') }}/stock-video-footage/city/" class="truncate rounded px-4 py-1.5 text-left text-gray-800 hover:bg-gray-150">
+                            <a href="{{ url('/') }}/free-motion-graphics/city/" class="truncate rounded px-4 py-1.5 text-left text-gray-800 hover:bg-gray-150">
                     City
                 </a>
-                            <a href="{{ url('/') }}/stock-video-footage/fitness/" class="truncate rounded px-4 py-1.5 text-left text-gray-800 hover:bg-gray-150">
+                            <a href="{{ url('/') }}/free-motion-graphics/fitness/" class="truncate rounded px-4 py-1.5 text-left text-gray-800 hover:bg-gray-150">
                     Fitness
                 </a>
-                            <a href="{{ url('/') }}/stock-video-footage/sports/" class="truncate rounded px-4 py-1.5 text-left text-gray-800 hover:bg-gray-150">
+                            <a href="{{ url('/') }}/free-motion-graphics/sports/" class="truncate rounded px-4 py-1.5 text-left text-gray-800 hover:bg-gray-150">
                     Sports
                 </a>
-                            <a href="{{ url('/') }}/stock-video-footage/religion/" class="truncate rounded px-4 py-1.5 text-left text-gray-800 hover:bg-gray-150">
+                            <a href="{{ url('/') }}/free-motion-graphics/religion/" class="truncate rounded px-4 py-1.5 text-left text-gray-800 hover:bg-gray-150">
                     Religion
                 </a>
-                            <a href="{{ url('/') }}/stock-video-footage/science/" class="truncate rounded px-4 py-1.5 text-left text-gray-800 hover:bg-gray-150">
+                            <a href="{{ url('/') }}/free-motion-graphics/science/" class="truncate rounded px-4 py-1.5 text-left text-gray-800 hover:bg-gray-150">
                     Science
                 </a>
-                            <a href="{{ url('/') }}/stock-video-footage/space/" class="truncate rounded px-4 py-1.5 text-left text-gray-800 hover:bg-gray-150">
+                            <a href="{{ url('/') }}/free-motion-graphics/space/" class="truncate rounded px-4 py-1.5 text-left text-gray-800 hover:bg-gray-150">
                     Space
                 </a>
-                            <a href="{{ url('/') }}/stock-video-footage/transport/" class="truncate rounded px-4 py-1.5 text-left text-gray-800 hover:bg-gray-150">
+                            <a href="{{ url('/') }}/free-motion-graphics/transport/" class="truncate rounded px-4 py-1.5 text-left text-gray-800 hover:bg-gray-150">
                     Transport
                 </a>
-                            <a href="{{ url('/') }}/stock-video-footage/technology/" class="truncate rounded px-4 py-1.5 text-left text-gray-800 hover:bg-gray-150">
+                            <a href="{{ url('/') }}/free-motion-graphics/technology/" class="truncate rounded px-4 py-1.5 text-left text-gray-800 hover:bg-gray-150">
                     Technology
                 </a>
-                            <a href="{{ url('/') }}/stock-video-footage/entertainment/" class="truncate rounded px-4 py-1.5 text-left text-gray-800 hover:bg-gray-150">
+                            <a href="{{ url('/') }}/free-motion-graphics/entertainment/" class="truncate rounded px-4 py-1.5 text-left text-gray-800 hover:bg-gray-150">
                     Entertainment
                 </a>
-                            <a href="{{ url('/') }}/stock-video-footage/food/" class="truncate rounded px-4 py-1.5 text-left text-gray-800 hover:bg-gray-150">
+                            <a href="{{ url('/') }}/free-motion-graphics/food/" class="truncate rounded px-4 py-1.5 text-left text-gray-800 hover:bg-gray-150">
                     Food
                 </a>
-                            <a href="{{ url('/') }}/stock-video-footage/family/" class="truncate rounded px-4 py-1.5 text-left text-gray-800 hover:bg-gray-150">
+                            <a href="{{ url('/') }}/free-motion-graphics/family/" class="truncate rounded px-4 py-1.5 text-left text-gray-800 hover:bg-gray-150">
                     Family
                 </a>
-                            <a href="{{ url('/') }}/stock-video-footage/holiday/" class="truncate rounded px-4 py-1.5 text-left text-gray-800 hover:bg-gray-150">
+                            <a href="{{ url('/') }}/free-motion-graphics/holiday/" class="truncate rounded px-4 py-1.5 text-left text-gray-800 hover:bg-gray-150">
                     Holiday
                 </a>
-                            <a href="{{ url('/') }}/stock-video-footage/military/" class="truncate rounded px-4 py-1.5 text-left text-gray-800 hover:bg-gray-150">
+                            <a href="{{ url('/') }}/free-motion-graphics/military/" class="truncate rounded px-4 py-1.5 text-left text-gray-800 hover:bg-gray-150">
                     Military
                 </a>
-                            <a href="{{ url('/') }}/stock-video-footage/green-screen/" class="truncate rounded px-4 py-1.5 text-left text-gray-800 hover:bg-gray-150">
+                            <a href="{{ url('/') }}/free-motion-graphics/green-screen/" class="truncate rounded px-4 py-1.5 text-left text-gray-800 hover:bg-gray-150">
                     Green  Screen
                 </a>
-                            <a href="{{ url('/') }}/stock-video-footage/business/" class="truncate rounded px-4 py-1.5 text-left text-gray-800 hover:bg-gray-150">
+                            <a href="{{ url('/') }}/free-motion-graphics/business/" class="truncate rounded px-4 py-1.5 text-left text-gray-800 hover:bg-gray-150">
                     Business
                 </a>
                             <a href="{{ url('/') }}/free-motion-graphics/" class="truncate rounded px-4 py-1.5 text-left text-gray-800 hover:bg-gray-150">
                     Animated Backgrounds
                 </a>
-                            <a href="{{ url('/') }}/stock-video-footage/people/" class="truncate rounded px-4 py-1.5 text-left text-gray-800 hover:bg-gray-150">
+                            <a href="{{ url('/') }}/free-motion-graphics/people/" class="truncate rounded px-4 py-1.5 text-left text-gray-800 hover:bg-gray-150">
                     People
                 </a>
-                            <a href="{{ url('/') }}/stock-video-footage/nature/" class="truncate rounded px-4 py-1.5 text-left text-gray-800 hover:bg-gray-150">
+                            <a href="{{ url('/') }}/free-motion-graphics/nature/" class="truncate rounded px-4 py-1.5 text-left text-gray-800 hover:bg-gray-150">
                     Nature
                 </a>
-                            <a href="{{ url('/') }}/stock-video-footage/medical/" class="truncate rounded px-4 py-1.5 text-left text-gray-800 hover:bg-gray-150">
+                            <a href="{{ url('/') }}/free-motion-graphics/medical/" class="truncate rounded px-4 py-1.5 text-left text-gray-800 hover:bg-gray-150">
                     Medical
                 </a>
-                            <a href="{{ url('/') }}/stock-video-footage/animals/" class="truncate rounded px-4 py-1.5 text-left text-gray-800 hover:bg-gray-150">
+                            <a href="{{ url('/') }}/free-motion-graphics/animals/" class="truncate rounded px-4 py-1.5 text-left text-gray-800 hover:bg-gray-150">
                     Animals
                 </a>
-                            <a href="{{ url('/') }}/stock-video-footage/industry/" class="truncate rounded px-4 py-1.5 text-left text-gray-800 hover:bg-gray-150">
+                            <a href="{{ url('/') }}/free-motion-graphics/industry/" class="truncate rounded px-4 py-1.5 text-left text-gray-800 hover:bg-gray-150">
                     Industry
                 </a>
-                            <a href="{{ url('/') }}/stock-video-footage/vfx/" class="truncate rounded px-4 py-1.5 text-left text-gray-800 hover:bg-gray-150">
+                            <a href="{{ url('/') }}/free-motion-graphics/vfx/" class="truncate rounded px-4 py-1.5 text-left text-gray-800 hover:bg-gray-150">
                     VFX
                 </a>
                     </div>
@@ -586,16 +585,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
             <hr class="h-6 w-px border-r border-gray-200">
             <div class="flex items-center gap-2 overflow-x-auto">
-                                    <a href="{{ url('/') }}/stock-video-footage/culture/" class="shrink-0 rounded bg-gray-200 py-2 px-4 text-gray-900 hover:bg-blue-400 hover:text-white">Culture</a>
-                                    <a href="{{ url('/') }}/stock-video-footage/abstract/" class="shrink-0 rounded bg-gray-200 py-2 px-4 text-gray-900 hover:bg-blue-400 hover:text-white">Abstract</a>
-                                    <a href="{{ url('/') }}/stock-video-footage/city/" class="shrink-0 rounded bg-gray-200 py-2 px-4 text-gray-900 hover:bg-blue-400 hover:text-white">City</a>
-                                    <a href="{{ url('/') }}/stock-video-footage/fitness/" class="shrink-0 rounded bg-gray-200 py-2 px-4 text-gray-900 hover:bg-blue-400 hover:text-white">Fitness</a>
-                                    <a href="{{ url('/') }}/stock-video-footage/sports/" class="shrink-0 rounded bg-gray-200 py-2 px-4 text-gray-900 hover:bg-blue-400 hover:text-white">Sports</a>
-                                    <a href="{{ url('/') }}/stock-video-footage/religion/" class="shrink-0 rounded bg-gray-200 py-2 px-4 text-gray-900 hover:bg-blue-400 hover:text-white">Religion</a>
-                                    <a href="{{ url('/') }}/stock-video-footage/science/" class="shrink-0 rounded bg-gray-200 py-2 px-4 text-gray-900 hover:bg-blue-400 hover:text-white">Science</a>
-                                    <a href="{{ url('/') }}/stock-video-footage/space/" class="shrink-0 rounded bg-gray-200 py-2 px-4 text-gray-900 hover:bg-blue-400 hover:text-white">Space</a>
-                                    <a href="{{ url('/') }}/stock-video-footage/transport/" class="shrink-0 rounded bg-gray-200 py-2 px-4 text-gray-900 hover:bg-blue-400 hover:text-white">Transport</a>
-                                    <a href="{{ url('/') }}/stock-video-footage/technology/" class="shrink-0 rounded bg-gray-200 py-2 px-4 text-gray-900 hover:bg-blue-400 hover:text-white">Technology</a>
+                                    <a href="{{ url('/') }}/free-motion-graphics/culture/" class="shrink-0 rounded bg-gray-200 py-2 px-4 text-gray-900 hover:bg-blue-400 hover:text-white">Culture</a>
+                                    <a href="{{ url('/') }}/free-motion-graphics/abstract/" class="shrink-0 rounded bg-gray-200 py-2 px-4 text-gray-900 hover:bg-blue-400 hover:text-white">Abstract</a>
+                                    <a href="{{ url('/') }}/free-motion-graphics/city/" class="shrink-0 rounded bg-gray-200 py-2 px-4 text-gray-900 hover:bg-blue-400 hover:text-white">City</a>
+                                    <a href="{{ url('/') }}/free-motion-graphics/fitness/" class="shrink-0 rounded bg-gray-200 py-2 px-4 text-gray-900 hover:bg-blue-400 hover:text-white">Fitness</a>
+                                    <a href="{{ url('/') }}/free-motion-graphics/sports/" class="shrink-0 rounded bg-gray-200 py-2 px-4 text-gray-900 hover:bg-blue-400 hover:text-white">Sports</a>
+                                    <a href="{{ url('/') }}/free-motion-graphics/religion/" class="shrink-0 rounded bg-gray-200 py-2 px-4 text-gray-900 hover:bg-blue-400 hover:text-white">Religion</a>
+                                    <a href="{{ url('/') }}/free-motion-graphics/science/" class="shrink-0 rounded bg-gray-200 py-2 px-4 text-gray-900 hover:bg-blue-400 hover:text-white">Science</a>
+                                    <a href="{{ url('/') }}/free-motion-graphics/space/" class="shrink-0 rounded bg-gray-200 py-2 px-4 text-gray-900 hover:bg-blue-400 hover:text-white">Space</a>
+                                    <a href="{{ url('/') }}/free-motion-graphics/transport/" class="shrink-0 rounded bg-gray-200 py-2 px-4 text-gray-900 hover:bg-blue-400 hover:text-white">Transport</a>
+                                    <a href="{{ url('/') }}/free-motion-graphics/technology/" class="shrink-0 rounded bg-gray-200 py-2 px-4 text-gray-900 hover:bg-blue-400 hover:text-white">Technology</a>
                             </div>
         </div>
         <hr class="mt-6">
@@ -1259,118 +1258,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         </button>
                                     </span>
             </div>
-
-            <div class="hidden sm:flex sm:flex-1 sm:items-center justify-center md:justify-between">
-                <div class="hidden md:block">
-                    <p class="text-sm leading-5 text-gray-700">
-                        <span>Showing</span>
-                        <span class="font-medium">1</span>
-                        <span>to</span>
-                        <span class="font-medium">75</span>
-                        <span>of</span>
-                        <span class="font-medium">1552285</span>
-                        <span>results</span>
-                    </p>
-                </div>
-
-                <div>
-                    <span class="relative z-0 inline-flex rounded-md shadow-sm" x-on:click="window.scrollTo(0, 0)">
-                        <span>
-                            
-                                                            <span aria-disabled="true" aria-label="&amp;laquo; Previous">
-                                    <span class="relative inline-flex cursor-default items-center rounded-l-md border border-gray-300 bg-white px-2 py-2 text-sm font-medium leading-5 text-gray-500" aria-hidden="true">
-                                        <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20">
-                                            <path fill-rule="evenodd" d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clip-rule="evenodd"></path>
-                                        </svg>
-                                    </span>
-                                </span>
-                                                    </span>
-
-                        
-                                                    
-                            
-                            
-                                                                                                <span wire:key="paginator-page-1-page1">
-                                                                                    <span aria-current="page">
-                                                <span class="relative -ml-px inline-flex cursor-default select-none items-center border border-gray-300 bg-white px-3 py-2 md:px-4 md:py-2 text-sm font-medium leading-5 text-gray-500">1</span>
-                                            </span>
-                                                                            </span>
-                                                                    <span wire:key="paginator-page-1-page2">
-                                                                                    <a href="{{ url('/') }}/stock-video-footage/?page=2" wire:click.prevent="gotoPage(2, &#39;page&#39;)" class="focus:shadow-outline-blue relative -ml-px inline-flex items-center border border-gray-300 bg-white px-3 py-2 md:px-4 md:py-2 text-sm font-medium leading-5 text-gray-700 transition duration-150 ease-in-out hover:text-gray-500 focus:z-10 focus:border-blue-300 focus:outline-none active:bg-gray-100 active:text-gray-700" aria-label="Go to page 2">
-                                                2
-                                            </a>
-                                                                            </span>
-                                                                    <span wire:key="paginator-page-1-page3">
-                                                                                    <a href="{{ url('/') }}/stock-video-footage/?page=3" wire:click.prevent="gotoPage(3, &#39;page&#39;)" class="focus:shadow-outline-blue relative -ml-px inline-flex items-center border border-gray-300 bg-white px-3 py-2 md:px-4 md:py-2 text-sm font-medium leading-5 text-gray-700 transition duration-150 ease-in-out hover:text-gray-500 focus:z-10 focus:border-blue-300 focus:outline-none active:bg-gray-100 active:text-gray-700" aria-label="Go to page 3">
-                                                3
-                                            </a>
-                                                                            </span>
-                                                                    <span wire:key="paginator-page-1-page4">
-                                                                                    <a href="{{ url('/') }}/stock-video-footage/?page=4" wire:click.prevent="gotoPage(4, &#39;page&#39;)" class="focus:shadow-outline-blue relative -ml-px inline-flex items-center border border-gray-300 bg-white px-3 py-2 md:px-4 md:py-2 text-sm font-medium leading-5 text-gray-700 transition duration-150 ease-in-out hover:text-gray-500 focus:z-10 focus:border-blue-300 focus:outline-none active:bg-gray-100 active:text-gray-700" aria-label="Go to page 4">
-                                                4
-                                            </a>
-                                                                            </span>
-                                                                    <span wire:key="paginator-page-1-page5">
-                                                                                    <a href="{{ url('/') }}/stock-video-footage/?page=5" wire:click.prevent="gotoPage(5, &#39;page&#39;)" class="focus:shadow-outline-blue relative -ml-px inline-flex items-center border border-gray-300 bg-white px-3 py-2 md:px-4 md:py-2 text-sm font-medium leading-5 text-gray-700 transition duration-150 ease-in-out hover:text-gray-500 focus:z-10 focus:border-blue-300 focus:outline-none active:bg-gray-100 active:text-gray-700" aria-label="Go to page 5">
-                                                5
-                                            </a>
-                                                                            </span>
-                                                                    <span wire:key="paginator-page-1-page6">
-                                                                                    <a href="{{ url('/') }}/stock-video-footage/?page=6" wire:click.prevent="gotoPage(6, &#39;page&#39;)" class="focus:shadow-outline-blue relative -ml-px inline-flex items-center border border-gray-300 bg-white px-3 py-2 md:px-4 md:py-2 text-sm font-medium leading-5 text-gray-700 transition duration-150 ease-in-out hover:text-gray-500 focus:z-10 focus:border-blue-300 focus:outline-none active:bg-gray-100 active:text-gray-700" aria-label="Go to page 6">
-                                                6
-                                            </a>
-                                                                            </span>
-                                                                    <span wire:key="paginator-page-1-page7">
-                                                                                    <a href="{{ url('/') }}/stock-video-footage/?page=7" wire:click.prevent="gotoPage(7, &#39;page&#39;)" class="focus:shadow-outline-blue relative -ml-px inline-flex items-center border border-gray-300 bg-white px-3 py-2 md:px-4 md:py-2 text-sm font-medium leading-5 text-gray-700 transition duration-150 ease-in-out hover:text-gray-500 focus:z-10 focus:border-blue-300 focus:outline-none active:bg-gray-100 active:text-gray-700" aria-label="Go to page 7">
-                                                7
-                                            </a>
-                                                                            </span>
-                                                                    <span wire:key="paginator-page-1-page8">
-                                                                                    <a href="{{ url('/') }}/stock-video-footage/?page=8" wire:click.prevent="gotoPage(8, &#39;page&#39;)" class="focus:shadow-outline-blue relative -ml-px inline-flex items-center border border-gray-300 bg-white px-3 py-2 md:px-4 md:py-2 text-sm font-medium leading-5 text-gray-700 transition duration-150 ease-in-out hover:text-gray-500 focus:z-10 focus:border-blue-300 focus:outline-none active:bg-gray-100 active:text-gray-700" aria-label="Go to page 8">
-                                                8
-                                            </a>
-                                                                            </span>
-                                                                    <span wire:key="paginator-page-1-page9">
-                                                                                    <a href="{{ url('/') }}/stock-video-footage/?page=9" wire:click.prevent="gotoPage(9, &#39;page&#39;)" class="focus:shadow-outline-blue relative -ml-px inline-flex items-center border border-gray-300 bg-white px-3 py-2 md:px-4 md:py-2 text-sm font-medium leading-5 text-gray-700 transition duration-150 ease-in-out hover:text-gray-500 focus:z-10 focus:border-blue-300 focus:outline-none active:bg-gray-100 active:text-gray-700" aria-label="Go to page 9">
-                                                9
-                                            </a>
-                                                                            </span>
-                                                                    <span wire:key="paginator-page-1-page10">
-                                                                                    <a href="{{ url('/') }}/stock-video-footage/?page=10" wire:click.prevent="gotoPage(10, &#39;page&#39;)" class="focus:shadow-outline-blue relative -ml-px inline-flex items-center border border-gray-300 bg-white px-3 py-2 md:px-4 md:py-2 text-sm font-medium leading-5 text-gray-700 transition duration-150 ease-in-out hover:text-gray-500 focus:z-10 focus:border-blue-300 focus:outline-none active:bg-gray-100 active:text-gray-700" aria-label="Go to page 10">
-                                                10
-                                            </a>
-                                                                            </span>
-                                                                                                                
-                                                            <span aria-disabled="true">
-                                    <span class="relative -ml-px inline-flex cursor-default select-none items-center border border-gray-300 bg-white px-3 py-2 md:px-4 md:py-2 text-sm font-medium leading-5 text-gray-700">...</span>
-                                </span>
-                            
-                            
-                                                                                
-                            
-                            
-                                                                                                <span wire:key="paginator-page-1-page20697">
-                                                                                    <a href="{{ url('/') }}/stock-video-footage/?page=20697" wire:click.prevent="gotoPage(20697, &#39;page&#39;)" class="focus:shadow-outline-blue relative -ml-px inline-flex items-center border border-gray-300 bg-white px-3 py-2 md:px-4 md:py-2 text-sm font-medium leading-5 text-gray-700 transition duration-150 ease-in-out hover:text-gray-500 focus:z-10 focus:border-blue-300 focus:outline-none active:bg-gray-100 active:text-gray-700" aria-label="Go to page 20697">
-                                                20697
-                                            </a>
-                                                                            </span>
-                                                                    <span wire:key="paginator-page-1-page20698">
-                                                                                    <a href="{{ url('/') }}/stock-video-footage/?page=20698" wire:click.prevent="gotoPage(20698, &#39;page&#39;)" class="focus:shadow-outline-blue relative -ml-px inline-flex items-center border border-gray-300 bg-white px-3 py-2 md:px-4 md:py-2 text-sm font-medium leading-5 text-gray-700 transition duration-150 ease-in-out hover:text-gray-500 focus:z-10 focus:border-blue-300 focus:outline-none active:bg-gray-100 active:text-gray-700" aria-label="Go to page 20698">
-                                                20698
-                                            </a>
-                                                                            </span>
-                                                                                    
-                        <span>
-                            
-                                                            <a href="{{ url('/') }}/stock-video-footage/?page=2" wire:click.prevent="nextPage(&#39;page&#39;)" dusk="nextPage.after" rel="next" class="focus:shadow-outline-blue relative -ml-px inline-flex items-center rounded-r-md border border-gray-300 bg-white px-2 py-2 text-sm font-medium leading-5 text-gray-500 transition duration-150 ease-in-out hover:text-gray-400 focus:z-10 focus:border-blue-300 focus:outline-none active:bg-gray-100 active:text-gray-500" aria-label="Next &amp;raquo;">
-                                    <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20">
-                                        <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path>
-                                    </svg>
-                                </a>
-                                                    </span>
-                    </span>
-                </div>
-            </div>
         </nav>
     </div>
 
@@ -1551,112 +1438,112 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <div class="mt-12 px-4 lg:px-12">
                 <h3 class="mb-4 text-center text-2xl text-gray-900">Related Browse Tags</h3>
                 <div class="flex flex-wrap items-center justify-center gap-3 overflow-x-auto overflow-y-hidden">
-                                            <a href="{{ url('/') }}/stock-video-footage/1080p/" class="flex h-9 items-center rounded bg-gray-200 px-3 text-gray-900 hover:bg-blue-400 hover:text-white text-xs">
+                                            <a href="{{ url('/') }}/free-motion-graphics/1080p/" class="flex h-9 items-center rounded bg-gray-200 px-3 text-gray-900 hover:bg-blue-400 hover:text-white text-xs">
                             1080p
                         </a>
-                                            <a href="{{ url('/') }}/stock-video-footage/nature/" class="flex h-9 items-center rounded bg-gray-200 px-3 text-gray-900 hover:bg-blue-400 hover:text-white text-xs">
+                                            <a href="{{ url('/') }}/free-motion-graphics/nature/" class="flex h-9 items-center rounded bg-gray-200 px-3 text-gray-900 hover:bg-blue-400 hover:text-white text-xs">
                             nature
                         </a>
-                                            <a href="{{ url('/') }}/stock-video-footage/outdoors/" class="flex h-9 items-center rounded bg-gray-200 px-3 text-gray-900 hover:bg-blue-400 hover:text-white text-xs">
+                                            <a href="{{ url('/') }}/free-motion-graphics/outdoors/" class="flex h-9 items-center rounded bg-gray-200 px-3 text-gray-900 hover:bg-blue-400 hover:text-white text-xs">
                             outdoors
                         </a>
-                                            <a href="{{ url('/') }}/stock-video-footage/people/" class="flex h-9 items-center rounded bg-gray-200 px-3 text-gray-900 hover:bg-blue-400 hover:text-white text-xs">
+                                            <a href="{{ url('/') }}/free-motion-graphics/people/" class="flex h-9 items-center rounded bg-gray-200 px-3 text-gray-900 hover:bg-blue-400 hover:text-white text-xs">
                             people
                         </a>
-                                            <a href="{{ url('/') }}/stock-video-footage/summer/" class="flex h-9 items-center rounded bg-gray-200 px-3 text-gray-900 hover:bg-blue-400 hover:text-white text-xs">
+                                            <a href="{{ url('/') }}/free-motion-graphics/summer/" class="flex h-9 items-center rounded bg-gray-200 px-3 text-gray-900 hover:bg-blue-400 hover:text-white text-xs">
                             summer
                         </a>
-                                            <a href="{{ url('/') }}/stock-video-footage/landscape/" class="flex h-9 items-center rounded bg-gray-200 px-3 text-gray-900 hover:bg-blue-400 hover:text-white text-xs">
+                                            <a href="{{ url('/') }}/free-motion-graphics/landscape/" class="flex h-9 items-center rounded bg-gray-200 px-3 text-gray-900 hover:bg-blue-400 hover:text-white text-xs">
                             landscape
                         </a>
-                                            <a href="{{ url('/') }}/stock-video-footage/beautiful/" class="flex h-9 items-center rounded bg-gray-200 px-3 text-gray-900 hover:bg-blue-400 hover:text-white text-xs">
+                                            <a href="{{ url('/') }}/free-motion-graphics/beautiful/" class="flex h-9 items-center rounded bg-gray-200 px-3 text-gray-900 hover:bg-blue-400 hover:text-white text-xs">
                             beautiful
                         </a>
-                                            <a href="{{ url('/') }}/stock-video-footage/sky/" class="flex h-9 items-center rounded bg-gray-200 px-3 text-gray-900 hover:bg-blue-400 hover:text-white text-xs">
+                                            <a href="{{ url('/') }}/free-motion-graphics/sky/" class="flex h-9 items-center rounded bg-gray-200 px-3 text-gray-900 hover:bg-blue-400 hover:text-white text-xs">
                             sky
                         </a>
-                                            <a href="{{ url('/') }}/stock-video-footage/person/" class="flex h-9 items-center rounded bg-gray-200 px-3 text-gray-900 hover:bg-blue-400 hover:text-white text-xs">
+                                            <a href="{{ url('/') }}/free-motion-graphics/person/" class="flex h-9 items-center rounded bg-gray-200 px-3 text-gray-900 hover:bg-blue-400 hover:text-white text-xs">
                             person
                         </a>
-                                            <a href="{{ url('/') }}/stock-video-footage/business/" class="flex h-9 items-center rounded bg-gray-200 px-3 text-gray-900 hover:bg-blue-400 hover:text-white text-xs">
+                                            <a href="{{ url('/') }}/free-motion-graphics/business/" class="flex h-9 items-center rounded bg-gray-200 px-3 text-gray-900 hover:bg-blue-400 hover:text-white text-xs">
                             business
                         </a>
-                                            <a href="{{ url('/') }}/stock-video-footage/travel/" class="flex h-9 items-center rounded bg-gray-200 px-3 text-gray-900 hover:bg-blue-400 hover:text-white text-xs">
+                                            <a href="{{ url('/') }}/free-motion-graphics/travel/" class="flex h-9 items-center rounded bg-gray-200 px-3 text-gray-900 hover:bg-blue-400 hover:text-white text-xs">
                             travel
                         </a>
-                                            <a href="{{ url('/') }}/stock-video-footage/scenery/" class="flex h-9 items-center rounded bg-gray-200 px-3 text-gray-900 hover:bg-blue-400 hover:text-white text-xs">
+                                            <a href="{{ url('/') }}/free-motion-graphics/scenery/" class="flex h-9 items-center rounded bg-gray-200 px-3 text-gray-900 hover:bg-blue-400 hover:text-white text-xs">
                             scenery
                         </a>
-                                            <a href="{{ url('/') }}/stock-video-footage/scenic/" class="flex h-9 items-center rounded bg-gray-200 px-3 text-gray-900 hover:bg-blue-400 hover:text-white text-xs">
+                                            <a href="{{ url('/') }}/free-motion-graphics/scenic/" class="flex h-9 items-center rounded bg-gray-200 px-3 text-gray-900 hover:bg-blue-400 hover:text-white text-xs">
                             scenic
                         </a>
-                                            <a href="{{ url('/') }}/stock-video-footage/day/" class="flex h-9 items-center rounded bg-gray-200 px-3 text-gray-900 hover:bg-blue-400 hover:text-white text-xs">
+                                            <a href="{{ url('/') }}/free-motion-graphics/day/" class="flex h-9 items-center rounded bg-gray-200 px-3 text-gray-900 hover:bg-blue-400 hover:text-white text-xs">
                             day
                         </a>
-                                            <a href="{{ url('/') }}/stock-video-footage/office/" class="flex h-9 items-center rounded bg-gray-200 px-3 text-gray-900 hover:bg-blue-400 hover:text-white text-xs">
+                                            <a href="{{ url('/') }}/free-motion-graphics/office/" class="flex h-9 items-center rounded bg-gray-200 px-3 text-gray-900 hover:bg-blue-400 hover:text-white text-xs">
                             office
                         </a>
-                                            <a href="{{ url('/') }}/stock-video-footage/outdoor/" class="flex h-9 items-center rounded bg-gray-200 px-3 text-gray-900 hover:bg-blue-400 hover:text-white text-xs">
+                                            <a href="{{ url('/') }}/free-motion-graphics/outdoor/" class="flex h-9 items-center rounded bg-gray-200 px-3 text-gray-900 hover:bg-blue-400 hover:text-white text-xs">
                             outdoor
                         </a>
-                                            <a href="{{ url('/') }}/stock-video-footage/background/" class="flex h-9 items-center rounded bg-gray-200 px-3 text-gray-900 hover:bg-blue-400 hover:text-white text-xs">
+                                            <a href="{{ url('/') }}/free-motion-graphics/background/" class="flex h-9 items-center rounded bg-gray-200 px-3 text-gray-900 hover:bg-blue-400 hover:text-white text-xs">
                             background
                         </a>
-                                            <a href="{{ url('/') }}/stock-video-footage/vacation/" class="flex h-9 items-center rounded bg-gray-200 px-3 text-gray-900 hover:bg-blue-400 hover:text-white text-xs">
+                                            <a href="{{ url('/') }}/free-motion-graphics/vacation/" class="flex h-9 items-center rounded bg-gray-200 px-3 text-gray-900 hover:bg-blue-400 hover:text-white text-xs">
                             vacation
                         </a>
-                                            <a href="{{ url('/') }}/stock-video-footage/light/" class="flex h-9 items-center rounded bg-gray-200 px-3 text-gray-900 hover:bg-blue-400 hover:text-white text-xs">
+                                            <a href="{{ url('/') }}/free-motion-graphics/light/" class="flex h-9 items-center rounded bg-gray-200 px-3 text-gray-900 hover:bg-blue-400 hover:text-white text-xs">
                             light
                         </a>
-                                            <a href="{{ url('/') }}/stock-video-footage/woman/" class="flex h-9 items-center rounded bg-gray-200 px-3 text-gray-900 hover:bg-blue-400 hover:text-white text-xs">
+                                            <a href="{{ url('/') }}/free-motion-graphics/woman/" class="flex h-9 items-center rounded bg-gray-200 px-3 text-gray-900 hover:bg-blue-400 hover:text-white text-xs">
                             woman
                         </a>
-                                            <a href="{{ url('/') }}/stock-video-footage/beauty/" class="flex h-9 items-center rounded bg-gray-200 px-3 text-gray-900 hover:bg-blue-400 hover:text-white text-xs">
+                                            <a href="{{ url('/') }}/free-motion-graphics/beauty/" class="flex h-9 items-center rounded bg-gray-200 px-3 text-gray-900 hover:bg-blue-400 hover:text-white text-xs">
                             beauty
                         </a>
-                                            <a href="{{ url('/') }}/stock-video-footage/man/" class="flex h-9 items-center rounded bg-gray-200 px-3 text-gray-900 hover:bg-blue-400 hover:text-white text-xs">
+                                            <a href="{{ url('/') }}/free-motion-graphics/man/" class="flex h-9 items-center rounded bg-gray-200 px-3 text-gray-900 hover:bg-blue-400 hover:text-white text-xs">
                             man
                         </a>
-                                            <a href="{{ url('/') }}/stock-video-footage/tourism/" class="flex h-9 items-center rounded bg-gray-200 px-3 text-gray-900 hover:bg-blue-400 hover:text-white text-xs">
+                                            <a href="{{ url('/') }}/free-motion-graphics/tourism/" class="flex h-9 items-center rounded bg-gray-200 px-3 text-gray-900 hover:bg-blue-400 hover:text-white text-xs">
                             tourism
                         </a>
-                                            <a href="{{ url('/') }}/stock-video-footage/urban/" class="flex h-9 items-center rounded bg-gray-200 px-3 text-gray-900 hover:bg-blue-400 hover:text-white text-xs">
+                                            <a href="{{ url('/') }}/free-motion-graphics/urban/" class="flex h-9 items-center rounded bg-gray-200 px-3 text-gray-900 hover:bg-blue-400 hover:text-white text-xs">
                             urban
                         </a>
-                                            <a href="{{ url('/') }}/stock-video-footage/forest/" class="flex h-9 items-center rounded bg-gray-200 px-3 text-gray-900 hover:bg-blue-400 hover:text-white text-xs">
+                                            <a href="{{ url('/') }}/free-motion-graphics/forest/" class="flex h-9 items-center rounded bg-gray-200 px-3 text-gray-900 hover:bg-blue-400 hover:text-white text-xs">
                             forest
                         </a>
-                                            <a href="{{ url('/') }}/stock-video-footage/aerial-view/" class="flex h-9 items-center rounded bg-gray-200 px-3 text-gray-900 hover:bg-blue-400 hover:text-white text-xs">
+                                            <a href="{{ url('/') }}/free-motion-graphics/aerial-view/" class="flex h-9 items-center rounded bg-gray-200 px-3 text-gray-900 hover:bg-blue-400 hover:text-white text-xs">
                             aerial view
                         </a>
-                                            <a href="{{ url('/') }}/stock-video-footage/clouds/" class="flex h-9 items-center rounded bg-gray-200 px-3 text-gray-900 hover:bg-blue-400 hover:text-white text-xs">
+                                            <a href="{{ url('/') }}/free-motion-graphics/clouds/" class="flex h-9 items-center rounded bg-gray-200 px-3 text-gray-900 hover:bg-blue-400 hover:text-white text-xs">
                             clouds
                         </a>
-                                            <a href="{{ url('/') }}/stock-video-footage/water/" class="flex h-9 items-center rounded bg-gray-200 px-3 text-gray-900 hover:bg-blue-400 hover:text-white text-xs">
+                                            <a href="{{ url('/') }}/free-motion-graphics/water/" class="flex h-9 items-center rounded bg-gray-200 px-3 text-gray-900 hover:bg-blue-400 hover:text-white text-xs">
                             water
                         </a>
-                                            <a href="{{ url('/') }}/stock-video-footage/female/" class="flex h-9 items-center rounded bg-gray-200 px-3 text-gray-900 hover:bg-blue-400 hover:text-white text-xs">
+                                            <a href="{{ url('/') }}/free-motion-graphics/female/" class="flex h-9 items-center rounded bg-gray-200 px-3 text-gray-900 hover:bg-blue-400 hover:text-white text-xs">
                             female
                         </a>
-                                            <a href="{{ url('/') }}/stock-video-footage/sun/" class="flex h-9 items-center rounded bg-gray-200 px-3 text-gray-900 hover:bg-blue-400 hover:text-white text-xs">
+                                            <a href="{{ url('/') }}/free-motion-graphics/sun/" class="flex h-9 items-center rounded bg-gray-200 px-3 text-gray-900 hover:bg-blue-400 hover:text-white text-xs">
                             sun
                         </a>
-                                            <a href="{{ url('/') }}/stock-video-footage/male/" class="flex h-9 items-center rounded bg-gray-200 px-3 text-gray-900 hover:bg-blue-400 hover:text-white text-xs">
+                                            <a href="{{ url('/') }}/free-motion-graphics/male/" class="flex h-9 items-center rounded bg-gray-200 px-3 text-gray-900 hover:bg-blue-400 hover:text-white text-xs">
                             male
                         </a>
-                                            <a href="{{ url('/') }}/stock-video-footage/city/" class="flex h-9 items-center rounded bg-gray-200 px-3 text-gray-900 hover:bg-blue-400 hover:text-white text-xs">
+                                            <a href="{{ url('/') }}/free-motion-graphics/city/" class="flex h-9 items-center rounded bg-gray-200 px-3 text-gray-900 hover:bg-blue-400 hover:text-white text-xs">
                             city
                         </a>
-                                            <a href="{{ url('/') }}/stock-video-footage/wild/" class="flex h-9 items-center rounded bg-gray-200 px-3 text-gray-900 hover:bg-blue-400 hover:text-white text-xs">
+                                            <a href="{{ url('/') }}/free-motion-graphics/wild/" class="flex h-9 items-center rounded bg-gray-200 px-3 text-gray-900 hover:bg-blue-400 hover:text-white text-xs">
                             wild
                         </a>
-                                            <a href="{{ url('/') }}/stock-video-footage/environment/" class="flex h-9 items-center rounded bg-gray-200 px-3 text-gray-900 hover:bg-blue-400 hover:text-white text-xs">
+                                            <a href="{{ url('/') }}/free-motion-graphics/environment/" class="flex h-9 items-center rounded bg-gray-200 px-3 text-gray-900 hover:bg-blue-400 hover:text-white text-xs">
                             environment
                         </a>
-                                            <a href="{{ url('/') }}/stock-video-footage/natural/" class="flex h-9 items-center rounded bg-gray-200 px-3 text-gray-900 hover:bg-blue-400 hover:text-white text-xs">
+                                            <a href="{{ url('/') }}/free-motion-graphics/natural/" class="flex h-9 items-center rounded bg-gray-200 px-3 text-gray-900 hover:bg-blue-400 hover:text-white text-xs">
                             natural
                         </a>
-                                            <a href="{{ url('/') }}/stock-video-footage/green/" class="flex h-9 items-center rounded bg-gray-200 px-3 text-gray-900 hover:bg-blue-400 hover:text-white text-xs">
+                                            <a href="{{ url('/') }}/free-motion-graphics/green/" class="flex h-9 items-center rounded bg-gray-200 px-3 text-gray-900 hover:bg-blue-400 hover:text-white text-xs">
                             green
                         </a>
                                     </div>
@@ -1712,7 +1599,7 @@ crossorigin="anonymous"></script>
                 event: 'istockEvent',
                 eventCategory: 'Istock',
                 eventAction: 'Triggered istock event on carousel click',
-                eventLabel: 'url: ' + "{{ url('/') }}/stock-video-footage/"
+                eventLabel: 'url: ' + "{{ url('/') }}/free-motion-graphics/"
             });
         });
     </script>
