@@ -1,3 +1,4 @@
+<div id="errorBoxM" style="position: absolute; bottom: 20; right: 0; background-color:aliceblue;"></div>
 <header class="header-transparent fixed top-0 left-0 right-0 z-50 flex flex-col lg:flex header-fill" x-data="{ openSearch: false }">
     <div class="flex min-h-[3.5rem] items-center justify-between gap-2 px-4 duration-300 lg:h-16 lg:gap-0 lg:transition-all max-lg:h-full w-full" class="{&#39;max-lg:items-start&#39;: openSearch}">
         <div class="flex flex-1 items-center gap-3 sm:gap-4 lg:gap-8 max-lg:!gap-y-0" class="{&#39;max-lg:h-full max-lg:flex-wrap max-sm:max-w-[80%]&#39;: openSearch}">

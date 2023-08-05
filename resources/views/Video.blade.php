@@ -139,7 +139,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <title>Free Stock Video Footage Download 4K HD Clips</title>
 <meta name="description" content="Download free stock video footage with 4k and HD clips available. Click here to download royalty-free licensing videos from Videvo today.">
-
+<style>
+    body > .skiptranslate{display: none;}
+    .skiptranslate{
+        font-size: 0%;
+    }
+    .goog-te-gadget > span{
+        display:none;
+    }
+    </style>
 <meta name="csrf-token" content="{{ csrf_token() }}" />
 <meta property="og:type" content="article">
 <meta property="og:url" content="{{ url('/') }}/stock-video-footage/">

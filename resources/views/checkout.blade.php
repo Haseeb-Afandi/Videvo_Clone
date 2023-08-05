@@ -46,6 +46,15 @@
         type="font/woff2">
     <link rel="preconnect" href="https://www.googletagmanager.com/">
     <link rel="dns-prefetch" href="https://design.freepikcompany.com/">
+    <style>
+        body > .skiptranslate{display: none;}
+        .skiptranslate{
+            font-size: 0%;
+        }
+        .goog-te-gadget > span{
+            display:none;
+        }
+        </style>
     <style id="stitches">
         --sxs {
             --sxs: 0 t-efdziH slidesgo-theme

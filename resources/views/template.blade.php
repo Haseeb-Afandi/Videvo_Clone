@@ -68,6 +68,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <link rel="next" href="http://127.0.0.1:8000/video-editing-templates/?page=2">
 
 <link rel="canonical" href="http://127.0.0.1:8000/video-editing-templates/">
+<style>
+    body > .skiptranslate{display: none;}
+    .skiptranslate{
+        font-size: 0%;
+    }
+    .goog-te-gadget > span{
+        display:none;
+    }
+    </style>
 
 <!-- end SEO -->
 

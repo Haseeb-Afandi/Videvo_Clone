@@ -71,8 +71,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <link rel="canonical" href="{{ url('/') }}/video/flying-over-bright-blue-open-ocean/514903/">
 
 <!-- end SEO -->
+<style>
+    body > .skiptranslate{display: none;}
+    .skiptranslate{
+        font-size: 0%;
+    }
+    .goog-te-gadget > span{
+        display:none;
+    }
+    </style>
+<meta name="csrf-token" content="{{ csrf_token() }}" />
 
-    
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -319,14 +328,14 @@ window.addEventListener('load', function () {
             </a>
             <div class="absolute bottom-0 right-0 z-30 inline-flex w-auto items-end justify-end gap-2 px-4 py-2 transition-all duration-300 ">
             <div wire:id="afZTdR3JyrMNVzJfj4sa" class="flex relative z-40" x-data="{ isClipInAnyUserCollection: $wire.entangle(&#39;isClipInAnyUserCollection&#39;), mode: $wire.entangle(&#39;mode&#39;), showModal: $wire.entangle(&#39;showModal&#39;), hidden: $wire.entangle(&#39;hidden&#39;), showTooltip: false}">
-    <span class="relative inline-flex" x-on:mouseover="showTooltip = true" x-on:mouseleave="showTooltip = false" onclick="collection(${vid.id})">
+    <span class="relative inline-flex" x-on:mouseover="showTooltip = true" x-on:mouseleave="showTooltip = false" onclick="collectionMain(${vid.id})">
         <button class="relative add-to-collection-button overflow-hidden" wire:click.stop.prevent="toggleModal()">
             <svg class="fill-current h-6 w-6 text-gray-700 outline-none translate-y-8 text-white not-added !translate-y-0" xmlns="http://www.w3.org/2000/svg" fill="currentColor" stroke="none" viewBox="0 0 24 24"><path d="M20 2H8c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2V4c0-1.103-.897-2-2-2zM8 16V4h12l.002 12H8z"></path><path d="M4 8H2v12c0 1.103.897 2 2 2h12v-2H4V8zm11-2h-2v3h-3v2h3v3h2v-3h3V9h-3z"></path></svg>            <svg x-show="isClipInAnyUserCollection" class="fill-current h-6 w-6 text-[#198ACF] outline-none" xmlns="http://www.w3.org/2000/svg" fill="currentColor" stroke="none" viewBox="0 0 24 24" style="display: none;"><path d="M4 22h12v-2H4V8H2v12c0 1.103.897 2 2 2z"></path><path d="M20 2H8c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2V4c0-1.103-.897-2-2-2zm-2 9h-3v3h-2v-3h-3V9h3V6h2v3h3v2z"></path></svg>        </button>
         <div x-show="showTooltip" class="tooltip max-md:!hidden" style="display: none;">
     Add to Collections
 </div>
      </span>
-    <div x-show="showModal" style="display: none;" id="collectionModal">
+    <div x-show="showModal" style="display: none;" id="collectionModal${vid.id}">
         <div class="modal-wrapper-add-to-collection flex flex-col items-center justify-center absolute bottom-0 right-[-15px] z-60 cursor-auto min-w-[300px] rounded-lg " style="transform: translateY(100%) translateY(10px);">
             <div class="flex flex-col bg-white fixed top-0 left-0 md:relative md:rounded-lg md:shadow-lg h-full md:h-auto p-4 w-full" @click.outside="showModal = false;">
                 <div class="flex justify-start relative md:justify-between items-center ">
@@ -345,7 +354,7 @@ window.addEventListener('load', function () {
     <form method="post" action="{{ route('collection.post') }}" enctype="multipart/form-data" x-show="showForm" class="flex space-between items-center border border-[#1b95e0] justify-items-stretch rounded-sm overflow-hidden h-full" style="display: none;">
         @csrf
         <input class="px-2 border-0 outline-0 h-full" placeholder="Add collection name" type="text" wire:model="collectionName" name="name">
-        <input type="hidden" name="productID" value="${vid.id}">
+        <input type="hidden" name="productID" value="{{$vid->id}}">
         <input type="hidden" name="product_type" value="video">
         <button type="submit" class="h-full leading-10 bg-gray-100 text-blue-600 text-base font-bold text-center min-w-[60px]">Add</button>
     </form>
@@ -364,7 +373,7 @@ window.addEventListener('load', function () {
 </div>
 
 <!-- Livewire Component wire-end:afZTdR3JyrMNVzJfj4sa -->            <div wire:id="IBiN5jVTRaQmRckBenim" class="flex" x-data="{ isFavorite: $wire.entangle(&#39;isFavorite&#39;), mode: $wire.entangle(&#39;mode&#39;), hidden: $wire.entangle(&#39;hidden&#39;), showTooltip: false }">
-    <span class="relative inline-flex" x-on:mouseover="showTooltip = true" x-on:mouseleave="showTooltip = false" onclick="favorite(${vid.id})">
+    <span class="relative inline-flex" x-on:mouseover="showTooltip = true" x-on:mouseleave="showTooltip = false" onclick="favoriteMain({{$vid->id}})">
         <button class="text-gray-700 hover:text-gray-900 overflow-hidden toggle-favorite" wire:key="clip-1470" wire:click.stop.prevent="toggleFavorite();">
             <svg class="fill-current h-6 w-6 outline-none translate-y-8 text-white not-added !translate-y-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" fill="none"><path d="M5.40956 2.51538C4.45258 1.76408 3.08107 1.83357 2.20944 2.72795C1.25976 3.7024 1.26439 5.28574 2.2182 6.26443L5.74895 9.8873C5.8954 10.0376 6.13284 10.0376 6.27929 9.8873L9.7917 6.28538C10.7392 5.30775 10.7362 3.72885 9.7822 2.74999C8.90375 1.84862 7.52809 1.77191 6.57265 2.52393C6.48883 2.58991 6.40825 2.66226 6.33151 2.74099L5.99605 3.08587L5.65599 2.73693C5.57761 2.65651 5.49525 2.58265 5.40956 2.51538ZM7.04767 3.43893C7.60289 2.86945 8.49943 2.86653 9.06605 3.44793C9.64336 4.04031 9.64309 5.00077 9.07454 5.58846L9.0736 5.58943L6.01425 8.72674L2.93435 5.56648C2.3556 4.97264 2.35777 4.00853 2.92559 3.42589C3.4791 2.85794 4.37486 2.85516 4.93984 3.43488L5.2799 3.78381C5.46824 3.97706 5.72669 4.086 5.99654 4.08587C6.26638 4.08574 6.52472 3.97655 6.71288 3.78312L7.04767 3.43893Z" fill="currentColor"></path></svg>            <svg x-show="isFavorite" class="fill-current h-6 w-6 text-red-700 outline-none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" fill="none" style="display: none;"><path d="M5.65599 2.73693C4.70219 1.75824 3.15912 1.75349 2.20944 2.72795C1.25976 3.7024 1.26439 5.28574 2.2182 6.26443L5.74895 9.8873C5.8954 10.0376 6.13284 10.0376 6.27929 9.8873L9.7917 6.28538C10.7392 5.30775 10.7362 3.72885 9.7822 2.74999C8.82669 1.76955 7.28289 1.76479 6.33151 2.74099L5.99605 3.08587L5.65599 2.73693Z" fill="currentColor"></path></svg>        </button>
         <div x-show="showTooltip" class="tooltip max-md:!hidden" style="display: none;">
@@ -393,7 +402,9 @@ window.addEventListener('load', function () {
 
     function favorite(id) {
 
-$.ajax({
+        @if(!Session::has('logedin'))
+        
+        $.ajax({
       headers: {
         'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
       },
@@ -402,12 +413,23 @@ $.ajax({
       data: {productID: id, product_type: 'video'},
       success:function(response)
       {
+        $('#errorboxM').css('display', 'block');
+        $('#errorboxM').html('"Added to favorites succesfully!"');
+        setTimeout(function() {
+    $('#errorBoxM').fadeOut('fast');
+}, 7000);
         alert("video added to favourites!");
       },
       error: function(response) {
-        console.log(response);
+
+        $('#errorBoxM').html(response);
       }
   });
+  @else
+
+  alert('Please log-in first!');
+
+  @endif
 
 }
 
@@ -548,14 +570,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             </div>
                         </div>
                         <div wire:id="lSLPEAZBzyKS4s3a0PeU" class="flex relative z-40" x-data="{ isClipInAnyUserCollection: $wire.entangle(&#39;isClipInAnyUserCollection&#39;), mode: $wire.entangle(&#39;mode&#39;), showModal: $wire.entangle(&#39;showModal&#39;), hidden: $wire.entangle(&#39;hidden&#39;), showTooltip: false}">
-    <span class="relative inline-flex" x-on:mouseover="showTooltip = true" x-on:mouseleave="showTooltip = false">
-        <button class="relative add-to-collection-button overflow-hidden" wire:click.stop.prevent="toggleModal()">
-            <svg x-bind:class="{&#39;text-white&#39;: mode == &#39;light&#39;, &#39;not-added&#39;: !isClipInAnyUserCollection, &#39;!translate-y-0&#39;: !hidden}" x-show="!isClipInAnyUserCollection" class="fill-current h-6 w-6 text-gray-700 outline-none translate-y-8 not-added !translate-y-0" xmlns="http://www.w3.org/2000/svg" fill="currentColor" stroke="none" viewBox="0 0 24 24"><path d="M20 2H8c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2V4c0-1.103-.897-2-2-2zM8 16V4h12l.002 12H8z"></path><path d="M4 8H2v12c0 1.103.897 2 2 2h12v-2H4V8zm11-2h-2v3h-3v2h3v3h2v-3h3V9h-3z"></path></svg>            <svg x-show="isClipInAnyUserCollection" class="fill-current h-6 w-6 text-[#198ACF] outline-none" xmlns="http://www.w3.org/2000/svg" fill="currentColor" stroke="none" viewBox="0 0 24 24" style="display: none;"><path d="M4 22h12v-2H4V8H2v12c0 1.103.897 2 2 2z"></path><path d="M20 2H8c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2V4c0-1.103-.897-2-2-2zm-2 9h-3v3h-2v-3h-3V9h3V6h2v3h3v2z"></path></svg>        </button>
+    <span class="relative inline-flex" x-on:mouseover="showTooltip = true" x-on:mouseleave="showTooltip = false" onclick="collection({{$vid->id}})">
+        <button class="relative add-to-collection-button overflow-hidden">
+            <svg class="fill-current h-6 w-6 text-gray-700 outline-none translate-y-8 not-added !translate-y-0" xmlns="http://www.w3.org/2000/svg" fill="currentColor" stroke="none" viewBox="0 0 24 24"><path d="M20 2H8c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2V4c0-1.103-.897-2-2-2zM8 16V4h12l.002 12H8z"></path><path d="M4 8H2v12c0 1.103.897 2 2 2h12v-2H4V8zm11-2h-2v3h-3v2h3v3h2v-3h3V9h-3z"></path></svg>            <svg x-show="isClipInAnyUserCollection" class="fill-current h-6 w-6 text-[#198ACF] outline-none" xmlns="http://www.w3.org/2000/svg" fill="currentColor" stroke="none" viewBox="0 0 24 24" style="display: none;"><path d="M4 22h12v-2H4V8H2v12c0 1.103.897 2 2 2z"></path><path d="M20 2H8c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2V4c0-1.103-.897-2-2-2zm-2 9h-3v3h-2v-3h-3V9h3V6h2v3h3v2z"></path></svg>        </button>
         <div x-show="showTooltip" class="tooltip max-md:!hidden" style="display: none;">
     Add to Collections
 </div>
      </span>
-    <div x-show="showModal" style="display: none;">
+    <div x-show="showModal" style="display: none;" id="collectionModal">
         <div class="modal-wrapper-add-to-collection flex flex-col items-center justify-center absolute bottom-0 right-[-15px] z-60 cursor-auto min-w-[300px] rounded-lg " style="transform: translateY(100%) translateY(10px);">
             <div class="flex flex-col bg-white fixed top-0 left-0 md:relative md:rounded-lg md:shadow-lg h-full md:h-auto p-4 w-full" @click.outside="showModal = false;">
                 <div class="flex justify-start relative md:justify-between items-center ">
@@ -571,9 +593,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <path fill="#1B95E0" fill-rule="evenodd" d="M14 7c.552 0 1 .448 1 1v5h5c.552 0 1 .448 1 1s-.448 1-1 1h-5v5c0 .552-.448 1-1 1s-1-.448-1-1v-5H8c-.552 0-1-.448-1-1s.448-1 1-1h5V8c0-.552.448-1 1-1z"></path>
 </svg>        Create new collection
     </div>
-    <form x-show="showForm" class="flex space-between items-center border border-[#1b95e0] justify-items-stretch rounded-sm overflow-hidden h-full" wire:submit.prevent="addUserCollection" style="display: none;">
-        <input class="px-2 border-0 outline-0 h-full" placeholder="Add collection name" type="text" wire:model="collectionName">
-        <button type="submit" @click="window.clipActions?.closeAllModals(); showResponse = true; setTimeout(() =&gt; {showResponse = false; }, 3000); showForm = !showForm" class="h-full leading-10 bg-gray-100 text-blue-600 text-base font-bold text-center min-w-[60px]">Add</button>
+    <form method="post" action="{{ route('collection.post') }}" enctype="multipart/form-data" x-show="showForm" class="flex space-between items-center border border-[#1b95e0] justify-items-stretch rounded-sm overflow-hidden h-full" style="display: none;">
+        @csrf
+        <input class="px-2 border-0 outline-0 h-full" placeholder="Add collection name" type="text" wire:model="collectionName" name="name">
+        <input type="hidden" name="productID" value="${vid.id}">
+        <input type="hidden" name="product_type" value="video">
+        <button type="submit" class="h-full leading-10 bg-gray-100 text-blue-600 text-base font-bold text-center min-w-[60px]">Add</button>
     </form>
 
 </div>
@@ -590,9 +615,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 
 <!-- Livewire Component wire-end:lSLPEAZBzyKS4s3a0PeU -->                        <div wire:id="GnXHxT2r2t17nzwxRy9n" class="flex" x-data="{ isFavorite: $wire.entangle(&#39;isFavorite&#39;), mode: $wire.entangle(&#39;mode&#39;), hidden: $wire.entangle(&#39;hidden&#39;), showTooltip: false }">
-    <span class="relative inline-flex" x-on:mouseover="showTooltip = true" x-on:mouseleave="showTooltip = false">
+    <span class="relative inline-flex" x-on:mouseover="showTooltip = true" x-on:mouseleave="showTooltip = false" onclick="favorite({{$vid->id}})">
         <button class="text-gray-700 hover:text-gray-900 overflow-hidden toggle-favorite" wire:key="clip-514903" wire:click.stop.prevent="toggleFavorite();">
-            <svg x-bind:class="{&#39;text-white&#39;: mode == &#39;light&#39;, &#39;not-added&#39;: !isFavorite, &#39;!translate-y-0&#39;: !hidden}" x-show="!isFavorite" class="fill-current h-6 w-6 outline-none translate-y-8 not-added !translate-y-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" fill="none"><path d="M5.40956 2.51538C4.45258 1.76408 3.08107 1.83357 2.20944 2.72795C1.25976 3.7024 1.26439 5.28574 2.2182 6.26443L5.74895 9.8873C5.8954 10.0376 6.13284 10.0376 6.27929 9.8873L9.7917 6.28538C10.7392 5.30775 10.7362 3.72885 9.7822 2.74999C8.90375 1.84862 7.52809 1.77191 6.57265 2.52393C6.48883 2.58991 6.40825 2.66226 6.33151 2.74099L5.99605 3.08587L5.65599 2.73693C5.57761 2.65651 5.49525 2.58265 5.40956 2.51538ZM7.04767 3.43893C7.60289 2.86945 8.49943 2.86653 9.06605 3.44793C9.64336 4.04031 9.64309 5.00077 9.07454 5.58846L9.0736 5.58943L6.01425 8.72674L2.93435 5.56648C2.3556 4.97264 2.35777 4.00853 2.92559 3.42589C3.4791 2.85794 4.37486 2.85516 4.93984 3.43488L5.2799 3.78381C5.46824 3.97706 5.72669 4.086 5.99654 4.08587C6.26638 4.08574 6.52472 3.97655 6.71288 3.78312L7.04767 3.43893Z" fill="currentColor"></path></svg>            <svg x-show="isFavorite" class="fill-current h-6 w-6 text-red-700 outline-none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" fill="none" style="display: none;"><path d="M5.65599 2.73693C4.70219 1.75824 3.15912 1.75349 2.20944 2.72795C1.25976 3.7024 1.26439 5.28574 2.2182 6.26443L5.74895 9.8873C5.8954 10.0376 6.13284 10.0376 6.27929 9.8873L9.7917 6.28538C10.7392 5.30775 10.7362 3.72885 9.7822 2.74999C8.82669 1.76955 7.28289 1.76479 6.33151 2.74099L5.99605 3.08587L5.65599 2.73693Z" fill="currentColor"></path></svg>        </button>
+            <svg class="fill-current h-6 w-6 outline-none translate-y-8 not-added !translate-y-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" fill="none"><path d="M5.40956 2.51538C4.45258 1.76408 3.08107 1.83357 2.20944 2.72795C1.25976 3.7024 1.26439 5.28574 2.2182 6.26443L5.74895 9.8873C5.8954 10.0376 6.13284 10.0376 6.27929 9.8873L9.7917 6.28538C10.7392 5.30775 10.7362 3.72885 9.7822 2.74999C8.90375 1.84862 7.52809 1.77191 6.57265 2.52393C6.48883 2.58991 6.40825 2.66226 6.33151 2.74099L5.99605 3.08587L5.65599 2.73693C5.57761 2.65651 5.49525 2.58265 5.40956 2.51538ZM7.04767 3.43893C7.60289 2.86945 8.49943 2.86653 9.06605 3.44793C9.64336 4.04031 9.64309 5.00077 9.07454 5.58846L9.0736 5.58943L6.01425 8.72674L2.93435 5.56648C2.3556 4.97264 2.35777 4.00853 2.92559 3.42589C3.4791 2.85794 4.37486 2.85516 4.93984 3.43488L5.2799 3.78381C5.46824 3.97706 5.72669 4.086 5.99654 4.08587C6.26638 4.08574 6.52472 3.97655 6.71288 3.78312L7.04767 3.43893Z" fill="currentColor"></path></svg>            <svg x-show="isFavorite" class="fill-current h-6 w-6 text-red-700 outline-none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" fill="none" style="display: none;"><path d="M5.65599 2.73693C4.70219 1.75824 3.15912 1.75349 2.20944 2.72795C1.25976 3.7024 1.26439 5.28574 2.2182 6.26443L5.74895 9.8873C5.8954 10.0376 6.13284 10.0376 6.27929 9.8873L9.7917 6.28538C10.7392 5.30775 10.7362 3.72885 9.7822 2.74999C8.82669 1.76955 7.28289 1.76479 6.33151 2.74099L5.99605 3.08587L5.65599 2.73693Z" fill="currentColor"></path></svg>        </button>
         <div x-show="showTooltip" class="tooltip max-md:!hidden" style="display: none;">
     Add to Favorites
 </div>
@@ -606,9 +631,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <h1 class="xk:line-clamp-1 mb-2 text-center text-xl font-bold leading-tight text-gray-900 line-clamp-2 lg:text-2xl">{{$vid->title}}</h1>
                 <p x-show="open" class="mb-4 text-center leading-tight text-gray-700 xl:!block" style="display: none;">{{$vid->description}}</p>
                                     <div class="my-4 flex items-center justify-center">
-                        <a href="{{ url('/') }}/author/guidefore-at-gmailcom/" class="group flex items-center text-sm font-bold text-gray-700">
+                        <a class="group flex items-center text-sm font-bold text-gray-700">
                             <img src="{{ url('/') }}/assets/default.svg" alt="" class="mr-2 h-8 w-8 rounded-full">
-                            by <span class="ml-1 text-gray-900 group-hover:text-blue-400">guidefore@gmail.com</span>
+                            by <span class="ml-1 text-gray-900 group-hover:text-blue-400">{{$vid->author}}</span>
                         </a>
                     </div>
                                                                             <div class="relative mx-auto mt-4 w-full lg:mt-0 lg:max-w-[20rem] lg:w-full" x-data="{ &#39;showAttributionModal&#39;: false }">
@@ -1013,6 +1038,66 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
         </div>
     </div>
+
+    <script>
+
+            @if(Session::has('logedin'))
+
+            function favoriteMain(id) {
+
+$.ajax({
+      headers: {
+        'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+      },
+      url: '{{ url('/') }}/post/favorite',
+      method: 'POST',
+      data: {productID: id, product_type: 'video'},
+      success:function(response)
+      {
+        $('#errorboxM').css('display', 'flex');
+        $('#errorboxM').html('Added to favorites');
+        setTimeout(function() {
+    $('#errorboxM').fadeOut('fast');
+}, 7000);
+      },
+      error: function(response) {
+        $('#errorboxM').html(response);
+        alert(response);
+      }
+  });
+}
+  @else
+  function favoriteMain(id) {
+
+  $('#errorboxM').css('display', 'flex');
+        $('#errorboxM').html('You must be logged in to add a clip to your favorites.');
+        setTimeout(function() {
+    $('#errorboxM').fadeOut('fast');
+  }, 7000);
+    }
+
+    @endif
+
+    @if(Session::has('logedin'))
+function collectionMain(id){
+
+var modal = $('#collectionModal');
+
+modal.toggle();
+}
+
+@else
+  function collectionMain(id) {
+
+  $('#errorboxM').css('display', 'flex');
+        $('#errorboxM').html('You must be logged in to add a clip to your collection.');
+        setTimeout(function() {
+    $('#errorboxM').fadeOut('fast');
+  }, 7000);
+    }
+
+    @endif
+        </script>
 
     <script>
         /** TODO move to another file?? */

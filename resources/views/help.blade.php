@@ -9,6 +9,16 @@
 <meta name="author" content="Videvo.net">
 <link rel="canonical" href="./help">
 <link rel="stylesheet" href="./assets/launch-1689580883906.css">
+
+<style>
+    body > .skiptranslate{display: none;}
+    .skiptranslate{
+        font-size: 0%;
+    }
+    .goog-te-gadget > span{
+        display:none;
+    }
+    </style>
 <style>
         body { background: #ffffff; }
         .navbar .navbar-inner { background: #ffffff; }

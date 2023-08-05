@@ -102,6 +102,20 @@
                 <h3 class="mb-2 text-xl font-bold text-white">Site language</h3>
                 <div class="flex items-center justify-center gap-2 lg:justify-start">
                    {{-- LANGUAGE LINKS HERE --}}
+                   <div id="google_translate_element"></div>
+
+<script>
+
+
+    function googleTranslateElementInit() {
+new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'en,ar', autoDisplay: false, multilanguagePage: true}, 'google_translate_element');
+}
+// var a = document.querySelector("#google_translate_element select");
+// a.selectedIndex=1;
+// a.dispatchEvent(new Event('change'));
+
+</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+                   
                 </div>
             </div>
         </div>

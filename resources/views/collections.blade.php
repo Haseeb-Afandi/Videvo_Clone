@@ -69,6 +69,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <link rel="next" href="https://www.videvo.net/collections/?page=2">
 
 <link rel="canonical" href="https://www.videvo.net/collections/">
+<style>
+    body > .skiptranslate{display: none;}
+    .skiptranslate{
+        font-size: 0%;
+    }
+    .goog-te-gadget > span{
+        display:none;
+    }
+    </style>
 
 <!-- end SEO -->
 

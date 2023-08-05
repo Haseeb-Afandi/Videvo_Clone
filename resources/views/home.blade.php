@@ -65,6 +65,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <link rel="alternate" hreflang="en" href="{{ url('/') }}/">
 <link rel="alternate" hreflang="es" href="{{ url('/') }}/es/">
 <link rel="alternate" hreflang="de" href="{{ url('/') }}/de/">
+<style>
+    body > .skiptranslate{display: none;}
+    .skiptranslate{
+        font-size: 0%;
+    }
+    .goog-te-gadget > span{
+        display:none;
+    }
+    </style>
 
 
 <link rel="canonical" href="{{ url('/') }}/">

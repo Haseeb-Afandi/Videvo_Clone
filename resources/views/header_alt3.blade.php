@@ -1,3 +1,6 @@
+<div id="errorboxM" style="position: fixed; z-index: 5; bottom: 10%; right: 5%; background-color:white; width: 350px; height: 60px; padding: 20px; align-items: center; justify-content:center; border-radius: 5px; display: none; font-size: 1rem;"></div>
+
+
 <header class=" fixed top-0 left-0 right-0 z-50 flex flex-col lg:flex" x-data="{ openSearch: false }">
     <div class="flex min-h-[3.5rem] items-center justify-between gap-2 px-4 duration-300 lg:h-16 lg:gap-0 lg:transition-all max-lg:h-full w-full" :class="{&#39;max-lg:items-start&#39;: openSearch}">
         <div class="flex flex-1 items-center gap-3 sm:gap-4 lg:gap-8 max-lg:!gap-y-0" :class="{&#39;max-lg:h-full max-lg:flex-wrap max-sm:max-w-[80%]&#39;: openSearch}">
