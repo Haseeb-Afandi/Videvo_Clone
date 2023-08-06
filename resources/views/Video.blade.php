@@ -140,6 +140,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <title>Free Stock Video Footage Download 4K HD Clips</title>
 <meta name="description" content="Download free stock video footage with 4k and HD clips available. Click here to download royalty-free licensing videos from Videvo today.">
 <style>
+     body{
+        top: 0px !important;
+    }
     body > .skiptranslate{display: none;}
     .skiptranslate{
         font-size: 0%;
@@ -411,14 +414,14 @@ window.addEventListener('load', function () {
             </a>
             <div class="absolute bottom-0 right-0 z-30 inline-flex w-auto items-end justify-end gap-2 px-4 py-2 transition-all duration-300 ">
             <div wire:id="mjvfGYOqHAj8Yd3SHRca" class="flex relative z-40" x-data="{ isClipInAnyUserCollection: $wire.entangle(&#39;isClipInAnyUserCollection&#39;), mode: $wire.entangle(&#39;mode&#39;), showModal: $wire.entangle(&#39;showModal&#39;), hidden: $wire.entangle(&#39;hidden&#39;), showTooltip: false}">
-    <span class="relative inline-flex" x-on:mouseover="showTooltip = true" x-on:mouseleave="showTooltip = false" onclick="collection(${vid.id})">
+    <span class="relative inline-flex" x-on:mouseover="showTooltip = true" x-on:mouseleave="showTooltip = false" onclick="collection${vid.id}(${vid.id})">
         <button class="relative add-to-collection-button overflow-hidden" wire:click.stop.prevent="toggleModal()">
             <svg class="fill-current h-6 w-6 text-gray-700 outline-none translate-y-8 text-white not-added !translate-y-0" xmlns="http://www.w3.org/2000/svg" fill="currentColor" stroke="none" viewBox="0 0 24 24"><path d="M20 2H8c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2V4c0-1.103-.897-2-2-2zM8 16V4h12l.002 12H8z"></path><path d="M4 8H2v12c0 1.103.897 2 2 2h12v-2H4V8zm11-2h-2v3h-3v2h3v3h2v-3h3V9h-3z"></path></svg>            <svg x-show="isClipInAnyUserCollection" class="fill-current h-6 w-6 text-[#198ACF] outline-none" xmlns="http://www.w3.org/2000/svg" fill="currentColor" stroke="none" viewBox="0 0 24 24" style="display: none;"><path d="M4 22h12v-2H4V8H2v12c0 1.103.897 2 2 2z"></path><path d="M20 2H8c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2V4c0-1.103-.897-2-2-2zm-2 9h-3v3h-2v-3h-3V9h3V6h2v3h3v2z"></path></svg>        </button>
         <div x-show="showTooltip" class="tooltip max-md:!hidden" style="display: none;">
     Add to Collections
 </div>
      </span>
-    <div x-show="showModal" style="display: none; position: absolute; bottom: 30; right: 0;" id="collectionModal">
+    <div x-show="showModal" style="display: none; position: absolute; bottom: 30; right: 0;" id="collectionModal${vid.id}">
         <div class="modal-wrapper-add-to-collection flex flex-col items-center justify-center absolute bottom-0 right-[-15px] z-60 cursor-auto min-w-[300px] rounded-lg " style="transform: translateY(100%) translateY(10px);">
             <div class="flex flex-col bg-white fixed top-0 left-0 md:relative md:rounded-lg md:shadow-lg h-full md:h-auto p-4 w-full" @click.outside="showModal = false;">
                 <div class="flex justify-start relative md:justify-between items-center ">
@@ -468,6 +471,35 @@ window.addEventListener('load', function () {
 <!-- Livewire Component wire-end: -->        </div>
     </div>`);
 
+    @if(Session::has('logedin'))
+
+var script = document.createElement("script");
+
+script.innerHTML = `function collection${vid.id}(id){
+    var modal = $(\`#collectionModal${vid.id}\`);
+modal.toggle();
+}`;
+
+document.body.appendChild(script);
+
+@else
+
+var script = document.createElement("script");
+
+script.innerHTML = `function collection${vid.id}(id){
+
+$('#errorboxM').css('display', 'block');
+    $('#errorboxM').html('You must be logged in to add a clip to your collection.');
+    setTimeout(() => {
+$('#errorboxM').fadeOut('fast');
+}, 5000);
+
+}`;
+
+document.body.appendChild(script);
+
+@endif
+
     // var canvas = document.getElementById(img);
     // var video = document.getElementById(video);
     // canvas.getContext('2d').drawImage(video, 0, 0, video.videoWidth, video.videoHeight);
@@ -483,32 +515,42 @@ window.addEventListener('load', function () {
 
     });
 
+    @if(Session::has('logedin'))
     function favorite(id) {
-
+        
         $.ajax({
-              headers: {
-                'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
-              },
-              url: '{{ url('/') }}/post/favorite',
-              method: 'POST',
-              data: {productID: id, product_type: 'video'},
-              success:function(response)
-              {
-                alert("Added to favorites succesfully!");
-              },
-              error: function(response) {
-                console.log(response);
-              }
-          });
-        
-    }
+      headers: {
+        'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+      },
+      url: '{{ url('/') }}/post/favorite',
+      method: 'POST',
+      data: {productID: id, product_type: 'video'},
+      success:function(response)
+      {
+        $('#errorboxM').css('display', 'block');
+        $('#errorboxM').html('Added to favorites succesfully!');
+        setTimeout(function() {
+    $('#errorboxM').fadeOut('fast');
+}, 7000);
+      },
+      error: function(response) {
 
-    function collection(id){
-        
-        var modal = $('#collectionModal');
+        $('#errorboxM').html(response);
+      }
+  });
+}
+  @else
 
-        modal.toggle();
-    }
+  function favorite(id) {
+
+    $('#errorboxM').css('display', 'block');
+        $('#errorboxM').html('You must be logged in to add a clip to your favorites.');
+        setTimeout(function() {
+    $('#errorboxM').fadeOut('fast');
+}, 5000);
+  }
+
+  @endif
 </script>
 
 
@@ -1665,7 +1707,7 @@ crossorigin="anonymous"></script>
 
 
 
-<script type="text/javascript" id="">window.hj=window.hj||function(){(hj.q=hj.q||[]).push(arguments)};var userId=localStorage.getItem("userID"),userType=localStorage.getItem("userType"),userGeoCountry=localStorage.getItem("userGeoCountry");window.hj("identify",userId,{"User Type":userType,"User Geo Country":userGeoCountry,"User ID":userId});</script><iframe id="_hjSafeContext_71102916" title="_hjSafeContext" tabindex="-1" aria-hidden="true" src="{{ url('/') }}/assets/saved_resource.html" style="display: none !important; width: 1px !important; height: 1px !important; opacity: 0 !important; pointer-events: none !important;"></iframe><div id="onetrust-consent-sdk"><div class="onetrust-pc-dark-filter ot-hide ot-fade-in"></div></div></body><iframe sandbox="allow-scripts allow-same-origin" id="117a1cb0dd739d7" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height:0px;width:0px;display:none;" scrolling="no" src="{{ url('/') }}/assets/saved_resource(1).html">
+<script type="text/javascript" id="">window.hj=window.hj||function(){(hj.q=hj.q||[]).push(arguments)};var userId=localStorage.getItem("userID"),userType=localStorage.getItem("userType"),userGeoCountry=localStorage.getItem("userGeoCountry");window.hj("identify",userId,{"User Type":userType,"User Geo Country":userGeoCountry,"User ID":userId});</script><iframe id="_hjSafeContext_71102916" title="_hjSafeContext" tabindex="-1" aria-hidden="true" src="{{ url('/') }}/assets/saved_resource.html" style="display: none !important; width: 1px !important; height: 1px !important; opacity: 0 !important; pointer-events: none !important;"></iframe><div id="onetrust-consent-sdk" style="display: none"><div class="onetrust-pc-dark-filter ot-hide ot-fade-in"></div></div></body><iframe sandbox="allow-scripts allow-same-origin" id="117a1cb0dd739d7" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height:0px;width:0px;display:none;" scrolling="no" src="{{ url('/') }}/assets/saved_resource(1).html">
     </iframe><iframe sandbox="allow-scripts allow-same-origin" id="12afe1e1b18a184" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height:0px;width:0px;display:none;" scrolling="no" src="{{ url('/') }}/assets/usync.html">
     </iframe><iframe sandbox="allow-scripts allow-same-origin" id="136c7c2b7302219" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height:0px;width:0px;display:none;" scrolling="no" src="{{ url('/') }}/assets/async_usersync.html">
     </iframe><iframe sandbox="allow-scripts allow-same-origin" id="146002b7473e38a" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height:0px;width:0px;display:none;" scrolling="no" src="{{ url('/') }}/assets/user_sync.html">

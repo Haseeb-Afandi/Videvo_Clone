@@ -1,0 +1,142 @@
+body.new-top-bar.audio-redesign-layout:not(.video) .header_container {
+    margin-top: -66px;
+}
+body.new-top-bar.search:not(.video) .header_container,
+body.new-top-bar.my-collections:not(.video) .header_container,
+body.new-top-bar.my-favorites:not(.video) .header_container,
+body.new-top-bar.account-settings:not(.video) .header_container,
+body.new-top-bar.edit-profile:not(.video) .header_container,
+body.new-top-bar.change-password:not(.video) .header_container,
+body.new-top-bar.billing:not(.video) .header_container,
+body.new-top-bar.royalty-free-music-track:not(.video) .header_container,
+body.new-top-bar.sound-effect:not(.video) .header_container
+{
+    margin-top: 0;
+}
+
+.top-bar.nav-wrapper {
+    background: #00263D;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1003 !important;
+    min-height: 66px;
+    border-bottom: none !important;
+}
+.page-template-my-collection.collection-popover-open .top-bar.nav-wrapper {
+    z-index: 9 !important;
+}
+@media screen and (min-width: 768px){
+    .page-template-new_video_details.collection-popover-open .top-bar.nav-wrapper {
+        z-index: 9999!important;
+    }
+}
+.collection-popover-open .top-bar.nav-wrapper {
+    z-index: 10 !important;
+}
+.template-download-page.collection-popover-open .top-bar.nav-wrapper {
+    z-index: 11 !important;
+}
+
+.new-top-bar .top-bar.nav-wrapper.sticky {
+    background: #00263D !important;
+    box-shadow: inset 0 -1px 0 rgba(255,255,255,0.1) !important;
+}
+@media screen and (max-width: 767px) {
+    .page-template-my-collection.collection-popover-open .top-bar.nav-wrapper {
+        z-index: 8!important;
+    }
+    .template-download-page.collection-popover-open .top-bar.nav-wrapper {
+        z-index: 9 !important;
+    }
+}
+@media screen and (max-width: 550px){
+    .top-bar {
+        gap: 0;
+    }
+}
+
+.videvo-logo {
+    margin-right: 20px;
+}
+
+
+.videvo-logo a {
+    display: flex;
+    align-items: center;
+    background: transparent;
+}
+.videvo-logo a svg path.original-logo{
+    fill: white;
+} 
+body:not(.old-top-bar) .nav-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    min-height: 66px;
+    width: 100%;
+}
+.dark-nav.nav-wrapper {
+    background: #00263D;
+    box-shadow: inset 0 -1px 0 rgba(255,255,255,0.1);
+}
+.dark-nav.nav-wrapper.nav-transparent {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.0) 0%, rgba(0, 0, 0, 0.8) 100%) !important;
+    box-shadow: unset !important;
+    border: none !important;
+}
+
+.search-logo {
+    background: transparent;
+    border: none;
+    padding-right: 12px;
+    opacity: 0.8;
+}
+
+#mobile-search-icon img {
+    filter: invert(1);
+}
+
+.search-logo:hover {
+    opacity: 1;
+}
+@media screen and (max-width: 1023px) {
+    body:not(.old-top-bar) .top-bar.nav-wrapper{
+        min-height: 60px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .videvo-logo {
+        margin-right: 8px;
+    }
+}
+
+
+@media screen and (max-width: 769px) {
+    .videvo-logo {
+        display: flex;
+        flex: 1;
+    }
+    .top-bar.nav-wrapper {
+        padding-left: 16px !important;
+        padding-right: 16px !important;
+    }
+    .search-logo {
+        border-right: solid 1px rgba(255,255,255,0.4);
+    }
+
+}
+
+

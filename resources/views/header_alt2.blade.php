@@ -1,4 +1,4 @@
-<div id="errorBoxM" style="position: absolute; bottom: 20; right: 0; background-color:aliceblue;"></div>
+<div id="errorboxM" style="position: fixed; z-index: 5; bottom: 10%; right: 5%; background-color:white; width: 350px; height: auto; padding: 20px; align-items: center; justify-content:center; border-radius: 5px; display: none; font-size: 1rem;"></div>
 
 <header class=" fixed top-0 left-0 right-0 z-50 flex flex-col lg:flex" x-data="{ openSearch: false }">
     <div class="flex min-h-[3.5rem] items-center justify-between gap-2 px-4 duration-300 lg:h-16 lg:gap-0 lg:transition-all max-lg:h-full w-full" :class="{&#39;max-lg:items-start&#39;: openSearch}">
@@ -223,7 +223,7 @@
 </a>
 </nav>
     </div>
-    <div :class="{ hidden: !openMenu }" class="fixed top-0 left-0 right-0 z-40 flex h-screen flex-col bg-white istock-six:hidden hidden">
+    <div :class="{ hidden: !openMenu }" class="fixed top-0 left-0 right-0 z-40 flex h-screen flex-col bg-white istock-six:hidden hidden" id="mobMenu">
         <nav class="flex flex-col">
     <div class="mb-2 flex items-center justify-between border-b border-gray-200 py-2 pl-6 pr-4">
         <p class="text-lg font-bold text-gray-900">Menu</p>
@@ -286,7 +286,7 @@
     </div>
 </nav>
 <div class="flex flex-col gap-2 p-4">
-    <a href="{{ url('/') }}/premium" class="flex w-full items-center justify-center rounded-lg bg-blue-400 py-3 font-bold text-white">
+    <a href="{{ url('/') }}/premium-plans" class="flex w-full items-center justify-center rounded-lg bg-blue-400 py-3 font-bold text-white">
         Join Videvo    </a>
     <a href="{{ url('/') }}/Log-in" class="flex w-full items-center justify-center rounded-lg bg-gray-200 py-3 font-bold text-gray-800">
         Log in    </a>
@@ -368,7 +368,7 @@
                     </div>
                     @else
                     <div class="flex items-center gap-2 order-2" :class="{'max-lg:mt-[13px]': openSearch}">
-                            <a href="{{ url('/') }}/premium" class="hidden rounded-lg border-2 border-white/50 py-1 px-3 font-bold text-white hover:border-white sm:block">
+                            <a href="{{ url('/') }}/premium-plans" class="hidden rounded-lg border-2 border-white/50 py-1 px-3 font-bold text-white hover:border-white sm:block">
                     Join Videvo                </a>
                 <a href="{{ url('/') }}/Log-in" class="rounded-lg py-1 px-3 font-bold text-white/75 hover:text-white">
                     Log in                </a>

@@ -189,6 +189,7 @@ class AudioController extends Controller
             'duration' => $duration,
             'Audio' => $AudioName,
             'thumbnail' => $ThumbnailName,
+            'format' => $request->Audio->extension(),
         ]);
 
         return redirect()->back();

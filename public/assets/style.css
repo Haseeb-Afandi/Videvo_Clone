@@ -1,0 +1,113 @@
+/*!
+Theme Name: ViDEVO Blog
+Theme URI: https://www.videvo.net/
+Author: eJump
+Author URI: https://ejump.ro/
+Description: Custom theme for Videvo Blog
+Version: 1.0.0
+*/
+
+/*  Fix for header when logged in */
+.logged-in.admin-bar #page_header_container .nav-wrapper { top: 32px; }
+/*  Fix for svg logo */
+#page_header_container #logo-div #logo { width: 90px; }
+#menu-headertoprightmenu2 img:not(.empty-bolt-light-icon) { margin-top: 0; }
+/*  WPML language switcher footer styles */
+.language-switcher .wpml-ls-legacy-list-horizontal { padding: 0; }
+.language-switcher .wpml-ls-legacy-list-horizontal .wpml-ls-item { margin: 0 4% 0 0; }
+.language-switcher { margin-bottom: 10px; }
+.language-switcher a {
+    font-weight: 700;
+    color: #6e6e6e;
+    text-decoration: none;
+    background: transparent;
+    border: none;
+    border-radius: 4px;
+    width: 100px;
+    height: 36px;
+    padding: 9px;
+    margin: 0 4% 0 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.language-switcher a:hover,
+.language-switcher a:active,
+.language-switcher a:focus,
+.language-switcher .wpml-ls-current-language a {
+    color: #fff;
+    background: #000;
+}
+/*	footer social icons fix for elementor pages */
+.footer_wrapper i.fa {
+	font-family: 'FontAwesome' !important;
+}
+
+/*  footer updates */
+.footer-class .container {
+    width: 100%;
+    max-width: 1480px;
+}
+.footer-class .footer_wrapper h3 {
+    font-size: 20px;
+    font-weight: 700;
+}
+.footer-class .footer_wrapper p {
+    text-align: left;
+}
+.footer-class #menu-quicklinks li {
+    display: inline-block;
+    width: 49%!important;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 30px;
+}
+.footer-class #menu-quicklinks li a {
+    padding-left: 0;
+}
+.footer-class #menu-quicklinks li a:hover,
+.footer-class #menu-quicklinks li a:focus,
+.footer-class #menu-quicklinks li a:active {
+    background: 0 0;
+    text-decoration: underline;
+}
+.footer-class #footer-social {
+    border-top: none;
+}
+.footer-class .twitter-btn, .footer-class .youtube-btn, .footer-class .fb-btn, .footer-class .g-plus-btn, .footer-class .instagram-btn {
+    display: inline-flex;
+    height: 36px;
+    font-size: 20px;
+    margin-right: 12px;
+    color: #fff;
+    width: 36px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+@media screen and (max-width: 992px) {
+	.footer-class .footer_container {
+    	padding-left: 0;
+    	padding-right: 0;
+	}
+	.footer-class .col-md-4 { text-align: center; }
+	.footer-class .AdvancedText {
+    	margin: 0;
+		text-align: center;
+	}
+	.footer-class .footer-menu { padding-bottom: 10px; }
+}
+@media screen and (min-width:992px) {
+	.footer_wrapper .col-md-4.footer-widget-2 {
+		width: 40%;
+	}
+	.footer_wrapper .col-md-4 {
+		width: 30%;
+	}
+	.footer-class #menu-quicklinks li {
+		text-align: left;
+	}
+}
+.footer-class .footer_wrapper #advanced_text-6 h3 {
+    margin-bottom: 3px;
+}

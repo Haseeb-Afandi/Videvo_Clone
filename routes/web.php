@@ -80,13 +80,18 @@ Route::get('Audio', function () {
         'tag' => ''
     ]);
 });
+Route::get('Audio/sort/random/', function () {
+    return view('sortRandom');
+});
 Route::get('Audio/{tag}', function ($tag) {
     return view('audio',[
         'tag' => '/'.$tag
     ]);
 });
 Route::get('royalty-free-music', function () {
-    return view('audio');
+    return view('audio',[
+        'tag' => ''
+    ]);
 });
 Route::get('AudioSingle/{id}', function (Audioa $id) {
     return view('audioSingle', [
@@ -187,6 +192,15 @@ Route::get('collections', function () {
 Route::get('Help', function () {
     return view('help');
 });
+Route::get('help', function () {
+    return view('help');
+});
+Route::get('video-editing-templates/', function () {
+    return view('template');
+});
+Route::get('a/privacy-policy/', function () {
+    return view('privacyPolicy');
+});
 Route::get('premium-plans', function () {
     return view('premium');
 });
@@ -256,6 +270,60 @@ Route::get('admindashboard', function () {
 });
 Route::get('dashboard', function () {
     return view('dashboard');
+});
+Route::get('11-faqs', function () {
+    return view('faqs');
+});
+Route::get('article/31-how-do-i-provide-attribution', function () {
+    return view('howAttribution');
+});
+Route::get('article/22-can-i-use-content-from-videvo-in-my-youtube-videos', function () {
+    return view('contentYoutube');
+});
+Route::get('article/45-can-clips-on-videvo-be-used-for-commercial-purposes', function () {
+    return view('commercialPurpose');
+});
+Route::get('article/20-why-am-i-redirected', function () {
+    return view('istockContent');
+});
+Route::get('article/44-how-do-you-manage-my-data', function () {
+    return view('manageData');
+});
+Route::get('article/17-can-i-contribute-my-own-clips-to-the-site', function () {
+    return view('ownClips');
+});
+Route::get('article/43-how-do-i-cancel-my-premium-subscription', function () {
+    return view('premiumSubscription');
+});
+Route::get('article/58-advanced-search-commands', function () {
+    return view('advanceSearch');
+});
+Route::get('article/41-saving-clips-to-your-collection', function () {
+    return view('favoritesCollection');
+});
+
+Route::get('6-licensing', function () {
+    return view('licensing');
+});
+Route::get('6-licensing', function () {
+    return view('licensing');
+});
+Route::get('5-accounts', function () {
+    return view('accounts');
+});
+Route::get('7-billing', function () {
+    return view('billing');
+});
+Route::get('8-downloading', function () {
+    return view('downloading');
+});
+Route::get('4-subscriptions', function () {
+    return view('subscription');
+});
+Route::get('article/{type}', function ($type) {
+    return view('multiArticle',[
+        'type' => $type
+    ]);
 });
 Route::post('users/register', [UserController::class, 'store'])->name('store.post');
 Route::post('users/login', [UserController::class, 'login'])->name('login.post');

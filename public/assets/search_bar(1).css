@@ -1,0 +1,22 @@
+@media screen and (max-width: 769px) {
+    #search-bar-desktop {
+        display: none;
+    }
+    #mobile-search-icon {
+        display: flex !important;
+        margin-right: 4px;
+    }
+    #search-bar-mobile {
+        display: flex !important;
+        flex-grow: 1;
+        margin-bottom: 12px;
+        width: 100%;
+    }
+    #search-bar-mobile #search-top {
+        max-width: unset;
+    }
+
+    #search-bar-mobile.hidden {
+        display: none !important;
+    }
+}

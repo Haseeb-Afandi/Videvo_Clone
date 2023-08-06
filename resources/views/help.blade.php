@@ -11,6 +11,9 @@
 <link rel="stylesheet" href="./assets/launch-1689580883906.css">
 
 <style>
+     body{
+        top: 0px !important;
+    }
     body > .skiptranslate{display: none;}
     .skiptranslate{
         font-size: 0%;
@@ -77,7 +80,7 @@
 
   window.addEventListener("load", function(e) {
            var contactButton = document.querySelector('li#contact a' );
-           contactButton.href = "./contact-us/";
+           contactButton.href = "https://www.videvo.net/a/contact-us/";
            contactButton.removeAttribute("data-toggle");
            
            var contactBottomDoc = document.querySelector('a#sbContact' );
@@ -106,7 +109,7 @@
 <header id="mainNav" class="navbar">
 <div class="navbar-inner">
 <div class="container-fluid">
-<a class="brand" href="https://videvo.net/">
+<a class="brand" href="{{ url('/')}}">
 <span>Videvo.net Knowledge Base</span>
 </a>
 <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
@@ -129,7 +132,7 @@
 </header>
 <section id="docsSearch">
 <h1>Got a question?</h1>
-<form action="./helpsearch" method="GET" id="searchBar" autocomplete="off">
+<form action="{{ url('/')}}/searchArticle" method="GET" id="searchBar" autocomplete="off">
 <input type="text" name="query" title="search-query" class="search-query" placeholder="Search the knowledge base" aria-label="Search the knowledge base" value="">
 <button type="submit" aria-label="Search"><i class="icon-search lp"></i><span>Search</span></button>
 <div id="serp-dd" style="display:none;">
@@ -143,16 +146,16 @@
 <section class="most-pop-articles two-col">
 <h2>Most Popular Articles</h2>
 <ul class="popArticles">
-<li><a href="./29-royalty-free-license"><i class="icon-article-doc"></i><span>Royalty-Free License</span></a></li>
-<li><a href="./31-how-do-i-provide-attribution"><i class="icon-article-doc"></i><span>How do I provide attribution?</span></a></li>
-<li><a href="./27-license-types-and-usage"><i class="icon-article-doc"></i><span>License Types and Usage: Full Guide</span></a></li>
-<li><a href="./28-videvo-attribution-license"><i class="icon-article-doc"></i><span>Videvo Attribution License</span></a></li>
-<li><a href="./30-creative-commons-attribution-3-0-cc-by-3-0"><i class="icon-article-doc"></i><span>Creative Commons Attribution 3.0 (CC-BY 3.0)</span></a></li>
-<li><a href="./23-a-quick-guide-to-downloading"><i class="icon-article-doc"></i><span>A Quick Guide to Downloading</span></a></li>
-<li><a href="./24-introduction-to-videvo-plus-and-videvo-pro"><i class="icon-article-doc"></i><span>Premium Plans: Videvo Lite, Plus and Videvo Pro</span></a></li>
-<li><a href="./33-editorial-and-commercial-content-rules"><i class="icon-article-doc"></i><span>"Editorial Use Only" Content</span></a></li>
-<li><a href="./22-can-i-use-content-from-videvo-in-my-youtube-videos"><i class="icon-article-doc"></i><span>Can I use content from Videvo in my YouTube videos?</span></a></li>
-<li><a href="./45-can-clips-on-videvo-be-used-for-commercial-purposes"><i class="icon-article-doc"></i><span>Can I use clips from Videvo for commercial purposes?</span></a></li>
+<li><a href="./article/29-royalty-free-license"><i class="icon-article-doc"></i><span>Royalty-Free License</span></a></li>
+<li><a href="./article/31-how-do-i-provide-attribution"><i class="icon-article-doc"></i><span>How do I provide attribution?</span></a></li>
+<li><a href="./article/27-license-types-and-usage"><i class="icon-article-doc"></i><span>License Types and Usage: Full Guide</span></a></li>
+<li><a href="./article/28-videvo-attribution-license"><i class="icon-article-doc"></i><span>Videvo Attribution License</span></a></li>
+<li><a href="./article/30-creative-commons-attribution-3-0-cc-by-3-0"><i class="icon-article-doc"></i><span>Creative Commons Attribution 3.0 (CC-BY 3.0)</span></a></li>
+<li><a href="./article/23-a-quick-guide-to-downloading"><i class="icon-article-doc"></i><span>A Quick Guide to Downloading</span></a></li>
+<li><a href="./article/24-introduction-to-videvo-plus-and-videvo-pro"><i class="icon-article-doc"></i><span>Premium Plans: Videvo Lite, Plus and Videvo Pro</span></a></li>
+<li><a href="./article/33-editorial-and-commercial-content-rules"><i class="icon-article-doc"></i><span>"Editorial Use Only" Content</span></a></li>
+<li><a href="./article/22-can-i-use-content-from-videvo-in-my-youtube-videos"><i class="icon-article-doc"></i><span>Can I use content from Videvo in my YouTube videos?</span></a></li>
+<li><a href="./article/45-can-clips-on-videvo-be-used-for-commercial-purposes"><i class="icon-article-doc"></i><span>Can I use clips from Videvo for commercial purposes?</span></a></li>
 </ul>
 </section>
 <hr class="sep">
@@ -197,7 +200,7 @@
 </section>
 <footer class="center">
 <p>©
-<a href="https://videvo.net/">Videvo.net</a>
+<a href="{{ url('/')}}">Videvo.net</a>
 2023. <span>Powered by <a rel="nofollow noopener noreferrer" href="https://www.helpscout.com/knowledge-base/?utm_source=docs&amp;utm_medium=footerlink&amp;utm_campaign=Docs+Branding" target="_blank">Help Scout</a></span>
 </p>
 </footer>

@@ -47,6 +47,9 @@
     <link rel="preconnect" href="https://www.googletagmanager.com/">
     <link rel="dns-prefetch" href="https://design.freepikcompany.com/">
     <style>
+         body{
+        top: 0px !important;
+    }
         body > .skiptranslate{display: none;}
         .skiptranslate{
             font-size: 0%;
@@ -2618,6 +2621,7 @@
         }
 
         #onetrust-consent-sdk #onetrust-banner-sdk {
+            display: none;
             background-color: #0B2239;
         }
 

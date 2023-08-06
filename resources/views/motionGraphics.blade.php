@@ -157,6 +157,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <link rel="canonical" href="{{ url('/') }}/free-motion-graphics/">
 
 <style>
+     body{
+        top: 0px !important;
+    }
     body > .skiptranslate{display: none;}
     .skiptranslate{
         font-size: 0%;
@@ -1633,7 +1636,7 @@ crossorigin="anonymous"></script>
 
 
 
-<script type="text/javascript" id="">window.hj=window.hj||function(){(hj.q=hj.q||[]).push(arguments)};var userId=localStorage.getItem("userID"),userType=localStorage.getItem("userType"),userGeoCountry=localStorage.getItem("userGeoCountry");window.hj("identify",userId,{"User Type":userType,"User Geo Country":userGeoCountry,"User ID":userId});</script><iframe id="_hjSafeContext_71102916" title="_hjSafeContext" tabindex="-1" aria-hidden="true" src="{{ url('/') }}/assets/saved_resource.html" style="display: none !important; width: 1px !important; height: 1px !important; opacity: 0 !important; pointer-events: none !important;"></iframe><div id="onetrust-consent-sdk"><div class="onetrust-pc-dark-filter ot-hide ot-fade-in"></div></div></body><iframe sandbox="allow-scripts allow-same-origin" id="117a1cb0dd739d7" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height:0px;width:0px;display:none;" scrolling="no" src="{{ url('/') }}/assets/saved_resource(1).html">
+<script type="text/javascript" id="">window.hj=window.hj||function(){(hj.q=hj.q||[]).push(arguments)};var userId=localStorage.getItem("userID"),userType=localStorage.getItem("userType"),userGeoCountry=localStorage.getItem("userGeoCountry");window.hj("identify",userId,{"User Type":userType,"User Geo Country":userGeoCountry,"User ID":userId});</script><iframe id="_hjSafeContext_71102916" title="_hjSafeContext" tabindex="-1" aria-hidden="true" src="{{ url('/') }}/assets/saved_resource.html" style="display: none !important; width: 1px !important; height: 1px !important; opacity: 0 !important; pointer-events: none !important;"></iframe><div id="onetrust-consent-sdk" style="display: none"><div class="onetrust-pc-dark-filter ot-hide ot-fade-in"></div></div></body><iframe sandbox="allow-scripts allow-same-origin" id="117a1cb0dd739d7" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height:0px;width:0px;display:none;" scrolling="no" src="{{ url('/') }}/assets/saved_resource(1).html">
     </iframe><iframe sandbox="allow-scripts allow-same-origin" id="12afe1e1b18a184" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height:0px;width:0px;display:none;" scrolling="no" src="{{ url('/') }}/assets/usync.html">
     </iframe><iframe sandbox="allow-scripts allow-same-origin" id="136c7c2b7302219" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height:0px;width:0px;display:none;" scrolling="no" src="{{ url('/') }}/assets/async_usersync.html">
     </iframe><iframe sandbox="allow-scripts allow-same-origin" id="146002b7473e38a" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height:0px;width:0px;display:none;" scrolling="no" src="{{ url('/') }}/assets/user_sync.html">

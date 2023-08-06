@@ -70,6 +70,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <link rel="canonical" href="{{ url('/') }}/premium-plans/">
 
 <style>
+     body{
+        top: 0px !important;
+    }
     body > .skiptranslate{display: none;}
     .skiptranslate{
         font-size: 0%;
@@ -1117,4 +1120,4 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
-<script type="text/javascript" id="">window.hj=window.hj||function(){(hj.q=hj.q||[]).push(arguments)};var userId=localStorage.getItem("userID"),userType=localStorage.getItem("userType"),userGeoCountry=localStorage.getItem("userGeoCountry");window.hj("identify",userId,{"User Type":userType,"User Geo Country":userGeoCountry,"User ID":userId});</script><iframe id="_hjSafeContext_52133452" title="_hjSafeContext" tabindex="-1" aria-hidden="true" src="{{ url('/') }}/assets/saved_resource.html" style="display: none !important; width: 1px !important; height: 1px !important; opacity: 0 !important; pointer-events: none !important;"></iframe><script src="{{ url('/') }}/assets/otSDKStub.js" id="onetrust_modal" data-document-language="true" charset="UTF-8" data-domain-script="e616b904-3acd-4e4b-ad07-5deddea821ea"></script><div id="onetrust-consent-sdk"><div class="onetrust-pc-dark-filter ot-hide ot-fade-in"></div></div></body></html>
+<script type="text/javascript" id="">window.hj=window.hj||function(){(hj.q=hj.q||[]).push(arguments)};var userId=localStorage.getItem("userID"),userType=localStorage.getItem("userType"),userGeoCountry=localStorage.getItem("userGeoCountry");window.hj("identify",userId,{"User Type":userType,"User Geo Country":userGeoCountry,"User ID":userId});</script><iframe id="_hjSafeContext_52133452" title="_hjSafeContext" tabindex="-1" aria-hidden="true" src="{{ url('/') }}/assets/saved_resource.html" style="display: none !important; width: 1px !important; height: 1px !important; opacity: 0 !important; pointer-events: none !important;"></iframe><script src="{{ url('/') }}/assets/otSDKStub.js" id="onetrust_modal" data-document-language="true" charset="UTF-8" data-domain-script="e616b904-3acd-4e4b-ad07-5deddea821ea"></script><div id="onetrust-consent-sdk" style="display: none"><div class="onetrust-pc-dark-filter ot-hide ot-fade-in"></div></div></body></html>

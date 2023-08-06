@@ -1,0 +1,337 @@
+const array_intersection = (array1, array2) => {
+    return array1.filter(value => array2.includes(value));
+}
+const isObject = (checkedElement) => {
+    if (
+        typeof props !== "undefined" &&
+        typeof checkedElement === 'object' &&
+        ! Array.isArray(checkedElement) &&
+        checkedElement !== null
+    ) {
+        return true;
+    }
+
+    return false;
+}
+const toggleDropDown = (event) => {
+    if(event) {
+        event.stopPropagation();
+    }
+    $('.search-form .dropdown-menu').hide();
+    $(".top-bar #dropdown-content").toggleClass("open");
+};
+
+window.components = window.components ? window.components : {};
+window.components.searchBar = {
+    staticProperties: {},
+    defaultStaticProperties: {
+        "searchContainer": ".search-bar-wrapper",
+        "searchForm": "#search-top",
+        "searchOptions": ".top-bar #dropdown-content ul",
+        "searchActiveOption": ".search-item.dropdown-btn #text",
+        "searchInput": "input.search-item.search-field",
+        "searchButton": ".search-item.search-logo",
+        "optionSelectedSelector": "select",
+        "optionsOpenSelector": "open"
+    },
+    mandatoryProperties: ["searchContainer", "searchForm", "searchOptions",
+        "searchActiveOption", "searchInput", "searchButton", "optionSelectedSelector"],
+    searchData: {},
+    defaultSearchData: {
+        "site_url": window.location.protocol + "//" + window.location.host,
+        "option_api_switch": "1",
+        "currLanguageUrlPrefix": "",
+        "parameters_category": "",
+        "parameters_search": ""
+    },
+    timeout: 1000,
+    
+    init: (props) => {
+        var self = components.searchBar;
+
+        self.initStaticProperties(props);
+        self.initSearchData();
+        $(this).click((e) => {
+            self.closeSearchOptionsDropDown(e);
+        });
+        self.addPaginationDependency();
+        self.addSearchOptionDropDownActions();
+        self.addSearchAction(`${self.staticProperty("searchButton")}`, "click");
+        self.addSearchAction(`${self.staticProperty("searchInput")}`, "keypress");
+        self.addSearchAction(`${self.staticProperty("searchForm")}`, "submit");
+    },
+    initStaticProperties(props) {
+        var self = components.searchBar;
+
+        var initProperties = self.defaultStaticProperties;
+        if (
+            isObject(props) &&
+            array_intersection(self.mandatoryProperties, Object.keys(props)).length === props.length
+        ) {
+            initProperties = props;
+        }
+        // console.log(initProperties);
+
+        $.each(Object.keys(initProperties), (key, initPropertyName) => {
+            // console.log(`${initPropertyName} : ${initProperties[initPropertyName]}`);
+            self.staticProperty(initPropertyName, initProperties[initPropertyName]);
+        })
+    },
+    initSearchData: () => {
+        var self = components.searchBar;
+
+        self.searchData = window.searchData ? window.searchData : null;
+
+        if (self.searchData === null) {
+            if (typeof components.topBarData !== "undefined") {
+                try {
+                    topBarData = JSON.parse(components.topBarData);
+                    self.searchData = topBarData.searchData;
+                } catch (e) {
+                    self.searchData = self.defaultSearchData;
+                }
+            } else {
+                self.searchData = self.defaultSearchData;
+            }
+        }
+    },
+    staticProperty: (property, value) => {
+        var self = components.searchBar;
+
+        if (typeof value === "undefined") {
+            return self.staticProperties[property];
+        } else {
+            self.staticProperties[property] = value;
+        }
+    },
+    addSearchOptionDropDownActions: () => {
+        var self = components.searchBar;
+
+        $(`${self.staticProperty("searchOptions")} li a`).each((key, listItem) => {
+            listItem.onclick = (e) => {
+                e.stopPropagation();
+                e.preventDefault();
+                $(`${self.staticProperty("searchActiveOption")}`)
+                    .text($(listItem).text());
+                $(`.${self.staticProperty("optionSelectedSelector")}`)
+                    .removeClass(`${self.staticProperty("optionSelectedSelector")}`);
+                $(listItem)
+                    .addClass(`${self.staticProperty("optionSelectedSelector")}`);
+                toggleDropDown();
+            }
+        });
+    },
+    addPaginationDependency: () => {
+        var self = components.searchBar;
+
+        if ($("#list-videos .pagination a").length) {
+            $("#list-videos .pagination a").click((e) => {
+                var __category = self.searchData['parameters_category'];
+                var __search = self.searchData['parameters_search'];
+            })
+        }
+
+    },
+    addSearchAction: (selector, eventType) => {
+        var self = components.searchBar;
+
+        $(`${selector}`).on(`${eventType}`, function(e) {
+            switch (eventType) {
+                case "keypress":
+                    if (e.which == 13) {
+                        e.preventDefault();
+                        self.search()
+                    }
+                    break;
+                case "click":
+                    self.search();
+                    break;
+                default:
+                    e.preventDefault();
+                    break;
+            }
+        })
+    },
+    closeSearchOptionsDropDown: (e) => {
+        var self = components.searchBar;
+
+        if (
+            ! e.target.matches('.dropdown-btn') &&
+            ! e.target.matches(`${self.staticProperty("searchActiveOption")}`) &&
+            ! e.target.matches('#expand-arrow')
+        ) {
+            if (
+                $(`${self.staticProperty("searchOptions")}`)
+                    .parent()
+                    .hasClass(`${self.staticProperty("optionsOpenSelector")}`)
+            ) {
+                $(`${self.staticProperty("searchOptions")}`)
+                    .parent()
+                    .removeClass(`${self.staticProperty("optionsOpenSelector")}`);
+            }
+        }
+    },
+    search: (searchPhrase) => {
+        var self = components.searchBar;
+
+        var keyword = $(`${self.staticProperty("searchInput")}`).val();
+        // $('.search-video').parents('.search-top-wrapper').addClass('focus');
+        if (keyword == "" && searchPhrase == undefined) {
+            $(`${self.staticProperty("searchInput")}`)
+                .attr("placeholder", "Enter search term");
+            $(`${self.staticProperty("searchInput")}`)
+                .addClass("empty-search");
+
+            setTimeout(() => {
+                $(`${self.staticProperty("searchInput")}`)
+                    .attr("placeholder", "Search Videvo");
+                $(`${self.staticProperty("searchInput")}`)
+                    .removeClass("empty-search");
+            }, 3 * self.timeout);
+
+            return false;
+        }
+
+        keyword = searchPhrase ? searchPhrase : keyword;
+
+        promoString = '/';
+        if (keyword.substring(0, 1) == '#') {
+            promoString += 'promoString';
+            keyword = keyword.substring(1);
+        }
+        promoString = promoString.replace(/^\/+|\/+$/g, '');
+
+        keyword = self.showAdvertisingPopUp(keyword);
+        keyword = keyword.replace(/^\/+|\/+$/g, '');
+
+        var clipTypeString = self.getClipTypeString();
+        if (! searchPhrase) {
+            setTimeout(function () {
+                window.location = self.constructRedirectUrl(keyword, clipTypeString, promoString);
+            }, self.timeout);
+        }
+    },
+    getNormalizedString: (searchPhrase) => {
+        var self = components.searchBar;
+        //Normalize string
+        var normalizedString = $.ajax({
+            type: 'POST',
+            url: self.searchData['site_url'] + '/wp-content/themes/ViDEVO/api/?path=translate/normalize-string',
+            async: false,
+            data: {
+                'term': searchPhrase
+            },
+            success: function (result) {
+                if (result)
+                    searchPhrase = result;
+            },
+            error: function (result) {
+                console.log(result);
+            }
+        });
+
+        return normalizedString.responseJSON ? normalizedString.responseJSON : searchPhrase;
+    },
+    serverProcessText: (searchPhrase) => {
+        // set text to server
+        var result = searchPhrase;
+        jQuery.ajax({
+            url: '/app/word_wrapper.php?source_text=' + searchPhrase,
+            success: function (data) {
+                result = data
+            },
+            async: false
+        });
+        return result;
+    },
+    getClipTypeString: () => {
+        var self = components.searchBar;
+
+        if ($(`${self.staticProperty("searchOptions")} li a.${self.staticProperty("optionSelectedSelector")}`).length) {
+            let clipTypeData = $(`${self.staticProperty("searchOptions")} li a.${self.staticProperty("optionSelectedSelector")}`)
+                .data("clip-type");
+            clipTypeData = clipTypeData.replace(/^\/+|\/+$/g, '');
+            return clipTypeData.length ? '/clip_type/' + clipTypeData : "";
+        }
+        return "";
+    },
+    constructRedirectUrl: (keyword, clipTypeString, promoString) => {
+        var self = components.searchBar;
+        let currLanguageUrlPrefix = self.searchData['currLanguageUrlPrefix'];
+        currLanguageUrlPrefix = currLanguageUrlPrefix == "/" ? "" : currLanguageUrlPrefix;
+
+        let redirectUrl = self.searchData['site_url'] + currLanguageUrlPrefix + '/search/' +
+            keyword + clipTypeString + "/" + promoString;
+        return redirectUrl.slice(-1) != "/" ? redirectUrl + "/" : redirectUrl;
+    },
+    showAdvertisingPopUp: (searchPhrase) => {
+        var self = components.searchBar;
+
+        var lastTimestamp = localStorage.getItem('showedPopup');
+        var currentTimestamp = Date.now();
+        var resetTime = 86400000; // 24h;
+        var clipTypeString = self.getClipTypeString();
+        var showPopUp = (
+            lastTimestamp == null ||
+            currentTimestamp - lastTimestamp > resetTime
+        ) && (clipTypeString !== "/clip_type/royalty-free-music" && clipTypeString !== "/clip_type/royalty-free-sound-effects")
+        && $("#account_type_input").val() == 0;
+
+        if (showPopUp && typeof iStock_BASE_AFFILIATE_URL_SEARCH !== "undefined") {
+            try {
+                localStorage.setItem('showedPopup', currentTimestamp);
+            } catch (error) {
+                console.log(error);
+            }
+
+            keywordIstock = searchPhrase;
+            keyword = self.serverProcessText(searchPhrase);
+            keyword = keyword.replace("\n", '');
+
+            var strWord = keyword.replace(/%20/g, "+");
+            var strWord2 = strWord.replace(/ /g, "+");
+            if (self.searchData['option_api_switch']) {
+                var filterIstock = '';
+                var adplacement = 'red_indirect_all';
+
+                keywordIstock = self.getNormalizedString(keywordIstock);
+                keywordIstock = keywordIstock.replace("\n", '');
+                strWord = keywordIstock.replace(/%20/g, "+");
+                strWord2 = strWord.replace(/ /g, "+");
+                var phrase = strWord2;
+
+                if (window.videvoParameters) {
+                    var videvoParams = $.parseJSON(window.videvoParameters);
+                    if (videvoParams.clip_type == "Motion Graphics") {
+                        phrase = "animated " + phrase;
+                    }
+                }
+                url = iStock_BASE_AFFILIATE_URL_SEARCH + '?adplacement=' + adplacement + '&sharedid=' + strWord2 + '&u=https%3A%2F%2Fwww.istockphoto.com%2Fsearch%2F2%2Ffilm%3Fphrase%3D' + phrase + filterIstock;
+                if (window.videvoParameters) {
+                    var urlParams = $.parseJSON(window.videvoParameters);
+                    if (urlParams.language) {
+                        url = iStock_BASE_AFFILIATE_URL_SEARCH + '?adplacement=' + adplacement + '&sharedid=' + strWord2 + '&u=https%3A%2F%2Fwww.istockphoto.com%2F' + urlParams.language + '%2Fsearch%2F2%2Ffilm%3Fphrase%3D' + phrase + filterIstock;
+                    }
+                }
+            } else {
+                url = '#';
+            }
+
+            window.dataLayer.push({
+                event: 'shutterstockRedirectEvent',
+                eventCategory: 'Shutterstock Redirect',
+                eventAction: 'Opened websiteSearch pagejs',
+                eventLabel: 'url: ' + url
+            });
+            window.open(url); // Shutterstock Popup in new tab
+
+            return keyword;
+        }
+
+        return searchPhrase;
+    }
+}
+
+$(document).ready(() => {
+    window.components.searchBar.init();
+});

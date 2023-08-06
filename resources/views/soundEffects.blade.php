@@ -71,6 +71,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <link rel="canonical" href="{{ url('/') }}/royalty-free-sound-effects/">
 
 <style>
+     body{
+        top: 0px !important;
+    }
     body > .skiptranslate{display: none;}
     .skiptranslate{
         font-size: 0%;
@@ -1300,21 +1303,21 @@ $(document).ready(() => {
             <span class="relative inline-flex" x-on:mouseover="showTooltip = true" x-on:mouseleave="showTooltip = false">
                 <button x-on:click="showInfo = ! showInfo">
                     <svg class="fill-current h-6 w-6 text-gray-700 hover:text-gray-900" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M2.34313 13.6569C3.85416 15.1678 5.86313 16 8 16C10.1369 16 12.1458 15.1678 13.6569 13.6569C15.1678 12.1458 16 10.1369 16 8C16 5.86313 15.1678 3.85416 13.6569 2.34313C12.1458 0.832156 10.1369 0 8 0C5.86313 0 3.85416 0.832156 2.34313 2.34313C0.832156 3.85416 0 5.86313 0 8C0 10.1369 0.832156 12.1458 2.34313 13.6569ZM1.5625 8C1.5625 4.45034 4.45034 1.5625 8 1.5625C11.5497 1.5625 14.4375 4.45034 14.4375 8C14.4375 11.5497 11.5497 14.4375 8 14.4375C4.45034 14.4375 1.5625 11.5497 1.5625 8ZM8.3125 12.5625C7.88103 12.5625 7.53125 12.2127 7.53125 11.7812V7.8125H6.75C6.31853 7.8125 5.96875 7.46272 5.96875 7.03125C5.96875 6.59978 6.31853 6.25 6.75 6.25H8.3125C8.74397 6.25 9.09375 6.59978 9.09375 7.03125V11.7812C9.09375 12.2127 8.74397 12.5625 8.3125 12.5625ZM7.0625 4.375C7.0625 4.89194 7.48306 5.3125 8 5.3125C8.51694 5.3125 8.9375 4.89194 8.9375 4.375C8.9375 3.85806 8.51694 3.4375 8 3.4375C7.48306 3.4375 7.0625 3.85806 7.0625 4.375Z"></path></svg>                </button>
-                <div x-show="showTooltip" class="tooltip max-md:!hidden" style="display: none;">
+                <div style="display: none;">
     More Info
 </div>
              </span>
 
             <div>
                 <div wire:id="A4GenXBHQUQkCHsEpMBO" class="flex relative z-40" x-data="{ isClipInAnyUserCollection: $wire.entangle(&#39;isClipInAnyUserCollection&#39;), mode: $wire.entangle(&#39;mode&#39;), showModal: $wire.entangle(&#39;showModal&#39;), hidden: $wire.entangle(&#39;hidden&#39;), showTooltip: false}">
-    <span class="relative inline-flex" x-on:mouseover="showTooltip = true" x-on:mouseleave="showTooltip = false" onclick="collection(${vid.id})">
+    <span class="relative inline-flex" x-on:mouseover="showTooltip = true" x-on:mouseleave="showTooltip = false" onclick="collection${vid.id}(${vid.id})">
         <button class="relative add-to-collection-button overflow-hidden" wire:click.stop.prevent="toggleModal()">
             <svg class="fill-current h-6 w-6 text-gray-700 outline-none translate-y-8 not-added !translate-y-0" xmlns="http://www.w3.org/2000/svg" fill="currentColor" stroke="none" viewBox="0 0 24 24"><path d="M20 2H8c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2V4c0-1.103-.897-2-2-2zM8 16V4h12l.002 12H8z"></path><path d="M4 8H2v12c0 1.103.897 2 2 2h12v-2H4V8zm11-2h-2v3h-3v2h3v3h2v-3h3V9h-3z"></path></svg>            <svg x-show="isClipInAnyUserCollection" class="fill-current h-6 w-6 text-[#198ACF] outline-none" xmlns="http://www.w3.org/2000/svg" fill="currentColor" stroke="none" viewBox="0 0 24 24" style="display: none;"><path d="M4 22h12v-2H4V8H2v12c0 1.103.897 2 2 2z"></path><path d="M20 2H8c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2V4c0-1.103-.897-2-2-2zm-2 9h-3v3h-2v-3h-3V9h3V6h2v3h3v2z"></path></svg>        </button>
-        <div x-show="showTooltip" class="tooltip max-md:!hidden" style="display: none;">
+        <div style="display: none;">
     Add to Collections
 </div>
      </span>
-    <div x-show="showModal" style="display: none;" id="collectionModal">
+    <div x-show="showModal" style="display: none;" id="collectionModal${vid.id}">
         <div class="modal-wrapper-add-to-collection flex flex-col items-center justify-center absolute bottom-0 right-[-15px] z-60 cursor-auto min-w-[300px] rounded-lg " style="transform: translateY(100%) translateY(10px);">
             <div class="flex flex-col bg-white fixed top-0 left-0 md:relative md:rounded-lg md:shadow-lg h-full md:h-auto p-4 w-full" @click.outside="showModal = false;">
                 <div class="flex justify-start relative md:justify-between items-center ">
@@ -1354,7 +1357,7 @@ $(document).ready(() => {
 <!-- Livewire Component wire-end:A4GenXBHQUQkCHsEpMBO -->            </div>
             <div>
                 <div wire:id="oFjtSguUwnT9hP79I5xp" class="flex" x-data="{ isFavorite: $wire.entangle(&#39;isFavorite&#39;), mode: $wire.entangle(&#39;mode&#39;), hidden: $wire.entangle(&#39;hidden&#39;), showTooltip: false }">
-    <span class="relative inline-flex" x-on:mouseover="showTooltip = true" x-on:mouseleave="showTooltip = false" onclick="favorite(${vid.id})">
+    <span class="relative inline-flex" onclick="favorite(${vid.id})">
         <button class="text-gray-700 hover:text-gray-900 overflow-hidden toggle-favorite" wire:key="clip-221441" wire:click.stop.prevent="toggleFavorite();">
             <svg class="fill-current h-6 w-6 outline-none translate-y-8 not-added !translate-y-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" fill="none"><path d="M5.40956 2.51538C4.45258 1.76408 3.08107 1.83357 2.20944 2.72795C1.25976 3.7024 1.26439 5.28574 2.2182 6.26443L5.74895 9.8873C5.8954 10.0376 6.13284 10.0376 6.27929 9.8873L9.7917 6.28538C10.7392 5.30775 10.7362 3.72885 9.7822 2.74999C8.90375 1.84862 7.52809 1.77191 6.57265 2.52393C6.48883 2.58991 6.40825 2.66226 6.33151 2.74099L5.99605 3.08587L5.65599 2.73693C5.57761 2.65651 5.49525 2.58265 5.40956 2.51538ZM7.04767 3.43893C7.60289 2.86945 8.49943 2.86653 9.06605 3.44793C9.64336 4.04031 9.64309 5.00077 9.07454 5.58846L9.0736 5.58943L6.01425 8.72674L2.93435 5.56648C2.3556 4.97264 2.35777 4.00853 2.92559 3.42589C3.4791 2.85794 4.37486 2.85516 4.93984 3.43488L5.2799 3.78381C5.46824 3.97706 5.72669 4.086 5.99654 4.08587C6.26638 4.08574 6.52472 3.97655 6.71288 3.78312L7.04767 3.43893Z" fill="currentColor"></path></svg>            <svg x-show="isFavorite" class="fill-current h-6 w-6 text-red-700 outline-none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" fill="none" style="display: none;"><path d="M5.65599 2.73693C4.70219 1.75824 3.15912 1.75349 2.20944 2.72795C1.25976 3.7024 1.26439 5.28574 2.2182 6.26443L5.74895 9.8873C5.8954 10.0376 6.13284 10.0376 6.27929 9.8873L9.7917 6.28538C10.7392 5.30775 10.7362 3.72885 9.7822 2.74999C8.82669 1.76955 7.28289 1.76479 6.33151 2.74099L5.99605 3.08587L5.65599 2.73693Z" fill="currentColor"></path></svg>        </button>
         <div x-show="showTooltip" class="tooltip max-md:!hidden" style="display: none;">
@@ -1386,6 +1389,36 @@ $(document).ready(() => {
         
     </div>
 </div>`);
+
+@if(Session::has('logedin'))
+
+    var script = document.createElement("script");
+
+    script.innerHTML = `function collection${vid.id}(id){
+        var modal = $(\`#collectionModal${vid.id}\`);
+modal.toggle();
+}`;
+
+    document.body.appendChild(script);
+
+@else
+
+var script = document.createElement("script");
+
+script.innerHTML = `function collection${vid.id}(id){
+
+    $('#errorboxM').css('display', 'block');
+        $('#errorboxM').html('You must be logged in to add a clip to your collection.');
+        setTimeout(() => {
+    $('#errorboxM').fadeOut('fast');
+}, 5000);
+
+}`;
+
+document.body.appendChild(script);
+
+@endif
+
         });
     },
     error: function(response) {
@@ -1395,9 +1428,10 @@ $(document).ready(() => {
 
 });
 
-function favorite(id) {
-
-$.ajax({
+@if(Session::has('logedin'))
+    function favorite(id) {
+        
+        $.ajax({
       headers: {
         'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
       },
@@ -1406,34 +1440,30 @@ $.ajax({
       data: {productID: id, product_type: 'audio'},
       success:function(response)
       {
-        alert("Audio added to favourites!");
+        $('#errorboxM').css('display', 'block');
+        $('#errorboxM').html('Added to favorites succesfully!');
+        setTimeout(function() {
+    $('#errorboxM').fadeOut('fast');
+}, 7000);
       },
       error: function(response) {
-        console.log(response);
+
+        $('#errorboxM').html(response);
       }
   });
-
 }
+  @else
 
-function collection(id){
+  function favorite(id) {
 
-var modal = $('#collectionModal');
+    $('#errorboxM').css('display', 'block');
+        $('#errorboxM').html('You must be logged in to add a clip to your favorites.');
+        setTimeout(function() {
+    $('#errorboxM').fadeOut('fast');
+}, 5000);
+  }
 
-modal.toggle();
-}
-    </script>
-    
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async="" src="{{ url('/') }}/assets/js(5)"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-        dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-
-    gtag('config', 'UA-193025900-1');
+  @endif
 </script>
 
 <script src="{{ url('/') }}/assets/livewire.js" data-turbo-eval="false" data-turbolinks-eval="false"></script><script data-turbo-eval="false" data-turbolinks-eval="false">window.livewire = new Livewire();window.Livewire = window.livewire;window.livewire_app_url = '';window.livewire_token = 'oy9gHqKdPO4yCZW18zkUFthRIF1ykQmhpUDysMtA';window.deferLoadingAlpine = function (callback) {window.addEventListener('livewire:load', function () {callback();});};let started = false;window.addEventListener('alpine:initializing', function () {if (! started) {window.livewire.start();started = true;}});document.addEventListener("DOMContentLoaded", function () {if (! started) {window.livewire.start();started = true;}});</script>
@@ -1461,7 +1491,7 @@ modal.toggle();
 
 
 
-<script type="text/javascript" id="">window.hj=window.hj||function(){(hj.q=hj.q||[]).push(arguments)};var userId=localStorage.getItem("userID"),userType=localStorage.getItem("userType"),userGeoCountry=localStorage.getItem("userGeoCountry");window.hj("identify",userId,{"User Type":userType,"User Geo Country":userGeoCountry,"User ID":userId});</script><iframe id="_hjSafeContext_86858857" title="_hjSafeContext" tabindex="-1" aria-hidden="true" src="{{ url('/') }}/assets/saved_resource.html" style="display: none !important; width: 1px !important; height: 1px !important; opacity: 0 !important; pointer-events: none !important;"></iframe><iframe src="{{ url('/') }}/assets/iu3.html" style="display: none;"></iframe><script src="{{ url('/') }}/assets/otSDKStub.js" id="onetrust_modal" data-document-language="true" charset="UTF-8" data-domain-script="e616b904-3acd-4e4b-ad07-5deddea821ea"></script><div id="onetrust-consent-sdk"><div class="onetrust-pc-dark-filter ot-hide ot-fade-in"></div></div><iframe src="https://gum.criteo.com/syncframe?origin=publishertagids&amp;topUrl=www.videvo.net#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22kiLq5V9kS05IcSUyQklPUWM1c2tDWHNTakQlMkZad0lOMjZBSmtqQ282d01XcjI2bTdFN0h5eTAlMkZDc044V0lHWFRTSkpUdmZzV2tDJTJCc0olMkZ6OHFTS3A4ZTFGUXdYVmZwd3NPT09QREJiJTJGaFJGUzByWHFSJTJGYlkwdUhZT3FRQkFDJTJCcGZLT29aS25WSk14NnIxQ0YlMkJnJTJGUnBiWkVUQXRTQSUzRCUzRA%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22videvo.net%22,%22topUrl%22:%22www.videvo.net%22,%22version%22:139,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertagids%22,%22requestId%22:%220.348778738648321%22}" width="0" height="0" frameborder="0" title="Criteo GUM iframe" style="border-width: 0px; margin: 0px; display: none;"></iframe></body><iframe sandbox="allow-scripts allow-same-origin" id="1106a40cc3be435" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height:0px;width:0px;display:none;" scrolling="no" src="{{ url('/') }}/assets/saved_resource(1).html">
+<script type="text/javascript" id="">window.hj=window.hj||function(){(hj.q=hj.q||[]).push(arguments)};var userId=localStorage.getItem("userID"),userType=localStorage.getItem("userType"),userGeoCountry=localStorage.getItem("userGeoCountry");window.hj("identify",userId,{"User Type":userType,"User Geo Country":userGeoCountry,"User ID":userId});</script><iframe id="_hjSafeContext_86858857" title="_hjSafeContext" tabindex="-1" aria-hidden="true" src="{{ url('/') }}/assets/saved_resource.html" style="display: none !important; width: 1px !important; height: 1px !important; opacity: 0 !important; pointer-events: none !important;"></iframe><iframe src="{{ url('/') }}/assets/iu3.html" style="display: none;"></iframe><script src="{{ url('/') }}/assets/otSDKStub.js" id="onetrust_modal" data-document-language="true" charset="UTF-8" data-domain-script="e616b904-3acd-4e4b-ad07-5deddea821ea"></script><div id="onetrust-consent-sdk" style="display: none"><div class="onetrust-pc-dark-filter ot-hide ot-fade-in"></div></div><iframe src="https://gum.criteo.com/syncframe?origin=publishertagids&amp;topUrl=www.videvo.net#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22kiLq5V9kS05IcSUyQklPUWM1c2tDWHNTakQlMkZad0lOMjZBSmtqQ282d01XcjI2bTdFN0h5eTAlMkZDc044V0lHWFRTSkpUdmZzV2tDJTJCc0olMkZ6OHFTS3A4ZTFGUXdYVmZwd3NPT09QREJiJTJGaFJGUzByWHFSJTJGYlkwdUhZT3FRQkFDJTJCcGZLT29aS25WSk14NnIxQ0YlMkJnJTJGUnBiWkVUQXRTQSUzRCUzRA%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22videvo.net%22,%22topUrl%22:%22www.videvo.net%22,%22version%22:139,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertagids%22,%22requestId%22:%220.348778738648321%22}" width="0" height="0" frameborder="0" title="Criteo GUM iframe" style="border-width: 0px; margin: 0px; display: none;"></iframe></body><iframe sandbox="allow-scripts allow-same-origin" id="1106a40cc3be435" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height:0px;width:0px;display:none;" scrolling="no" src="{{ url('/') }}/assets/saved_resource(1).html">
     </iframe><iframe sandbox="allow-scripts allow-same-origin" id="12bda2f3b830bee" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height:0px;width:0px;display:none;" scrolling="no" src="{{ url('/') }}/assets/usync.html">
     </iframe><iframe sandbox="allow-scripts allow-same-origin" id="137113f7942aaa8" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height:0px;width:0px;display:none;" scrolling="no" src="{{ url('/') }}/assets/async_usersync.html">
     </iframe><iframe sandbox="allow-scripts allow-same-origin" id="1486170c954cddf" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height:0px;width:0px;display:none;" scrolling="no" src="{{ url('/') }}/assets/user_sync.html">

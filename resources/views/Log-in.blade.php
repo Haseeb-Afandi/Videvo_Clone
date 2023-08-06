@@ -42,6 +42,9 @@
     <link rel="stylesheet" href="{{ url('/') }}/assets/index.1b2a58b0.css">
     <link rel="stylesheet" href="{{ url('/') }}/css/log.css">
     <style>
+       body{
+        top: 0px !important;
+    }
       body > .skiptranslate{display: none;}
       .skiptranslate{
           font-size: 0%;

@@ -70,6 +70,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <link rel="canonical" href="{{ url('/') }}/royalty-free-music-track/going-camping/221441/">
 
 <style>
+    body{
+        top: 0px !important;
+    }
     body > .skiptranslate{display: none;}
     .skiptranslate{
         font-size: 0%;
@@ -308,6 +311,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="pt-12">
         <img src="{{ url('/') }}/thumbnails/{{$audio->thumbnail}}" class="absolute left-0 top-0 h-full w-full object-cover opacity-50 blur-3xl">
         <div class="z-1 container relative mx-auto flex max-w-screen-lg flex-col items-center">
+            
             <div class="max-w-screen-sm px-4">
                 <p class="mb-2 text-center font-bold text-white opacity-50">
                     Music
@@ -322,9 +326,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <span class="opacity-50">by</span> <a href="{{ url('/') }}/author/videvo/" class="font-bold">Videvo</a>
                 </p>
             </div>
-            <div class="hero-music-player relative mb-8 w-full overflow-hidden">
-                <div class="hero-music-player-container audio-player audio-row dp-audio group relative flex h-40 w-full cursor-pointer items-center justify-center !bg-[transparent] bg-gray-150" x-data="{ &#39;playing&#39;: &#39;&#39; }">
-                    <button class="button-play-pause absolute h-full w-full items-center justify-center group-hover:flex sm:flex md:hidden lg:hidden" @click="window.audioHandler.handleAudioPlayPause($refs.audioElement221441); playing = playing === 221441 ? &#39;&#39; : 221441;">
+            <div class="hero-music-player relative mb-8 w-full overflow-hidden" >
+                <div class="hero-music-player-container audio-player audio-row dp-audio group relative h-40 w-full cursor-pointer items-center justify-center !bg-[transparent] bg-gray-150" x-data="{ &#39;playing&#39;: &#39;&#39; }" id="waveform">
+                    <button class="button-play-pause absolute h-full w-full items-center justify-center group-hover:flex sm:flex md:hidden lg:hidden" @click="window.audioHandler.handleAudioPlayPause($refs.audioElement221441); playing = playing === 221441 ? &#39;&#39; : 221441;" id="playBtn">
                         <svg x-show="playing != 221441" class="fill-current play-icon relative z-40 h-10 w-10 text-white drop-shadow" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg"><path d="M14.4621 8.1418L4.15546 1.93628C3.85647 1.75624 3.48667 1.75457 3.18613 1.93178C2.88556 2.10904 2.7002 2.43817 2.7002 2.79451V15.2056C2.7002 15.5619 2.88556 15.891 3.18613 16.0683C3.33511 16.1562 3.50106 16.2 3.66705 16.2C3.83586 16.2 4.00471 16.1546 4.15546 16.0638L14.4621 9.85827C14.7584 9.67986 14.9405 9.35319 14.9405 9.00003C14.9405 8.64688 14.7584 8.32021 14.4621 8.1418Z"></path></svg>                        <svg x-show="playing === 221441" class="fill-current pause-icon relative z-40 h-14 w-14 text-white drop-shadow" width="54px" height="54px" viewBox="0 0 54 54" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="display: none;">
     <title>pause-button-white-sml</title>
     <g id="pause-button-white-sml" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -334,18 +338,42 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </g>
     </g>
 </svg>                        <audio x-ref="audioElement221441" x-on:ended="playing = &#39;&#39;" id="linkAudio-221441" class="listing-audio audio-element hidden">
-                                                            <source src="{{ url('/') }}/Audios/{{$audio->Audio}}" type="audio/mp3">
+                                                            <source src="" type="audio/mp3">
                                                         Your browser does not support the audio element.
                         </audio>
                     </button>
-                    <div class="relative flex h-full w-full items-center">
-                        <canvas id="mainWaveformCanvas-listing-221441" @click="window.audioHandler.handleCanvasClick(event,$refs.audioElement221441);  if(playing === &#39;&#39; || playing !== 221441) { playing = 221441 }" class="js--audio-waveform-canvas belongs-listing z-30 w-full" data-waveformjson="{&quot;margin&quot;:{&quot;low&quot;:0,&quot;high&quot;:250},&quot;heights&quot;:[0,0,109,70,93,117,117,97,108,120,85,100,37,70,107,53,41,68,57,119,57,108,75,121,76,84,56,116,73,111,89,98,65,95,60,67,109,55,74,113,89,93,121,119,115,65,89,109,89,100,113,95,102,65,95,78,115,94,106,65,112,75,102,105,98,100,75,95,70,113,100,111,111,121,110,118,87,120,67,80,73,104,81,82,47,119,77,89,65,111,88,72,87,62,119,65,88,66,116,81,103,77,116,115,111,119,121,100,120,114,116,59,100,85,111,111,107,63,108,119,75,103,78,115,83,91,70,119,55,103,65,121,51,95,83,119,73,95,86,113,66,84,65,113,96,63,37,24,20,21,38,64,115,72,83,72,77,73,77,56,119,59,52,88,60,57,45,36,119,68,91,95,120,108,100,111,109,119,77,96,81,120,73,118,64,122,72,85,89,71,107,89,71,118,71,82,104,79,61,61,53,108,117,80,96,84,121,91,80,75,112,93,104,62,118,96,90,68,108,64,109,85,119,86,91,96,114,72,82,85,88,116,81,104,53,112,80,110,74,119,74,101,57,116,47,90,66,114,108,120,68,104,115,115,112,120,99,118,121,116,121,77,90,77,121,110,96,54,120,93,104,58,122,72,76,63,115,51,81,64,115,60,86,56,116,111,98,88,94,110,114,120,104,120,86,66,57,87,36,44,51,115,71,60,84,71,92,97,70,107,49,63,75,59,41,42,53,55,119,58,85,73,118,69,104,66,120,73,86,52,119,44,100,42,122,89,79,85,67,55,63,58,75,116,58,62,72,37,35,30,29,117,107,106,100,119,99,117,107,121,86,97,66,120,55,75,91,95,87,113,122,118,121,116,118,99,120,63,88,98,114,110,99,68,114,90,102,81,106,70,112,88,113,74,101,74,100,81,87,95,69,112,99,111,111,120,110,118,87,120,67,80,74,104,81,83,47,119,77,89,65,111,88,73,87,62,118,65,89,67,116,82,103,76,115,115,111,119,121,100,120,114,116,59,100,84,111,110,104,61,108,119,76,102,78,115,83,89,70,118,46,102,66,121,51,94,83,119,73,94,86,113,66,84,66,113,96,57,37,24,20,21,38,61,115,72,83,73,76,73,76,52,119,59,53,87,60,58,46,36,120,67,91,94,120,108,103,111,109,119,77,95,80,121,73,121,64,122,70,85,88,71,107,89,72,118,71,82,105,79,61,62,53,117,100,80,95,84,120,91,80,75,112,93,105,62,118,97,91,68,108,64,110,84,119,86,92,96,114,71,85,69,116,85,81,104,53,111,81,111,74,118,74,101,57,116,47,90,66,115,109,120,65,104,116,115,112,120,87,118,121,106,120,82,88,78,122,110,95,50,120,93,105,58,122,72,76,63,116,51,80,64,115,60,87,56,116,109,98,88,95,111,116,118,107,120,86,66,50,87,36,44,50,115,71,60,84,71,92,97,70,107,48,63,75,59,41,42,54,55,119,58,84,73,118,69,105,66,121,73,86,52,119,44,99,42,123,89,78,85,67,55,63,58,116,112,62,60,72,37,35,30,29,117,107,106,100,119,100,117,107,121,86,97,66,120,55,75,91,94,88,114,122,121,117,115,118,100,119,63,90,98,113,110,101,68,114,90,101,81,106,70,112,88,113,74,101,72,121,108,101,107,71,100,77,109,100,122,94,109,97,115,73,90,98,120,106,100,70,120,96,110,90,104,73,76,68,110,116,87,85,72,112,65,102,94,108,114,72,57,119,96,118,74,104,71,62,55,34,30,25,8,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}" data-colors="{&quot;barColor&quot;:&quot;rgb(192,192,192)&quot;,&quot;shadowBarcolor&quot;:&quot;rgba(128,128,128, 1)&quot;,&quot;activeBarColor&quot;:&quot;#fff&quot;,&quot;activeShadowBarColor&quot;:&quot;rgb(192, 192, 192)&quot;}" width="999" height="158"></canvas>
-                        <div class="blue-waveform-container pointer-events-none absolute top-0 left-0 h-full w-0 overflow-hidden" style="0px;">
+                    <div>
+                        <div class="blue-waveform-container pointer-events-none absolute top-0 left-0 h-full w-0 overflow-hidden">
                             <div class="overlay absolute top-0 right-0 h-full w-[4px] bg-white opacity-50"></div>
                         </div>
                     </div>
                 </div>
             </div>
+            <script type="module">
+
+import WaveSurfer from 'https://unpkg.com/wavesurfer.js@7/dist/wavesurfer.esm.js'
+
+                var wavesurfer = WaveSurfer.create({
+                    container: '#waveform',
+                    waveColor: '#DDF8FA',
+                    progressColor: '#5CD9FF',
+                    barWidth: 4,
+                    responsive: true,
+                    barRadius: 4,
+                });
+
+                wavesurfer.load('{{ url('/') }}/Audios/{{$audio->Audio}}');
+
+                wavesurfer.on('interaction', () => {
+  wavesurfer.playPause()
+});
+
+document.querySelector('#playBtn').addEventListener('click', () => {
+
+    wavesurfer.playPause()
+
+});
+            </script>
             <div class="w-full px-4" x-data="{ &#39;showInfo&#39;: false }">
                 <div class="flex w-full items-center justify-between">
                     <div x-data="{ open: false }" @click.away="open = false" class="relative text-gray-500">
@@ -398,14 +426,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                 <svg class="fill-current pointer-events-none h-5 w-5" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M2.34313 13.6569C3.85416 15.1678 5.86313 16 8 16C10.1369 16 12.1458 15.1678 13.6569 13.6569C15.1678 12.1458 16 10.1369 16 8C16 5.86313 15.1678 3.85416 13.6569 2.34313C12.1458 0.832156 10.1369 0 8 0C5.86313 0 3.85416 0.832156 2.34313 2.34313C0.832156 3.85416 0 5.86313 0 8C0 10.1369 0.832156 12.1458 2.34313 13.6569ZM1.5625 8C1.5625 4.45034 4.45034 1.5625 8 1.5625C11.5497 1.5625 14.4375 4.45034 14.4375 8C14.4375 11.5497 11.5497 14.4375 8 14.4375C4.45034 14.4375 1.5625 11.5497 1.5625 8ZM8.3125 12.5625C7.88103 12.5625 7.53125 12.2127 7.53125 11.7812V7.8125H6.75C6.31853 7.8125 5.96875 7.46272 5.96875 7.03125C5.96875 6.59978 6.31853 6.25 6.75 6.25H8.3125C8.74397 6.25 9.09375 6.59978 9.09375 7.03125V11.7812C9.09375 12.2127 8.74397 12.5625 8.3125 12.5625ZM7.0625 4.375C7.0625 4.89194 7.48306 5.3125 8 5.3125C8.51694 5.3125 8.9375 4.89194 8.9375 4.375C8.9375 3.85806 8.51694 3.4375 8 3.4375C7.48306 3.4375 7.0625 3.85806 7.0625 4.375Z"></path></svg>                            </button>
                                                 <div class="text-white opacity-50 hover:opacity-100">
                             <div wire:id="7xEOQ6L4GpyLw4Z92Wqn" class="flex relative z-40" x-data="{ isClipInAnyUserCollection: $wire.entangle(&#39;isClipInAnyUserCollection&#39;), mode: $wire.entangle(&#39;mode&#39;), showModal: $wire.entangle(&#39;showModal&#39;), hidden: $wire.entangle(&#39;hidden&#39;), showTooltip: false}">
-    <span class="relative inline-flex" x-on:mouseover="showTooltip = true" x-on:mouseleave="showTooltip = false">
-        <button class="relative add-to-collection-button overflow-hidden" wire:click.stop.prevent="toggleModal()">
-            <svg x-bind:class="{&#39;text-white&#39;: mode == &#39;light&#39;, &#39;not-added&#39;: !isClipInAnyUserCollection, &#39;!translate-y-0&#39;: !hidden}" x-show="!isClipInAnyUserCollection" class="fill-current h-6 w-6 text-gray-700 outline-none translate-y-8 text-white not-added !translate-y-0" xmlns="http://www.w3.org/2000/svg" fill="currentColor" stroke="none" viewBox="0 0 24 24"><path d="M20 2H8c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2V4c0-1.103-.897-2-2-2zM8 16V4h12l.002 12H8z"></path><path d="M4 8H2v12c0 1.103.897 2 2 2h12v-2H4V8zm11-2h-2v3h-3v2h3v3h2v-3h3V9h-3z"></path></svg>            <svg x-show="isClipInAnyUserCollection" class="fill-current h-6 w-6 text-[#198ACF] outline-none" xmlns="http://www.w3.org/2000/svg" fill="currentColor" stroke="none" viewBox="0 0 24 24" style="display: none;"><path d="M4 22h12v-2H4V8H2v12c0 1.103.897 2 2 2z"></path><path d="M20 2H8c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2V4c0-1.103-.897-2-2-2zm-2 9h-3v3h-2v-3h-3V9h3V6h2v3h3v2z"></path></svg>        </button>
-        <div x-show="showTooltip" class="tooltip max-md:!hidden" style="display: none;">
+    <span class="relative inline-flex" x-on:mouseover="showTooltip = true" x-on:mouseleave="showTooltip = false" onclick="collectionMain({{$audio->id}})">
+        <button class="relative add-to-collection-button overflow-hidden">
+            <svg class="fill-current h-6 w-6 text-gray-700 outline-none translate-y-8 text-white not-added !translate-y-0" xmlns="http://www.w3.org/2000/svg" fill="currentColor" stroke="none" viewBox="0 0 24 24"><path d="M20 2H8c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2V4c0-1.103-.897-2-2-2zM8 16V4h12l.002 12H8z"></path><path d="M4 8H2v12c0 1.103.897 2 2 2h12v-2H4V8zm11-2h-2v3h-3v2h3v3h2v-3h3V9h-3z"></path></svg>            <svg x-show="isClipInAnyUserCollection" class="fill-current h-6 w-6 text-[#198ACF] outline-none" xmlns="http://www.w3.org/2000/svg" fill="currentColor" stroke="none" viewBox="0 0 24 24" style="display: none;"><path d="M4 22h12v-2H4V8H2v12c0 1.103.897 2 2 2z"></path><path d="M20 2H8c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2V4c0-1.103-.897-2-2-2zm-2 9h-3v3h-2v-3h-3V9h3V6h2v3h3v2z"></path></svg>        </button>
+        <div x-show="showTooltip" class="tooltip max-md:!hidden" style="display: none;" >
     Add to Collections
 </div>
      </span>
-    <div x-show="showModal" style="display: none;">
+    <div x-show="showModal" style="display: none;" id="collectionModal">
         <div class="modal-wrapper-add-to-collection flex flex-col items-center justify-center absolute bottom-0 right-[-15px] z-60 cursor-auto min-w-[300px] rounded-lg " style="transform: translateY(100%) translateY(10px);">
             <div class="flex flex-col bg-white fixed top-0 left-0 md:relative md:rounded-lg md:shadow-lg h-full md:h-auto p-4 w-full" @click.outside="showModal = false;">
                 <div class="flex justify-start relative md:justify-between items-center ">
@@ -421,9 +449,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <path fill="#1B95E0" fill-rule="evenodd" d="M14 7c.552 0 1 .448 1 1v5h5c.552 0 1 .448 1 1s-.448 1-1 1h-5v5c0 .552-.448 1-1 1s-1-.448-1-1v-5H8c-.552 0-1-.448-1-1s.448-1 1-1h5V8c0-.552.448-1 1-1z"></path>
 </svg>        Create new collection
     </div>
-    <form x-show="showForm" class="flex space-between items-center border border-[#1b95e0] justify-items-stretch rounded-sm overflow-hidden h-full" wire:submit.prevent="addUserCollection" style="display: none;">
-        <input class="px-2 border-0 outline-0 h-full" placeholder="Add collection name" type="text" wire:model="collectionName">
-        <button type="submit" @click="window.clipActions?.closeAllModals(); showResponse = true; setTimeout(() =&gt; {showResponse = false; }, 3000); showForm = !showForm" class="h-full leading-10 bg-gray-100 text-blue-600 text-base font-bold text-center min-w-[60px]">Add</button>
+    <form method="post" action="{{ route('collection.post') }}" enctype="multipart/form-data" x-show="showForm" class="flex space-between items-center border border-[#1b95e0] justify-items-stretch rounded-sm overflow-hidden h-full" style="display: none;">
+        @csrf
+        <input class="px-2 border-0 outline-0 h-full" placeholder="Add collection name" type="text" wire:model="collectionName" name="name">
+        <input type="hidden" name="productID" value="{{$audio->id}}">
+        <input type="hidden" name="product_type" value="audio">
+        <button type="submit" class="h-full leading-10 bg-gray-100 text-blue-600 text-base font-bold text-center min-w-[60px]">Add</button>
     </form>
 
 </div>
@@ -442,9 +473,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- Livewire Component wire-end:7xEOQ6L4GpyLw4Z92Wqn -->                        </div>
                         <div class="text-white opacity-50 hover:opacity-100">
                             <div wire:id="SUUvzLiV0vz9XLH10oCG" class="flex" x-data="{ isFavorite: $wire.entangle(&#39;isFavorite&#39;), mode: $wire.entangle(&#39;mode&#39;), hidden: $wire.entangle(&#39;hidden&#39;), showTooltip: false }">
-    <span class="relative inline-flex" x-on:mouseover="showTooltip = true" x-on:mouseleave="showTooltip = false">
+    <span class="relative inline-flex" x-on:mouseover="showTooltip = true" x-on:mouseleave="showTooltip = false" onclick="favoriteMain({{$audio->id}})">
         <button class="text-gray-700 hover:text-gray-900 overflow-hidden toggle-favorite" wire:key="clip-221441" wire:click.stop.prevent="toggleFavorite();">
-            <svg x-bind:class="{&#39;text-white&#39;: mode == &#39;light&#39;, &#39;not-added&#39;: !isFavorite, &#39;!translate-y-0&#39;: !hidden}" x-show="!isFavorite" class="fill-current h-6 w-6 outline-none translate-y-8 text-white not-added !translate-y-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" fill="none"><path d="M5.40956 2.51538C4.45258 1.76408 3.08107 1.83357 2.20944 2.72795C1.25976 3.7024 1.26439 5.28574 2.2182 6.26443L5.74895 9.8873C5.8954 10.0376 6.13284 10.0376 6.27929 9.8873L9.7917 6.28538C10.7392 5.30775 10.7362 3.72885 9.7822 2.74999C8.90375 1.84862 7.52809 1.77191 6.57265 2.52393C6.48883 2.58991 6.40825 2.66226 6.33151 2.74099L5.99605 3.08587L5.65599 2.73693C5.57761 2.65651 5.49525 2.58265 5.40956 2.51538ZM7.04767 3.43893C7.60289 2.86945 8.49943 2.86653 9.06605 3.44793C9.64336 4.04031 9.64309 5.00077 9.07454 5.58846L9.0736 5.58943L6.01425 8.72674L2.93435 5.56648C2.3556 4.97264 2.35777 4.00853 2.92559 3.42589C3.4791 2.85794 4.37486 2.85516 4.93984 3.43488L5.2799 3.78381C5.46824 3.97706 5.72669 4.086 5.99654 4.08587C6.26638 4.08574 6.52472 3.97655 6.71288 3.78312L7.04767 3.43893Z" fill="currentColor"></path></svg>            <svg x-show="isFavorite" class="fill-current h-6 w-6 text-red-700 outline-none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" fill="none" style="display: none;"><path d="M5.65599 2.73693C4.70219 1.75824 3.15912 1.75349 2.20944 2.72795C1.25976 3.7024 1.26439 5.28574 2.2182 6.26443L5.74895 9.8873C5.8954 10.0376 6.13284 10.0376 6.27929 9.8873L9.7917 6.28538C10.7392 5.30775 10.7362 3.72885 9.7822 2.74999C8.82669 1.76955 7.28289 1.76479 6.33151 2.74099L5.99605 3.08587L5.65599 2.73693Z" fill="currentColor"></path></svg>        </button>
+            <svg class="fill-current h-6 w-6 outline-none translate-y-8 text-white not-added !translate-y-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" fill="none"><path d="M5.40956 2.51538C4.45258 1.76408 3.08107 1.83357 2.20944 2.72795C1.25976 3.7024 1.26439 5.28574 2.2182 6.26443L5.74895 9.8873C5.8954 10.0376 6.13284 10.0376 6.27929 9.8873L9.7917 6.28538C10.7392 5.30775 10.7362 3.72885 9.7822 2.74999C8.90375 1.84862 7.52809 1.77191 6.57265 2.52393C6.48883 2.58991 6.40825 2.66226 6.33151 2.74099L5.99605 3.08587L5.65599 2.73693C5.57761 2.65651 5.49525 2.58265 5.40956 2.51538ZM7.04767 3.43893C7.60289 2.86945 8.49943 2.86653 9.06605 3.44793C9.64336 4.04031 9.64309 5.00077 9.07454 5.58846L9.0736 5.58943L6.01425 8.72674L2.93435 5.56648C2.3556 4.97264 2.35777 4.00853 2.92559 3.42589C3.4791 2.85794 4.37486 2.85516 4.93984 3.43488L5.2799 3.78381C5.46824 3.97706 5.72669 4.086 5.99654 4.08587C6.26638 4.08574 6.52472 3.97655 6.71288 3.78312L7.04767 3.43893Z" fill="currentColor"></path></svg>            <svg x-show="isFavorite" class="fill-current h-6 w-6 text-red-700 outline-none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" fill="none" style="display: none;"><path d="M5.65599 2.73693C4.70219 1.75824 3.15912 1.75349 2.20944 2.72795C1.25976 3.7024 1.26439 5.28574 2.2182 6.26443L5.74895 9.8873C5.8954 10.0376 6.13284 10.0376 6.27929 9.8873L9.7917 6.28538C10.7392 5.30775 10.7362 3.72885 9.7822 2.74999C8.82669 1.76955 7.28289 1.76479 6.33151 2.74099L5.99605 3.08587L5.65599 2.73693Z" fill="currentColor"></path></svg>        </button>
         <div x-show="showTooltip" class="tooltip max-md:!hidden" style="display: none;">
     Add to Favorites
 </div>
@@ -467,17 +498,23 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                                     <a href="{{ url('/') }}/royalty-free-music/mood/{{$audio->Category2}}" class="text-sm font-bold text-white hover:underline">{{$audio->Category2}}</a>
                                                                                                     </p>
                         </div>
-                                                                <div class="mr-8 w-1/4 pr-8">
-                            <strong class="mb-1 block text-sm text-white/50">Instrumentation</strong>
+                                                                <div class="mr-8 w-2/4 border-r border-white/20 pr-8">
+                            <strong class="mb-1 block text-sm text-white/50">License</strong>
                             <p class="text-sm font-bold text-white">
-                                                                   <a href="{{ url('/') }}/royalty-free-music/instrument/{{$audio->instrument}}" class="text-sm font-bold text-white hover:underline">{{$audio->instrument}}</a>
+                                                                    <a href="{{ url('/') }}/royalty-free-music/mood/{{$audio->clip_type}}" class="text-sm font-bold text-white hover:underline">{{$audio->Category2}}</a>
+                                                                                                    </p>
+                        </div>
+                                                                <div class="mr-8 w-1/4 pr-8">
+                            <strong class="mb-1 block text-sm text-white/50">Type</strong>
+                            <p class="text-sm font-bold text-white">
+                                                                   <a href="{{ url('/') }}/royalty-free-music/instrument/{{$audio->type}}" class="text-sm font-bold text-white hover:underline">{{$audio->instrument}}</a>
                                                                                                 </p>
                         </div>
                                     </div>
             </div>
                             <div class="relative mx-auto mt-4 w-full lg:mt-0 lg:max-w-[20rem] lg:w-full" x-data="{&#39;showRegisterModal&#39;: false,}">
-    <button x-on:click="showRegisterModal = true;" class="flex h-12 w-full items-center justify-center rounded-lg bg-green-600 font-bold text-white hover:bg-green-700 focus:outline-none">
-        <svg class="fill-current mr-1 h-5 w-5" viewBox="-120 0 512 512.00115" xmlns="http://www.w3.org/2000/svg"><path d="m270.214844 180.054688c-2.628906-4.816407-7.679688-7.816407-13.167969-7.816407h-54.425781l24.753906-154.871093c1.082031-6.773438-2.570312-13.417969-8.867188-16.136719-6.292968-2.71875-13.640624-.820313-17.828124 4.613281l-197.5625 256.398438c-3.488282 4.527343-4.097657 10.644531-1.578126 15.777343 2.523438 5.128907 7.746094 8.378907 13.460938 8.378907h85.816406l-57.566406 206.574218c-1.992188 7.144532 1.539062 14.675782 8.304688 17.710938 1.988281.890625 4.074218 1.316406 6.136718 1.316406 4.96875 0 9.78125-2.476562 12.621094-6.882812l199.351562-309.761719c2.96875-4.613281 3.179688-10.484375.550782-15.300781zm0 0"></path></svg>            Premium download            <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+    <a href="{{ url('/')}}/Audios/{{$audio->Audio}}" download><button x-on:click="showRegisterModal = true;" class="flex h-12 w-full items-center justify-center rounded-lg bg-green-600 font-bold text-white hover:bg-green-700 focus:outline-none">
+        Download            <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg class="fill-current absolute h-4 w-4 right-0 mr-4" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 240.811 240.811" style="enable-background:new 0 0 240.811 240.811;" xml:space="preserve">
 <g>
 	<path id="Expand_More" d="M220.088,57.667l-99.671,99.695L20.746,57.655c-4.752-4.752-12.439-4.752-17.191,0
@@ -526,7 +563,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </g>
 <g>
 </g>
-</svg>    </button>
+</svg>    </button></a>
     <template x-teleport="body"></template>
 </div>
                         <div class="my-12 w-full max-w-xl px-4">
@@ -545,7 +582,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         </div>
                                                     <div class="flex-1 border-r border-white/10 px-4">
                                 <p class="text-center font-bold text-white opacity-50">Tempo</p>
-                                <p class="whitespace-nowrap text-center font-bold text-white">{{$audio->bpm}} BPM</p>
+                                <p class="whitespace-nowrap text-center font-bold text-white">{{rand(80, 200)}} BPM</p>
                             </div>
                                                 <div class="flex-1 px-4">
                             <p class="text-center font-bold text-white opacity-50">Format</p>
@@ -640,6 +677,70 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     
     <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async="" src="{{ url('/') }}/assets/js(5)"></script>
+
+
+<script>
+
+    @if(Session::has('logedin'))
+
+    function favoriteMain(id) {
+
+$.ajax({
+headers: {
+'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+},
+url: '{{ url('/') }}/post/favorite',
+method: 'POST',
+data: {productID: id, product_type: 'video'},
+success:function(response)
+{
+$('#errorboxM').css('display', 'flex');
+$('#errorboxM').html('Added to favorites');
+setTimeout(function() {
+$('#errorboxM').fadeOut('fast');
+}, 7000);
+},
+error: function(response) {
+$('#errorboxM').html(response);
+alert(response);
+}
+});
+}
+@else
+function favoriteMain(id) {
+
+$('#errorboxM').css('display', 'flex');
+$('#errorboxM').html('You must be logged in to add a clip to your favorites.');
+setTimeout(function() {
+$('#errorboxM').fadeOut('fast');
+}, 7000);
+}
+
+@endif
+
+@if(Session::has('logedin'))
+function collectionMain(id){
+
+var modal = $('#collectionModal');
+
+modal.toggle();
+}
+
+@else
+function collectionMain(id) {
+
+    console.log("hhello");
+
+$('#errorboxM').css('display', 'flex');
+$('#errorboxM').html('You must be logged in to add a clip to your collection.');
+setTimeout(function() {
+$('#errorboxM').fadeOut('fast');
+}, 7000);
+}
+
+@endif
+</script>
+
 <script>
     window.dataLayer = window.dataLayer || [];
 
@@ -717,7 +818,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <p class="mb-1 text-sm font-bold leading-none text-gray-600">
                         ${vid.duration}
                     </p>
-                                        <p class="text-sm font-bold leading-none text-gray-600">${vid.bpm}</p>
+                                        <p class="text-sm font-bold leading-none text-gray-600">{{rand(80, 200)}}</p>
                                 </div>
             </div>
             <div class="flex w-full items-center justify-between lg:w-auto md:gap-4 basis-full md:basis-0 grow-0 md:order-2 lg:order-none">
@@ -731,14 +832,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     
                 <div>
                     <div wire:id="A4GenXBHQUQkCHsEpMBO" class="flex relative z-40" x-data="{ isClipInAnyUserCollection: $wire.entangle(&#39;isClipInAnyUserCollection&#39;), mode: $wire.entangle(&#39;mode&#39;), showModal: $wire.entangle(&#39;showModal&#39;), hidden: $wire.entangle(&#39;hidden&#39;), showTooltip: false}">
-        <span class="relative inline-flex" x-on:mouseover="showTooltip = true" x-on:mouseleave="showTooltip = false">
+        <span class="relative inline-flex" x-on:mouseover="showTooltip = true" x-on:mouseleave="showTooltip = false" onclick="collection${vid.id}(${vid.id})">
             <button class="relative add-to-collection-button overflow-hidden" wire:click.stop.prevent="toggleModal()">
-                <svg x-bind:class="{&#39;text-white&#39;: mode == &#39;light&#39;, &#39;not-added&#39;: !isClipInAnyUserCollection, &#39;!translate-y-0&#39;: !hidden}" x-show="!isClipInAnyUserCollection" class="fill-current h-6 w-6 text-gray-700 outline-none translate-y-8 not-added !translate-y-0" xmlns="http://www.w3.org/2000/svg" fill="currentColor" stroke="none" viewBox="0 0 24 24"><path d="M20 2H8c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2V4c0-1.103-.897-2-2-2zM8 16V4h12l.002 12H8z"></path><path d="M4 8H2v12c0 1.103.897 2 2 2h12v-2H4V8zm11-2h-2v3h-3v2h3v3h2v-3h3V9h-3z"></path></svg>            <svg x-show="isClipInAnyUserCollection" class="fill-current h-6 w-6 text-[#198ACF] outline-none" xmlns="http://www.w3.org/2000/svg" fill="currentColor" stroke="none" viewBox="0 0 24 24" style="display: none;"><path d="M4 22h12v-2H4V8H2v12c0 1.103.897 2 2 2z"></path><path d="M20 2H8c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2V4c0-1.103-.897-2-2-2zm-2 9h-3v3h-2v-3h-3V9h3V6h2v3h3v2z"></path></svg>        </button>
+                <svg class="fill-current h-6 w-6 text-gray-700 outline-none translate-y-8 not-added !translate-y-0" xmlns="http://www.w3.org/2000/svg" fill="currentColor" stroke="none" viewBox="0 0 24 24"><path d="M20 2H8c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2V4c0-1.103-.897-2-2-2zM8 16V4h12l.002 12H8z"></path><path d="M4 8H2v12c0 1.103.897 2 2 2h12v-2H4V8zm11-2h-2v3h-3v2h3v3h2v-3h3V9h-3z"></path></svg>            <svg x-show="isClipInAnyUserCollection" class="fill-current h-6 w-6 text-[#198ACF] outline-none" xmlns="http://www.w3.org/2000/svg" fill="currentColor" stroke="none" viewBox="0 0 24 24" style="display: none;"><path d="M4 22h12v-2H4V8H2v12c0 1.103.897 2 2 2z"></path><path d="M20 2H8c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2V4c0-1.103-.897-2-2-2zm-2 9h-3v3h-2v-3h-3V9h3V6h2v3h3v2z"></path></svg>        </button>
             <div x-show="showTooltip" class="tooltip max-md:!hidden" style="display: none;">
         Add to Collections
     </div>
          </span>
-        <div x-show="showModal" style="display: none;">
+        <div x-show="showModal" style="display: none;" id="collectionModal${vid.id}">
             <div class="modal-wrapper-add-to-collection flex flex-col items-center justify-center absolute bottom-0 right-[-15px] z-60 cursor-auto min-w-[300px] rounded-lg " style="transform: translateY(100%) translateY(10px);">
                 <div class="flex flex-col bg-white fixed top-0 left-0 md:relative md:rounded-lg md:shadow-lg h-full md:h-auto p-4 w-full" @click.outside="showModal = false;">
                     <div class="flex justify-start relative md:justify-between items-center ">
@@ -754,10 +855,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <path fill="#1B95E0" fill-rule="evenodd" d="M14 7c.552 0 1 .448 1 1v5h5c.552 0 1 .448 1 1s-.448 1-1 1h-5v5c0 .552-.448 1-1 1s-1-.448-1-1v-5H8c-.552 0-1-.448-1-1s.448-1 1-1h5V8c0-.552.448-1 1-1z"></path>
     </svg>        Create new collection
         </div>
-        <form x-show="showForm" class="flex space-between items-center border border-[#1b95e0] justify-items-stretch rounded-sm overflow-hidden h-full" wire:submit.prevent="addUserCollection" style="display: none;">
-            <input class="px-2 border-0 outline-0 h-full" placeholder="Add collection name" type="text" wire:model="collectionName">
-            <button type="submit" @click="window.clipActions?.closeAllModals(); showResponse = true; setTimeout(() =&gt; {showResponse = false; }, 3000); showForm = !showForm" class="h-full leading-10 bg-gray-100 text-blue-600 text-base font-bold text-center min-w-[60px]">Add</button>
-        </form>
+        <form method="post" action="{{ route('collection.post') }}" enctype="multipart/form-data" x-show="showForm" class="flex space-between items-center border border-[#1b95e0] justify-items-stretch rounded-sm overflow-hidden h-full" style="display: none;">
+        @csrf
+        <input class="px-2 border-0 outline-0 h-full" placeholder="Add collection name" type="text" wire:model="collectionName" name="name">
+        <input type="hidden" name="productID" value="${vid.id}">
+        <input type="hidden" name="product_type" value="audio">
+        <button type="submit" class="h-full leading-10 bg-gray-100 text-blue-600 text-base font-bold text-center min-w-[60px]">Add</button>
+    </form>
     
     </div>
     <!-- Livewire Component wire-end:66pPfJZNHWDgYrGIVAKV -->                </div>
@@ -774,19 +878,18 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     
     <!-- Livewire Component wire-end:A4GenXBHQUQkCHsEpMBO -->            </div>
                 <div>
-                    <div wire:id="oFjtSguUwnT9hP79I5xp" class="flex" x-data="{ isFavorite: $wire.entangle(&#39;isFavorite&#39;), mode: $wire.entangle(&#39;mode&#39;), hidden: $wire.entangle(&#39;hidden&#39;), showTooltip: false }">
-        <span class="relative inline-flex" x-on:mouseover="showTooltip = true" x-on:mouseleave="showTooltip = false">
-            <button class="text-gray-700 hover:text-gray-900 overflow-hidden toggle-favorite" wire:key="clip-221441" wire:click.stop.prevent="toggleFavorite();">
-                <svg class="fill-current h-6 w-6 outline-none translate-y-8 not-added !translate-y-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" fill="none"><path d="M5.40956 2.51538C4.45258 1.76408 3.08107 1.83357 2.20944 2.72795C1.25976 3.7024 1.26439 5.28574 2.2182 6.26443L5.74895 9.8873C5.8954 10.0376 6.13284 10.0376 6.27929 9.8873L9.7917 6.28538C10.7392 5.30775 10.7362 3.72885 9.7822 2.74999C8.90375 1.84862 7.52809 1.77191 6.57265 2.52393C6.48883 2.58991 6.40825 2.66226 6.33151 2.74099L5.99605 3.08587L5.65599 2.73693C5.57761 2.65651 5.49525 2.58265 5.40956 2.51538ZM7.04767 3.43893C7.60289 2.86945 8.49943 2.86653 9.06605 3.44793C9.64336 4.04031 9.64309 5.00077 9.07454 5.58846L9.0736 5.58943L6.01425 8.72674L2.93435 5.56648C2.3556 4.97264 2.35777 4.00853 2.92559 3.42589C3.4791 2.85794 4.37486 2.85516 4.93984 3.43488L5.2799 3.78381C5.46824 3.97706 5.72669 4.086 5.99654 4.08587C6.26638 4.08574 6.52472 3.97655 6.71288 3.78312L7.04767 3.43893Z" fill="currentColor"></path></svg>            <svg x-show="isFavorite" class="fill-current h-6 w-6 text-red-700 outline-none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" fill="none" style="display: none;"><path d="M5.65599 2.73693C4.70219 1.75824 3.15912 1.75349 2.20944 2.72795C1.25976 3.7024 1.26439 5.28574 2.2182 6.26443L5.74895 9.8873C5.8954 10.0376 6.13284 10.0376 6.27929 9.8873L9.7917 6.28538C10.7392 5.30775 10.7362 3.72885 9.7822 2.74999C8.82669 1.76955 7.28289 1.76479 6.33151 2.74099L5.99605 3.08587L5.65599 2.73693Z" fill="currentColor"></path></svg>        </button>
-            <div x-show="showTooltip" class="tooltip max-md:!hidden" style="display: none;">
-        Add to Favorites
-    </div>
-         </span>
-    </div>
+                    <div wire:id="sU4zduSmeAzPVs77urrL" class="flex" x-data="{ isFavorite: $wire.entangle('isFavorite'), mode: $wire.entangle('mode'), hidden: $wire.entangle('hidden'), showTooltip: false }">
+    <span class="relative inline-flex" x-on:mouseover="showTooltip = true" x-on:mouseleave="showTooltip = false"  onclick="favorite(${vid.id})">
+        <button class="text-gray-700 hover:text-gray-900 overflow-hidden toggle-favorite" wire:key="clip-221409" wire:click.stop.prevent="toggleFavorite();">
+            <svg class="fill-current h-6 w-6 outline-none translate-y-8 not-added !translate-y-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" fill="none"><path d="M5.40956 2.51538C4.45258 1.76408 3.08107 1.83357 2.20944 2.72795C1.25976 3.7024 1.26439 5.28574 2.2182 6.26443L5.74895 9.8873C5.8954 10.0376 6.13284 10.0376 6.27929 9.8873L9.7917 6.28538C10.7392 5.30775 10.7362 3.72885 9.7822 2.74999C8.90375 1.84862 7.52809 1.77191 6.57265 2.52393C6.48883 2.58991 6.40825 2.66226 6.33151 2.74099L5.99605 3.08587L5.65599 2.73693C5.57761 2.65651 5.49525 2.58265 5.40956 2.51538ZM7.04767 3.43893C7.60289 2.86945 8.49943 2.86653 9.06605 3.44793C9.64336 4.04031 9.64309 5.00077 9.07454 5.58846L9.0736 5.58943L6.01425 8.72674L2.93435 5.56648C2.3556 4.97264 2.35777 4.00853 2.92559 3.42589C3.4791 2.85794 4.37486 2.85516 4.93984 3.43488L5.2799 3.78381C5.46824 3.97706 5.72669 4.086 5.99654 4.08587C6.26638 4.08574 6.52472 3.97655 6.71288 3.78312L7.04767 3.43893Z" fill="currentColor"></path></svg>            <svg x-show="isFavorite" class="fill-current h-6 w-6 text-red-700 outline-none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" fill="none" style="display: none;"><path d="M5.65599 2.73693C4.70219 1.75824 3.15912 1.75349 2.20944 2.72795C1.25976 3.7024 1.26439 5.28574 2.2182 6.26443L5.74895 9.8873C5.8954 10.0376 6.13284 10.0376 6.27929 9.8873L9.7917 6.28538C10.7392 5.30775 10.7362 3.72885 9.7822 2.74999C8.82669 1.76955 7.28289 1.76479 6.33151 2.74099L5.99605 3.08587L5.65599 2.73693Z" fill="currentColor"></path></svg>        </button>
+        <div x-show="showTooltip" class="tooltip max-md:!hidden" style="display: none;">
+    Add to Favorites
+</div>
+     </span>
+</div>
     
     <!-- Livewire Component wire-end: -->            </div>
                             <span class="w-[44px] flex justify-center">
-                    <svg data-cy="premium-icon" class="fill-current h-6 w-6 text-orange-600" viewBox="-120 0 512 512.00115" xmlns="http://www.w3.org/2000/svg"><path d="m270.214844 180.054688c-2.628906-4.816407-7.679688-7.816407-13.167969-7.816407h-54.425781l24.753906-154.871093c1.082031-6.773438-2.570312-13.417969-8.867188-16.136719-6.292968-2.71875-13.640624-.820313-17.828124 4.613281l-197.5625 256.398438c-3.488282 4.527343-4.097657 10.644531-1.578126 15.777343 2.523438 5.128907 7.746094 8.378907 13.460938 8.378907h85.816406l-57.566406 206.574218c-1.992188 7.144532 1.539062 14.675782 8.304688 17.710938 1.988281.890625 4.074218 1.316406 6.136718 1.316406 4.96875 0 9.78125-2.476562 12.621094-6.882812l199.351562-309.761719c2.96875-4.613281 3.179688-10.484375.550782-15.300781zm0 0"></path></svg>            </span>
                             <a href="{{ url('/') }}/Audios/${vid.Audio}" class="flex h-9 items-center justify-center rounded-lg bg-blue-400 px-5 font-bold text-white">
                     <svg class="fill-current mr-2 h-4 w-4" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
     <path d="M8 12.2188C7.79281 12.2188 7.59409 12.1364 7.44756 11.9899L4.79594 9.33828C4.49084 9.03319 4.49084 8.53853 4.79594 8.23344C5.10103 7.92834 5.59566 7.92834 5.90078 8.23344L7.21875 9.55141V0.78125C7.21875 0.349781 7.56853 0 8 0C8.43147 0 8.78125 0.349781 8.78125 0.78125V9.55141L10.0992 8.23344C10.4043 7.92834 10.899 7.92834 11.2041 8.23344C11.5092 8.53853 11.5092 9.03319 11.2041 9.33828L8.55244 11.9899C8.40591 12.1364 8.20722 12.2188 8 12.2188ZM14.4375 8.78125C14.4375 8.34978 14.7872 8 15.2188 8C15.6503 8 16 8.34978 16 8.78125V12.9688C16 14.4334 14.8084 15.625 13.3438 15.625H2.65625C1.19159 15.625 0 14.4334 0 12.9688V8.78125C0 8.34978 0.349781 8 0.78125 8C1.21272 8 1.5625 8.34978 1.5625 8.78125V12.9688C1.5625 13.5718 2.05316 14.0625 2.65625 14.0625H13.3438C13.9468 14.0625 14.4375 13.5718 14.4375 12.9688V8.78125Z"></path>
@@ -807,6 +910,36 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             
         </div>
     </div>`);
+
+    @if(Session::has('logedin'))
+
+    var script = document.createElement("script");
+
+    script.innerHTML = `function collection${vid.id}(id){
+        var modal = $(\`#collectionModal${vid.id}\`);
+modal.toggle();
+}`;
+
+    document.body.appendChild(script);
+
+@else
+
+var script = document.createElement("script");
+
+script.innerHTML = `function collection${vid.id}(id){
+
+    $('#errorboxM').css('display', 'block');
+        $('#errorboxM').html('You must be logged in to add a clip to your collection.');
+        setTimeout(() => {
+    $('#errorboxM').fadeOut('fast');
+}, 5000);
+
+}`;
+
+document.body.appendChild(script);
+
+@endif
+
             });
         },
         error: function(response) {
@@ -815,6 +948,43 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         });
     
     });
+
+    @if(Session::has('logedin'))
+    function favorite(id) {
+        
+        $.ajax({
+      headers: {
+        'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+      },
+      url: '{{ url('/') }}/post/favorite',
+      method: 'POST',
+      data: {productID: id, product_type: 'audio'},
+      success:function(response)
+      {
+        $('#errorboxM').css('display', 'block');
+        $('#errorboxM').html('Added to favorites succesfully!');
+        setTimeout(function() {
+    $('#errorboxM').fadeOut('fast');
+}, 7000);
+      },
+      error: function(response) {
+
+        $('#errorboxM').html(response);
+      }
+  });
+}
+  @else
+
+  function favorite(id) {
+
+    $('#errorboxM').css('display', 'block');
+        $('#errorboxM').html('You must be logged in to add a clip to your favorites.');
+        setTimeout(function() {
+    $('#errorboxM').fadeOut('fast');
+}, 5000);
+  }
+
+  @endif
         </script>
 
     <script>
@@ -896,7 +1066,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     </div>
                 </div>
             </div>
-        </div><iframe id="_hjSafeContext_73032440" title="_hjSafeContext" tabindex="-1" aria-hidden="true" src="{{ url('/') }}/assets/saved_resource(1).html" style="display: none !important; width: 1px !important; height: 1px !important; opacity: 0 !important; pointer-events: none !important;"></iframe><script type="text/javascript" id="">window.hj=window.hj||function(){(hj.q=hj.q||[]).push(arguments)};var userId=localStorage.getItem("userID"),userType=localStorage.getItem("userType"),userGeoCountry=localStorage.getItem("userGeoCountry");window.hj("identify",userId,{"User Type":userType,"User Geo Country":userGeoCountry,"User ID":userId});</script><iframe src="{{ url('/') }}/assets/container.html" style="visibility: hidden; display: none;"></iframe><div id="onetrust-consent-sdk"><div class="onetrust-pc-dark-filter ot-hide ot-fade-in"></div></div><iframe src="{{ url('/') }}/assets/iu3.html" style="display: none;"></iframe><iframe src="{{ url('/') }}/assets/aframe.html" width="0" height="0" style="display: none;"></iframe></body><iframe sandbox="allow-scripts allow-same-origin" id="119203d26ad5909" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height:0px;width:0px;display:none;" scrolling="no" src="{{ url('/') }}/assets/user_sync.html">
+        </div><iframe id="_hjSafeContext_73032440" title="_hjSafeContext" tabindex="-1" aria-hidden="true" src="{{ url('/') }}/assets/saved_resource(1).html" style="display: none !important; width: 1px !important; height: 1px !important; opacity: 0 !important; pointer-events: none !important;"></iframe><script type="text/javascript" id="">window.hj=window.hj||function(){(hj.q=hj.q||[]).push(arguments)};var userId=localStorage.getItem("userID"),userType=localStorage.getItem("userType"),userGeoCountry=localStorage.getItem("userGeoCountry");window.hj("identify",userId,{"User Type":userType,"User Geo Country":userGeoCountry,"User ID":userId});</script><iframe src="{{ url('/') }}/assets/container.html" style="visibility: hidden; display: none;"></iframe><div id="onetrust-consent-sdk" style="display: none"><div class="onetrust-pc-dark-filter ot-hide ot-fade-in"></div></div><iframe src="{{ url('/') }}/assets/iu3.html" style="display: none;"></iframe><iframe src="{{ url('/') }}/assets/aframe.html" width="0" height="0" style="display: none;"></iframe></body><iframe sandbox="allow-scripts allow-same-origin" id="119203d26ad5909" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height:0px;width:0px;display:none;" scrolling="no" src="{{ url('/') }}/assets/user_sync.html">
     </iframe><iframe sandbox="allow-scripts allow-same-origin" id="124c180de249107" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height:0px;width:0px;display:none;" scrolling="no" src="{{ url('/') }}/assets/saved_resource(2).html">
     </iframe><iframe sandbox="allow-scripts allow-same-origin" id="13bb2f94ca6848b" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height:0px;width:0px;display:none;" scrolling="no" src="{{ url('/') }}/assets/async_usersync.html">
     </iframe><iframe sandbox="allow-scripts allow-same-origin" id="146759db20dc737" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height:0px;width:0px;display:none;" scrolling="no" src="{{ url('/') }}/assets/usync.html">

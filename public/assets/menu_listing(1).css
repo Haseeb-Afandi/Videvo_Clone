@@ -1,0 +1,230 @@
+@media screen and (max-width: 769px) {
+    .overflow-hidden {
+        overflow: hidden;
+        height: 100%;
+    }
+    #new-main-nav {
+        margin-bottom: 0;
+    }
+    .hidden-menu {
+        display: none !important;
+    }
+    .hidden-submenu {
+        display: none !important;
+    }
+    .nav-item a {
+        display: block;
+        font-weight: bold;
+        color: #2b2b2b;
+        text-decoration: none;
+        white-space: nowrap;
+        padding: 8px 12px;
+        position: relative;
+        font-size: 16px;
+    }
+    .nav-item:hover, .nav-item:active {
+        background: #ececec;
+    }
+    .nav-item-dd a {
+        padding-right: 28px;
+    }
+    .dark-nav .nav-item a {
+        color: white;
+        opacity: .9;
+    }
+    .nav-item-dd a:after{
+        width: 26px;
+        height: 26px;
+        background: url(/videvo_framework/assets/images/icon-chevron-down-white.svg) center center no-repeat;
+        background-size: contain;
+        content: "";
+        opacity: .6;
+        position: absolute;
+        top: calc(50% - 13px);
+    }
+    .dark-nav .nav-item a:hover {
+        color: white;
+        opacity: 1;
+    }
+    .nav-item-dd:hover a:after{
+        opacity: 1;
+    }
+    .mobile-menu-dropdown-container {
+        box-shadow: none;
+        border-radius: 0;
+        overflow: scroll;
+        width: 100%;
+        top:0;
+        left:0;
+        overscroll-behavior: contain;
+        position:fixed;
+        height: 100%;
+        min-width: unset;
+    }
+    .mobile-container .menu-dropdown-main-list {
+        display: flex;
+        flex-direction: column;
+    }
+    .mobile-container .menu-item {
+        position: relative;
+        font-weight: bold;
+        color: #2b2b2b !important;
+        text-decoration: none;
+        white-space: nowrap;
+        padding: 10px 8px 12px 48px !important;
+        display: flex;
+        border-radius: 8px;
+        overflow: hidden;
+    }
+    .mobile-container .menu-dropdown-main-list .nav-item:before {
+        content: "";
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        width: 28px;
+        height: 28px;
+        color: white;
+        position: absolute;
+        left: 6px;
+        top: calc(50% - 14px);
+        z-index: 8;
+        display: block;
+    }
+    .mobile-container .nav-item-dd span {
+        width: 40px;
+        top: 0;
+        bottom: 0;
+        position: absolute;
+        right: 0;
+    }
+    .mobile-container .nav-item-dd span:before {
+        content: "";
+        background: rgba(0,38,61,0.1);
+        width: 1px;
+        height: 60%;
+        position: absolute;
+        left: 0;
+        top: 8px;
+    }
+    .mobile-container .nav-item-dd span img {
+        width: 100%;
+        height: 100%;
+        padding: 7px;
+    }
+    .mobile-container .menu-dropdown-main-list a {
+        margin: 2px 0;
+        font-size: 18px;
+    }
+    .mobile-menu-dropdown-container .menu-header-main {
+        padding-left: 28px;
+    }
+    .mobile-menu-dropdown-container .menu-dropdown-content {
+        padding-bottom: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .mobile-container .menu-item-selected {
+        background-color: rgba(0,38,61,0.07);
+    }
+    .mobile-container .menu-dropdown-container a {
+        text-decoration: none;
+    }
+    .mobile-container .menu-dropdown-main-list .nav-item {
+        position: relative;
+        font-weight: bold;
+        color: #2b2b2b !important;
+        text-decoration: none;
+        white-space: nowrap;
+        display: flex;
+        border-radius: 8px;
+        overflow: hidden;
+        padding: 10px 8px 12px 48px !important;
+        font-size: 16px;
+    }
+    .mobile-container .submenu-item {
+        font-weight: normal !important;
+    }
+    /* .mobile-container .button {
+        position: relative;
+        background-color: rgba(0,38,61,0.07);
+        font-size: 16px;
+        font-weight: bold;
+        color: #2b2b2b !important;
+        text-align: center;
+        border-radius: 8px;
+        border: 2px transparent solid;
+        padding: 2px 12px 4px;
+        cursor: pointer;
+        text-decoration: none;
+        min-height: 36px;
+        white-space: nowrap !important;
+    } */
+    .mobile-container .button-lrg {
+        padding: 8px 16px 12px;
+        min-height: 44px;
+    }
+    .mobile-container .button-primary {
+        background-color: #1b95e0 !important;
+        color: #ffffff !important;
+    }
+    .mobile-container .menu-dropdown-container .button {
+        margin-top: 12px;
+        width: 100%;
+    }
+    .mobile-container .button-icon img {
+        width: 20px;
+        height: 20px;
+        margin-right: 0;
+    }
+    .mobile-container .button-primary .button-icon img, .button-border-light .button-icon img {
+        filter: brightness(0) invert(1);
+    }
+    .mobile-container .button-icon {
+        display: inline-block;
+        margin-top: 2px;
+    }
+    .mobile-container .button-lrg.button-with-icon {
+        padding-top: 6px;
+        padding-bottom: 10px;
+    }
+
+    .new-main-nav-container.mobile-container {
+        display: flex;
+        z-index: 11;
+        margin-right: 4px;
+    } 
+
+    .new-main-nav-container.menu-opened {
+        z-index: 13;
+    }
+
+    .new-main-nav-container.desktop-container {
+        display: none;
+    } 
+
+    .mobile-menu-dropdown-container .submenu-item-videos-list li a {
+        font-size: 16px;
+    }
+
+    .menu-item-videos:before {
+        background-image: url(/videvo_framework/assets/images/icon-video.svg);
+    }
+    .menu-item-templates:before {
+        background-image: url(/videvo_framework/assets/images/icon-templates.svg);
+    }
+    .menu-item-music:before {
+        background-image: url(/videvo_framework/assets/images/icon-music.svg);
+    }
+    .menu-item-sound:before {
+        background-image: url(/videvo_framework/assets/images/icon-sound.svg);
+    }
+    .menu-item-help:before {
+        background-image: url(/videvo_framework/assets/images/icon-help.svg);
+    }
+    .parent-element.selected {
+        background-color: rgba(0,38,61,0.07);
+    }
+    .hidden-chevron-icon {
+        display: none;
+    }
+}

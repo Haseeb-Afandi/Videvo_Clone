@@ -1,0 +1,183 @@
+const addTopBarEvents = () => {
+    toggleSearchByDevice();
+    window.components.searchBar.init();
+    if (window.components.partnersPresets) {
+        window.components.partnersPresets.init();
+    }
+}
+$(document).ready(function () {
+    function checkIsAppleDevice() {
+        return (
+            (navigator.userAgent.toLowerCase().indexOf("ipad") > -1) ||
+            (navigator.userAgent.toLowerCase().indexOf("iphone") > -1) ||
+            (navigator.userAgent.toLowerCase().indexOf("ipod") > -1)
+            );
+    }
+    window.initialAppleEvent = false;
+    //User menu dropdown
+    $('body').on('click touchstart', function (e) {
+        if( $(e.target).is('.user-menu .avatar') || 
+            $(e.target).parents('.user-menu .avatar').length ||
+            ($(e.target).parents('.user-menu .menu-dropdown-container').length || $(e.target).is('.user-menu .menu-dropdown-container'))
+        ) {
+            if (e.handleObj.type == "touchstart" && !checkIsAppleDevice()) { /*on android it triggers both click and touchstart on screen tap*/
+	            console.log("**********", e.handleObj.type, "not Apple device");
+                window.initialAppleEvent = true;
+            	return;
+            }
+            if (e.handleObj.type == "touchstart" && checkIsAppleDevice()) { /*on android it triggers both click and touchstart on screen tap*/
+            	if(window.initialAppleEvent) {
+                    return;
+                } else {
+                    window.initialAppleEvent = true;
+                }
+            }
+            $('.user-menu .avatar').toggleClass('opened');
+            if(!$('.user-menu').hasClass('menu-opened'))
+                $('.user-menu').addClass('menu-opened');
+            if(($(e.target).is('.user-menu .avatar') || $(e.target).parents('.user-menu .avatar').length) && !$('.menu-dropdown-container').hasClass('hidden-dropdown')) {
+                $('.user-menu .menu-dropdown-container').addClass('hidden-dropdown');
+            } else {
+                if($('.user-menu .menu-dropdown-container').hasClass('hidden-dropdown'))
+                    $('.user-menu .menu-dropdown-container').removeClass('hidden-dropdown');
+                    $('body,html').addClass('overflow-hidden');
+            }
+            if($(e.target).parents('.user-menu .mobile-close-button').length || $(e.target).is('.user-menu .mobile-close-button')) {
+                $('.user-menu .menu-dropdown-container').addClass('hidden-dropdown');
+            }
+        } else {
+
+            if(!$('.user-menu .menu-dropdown-container').hasClass('hidden-dropdown')) {
+                $('.user-menu .menu-dropdown-container').addClass('hidden-dropdown');
+                $('.user-menu .avatar').removeClass('opened');
+                $('.user-menu').removeClass('menu-opened');
+            }
+        }
+    });
+    $("body").on('click', '.user-menu .mobile-close-button', function(e) {
+        console.log(e.handleObj.type);
+        e.preventDefault();
+        e.stopPropagation();
+        if(!$('.user-menu .menu-dropdown-container').hasClass('hidden-dropdown')) {
+            $('body,html').removeClass('overflow-hidden');
+            $('.user-menu .menu-dropdown-container').addClass('hidden-dropdown');
+            $('.user-menu').removeClass('menu-opened');
+        }
+    })
+
+    //Menu opening on tablet for hover elements
+    $("body").on("click touchstart", '.click-me-tablet', function (e) {
+        e.preventDefault();
+        e.stopPropagation();
+
+    })
+
+    //Account settings in user menu dropdown
+    $('body').on('click', '.open-account-settings-dropdown', function(e) {
+        e.preventDefault();
+        $('.account-settings-dropdown').toggleClass('hidden-account-settings-dropdown');
+    });
+
+    //Menu listing open/close mobile dropdown
+    $('body').on('click touchstart', '.new-main-nav-container .menu-button', function (e) {
+        e.preventDefault();
+        e.stopPropagation();
+
+        $('.new-main-nav-container').toggleClass('menu-opened');
+        $('.new-main-nav-container .mobile-menu-dropdown-container').toggleClass('hidden-menu');
+        $('body,html').toggleClass('overflow-hidden');
+
+    })
+    $('body').on('click', '.new-main-nav-container .mobile-close-button', function (e) {
+        e.preventDefault();
+        e.stopPropagation();
+        $('.new-main-nav-container').toggleClass('menu-opened');
+        $('.new-main-nav-container .mobile-menu-dropdown-container').toggleClass('hidden-menu');
+        $('body,html').toggleClass('overflow-hidden');
+    })
+    
+
+    //Menu listing open/close submenu dropdown
+    $('body').on('click', '.parent-element > span', function (e) {
+        e.preventDefault();
+        $(this).parents('li').find('.submenu-item-videos-list').toggleClass('hidden-submenu');
+        $(this).parents('a').toggleClass('selected');
+        $(this).find('img').toggleClass('hidden-chevron-icon');
+    })
+
+    //Transition to mobile/desktop
+    function resizedw(){
+        
+        var topNavData = JSON.parse(window.components.topBar);
+        // Haven't resized in 100ms!
+        if(window.outerWidth > 768) {
+            //Load desktop version
+            var replaceData = topNavData.desktop;
+        } else {
+            //Load mobile version
+            var replaceData = topNavData.mobile;
+        }
+        // console.log(replaceData);
+        $('.top-bar.nav-wrapper').replaceWith(replaceData.html.top_bar);
+        addTopBarEvents();
+    }
+    var doit;
+    window.originalResolution = window.outerWidth >= 768 ? 'desktop' : 'mobile';
+    window.resizeEvent = false; 
+    window.onresize = function(){
+        if(window.originalResolution == 'desktop') {
+            //Desktop resolution
+            window.resizeEvent = window.outerWidth < 768 ? true : false;
+            window.originalResolution = window.resizeEvent ? 'mobile' : 'desktop';
+        } else {
+            //Mobile resolution
+            window.resizeEvent = window.outerWidth >= 768 ? true : false;
+            window.originalResolution = window.resizeEvent ? 'desktop' : 'mobile';
+        }
+        if(
+            $(document.activeElement).prop('type') !== 'text' &&
+            $(document.activeElement).prop('type') !== 'search' &&
+            window.resizeEvent === true
+        ) {
+            clearTimeout(doit);
+            doit = setTimeout(resizedw, 100);
+        }
+    };
+
+    //Edge case when loading mobile resolution from desktop device
+    if(window.components.topBarData) {
+        var parsedTopBarData = JSON.parse(window.components.topBarData);
+        window.isPopulated = false;
+        if(window.originalResolution == "mobile" && parsedTopBarData.isMobile == false) {
+            $('body').on('touchstart mousemove touchmove scroll mousedown DOMMouseScroll mousewheel keyup', function () {
+                if(!window.isPopulated) {
+                    resizedw();
+                    window.isPopulated = true;
+                }
+            });
+        }
+    } 
+
+    //Add sticky class to the menu when scrolling
+    function checkScroll(){
+        if ($(window).scrollTop() > 0) {
+            $(".top-bar").addClass('sticky');
+            if($(".disclaimer-messaging").length && $(window).width() > 767) 
+                $(".top-bar").css('top', $(".disclaimer-messaging").outerHeight());
+        } else {
+            $(".top-bar").removeClass('sticky');
+            if($(".disclaimer-messaging").length &&  $(window).width() > 767) 
+                $(".top-bar").css('top', '0px');
+        }
+
+        if($("body").hasClass("home") && $(".wrapper-messaging-banner").length) {
+            $(".top-bar").css('top', '0px');
+        }
+    }
+    checkScroll();
+    $(window).scroll(function () {
+        checkScroll();
+    });
+
+
+});

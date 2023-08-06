@@ -63,14 +63,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <link rel="alternate" hreflang="x-default" href="{{ url('/') }}/after-effects-templates/">
 <link rel="alternate" hreflang="en" href="{{ url('/') }}/after-effects-templates/">
-<link rel="alternate" hreflang="es" href="{{ url('/') }}//es/templates-after-effects/">
-<link rel="alternate" hreflang="de" href="{{ url('/') }}//de/after-effects-templates/">
+<link rel="alternate" hreflang="es" href="{{ url('/') }}/es/templates-after-effects/">
+<link rel="alternate" hreflang="de" href="{{ url('/') }}/de/after-effects-templates/">
 
 <link rel="next" href="{{ url('/') }}/after-effects-templates/?page=2">
 
 <link rel="canonical" href="{{ url('/') }}/after-effects-templates/">
 
 <style>
+     body{
+        top: 0px !important;
+    }
     body > .skiptranslate{display: none;}
     .skiptranslate{
         font-size: 0%;
@@ -664,7 +667,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
-<script src="{{ url('/') }}/assets/otSDKStub.js" id="onetrust_modal" data-document-language="true" charset="UTF-8" data-domain-script="e616b904-3acd-4e4b-ad07-5deddea821ea"></script><iframe id="_hjSafeContext_67452388" title="_hjSafeContext" tabindex="-1" aria-hidden="true" src="{{ url('/') }}/assets/saved_resource.html" style="display: none !important; width: 1px !important; height: 1px !important; opacity: 0 !important; pointer-events: none !important;"></iframe><script type="text/javascript" id="">window.hj=window.hj||function(){(hj.q=hj.q||[]).push(arguments)};var userId=localStorage.getItem("userID"),userType=localStorage.getItem("userType"),userGeoCountry=localStorage.getItem("userGeoCountry");window.hj("identify",userId,{"User Type":userType,"User Geo Country":userGeoCountry,"User ID":userId});</script><div id="onetrust-consent-sdk"><div class="onetrust-pc-dark-filter ot-hide ot-fade-in"></div></div><iframe src="{{ url('/') }}/assets/iu3.html" style="display: none;"></iframe></body><iframe sandbox="allow-scripts allow-same-origin" id="11d24186aad11e5" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height:0px;width:0px;display:none;" scrolling="no" src="{{ url('/') }}/assets/usync.html">
+<script src="{{ url('/') }}/assets/otSDKStub.js" id="onetrust_modal" data-document-language="true" charset="UTF-8" data-domain-script="e616b904-3acd-4e4b-ad07-5deddea821ea"></script><iframe id="_hjSafeContext_67452388" title="_hjSafeContext" tabindex="-1" aria-hidden="true" src="{{ url('/') }}/assets/saved_resource.html" style="display: none !important; width: 1px !important; height: 1px !important; opacity: 0 !important; pointer-events: none !important;"></iframe><script type="text/javascript" id="">window.hj=window.hj||function(){(hj.q=hj.q||[]).push(arguments)};var userId=localStorage.getItem("userID"),userType=localStorage.getItem("userType"),userGeoCountry=localStorage.getItem("userGeoCountry");window.hj("identify",userId,{"User Type":userType,"User Geo Country":userGeoCountry,"User ID":userId});</script><div id="onetrust-consent-sdk" style="display: none"><div class="onetrust-pc-dark-filter ot-hide ot-fade-in"></div></div><iframe src="{{ url('/') }}/assets/iu3.html" style="display: none;"></iframe></body><iframe sandbox="allow-scripts allow-same-origin" id="11d24186aad11e5" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height:0px;width:0px;display:none;" scrolling="no" src="{{ url('/') }}/assets/usync.html">
     </iframe><iframe sandbox="allow-scripts allow-same-origin" id="12c15155e601286" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height:0px;width:0px;display:none;" scrolling="no" src="{{ url('/') }}/assets/user_sync.html">
     </iframe><iframe sandbox="allow-scripts allow-same-origin" id="13248b166f37993" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height:0px;width:0px;display:none;" scrolling="no" src="{{ url('/') }}/assets/saved_resource(1).html">
     </iframe><iframe sandbox="allow-scripts allow-same-origin" id="14c12b5049e2c24" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height:0px;width:0px;display:none;" scrolling="no" src="{{ url('/') }}/assets/async_usersync.html">

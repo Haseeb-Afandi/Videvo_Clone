@@ -1,0 +1,106 @@
+@media screen and (min-width: 769px) {
+    .new-main-nav-container {
+        margin-left: 12px;
+    }
+    #new-main-nav {
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        margin-bottom: 0;
+    }
+    .nav-item a {
+        display: block;
+        font-weight: bold;
+        color: #2b2b2b;
+        text-decoration: none;
+        white-space: nowrap;
+        padding: 8px 12px;
+        position: relative;
+        font-size: 16px;
+    }
+    .nav-item-dd a {
+        padding-right: 28px;
+    }
+    .dark-nav .nav-item a {
+        color: white;
+        opacity: .9;
+        line-height: 1.4;
+    }
+    .nav-item-dd a span{
+        width: 26px;
+        height: 26px;
+        background: url(/videvo_framework/assets/images/icon-chevron-down-white.svg) center center no-repeat;
+        background-size: contain;
+        content: "";
+        opacity: .6;
+        position: absolute;
+        top: calc(50% - 13px);
+    }
+    .nav-item-dd:hover a span {
+        opacity: 1;
+    }
+    .dark-nav .nav-item a:hover {
+        color: white;
+        opacity: 1;
+    }
+    .nav-item-dd:hover a:after{
+        opacity: 1;
+    }
+    .submenu-listing {
+        display :none;
+        border-radius: 12px;
+        overflow:hidden;
+        box-shadow: 0 2px 14px rgba(0,0,0,0.4), 0 0 0 1px rgba(0,0,0,0.05);
+        z-index: 1005;
+    }
+    #new-main-nav .nav-item nav-item-dd {
+        position: relative;
+    }
+    #new-main-nav .nav-item:hover .submenu-listing, #new-main-nav .nav-item.opened-menu-item .submenu-listing{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding: 8px;
+        background:#fff;
+    }
+    .submenu-listing-item a{
+        color:#2b2b2b !important;
+        opacity: 1 !important;
+        border-radius: 6px;
+    }
+    .submenu-listing-link::after {
+        display: none;
+    }
+    .submenu-listing-item .submenu-listing-link {
+        font-weight: normal;
+    }
+    .submenu-listing-item.bold .submenu-listing-link{
+        font-weight: bold;
+        
+    }
+    .submenu-listing-link:hover {
+        background-color: rgba(0,38,61,0.07);
+    }
+    .submenu-listing-item {
+        width: 100%;
+        background: #fff;
+        margin-bottom: 4px;
+        border-radius: 6px;
+    }
+    .submenu-listing-item:last-child {
+        margin-bottom: 0;
+    }
+
+    .new-main-nav-container.mobile-container {
+        display: none;
+    } 
+}
+/** Breakpoints **/
+
+@media screen and (min-width: 1023px) and (max-width: 1200px) {
+    #new-main-nav li.nav-item:last-child {
+        display: none;
+    }
+}

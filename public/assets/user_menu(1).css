@@ -1,0 +1,485 @@
+@media screen and (max-width: 769px) {
+    .overflow-hidden {
+        overflow: hidden;
+        height: 100%;
+    }
+    .mobile-close-button {
+        height: 49px;
+        width: 49px;
+        position: absolute;
+        right: 0;
+        padding: 10px !important;
+        top: 4px;
+    }
+    /* Usermenu wrapper css*/
+    .user-menu.mobile-container {
+        position: static;
+    }
+    .user-menu.menu-opened {
+        z-index: 13;
+    }
+    .user-menu h3 {
+        font-size: 18px;
+        font-weight: bold;
+        margin: 0;
+        color: #fff;
+        float: none;
+    }
+
+    /* Nav wrapper css */
+    .nav-right-content {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-grow: 1;
+        justify-content: flex-end;
+    }
+    /* Upgrade Button css */
+    .hide-icon {
+        display: none !important;
+    }
+    .hide-upgrade {
+        display: none !important;
+    }
+    .hide-downloads {
+        display: none !important;
+    }
+    .join-button {
+        padding: 0 6px !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 12px !important;
+        padding-right: 12px !important;
+    }
+    .button {
+        position: relative;
+        background-color: rgba(0,38,61,0.07) !important;
+        font-size: 16px;
+        font-weight: bold;
+        color: #2b2b2b !important;
+        text-align: center;
+        border-radius: 8px;
+        border: 2px transparent solid;
+        padding: 2px 12px 4px;
+        cursor: pointer;
+        text-decoration: none;
+        min-height: 36px;
+        white-space: nowrap !important;
+    }
+    .button-border-light {
+        border-color: rgba(255, 255, 255, 0.4);
+        color: white;
+    }
+    .button-with-icon {
+        padding-top: 2px;
+        padding-bottom: 6px;
+        padding-left: 6px;
+    }
+    .upgrade-button {
+        color: white !important;
+    }
+    .login-user {
+        color: white !important;
+        font-weight: bold;
+        opacity: 0.8;
+        font-size: 16px;
+        padding-left: 8px;
+        padding-top: 6px;
+        padding-bottom: 8px;
+        padding-right: 2px;
+    }
+    .button {
+        position: relative;
+        background-color: rgba(0,38,61,0.07) !important;
+        font-size: 16px;
+        font-weight: bold;
+        color: #2b2b2b !important;
+        text-align: center;
+        border-radius: 8px;
+        border: 2px transparent solid;
+        padding: 2px 12px 4px;
+        cursor: pointer;
+        text-decoration: none;
+        min-height: 36px;
+        white-space: nowrap !important;
+    }
+    .button-border-light {
+        border-color: rgba(255, 255, 255, 0.4);
+        color: white;
+    }
+    .button-icon img {
+        width: 20px;
+        height: 20px;
+        margin-right: 0;
+    }
+    .button-border-light span {
+        opacity: 0.9;
+    }
+    .button-with-icon {
+        padding-top: 2px;
+        padding-bottom: 6px;
+        padding-left: 6px;
+    }
+    .button-icon {
+        display: inline-block;
+        margin-top: 2px;
+    }
+    .upgrade-button {
+        color: white !important;
+    }
+    /* Avatar css */
+    .avatar {
+        display: block;
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        overflow: hidden;
+        cursor: pointer;
+    }
+    .avatar.desktop::after {
+        content: "";
+        display: none;
+    } 
+    .avatar img {
+        width: 100%;
+    }
+    .user-menu .avatar {
+        margin-right: 12px;
+    }
+    .user-menu .avatar:after{
+        margin-left: 2px;
+        width: 26px;
+        height: 26px;
+        background: url(/videvo_framework/assets/images/icon-chevron-down-white.svg) center center no-repeat;
+        background-size: contain;
+        content: "";
+        opacity: .6;
+        position: absolute;
+        top: calc(50% - 13px);
+        right: -16px;
+    }
+    /* Dropdown menu css */
+    .inpage-dropdown {
+        position: absolute;
+        top: 46px;
+        right: 400px;
+    }
+    .menu-dropdown-container {
+        background: white;
+        z-index: 3;
+        box-shadow: 0 2px 14px rgba(0,0,0,0.4), 0 0 0 1px rgba(0,0,0,0.05);
+        border-radius: 12px;
+        min-width: 375px;
+        font-weight: bold;
+        overflow: hidden;
+    }
+    .user-menu-dropdown-container {
+        min-width: 360px;
+    }
+    .hidden-dropdown {
+        display: none;
+    }
+    .menu-dropdown-container.inpage-dropdown, .user-menu-dropdown-container.inpage-dropdown {
+        z-index: 1000;
+    }
+    .menu-header-new {
+        position: sticky;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        background: white;
+        padding: 8px 12px;
+        top: 0;
+        z-index: 100;
+        min-height: 60px;
+        box-shadow: 0 1px 0 rgba(0, 0, 0, 0.05), 0 2px 15px rgba(0, 0, 0, 0.1);
+    }
+    .menu-header-user {
+        box-shadow: none;
+        height: 76px;
+    }
+    .menu-header-user-content {
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+    .menu-header-new .avatar {
+        display: block;
+        height: 58px;
+        width: 58px;
+        border-radius: 50%;
+        border: solid 2px white;
+        overflow: hidden;
+    }
+    .inpage-dropdown .menu-header-new .avatar {
+        margin-right: 0;
+    }
+    .menu-header-new .avatar img {
+        width: 100%;
+    }
+    .menu-header-user-block {
+        display: flex;
+        flex-direction: column;
+        margin-left: 12px;
+    }
+    .menu-dropdown-container a {
+        text-decoration: none;
+    }
+    .menu-header-new a, .menu-header-new h2 {
+        font-size: 18px;
+        font-weight: bold;
+        color: #2b2b2b;
+    }
+    .link-arrow:after {
+        display: inline-block;
+        width: 1.3em;
+        height: 1.3em;
+        background: url(/videvo_framework/assets/images/chevron-right-blue.svg) center center no-repeat;
+        background-size: contain;
+        content: "";
+        margin-bottom: -0.4em;
+        margin-left: -.1em;
+    }
+    .link-arrow-black:after {
+        background: url(/videvo_framework/assets/images/chevron-right.svg) center center no-repeat;
+        background-size: contain;
+    }
+    .menu-header-user-block p {
+        font-size: 12.5px;
+        display: flex;
+        align-items: center;
+        color: rgba(0,0,0,0.4);
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+        margin-bottom: 0;
+        margin-top: 2px;
+    }
+    .menu-header-user-block p span {
+        font-size: 11px;
+        padding: 2px 4px 1px 5px;
+        background: #1b95e0;
+        border-radius: 4px;
+        color: white;
+        margin-right: 5px;
+    }
+    .menu-header-indicator {
+        padding-bottom: 10px;
+        padding-top: 0px;
+        z-index: 99;
+        top: 15px;
+    }
+    .download-limit-indicator-new {
+        display: flex;
+        flex-direction: column;
+        padding: 8px 0 0 0;
+        width: 100%;
+        border-top: solid 1px rgba(0,38,61,0.12);
+        margin-left: 10px;
+        color: #2b2b2b;
+    }
+    .download-limit-indicator-new p {
+        font-size: 18px;
+        font-weight: normal;
+        display: flex;
+        align-items: center;
+        line-height: 1.2;
+        margin: 0;
+    }
+    .download-limit-indicator-new p span {
+        font-weight: bold;
+        font-size: 20px;
+        padding-left: 16px;
+    }
+    .download-limit-indicator-new a {
+        color: #1b95e0;
+        font-size: 16px;
+    }
+    .menu-upsell-container {
+        padding: 16px 20px 16px 88px;
+        background: linear-gradient(135deg, hsla(327, 91%, 65%, 1) 0%, hsla(203, 78%, 49%, 1) 72%);
+        color: white;
+        width: 100%;
+        position: sticky;
+        bottom: 0;
+        display: block;
+    }
+    .inpage-dropdown .menu-upsell-container {
+        padding-left: 80px;
+    }
+    .menu-upsell-content:before {
+        content: "";
+        background-image: url(/videvo_framework/assets/images/icon-present.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        width: 57px;
+        height: 54px;
+        color: white;
+        position: absolute;
+        left: 12px;
+        top: calc(50% - 26px);
+    }
+    .inpage-dropdown .menu-upsell-content:before {
+        left: 12px;
+    }
+    .menu-upsell-content a {
+        font-weight: normal;
+        opacity: .7;
+    }
+    .link-arrow-white:after {
+        background: url(/videvo_framework/assets/images/icon-chevron-right-white.svg) center center no-repeat;
+        background-size: contain;
+    }
+    .menu-dropdown-content {
+        padding: 12px 12px;
+        display: flex;
+        flex-direction: column;
+    }
+    .menu-dropdown-main-list {
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+    }
+    .menu-dropdown-main-list .first-menu-item {
+        margin-top: 0;
+    }
+    .user-menu-item {
+        position: relative;
+        font-weight: bold;
+        color: #2b2b2b !important;
+        text-decoration: none;
+        white-space: nowrap;
+        padding: 10px 8px 12px 48px !important;
+        display: flex;
+        border-radius: 8px;
+        overflow: hidden;
+    }
+    .user-menu-item:before {
+        content: "";
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        width: 28px;
+        height: 28px;
+        color: white;
+        position: absolute;
+        left: 6px;
+        top: calc(50% - 14px);
+        z-index: 8;
+        display: block;
+    }
+    .menu-item-favourites:before {
+        background-image: url(/videvo_framework/assets/images/icon-heart.svg);
+    }
+    .menu-item-collections:before {
+        background-image: url(/videvo_framework/assets/images/icon-plus-2.svg);
+    }
+    .icon-download, .menu-item-history:before {
+        background-image: url(/videvo_framework/assets/images/icon-download.svg);
+    }
+    .menu-item-settings:before {
+        background-image: url(/videvo_framework/assets/images/icon-cog.svg);
+    }
+    .menu-dropdown-main-list a {
+        margin: 2px 0;
+    }
+    .button-lrg {
+        padding: 8px 16px 12px;
+        min-height: 44px;
+    }
+    .menu-dropdown-container .button {
+        margin-top: 12px;
+        width: 100%;
+    }
+    .link-white {
+        color: white;
+        text-decoration: none;
+    }
+    .menu-upsell-content .link-white {
+        font-size: 16px;
+    }    
+    .menu-item-dd span {
+        width: 40px;
+        top: 0;
+        bottom: 0;
+        position: absolute;
+        right: 0;
+    }
+    .menu-item-dd span img {
+        width: 100%;
+        height: 100%;
+        padding: 7px;
+    }
+    .menu-item-dd span:before {
+        content: "";
+        background: rgba(0,38,61,0.1);
+        width: 1px;
+        height: 60%;
+        position: absolute;
+        left: 0;
+        top: 8px;
+    }
+    .mobile-menu-dropdown-container {
+        box-shadow: none;
+        border-radius: 0;
+        overflow: scroll;
+        height: 100%;
+        min-width: unset;
+        overscroll-behavior: contain ;
+    }
+    .user-menu-dropdown-container.inpage-dropdown, .menu-dropdown-container.inpage-dropdown {
+        position: fixed;
+        width: 100vw;
+        right: -20px;
+        top: 0;
+        border-radius: 0;
+        height: 100vh;
+    }
+    .hidden-account-settings-dropdown {
+        display: none !important;
+    }
+    .account-settings-dropdown {
+        display: flex;
+        flex-direction: column;
+    }
+    .submenu-item {
+        font-weight: normal;
+    }
+    .user-menu.desktop-container {
+        display: none;
+    }
+    .user-menu.mobile-container {
+        display: flex;
+    }
+    .user-menu-item:hover, .user-menu-item:active {
+        background: rgba(0, 38, 61, 0.07);
+    }
+    .join-button .button-icon-text {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    .join-button .button-icon-text .site-name-hide{
+        margin-left: 3px;
+    }
+    
+    .link-white:hover {
+        color: white;
+    }
+
+    p .videvo-pro {
+        background: #F1861B !important;
+    }
+
+    p .videvo-lite {
+        background: #0A5AAB !important;
+    }
+}
+@media screen and (max-width: 479px) {
+    .site-name-hide {
+        display: none;
+    }
+}

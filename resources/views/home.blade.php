@@ -66,6 +66,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <link rel="alternate" hreflang="es" href="{{ url('/') }}/es/">
 <link rel="alternate" hreflang="de" href="{{ url('/') }}/de/">
 <style>
+     body{
+        top: 0px !important;
+    }
     body > .skiptranslate{display: none;}
     .skiptranslate{
         font-size: 0%;
@@ -872,6 +875,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     gtag('config', 'UA-193025900-1');
 </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wavesurfer.js/2.0.4/wavesurfer.min.js"></script>
+    
 <script>
     $(document).ready(() => {
 
@@ -990,15 +995,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             var vid = response[x];
                 $('#contAudio').append(`<div class="swiper-slide h-full w-1/4 shrink-0 audio-row audio-player clip-wrapper bg-gray-150 swiper-slide-active" x-show="active === &#39;music&#39;" style="width: 444.25px; margin-right: 10px;">
     <div class="group aspect-w-16 aspect-h-9 relative box-border flex h-20 overflow-hidden border border-gray-250 bg-white hover:bg-gray-150">
-<a href="{{ url('/') }}/Audio/${vid.id}" class="absolute justify-center items-center flex px-2">
+<a href="{{ url('/') }}/AudioSingle/${vid.id}" class="absolute justify-center items-center flex px-2">
 
 <div class="waveform waveform-length-bpm h-full w-full relative min-h-[60px] max-h-[60px] lg:min-h-[84px] lg:max-h-[84px]">
-<div class="waveform-image waveform-container h-full relative w-full overflow-hidden">
-<canvas id="mainWaveformCanvas-listing-221441" @click="window.audioHandler.handleCanvasClick(event,$refs.audioElement221441);  if(playing === &#39;&#39; || playing !== 221441) { playing = 221441 }" class="js--audio-waveform-canvas belongs-listing h-[60px] lg:h-[84px] w-full max-w-full max-h-[60px] lg:max-h-[84px] absolute top-0 left-0" data-waveformjson="{&quot;margin&quot;:{&quot;low&quot;:0,&quot;high&quot;:250},&quot;heights&quot;:[0,0,109,70,93,117,117,97,108,120,85,100,37,70,107,53,41,68,57,119,57,108,75,121,76,84,56,116,73,111,89,98,65,95,60,67,109,55,74,113,89,93,121,119,115,65,89,109,89,100,113,95,102,65,95,78,115,94,106,65,112,75,102,105,98,100,75,95,70,113,100,111,111,121,110,118,87,120,67,80,73,104,81,82,47,119,77,89,65,111,88,72,87,62,119,65,88,66,116,81,103,77,116,115,111,119,121,100,120,114,116,59,100,85,111,111,107,63,108,119,75,103,78,115,83,91,70,119,55,103,65,121,51,95,83,119,73,95,86,113,66,84,65,113,96,63,37,24,20,21,38,64,115,72,83,72,77,73,77,56,119,59,52,88,60,57,45,36,119,68,91,95,120,108,100,111,109,119,77,96,81,120,73,118,64,122,72,85,89,71,107,89,71,118,71,82,104,79,61,61,53,108,117,80,96,84,121,91,80,75,112,93,104,62,118,96,90,68,108,64,109,85,119,86,91,96,114,72,82,85,88,116,81,104,53,112,80,110,74,119,74,101,57,116,47,90,66,114,108,120,68,104,115,115,112,120,99,118,121,116,121,77,90,77,121,110,96,54,120,93,104,58,122,72,76,63,115,51,81,64,115,60,86,56,116,111,98,88,94,110,114,120,104,120,86,66,57,87,36,44,51,115,71,60,84,71,92,97,70,107,49,63,75,59,41,42,53,55,119,58,85,73,118,69,104,66,120,73,86,52,119,44,100,42,122,89,79,85,67,55,63,58,75,116,58,62,72,37,35,30,29,117,107,106,100,119,99,117,107,121,86,97,66,120,55,75,91,95,87,113,122,118,121,116,118,99,120,63,88,98,114,110,99,68,114,90,102,81,106,70,112,88,113,74,101,74,100,81,87,95,69,112,99,111,111,120,110,118,87,120,67,80,74,104,81,83,47,119,77,89,65,111,88,73,87,62,118,65,89,67,116,82,103,76,115,115,111,119,121,100,120,114,116,59,100,84,111,110,104,61,108,119,76,102,78,115,83,89,70,118,46,102,66,121,51,94,83,119,73,94,86,113,66,84,66,113,96,57,37,24,20,21,38,61,115,72,83,73,76,73,76,52,119,59,53,87,60,58,46,36,120,67,91,94,120,108,103,111,109,119,77,95,80,121,73,121,64,122,70,85,88,71,107,89,72,118,71,82,105,79,61,62,53,117,100,80,95,84,120,91,80,75,112,93,105,62,118,97,91,68,108,64,110,84,119,86,92,96,114,71,85,69,116,85,81,104,53,111,81,111,74,118,74,101,57,116,47,90,66,115,109,120,65,104,116,115,112,120,87,118,121,106,120,82,88,78,122,110,95,50,120,93,105,58,122,72,76,63,116,51,80,64,115,60,87,56,116,109,98,88,95,111,116,118,107,120,86,66,50,87,36,44,50,115,71,60,84,71,92,97,70,107,48,63,75,59,41,42,54,55,119,58,84,73,118,69,105,66,121,73,86,52,119,44,99,42,123,89,78,85,67,55,63,58,116,112,62,60,72,37,35,30,29,117,107,106,100,119,100,117,107,121,86,97,66,120,55,75,91,94,88,114,122,121,117,115,118,100,119,63,90,98,113,110,101,68,114,90,101,81,106,70,112,88,113,74,101,72,121,108,101,107,71,100,77,109,100,122,94,109,97,115,73,90,98,120,106,100,70,120,96,110,90,104,73,76,68,110,116,87,85,72,112,65,102,94,108,114,72,57,119,96,118,74,104,71,62,55,34,30,25,8,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}" width="405" height="84"></canvas>
-<div class="blue-waveform-container absolute top-0 left-0 h-full w-0 overflow-hidden pointer-events-none" style="width: 0px;">
-<div class="overlay absolute top-0 right-0 h-full opacity-50 w-[4px] bg-overlayBlue-500"></div>
-</div>
-</div>
+    <div class="waveform-image waveform-container h-full relative w-full overflow-hidden">
+        <div id="waveform${vid.id}" class="js--audio-waveform-canvas belongs-listing h-[60px] lg:h-[84px] w-full max-w-full max-h-[60px] lg:max-h-[84px] absolute top-0 left-0"></div>
+        <div class="blue-waveform-container absolute top-0 left-0 h-full w-0 overflow-hidden pointer-events-none" style="width: 0px;">
+            <div class="overlay absolute top-0 right-0 h-full opacity-50 w-[4px] bg-overlayBlue-500"></div>
+        </div>
+    </div>
 </div>
 
 <div class="pointer-events-none absolute !top-0 left-0 right-0 z-20 flex h-8 items-start px-4 py-2">
@@ -1010,7 +1015,7 @@ ${vid.title}
 <p class="text-sm text-gray-800">By: ${vid.author}</p>
 </div>
 <div class="absolute inset-0 z-20 flex md:hidden items-center justify-center group-hover:flex ">
-<button x-on:click.stop.prevent="" class="group/button flex h-16 w-16 items-center justify-center rounded-full border-4 border-blue-400 bg-white text-blue-400 hover:bg-blue-400 hover:text-white" @click="window.audioHandler.handleAudioPlayPause($refs.audioElement221441); playing = playing === 221441 ? &#39;&#39; : 221441;" :class="{ &#39;bg-blue-400&#39;: playing === 221441 }">
+<button id="playBtn${vid.id}" x-on:click.stop.prevent="" class="group/button flex h-16 w-16 items-center justify-center rounded-full border-4 border-blue-400 bg-white text-blue-400 hover:bg-blue-400 hover:text-white" @click="window.audioHandler.handleAudioPlayPause($refs.audioElement221441); playing = playing === 221441 ? &#39;&#39; : 221441;" :class="{ &#39;bg-blue-400&#39;: playing === 221441 }">
 <svg x-show="playing != 221441" class="fill-current relative -mr-1 z-10 h-8 w-8 text-blue-400 group-hover/button:text-white drop-shadow play-icon" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg"><path d="M14.4621 8.1418L4.15546 1.93628C3.85647 1.75624 3.48667 1.75457 3.18613 1.93178C2.88556 2.10904 2.7002 2.43817 2.7002 2.79451V15.2056C2.7002 15.5619 2.88556 15.891 3.18613 16.0683C3.33511 16.1562 3.50106 16.2 3.66705 16.2C3.83586 16.2 4.00471 16.1546 4.15546 16.0638L14.4621 9.85827C14.7584 9.67986 14.9405 9.35319 14.9405 9.00003C14.9405 8.64688 14.7584 8.32021 14.4621 8.1418Z"></path></svg>                <svg x-show="playing === 221441" class="fill-current relative z-10 h-12 w-12 text-white drop-shadow pause-icon" width="54px" height="54px" viewBox="0 0 54 54" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="display: none;">
 <title>pause-button-white-sml</title>
 <g id="pause-button-white-sml" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -1028,6 +1033,26 @@ ${vid.title}
 </a>
 </div>
 </div>`);
+                var wavesurfer = WaveSurfer.create({
+                    container: `#waveform${vid.id}`,
+                    waveColor: '#444444',
+                    progressColor: '#0695C0',
+                    barWidth: 4,
+                    responsive: true,
+                    barRadius: 4,
+                });
+
+                wavesurfer.load(`{{ url('/') }}/Audios/${vid.Audio}`);
+
+                wavesurfer.on('interaction', () => {
+  wavesurfer.playPause()
+});
+
+document.querySelector(`#playBtn${vid.id}`).addEventListener('click', () => {
+
+wavesurfer.playPause()
+
+});
 
     // var canvas = document.getElementById(img);
     // var video = document.getElementById(video);

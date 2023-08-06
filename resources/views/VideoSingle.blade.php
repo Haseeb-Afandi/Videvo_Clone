@@ -72,6 +72,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <!-- end SEO -->
 <style>
+     body{
+        top: 0px !important;
+    }
     body > .skiptranslate{display: none;}
     .skiptranslate{
         font-size: 0%;
@@ -328,7 +331,7 @@ window.addEventListener('load', function () {
             </a>
             <div class="absolute bottom-0 right-0 z-30 inline-flex w-auto items-end justify-end gap-2 px-4 py-2 transition-all duration-300 ">
             <div wire:id="afZTdR3JyrMNVzJfj4sa" class="flex relative z-40" x-data="{ isClipInAnyUserCollection: $wire.entangle(&#39;isClipInAnyUserCollection&#39;), mode: $wire.entangle(&#39;mode&#39;), showModal: $wire.entangle(&#39;showModal&#39;), hidden: $wire.entangle(&#39;hidden&#39;), showTooltip: false}">
-    <span class="relative inline-flex" x-on:mouseover="showTooltip = true" x-on:mouseleave="showTooltip = false" onclick="collectionMain(${vid.id})">
+    <span class="relative inline-flex" x-on:mouseover="showTooltip = true" x-on:mouseleave="showTooltip = false" onclick="collection${vid.id}(${vid.id})">
         <button class="relative add-to-collection-button overflow-hidden" wire:click.stop.prevent="toggleModal()">
             <svg class="fill-current h-6 w-6 text-gray-700 outline-none translate-y-8 text-white not-added !translate-y-0" xmlns="http://www.w3.org/2000/svg" fill="currentColor" stroke="none" viewBox="0 0 24 24"><path d="M20 2H8c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2V4c0-1.103-.897-2-2-2zM8 16V4h12l.002 12H8z"></path><path d="M4 8H2v12c0 1.103.897 2 2 2h12v-2H4V8zm11-2h-2v3h-3v2h3v3h2v-3h3V9h-3z"></path></svg>            <svg x-show="isClipInAnyUserCollection" class="fill-current h-6 w-6 text-[#198ACF] outline-none" xmlns="http://www.w3.org/2000/svg" fill="currentColor" stroke="none" viewBox="0 0 24 24" style="display: none;"><path d="M4 22h12v-2H4V8H2v12c0 1.103.897 2 2 2z"></path><path d="M20 2H8c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2V4c0-1.103-.897-2-2-2zm-2 9h-3v3h-2v-3h-3V9h3V6h2v3h3v2z"></path></svg>        </button>
         <div x-show="showTooltip" class="tooltip max-md:!hidden" style="display: none;">
@@ -389,6 +392,35 @@ window.addEventListener('load', function () {
     // var video = document.getElementById(video);
     // canvas.getContext('2d').drawImage(video, 0, 0, video.videoWidth, video.videoHeight);
 
+    @if(Session::has('logedin'))
+
+    var script = document.createElement("script");
+
+    script.innerHTML = `function collection${vid.id}(id){
+        var modal = $(\`#collectionModal${vid.id}\`);
+modal.toggle();
+}`;
+
+    document.body.appendChild(script);
+
+@else
+
+var script = document.createElement("script");
+
+script.innerHTML = `function collection${vid.id}(id){
+
+    $('#errorboxM').css('display', 'block');
+        $('#errorboxM').html('You must be logged in to add a clip to your collection.');
+        setTimeout(() => {
+    $('#errorboxM').fadeOut('fast');
+}, 5000);
+
+}`;
+
+document.body.appendChild(script);
+
+@endif
+
 	
 
     };
@@ -400,9 +432,8 @@ window.addEventListener('load', function () {
 
     });
 
+    @if(Session::has('logedin'))
     function favorite(id) {
-
-        @if(!Session::has('logedin'))
         
         $.ajax({
       headers: {
@@ -414,31 +445,29 @@ window.addEventListener('load', function () {
       success:function(response)
       {
         $('#errorboxM').css('display', 'block');
-        $('#errorboxM').html('"Added to favorites succesfully!"');
+        $('#errorboxM').html('Added to favorites succesfully!');
         setTimeout(function() {
-    $('#errorBoxM').fadeOut('fast');
+    $('#errorboxM').fadeOut('fast');
 }, 7000);
-        alert("video added to favourites!");
       },
       error: function(response) {
 
-        $('#errorBoxM').html(response);
+        $('#errorboxM').html(response);
       }
   });
+}
   @else
 
-  alert('Please log-in first!');
+  function favorite(id) {
+
+    $('#errorboxM').css('display', 'block');
+        $('#errorboxM').html('You must be logged in to add a clip to your favorites.');
+        setTimeout(function() {
+    $('#errorboxM').fadeOut('fast');
+}, 5000);
+  }
 
   @endif
-
-}
-
-function collection(id){
-
-var modal = $('#collectionModal');
-
-modal.toggle();
-}
 </script>
 
 
@@ -596,7 +625,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <form method="post" action="{{ route('collection.post') }}" enctype="multipart/form-data" x-show="showForm" class="flex space-between items-center border border-[#1b95e0] justify-items-stretch rounded-sm overflow-hidden h-full" style="display: none;">
         @csrf
         <input class="px-2 border-0 outline-0 h-full" placeholder="Add collection name" type="text" wire:model="collectionName" name="name">
-        <input type="hidden" name="productID" value="${vid.id}">
+        <input type="hidden" name="productID" value="{{$vid->id}}">
         <input type="hidden" name="product_type" value="video">
         <button type="submit" class="h-full leading-10 bg-gray-100 text-blue-600 text-base font-bold text-center min-w-[60px]">Add</button>
     </form>
@@ -1079,7 +1108,7 @@ $.ajax({
     @endif
 
     @if(Session::has('logedin'))
-function collectionMain(id){
+function collection(id){
 
 var modal = $('#collectionModal');
 
@@ -1087,7 +1116,7 @@ modal.toggle();
 }
 
 @else
-  function collectionMain(id) {
+  function collection(id) {
 
   $('#errorboxM').css('display', 'flex');
         $('#errorboxM').html('You must be logged in to add a clip to your collection.');
@@ -1268,7 +1297,7 @@ modal.toggle();
 
 
 
-<iframe id="_hjSafeContext_72230225" title="_hjSafeContext" tabindex="-1" aria-hidden="true" src="{{ url('/') }}/assets/saved_resource.html" style="display: none !important; width: 1px !important; height: 1px !important; opacity: 0 !important; pointer-events: none !important;"></iframe><script type="text/javascript" id="">window.hj=window.hj||function(){(hj.q=hj.q||[]).push(arguments)};var userId=localStorage.getItem("userID"),userType=localStorage.getItem("userType"),userGeoCountry=localStorage.getItem("userGeoCountry");window.hj("identify",userId,{"User Type":userType,"User Geo Country":userGeoCountry,"User ID":userId});</script><iframe src="{{ url('/') }}/assets/iu3.html" style="display: none;"></iframe><script src="{{ url('/') }}/assets/otSDKStub.js" id="onetrust_modal" data-document-language="true" charset="UTF-8" data-domain-script="e616b904-3acd-4e4b-ad07-5deddea821ea"></script><div id="onetrust-consent-sdk"><div class="onetrust-pc-dark-filter ot-hide ot-fade-in"></div></div></body><iframe sandbox="allow-scripts allow-same-origin" id="126ff5b08148f6a" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height:0px;width:0px;display:none;" scrolling="no" src="{{ url('/') }}/assets/async_usersync.html">
+<iframe id="_hjSafeContext_72230225" title="_hjSafeContext" tabindex="-1" aria-hidden="true" src="{{ url('/') }}/assets/saved_resource.html" style="display: none !important; width: 1px !important; height: 1px !important; opacity: 0 !important; pointer-events: none !important;"></iframe><script type="text/javascript" id="">window.hj=window.hj||function(){(hj.q=hj.q||[]).push(arguments)};var userId=localStorage.getItem("userID"),userType=localStorage.getItem("userType"),userGeoCountry=localStorage.getItem("userGeoCountry");window.hj("identify",userId,{"User Type":userType,"User Geo Country":userGeoCountry,"User ID":userId});</script><iframe src="{{ url('/') }}/assets/iu3.html" style="display: none;"></iframe><script src="{{ url('/') }}/assets/otSDKStub.js" id="onetrust_modal" data-document-language="true" charset="UTF-8" data-domain-script="e616b904-3acd-4e4b-ad07-5deddea821ea"></script><div id="onetrust-consent-sdk" style="display: none"><div class="onetrust-pc-dark-filter ot-hide ot-fade-in"></div></div></body><iframe sandbox="allow-scripts allow-same-origin" id="126ff5b08148f6a" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height:0px;width:0px;display:none;" scrolling="no" src="{{ url('/') }}/assets/async_usersync.html">
     </iframe><iframe sandbox="allow-scripts allow-same-origin" id="1318a22fc1b89bc" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height:0px;width:0px;display:none;" scrolling="no" src="{{ url('/') }}/assets/usync.html">
     </iframe><iframe sandbox="allow-scripts allow-same-origin" id="1406f6ece342901" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height:0px;width:0px;display:none;" scrolling="no" src="{{ url('/') }}/assets/saved_resource(1).html">
     </iframe><iframe sandbox="allow-scripts allow-same-origin" id="150481d635aa347" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height:0px;width:0px;display:none;" scrolling="no" src="{{ url('/') }}/assets/user_sync.html">
