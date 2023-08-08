@@ -19,6 +19,12 @@ class TemplateController extends Controller
 
         return response()->json($videos);
     }
+    public function fetchLikes()
+    {
+        $videos = Templatea::orderBy('likes', 'desc')->get();
+
+        return response()->json($videos);
+    }
     public function fetchp()
     {
         $videos = Template::all()->where('author', Session::get('username'))->toArray();
@@ -75,6 +81,46 @@ class TemplateController extends Controller
         } else {
 
             $videos = Templatea::all()->whereIn('Category', $array)->toArray();
+
+            $videoArray = [];
+
+            $videos = array_values($videos);
+
+            $x = 0;
+            while ($x < sizeof($videos)) {
+                // print_r($videos[$x]);
+
+                $videoArray[$x] = $videos[$x];
+                $x++;
+            }
+
+            return response()->json($videos);
+        }
+    }
+    public function fetchWhereLikes($array)
+    {
+        $tags = Tags::all()->whereIn('tag', $array);
+        if (sizeof($tags) > 0) {
+            $tagsArray = $tags[0]['product_id'];
+
+            $videos = Templatea::orderBy('likes', 'desc')->get()->whereIn('id', $tagsArray)->toArray();
+
+            $videoArray = [];
+
+            $videos = array_values($videos);
+
+            $x = 0;
+            while ($x < sizeof($videos)) {
+                // print_r($videos[$x]);
+
+                $videoArray[$x] = $videos[$x];
+                $x++;
+            }
+
+            return response()->json($videos);
+        } else {
+
+            $videos = Templatea::orderBy('likes', 'desc')->get()->whereIn('Category', $array)->toArray();
 
             $videoArray = [];
 
@@ -251,6 +297,166 @@ class TemplateController extends Controller
             return response()->json($videos);
         }
     }
+    public function fetchAEWhereLikes($array)
+    {
+        $tags = Tags::all()->whereIn('tag', $array);
+        if (sizeof($tags) > 0) {
+            $tagsArray = $tags[0]['product_id'];
+
+            $videos = Templatea::orderBy('likes', 'desc')->get()->whereIn('id', $tagsArray)->where('type', 'After')->toArray();
+
+            $videoArray = [];
+
+            $videos = array_values($videos);
+
+            $x = 0;
+            while ($x < sizeof($videos)) {
+                // print_r($videos[$x]);
+
+                $videoArray[$x] = $videos[$x];
+                $x++;
+            }
+
+            return response()->json($videos);
+        } else {
+
+            $videos = Templatea::orderBy('likes', 'desc')->get()->whereIn('Category', $array)->where('type', 'After')->toArray();
+
+            $videoArray = [];
+
+            $videos = array_values($videos);
+
+            $x = 0;
+            while ($x < sizeof($videos)) {
+                // print_r($videos[$x]);
+
+                $videoArray[$x] = $videos[$x];
+                $x++;
+            }
+
+            return response()->json($videos);
+        }
+    }
+    public function fetchPPWhereLikes($array)
+    {
+        $tags = Tags::all()->whereIn('tag', $array);
+        if (sizeof($tags) > 0) {
+            $tagsArray = $tags[0]['product_id'];
+
+            $videos = Templatea::orderBy('likes', 'desc')->get()->whereIn('id', $tagsArray)->where('type', 'Premiere')->toArray();
+
+            $videoArray = [];
+
+            $videos = array_values($videos);
+
+            $x = 0;
+            while ($x < sizeof($videos)) {
+                // print_r($videos[$x]);
+
+                $videoArray[$x] = $videos[$x];
+                $x++;
+            }
+
+            return response()->json($videos);
+        } else {
+
+            $videos = Templatea::orderBy('likes', 'desc')->get()->whereIn('Category', $array)->where('type', 'Premiere')->toArray();
+
+            $videoArray = [];
+
+            $videos = array_values($videos);
+
+            $x = 0;
+            while ($x < sizeof($videos)) {
+                // print_r($videos[$x]);
+
+                $videoArray[$x] = $videos[$x];
+                $x++;
+            }
+
+            return response()->json($videos);
+        }
+    }
+    public function fetchDRWhereLikes($array)
+    {
+        $tags = Tags::all()->whereIn('tag', $array);
+        if (sizeof($tags) > 0) {
+            $tagsArray = $tags[0]['product_id'];
+
+            $videos = Templatea::orderBy('likes', 'desc')->get()->whereIn('id', $tagsArray)->where('type', 'Davinci')->toArray();
+
+            $videoArray = [];
+
+            $videos = array_values($videos);
+
+            $x = 0;
+            while ($x < sizeof($videos)) {
+                // print_r($videos[$x]);
+
+                $videoArray[$x] = $videos[$x];
+                $x++;
+            }
+
+            return response()->json($videos);
+        } else {
+
+            $videos = Templatea::orderBy('likes', 'desc')->get()->whereIn('Category', $array)->where('type', 'Davinci')->toArray();
+
+            $videoArray = [];
+
+            $videos = array_values($videos);
+
+            $x = 0;
+            while ($x < sizeof($videos)) {
+                // print_r($videos[$x]);
+
+                $videoArray[$x] = $videos[$x];
+                $x++;
+            }
+
+            return response()->json($videos);
+        }
+    }
+    public function fetchFCWhereLikes($array)
+    {
+        $tags = Tags::all()->whereIn('tag', $array);
+        if (sizeof($tags) > 0) {
+            $tagsArray = $tags[0]['product_id'];
+
+            $videos = Templatea::orderBy('likes', 'desc')->get()->whereIn('id', $tagsArray)->where('type', 'Final')->toArray();
+
+            $videoArray = [];
+
+            $videos = array_values($videos);
+
+            $x = 0;
+            while ($x < sizeof($videos)) {
+                // print_r($videos[$x]);
+
+                $videoArray[$x] = $videos[$x];
+                $x++;
+            }
+
+            return response()->json($videos);
+        } else {
+
+            $videos = Templatea::orderBy('likes', 'desc')->get()->whereIn('Category', $array)->where('type', 'Final')->toArray();
+
+            $videoArray = [];
+
+            $videos = array_values($videos);
+
+            $x = 0;
+            while ($x < sizeof($videos)) {
+                // print_r($videos[$x]);
+
+                $videoArray[$x] = $videos[$x];
+                $x++;
+            }
+
+            return response()->json($videos);
+        }
+    }
     public function fetchMGWhere($array)
     {
         $tags = Tags::all()->whereIn('tag', $array);
@@ -291,9 +497,57 @@ class TemplateController extends Controller
             return response()->json($videos);
         }
     }
+    public function fetchMGWhereLikes($array)
+    {
+        $tags = Tags::all()->whereIn('tag', $array);
+        if (sizeof($tags) > 0) {
+            $tagsArray = $tags[0]['product_id'];
+
+            $videos = Templatea::orderBy('likes', 'desc')->get()->whereIn('id', $tagsArray)->where('type', 'Motion')->toArray();
+
+            $videoArray = [];
+
+            $videos = array_values($videos);
+
+            $x = 0;
+            while ($x < sizeof($videos)) {
+                // print_r($videos[$x]);
+
+                $videoArray[$x] = $videos[$x];
+                $x++;
+            }
+
+            return response()->json($videos);
+        } else {
+
+            $videos = Templatea::orderBy('likes', 'desc')->get()->whereIn('Category', $array)->where('type', 'Motion')->toArray();
+
+            $videoArray = [];
+
+            $videos = array_values($videos);
+
+            $x = 0;
+            while ($x < sizeof($videos)) {
+                // print_r($videos[$x]);
+
+                $videoArray[$x] = $videos[$x];
+                $x++;
+            }
+
+            return response()->json($videos);
+        }
+    }
     public function fetchAE()
     {
         $videos = Templatea::all()->where('type', 'After')->toArray();
+
+        $videos = array_values($videos);
+
+        return response()->json($videos);
+    }
+    public function fetchAELikes()
+    {
+        $videos = Templatea::orderBy('likes', 'desc')->get()->where('type', 'After')->toArray();
 
         $videos = array_values($videos);
 
@@ -307,9 +561,25 @@ class TemplateController extends Controller
 
         return response()->json($videos);
     }
+    public function fetchPPLikes()
+    {
+        $videos = Templatea::orderBy('likes', 'desc')->get()->where('type', 'Premiere')->toArray();
+
+        $videos = array_values($videos);
+
+        return response()->json($videos);
+    }
     public function fetchDR()
     {
         $videos = Templatea::all()->where('type', 'Davinci')->toArray();
+
+        $videos = array_values($videos);
+
+        return response()->json($videos);
+    }
+    public function fetchDRLikes()
+    {
+        $videos = Templatea::orderBy('likes', 'desc')->get()->where('type', 'Davinci')->toArray();
 
         $videos = array_values($videos);
 
@@ -323,9 +593,25 @@ class TemplateController extends Controller
 
         return response()->json($videos);
     }
+    public function fetchFCLikes()
+    {
+        $videos = Templatea::orderBy('likes', 'desc')->get()->where('type', 'Final')->toArray();
+
+        $videos = array_values($videos);
+
+        return response()->json($videos);
+    }
     public function fetchMG()
     {
         $videos = Templatea::all()->where('type', 'Motion')->toArray();
+
+        $videos = array_values($videos);
+
+        return response()->json($videos);
+    }
+    public function fetchMGLikes()
+    {
+        $videos = Templatea::orderBy('likes', 'desc')->get()->where('type', 'Motion')->toArray();
 
         $videos = array_values($videos);
 

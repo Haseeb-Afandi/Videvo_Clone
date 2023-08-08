@@ -19,6 +19,12 @@ class AudioController extends Controller
 
         return response()->json($videos);
     }
+    public function fetchLikes()
+    {
+        $videos = Audioa::orderBy('likes', 'desc')->get();
+
+        return response()->json($videos);
+    }
     public function fetchp()
     {
         $videos = Audio::all()->where('author', Session::get('username'))->toArray();
@@ -93,9 +99,57 @@ class AudioController extends Controller
             return response()->json($videos);
         }
     }
+    public function fetchWhereLikes($array)
+    {
+        $tags = Tags::all()->whereIn('tag', $array);
+        if (sizeof($tags) > 0) {
+            $tagsArray = $tags[0]['product_id'];
+
+            $videos = Audioa::orderBy('likes', 'desc')->get()->whereIn('id', $tagsArray)->toArray();
+
+            $videoArray = [];
+
+            $videos = array_values($videos);
+
+            $x = 0;
+            while ($x < sizeof($videos)) {
+                // print_r($videos[$x]);
+
+                $videoArray[$x] = $videos[$x];
+                $x++;
+            }
+
+            return response()->json($videos);
+        } else {
+
+            $videos = Audioa::orderBy('likes', 'desc')->get()->whereIn('Category', $array)->toArray();
+
+            $videoArray = [];
+
+            $videos = array_values($videos);
+
+            $x = 0;
+            while ($x < sizeof($videos)) {
+                // print_r($videos[$x]);
+
+                $videoArray[$x] = $videos[$x];
+                $x++;
+            }
+
+            return response()->json($videos);
+        }
+    }
     public function fetchSEffects()
     {
         $videos = Audioa::all()->where('type', 'Sound Effects')->toArray();
+
+        $videos = array_values($videos);
+
+        return response()->json($videos);
+    }
+    public function fetchSEffectsLikes()
+    {
+        $videos = Audioa::orderBy('likes', 'desc')->get()->where('type', 'Sound Effects')->toArray();
 
         $videos = array_values($videos);
 
@@ -125,6 +179,46 @@ class AudioController extends Controller
         } else {
 
             $videos = Audioa::all()->whereIn('Category', $array)->where('type', 'Sound Effects')->toArray();
+
+            $videoArray = [];
+
+            $videos = array_values($videos);
+
+            $x = 0;
+            while ($x < sizeof($videos)) {
+                // print_r($videos[$x]);
+
+                $videoArray[$x] = $videos[$x];
+                $x++;
+            }
+
+            return response()->json($videos);
+        }
+    }
+    public function fetchSEffectsWhereLikes($array)
+    {
+        $tags = Tags::all()->whereIn('tag', $array);
+        if (sizeof($tags) > 0) {
+            $tagsArray = $tags[0]['product_id'];
+
+            $videos = Audioa::orderBy('likes', 'desc')->get()->whereIn('id', $tagsArray)->where('type', 'Sound Effects')->toArray();
+
+            $videoArray = [];
+
+            $videos = array_values($videos);
+
+            $x = 0;
+            while ($x < sizeof($videos)) {
+                // print_r($videos[$x]);
+
+                $videoArray[$x] = $videos[$x];
+                $x++;
+            }
+
+            return response()->json($videos);
+        } else {
+
+            $videos = Audioa::orderBy('likes', 'desc')->get()->whereIn('Category', $array)->where('type', 'Sound Effects')->toArray();
 
             $videoArray = [];
 

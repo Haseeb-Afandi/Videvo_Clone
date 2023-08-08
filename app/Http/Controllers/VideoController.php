@@ -34,6 +34,12 @@ class VideoController extends Controller
 
         return response()->json($videos);
     }
+    public function fetchLikes()
+    {
+        $videos = Videoa::orderBy('likes', 'desc')->get();
+
+        return response()->json($videos);
+    }
     public function fetchp()
     {
         $videos = Video::all()->where('author', Session::get('username'))->toArray();
@@ -104,9 +110,66 @@ class VideoController extends Controller
             return response()->json($videos);
         }
     }
+    public function fetchWhereLikes($array)
+    {
+        $tags = Tags::all()->whereIn('tag', $array);
+        if (sizeof($tags) > 0) {
+            $tagsArray = $tags[0]['product_id'];
+
+            $videos = Videoa::orderBy('likes', 'desc')->get()->whereIn('id', $tagsArray)->toArray();
+
+            $videoArray = [];
+
+            $videos = array_values($videos);
+
+            $x = 0;
+            while ($x < sizeof($videos)) {
+                // print_r($videos[$x]);
+
+                $videoArray[$x] = $videos[$x];
+                $x++;
+            }
+
+            return response()->json($videos);
+        } else {
+
+            $videos = Videoa::orderBy('likes', 'desc')->get()->whereIn('Category', $array)->toArray();
+
+            $videoArray = [];
+
+            $videos = array_values($videos);
+
+            $x = 0;
+            while ($x < sizeof($videos)) {
+                // print_r($videos[$x]);
+
+                $videoArray[$x] = $videos[$x];
+                $x++;
+            }
+
+            return response()->json($videos);
+        }
+    }
     public function fetchFootage()
     {
         $videos = Videoa::all()->where('type', '4K & HD Footage')->toArray();
+        $videoArray = [];
+
+        $videos = array_values($videos);
+
+        $x = 0;
+        while ($x < sizeof($videos)) {
+            // print_r($videos[$x]);
+
+            $videoArray[$x] = $videos[$x];
+            $x++;
+        }
+
+        return response()->json($videos);
+    }
+    public function fetchFootageLikes()
+    {
+        $videos = Videoa::orderBy('likes', 'desc')->get()->where('type', '4K & HD Footage')->toArray();
         $videoArray = [];
 
         $videos = array_values($videos);
@@ -163,9 +226,71 @@ class VideoController extends Controller
             return response()->json($videos);
         }
     }
+    public function fetchFootageWhereLikes($array)
+    {
+        $tags = Tags::all()->whereIn('tag', $array)->toArray();
+        $tags = array_values($tags);
+
+        if (sizeof($tags) > 0) {
+            $tagsArray = $tags[0]['product_id'];
+
+            $videos = Videoa::orderBy('likes', 'desc')->get()->whereIn('id', $tagsArray)->where('type', '4K & HD Footage')->toArray();
+
+            $videoArray = [];
+
+            $videos = array_values($videos);
+
+            $x = 0;
+            while ($x < sizeof($videos)) {
+                // print_r($videos[$x]);
+
+                $videoArray[$x] = $videos[$x];
+                $x++;
+            }
+
+            return response()->json($videos);
+        } else {
+
+            $videos = Videoa::orderBy('likes', 'desc')->get()->whereIn('Category', $array)->where('type', '4K & HD Footage')->toArray();
+
+            $videoArray = [];
+
+            $videos = array_values($videos);
+
+            $x = 0;
+            while ($x < sizeof($videos)) {
+                // print_r($videos[$x]);
+
+                $videoArray[$x] = $videos[$x];
+                $x++;
+            }
+
+            return response()->json($videos);
+        }
+    }
     public function fetchMotion()
     {
         $videos = Videoa::all()->where('type', 'Motion Graphics')->toArray();
+        $videoArray = [];
+
+        $videos = array_values($videos);
+
+        $x = 0;
+        while ($x < sizeof($videos)) {
+            // print_r($videos[$x]);
+
+            $videoArray[$x] = $videos[$x];
+            $x++;
+        }
+
+        // print_r($videoArray);
+
+
+        return response()->json($videoArray);
+    }
+    public function fetchMotionLikes()
+    {
+        $videos = Videoa::orderBy('likes', 'desc')->get()->where('type', 'Motion Graphics')->toArray();
         $videoArray = [];
 
         $videos = array_values($videos);
@@ -208,6 +333,47 @@ class VideoController extends Controller
         } else {
 
             $videos = Videoa::all()->whereIn('Category', $array)->where('type', 'Motion Graphics')->toArray();
+
+            $videoArray = [];
+
+            $videos = array_values($videos);
+
+            $x = 0;
+            while ($x < sizeof($videos)) {
+                // print_r($videos[$x]);
+
+                $videoArray[$x] = $videos[$x];
+                $x++;
+            }
+
+            return response()->json($videos);
+        }
+    }
+    public function fetchMotionWhereLikes($array)
+    {
+        $tags = Tags::all()->whereIn('tag', $array)->toArray();
+        $tags = array_values($tags);
+        if (sizeof($tags) > 0) {
+            $tagsArray = $tags[0]['product_id'];
+
+            $videos = Videoa::orderBy('likes', 'desc')->get()->whereIn('id', $tagsArray)->where('type', 'Motion Graphics')->toArray();
+
+            $videoArray = [];
+
+            $videos = array_values($videos);
+
+            $x = 0;
+            while ($x < sizeof($videos)) {
+                // print_r($videos[$x]);
+
+                $videoArray[$x] = $videos[$x];
+                $x++;
+            }
+
+            return response()->json($videos);
+        } else {
+
+            $videos = Videoa::orderBy('likes', 'desc')->get()->whereIn('Category', $array)->where('type', 'Motion Graphics')->toArray();
 
             $videoArray = [];
 
